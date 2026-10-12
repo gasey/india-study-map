@@ -129642,6 +129642,678 @@
         }
       },
       "partialReview": true
+    },
+    "archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde": {
+      "sourceSha256": "594a8a89f8c1b6e7acb22cd8161f59c1e45b2353f7740bb9345261a882ab4438",
+      "expectedMcq": 66,
+      "partialReview": true,
+      "reviewedOn": "2026-10-12",
+      "evidence": "Section B (66 MCQs) read from printed pages 3-9 of the Nov-2025 CDPO/Assistant Director (Food & Drugs) General English booklet: stems, option order, blanks, printed underlines and the shared direction lines were checked page by page, and the provisional answer key page 1 (No. Asst. Director (C)/25/2025-MPSC(Exam)(1), 11 Nov 2025) was read cell by cell. This entry repairs 51 rows: the printed underlines of Q1-10, Q21-26 and Q44-46 were stored as bold, the four direction lines of Q21-56/Q62-66 were cut at the first line break, and Q44-46 had empty option cells although the printed sheet labels the sentence parts (a)-(d). Q11-20 and Q57-61 need no text repair. Section A (precis, comprehension, letter) stays pending source review.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 3,
+          "part": "B",
+          "q": "There is a party next week __though__ I don’t think I can go.",
+          "opts": {
+            "a": "Preposition",
+            "b": "Conjunction",
+            "c": "Adverb",
+            "d": "Adjectives"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "2": {
+          "n": 2,
+          "page": 3,
+          "part": "B",
+          "q": "She is __very__ uninclined to read the manuscript.",
+          "opts": {
+            "a": "Adjective",
+            "b": "Adverb",
+            "c": "Preposition",
+            "d": "Pronoun"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "3": {
+          "n": 3,
+          "page": 3,
+          "part": "B",
+          "q": "__Well__, I don’t know about that.",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Adjective",
+            "c": "Interjection",
+            "d": "Adverb"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "4": {
+          "n": 4,
+          "page": 3,
+          "part": "B",
+          "q": "__What__ a piece of work is man!",
+          "opts": {
+            "a": "Adverb",
+            "b": "Conjunction",
+            "c": "Adjective",
+            "d": "Preposition"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "5": {
+          "n": 5,
+          "page": 3,
+          "part": "B",
+          "q": "He proclaimed his __love__ for Estella in front of everyone.",
+          "opts": {
+            "a": "Noun",
+            "b": "Adjective",
+            "c": "Verb",
+            "d": "Preposition"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "6": {
+          "n": 6,
+          "page": 3,
+          "part": "B",
+          "q": "I do not simply __love__, you, I worship and adore you.",
+          "opts": {
+            "a": "Adjective",
+            "b": "Verb",
+            "c": "Adverb",
+            "d": "Noun"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "7": {
+          "n": 7,
+          "page": 3,
+          "part": "B",
+          "q": "Puia __himself__ stood up and spoke in favour of the proposal, but it was of no use.",
+          "opts": {
+            "a": "Adverb",
+            "b": "Noun",
+            "c": "Adjective",
+            "d": "Pronoun"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "8": {
+          "n": 8,
+          "page": 3,
+          "part": "B",
+          "q": "He had joined the office two years __before__ his father died.",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Interjection",
+            "c": "Adjective",
+            "d": "Preposition"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "9": {
+          "n": 9,
+          "page": 4,
+          "part": "B",
+          "q": "I won’t leave __until__ you are ready.",
+          "opts": {
+            "a": "Conjunction",
+            "b": "Adverb",
+            "c": "Preposition",
+            "d": "Adjective"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "10": {
+          "n": 10,
+          "page": 4,
+          "part": "B",
+          "q": "I __wish__ I had a million dollars.",
+          "opts": {
+            "a": "Verb",
+            "b": "Interjection",
+            "c": "Noun",
+            "d": "Pronoun"
+          },
+          "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+        },
+        "21": {
+          "n": 21,
+          "page": 5,
+          "part": "B",
+          "q": "She refused to believe __that he could win the tournament.__",
+          "opts": {
+            "a": "Noun clause",
+            "b": "Adjective Clause",
+            "c": "Adverbial Clause",
+            "d": "noun phrase"
+          },
+          "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence."
+        },
+        "22": {
+          "n": 22,
+          "page": 5,
+          "part": "B",
+          "q": "To err is human, but __to forgive__ is divine.",
+          "opts": {
+            "a": "Adverbial Phrase",
+            "b": "Adjective phrase",
+            "c": "Noun phrase",
+            "d": "Adjective clause"
+          },
+          "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence."
+        },
+        "23": {
+          "n": 23,
+          "page": 5,
+          "part": "B",
+          "q": "The book __that you gave me__ was fascinating.",
+          "opts": {
+            "a": "Noun clause",
+            "b": "Adverbial clause",
+            "c": "Adverb phrase",
+            "d": "Adjective clause"
+          },
+          "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence."
+        },
+        "24": {
+          "n": 24,
+          "page": 5,
+          "part": "B",
+          "q": "The man __wearing a red hat__ is my uncle.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adverb Phrase",
+            "c": "Adjective phrase",
+            "d": "Adjective clause"
+          },
+          "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence."
+        },
+        "25": {
+          "n": 25,
+          "page": 5,
+          "part": "B",
+          "q": "Tell me __what happened yesterday__ .",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Adverb Phrase"
+          },
+          "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence."
+        },
+        "26": {
+          "n": 26,
+          "page": 5,
+          "part": "B",
+          "q": "She took time off __for a much needed vacation__.",
+          "opts": {
+            "a": "Adverb phrase",
+            "b": "Noun phrase",
+            "c": "adverb clause",
+            "d": "adjective clause"
+          },
+          "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence."
+        },
+        "27": {
+          "n": 27,
+          "page": 5,
+          "part": "B",
+          "q": "I was not at all sure of your success. (to Affirmative)",
+          "opts": {
+            "a": "I was sure of your success",
+            "b": "I was doubtful of your success",
+            "c": "I was at all sure of your success",
+            "d": "I was unenthusiastic of your success"
+          },
+          "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:"
+        },
+        "28": {
+          "n": 28,
+          "page": 5,
+          "part": "B",
+          "q": "O that I may see her again! (to Assertive)",
+          "opts": {
+            "a": "O I wish that I may see her again.",
+            "b": "That I may see her again.",
+            "c": "I wonder if I will see her again.",
+            "d": "I wish that I may see her again."
+          },
+          "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:"
+        },
+        "29": {
+          "n": 29,
+          "page": 5,
+          "part": "B",
+          "q": "How can I bear it any longer? (to Assertive)",
+          "opts": {
+            "a": "I can bear it no longer",
+            "b": "It is asked if I can bear it any longer",
+            "c": "I would not bear it no longer",
+            "d": "It is too hard to bear"
+          },
+          "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:"
+        },
+        "30": {
+          "n": 30,
+          "page": 5,
+          "part": "B",
+          "q": "It is possible that I may have been mistaken. (to Negative)",
+          "opts": {
+            "a": "It is not possible that I may have been mistaken",
+            "b": "It is possible that I may have not been mistaken",
+            "c": "It is impossible that I may have been mistaken",
+            "d": "It is not impossible that I may have been mistaken"
+          },
+          "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:"
+        },
+        "31": {
+          "n": 31,
+          "page": 5,
+          "part": "B",
+          "q": "It is sad that children are the victims of war. (to Exclamatory)",
+          "opts": {
+            "a": "Alas! that children are the victims of war!",
+            "b": "Pooh! That children are the victims of war!",
+            "c": "O that children may be the victims of war!",
+            "d": "What victims of war children are!"
+          },
+          "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:"
+        },
+        "32": {
+          "n": 32,
+          "page": 6,
+          "part": "B",
+          "q": "The maid said, “The boy was hiding in a closet.” (to Indirect)",
+          "opts": {
+            "a": "The maid said that the boy was hiding in a closet.",
+            "b": "The maid said that the boy hid in a closet",
+            "c": "The maid said that the boy had been hiding in a closet.",
+            "d": "The maid said that the boy had hid in a closet."
+          },
+          "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:"
+        },
+        "33": {
+          "n": 33,
+          "page": 6,
+          "part": "B",
+          "q": "He told me that he had not seen Mary since the previous day. (to Direct)",
+          "opts": {
+            "a": "He told me, “I had not seen Mary since the previous day.”",
+            "b": "He said to me, “I have not seen Mary since yesterday.”",
+            "c": "He tells to me “I had not seen Mary since the previous day.”",
+            "d": "He said, “He had not seen Mary since the previous day.”"
+          },
+          "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:"
+        },
+        "34": {
+          "n": 34,
+          "page": 6,
+          "part": "B",
+          "q": "She said to Peter, “Give me your book, please” (to Indirect)",
+          "opts": {
+            "a": "She said to Peter that give her his book please.",
+            "b": "She requested Peter to give her his book.",
+            "c": "She told Peter to give her his book please.",
+            "d": "She asked Peter to give me your book."
+          },
+          "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:"
+        },
+        "35": {
+          "n": 35,
+          "page": 6,
+          "part": "B",
+          "q": "The teacher said that the earth revolves around the sun. (to Direct)",
+          "opts": {
+            "a": "The teacher said, “The earth revolves around the sun.”",
+            "b": "The teacher said, “the earth revolved around the sun.”",
+            "c": "The teacher says, “The earth revolve around the sun.”",
+            "d": "The teacher said, “The earth has revolved around the sun.”"
+          },
+          "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:"
+        },
+        "36": {
+          "n": 36,
+          "page": 6,
+          "part": "B",
+          "q": "Siami said, “Rama called me up this morning.” (to Indirect)",
+          "opts": {
+            "a": "Siami said that Rama called me up this morning.",
+            "b": "Siami said that Rama called her up this morning.",
+            "c": "Siami said that Rama called her up that morning.",
+            "d": "Siami said that Rama had called her up that morning."
+          },
+          "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:"
+        },
+        "37": {
+          "n": 37,
+          "page": 6,
+          "part": "B",
+          "q": "He is a _______, therefore, he never drinks.",
+          "opts": {
+            "a": "teetotaler",
+            "b": "teeter-totter",
+            "c": "tattle-tale",
+            "d": "totalitarian"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "38": {
+          "n": 38,
+          "page": 6,
+          "part": "B",
+          "q": "He has been found ________ for this post due to canvassing.",
+          "opts": {
+            "a": "ineligible",
+            "b": "indelible",
+            "c": "inedible",
+            "d": "intelligible"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "39": {
+          "n": 39,
+          "page": 6,
+          "part": "B",
+          "q": "In a ________ gesture, she donated the prize money to charity.",
+          "opts": {
+            "a": "bellicose",
+            "b": "voluminous",
+            "c": "magnanimous",
+            "d": "maleficient"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "40": {
+          "n": 40,
+          "page": 6,
+          "part": "B",
+          "q": "Jack was the _______ of elegance and class.",
+          "opts": {
+            "a": "epigram",
+            "b": "epitome",
+            "c": "epicenter",
+            "d": "epilogue"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "41": {
+          "n": 41,
+          "page": 7,
+          "part": "B",
+          "q": "The country was a ______, ruled by a queen.",
+          "opts": {
+            "a": "matricide",
+            "b": "matrilineal",
+            "c": "matrimony",
+            "d": "monarchy"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "42": {
+          "n": 42,
+          "page": 7,
+          "part": "B",
+          "q": "He is a(n) _______ who hates anyone practicing a different religion.",
+          "opts": {
+            "a": "atheist",
+            "b": "racist",
+            "c": "bigot",
+            "d": "infidel"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "43": {
+          "n": 43,
+          "page": 7,
+          "part": "B",
+          "q": "You must consult only _______ sources for your research.",
+          "opts": {
+            "a": "credible",
+            "b": "conceivable",
+            "c": "incredible",
+            "d": "inconceivable"
+          },
+          "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:"
+        },
+        "44": {
+          "n": 44,
+          "page": 7,
+          "part": "B",
+          "q": "__I enjoyed__ / __during my__ / __stay in England.__ / __No error__ .",
+          "opts": {
+            "a": "I enjoyed",
+            "b": "during my",
+            "c": "stay in England.",
+            "d": "No error"
+          },
+          "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined parts labelled as (a), (b) & (c). Read each sentence to determined whether there is an error in any part of each sentence and indicate your response on the answer sheet by choosing either (a) or (b) or (c) or (d). If there is no error, indicate your sesponse as (d)."
+        },
+        "45": {
+          "n": 45,
+          "page": 7,
+          "part": "B",
+          "q": "__They appointed__ / __him as a manager__ /__as he is efficient.__ /__No error.__",
+          "opts": {
+            "a": "They appointed",
+            "b": "him as a manager",
+            "c": "as he is efficient.",
+            "d": "No error."
+          },
+          "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined parts labelled as (a), (b) & (c). Read each sentence to determined whether there is an error in any part of each sentence and indicate your response on the answer sheet by choosing either (a) or (b) or (c) or (d). If there is no error, indicate your sesponse as (d)."
+        },
+        "46": {
+          "n": 46,
+          "page": 7,
+          "part": "B",
+          "q": "__Mr. Sharma is planning__ /__to settle in Delhi__ / __as soon as he will retire in Apil next year.__ /__No error__",
+          "opts": {
+            "a": "Mr. Sharma is planning",
+            "b": "to settle in Delhi",
+            "c": "as soon as he will retire in Apil next year.",
+            "d": "No error"
+          },
+          "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined parts labelled as (a), (b) & (c). Read each sentence to determined whether there is an error in any part of each sentence and indicate your response on the answer sheet by choosing either (a) or (b) or (c) or (d). If there is no error, indicate your sesponse as (d)."
+        },
+        "47": {
+          "n": 47,
+          "page": 7,
+          "part": "B",
+          "q": "We _____ (drive) all the way to the resort, only for it to be closed.",
+          "opts": {
+            "a": "drive",
+            "b": "were driving",
+            "c": "drove",
+            "d": "will drive"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "48": {
+          "n": 48,
+          "page": 7,
+          "part": "B",
+          "q": "It ______ (rain) when he came over this morning.",
+          "opts": {
+            "a": "has rained",
+            "b": "rains",
+            "c": "is raining",
+            "d": "was raining"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "49": {
+          "n": 49,
+          "page": 7,
+          "part": "B",
+          "q": "She _____ (work) in this office since 2000.",
+          "opts": {
+            "a": "will work",
+            "b": "will be working",
+            "c": "has been working",
+            "d": "had worked"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "50": {
+          "n": 50,
+          "page": 7,
+          "part": "B",
+          "q": "The teacher ______ (want) to see you immediately.",
+          "opts": {
+            "a": "wants",
+            "b": "is wanting",
+            "c": "want",
+            "d": "wanted"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "51": {
+          "n": 51,
+          "page": 7,
+          "part": "B",
+          "q": "You must _____ (complete) this assignment today itself.",
+          "opts": {
+            "a": "completes",
+            "b": "complete",
+            "c": "completed",
+            "d": "completing"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "52": {
+          "n": 52,
+          "page": 7,
+          "part": "B",
+          "q": "I ______ (wear) a white dress on my wedding day.",
+          "opts": {
+            "a": "will have worn",
+            "b": "will wear",
+            "c": "will have been wearing",
+            "d": "will worn"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "53": {
+          "n": 53,
+          "page": 8,
+          "part": "B",
+          "q": "She _____ (sit) there waiting for you for over an hour.",
+          "opts": {
+            "a": "sits",
+            "b": "had sat",
+            "c": "has been sitting",
+            "d": "was sitting"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "54": {
+          "n": 54,
+          "page": 8,
+          "part": "B",
+          "q": "She _____ (go) for a walk every evening.",
+          "opts": {
+            "a": "go",
+            "b": "goes",
+            "c": "went",
+            "d": "gone"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "55": {
+          "n": 55,
+          "page": 8,
+          "part": "B",
+          "q": "I _____ (hope) for a promotion at work this year.",
+          "opts": {
+            "a": "am hoping",
+            "b": "hoped",
+            "c": "have hoped",
+            "d": "will hope"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "56": {
+          "n": 56,
+          "page": 8,
+          "part": "B",
+          "q": "He ______ (prefer) his wife to stay at home.",
+          "opts": {
+            "a": "prefer",
+            "b": "is preferring",
+            "c": "prefers",
+            "d": "has preferred"
+          },
+          "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:"
+        },
+        "62": {
+          "n": 62,
+          "page": 8,
+          "part": "B",
+          "q": "A lone wolf",
+          "opts": {
+            "a": "One who is very violent",
+            "b": "A very clumsy person",
+            "c": "one who prefers to live alone",
+            "d": "one who casts the deciding vote"
+          },
+          "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases."
+        },
+        "63": {
+          "n": 63,
+          "page": 8,
+          "part": "B",
+          "q": "A rule of thumb",
+          "opts": {
+            "a": "A rough estimate or measurement",
+            "b": "A majority decision",
+            "c": "A nonsensical statement",
+            "d": "By a small amount"
+          },
+          "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases."
+        },
+        "64": {
+          "n": 64,
+          "page": 8,
+          "part": "B",
+          "q": "To be close-fisted",
+          "opts": {
+            "a": "To attack someone",
+            "b": "To lack warmth or affection",
+            "c": "To keep a secret",
+            "d": "To be miserly"
+          },
+          "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases."
+        },
+        "65": {
+          "n": 65,
+          "page": 9,
+          "part": "B",
+          "q": "Up to one’s elbows",
+          "opts": {
+            "a": "Deeply involved in something",
+            "b": "Pay no attention to something",
+            "c": "In great suspense",
+            "d": "To feel discouraged"
+          },
+          "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases."
+        },
+        "66": {
+          "n": 66,
+          "page": 9,
+          "part": "B",
+          "q": "To hold one’s tongue",
+          "opts": {
+            "a": "To flatter someone",
+            "b": "To keep silent",
+            "c": "To lie blatantly",
+            "d": "To argue with someone"
+          },
+          "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases."
+        }
+      }
     }
   }
 }

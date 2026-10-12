@@ -394814,7 +394814,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "There is a party next week **though** I don’t think I can go.",
+    "question": "There is a party next week __though__ I don’t think I can go.",
     "options": [
       "Preposition",
       "Conjunction",
@@ -394822,7 +394822,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adjectives"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“though” joins the two clauses “There is a party next week” and “I don’t think I can go”, so it is a subordinating conjunction. A preposition would have to take a noun object, and neither an adverb nor an adjective can link two clauses here. → (b) Conjunction.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -394831,8 +394831,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B2",
@@ -394843,7 +394848,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "She is **very** uninclined to read the manuscript.",
+    "question": "She is __very__ uninclined to read the manuscript.",
     "options": [
       "Adjective",
       "Adverb",
@@ -394851,7 +394856,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Adverb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“very” modifies the adjective “uninclined” (“She is very uninclined”), and a word that qualifies an adjective is an adverb. → (b) Adverb.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -394860,8 +394865,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B3",
@@ -394872,7 +394882,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**Well**, I don’t know about that.",
+    "question": "__Well__, I don’t know about that.",
     "options": [
       "Conjunction",
       "Adjective",
@@ -394880,7 +394890,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Interjection”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“Well” stands on its own before the sentence as an exclamation of hesitation; a word used like that is an interjection. → (c) Interjection.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -394889,8 +394899,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B4",
@@ -394901,7 +394916,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**What** a piece of work is man!",
+    "question": "__What__ a piece of work is man!",
     "options": [
       "Adverb",
       "Conjunction",
@@ -394909,7 +394924,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Adjective”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "In the exclamatory “What a piece of work is man!”, “What” introduces and qualifies the noun phrase “a piece of work”, so it is used adjectivally (as a determiner before a noun). → (c) Adjective.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -394918,8 +394933,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B5",
@@ -394930,7 +394950,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He proclaimed his **love** for Estella in front of everyone.",
+    "question": "He proclaimed his __love__ for Estella in front of everyone.",
     "options": [
       "Noun",
       "Adjective",
@@ -394938,7 +394958,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Noun”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“love” is the object of “proclaimed” — the thing he proclaimed — so it names a thing here and is a noun, not the verb of the sentence. → (a) Noun.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -394947,8 +394967,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B6",
@@ -394959,7 +394984,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I do not simply **love**, you, I worship and adore you.",
+    "question": "I do not simply __love__, you, I worship and adore you.",
     "options": [
       "Adjective",
       "Verb",
@@ -394967,7 +394992,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“love” is the finite verb of “I do not simply love”, set against “worship and adore”; a word that states the subject’s action is a verb. → (b) Verb.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -394976,8 +395001,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B7",
@@ -394988,7 +395018,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Puia **himself** stood up and spoke in favour of the proposal, but it was of no use.",
+    "question": "Puia __himself__ stood up and spoke in favour of the proposal, but it was of no use.",
     "options": [
       "Adverb",
       "Noun",
@@ -394996,7 +395026,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Pronoun”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“himself” points back to the subject “Puia” (Puia himself stood up), so it is the emphatic/reflexive pronoun. → (d) Pronoun.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -395005,8 +395035,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B8",
@@ -395017,15 +395052,15 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He had joined the office two years **before** his father died.",
+    "question": "He had joined the office two years __before__ his father died.",
     "options": [
       "Conjunction",
       "Interjection",
       "Adjective",
       "Preposition"
     ],
-    "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Preposition”. This is the key reference for the answer; it is not a worked derivation.",
+    "answerIndex": -1,
+    "explanation": "“before” is followed by the complete clause “his father died” (subject + finite verb), which makes it a subordinating conjunction; used as a preposition it would take a noun complement (“before his father’s death”). The provisional key marks (d) Preposition, so this item is held unscored as a key conflict.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=3",
@@ -395034,8 +395069,15 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceReview": true,
+    "disputeNote": "Independent solution gives A; official key gives D. Held unscored until resolved."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B9",
@@ -395046,7 +395088,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I won’t leave **until** you are ready.",
+    "question": "I won’t leave __until__ you are ready.",
     "options": [
       "Conjunction",
       "Adverb",
@@ -395054,7 +395096,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Conjunction”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“until” introduces the clause “you are ready” (subject + finite verb), so here it is a subordinating conjunction. → (a) Conjunction.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395063,8 +395105,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B10",
@@ -395075,7 +395122,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I **wish** I had a million dollars.",
+    "question": "I __wish__ I had a million dollars.",
     "options": [
       "Verb",
       "Interjection",
@@ -395083,7 +395130,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Verb”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“wish” is the main predicate of “I wish I had a million dollars”, attributing a state to the subject, so it is a verb. → (a) Verb.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395092,8 +395139,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 1-10): Identify the parts of speech in the underlined words:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B11",
@@ -395112,7 +395164,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "across"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “about”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The reply “we shall call you when it is time to come in” shows the child is being sent off to play: “run about” means to move about out of doors. “run in / across / on” do not give that sense. → (b) about.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395122,7 +395174,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B12",
@@ -395141,7 +395198,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "then"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “ago”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“Many years ago” is the standard marker of a finished past time; “ago” counts back from now and is not used with “since” or “hence” in this pattern. → (c) ago.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395151,7 +395208,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B13",
@@ -395170,7 +395232,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “on”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Days and dates take the preposition “on”: the exam begins “on 6th November”. → (b) on.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395180,7 +395242,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B14",
@@ -395199,7 +395266,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "provided"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “consequently”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The second clause gives the result of the first — he is late, therefore we start without him. “consequently” is the only result-linking adverb offered; “whereas” and “provided” introduce clauses and “finally” marks sequence. → (c) consequently.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395209,7 +395276,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B15",
@@ -395228,7 +395300,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "asides"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “besides”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“besides” adds a further independent reason: I had no time to warn you; in addition, I was not sure. “beside” is a preposition meaning “next to”, and “aside/asides” cannot serve as the sentence adverb here. → (a) besides.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395238,7 +395310,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B16",
@@ -395257,7 +395334,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “with”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The fixed collocation is “in accordance with”. → (d) with.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395267,7 +395344,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B17",
@@ -395286,7 +395368,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "of"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “of”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The fixed collocation is “irrespective of”. → (d) of.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395296,7 +395378,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B18",
@@ -395315,7 +395402,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “by”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A deadline stated as a clock time takes “by” — not later than 11:00 a.m. “in 11:00” and “on 11:00” are not used this way, and “within” needs a period (“within an hour”). → (c) by.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395325,7 +395412,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B19",
@@ -395343,8 +395435,8 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "upon",
       "above"
     ],
-    "answerIndex": 3,
-    "explanation": "The official final key marks option D: “above”. This is the key reference for the answer; it is not a worked derivation.",
+    "answerIndex": -1,
+    "explanation": "The blank needs a word meaning “directly above his head”. Both (a) over and (d) above complete the printed sentence idiomatically (“the sky over/above his head”), while (b) on and (c) upon would repeat the earlier “upon” and misplace the sky. The provisional key marks (d) above; because more than one printed choice is defensible, the item is held unscored as ambiguous rather than forced to the key.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395354,7 +395446,14 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "sourceReview": true,
+    "disputeNote": "Independent solution gives A; official key gives D. Held unscored until resolved."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B20",
@@ -395373,7 +395472,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “of”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Death from a disease takes “of”: “died of cholera”. “die from” is normally reserved for wounds or external injury, and “by/with” do not collocate with a disease. → (b) of.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=4",
@@ -395383,7 +395482,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:"
+    "direction": "Direction (Question Nos. 11- 20): Fill in the blanks with the appropriate preposition/ adverb:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B21",
@@ -395394,7 +395498,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "She refused to believe **that he could win the tournament.**",
+    "question": "She refused to believe __that he could win the tournament.__",
     "options": [
       "Noun clause",
       "Adjective Clause",
@@ -395402,7 +395506,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "noun phrase"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Noun clause”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“that he could win the tournament” is the object of the verb “believe” (she refused to believe [what?]), so it is a noun clause. → (a) Noun clause.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395411,8 +395515,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence.",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B22",
@@ -395423,7 +395532,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "To err is human, but **to forgive** is divine.",
+    "question": "To err is human, but __to forgive__ is divine.",
     "options": [
       "Adverbial Phrase",
       "Adjective phrase",
@@ -395431,7 +395540,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adjective clause"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Noun phrase”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“to forgive” is the subject of “is divine” (To forgive is divine). An infinitive used as a subject is a noun phrase; it contains no finite verb, so it cannot be a clause. → (c) Noun phrase.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395440,8 +395549,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence.",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B23",
@@ -395452,7 +395566,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The book **that you gave me** was fascinating.",
+    "question": "The book __that you gave me__ was fascinating.",
     "options": [
       "Noun clause",
       "Adverbial clause",
@@ -395460,7 +395574,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adjective clause"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Adjective clause”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“that you gave me” qualifies the noun “book” (which book?), so it is an adjective (relative) clause. → (d) Adjective clause.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395469,8 +395583,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence.",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B24",
@@ -395481,7 +395600,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The man **wearing a red hat** is my uncle.",
+    "question": "The man __wearing a red hat__ is my uncle.",
     "options": [
       "Noun Clause",
       "Adverb Phrase",
@@ -395489,7 +395608,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adjective clause"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Adjective phrase”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“wearing a red hat” is a participial phrase that modifies “the man”, so it functions adjectivally; with no finite verb inside it is a phrase, not a clause. → (c) Adjective phrase.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395498,8 +395617,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence.",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B25",
@@ -395510,7 +395634,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Tell me **what happened yesterday** .",
+    "question": "Tell me __what happened yesterday__ .",
     "options": [
       "Noun Clause",
       "Adjective Clause",
@@ -395518,7 +395642,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Noun Clause”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“what happened yesterday” is the object of “tell” (Tell me [what?]) — a clause doing the work of a noun, i.e. a noun clause. → (a) Noun Clause.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395527,8 +395651,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence.",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B26",
@@ -395539,7 +395668,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "She took time off **for a much needed vacation**.",
+    "question": "She took time off __for a much needed vacation__.",
     "options": [
       "Adverb phrase",
       "Noun phrase",
@@ -395547,7 +395676,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "adjective clause"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Adverb phrase”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“for a much needed vacation” is a prepositional phrase answering why she took time off. A phrase that modifies the verb of the sentence is an adverb phrase. → (a) Adverb phrase.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395556,8 +395685,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 21- 26): In each sentence given below, there is an underlined group of words. You are required to identify that underlined part of each sentence by choosing the correct options given below each sentence.",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B27",
@@ -395576,7 +395710,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "I was unenthusiastic of your success"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “I was doubtful of your success”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“not at all sure” means the same as “doubtful”, so the affirmative rendering is “I was doubtful of your success”. Option (a) reverses the meaning, and (c) is ungrammatical because “at all” requires the negative. → (b) I was doubtful of your success.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395585,8 +395719,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed,"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B28",
@@ -395605,7 +395744,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "I wish that I may see her again."
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “I wish that I may see her again.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The optative “O that I may see her again!” expresses a wish, and its assertive form is “I wish that I may see her again”. Option (a) wrongly keeps the exclamation “O”. → (d) I wish that I may see her again.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395614,8 +395753,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed,"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B29",
@@ -395634,7 +395778,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "It is too hard to bear"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “I can bear it no longer”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The rhetorical question “How can I bear it any longer?” asserts inability, so the assertive form is “I can bear it no longer”. Option (b) is still a question and (c) carries a double negative. → (a) I can bear it no longer.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395643,8 +395787,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed,"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B30",
@@ -395663,7 +395812,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "It is not impossible that I may have been mistaken"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “It is not impossible that I may have been mistaken”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The negative must keep the original sense: “possible” negated without reversing it is “not impossible”. Options (a) and (c) reverse the meaning and (b) places the negative on the wrong word. → (d) It is not impossible that I may have been mistaken.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395672,8 +395821,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed,"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B31",
@@ -395692,7 +395846,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "What victims of war children are!"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Alas! that children are the victims of war!”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“It is sad that …” becomes the exclamatory “Alas! that …”, because “Alas” is the interjection of sorrow and the clause is left intact. Option (d) restates the fact instead of the sadness. → (a) Alas! that children are the victims of war!",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=5",
@@ -395701,8 +395855,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed,"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction(Question Nos. 27- 31): Choose the correct option to transform the sentences as directed, without changing their meaning:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B32",
@@ -395721,7 +395880,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "The maid said that the boy had hid in a closet."
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “The maid said that the boy had been hiding in a closet.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "In reported speech the past continuous “was hiding” moves one step back to the past perfect continuous “had been hiding”; the reporting clause and the rest of the quotation stay as printed. → (c) The maid said that the boy had been hiding in a closet.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395730,8 +395889,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B33",
@@ -395750,7 +395914,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "He said, “He had not seen Mary since the previous day.”"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “He said to me, “I have not seen Mary since yesterday.””. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Changing back to direct speech: “told me” becomes “said to me”, the past perfect “had not seen” returns to “have not seen”, and “the previous day” returns to the word actually spoken, “yesterday”. → (b) He said to me, “I have not seen Mary since yesterday.”",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395759,8 +395923,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B34",
@@ -395779,7 +395948,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "She asked Peter to give me your book."
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “She requested Peter to give her his book.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A request marked by “please” is reported with “requested … to”: “She requested Peter to give her his book”. Option (a) is ungrammatical, (c) leaves “please” inside the reported clause and (d) mixes up the persons. → (b) She requested Peter to give her his book.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395788,8 +395957,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B35",
@@ -395808,7 +395982,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "The teacher said, “The earth has revolved around the sun.”"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “The teacher said, “The earth revolves around the sun.””. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A universal truth is not backshifted in reported speech, so the direct form keeps the present simple: “The earth revolves around the sun”. → (a) The teacher said, “The earth revolves around the sun.”",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395817,8 +395991,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B36",
@@ -395837,7 +396016,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "Siami said that Rama had called her up that morning."
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Siami said that Rama had called her up that morning.”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Reported speech changes the pronoun “me” to “her”, the time word “this morning” to “that morning”, and the simple past “called” to the past perfect “had called”. → (d) Siami said that Rama had called her up that morning.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395846,8 +396025,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 32 - 36): Choose the correct option and change the following sentences as directed:",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B37",
@@ -395866,7 +396050,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "totalitarian"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “teetotaler”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A teetotaler is a person who never drinks alcohol, which is exactly what “therefore, he never drinks” needs. “totalitarian” is a political system, and “teeter-totter” and “tattle-tale” are unrelated. → (a) teetotaler.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395875,8 +396059,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B38",
@@ -395895,7 +396084,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "intelligible"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “ineligible”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Being disqualified for canvassing means being found not eligible: “ineligible”. “indelible” means permanent, “inedible” means uneatable and “intelligible” means understandable. → (a) ineligible.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395904,8 +396093,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B39",
@@ -395924,7 +396118,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "maleficient"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “magnanimous”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Giving away the prize money is a generous act, and “magnanimous” means generous, especially towards someone who has less. “bellicose” is warlike, “voluminous” large and “maleficient” harmful. → (c) magnanimous.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395933,8 +396127,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B40",
@@ -395953,7 +396152,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "epilogue"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “epitome”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The set idiom is “the epitome of X” — the perfect example of X. An “epigram” is a witty saying, an “epilogue” a closing section and the “epicenter” is the point on the ground above an earthquake. → (b) epitome.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
@@ -395962,8 +396161,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B41",
@@ -395982,17 +396186,22 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "monarchy"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “monarchy”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A state ruled by a queen is a monarchy. “matrilineal” describes descent through the mother rather than a state, “matricide” is killing one’s own mother and “matrimony” is marriage. → (d) monarchy.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
+    "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
     "officialAnswerCandidates": [
       3
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B42",
@@ -396011,17 +396220,22 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "infidel"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “bigot”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A person who hates anyone practising a different religion is a bigot — intolerant of other people’s beliefs. An atheist does not believe in God, a racist discriminates by race and an infidel is a non-believer in the speaker’s own faith. → (c) bigot.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
+    "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
     "officialAnswerCandidates": [
       2
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B43",
@@ -396040,17 +396254,22 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "inconceivable"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “credible”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Research must use sources that can be relied on: “credible” means believable or trustworthy. “incredible” and “inconceivable” mean the opposite, while “conceivable” merely means thinkable. → (a) credible.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
-    "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
+    "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=6",
     "officialAnswerCandidates": [
       0
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Direction (Question Nos. 37-43): Choose the most appropriate word given below each sentences to fill in the blanks:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B44",
@@ -396061,15 +396280,15 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**I enjoyed** / **during my** / **stay in England.** / **No error** .",
+    "question": "__I enjoyed__ / __during my__ / __stay in England.__ / __No error__ .",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "I enjoyed",
+      "during my",
+      "stay in England.",
+      "No error"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“enjoy” is a transitive verb taking a noun or gerund as its object (“I enjoyed my stay” / “I enjoyed staying”), so it cannot be completed by the prepositional phrase “during my …”. The fault lies in part (a); parts (b) and (c) are well formed. → (a) I enjoyed.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396078,10 +396297,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined parts labelled as (a), (b) & (c). Read each sentence to determined whether there is an error in any part of each sentence and indicate your response on the answer sheet by choosing either (a) or (b) or (c) or (d). If there is no error, indicate your sesponse as (d).",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B45",
@@ -396092,15 +396314,15 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**They appointed** / **him as a manager** /**as he is efficient.** /**No error.**",
+    "question": "__They appointed__ / __him as a manager__ /__as he is efficient.__ /__No error.__",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "They appointed",
+      "him as a manager",
+      "as he is efficient.",
+      "No error."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "After “appoint”, the post is named by a bare singular noun: “They appointed him manager”. The article “a” and “as” in part (b) break that construction, while parts (a) and (c) read correctly. → (b) him as a manager.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396109,10 +396331,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined parts labelled as (a), (b) & (c). Read each sentence to determined whether there is an error in any part of each sentence and indicate your response on the answer sheet by choosing either (a) or (b) or (c) or (d). If there is no error, indicate your sesponse as (d).",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B46",
@@ -396123,15 +396348,15 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "**Mr. Sharma is planning** /**to settle in Delhi** / **as soon as he will retire in Apil next year.** /**No error**",
+    "question": "__Mr. Sharma is planning__ /__to settle in Delhi__ / __as soon as he will retire in Apil next year.__ /__No error__",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Mr. Sharma is planning",
+      "to settle in Delhi",
+      "as soon as he will retire in Apil next year.",
+      "No error"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "In a time clause introduced by “as soon as”, the verb must be simple present, not “will” + base form: “… as soon as he retires”. Part (c) therefore carries the error (and it is the printed segment that also prints “Apil”). → (c) as soon as he will retire in Apil next year.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396140,10 +396365,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
-    "sourceReview": true,
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos. 44-46): Each item in this section has a sentence with three underlined parts labelled as (a), (b) & (c). Read each sentence to determined whether there is an error in any part of each sentence and indicate your response on the answer sheet by choosing either (a) or (b) or (c) or (d). If there is no error, indicate your sesponse as (d).",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B47",
@@ -396162,7 +396390,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "will drive"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “drove”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The narrative sits in the past and “only for it to be closed” continues it, so the simple past “drove” is required. → (c) drove.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396171,8 +396399,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B48",
@@ -396191,7 +396424,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "was raining"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “was raining”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The rain was already in progress at the moment “he came over this morning”, which calls for the past continuous “was raining”. → (d) was raining.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396200,8 +396433,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B49",
@@ -396220,7 +396458,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "had worked"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “has been working”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“since 2000” runs up to the present with the action still continuing, which calls for the present perfect continuous “has been working”. → (c) has been working.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396229,8 +396467,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B50",
@@ -396249,7 +396492,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "wanted"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “wants”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A general statement about the teacher takes the simple present third person “wants”. The stative verb “want” is not used in the continuous (“is wanting”), and “want/wanted” do not fit the present-tense statement. → (a) wants.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396258,8 +396501,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B51",
@@ -396278,7 +396526,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "completing"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “complete”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“must” is a modal auxiliary and is followed by the bare infinitive: “must complete”. → (b) complete.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396287,8 +396535,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B52",
@@ -396307,7 +396560,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "will worn"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “will wear”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The wedding is a planned future event expressed as a simple intention, so “will wear” fits; “will have worn” would need a finished reference point (e.g. “by then”) and “will worn” is not a possible form. → (b) will wear.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=7",
@@ -396316,8 +396569,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B53",
@@ -396336,7 +396594,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "was sitting"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “has been sitting”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The sitting began earlier and is still going on for a stated duration (“for over an hour”), which calls for the present perfect continuous “has been sitting”. → (c) has been sitting.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396345,8 +396603,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B54",
@@ -396365,7 +396628,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "gone"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “goes”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A routine repeated every evening takes the simple present, third person singular: “She goes for a walk every evening.” → (b) goes.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396374,8 +396637,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B55",
@@ -396394,7 +396662,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "will hope"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “am hoping”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The speaker is currently expecting a promotion this year, so the present continuous “am hoping” is the natural form; “hoped” clashes with the present expectation and “will hope” is not used this way. → (a) am hoping.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396403,8 +396671,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B56",
@@ -396423,7 +396696,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "has preferred"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “prefers”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“prefer” is a stative verb used in the simple present, so “He prefers …” is correct; continuous forms (“is preferring”) are not used for it. → (c) prefers.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396432,8 +396705,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Qusetion Nos.47-56): Fill in the blanks with the appropriate form of the verbs given in brackets:",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B57",
@@ -396452,7 +396730,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "still"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “hence”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Congruence of the triangles is the reason and their equality the consequence, so a result connector is needed: “hence”. “but” and “still” contrast the clauses and “otherwise” states a condition. → (b) hence.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396462,7 +396740,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:"
+    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B58",
@@ -396481,7 +396764,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "therefore"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “while”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The two clauses are set in contrast — the corrupt prosper while the honest stay poor — so the contrastive connector “while” is required. → (a) while.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396491,7 +396774,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:"
+    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B59",
@@ -396510,7 +396798,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "since"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “since”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“since” gives the reason for doing it: because you asked me to. “when” and “before” clash with the past tense of “asked”, and “so that” needs a purpose clause containing a modal. → (d) since.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396520,7 +396808,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:"
+    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B60",
@@ -396539,7 +396832,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "until"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “provided”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The cookie is allowed on condition that the vegetables are finished first: “provided” (= provided that) states that condition. “unless” would reverse it, and “though/until” give no condition at all. → (a) provided.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396549,7 +396842,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:"
+    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B61",
@@ -396568,7 +396866,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "if"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “though”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Helping him is set against his not deserving it — that is concession, expressed by “though”. “if” would make the help depend on his not deserving it, and “for/since” would offer it as the reason for helping. → (a) though.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396578,7 +396876,12 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
     "paperExamExcluded": true,
-    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:"
+    "direction": "Directions (Qusetion Nos.57- 61): Choose the correct word to connect the following sentences:",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B62",
@@ -396597,7 +396900,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "one who casts the deciding vote"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “one who prefers to live alone”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A lone wolf is a person who prefers to live and act alone. → (c) one who prefers to live alone.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396606,8 +396909,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases.",
+    "independentAnswerIndex": 2,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B63",
@@ -396626,7 +396934,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "By a small amount"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “A rough estimate or measurement”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A rule of thumb is a rough, practical estimate or method used instead of a precise calculation or rule. → (a) A rough estimate or measurement.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396635,8 +396943,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases.",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B64",
@@ -396655,7 +396968,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "To be miserly"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “To be miserly”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“close-fisted” describes someone unwilling to part with money — miserly. → (d) To be miserly.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=8",
@@ -396664,8 +396977,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases.",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B65",
@@ -396684,7 +397002,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "To feel discouraged"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “Deeply involved in something”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "“Up to one’s elbows (in something)” means being deeply involved or absorbed in it. → (a) Deeply involved in something.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=9",
@@ -396693,8 +397011,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases.",
+    "independentAnswerIndex": 0,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B66",
@@ -396713,7 +397036,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
       "To argue with someone"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “To keep silent”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "To hold one’s tongue is to keep silent and refrain from saying what one might say. → (b) To keep silent.",
     "source": "Assistant Director (Food & Drugs),November- 2025 · 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf#page=9",
@@ -396722,8 +397045,13 @@ const groupBQuestionsPart47: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms"
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases.",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-written-1",

@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 2383,
-    "pendingMcq": 7479,
-    "heldReviewed": 38,
+    "ready": 2384,
+    "pendingMcq": 7476,
+    "heldReviewed": 40,
     "pendingWritten": 876
   },
   "papers": [
@@ -2616,18 +2616,29 @@
       "archiveBatch": "gazetted-english",
       "status": "needs-review",
       "mcq": 66,
-      "ready": 63,
-      "readyOfficial": 63,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 3,
-      "heldReviewed": 0,
+      "ready": 64,
+      "readyOfficial": 64,
+      "sourceReviewedMcq": 66,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
       "expectedMcq": 66,
       "missingMcq": 0,
       "writtenRecords": 3,
       "writtenGuides": 0,
       "pendingWritten": 3,
       "keyHref": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B8",
+          "questionNumber": "B8",
+          "reason": "Independent solution gives A; official key gives D. Held unscored until resolved."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B19",
+          "questionNumber": "B19",
+          "reason": "Independent solution gives A; official key gives D. Held unscored until resolved."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2025-asst-controller-of-mines-under-geology-mining-and-commerce-industries-de-2d3c9208",

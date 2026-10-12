@@ -246,6 +246,876 @@
           "page": 6
         }
       }
+    },
+    {
+      "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
+      "exam": "Assistant Director (Food & Drugs), November-2025 · General English, Section B (66 MCQs)",
+      "sourceHref": "/papers/group-b/archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde.pdf",
+      "sourceSha256": "594a8a89f8c1b6e7acb22cd8161f59c1e45b2353f7740bb9345261a882ab4438",
+      "keyHref": "/papers/group-b/keys/assistant-director-food-drugs-2025-general-english-provisional-key.pdf",
+      "keySha256": "8afec3df6c55a36a0f5a12d73aa49f1b97288c8189d93948b074889e254f9808",
+      "reviewedOn": "2026-10-12",
+      "evidence": "Printed pages 3-9 of the Nov-2025 CDPO/Assistant Director (Food & Drugs) General English booklet read page by page against the stored stems, option order and shared directions; printed underlines of Q1-10, Q21-26 and Q44-46 and the (a)-(d) labels of Q44-46 were checked visually, and every item was solved independently before comparison with the provisional answer key (No. Asst. Director (C)/25/2025-MPSC(Exam)(1), dated 11 Nov 2025), page 1, \"General English\" table, whose 66 cells were read cell by cell. 64 answers match the key; Q8 (independent: conjunction; key: D preposition) and Q19 (both (a) over and (d) above fit; key: D above) are held unscored by the guide adapter. Section A written prompts remain pending source review.",
+      "questions": {
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B1": {
+          "expectedQuestion": "There is a party next week __though__ I don’t think I can go.",
+          "expectedOptions": [
+            "Preposition",
+            "Conjunction",
+            "Adverb",
+            "Adjectives"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“though” joins the two clauses “There is a party next week” and “I don’t think I can go”, so it is a subordinating conjunction. A preposition would have to take a noun object, and neither an adverb nor an adjective can link two clauses here. → (b) Conjunction.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B2": {
+          "expectedQuestion": "She is __very__ uninclined to read the manuscript.",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Preposition",
+            "Pronoun"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“very” modifies the adjective “uninclined” (“She is very uninclined”), and a word that qualifies an adjective is an adverb. → (b) Adverb.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B3": {
+          "expectedQuestion": "__Well__, I don’t know about that.",
+          "expectedOptions": [
+            "Conjunction",
+            "Adjective",
+            "Interjection",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Well” stands on its own before the sentence as an exclamation of hesitation; a word used like that is an interjection. → (c) Interjection.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B4": {
+          "expectedQuestion": "__What__ a piece of work is man!",
+          "expectedOptions": [
+            "Adverb",
+            "Conjunction",
+            "Adjective",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "In the exclamatory “What a piece of work is man!”, “What” introduces and qualifies the noun phrase “a piece of work”, so it is used adjectivally (as a determiner before a noun). → (c) Adjective.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B5": {
+          "expectedQuestion": "He proclaimed his __love__ for Estella in front of everyone.",
+          "expectedOptions": [
+            "Noun",
+            "Adjective",
+            "Verb",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“love” is the object of “proclaimed” — the thing he proclaimed — so it names a thing here and is a noun, not the verb of the sentence. → (a) Noun.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B6": {
+          "expectedQuestion": "I do not simply __love__, you, I worship and adore you.",
+          "expectedOptions": [
+            "Adjective",
+            "Verb",
+            "Adverb",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“love” is the finite verb of “I do not simply love”, set against “worship and adore”; a word that states the subject’s action is a verb. → (b) Verb.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B7": {
+          "expectedQuestion": "Puia __himself__ stood up and spoke in favour of the proposal, but it was of no use.",
+          "expectedOptions": [
+            "Adverb",
+            "Noun",
+            "Adjective",
+            "Pronoun"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“himself” points back to the subject “Puia” (Puia himself stood up), so it is the emphatic/reflexive pronoun. → (d) Pronoun.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B8": {
+          "expectedQuestion": "He had joined the office two years __before__ his father died.",
+          "expectedOptions": [
+            "Conjunction",
+            "Interjection",
+            "Adjective",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 0,
+          "explanation": "“before” is followed by the complete clause “his father died” (subject + finite verb), which makes it a subordinating conjunction; used as a preposition it would take a noun complement (“before his father’s death”). The provisional key marks (d) Preposition, so this item is held unscored as a key conflict.",
+          "page": 3
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B9": {
+          "expectedQuestion": "I won’t leave __until__ you are ready.",
+          "expectedOptions": [
+            "Conjunction",
+            "Adverb",
+            "Preposition",
+            "Adjective"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“until” introduces the clause “you are ready” (subject + finite verb), so here it is a subordinating conjunction. → (a) Conjunction.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B10": {
+          "expectedQuestion": "I __wish__ I had a million dollars.",
+          "expectedOptions": [
+            "Verb",
+            "Interjection",
+            "Noun",
+            "Pronoun"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“wish” is the main predicate of “I wish I had a million dollars”, attributing a state to the subject, so it is a verb. → (a) Verb.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B11": {
+          "expectedQuestion": "Go, and run ______; we shall call you when it is time to come in.",
+          "expectedOptions": [
+            "on",
+            "about",
+            "in",
+            "across"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The reply “we shall call you when it is time to come in” shows the child is being sent off to play: “run about” means to move about out of doors. “run in / across / on” do not give that sense. → (b) about.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B12": {
+          "expectedQuestion": "Many years ______, I met a man who told me my fortune.",
+          "expectedOptions": [
+            "since",
+            "hence",
+            "ago",
+            "then"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Many years ago” is the standard marker of a finished past time; “ago” counts back from now and is not used with “since” or “hence” in this pattern. → (c) ago.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B13": {
+          "expectedQuestion": "The examination will commence ______6th November.",
+          "expectedOptions": [
+            "at",
+            "on",
+            "by",
+            "in"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Days and dates take the preposition “on”: the exam begins “on 6th November”. → (b) on.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B14": {
+          "expectedQuestion": "He is late;______, we shall start without him.",
+          "expectedOptions": [
+            "finally",
+            "whereas",
+            "consequently",
+            "provided"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The second clause gives the result of the first — he is late, therefore we start without him. “consequently” is the only result-linking adverb offered; “whereas” and “provided” introduce clauses and “finally” marks sequence. → (c) consequently.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B15": {
+          "expectedQuestion": "I had no time to warn you. ______, I wasn’t sure.",
+          "expectedOptions": [
+            "besides",
+            "aside",
+            "beside",
+            "asides"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“besides” adds a further independent reason: I had no time to warn you; in addition, I was not sure. “beside” is a preposition meaning “next to”, and “aside/asides” cannot serve as the sentence adverb here. → (a) besides.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B16": {
+          "expectedQuestion": "Do this in accordance _______ the directions you have received.",
+          "expectedOptions": [
+            "to",
+            "for",
+            "of",
+            "with"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The fixed collocation is “in accordance with”. → (d) with.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B17": {
+          "expectedQuestion": "We must treat everyone equally, irrespective _____ race, class or gender.",
+          "expectedOptions": [
+            "on",
+            "to",
+            "by",
+            "of"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The fixed collocation is “irrespective of”. → (d) of.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B18": {
+          "expectedQuestion": "I shall be back _____ 11:00 a.m. today.",
+          "expectedOptions": [
+            "within",
+            "in",
+            "by",
+            "on"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A deadline stated as a clock time takes “by” — not later than 11:00 a.m. “in 11:00” and “on 11:00” are not used this way, and “within” needs a period (“within an hour”). → (c) by.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B19": {
+          "expectedQuestion": "He swore upon the sky ______ his head that he will not betray me.",
+          "expectedOptions": [
+            "over",
+            "on",
+            "upon",
+            "above"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 0,
+          "explanation": "The blank needs a word meaning “directly above his head”. Both (a) over and (d) above complete the printed sentence idiomatically (“the sky over/above his head”), while (b) on and (c) upon would repeat the earlier “upon” and misplace the sky. The provisional key marks (d) above; because more than one printed choice is defensible, the item is held unscored as ambiguous rather than forced to the key.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B20": {
+          "expectedQuestion": "The man died ____ cholera, leaving behind his wife and two children.",
+          "expectedOptions": [
+            "by",
+            "of",
+            "from",
+            "with"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Death from a disease takes “of”: “died of cholera”. “die from” is normally reserved for wounds or external injury, and “by/with” do not collocate with a disease. → (b) of.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B21": {
+          "expectedQuestion": "She refused to believe __that he could win the tournament.__",
+          "expectedOptions": [
+            "Noun clause",
+            "Adjective Clause",
+            "Adverbial Clause",
+            "noun phrase"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“that he could win the tournament” is the object of the verb “believe” (she refused to believe [what?]), so it is a noun clause. → (a) Noun clause.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B22": {
+          "expectedQuestion": "To err is human, but __to forgive__ is divine.",
+          "expectedOptions": [
+            "Adverbial Phrase",
+            "Adjective phrase",
+            "Noun phrase",
+            "Adjective clause"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“to forgive” is the subject of “is divine” (To forgive is divine). An infinitive used as a subject is a noun phrase; it contains no finite verb, so it cannot be a clause. → (c) Noun phrase.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B23": {
+          "expectedQuestion": "The book __that you gave me__ was fascinating.",
+          "expectedOptions": [
+            "Noun clause",
+            "Adverbial clause",
+            "Adverb phrase",
+            "Adjective clause"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“that you gave me” qualifies the noun “book” (which book?), so it is an adjective (relative) clause. → (d) Adjective clause.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B24": {
+          "expectedQuestion": "The man __wearing a red hat__ is my uncle.",
+          "expectedOptions": [
+            "Noun Clause",
+            "Adverb Phrase",
+            "Adjective phrase",
+            "Adjective clause"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“wearing a red hat” is a participial phrase that modifies “the man”, so it functions adjectivally; with no finite verb inside it is a phrase, not a clause. → (c) Adjective phrase.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B25": {
+          "expectedQuestion": "Tell me __what happened yesterday__ .",
+          "expectedOptions": [
+            "Noun Clause",
+            "Adjective Clause",
+            "Adverb Clause",
+            "Adverb Phrase"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“what happened yesterday” is the object of “tell” (Tell me [what?]) — a clause doing the work of a noun, i.e. a noun clause. → (a) Noun Clause.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B26": {
+          "expectedQuestion": "She took time off __for a much needed vacation__.",
+          "expectedOptions": [
+            "Adverb phrase",
+            "Noun phrase",
+            "adverb clause",
+            "adjective clause"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“for a much needed vacation” is a prepositional phrase answering why she took time off. A phrase that modifies the verb of the sentence is an adverb phrase. → (a) Adverb phrase.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B27": {
+          "expectedQuestion": "I was not at all sure of your success. (to Affirmative)",
+          "expectedOptions": [
+            "I was sure of your success",
+            "I was doubtful of your success",
+            "I was at all sure of your success",
+            "I was unenthusiastic of your success"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“not at all sure” means the same as “doubtful”, so the affirmative rendering is “I was doubtful of your success”. Option (a) reverses the meaning, and (c) is ungrammatical because “at all” requires the negative. → (b) I was doubtful of your success.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B28": {
+          "expectedQuestion": "O that I may see her again! (to Assertive)",
+          "expectedOptions": [
+            "O I wish that I may see her again.",
+            "That I may see her again.",
+            "I wonder if I will see her again.",
+            "I wish that I may see her again."
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The optative “O that I may see her again!” expresses a wish, and its assertive form is “I wish that I may see her again”. Option (a) wrongly keeps the exclamation “O”. → (d) I wish that I may see her again.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B29": {
+          "expectedQuestion": "How can I bear it any longer? (to Assertive)",
+          "expectedOptions": [
+            "I can bear it no longer",
+            "It is asked if I can bear it any longer",
+            "I would not bear it no longer",
+            "It is too hard to bear"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The rhetorical question “How can I bear it any longer?” asserts inability, so the assertive form is “I can bear it no longer”. Option (b) is still a question and (c) carries a double negative. → (a) I can bear it no longer.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B30": {
+          "expectedQuestion": "It is possible that I may have been mistaken. (to Negative)",
+          "expectedOptions": [
+            "It is not possible that I may have been mistaken",
+            "It is possible that I may have not been mistaken",
+            "It is impossible that I may have been mistaken",
+            "It is not impossible that I may have been mistaken"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The negative must keep the original sense: “possible” negated without reversing it is “not impossible”. Options (a) and (c) reverse the meaning and (b) places the negative on the wrong word. → (d) It is not impossible that I may have been mistaken.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B31": {
+          "expectedQuestion": "It is sad that children are the victims of war. (to Exclamatory)",
+          "expectedOptions": [
+            "Alas! that children are the victims of war!",
+            "Pooh! That children are the victims of war!",
+            "O that children may be the victims of war!",
+            "What victims of war children are!"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“It is sad that …” becomes the exclamatory “Alas! that …”, because “Alas” is the interjection of sorrow and the clause is left intact. Option (d) restates the fact instead of the sadness. → (a) Alas! that children are the victims of war!",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B32": {
+          "expectedQuestion": "The maid said, “The boy was hiding in a closet.” (to Indirect)",
+          "expectedOptions": [
+            "The maid said that the boy was hiding in a closet.",
+            "The maid said that the boy hid in a closet",
+            "The maid said that the boy had been hiding in a closet.",
+            "The maid said that the boy had hid in a closet."
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "In reported speech the past continuous “was hiding” moves one step back to the past perfect continuous “had been hiding”; the reporting clause and the rest of the quotation stay as printed. → (c) The maid said that the boy had been hiding in a closet.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B33": {
+          "expectedQuestion": "He told me that he had not seen Mary since the previous day. (to Direct)",
+          "expectedOptions": [
+            "He told me, “I had not seen Mary since the previous day.”",
+            "He said to me, “I have not seen Mary since yesterday.”",
+            "He tells to me “I had not seen Mary since the previous day.”",
+            "He said, “He had not seen Mary since the previous day.”"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Changing back to direct speech: “told me” becomes “said to me”, the past perfect “had not seen” returns to “have not seen”, and “the previous day” returns to the word actually spoken, “yesterday”. → (b) He said to me, “I have not seen Mary since yesterday.”",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B34": {
+          "expectedQuestion": "She said to Peter, “Give me your book, please” (to Indirect)",
+          "expectedOptions": [
+            "She said to Peter that give her his book please.",
+            "She requested Peter to give her his book.",
+            "She told Peter to give her his book please.",
+            "She asked Peter to give me your book."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A request marked by “please” is reported with “requested … to”: “She requested Peter to give her his book”. Option (a) is ungrammatical, (c) leaves “please” inside the reported clause and (d) mixes up the persons. → (b) She requested Peter to give her his book.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B35": {
+          "expectedQuestion": "The teacher said that the earth revolves around the sun. (to Direct)",
+          "expectedOptions": [
+            "The teacher said, “The earth revolves around the sun.”",
+            "The teacher said, “the earth revolved around the sun.”",
+            "The teacher says, “The earth revolve around the sun.”",
+            "The teacher said, “The earth has revolved around the sun.”"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "A universal truth is not backshifted in reported speech, so the direct form keeps the present simple: “The earth revolves around the sun”. → (a) The teacher said, “The earth revolves around the sun.”",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B36": {
+          "expectedQuestion": "Siami said, “Rama called me up this morning.” (to Indirect)",
+          "expectedOptions": [
+            "Siami said that Rama called me up this morning.",
+            "Siami said that Rama called her up this morning.",
+            "Siami said that Rama called her up that morning.",
+            "Siami said that Rama had called her up that morning."
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Reported speech changes the pronoun “me” to “her”, the time word “this morning” to “that morning”, and the simple past “called” to the past perfect “had called”. → (d) Siami said that Rama had called her up that morning.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B37": {
+          "expectedQuestion": "He is a _______, therefore, he never drinks.",
+          "expectedOptions": [
+            "teetotaler",
+            "teeter-totter",
+            "tattle-tale",
+            "totalitarian"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "A teetotaler is a person who never drinks alcohol, which is exactly what “therefore, he never drinks” needs. “totalitarian” is a political system, and “teeter-totter” and “tattle-tale” are unrelated. → (a) teetotaler.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B38": {
+          "expectedQuestion": "He has been found ________ for this post due to canvassing.",
+          "expectedOptions": [
+            "ineligible",
+            "indelible",
+            "inedible",
+            "intelligible"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Being disqualified for canvassing means being found not eligible: “ineligible”. “indelible” means permanent, “inedible” means uneatable and “intelligible” means understandable. → (a) ineligible.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B39": {
+          "expectedQuestion": "In a ________ gesture, she donated the prize money to charity.",
+          "expectedOptions": [
+            "bellicose",
+            "voluminous",
+            "magnanimous",
+            "maleficient"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Giving away the prize money is a generous act, and “magnanimous” means generous, especially towards someone who has less. “bellicose” is warlike, “voluminous” large and “maleficient” harmful. → (c) magnanimous.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B40": {
+          "expectedQuestion": "Jack was the _______ of elegance and class.",
+          "expectedOptions": [
+            "epigram",
+            "epitome",
+            "epicenter",
+            "epilogue"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The set idiom is “the epitome of X” — the perfect example of X. An “epigram” is a witty saying, an “epilogue” a closing section and the “epicenter” is the point on the ground above an earthquake. → (b) epitome.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B41": {
+          "expectedQuestion": "The country was a ______, ruled by a queen.",
+          "expectedOptions": [
+            "matricide",
+            "matrilineal",
+            "matrimony",
+            "monarchy"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A state ruled by a queen is a monarchy. “matrilineal” describes descent through the mother rather than a state, “matricide” is killing one’s own mother and “matrimony” is marriage. → (d) monarchy.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B42": {
+          "expectedQuestion": "He is a(n) _______ who hates anyone practicing a different religion.",
+          "expectedOptions": [
+            "atheist",
+            "racist",
+            "bigot",
+            "infidel"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A person who hates anyone practising a different religion is a bigot — intolerant of other people’s beliefs. An atheist does not believe in God, a racist discriminates by race and an infidel is a non-believer in the speaker’s own faith. → (c) bigot.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B43": {
+          "expectedQuestion": "You must consult only _______ sources for your research.",
+          "expectedOptions": [
+            "credible",
+            "conceivable",
+            "incredible",
+            "inconceivable"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Research must use sources that can be relied on: “credible” means believable or trustworthy. “incredible” and “inconceivable” mean the opposite, while “conceivable” merely means thinkable. → (a) credible.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B44": {
+          "expectedQuestion": "__I enjoyed__ / __during my__ / __stay in England.__ / __No error__ .",
+          "expectedOptions": [
+            "I enjoyed",
+            "during my",
+            "stay in England.",
+            "No error"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“enjoy” is a transitive verb taking a noun or gerund as its object (“I enjoyed my stay” / “I enjoyed staying”), so it cannot be completed by the prepositional phrase “during my …”. The fault lies in part (a); parts (b) and (c) are well formed. → (a) I enjoyed.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B45": {
+          "expectedQuestion": "__They appointed__ / __him as a manager__ /__as he is efficient.__ /__No error.__",
+          "expectedOptions": [
+            "They appointed",
+            "him as a manager",
+            "as he is efficient.",
+            "No error."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "After “appoint”, the post is named by a bare singular noun: “They appointed him manager”. The article “a” and “as” in part (b) break that construction, while parts (a) and (c) read correctly. → (b) him as a manager.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B46": {
+          "expectedQuestion": "__Mr. Sharma is planning__ /__to settle in Delhi__ / __as soon as he will retire in Apil next year.__ /__No error__",
+          "expectedOptions": [
+            "Mr. Sharma is planning",
+            "to settle in Delhi",
+            "as soon as he will retire in Apil next year.",
+            "No error"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "In a time clause introduced by “as soon as”, the verb must be simple present, not “will” + base form: “… as soon as he retires”. Part (c) therefore carries the error (and it is the printed segment that also prints “Apil”). → (c) as soon as he will retire in Apil next year.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B47": {
+          "expectedQuestion": "We _____ (drive) all the way to the resort, only for it to be closed.",
+          "expectedOptions": [
+            "drive",
+            "were driving",
+            "drove",
+            "will drive"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The narrative sits in the past and “only for it to be closed” continues it, so the simple past “drove” is required. → (c) drove.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B48": {
+          "expectedQuestion": "It ______ (rain) when he came over this morning.",
+          "expectedOptions": [
+            "has rained",
+            "rains",
+            "is raining",
+            "was raining"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The rain was already in progress at the moment “he came over this morning”, which calls for the past continuous “was raining”. → (d) was raining.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B49": {
+          "expectedQuestion": "She _____ (work) in this office since 2000.",
+          "expectedOptions": [
+            "will work",
+            "will be working",
+            "has been working",
+            "had worked"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“since 2000” runs up to the present with the action still continuing, which calls for the present perfect continuous “has been working”. → (c) has been working.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B50": {
+          "expectedQuestion": "The teacher ______ (want) to see you immediately.",
+          "expectedOptions": [
+            "wants",
+            "is wanting",
+            "want",
+            "wanted"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "A general statement about the teacher takes the simple present third person “wants”. The stative verb “want” is not used in the continuous (“is wanting”), and “want/wanted” do not fit the present-tense statement. → (a) wants.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B51": {
+          "expectedQuestion": "You must _____ (complete) this assignment today itself.",
+          "expectedOptions": [
+            "completes",
+            "complete",
+            "completed",
+            "completing"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“must” is a modal auxiliary and is followed by the bare infinitive: “must complete”. → (b) complete.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B52": {
+          "expectedQuestion": "I ______ (wear) a white dress on my wedding day.",
+          "expectedOptions": [
+            "will have worn",
+            "will wear",
+            "will have been wearing",
+            "will worn"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The wedding is a planned future event expressed as a simple intention, so “will wear” fits; “will have worn” would need a finished reference point (e.g. “by then”) and “will worn” is not a possible form. → (b) will wear.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B53": {
+          "expectedQuestion": "She _____ (sit) there waiting for you for over an hour.",
+          "expectedOptions": [
+            "sits",
+            "had sat",
+            "has been sitting",
+            "was sitting"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The sitting began earlier and is still going on for a stated duration (“for over an hour”), which calls for the present perfect continuous “has been sitting”. → (c) has been sitting.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B54": {
+          "expectedQuestion": "She _____ (go) for a walk every evening.",
+          "expectedOptions": [
+            "go",
+            "goes",
+            "went",
+            "gone"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A routine repeated every evening takes the simple present, third person singular: “She goes for a walk every evening.” → (b) goes.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B55": {
+          "expectedQuestion": "I _____ (hope) for a promotion at work this year.",
+          "expectedOptions": [
+            "am hoping",
+            "hoped",
+            "have hoped",
+            "will hope"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The speaker is currently expecting a promotion this year, so the present continuous “am hoping” is the natural form; “hoped” clashes with the present expectation and “will hope” is not used this way. → (a) am hoping.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B56": {
+          "expectedQuestion": "He ______ (prefer) his wife to stay at home.",
+          "expectedOptions": [
+            "prefer",
+            "is preferring",
+            "prefers",
+            "has preferred"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“prefer” is a stative verb used in the simple present, so “He prefers …” is correct; continuous forms (“is preferring”) are not used for it. → (c) prefers.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B57": {
+          "expectedQuestion": "The triangles are congruent; _______ they are equal.",
+          "expectedOptions": [
+            "but",
+            "hence",
+            "otherwise",
+            "still"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Congruence of the triangles is the reason and their equality the consequence, so a result connector is needed: “hence”. “but” and “still” contrast the clauses and “otherwise” states a condition. → (b) hence.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B58": {
+          "expectedQuestion": "In an unjust society, the corrupt prosper _____ the honest stay poor.",
+          "expectedOptions": [
+            "while",
+            "so",
+            "when",
+            "therefore"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The two clauses are set in contrast — the corrupt prosper while the honest stay poor — so the contrastive connector “while” is required. → (a) while.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B59": {
+          "expectedQuestion": "I shall do it ________ you asked me to.",
+          "expectedOptions": [
+            "when",
+            "so that",
+            "before",
+            "since"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“since” gives the reason for doing it: because you asked me to. “when” and “before” clash with the past tense of “asked”, and “so that” needs a purpose clause containing a modal. → (d) since.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B60": {
+          "expectedQuestion": "You may have a cookie ______ you finish your vegetables first.",
+          "expectedOptions": [
+            "provided",
+            "though",
+            "unless",
+            "until"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The cookie is allowed on condition that the vegetables are finished first: “provided” (= provided that) states that condition. “unless” would reverse it, and “though/until” give no condition at all. → (a) provided.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B61": {
+          "expectedQuestion": "I shall help him _______ he does not deserve it.",
+          "expectedOptions": [
+            "though",
+            "for",
+            "since",
+            "if"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Helping him is set against his not deserving it — that is concession, expressed by “though”. “if” would make the help depend on his not deserving it, and “for/since” would offer it as the reason for helping. → (a) though.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B62": {
+          "expectedQuestion": "A lone wolf",
+          "expectedOptions": [
+            "One who is very violent",
+            "A very clumsy person",
+            "one who prefers to live alone",
+            "one who casts the deciding vote"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A lone wolf is a person who prefers to live and act alone. → (c) one who prefers to live alone.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B63": {
+          "expectedQuestion": "A rule of thumb",
+          "expectedOptions": [
+            "A rough estimate or measurement",
+            "A majority decision",
+            "A nonsensical statement",
+            "By a small amount"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "A rule of thumb is a rough, practical estimate or method used instead of a precise calculation or rule. → (a) A rough estimate or measurement.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B64": {
+          "expectedQuestion": "To be close-fisted",
+          "expectedOptions": [
+            "To attack someone",
+            "To lack warmth or affection",
+            "To keep a secret",
+            "To be miserly"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“close-fisted” describes someone unwilling to part with money — miserly. → (d) To be miserly.",
+          "page": 8
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B65": {
+          "expectedQuestion": "Up to one’s elbows",
+          "expectedOptions": [
+            "Deeply involved in something",
+            "Pay no attention to something",
+            "In great suspense",
+            "To feel discouraged"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Up to one’s elbows (in something)” means being deeply involved or absorbed in it. → (a) Deeply involved in something.",
+          "page": 9
+        },
+        "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B66": {
+          "expectedQuestion": "To hold one’s tongue",
+          "expectedOptions": [
+            "To flatter someone",
+            "To keep silent",
+            "To lie blatantly",
+            "To argue with someone"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "To hold one’s tongue is to keep silent and refrain from saying what one might say. → (b) To keep silent.",
+          "page": 9
+        }
+      }
     }
   ]
 }

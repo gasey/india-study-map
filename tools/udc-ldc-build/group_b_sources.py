@@ -614,8 +614,36 @@ def build_additional():
             entry['expectedMcq'] = 100
         if slug.startswith(('je-iwr-2018-', 'assistant-jailor-2018-', 'asi-home-2018-')):
             entry['expectedMcq'] = 80 if 'English' in subject else 100
+        if slug == 'station-officer-2018-gk':
+            entry['expectedMcq'] = 100
+            # Printed cover: 3 hours, 100 marks, one mark per question.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'mpe-ss-2020-gk':
+            entry['expectedMcq'] = 100
+            # Printed cover: 3 hours, 100 marks, one mark per question.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'aap-2020-gs':
+            entry['expectedMcq'] = 100
+            # Printed cover: 2 hours, full marks 100, one mark each.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'acf-2018-gk':
+            entry['expectedMcq'] = 100
+            # Printed cover: 3 hours, 100 marks, one mark for each question.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge':
+            entry['expectedMcq'] = 100
+            # Printed cover states 2 hours, 100 marks, one mark per question.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                                 'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'assistant-grade-2018-p2':
             entry['expectedMcq'] = 125
+            # Printed cover: 3 hours, full marks 125, all questions carry 1 mark.
+            meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                                'negativeMarking': False, 'penaltyFraction': 0}
         if slug.startswith('acf-2018-'):
             entry['expectedMcq'] = 80 if slug.endswith('english') else 100
         if slug in ('asce-2021-english-p2', 'vety-mah-2021-english-p2'):
@@ -683,6 +711,9 @@ def build_additional():
         if key:
             entry['keyHref'] = key['href']
             entry['expectedMcq'] = len(key['answers'])
+            if slug == 'archive2325-group-b-combined-general-studies-paper-iii-july-2024':
+                # The scan has 50 MCQs; the official key table omits Q48.
+                entry['expectedMcq'] = 50
         complete_source_review = (bool(key)
                                   and reviewed_numbers == {int(n) for n in key['answers']}
                                   and not any(q.get('unscored') for q in (repairs.get(slug, {}).get('questions') or {}).values())
@@ -731,6 +762,12 @@ def build_additional():
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies' and key:
             # Cover: (April-2026), General Studies, 2 hours, FM 100, 1 mark each.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies':
+            # Cover: January-2026 Group B (Non-Gazetted) Technical, Paper-II
+            # (General Studies), 2 hours, FM 100, 1 mark each; no negative
+            # marking rule is printed.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug.startswith('archive-lang-2026-cooperative-audit-officer-march-2026-') and key:

@@ -213,7 +213,7 @@
     "keyHref": "/papers/group-b/keys/steno-2025-gk-final-key.pdf",
     "imported": true,
     "expectedMcq": 100,
-    "reviewRequired": false
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-steno2-2025-p1",
@@ -2528,8 +2528,8 @@
     "sourceHref": "/papers/group-b/aap-2020-gs.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 100
+    "expectedMcq": 100,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p1",
@@ -2645,8 +2645,8 @@
     "sourceHref": "/papers/group-b/mpe-ss-2020-gk.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 100
+    "expectedMcq": 100,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-seo-2020-english-p1",
@@ -3133,7 +3133,7 @@
     "keyHref": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "imported": true,
     "expectedMcq": 50,
-    "reviewRequired": true
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -3144,7 +3144,7 @@
     "keyHref": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "imported": true,
     "expectedMcq": 50,
-    "reviewRequired": true
+    "reviewRequired": false
   },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024",
@@ -3154,7 +3154,7 @@
     "sourceHref": "/papers/group-b/archive2325-group-b-combined-general-studies-paper-iii-july-2024.pdf",
     "keyHref": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "imported": true,
-    "expectedMcq": 49,
+    "expectedMcq": 50,
     "reviewRequired": true
   },
   {
@@ -3186,6 +3186,7 @@
     "sourceHref": "/papers/group-b/ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge.pdf",
     "keyHref": null,
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {

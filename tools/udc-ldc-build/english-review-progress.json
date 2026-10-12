@@ -4,10 +4,10 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 2341,
-    "pendingMcq": 7529,
-    "heldReviewed": 30,
-    "pendingWritten": 879
+    "ready": 2383,
+    "pendingMcq": 7479,
+    "heldReviewed": 38,
+    "pendingWritten": 876
   },
   "papers": [
     {
@@ -4243,7 +4243,7 @@
       "subject": "General Studies Paper-III",
       "sourceHref": "/papers/group-b/inspector-excise-2025-gs3.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "content-ready",
       "mcq": 0,
       "ready": 0,
       "readyOfficial": 0,
@@ -4252,9 +4252,9 @@
       "heldReviewed": 0,
       "expectedMcq": null,
       "missingMcq": null,
-      "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenRecords": 8,
+      "writtenGuides": 8,
+      "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=4",
       "heldItems": []
     },
@@ -5060,20 +5060,31 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/museum-guide-2020-english.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 50,
-      "ready": 0,
+      "ready": 48,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 50,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 50,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
       "expectedMcq": 50,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 1,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-museum-guide-2020-english-B27",
+          "questionNumber": "B27",
+          "reason": "Options (a) and (d) both say “noun”, so the item has duplicate correct choices and no unique answer letter."
+        },
+        {
+          "id": "mpsc-group-b-museum-guide-2020-english-B41",
+          "questionNumber": "B41",
+          "reason": "Both “each” and “either” can produce grammatical singular constructions here; the sentence lacks context to select one."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mvi-2025-p1",
@@ -5199,20 +5210,36 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/radio-2026-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "content-ready",
+      "status": "ready-with-held-items",
       "mcq": 60,
-      "ready": 60,
-      "readyOfficial": 60,
-      "sourceReviewedMcq": 0,
+      "ready": 57,
+      "readyOfficial": 57,
+      "sourceReviewedMcq": 60,
       "pendingMcq": 0,
-      "heldReviewed": 0,
+      "heldReviewed": 3,
       "expectedMcq": 60,
       "missingMcq": 0,
       "writtenRecords": 4,
       "writtenGuides": 4,
       "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/provisional-answer-key-of-radiotherapy-technologist-contract-under-hfw-deptt.pdf#page=1",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-radio-2026-p1-B8",
+          "questionNumber": "B8",
+          "reason": "Independent solution gives C; the official key gives B. Verify the printed item before scoring."
+        },
+        {
+          "id": "mpsc-group-b-radio-2026-p1-B12",
+          "questionNumber": "B12",
+          "reason": "Independent solution gives A; the official key gives D. Verify the printed item before scoring."
+        },
+        {
+          "id": "mpsc-group-b-radio-2026-p1-B46",
+          "questionNumber": "B46",
+          "reason": "“She likes cold coffee” is both a declarative sentence and an assertive sentence; options (a) and (b) are synonymous classifications."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ri-2026-p1",
@@ -5465,20 +5492,36 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/si-excise-2025-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "content-ready",
+      "status": "ready-with-held-items",
       "mcq": 30,
-      "ready": 30,
-      "readyOfficial": 30,
+      "ready": 27,
+      "readyOfficial": 27,
       "sourceReviewedMcq": 30,
       "pendingMcq": 0,
-      "heldReviewed": 0,
+      "heldReviewed": 3,
       "expectedMcq": 30,
       "missingMcq": 0,
       "writtenRecords": 3,
       "writtenGuides": 3,
       "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/final-answer-key-for-sub-inspector-of-excise-under-exise-narcotics-department.pdf#page=1",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-si-excise-2025-p1-B8",
+          "questionNumber": "B8",
+          "reason": "Several quantifiers (“some,” “all,” “most,” or “many”) fit the sentence grammatically; context does not determine a unique answer."
+        },
+        {
+          "id": "mpsc-group-b-si-excise-2025-p1-B9",
+          "questionNumber": "B9",
+          "reason": "Both “later” and “latest” can plausibly modify “gossip” here, so the intended choice is not uniquely determined."
+        },
+        {
+          "id": "mpsc-group-b-si-excise-2025-p1-B24",
+          "questionNumber": "B24",
+          "reason": "None of the options is a clear complex-sentence transformation that preserves the original meaning."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -5895,7 +5938,7 @@
       "subject": "Paper-I",
       "sourceHref": "/papers/group-b/udc-agri-2019-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "content-ready",
       "mcq": 0,
       "ready": 0,
       "readyOfficial": 0,
@@ -5905,8 +5948,8 @@
       "expectedMcq": null,
       "missingMcq": null,
       "writtenRecords": 2,
-      "writtenGuides": 0,
-      "pendingWritten": 2,
+      "writtenGuides": 2,
+      "pendingWritten": 0,
       "keyHref": null,
       "heldItems": []
     },

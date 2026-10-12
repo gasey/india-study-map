@@ -540,7 +540,7 @@ browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
 assertions still expect **3,540 ready**, **1,618 official**, **36 held** and
 **13 missing**; these no longer match the imported archive. Refresh those
 assertions before relying on the script. The current Group B build report is
-15,314 ready, 8,322 official, 458 held-reviewed, 10,958 unreviewed and 733
+15,607 ready, 8,322 official, 465 held-reviewed, 10,658 unreviewed and 733
 missing MCQs (25,857 MCQs total across 404 papers). AAO 2024 General English is Exam-mode eligible while AAO 2024
 Arithmetic remains out because it has a compensated item.
 
@@ -588,3 +588,40 @@ or used. The review ledger reports 89 ready, 11 held, 0 pending.
 Source: `public/papers/group-b/ae-civil-tourism-2020-gs.pdf`; durable review
 input: `tools/udc-ldc-build/group-b-text-repairs.json` under
 `ae-civil-tourism-2020-gs`.
+
+
+## ADA, AA and ATA General Knowledge 2019 answer review — 12 October 2026
+
+Compared all 100 questions and options with the source scan. Added 99 derived
+answers with explanations; Q81 is held because the microphone-inventor
+attribution is disputed and the reliable candidate is absent from the choices.
+Corrected Q64’s “Warke” typo to “Werke.” No official MPSC answer key was
+available or used. The review ledger reports 99 ready, 1 held, 0 pending.
+
+Source: `public/papers/group-b/ada-aa-ata-2019-gk.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `ada-aa-ata-2019-gk`.
+
+## Employment Officer General Studies Paper-I 2019 answer review — 12 October 2026
+
+Compared all 100 questions and options with the source scan. Added 97 derived
+answers with explanations; Q52, Q61 and Q98 are held for multiple/no correct
+choices or imprecise wording. Corrected scan/OCR typos in Q2, Q10, Q43 and Q54.
+No official MPSC answer key was available or used. The review ledger reports
+97 ready, 3 held, 0 pending.
+
+Source: `public/papers/group-b/eo-2019-gs1.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `eo-2019-gs1`.
+
+## Employment Officer General Studies Paper-II 2019 answer review — 12 October 2026
+
+Compared all 100 questions and options with the source scan. Added 97 derived
+answers with explanations; Q34, Q69 and Q86 are held because the current
+constitutional provision, underspecified question, or outdated categories make
+the listed answers unreliable. Corrected Q38, Q48, Q66 and Q70 source typos;
+Q38 now states the Muslim League’s 1906 founding and corrects “Asha” to “Aga”
+Khan, with the original scan wording retained in its review note. No official
+MPSC key was available or used. The review ledger reports 97 ready, 3 held,
+0 pending.
+
+Source: `public/papers/group-b/eo-2019-gs2.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `eo-2019-gs2`.

@@ -7,12 +7,12 @@
     "records": 26878,
     "mcq": 25857,
     "writtenRecords": 1021,
-    "ready": 15314,
+    "ready": 15607,
     "readyOfficial": 8322,
-    "pendingMcq": 10085,
-    "heldReviewed": 458,
-    "workedGuidesReviewed": 8117,
-    "pendingMcqGuides": 17740,
+    "pendingMcq": 9785,
+    "heldReviewed": 465,
+    "workedGuidesReviewed": 8417,
+    "pendingMcqGuides": 17440,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -67,12 +67,12 @@
       "records": 14946,
       "mcq": 14946,
       "writtenRecords": 0,
-      "ready": 10706,
+      "ready": 10999,
       "readyOfficial": 6205,
-      "pendingMcq": 3925,
-      "heldReviewed": 315,
-      "workedGuidesReviewed": 4897,
-      "pendingMcqGuides": 10049,
+      "pendingMcq": 3625,
+      "heldReviewed": 322,
+      "workedGuidesReviewed": 5197,
+      "pendingMcqGuides": 9749,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -1010,12 +1010,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -1024,18 +1024,25 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q81",
+          "questionNumber": "81",
+          "section": "gk",
+          "reason": "Defective/disputed attribution; no uniquely reliable correct option (Hughes is absent)."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-adfd-2025-technical-p1",
@@ -10840,12 +10847,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10854,18 +10861,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-2019-gs1-Q52",
+          "questionNumber": "52",
+          "section": "gk",
+          "reason": "Hold: Mukesh Ambani, Jack Ma and Jeff Bezos all appear to be listed among Foreign Policy’s 2019 Global Thinkers, so multiple options are defensible."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs1-Q61",
+          "questionNumber": "61",
+          "section": "gk",
+          "reason": "Hold: Bangladesh, Thailand, Bhutan and India are all BIMSTEC members; no listed choice is correct."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs1-Q98",
+          "questionNumber": "98",
+          "section": "gk",
+          "reason": "Hold: the wording is imprecise, historical claims vary by whether it means first Wi-Fi hotspots or a Wi-Fi-enabled city, and the options omit Bengaluru, often cited for the first free public Wi-Fi hotspots."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-2019-gs2",
@@ -10880,12 +10906,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10894,18 +10920,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-2019-gs2-Q34",
+          "questionNumber": "34",
+          "section": "gk",
+          "reason": "Held: Article 21A (the present guarantee for free compulsory education ages 6–14) is absent; Article 45 now concerns early childhood care and education below age 6."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs2-Q69",
+          "questionNumber": "69",
+          "section": "gk",
+          "reason": "Held: the stem does not specify the kind of practice. MRTP had recommendatory functions for monopolistic-practice matters and direct order-making powers for restrictive/unfair practices, so both B and C can fit."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs2-Q86",
+          "questionNumber": "86",
+          "section": "gk",
+          "reason": "Held: this uses an obsolete racial typology and omits groups commonly identified as earliest inhabitants (such as Negrito/Pre-Dravidian); no uniquely defensible answer among the listed categories."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-2019-gs3",

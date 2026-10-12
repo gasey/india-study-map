@@ -442526,14 +442526,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "209 candidates",
       "212 candidates"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "There were 209 candidates in the 2018 Mizoram Assembly election.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q2",
@@ -442551,14 +442553,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Aizawl",
       "Serchhip"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The country’s first queueless polling station was introduced at Project Veng in Kolasib.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q3",
@@ -442576,14 +442580,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "25",
       "26"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The MNF won 26 Assembly seats in 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q4",
@@ -442601,14 +442607,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Tripura",
       "Assam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nagaland was the first Northeastern state to launch ERSS 112.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q5",
@@ -442626,14 +442634,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "28th",
       "29th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizoram was second-least populous among the 28 states counted in 2011, placing it 27th by descending population.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q6",
@@ -442651,17 +442661,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "State Bank of India",
       "Axis Bank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "YONO is SBI’s integrated banking and services app.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q7",
@@ -442679,14 +442688,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "81st",
       "95th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India ranked 81st in the 2018 Henley Passport Index.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q8",
@@ -442704,14 +442715,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Bengaluru",
       "Mumbai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bengaluru airport was slated to introduce face-recognition passage technology in 2019.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q9",
@@ -442729,14 +442742,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Fifth",
       "Sixth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Mary Kom won her sixth Women’s World Boxing Championship title in 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q10",
@@ -442754,14 +442769,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Ranghuram Rajan",
       "Ramesh Chand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "N. K. Singh chaired India’s 15th Finance Commission.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q11",
@@ -442779,14 +442796,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Seven",
       "Eight"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Government of India had notified six religious communities as minorities by December 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q12",
@@ -442804,14 +442823,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Chief Economic Advisor",
       "Chairman of SBI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dr. Krishnamurthy Subramanian was appointed Chief Economic Adviser.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q13",
@@ -442829,14 +442850,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Ahmedabad",
       "New Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Kacheguda railway station is in Hyderabad.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q14",
@@ -442854,14 +442877,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Kochi",
       "Kolkata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Kolkata launched India’s first Flood Forecasting and Early Warning System.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q15",
@@ -442879,14 +442904,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Ministry of External Affairs",
       "Ministry of Police"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Enforcement Directorate functions under the Ministry of Finance.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q16",
@@ -442904,14 +442931,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Hindus",
       "Jains"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The committee examined the demand for minority status for Hindus.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q17",
@@ -442929,14 +442958,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Kolkatta",
       "Delhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Signature Bridge was inaugurated in Delhi.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q18",
@@ -442954,14 +442985,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "12 %",
       "11 %"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Central Government’s NPS contribution was raised to 14 percent.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q19",
@@ -442979,14 +443012,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Haryana",
       "Kerala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Madhya Pradesh first passed a bill prescribing death for rape of girls aged 12 or younger.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q20",
@@ -443004,14 +443039,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Telangana",
       "Karnataka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Telangana received the 2018 award for best state promoting disability empowerment.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q21",
@@ -443029,14 +443066,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "South Korea",
       "USA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India hosted the challenge in collaboration with South Korea.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q22",
@@ -443054,14 +443093,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Sakthi Maya S",
       "Shubhangi Swaroop"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Shubhangi Swaroop was the first woman pilot inducted into the Indian Navy.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q23",
@@ -443079,14 +443120,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "8th September",
       "9th December"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India observes National Education Day on 11 November.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q24",
@@ -443104,14 +443147,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Kerala",
       "Madhya Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kerala became the first state with four international airports.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q25",
@@ -443129,14 +443174,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Uttar Pradesh",
       "Punjab"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Telangana was setting up the world’s first IT campus for differently abled people.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q26",
@@ -443154,14 +443201,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Uttar Pradesh",
       "Gujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Uttar Pradesh was the first state to endorse the Centre’s draft triple talaq bill.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q27",
@@ -443179,14 +443228,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "182 meters",
       "192 meters"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Statue of Unity is 182 metres tall.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q28",
@@ -443204,14 +443255,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Karnataka",
       "Haryana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Punjab was the first state to treat hepatitis C patients with oral medicine.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q29",
@@ -443229,14 +443282,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Astrap-4",
       "Kuoming-3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "China’s Chang’e-4 mission was launched toward the Moon’s far side.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q30",
@@ -443254,14 +443309,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Israel",
       "Germany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Germany introduced the first hydrogen-powered passenger train service.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q31",
@@ -443279,14 +443336,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Mauritius",
       "Bhutan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 11th World Hindi Conference was held in Mauritius.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q32",
@@ -443304,14 +443363,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Qatar",
       "Bhutan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Luxembourg planned to make all public transport free by 2019.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q33",
@@ -443329,14 +443390,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Universal Access",
       "Know your status"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 2018 World AIDS Day theme was ‘Know your status’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q34",
@@ -443354,14 +443417,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "New Zealand",
       "South Africa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "New Zealand developers created the AI politician SAM.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q35",
@@ -443379,14 +443444,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Indonesia",
       "Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "China tested the FH-98 unmanned transport drone.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q36",
@@ -443404,14 +443471,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Germany",
       "Hungary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Poland hosted the 2018 UN Climate Change Conference, COP24.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q37",
@@ -443429,14 +443498,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "South Korea",
       "Singapore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "China launched the world’s first fully electric cargo ship.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q38",
@@ -443454,14 +443525,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Lets Clean It Up",
       "Stand By ME"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 2018 World Toilet Day theme was ‘When Nature Calls’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q39",
@@ -443479,14 +443552,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Burundi",
       "Botswana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Burundi was the first country to withdraw from the International Criminal Court.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q40",
@@ -443504,14 +443579,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Saudi Arabia",
       "Qatar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Qatar announced it would leave OPEC from 1 January 2019.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q41",
@@ -443529,14 +443606,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Moscow",
       "Dubai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Beijing was named the billionaire capital in the 2018 Hurun list.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q42",
@@ -443554,14 +443633,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Fourth highest emitter",
       "Fifth highest emitter"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India was the world’s third-highest CO2 emitter in the cited 2018 study.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q43",
@@ -443579,14 +443660,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Malaysia",
       "Sri Lanka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Indonesia hosted the 2018 Asian Games.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q44",
@@ -443604,14 +443687,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "South Korea",
       "Russia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The United States withdrew from the UN Human Rights Council in 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q45",
@@ -443629,14 +443714,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "2060",
       "2070"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The European Union set 2050 as its climate-neutrality target year.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q46",
@@ -443654,14 +443741,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Mexico",
       "Venezuela"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "AMLO became President of Mexico.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q47",
@@ -443679,14 +443768,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "The Whistleblowers",
       "The Silence Breakers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Time’s 2018 Person of the Year was ‘The Guardians and the War on Truth’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q48",
@@ -443704,14 +443795,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Chairman of ISRO",
       "Governor of J&K"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Shaktikanta Das was appointed Governor of the Reserve Bank of India.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q49",
@@ -443729,14 +443822,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Jawahar Lal Sarin",
       "Vishal Sikka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jawahar Lal Sarin received France’s Legion of Honour.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q50",
@@ -443754,14 +443849,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "NarendraModi",
       "Despacito"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "BTS was Twitter’s most-tweeted-about account in 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q51",
@@ -443779,14 +443876,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Venice",
       "Vienna"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vienna topped the 2018 Global Liveability Index.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q52",
@@ -443804,14 +443903,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Nabaneeta Dev Sen",
       "VS Naipaul"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Pankaj Mishra wrote ‘Age of Anger: A History of the Present’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q53",
@@ -443829,17 +443930,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Joyce Meyers",
       "Arundhati Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Maya Angelou wrote ‘I Know Why the Caged Bird Sings’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q54",
@@ -443857,14 +443957,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Suzane Collins",
       "J.K.Rawling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "J. K. Rowling wrote ‘The Casual Vacancy’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q55",
@@ -443882,14 +443984,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Sania Mirza",
       "Sachin Tendulkar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Maria Sharapova wrote ‘Unstoppable: My Life So Far’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q56",
@@ -443907,14 +444011,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "NeymarJr",
       "Luka Modric"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Luka Modrić won the 2018 men’s Ballon d’Or.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q57",
@@ -443932,14 +444038,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Men’s 62 kg",
       "Men’s 65 kg"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jeremy Lalrinnunga won gold in the 62 kg category at the Youth Olympics.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q58",
@@ -443957,14 +444065,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "JituRai",
       "Vijay Kumar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Abhinav Bindra was the first Indian to receive the ISSF Blue Cross.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q59",
@@ -443982,14 +444092,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "West Indies",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The West Indies won the 2018 ICC Women’s World Twenty20.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q60",
@@ -444007,14 +444119,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Subhash Agarwal",
       "Ashok Shandilya"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pankaj Advani won the 2018 IBSF World Billiards Championship.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q61",
@@ -444032,17 +444146,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Brazil, Russia, India, China & S.Africa",
       "Bengal Roads Initiative Corporations"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "BRICS stands for Brazil, Russia, India, China and South Africa.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q62",
@@ -444060,14 +444173,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "National Institute for Electronics and Industrial Technology",
       "National Institute for Electrical and Information Technology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "NIELIT is the National Institute for Electronics and Information Technology.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q63",
@@ -444085,14 +444200,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Business Plan Optimum",
       "Business Process Outsourcing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "BPO means Business Process Outsourcing.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q64",
@@ -444107,17 +444224,19 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "options": [
       "Barclays Motor Works",
       "Bayer Motorist Workshop",
-      "Bayerische Motoren Warke AG",
+      "Bayerische Motoren Werke AG",
       "Bolivian Motor Works"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "BMW expands to Bayerische Motoren Werke AG.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q65",
@@ -444135,17 +444254,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Sub-Divisional Registrars",
       "Special Drawing Rights"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "SDRs means Special Drawing Rights.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q66",
@@ -444163,17 +444281,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Gujarat",
       "Maharastra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Himachal Pradesh is popularly called India’s Apple Kingdom.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q67",
@@ -444191,17 +444308,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Equator",
       "Pacific Ring of Fire"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Equator is a great circle of Earth.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q68",
@@ -444219,14 +444335,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Maharashtra",
       "Chhattisgarh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Uttar Pradesh is known as India’s sugar bowl.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q69",
@@ -444244,14 +444362,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Bajra",
       "Jowar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bajra is commonly called the camel crop.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q70",
@@ -444269,14 +444389,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Netherland",
       "Norway"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Canada is popularly known as the Lady of Snow.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q71",
@@ -444294,14 +444416,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Brazil",
       "Argentina"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Brazil is called the Coffee Pot of the World.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q72",
@@ -444319,14 +444443,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Budapest",
       "Venice"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "London is often referred to as Modern Babylon.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q73",
@@ -444344,17 +444470,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Thailand",
       "Vietnam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Thailand is known as the Land of White Elephants.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q74",
@@ -444372,17 +444497,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Brussels",
       "Stockholm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Nobel Peace Prize is awarded in Oslo.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q75",
@@ -444400,14 +444524,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Peace",
       "Economics"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Denis Mukwege and Nadia Murad received the 2018 Nobel Peace Prize.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q76",
@@ -444425,14 +444551,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Dark Skull",
       "Angels Wear White"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "‘Donbass’ won the Golden Peacock for Best Film at IFFI 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q77",
@@ -444450,14 +444578,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Miss Universe 2018",
       "Miss World 2018"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vanessa Ponce de León was crowned Miss World 2018.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q78",
@@ -444475,14 +444605,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Sonia Gandhi",
       "The Centre for Science and Environment (CSE)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Centre for Science and Environment received the 2018 Indira Gandhi Prize.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q79",
@@ -444500,14 +444632,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Anna Burns",
       "Colin Thubron"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Anna Burns won the 2018 Man Booker Prize for ‘Milkman’.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q80",
@@ -444525,14 +444659,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "National Tiger Conservation Authority",
       "The Wildlife Crime Control Bureau"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Wildlife Crime Control Bureau received the 2018 Asia Environment Enforcement Award.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q81",
@@ -444551,13 +444687,14 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "AH Taylor"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The listed options do not give a clearly correct inventor: David Edward Hughes is credited with the practical microphone, while Wheatstone coined the term and is likely the intended exam answer.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Defective/disputed attribution; no uniquely reliable correct option (Hughes is absent)."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q82",
@@ -444575,17 +444712,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Ritcher Scale",
       "Bar Codes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Evangelista Torricelli invented the barometer.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q83",
@@ -444603,17 +444739,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Tasman",
       "Kepler"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Roald Amundsen was first to reach the South Pole.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q84",
@@ -444631,17 +444766,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Mc Collum",
       "William Harvey"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Alexander Fleming discovered penicillin.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q85",
@@ -444659,17 +444793,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "AH Taylor",
       "Shepherd- Barron"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "John Shepherd-Barron invented the ATM.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q86",
@@ -444687,17 +444820,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Bharat",
       "Ujala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "UMANG is the government-services app launched by the Prime Minister.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q87",
@@ -444715,17 +444847,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "CPU",
       "ALU"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The CPU is commonly called a computer system’s brain.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q88",
@@ -444743,17 +444874,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "OCR",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "OMR is used to check objective-type answer sheets.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q89",
@@ -444771,17 +444901,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "1023 bytes",
       "10000 bytes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A kilobyte is conventionally treated as 1,024 bytes in this question’s options.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q90",
@@ -444799,17 +444928,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "INDEXING",
       "PROLOG"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Prolog is a language associated with artificial-intelligence programming.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q91",
@@ -444827,17 +444955,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Unix",
       "Windows"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Internet is the odd item because Linux, Unix and Windows are operating systems.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q92",
@@ -444855,17 +444982,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Shut down",
       "Warm booting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Restarting a computer that is already on is a warm boot.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q93",
@@ -444883,17 +445009,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Controlling",
       "Indexing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A parity bit is added for error detection.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q94",
@@ -444911,17 +445036,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Assembler",
       "Modem"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A modem enables computer communication over telephone lines.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q95",
@@ -444939,14 +445063,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Liveware",
       "Firmware"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Computer parts that can be physically touched are hardware.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q96",
@@ -444964,17 +445090,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "FTP",
       "URL"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Web pages are written using HTML.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q97",
@@ -444992,14 +445117,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Wipro",
       "TCS"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "IBM is nicknamed Big Blue.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q98",
@@ -445017,17 +445144,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "BSD Unix",
       "Microsoft Office XP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Microsoft Office XP is application software, not an operating system.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q99",
@@ -445045,14 +445171,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Mini computer",
       "Desk top"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A laptop is portable and easy for travellers to carry.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-gk-Q100",
@@ -445070,14 +445198,16 @@ const groupBQuestionsPart53: BankQuestion[] = [
       "Fibre disk",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A CD-ROM is an optical disk.",
     "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/ada-aa-ata-2019-gk.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p1-B1",
@@ -484224,14 +484354,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Hugli",
       "Murshidabad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Hugli was the largest English settlement before Calcutta.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q2",
@@ -484247,16 +484379,18 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The freedom to export and import their goods in Bengal without paying customs dues",
       "Permission to rent additional territory around Calcutta",
       "Exemption from payment of all customs and duties at Surat",
-      "Free currency granted throughout the Mughal dominion tot the company’s coin minted at Bombay"
+      "Free currency granted throughout the Mughal dominion to the company’s coin minted at Bombay"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The duty-free trade privilege was the central dispute.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q3",
@@ -484274,14 +484408,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "As a measure of defiance against the weak political and military authority of the Nawab",
       "In order to strengthen their establishment in Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The stated justification was preparation for conflict with France.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q4",
@@ -484299,14 +484435,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The superior military tactics of the English",
       "His lack of energy and decision"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Court conspiracies undermined Siraj-ud-Daulah.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q5",
@@ -484324,14 +484462,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Robert Clive and Madhav Rao",
       "The English and the Baji Rao II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Warren Hastings and Mahadji Scindia concluded the Treaty of Salbai.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q6",
@@ -484349,14 +484489,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Balaji Bajirao",
       "Ragunath Rao"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Madhav Rao I restored Maratha fortunes after Panipat.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q7",
@@ -484374,14 +484516,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The Angrias",
       "The siddis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Angrias developed the Maratha navy.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q8",
@@ -484399,14 +484543,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "1836",
       "1839"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The subsidiary treaty with Sindh’s Amirs was signed in 1839.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q9",
@@ -484424,14 +484570,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Inherent defects of Indian army and state organization",
       "Lack of adequate preparation for the confrontation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The question points to weaknesses in Indian military and state organization.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q10",
@@ -484445,18 +484593,20 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "question": "The worst feature of the Dual Government in Bengal was that :",
     "options": [
       "Maintenance of law and order was nobody’s responsibility",
-      "The English began to enjoy rights without respobnsibilities",
+      "The English began to enjoy rights without responsibilities",
       "The poor peasantry of Bengal was auctioned to the revenue bidder",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "All three listed problems are presented as features of Dual Government.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q11",
@@ -484474,14 +484624,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Lord Cornwallis",
       "Lord Hastings"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Warren Hastings was Bengal’s first Governor-General.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q12",
@@ -484499,14 +484651,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "1801",
       "1802"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Awadh signed its subsidiary treaty in 1801.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q13",
@@ -484524,17 +484678,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Lord Ellenborough",
       "Lord Hardinge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lord Dalhousie introduced the Doctrine of Lapse.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q14",
@@ -484552,14 +484705,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The English tried to play one South Indian power against another in order to prevent them from",
       "The English captured Mahe, the source of Hyder’s military supplies"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The English capture of Mahe provoked Hyder Ali.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q15",
@@ -484577,14 +484732,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The Hills of the Punjab",
       "Kabul"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sikhs took refuge in the Punjab hills.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q16",
@@ -484602,14 +484759,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Shuja-Ud-Daula",
       "Asaj-Ud-Daula"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Saadat Khan founded Awadh’s autonomous kingdom.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q17",
@@ -484627,14 +484786,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The treaty of February 1765 with Nizam-ud-Daula",
       "The imperial grant of the Diwani of Bengal, Bihar and Orissa by Shah Alam II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Shah Alam II’s Diwani grant legalized Company control.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q18",
@@ -484652,14 +484813,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The Village communities",
       "The Muqadams"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Permanent Settlement was made with zamindars.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q19",
@@ -484677,14 +484840,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The fall of the native governments had to reduced the avenues of employment",
       "The urban population began to migrate to the rural areas for security reasons"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The decline of handicrafts pushed people toward agriculture.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q20",
@@ -484702,14 +484867,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Heavy assessment of land revenue",
       "Fundamental changes in the structure of rural society"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Heavy land-revenue assessments impoverished peasants.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q21",
@@ -484727,14 +484894,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Keyne’s Theory of Income and Employment",
       "The Ricardian theory of Income and Employment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The question refers to Ricardo’s theory of rent.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q22",
@@ -484752,14 +484921,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Making the debtor sign for larger accounts than he had borrowed",
       "High rate of interest on loans"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "High loan interest contributed to persistent indebtedness.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q23",
@@ -484777,14 +484948,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Due to export of raw cotton there was acute scarcity of cotton",
       "Cash crops like indigo and opium"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Weavers were forced to sell at prices dictated by the Company.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q24",
@@ -484802,14 +484975,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Ill – Health of the people",
       "Increase in the incidence of famines"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Impoverishment was accompanied by increased famines.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q25",
@@ -484827,17 +485002,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Sub-Infeudation",
       "Cultivation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Landlordism encouraged sub-infeudation.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q26",
@@ -484855,14 +485029,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "High rate of Taxation",
       "Absence of technological breakthrough"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Chronic poverty limited cultivators’ ability to invest.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q27",
@@ -484880,14 +485056,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Building of Railways",
       "Pressure on agriculture"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Pressure on agriculture weakened rural artisan industries.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q28",
@@ -484905,14 +485083,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Bankers",
       "Brokers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Indigenous bankers were among mercantile groups that declined.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q29",
@@ -484930,14 +485110,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Export trade in agricultural produce",
       "Manufacture and sale of salt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "European merchants dominated agricultural-produce exports.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q30",
@@ -484955,14 +485137,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "To help establish the monopoly of the company and its servants over inland trade",
       "To realize the maximum possible revenues from regulation and control of Indian trade"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The measures aimed to secure Company and servant control of inland trade.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q31",
@@ -484980,14 +485164,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "To buy cheaply raw materials for the home industries and to sell dearly its manufactured goods",
       "To secure the monopoly of Indian exports for the home country and its subjects."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Colonial policy sought cheap raw materials and a market for British manufactures.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q32",
@@ -485005,14 +485191,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "1853",
       "1793"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Company’s Indian-trade monopoly ended in 1813.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q33",
@@ -485030,14 +485218,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Import of mill-made textiles and woolens",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The question treats all three listed channels as contributing to the drain.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q34",
@@ -485055,14 +485245,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The cotton textile industry",
       "The jute mills"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Railways, banking, insurance and shipping drew the largest British investment.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q35",
@@ -485080,14 +485272,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Agriculture remained almost the sole occupation of the masses",
       "Foreign capital flowed into all branches of India’s economic life"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Indian economy was subordinated to colonial interests.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q36",
@@ -485105,14 +485299,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Coal Mining",
       "Sugar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Indians had a substantial share in cotton textiles from the beginning.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q37",
@@ -485130,14 +485326,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Invention of a synthetic dye",
       "A slump in the world market on account of general"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Synthetic dye displaced natural indigo.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q38",
@@ -485155,14 +485353,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "R.P Dutt",
       "Karl Marx"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "R. P. Dutt set out the successive phases of colonialism.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q39",
@@ -485180,14 +485380,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Kulinism",
       "Degrading position of women"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Raja Ram Mohan Roy campaigned against sati.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q40",
@@ -485205,14 +485407,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Sibnath Sastri",
       "Debendranath Tagore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Keshab Chandra Sen’s guidance is the intended answer.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q41",
@@ -485230,14 +485434,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Henry Vivian Derozio",
       "Peary Chand Mitra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Henry Vivian Derozio inspired Young Bengal.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q42",
@@ -485255,14 +485461,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Tribal Uprisings",
       "Peasant movements and agrarian uprisings"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Constitutional agitation was not a form of resistance before 1857.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q43",
@@ -485273,21 +485481,23 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "The play Nil Darpan (1860) of the famous Bengali writer Dinbandhu Mitra portrays the oppression of",
+    "question": "The play Nil Darpan (1860) of the famous Bengali writer Dinbandhu Mitra portrays the oppression by",
     "options": [
       "The artisans",
       "The handloom weavers",
       "The common man",
       "The Indigo planters"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Nil Darpan depicts oppression by indigo planters.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q44",
@@ -485305,14 +485515,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Landlords",
       "Foreign planters"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Moplah rebellions targeted landlord oppression.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q45",
@@ -485330,14 +485542,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "The Arms Act of 1878",
       "The Vernacular Press Act"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Ilbert Bill controversy sharpened racial divisions.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q46",
@@ -485355,14 +485569,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Ehrar League",
       "Deoband Movement"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Deoband movement is the intended organization.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q47",
@@ -485380,14 +485596,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Sachindranath Sanyal",
       "Sohan Lal Pathak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rasbehari Bose planned the attack on Lord Hardinge.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q48",
@@ -485405,14 +485623,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Non-Cooperation",
       "Swadeshi and Boycott"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Swadeshi and boycott were used against Bengal’s partition.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q49",
@@ -485430,14 +485650,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "A.D Savarkar",
       "Pulin Bihari Das"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A. D. Savarkar organized Abhinava Bharat.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q50",
@@ -485455,14 +485677,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Ahmadabad Mill Strike",
       "Anti- Rowlatt Act Agitation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Champaran was Gandhi’s first Satyagraha in India.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q51",
@@ -485480,14 +485704,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Rakhine state",
       "Shan state"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rohingya Muslims are primarily from Rakhine State.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q52",
@@ -485506,13 +485732,14 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Jeff Bezos"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Hold: Mukesh Ambani, Jack Ma and Jeff Bezos all appear to be listed among Foreign Policy’s 2019 Global Thinkers, so multiple options are defensible.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Hold: Mukesh Ambani, Jack Ma and Jeff Bezos all appear to be listed among Foreign Policy’s 2019 Global Thinkers, so multiple options are defensible."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q53",
@@ -485530,14 +485757,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Chennaiyin FC",
       "FC Goa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jeje Lalpekhlua was playing for Chennaiyin FC.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q54",
@@ -485552,17 +485781,19 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "options": [
       "Karnataka",
       "Kerala",
-      "Andra Pradesh",
+      "Andhra Pradesh",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kerala introduced a “fat tax.”",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q55",
@@ -485580,14 +485811,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Deepika Padukone",
       "Katrina Kaif"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Priyanka Chopra was UNICEF’s Global Goodwill Ambassador.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q56",
@@ -485605,14 +485838,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "UNICEF",
       "WHO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "UNICEF publishes the State of the World’s Children report.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q57",
@@ -485630,14 +485865,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Delhi",
       "Hyderabad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "DRDO is headquartered in Delhi.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q58",
@@ -485655,14 +485892,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Delhi Dynmos",
       "Chennayin City FC"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "FC Goa won the 2019 Super Cup.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q59",
@@ -485680,14 +485919,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Australia",
       "China"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The cloned cashmere goat was born in China.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q60",
@@ -485705,14 +485946,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Hockey",
       "Wrestling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mission XI Million promoted football.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q61",
@@ -485731,13 +485974,14 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "India"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Hold: Bangladesh, Thailand, Bhutan and India are all BIMSTEC members; no listed choice is correct.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Hold: Bangladesh, Thailand, Bhutan and India are all BIMSTEC members; no listed choice is correct."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q62",
@@ -485755,14 +485999,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "March 14",
       "April 4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "World Cancer Day is February 4.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q63",
@@ -485780,14 +486026,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "TS Thakur",
       "Dipak Misra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ranjan Gogoi was CJI when the paper was set.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q64",
@@ -485805,14 +486053,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Portugal",
       "Argentina"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "António Guterres is from Portugal.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q65",
@@ -485830,14 +486080,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Tripura",
       "Arunachal Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sikkim allowed people to forge fraternal ties with trees.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q66",
@@ -485855,14 +486107,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Arun Jaitley",
       "Sushma Swaraj"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nirmala Sitharaman was Defence Minister in April 2019.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q67",
@@ -485880,14 +486134,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Uruguay",
       "Mexico"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Uruguay was the first country to legalize regulated marijuana production and sale.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q68",
@@ -485905,14 +486161,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Canada",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2018 G7 Foreign Ministers’ meeting was in Canada.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q69",
@@ -485930,14 +486188,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "12th April",
       "13th April"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "World Homeopathy Day is April 10.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q70",
@@ -485955,14 +486215,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "China",
       "Vietnam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "China is the intended answer based on Amnesty’s estimate; its execution figures are secret and excluded from confirmed totals.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q71",
@@ -485980,14 +486242,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Indian Bank",
       "Bank of Baroda"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "SBI powered the Bharat Ke Veer contribution platform.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q72",
@@ -486005,14 +486269,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Haryana",
       "Gujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Haryana launched Operation Durga.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q73",
@@ -486030,14 +486296,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Priyanka Chopra",
       "Catriona Gray"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Vanessa Ponce won Miss World 2018.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q74",
@@ -486055,14 +486323,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Kochi, Kerala",
       "Imphal, Manipur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The film festival opened in Visakhapatnam.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q75",
@@ -486080,14 +486350,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Sridevi",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sridevi received the 2018 National Film Award for Best Actress.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q76",
@@ -486105,14 +486377,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Matthew Desmond",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Colson Whitehead won the 2017 Pulitzer for The Underground Railroad.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q77",
@@ -486130,14 +486404,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "US President Donald Trump",
       "Aung Shan Shu Kyi of Myanmar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Narendra Modi was reported as the most-followed world leader on Instagram.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q78",
@@ -486155,14 +486431,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "March 8",
       "March 10"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "International Women’s Day is March 8.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q79",
@@ -486180,14 +486458,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "5th March",
       "6th June"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "World No Tobacco Day is May 31.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q80",
@@ -486205,14 +486485,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Simona Halep",
       "Naomi Osaka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Naomi Osaka won the 2018 US Open women’s singles title.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q81",
@@ -486230,14 +486512,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Shanghai",
       "Xiamen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Xiamen hosted the 2017 BRICS Summit.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q82",
@@ -486255,14 +486539,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "North Korea",
       "South Korea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "North Korea conducted the September 2017 hydrogen-bomb test.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q83",
@@ -486280,14 +486566,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Newton",
       "Jolly LLB 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Newton was India’s 2018 Oscar foreign-language submission.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q84",
@@ -486305,14 +486593,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "104th",
       "110th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India ranked 103rd in the 2018 Global Hunger Index.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q85",
@@ -486330,14 +486620,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "26",
       "28"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "MNF won 26 seats in the 2018 Mizoram election.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q86",
@@ -486355,14 +486647,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "4th October",
       "11th October"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "International Day of the Girl Child is October 11.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q87",
@@ -486380,14 +486674,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Iceland",
       "Kosovo"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Iceland was the smallest country by population to qualify for the 2018 World Cup.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q88",
@@ -486405,14 +486701,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Madhya Pradesh",
       "Gujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Rajasthan was reported as first to incorporate skill development into higher education.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q89",
@@ -486430,14 +486728,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Hamid Ansari",
       "Venkaiah Naidu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pranab Mukherjee wrote The Coalition Years: 1996–2012.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q90",
@@ -486455,14 +486755,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "26th October",
       "30th October"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "United Nations Day is October 24.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q91",
@@ -486480,14 +486782,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "David Foster Wallace",
       "Colson Whitehead"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Anna Burns won the 2018 Man Booker Prize.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q92",
@@ -486505,14 +486809,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Tawnluia",
       "Lalchhandama Ralte"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lalchhandama Ralte held the portfolio after the 2018 Mizoram election.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q93",
@@ -486530,14 +486836,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Indonesia",
       "Vietnam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Singapore hosted the 2018 ASEAN Summit.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q94",
@@ -486555,14 +486863,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "India",
       "Japan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "India won the 2017 Women’s Asia Cup Hockey title.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q95",
@@ -486580,14 +486890,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Brazil",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The United States withdrew from UNESCO in support of Israel.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q96",
@@ -486605,14 +486917,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Environment",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "2018 was the International Year of Sustainable Tourism for Development.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q97",
@@ -486630,14 +486944,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "China",
       "Norway"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Norway was the first country to shut down FM radio broadcasting.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q98",
@@ -486656,13 +486972,14 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Chennai"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Hold: the wording is imprecise, historical claims vary by whether it means first Wi-Fi hotspots or a Wi-Fi-enabled city, and the options omit Bengaluru, often cited for the first free public Wi-Fi hotspots.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Hold: the wording is imprecise, historical claims vary by whether it means first Wi-Fi hotspots or a Wi-Fi-enabled city, and the options omit Bengaluru, often cited for the first free public Wi-Fi hotspots."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q99",
@@ -486680,14 +486997,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Roger Federer",
       "Grigor Dimitrov"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Roger Federer won the 2018 Australian Open men’s singles title.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q100",
@@ -486705,14 +487024,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "2019",
       "2016"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Trump announced recognition of Jerusalem as Israel’s capital in 2017.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q1",
@@ -486730,14 +487051,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "C R Das",
       "M N Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "C. R. Das praised Aurobindo in those terms.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q2",
@@ -486755,17 +487078,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Protection of the minorities",
       "Welfare of all sections of the society"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Sarvodaya means welfare/uplift of all.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q3",
@@ -486783,17 +487105,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Subhash Bose",
       "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Aurobindo articulated the nationalist principle “no control, no co-operation.”",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q4",
@@ -486811,17 +487132,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Dispersal of political power",
       "Comparatively less expensive election"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Partyless democracy sought accountability and less costly elections; “maximum propaganda” is not a feature.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q5",
@@ -486839,17 +487159,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Rabindranath Tagore",
       "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Savitri is Sri Aurobindo’s epic poem.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q6",
@@ -486867,17 +487186,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "B R Ambedkar",
       "Vivekananda"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The statement is attributed to M. N. Roy.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q7",
@@ -486895,17 +487213,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "President",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The President may remove a Governor.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q8",
@@ -486923,14 +487240,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Assam, Meghalaya, Arunachal Pradesh and Nagaland",
       "Assam, Meghalaya, Mizoram and Nagaland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Sixth Schedule applies in Assam, Meghalaya, Tripura and Mizoram.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q9",
@@ -486948,17 +487267,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Advisory Jurisdiction",
       "Writ Jurisdiction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Centre–State disputes fall under the Supreme Court’s original jurisdiction (Article 131).",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q10",
@@ -486976,17 +487294,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Either of the two houses of the parliament",
       "Joint sitting if the two houses of the parliament"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A Vice-President removal resolution must originate in the Rajya Sabha.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q11",
@@ -487004,17 +487321,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Quo Warranto",
       "Certiorari"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mandamus literally means “we command.”",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q12",
@@ -487032,14 +487348,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Fundamental Rights",
       "Judicial Review"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Judicial review is part of the Constitution’s basic structure and cannot be abrogated.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q13",
@@ -487057,17 +487375,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Vested subjects and Residual subjects",
       "General subjects and Concurrent subjects"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 1919 Act divided provincial subjects into reserved and transferred subjects.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q14",
@@ -487085,17 +487402,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "16",
       "22"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Eighth Schedule originally listed 14 languages.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q15",
@@ -487113,17 +487429,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Chairman of Public Accounts Committee",
       "Prime Minister"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The CAG audits public expenditure and is called guardian of the public purse.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q16",
@@ -487141,17 +487456,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both 1 & 2",
       "Neither 1 nor 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Both High Courts and the Supreme Court exercise appellate jurisdiction.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q17",
@@ -487169,17 +487483,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "2 only",
       "1 and 2"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Statements 2 and 3 are correct; Panchayat elections are conducted by State Election Commissions.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q18",
@@ -487197,17 +487510,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "325",
       "326"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Article 326 provides for adult suffrage.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q19",
@@ -487225,17 +487537,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Reporting the working of the village Panchayats",
       "Investigating the feasibility of setting up new Panchayat machinery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The committee reviewed the Community Development Programme and National Extension Service to improve implementation.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q20",
@@ -487253,17 +487564,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "State list",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Economic planning is in the Concurrent List.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q21",
@@ -487281,17 +487591,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "A financial emergency",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 359 applies during a Proclamation of Emergency.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q22",
@@ -487309,17 +487618,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Point of Order",
       "Calling Attention Motion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "This is called yielding the floor.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q23",
@@ -487337,17 +487645,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Sikkim",
       "Goa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In April 2019, Jammu and Kashmir had its own state constitution.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q24",
@@ -487365,17 +487672,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "30 years",
       "35 years of age"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A presidential candidate must be at least 35 years old.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q25",
@@ -487393,17 +487699,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Protest by blocking shop entrances",
       "Boycott of cloths and goods"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Picketing involved blocking shop entrances as protest.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q26",
@@ -487421,17 +487726,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Mill owners",
       "Salt tax"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Champaran Satyagraha challenged indigo planters’ exploitation.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q27",
@@ -487449,17 +487753,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Panchayati Raj Assemblies",
       "Cabinet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Constitutional reservation for women in this period applied to Panchayati Raj institutions.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q28",
@@ -487477,17 +487780,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Wheel of authority",
       "Wheel of the law"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Ashoka Chakra represents the Dharma Chakra, or wheel of law.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q29",
@@ -487505,17 +487807,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Krupalani",
       "Vallabhai Patel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Vallabhbhai Patel chaired the Constituent Assembly’s Advisory Committee.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q30",
@@ -487533,17 +487834,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "U.K Constitution",
       "U.S.S.R Constitution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Emergency provisions were drawn from the Weimar Constitution of Germany.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q31",
@@ -487561,17 +487861,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Law Ministry",
       "President with advice of a collegium of judges."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The President appoints High Court judges after the prescribed constitutional consultations; option A is the intended choice.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q32",
@@ -487589,17 +487888,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Right against exploitation",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Article 15 falls under the Right to Equality.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q33",
@@ -487617,17 +487915,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Right to protest",
       "Right to speak"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 44th Amendment removed the Right to Property from the list of Fundamental Rights.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q34",
@@ -487646,7 +487943,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Article 45"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held: Article 21A (the present guarantee for free compulsory education ages 6–14) is absent; Article 45 now concerns early childhood care and education below age 6.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
@@ -487655,7 +487952,8 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held: Article 21A (the present guarantee for free compulsory education ages 6–14) is absent; Article 45 now concerns early childhood care and education below age 6."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q35",
@@ -487673,17 +487971,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Communist Party of India",
       "Bahujan Samaj Party"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Indian National Congress, founded in 1885, is the oldest listed party.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q36",
@@ -487701,17 +487998,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "January 1, 1997",
       "January 1, 1999"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Constitution was adopted on 26 November 1949.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q37",
@@ -487729,17 +488025,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Parties which have unit in two states",
       "Parties which have unit in all states."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "National parties operate across multiple states; option A is the closest offered definition.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q38",
@@ -487750,24 +488045,23 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "All India Muslim League was founded in 1907 under:",
+    "question": "All India Muslim League was founded in 1906 under:",
     "options": [
-      "Asha Khan",
+      "Aga Khan",
       "Nawab Salimullah of Dacca",
       "Nawab Mohsin-Ul-Mulk",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "After correcting the scan’s errors (founding year 1907→1906 and “Asha Khan”→“Aga Khan”), all listed figures are associated with the League’s founding; D is intended.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q39",
@@ -487785,17 +488079,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Capitalist economy",
       "Controlled economy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India adopted a mixed economy.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q40",
@@ -487813,17 +488106,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "April 1, 1933",
       "April 1, 1951"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Reserve Bank of India began operations on 1 April 1935.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q41",
@@ -487841,17 +488133,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "2008",
       "2007"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "MGNREGS was launched in 2006.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q42",
@@ -487869,17 +488160,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Easy KYC Norms",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "No-frills accounts, general credit cards and simplified KYC all promote financial inclusion.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q43",
@@ -487897,17 +488187,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "June 1, 2017",
       "September 1, 2017"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "GST took effect on 1 July 2017.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q44",
@@ -487925,14 +488214,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Foreign Direct Investment",
       "Import Policy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The SOP referred to approval procedures for foreign direct investment proposals.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q45",
@@ -487950,17 +488241,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Third position",
       "Fourth position"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India ranked first in the 2017 Global Retail Development Index.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q46",
@@ -487978,17 +488268,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "June 16, 2017",
       "August 16, 2017"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Daily fuel-price revision began nationwide on 16 June 2017.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q47",
@@ -488006,17 +488295,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "50 developing countries",
       "5 developed countries"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 2017 Swiss proposal covered India and 40 other states/territories.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q48",
@@ -488031,20 +488319,19 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "options": [
       "High Yielding Variety of Seeds (HYVS)",
       "Chemical Fertilizers",
-      "New Technolog",
+      "New Technology",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Green Revolution combined high-yielding seeds, fertilizers and new technology.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q49",
@@ -488062,17 +488349,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Increasein agricultural credit.",
       "Maximisation of foodgrains output"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Evergreen Revolution emphasizes sustainable productivity growth.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q50",
@@ -488090,17 +488376,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Agricultural price-setting considers both production costs and ruling prices.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q51",
@@ -488118,17 +488403,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Competitive agricultural trade",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The listed supply, demand and competition factors all contribute to unfavorable agricultural terms of trade.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q52",
@@ -488146,17 +488430,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Partial and Complete Budgeting",
       "Income and Expenditure Budgeting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Farm budgets are commonly classified as partial and complete.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q53",
@@ -488174,14 +488457,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "2.0 per cent",
       "4.00 per cent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Official first-half 2016–17 estimates put agriculture and allied-sector growth at 2.5%.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q54",
@@ -488199,17 +488484,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Faster, more inclusive and sustainable growth",
       "Healthy inter-dependence between agriculture and industry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Twelfth Plan’s theme was faster, more inclusive and sustainable growth.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q55",
@@ -488227,17 +488511,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Debt is mounting",
       "Expenditure is met from borrowing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Revenue deficit occurs when revenue expenditure exceeds revenue receipts.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q56",
@@ -488255,17 +488538,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "To eliminate counterfeit currency and terror funding",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The listed aims were all stated objectives of demonetisation.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q57",
@@ -488283,17 +488565,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "To remove restriction on Direct Foreign Investment.",
       "To upgrade Public Enterprises."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The question’s intended “not an objective” choice is upgrading public enterprises; the policy focused on deregulation, liberalisation and foreign investment.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q58",
@@ -488311,17 +488592,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The inter-bank market covers funds at call and short notice.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q59",
@@ -488339,17 +488619,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Transition from a semi-closed economy to an open economy.",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "All three are recognized effects of the economic reforms.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q60",
@@ -488367,17 +488646,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Traders and Commission Agents",
       "Commercial Banks"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Traders and commission agents are non-institutional credit sources.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q61",
@@ -488395,17 +488673,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Agricultural price policy seeks both price stability and increased marketable surplus.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q62",
@@ -488423,17 +488700,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Present position of existing technology",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Adoption depends on social openness, education and existing technology.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q63",
@@ -488451,17 +488727,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Constant",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Agriculture’s share of national income has declined over time.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q64",
@@ -488479,17 +488754,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Improved variety of seeds",
       "Extension of Irrigation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Reducing population pressure is not a component of the New Agricultural Strategy.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q65",
@@ -488507,17 +488781,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Non-Core sector",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Commission’s classification included strategic, core and non-core enterprises.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q66",
@@ -488533,16 +488806,18 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Basic Industries",
       "Capital-intensive Industries",
       "Capital Goods Industries",
-      "High Technology Industrie"
+      "High Technology Industries"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The listed 1977 large-scale areas included basic, capital-goods and high-technology industries, not capital-intensive industries.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q67",
@@ -488560,17 +488835,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Social implication of its price policy",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Public-enterprise prices reflect profitability, government control and social effects.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q68",
@@ -488588,17 +488862,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both public and private sectors",
       "The Joint Sector"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Monopolies Inquiry Commission examined concentration and restrictive practices in the private sector.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q69",
@@ -488617,7 +488890,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Judicial Power"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held: the stem does not specify the kind of practice. MRTP had recommendatory functions for monopolistic-practice matters and direct order-making powers for restrictive/unfair practices, so both B and C can fit.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
@@ -488626,7 +488899,8 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held: the stem does not specify the kind of practice. MRTP had recommendatory functions for monopolistic-practice matters and direct order-making powers for restrictive/unfair practices, so both B and C can fit."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q70",
@@ -488637,24 +488911,23 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "The major overhaul of Trade Policy on Huly, 1991 entails :",
+    "question": "The major overhaul of Trade Policy on July, 1991 entails :",
     "options": [
       "Suspension of Cash Compensatory Support",
       "Abolition of unlisted OGL",
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The July 1991 trade-policy overhaul included both measures.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q71",
@@ -488672,17 +488945,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "has not shown any change",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Post-reform balance-of-payments trends show reduced reliance on external assistance and commercial borrowing.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q72",
@@ -488700,17 +488972,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Conferment of ownership to tenants",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Tenancy reforms include rent regulation, security of tenure and ownership rights.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q73",
@@ -488728,17 +488999,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Mala fide transfers and compensation/allotment issues both impeded land-ceiling implementation.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q74",
@@ -488756,17 +489026,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Industry provides agricultural tools",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Agriculture provides raw materials and labour, while industry supplies farm tools.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q75",
@@ -488784,17 +489053,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Both (a ) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Both food-grain production and horticultural output increased in the period described.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q76",
@@ -488812,17 +489080,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Pamir",
       "Himachal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Pamir Knot links the Himalayas with Central Asia’s high ranges.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q77",
@@ -488840,17 +489107,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Aral sea",
       "Arabian sea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Tethys Sea lay between Angaraland and Gondwanaland.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q78",
@@ -488868,17 +489134,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Trans-Himalayas",
       "Lesser Himalayas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Trans-Himalayan ranges lie north of the Great Himalaya.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q79",
@@ -488896,17 +489161,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Cauvery",
       "Tlawng"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Ganga is the only major Himalayan river system among these options.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q80",
@@ -488924,17 +489188,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Indus",
       "Tapti"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Indus is a major global drainage system whose headwaters rise in the Tibetan region adjoining India.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q81",
@@ -488952,17 +489215,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Normal temperature",
       "Extremely high temperature"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Winter cooling produces high pressure over north-west India.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q82",
@@ -488980,17 +489242,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "India Meteorological Department",
       "Agriculture Department"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Central Water Commission’s predecessor began scientific flood forecasting in 1958.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q83",
@@ -489008,17 +489269,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Intra-zonal",
       "Lateritic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Extra-Peninsular soils are transported/azonal soils.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q84",
@@ -489036,17 +489296,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Moist Tropical Forest",
       "Alpine Forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Littoral and swamp forests are moist tropical forests.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q85",
@@ -489064,17 +489323,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Damodar",
       "Cauvery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Damodar crosses the mineral-rich Chota Nagpur region.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q86",
@@ -489093,7 +489351,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Nordics"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held: this uses an obsolete racial typology and omits groups commonly identified as earliest inhabitants (such as Negrito/Pre-Dravidian); no uniquely defensible answer among the listed categories.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
@@ -489102,7 +489360,8 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Held: this uses an obsolete racial typology and omits groups commonly identified as earliest inhabitants (such as Negrito/Pre-Dravidian); no uniquely defensible answer among the listed categories."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q87",
@@ -489120,14 +489379,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Gonds",
       "Mundas"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Adivasi means original inhabitants and is the intended collective term.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q88",
@@ -489145,17 +489406,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "West Bengal",
       "Bihar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "West Bengal has the largest Scheduled Caste population among the listed states.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q89",
@@ -489173,17 +489433,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Culturable waste",
       "Land not available for cultivation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Fallow land remains cultivable, though temporarily left uncropped.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q90",
@@ -489201,17 +489460,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Plantation agriculture",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Subsistence farming is the predominant agricultural practice in India.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q91",
@@ -489229,17 +489487,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "North-western belt",
       "North-eastern Peninsular Belt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The north-eastern Peninsular belt around the Chota Nagpur plateau is India’s richest mineral belt.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q92",
@@ -489257,17 +489514,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Raw material",
       "Insurance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Raw-material availability is a geographical location factor.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q93",
@@ -489285,17 +489541,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Slow industrial development",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Industrial policy aims at rapid industrial development.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q94",
@@ -489313,17 +489568,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "1996",
       "2017"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India’s first industrial policy statement was issued in 1948.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q95",
@@ -489341,17 +489595,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Regional Trade",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Trade between regions within one country is inter-regional trade.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q96",
@@ -489369,17 +489622,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Creation of skilled wage employment oppurtunities",
       "Financial support for higher education"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Financial support for higher education is not a national urbanisation-policy objective in this list.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q97",
@@ -489397,17 +489649,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Hamlet",
       "Dispersed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A village-to-hamlet ratio below one-half defines dispersed settlements.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q98",
@@ -489425,17 +489676,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Telangana",
       "Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Telangana was formed in 2014.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q99",
@@ -489453,17 +489703,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Bali",
       "Lombok"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Strait of Malacca is the main shipping passage linking the Indian and Pacific Oceans for Asian trade.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q100",
@@ -489481,17 +489730,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Kargil",
       "Arunachal Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The June 2017 India–China confrontation occurred at Doklam near the India–China–Bhutan trijunction.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q1",

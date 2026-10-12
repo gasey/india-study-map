@@ -58427,7 +58427,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "infants and toddlers"
     ],
     "answerIndex": 3,
-    "explanation": "The passage centers on the risks facing infants and toddlers, especially their vulnerability from before birth through preschool.",
+    "explanation": "The passage focuses on conditions affecting infants and toddlers.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58456,7 +58456,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "more children raised by single parents"
     ],
     "answerIndex": 2,
-    "explanation": "The passage identifies low-birth-weight babies as a risk; normal-weight newborns are not.",
+    "explanation": "Normal birth weight is not a crisis factor; the passage reports a higher proportion of low-birth-weight babies.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58484,16 +58484,18 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "in the U.S the number of infants living in poverty is about 3 millions",
       "more than 25 per cent of all births are to unwed mothers"
     ],
-    "answerIndex": 1,
-    "explanation": "The passage reports foster-care entries rose from 1987 to 1991, so the offered decrease is the intended false statement.",
+    "answerIndex": -1,
+    "explanation": "The passage gives no information about foster-care numbers after 1991. Option (b), “has decreased after 1991,” is unsupported rather than contradicted; the question asks which statement is not true, so the text does not establish a unique answer.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "sourceReviewed": true,
+    "sourceNote": "Held because the passage does not provide enough evidence to determine a unique statement.",
     "direction": "Directions for questions 1 - 8: Read the given passage carefully and choose the correct answer",
     "passage": "Though the U.S prides itself on being a leader in the world community, a recent report shows that it lags far behind other industrialised countries in meeting the needs of its youngest and most vulnerable citizens. The U.S has a higher infant-mortality rate, a higher proportion of low birth weight babies, a smaller proportion of babies immunized against childhood diseases and a much higher rate of adolescent pregnancies. These findings, described as a ‘quiet crisis’requiring immediate and far-reaching action, appeared in a report prepared by a task force of educators, doctors, politicians and business people. According to the report, a fourth of the nation’s 12 million infants and toddlers live in poverty. As many as half confront risk factors that could harm their ability to develop intellectually, physically and socially. Child immunizations are too low, more children are born into poverty, more are in substandard care while their parents work and more are being raised by single parents. When taken together, these and other risk factors can lead to educational and health problems that are much harder and are more costly to reverse. The crisis began in the womb with unplanned parenthood. Women with unplanned pregnancies are less likely to seek pre-natal care. In the U.S 80% of teenage pregnancies and 56% of all pregnancies are unplanned. The problems continue after birth where unplanned pregnancies and unstable partnerships often go hand in hand. Since 1950, the number of single parent families has nearly tripled. More than 25 percent of all births today are to unmarried mothers. As the number of single parent families grow and more women enter the work force, infants and toddlers are increasingly in the care of people other than their parents. Most disturbingly, recent statistics show that American parents are increasingly neglecting or abusing their children. In only four years from 1987-1991, the number of children in foster care increased by over 50 percent. Babies under the age of one are the fastest growing category of children entering foster care. The crisis affects children under the age of three most severely, the report says. Yet, it is this period-from infancy through pre-school years-that sets the stage for child’s future."
   },
@@ -58543,7 +58545,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "only B"
     ],
     "answerIndex": 2,
-    "explanation": "Poverty and inadequate parental care are described as risks; parental illiteracy is not.",
+    "explanation": "The passage identifies lack of adequate care and poverty among risk factors; it does not identify parental illiteracy.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58572,7 +58574,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "parents are immature"
     ],
     "answerIndex": 0,
-    "explanation": "Women with unplanned pregnancies are said to be less likely to seek prenatal care.",
+    "explanation": "It says women with unplanned pregnancies are less likely to seek prenatal care.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58600,8 +58602,8 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "1987 onwards till date",
       "1950-91"
     ],
-    "answerIndex": 3,
-    "explanation": "The cited statistics span the increase in single-parent families since 1950 and foster-care data through 1991.",
+    "answerIndex": 1,
+    "explanation": "The passage combines long-term trends from 1950 with statistics through the contemporary period.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58630,7 +58632,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 0,
-    "explanation": "The passage names babies under one year as the fastest-growing foster-care group.",
+    "explanation": "Babies under one year are identified as the fastest-growing foster-care category.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58659,7 +58661,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to cry loudly"
     ],
     "answerIndex": 1,
-    "explanation": "“Cry wolf” means give a false alarm.",
+    "explanation": "To cry wolf is to raise a false alarm.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58687,7 +58689,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to have no debts"
     ],
     "answerIndex": 2,
-    "explanation": "“Above board” means honest in one’s dealings.",
+    "explanation": "Above board means honest or legitimate.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=2",
@@ -58743,7 +58745,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to work for both sides"
     ],
     "answerIndex": 1,
-    "explanation": "“Have an axe to grind” means have a private interest to serve.",
+    "explanation": "Having an axe to grind means having a private interest or purpose.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -58771,7 +58773,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to absolve"
     ],
     "answerIndex": 0,
-    "explanation": "“Kick the bucket” means die.",
+    "explanation": "To kick the bucket means to die.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -58799,7 +58801,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to insult one"
     ],
     "answerIndex": 0,
-    "explanation": "To cut someone short is to interrupt them.",
+    "explanation": "To cut someone short means to interrupt them.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -58883,7 +58885,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "rubbed her heels"
     ],
     "answerIndex": 2,
-    "explanation": "To take to one’s heels is to run away.",
+    "explanation": "To take to one’s heels means to run away.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -58911,7 +58913,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "hit on the toe"
     ],
     "answerIndex": 2,
-    "explanation": "To toe the line is to follow rules.",
+    "explanation": "To toe the line is to comply with rules or expectations.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -58939,7 +58941,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to give offence"
     ],
     "answerIndex": 3,
-    "explanation": "To tread on someone’s toes is to give offence.",
+    "explanation": "To tread on someone’s toes is to offend them.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -58995,7 +58997,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "a fight for an apple"
     ],
     "answerIndex": 1,
-    "explanation": "An apple of discord is the cause of contention.",
+    "explanation": "An apple of discord is a cause of contention.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -59023,7 +59025,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "cold blanket"
     ],
     "answerIndex": 0,
-    "explanation": "Washing dirty linen in public means making private quarrels public.",
+    "explanation": "Washing dirty linen in public means exposing private quarrels publicly.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -59051,7 +59053,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "have a cause to fight"
     ],
     "answerIndex": 1,
-    "explanation": "To rub shoulders with someone is to come into contact with them.",
+    "explanation": "To rub shoulders with someone is to meet or come into contact with them.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -59079,7 +59081,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "to be afraid"
     ],
     "answerIndex": 3,
-    "explanation": "Getting cold feet means becoming afraid.",
+    "explanation": "To get cold feet is to become afraid or lose nerve.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=3",
@@ -59107,7 +59109,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "delay"
     ],
     "answerIndex": 0,
-    "explanation": "Rush is the closest listed opposite of lag behind.",
+    "explanation": "To lag behind is to move slowly; rushing is the opposite.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59136,7 +59138,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "evade"
     ],
     "answerIndex": 3,
-    "explanation": "Evade is the opposite of confront.",
+    "explanation": "To confront is to face; evade is the opposite.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59165,7 +59167,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "embellish"
     ],
     "answerIndex": 0,
-    "explanation": "Repress means hold back; it is opposite to develop.",
+    "explanation": "To develop is to grow; repress is the opposite.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59194,7 +59196,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "setback"
     ],
     "answerIndex": 2,
-    "explanation": "Advance is the opposite of reverse.",
+    "explanation": "To reverse is to turn back; to advance is the opposite.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59223,7 +59225,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "unreliable"
     ],
     "answerIndex": 1,
-    "explanation": "Stagnant is the closest listed opposite of unstable; “stable” is not offered.",
+    "explanation": "Stagnant describes something not changing, the opposite of unstable.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59252,7 +59254,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "opressing"
     ],
     "answerIndex": 2,
-    "explanation": "Acclaiming means praising, opposite to abusing or mistreating.",
+    "explanation": "Abusing/ill-treating is opposed to praising or acclaiming.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59281,7 +59283,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "calm"
     ],
     "answerIndex": 3,
-    "explanation": "Calm is the opposite of crisis.",
+    "explanation": "A crisis is a time of difficulty; calm is the opposite state.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59310,7 +59312,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "slightly"
     ],
     "answerIndex": 3,
-    "explanation": "Slightly is the opposite in degree of severely.",
+    "explanation": "Severely means to a great degree; slightly is the opposite.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
@@ -59339,12 +59341,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 2,
-    "explanation": "Usually modifies “eat,” so it is an adverb.",
+    "explanation": "“Usually” modifies the verb “eat,” so it is an adverb.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q033.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59367,12 +59370,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 0,
-    "explanation": "Innocence names a quality, so it is a noun.",
+    "explanation": "“Innocence” names a quality, so it is a noun.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q034.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59395,12 +59399,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 3,
-    "explanation": "Upon is a preposition introducing “the injured deer.”",
+    "explanation": "“Upon” introduces the object “the injured deer,” so it is a preposition.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q035.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59423,12 +59428,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 3,
-    "explanation": "Match is the object of “won,” so it is a noun.",
+    "explanation": "“Match” names the thing won, so it is a noun.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q036.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59451,12 +59457,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 3,
-    "explanation": "And joins clauses, so it is a conjunction.",
+    "explanation": "“And” joins clauses, so it is a conjunction.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q037.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59479,12 +59486,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 2,
-    "explanation": "Enough modifies “loud” by degree, so it is an adverb.",
+    "explanation": "“Enough” modifies the adjective/adverb “loud,” so it is an adverb.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q038.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59507,12 +59515,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "Invincible describes “courage,” so it is an adjective.",
+    "explanation": "“Invincible” describes “courage,” so it is an adjective.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q039.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59535,12 +59544,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 2,
-    "explanation": "Alas is an interjection expressing sorrow.",
+    "explanation": "“Alas!” expresses emotion and is an interjection.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q040.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -59563,7 +59573,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "upon"
     ],
     "answerIndex": 1,
-    "explanation": "The idiomatic phrase is “fatal to” one’s reputation or health.",
+    "explanation": "The collocation is “fatal to his reputation and health.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59591,7 +59601,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "upon"
     ],
     "answerIndex": 3,
-    "explanation": "The established construction is “embark upon” a programme.",
+    "explanation": "The phrase is “embark upon a programme.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59619,7 +59629,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "of"
     ],
     "answerIndex": 0,
-    "explanation": "The usual collocation is “vexed at” something.",
+    "explanation": "One is vexed at a reply or situation.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59647,7 +59657,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "at"
     ],
     "answerIndex": 1,
-    "explanation": "A visit moved earlier by an interval is advanced by that interval.",
+    "explanation": "A visit advanced by two days is moved earlier by two days.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59675,7 +59685,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 2,
-    "explanation": "Inured takes “to”: inured to manual labour.",
+    "explanation": "Inured takes the preposition “to.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59731,7 +59741,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "away"
     ],
     "answerIndex": 0,
-    "explanation": "“Cut out for” means suited to a job.",
+    "explanation": "To be cut out for a job is to be suited to it.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59759,7 +59769,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 0,
-    "explanation": "The phrase is “have no scruples in doing something.”",
+    "explanation": "“Have no scruples in doing something” is acceptable usage; “about” would be more usual but is not offered.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=5",
@@ -59785,15 +59795,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Compound",
       "Complex"
     ],
-    "answerIndex": -1,
-    "explanation": "This sentence is compound-complex: “Do” and “you will regret it” are independent clauses, while “as I tell you” is subordinate. No listed choice is correct.",
+    "answerIndex": 1,
+    "explanation": "It has two independent clauses joined by “or,” so it is compound (though the first also contains a subordinate clause).",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-checked; held because the item has overlapping or invalid answer choices.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions for questions 49 - 58 :  Identify whether the following are simple compound or complex"
   },
   {
@@ -59812,7 +59823,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 1,
-    "explanation": "Two independent clauses are joined by “and,” making a compound sentence.",
+    "explanation": "Two independent clauses are joined by “and,” making it compound.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -59839,7 +59850,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 0,
-    "explanation": "“To make up for the lost time” is an infinitive of purpose; the sentence is simple.",
+    "explanation": "The infinitive phrase “to make up…” is not an independent clause; the sentence is simple.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -59866,7 +59877,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 2,
-    "explanation": "“So that he might win” is a subordinate purpose clause; the sentence is complex.",
+    "explanation": "“So that he might win” is a subordinate purpose clause, making it complex.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -59893,7 +59904,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 0,
-    "explanation": "There is one independent clause and no subordinate clause, so it is simple.",
+    "explanation": "One independent clause; simple sentence.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -59920,7 +59931,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 2,
-    "explanation": "The if-clause is subordinate to the main clause, making it complex.",
+    "explanation": "The “If…” subordinate clause depends on the main clause, making it complex.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -59947,7 +59958,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 1,
-    "explanation": "Two independent clauses are joined by “but,” making a compound sentence.",
+    "explanation": "Two independent clauses are joined by “but,” making it compound.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -59974,7 +59985,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 2,
-    "explanation": "“Which belonged to his uncle” is a relative clause, making the sentence complex.",
+    "explanation": "“Which belonged to his uncle” is a subordinate relative clause, making it complex.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -60001,7 +60012,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 2,
-    "explanation": "“As soon as the mails arrive” is a subordinate time clause, making the sentence complex.",
+    "explanation": "“As soon as the mails arrive” is a subordinate time clause, making it complex.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -60028,7 +60039,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Complex"
     ],
     "answerIndex": 0,
-    "explanation": "There is one independent clause and no subordinate clause, so it is simple.",
+    "explanation": "One independent clause; simple sentence.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -60055,15 +60066,16 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Interrogative",
       "Assertive"
     ],
-    "answerIndex": -1,
-    "explanation": "The sentence is both negative in form and assertive/declarative in function; the choices mix classification systems, so no unique answer is defensible.",
+    "answerIndex": 1,
+    "explanation": "“No” makes the assertion negative.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-checked; held because the item has overlapping or invalid answer choices.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions for Questions 59 - 64 :  Choose the correct sentence type."
   },
   {
@@ -60083,7 +60095,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": 0,
-    "explanation": "“Every rose has a thorn” is a positive declarative statement; affirmative is the matching choice.",
+    "explanation": "It states a positive fact and is affirmative.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=6",
@@ -60111,7 +60123,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": 1,
-    "explanation": "The exclamation makes this an exclamatory sentence.",
+    "explanation": "The exclamation mark and wording make it exclamatory.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60139,7 +60151,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": 3,
-    "explanation": "“Open the door and leave” gives commands, so it is imperative.",
+    "explanation": "It gives a command, so it is imperative.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60167,7 +60179,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Assertive"
     ],
     "answerIndex": 2,
-    "explanation": "The direct question is interrogative.",
+    "explanation": "It asks a question and is interrogative.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60195,7 +60207,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "Assertive"
     ],
     "answerIndex": 3,
-    "explanation": "This is a declarative statement, classified as assertive.",
+    "explanation": "It makes a declarative assertion, so it is assertive.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60223,7 +60235,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "auspicious"
     ],
     "answerIndex": 3,
-    "explanation": "Auspicious means favorable or promising.",
+    "explanation": "“Auspicious occasion” means a favorable or propitious occasion.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60251,7 +60263,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "detained"
     ],
     "answerIndex": 3,
-    "explanation": "A trader held by authorities is detained.",
+    "explanation": "The trader was detained by authorities.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60279,7 +60291,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "suspicious"
     ],
     "answerIndex": 1,
-    "explanation": "Sullen means gloomy or morose, matching the child’s reaction.",
+    "explanation": "A spoiled child may become sullen when attention is withheld.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60307,7 +60319,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "implicit"
     ],
     "answerIndex": 1,
-    "explanation": "Explicit directions are clear and precise.",
+    "explanation": "Explicit directions are clear and detailed.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60335,7 +60347,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "reappear"
     ],
     "answerIndex": 3,
-    "explanation": "A candidate who takes an exam again will reappear for it.",
+    "explanation": "To reappear for an examination is to sit it again.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60363,7 +60375,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "arrogant"
     ],
     "answerIndex": 0,
-    "explanation": "A jubilant crowd is joyful.",
+    "explanation": "A victorious team is welcomed by a jubilant (joyful) crowd.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60391,7 +60403,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "render"
     ],
     "answerIndex": 3,
-    "explanation": "“Render help” means provide assistance.",
+    "explanation": "The natural collocation is “render help.”",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=7",
@@ -60447,12 +60459,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "watchful"
     ],
     "answerIndex": 1,
-    "explanation": "Furtive means secretive.",
+    "explanation": "Furtive means secret or concealed.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q073.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -60475,12 +60488,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "thoughtful"
     ],
     "answerIndex": 3,
-    "explanation": "Pensive means thoughtful.",
+    "explanation": "Pensive means absorbed in thought; thoughtful is closest.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q074.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -60502,15 +60516,17 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "strength",
       "desire"
     ],
-    "answerIndex": -1,
-    "explanation": "Penchant means a strong liking or inclination; both “inclination” and “desire” are plausible options, so retain this item as held.",
+    "answerIndex": 0,
+    "explanation": "A penchant is a strong inclination or liking.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q075.webp",
     "sourceReviewed": true,
-    "sourceNote": "Source-checked; held because the item has overlapping or invalid answer choices.",
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions for questions 73 - 80 :  Choose the alternative that is nearest in meaning to the"
   },
   {
@@ -60536,6 +60552,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q076.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -60564,6 +60581,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q077.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -60592,6 +60610,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q078.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -60620,6 +60639,7 @@ const groupBQuestionsPart7: BankQuestion[] = [
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q079.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -60642,12 +60662,13 @@ const groupBQuestionsPart7: BankQuestion[] = [
       "strange"
     ],
     "answerIndex": 2,
-    "explanation": "Disparate means different or dissimilar.",
+    "explanation": "Disparate results are different from one another.",
     "source": "Programmer under PHE Department · July 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/programmer-phe-2018-english-p1.pdf#page=8",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/programmer-phe-2018-english-p1-q080.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
@@ -63497,7 +63518,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "many feet"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: able to run fast.",
+    "explanation": "“Fleet of foot” means quick or able to run fast.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=1",
@@ -63505,7 +63526,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B2",
@@ -63524,7 +63546,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "secret card"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: hidden strength.",
+    "explanation": "An “ace in the hole” is a hidden advantage or strength.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=1",
@@ -63532,7 +63554,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B3",
@@ -63551,7 +63574,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "to lie obviously"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: waste time talking.",
+    "explanation": "“Chew the fat” means to chat idly.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=1",
@@ -63559,7 +63582,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B4",
@@ -63578,7 +63602,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "to throw away"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to betray someone.",
+    "explanation": "To throw someone under the bus is to betray or sacrifice them.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=1",
@@ -63586,7 +63610,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B5",
@@ -63605,7 +63630,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "two for one"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: cheap.",
+    "explanation": "“Two a penny” means very cheap or common.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=1",
@@ -63613,7 +63638,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B6",
@@ -63632,7 +63658,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "to fail"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: to start over.",
+    "explanation": "Going back to the drawing board means starting over.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63640,7 +63666,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B7",
@@ -63659,7 +63686,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "different from"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: different from.",
+    "explanation": "“A far cry from” means very different from.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63667,7 +63694,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B8",
@@ -63686,7 +63714,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "not doing what you love"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: crazy.",
+    "explanation": "“Off one’s rocker” means crazy.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63694,7 +63722,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B9",
@@ -63713,7 +63742,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "shallow"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: hell.",
+    "explanation": "The fixed phrase is “come hell or high water.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63721,7 +63750,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B10",
@@ -63740,7 +63770,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "rice"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: milk.",
+    "explanation": "The idiom is “cry over spilt milk.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63748,7 +63778,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B11",
@@ -63767,7 +63798,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "mingle"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: tango.",
+    "explanation": "The saying is “it takes two to tango.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63775,7 +63806,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B12",
@@ -63794,7 +63826,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "being"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: shadow.",
+    "explanation": "The idiom is “afraid of one’s own shadow.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63802,7 +63834,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B13",
@@ -63821,7 +63854,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "nest"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: flock.",
+    "explanation": "Birds of a feather flock together.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63829,7 +63862,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B14",
@@ -63848,7 +63882,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "begins"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: ends.",
+    "explanation": "The proverb is “all’s well that ends well.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63856,7 +63890,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B15",
@@ -63874,7 +63909,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "apple(b)lots of"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: humble.",
+    "explanation": "The fixed idiom is “eat humble pie,” meaning to admit a mistake or submit.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63882,7 +63917,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B16",
@@ -63901,7 +63937,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "friend"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Samaritan.",
+    "explanation": "The phrase is “a good Samaritan.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=2",
@@ -63909,7 +63945,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Fill in the blanks with the idioms/phrases out of the given option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B17",
@@ -63928,7 +63965,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "active"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: active.",
+    "explanation": "Indolent means lazy; its antonym is active.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=3",
@@ -63936,7 +63973,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B18",
@@ -63955,7 +63994,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "he is not lethargic"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: he grew weary of an inert life.",
+    "explanation": "The passage says he grew weary of an indolent life.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=3",
@@ -63963,7 +64002,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B19",
@@ -63982,7 +64023,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "urgency"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: integrity.",
+    "explanation": "Probity means honesty or integrity.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=3",
@@ -63990,7 +64031,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B20",
@@ -64009,7 +64052,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "on an island filled with animals and man"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: on an island covered with fruit trees.",
+    "explanation": "The passage explicitly describes an island covered with fruit trees.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=3",
@@ -64017,7 +64060,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B21",
@@ -64036,7 +64081,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "climbed the tallest tree on the island"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: made a good meal and fell asleep.",
+    "explanation": "He ate and then fell asleep while the others gathered fruit and flowers.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=3",
@@ -64044,7 +64089,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B22",
@@ -64063,7 +64110,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "the trees provided delightful shade"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: the trees provided delightful shade.",
+    "explanation": "The trees afforded him delightful shade.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=3",
@@ -64071,7 +64118,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B23",
@@ -64090,7 +64139,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "the ship and the sailors waiting for him"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: the ship was no longer in view.",
+    "explanation": "On waking, he saw that the ship was no longer in view.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64098,7 +64147,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B24",
@@ -64117,7 +64168,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "concern"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: perceive.",
+    "explanation": "To discern is to perceive or recognize.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64125,7 +64176,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B25",
@@ -64144,7 +64197,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "massive"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: massive.",
+    "explanation": "“Prodigious” means enormous or massive.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64152,7 +64205,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B26",
@@ -64171,7 +64226,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "fog"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: a bird of most extraordinary size.",
+    "explanation": "The roc, an extraordinarily large bird, blocked the sunlight.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64179,7 +64234,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 26): Read the passage carefully and complete the sentences choosing",
+    "passage": "I designed, after my first voyage, to spend the rest of my days at Baghdad, but it was not long ere I grew weary of an indolent life, and I put to sea a second time, with merchants of known probity. We embarked on board of a good ship, and after recommending ourselves to God, set sail. One day we landed on an island covered with several sorts of fruit-trees, but we could see neither man nor animal. We walked in the meadows, along the streams that watered them. Whilst some diverted themselves with gathering flowers, and other fruits, I took my wine and provisions, and set down near a stream betwixt two high trees, which afforded a delightful shade. I made a good meal, and afterwards fell asleep. I cannot tell how long I slept, but when I awoke the ship was no longer in view. In this sad condition, I was ready to die with grief. I cried out in agony, beat my head and breast, and threw myself upon the ground, where I lay some time, overwhelmed by a rushing current of thoughts, each more distressing than the last. When I gazed towards the sea I could discern nothing but sky and water; but looking over the land I beheld something white; and coming down, I took what provision I had left, and went towards the object, which was so distant that at first could not distinguish what it was. As I approached, I thought it to be a white dome, of a prodigious height and extent. I drew near to it, and walked round it; but found no door to it; and I found that I had not strength nor activity to climb it, on account of its exceeding smoothness. I made a mark at the place where I stood, and went around the dome, measuring its circumference; and lo! It was fifty full paces; and I meditated upon some means of gaining an entrance into it; but no means of accomplishing this occurred to me. By this time the sun was about to set, and all of a sudden the sky became as dark as if it had been covered with a thick cloud. I was much astonished at this sudden darkness but much more when I found it occasioned by a bird of most extraordinary size, that came flying towards me. I remembered that I had often heard mariners speak of a miraculous bird called the roc, and conceived that the great dome which I so much admired must be her egg. Shortly afterwards, the bird alighted, and sat over the egg."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B27",
@@ -64198,7 +64255,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Miserly"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Contented.",
+    "explanation": "Miserable means unhappy; contented is its opposite.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64206,7 +64263,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 27 - 32 ): Read the following passages carefully and choose the best answer",
+    "passage": "Many men and women are so money minded that they do not undertake any serious work that does not pay. They believe that it is foolish to exert themselves for study and brain work which cannot be converted into cash. ‘Hard work only for money, and then plenty of play and pleasure’: this seems to be their rule of life. They value intellect only as the key to material prosperity and regard personal mental development as a foolish fad. This miserable materialistic psychology is very deep rooted in all classes of society. Rich and poor, all suffer from it. An old working woman complained to me of her son’s habit of occasionally buying some books, and said, “He wastes his money on books. What good are they to him? He is a carpenter, not a schoolmaster”."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B28",
@@ -64225,7 +64284,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Because they fear they would look like nerds"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Because they don’t think books help them get money.",
+    "explanation": "The passage says they see no monetary benefit in books and study.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64233,7 +64292,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 27 - 32 ): Read the following passages carefully and choose the best answer",
+    "passage": "Many men and women are so money minded that they do not undertake any serious work that does not pay. They believe that it is foolish to exert themselves for study and brain work which cannot be converted into cash. ‘Hard work only for money, and then plenty of play and pleasure’: this seems to be their rule of life. They value intellect only as the key to material prosperity and regard personal mental development as a foolish fad. This miserable materialistic psychology is very deep rooted in all classes of society. Rich and poor, all suffer from it. An old working woman complained to me of her son’s habit of occasionally buying some books, and said, “He wastes his money on books. What good are they to him? He is a carpenter, not a schoolmaster”."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B29",
@@ -64252,7 +64313,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "mental stimulation"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: material benefits.",
+    "explanation": "They value intellect as a route to material prosperity.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64260,7 +64321,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 27 - 32 ): Read the following passages carefully and choose the best answer",
+    "passage": "Many men and women are so money minded that they do not undertake any serious work that does not pay. They believe that it is foolish to exert themselves for study and brain work which cannot be converted into cash. ‘Hard work only for money, and then plenty of play and pleasure’: this seems to be their rule of life. They value intellect only as the key to material prosperity and regard personal mental development as a foolish fad. This miserable materialistic psychology is very deep rooted in all classes of society. Rich and poor, all suffer from it. An old working woman complained to me of her son’s habit of occasionally buying some books, and said, “He wastes his money on books. What good are they to him? He is a carpenter, not a schoolmaster”."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B30",
@@ -64279,7 +64342,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Because she thinks reading is simply a waste of time"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Because she thinks reading does not help in his profession.",
+    "explanation": "She objects that books do no good for her son’s work as a carpenter.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64287,7 +64350,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 27 - 32 ): Read the following passages carefully and choose the best answer",
+    "passage": "Many men and women are so money minded that they do not undertake any serious work that does not pay. They believe that it is foolish to exert themselves for study and brain work which cannot be converted into cash. ‘Hard work only for money, and then plenty of play and pleasure’: this seems to be their rule of life. They value intellect only as the key to material prosperity and regard personal mental development as a foolish fad. This miserable materialistic psychology is very deep rooted in all classes of society. Rich and poor, all suffer from it. An old working woman complained to me of her son’s habit of occasionally buying some books, and said, “He wastes his money on books. What good are they to him? He is a carpenter, not a schoolmaster”."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B31",
@@ -64300,13 +64365,13 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "difficulty": "medium",
     "question": "The old woman is:",
     "options": [
-      "is materialistic",
+      "materialistic",
       "is kind-hearted",
       "is rude",
       "is an evil person"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: is materialistic.",
+    "explanation": "Her complaint reflects a materialistic outlook.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64314,7 +64379,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 27 - 32 ): Read the following passages carefully and choose the best answer",
+    "passage": "Many men and women are so money minded that they do not undertake any serious work that does not pay. They believe that it is foolish to exert themselves for study and brain work which cannot be converted into cash. ‘Hard work only for money, and then plenty of play and pleasure’: this seems to be their rule of life. They value intellect only as the key to material prosperity and regard personal mental development as a foolish fad. This miserable materialistic psychology is very deep rooted in all classes of society. Rich and poor, all suffer from it. An old working woman complained to me of her son’s habit of occasionally buying some books, and said, “He wastes his money on books. What good are they to him? He is a carpenter, not a schoolmaster”."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B32",
@@ -64333,7 +64400,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "To arrange a funeral"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Engage in.",
+    "explanation": "To undertake is to engage in or take on a task.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=4",
@@ -64341,7 +64408,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 27 - 32 ): Read the following passages carefully and choose the best answer",
+    "passage": "Many men and women are so money minded that they do not undertake any serious work that does not pay. They believe that it is foolish to exert themselves for study and brain work which cannot be converted into cash. ‘Hard work only for money, and then plenty of play and pleasure’: this seems to be their rule of life. They value intellect only as the key to material prosperity and regard personal mental development as a foolish fad. This miserable materialistic psychology is very deep rooted in all classes of society. Rich and poor, all suffer from it. An old working woman complained to me of her son’s habit of occasionally buying some books, and said, “He wastes his money on books. What good are they to him? He is a carpenter, not a schoolmaster”."
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B33",
@@ -64360,15 +64429,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Verb.",
+    "explanation": "“Know” is the main verb.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q033.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B34",
@@ -64387,15 +64458,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun.",
+    "explanation": "“Honesty” names a quality and is a noun.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q034.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B35",
@@ -64414,15 +64487,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adjective.",
+    "explanation": "“Summer” modifies “camp,” so it is an adjective.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q035.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B36",
@@ -64441,15 +64516,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Interjection.",
+    "explanation": "“Ah!” expresses emotion and is an interjection.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q036.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B37",
@@ -64468,15 +64545,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Conjunction.",
+    "explanation": "“Only” joins clauses here with the meaning “except that,” so it is a conjunction.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q037.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B38",
@@ -64495,15 +64574,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Pronoun.",
+    "explanation": "“You” stands for the person addressed and is a pronoun.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q038.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B39",
@@ -64522,15 +64603,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverb.",
+    "explanation": "“More” modifies the verb “work,” so it functions as an adverb.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q039.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B40",
@@ -64549,15 +64632,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: preposition.",
+    "explanation": "“Over” links the change to “him” and is a preposition.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/sericulture-seo-2018-english-p1-q040.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 40): Pick out the correct part of speech for the words underlined in"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B41",
@@ -64575,16 +64660,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "out",
       "from"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: in.",
+    "answerIndex": -1,
+    "explanation": "The standard construction is “at Madison Square Garden,” but the printed choices are “in / on / out / from.” No option gives the idiomatic preposition; do not score an inaccurate substitute.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held because the printed choices omit the standard correct construction.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B42",
@@ -64603,7 +64688,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "from"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: opposite.",
+    "explanation": "“Opposite the table” gives the chair’s position.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
@@ -64611,7 +64696,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B43",
@@ -64630,7 +64716,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "over"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: by.",
+    "explanation": "“By the lake” means beside the lake.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
@@ -64638,7 +64724,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B44",
@@ -64657,7 +64744,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "by"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: for.",
+    "explanation": "The duration phrase is “for ages.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
@@ -64665,7 +64752,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B45",
@@ -64684,7 +64772,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "from"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: along.",
+    "explanation": "We drove along the coastline.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=5",
@@ -64692,7 +64780,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B46",
@@ -64710,15 +64799,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "from",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 1,
+    "explanation": "The expression is “discovered by accident.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B47",
@@ -64737,7 +64828,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "besides"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: under.",
+    "explanation": "The fixed phrase is “under the impression.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64745,7 +64836,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B48",
@@ -64764,7 +64856,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: on.",
+    "explanation": "One stands on a pedestal.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64772,7 +64864,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 41 – 48) : Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B49",
@@ -64790,15 +64883,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Interrogative",
       "Assertive"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 3,
+    "explanation": "It is a declarative (assertive) statement.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B50",
@@ -64817,7 +64912,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Affirmative"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Exclamatory.",
+    "explanation": "The exclamation “What wonderful news!” is exclamatory.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64825,7 +64920,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B51",
@@ -64844,7 +64940,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Interrogative.",
+    "explanation": "It asks a question, so it is interrogative.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64852,7 +64948,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B52",
@@ -64870,15 +64967,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Assertive",
       "Imperative"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "It is a declarative statement giving advice, classified as assertive.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B53",
@@ -64896,15 +64995,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Assertive",
       "Imperative"
     ],
-    "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "It states a fact and is assertive.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B54",
@@ -64923,7 +65024,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Negative.",
+    "explanation": "“Never” makes the statement negative.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64931,7 +65032,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B55",
@@ -64950,7 +65052,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Negative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Imperative.",
+    "explanation": "A request/command is imperative.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64958,7 +65060,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B56",
@@ -64977,7 +65080,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Active Voice.",
+    "explanation": "The subject “He” performs the action, so the sentence is active.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -64985,7 +65088,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 49 – 56) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B57",
@@ -65003,7 +65107,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex Sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Compound Sentence.",
+    "explanation": "It has two independent clauses joined by “so,” making it compound.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -65011,7 +65115,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 57 – 59) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B58",
@@ -65029,7 +65134,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex Sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple Sentence.",
+    "explanation": "It has one independent clause and no subordinate clause, making it simple.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -65037,7 +65142,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 57 – 59) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B59",
@@ -65055,7 +65161,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex Sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Complex Sentence.",
+    "explanation": "The subordinate “After…” clause depends on the main clause, making it complex.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=6",
@@ -65063,7 +65169,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 57 – 59) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B60",
@@ -65081,7 +65188,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Complex sentence.",
+    "explanation": "The “because” clause is subordinate, so the sentence is complex.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65089,7 +65196,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 60 - 64): Analyse the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B61",
@@ -65107,7 +65215,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Complex sentence.",
+    "explanation": "The “Where…” clause is subordinate to the main clause, so it is complex.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65115,7 +65223,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 60 - 64): Analyse the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B62",
@@ -65133,7 +65242,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Complex sentence.",
+    "explanation": "“Who never give up” is a subordinate relative clause, so the sentence is complex.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65141,7 +65250,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 60 - 64): Analyse the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B63",
@@ -65159,7 +65269,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Compound sentence.",
+    "explanation": "Two clauses (“Man is guided…” and “[beast is guided…]”) are joined by “and,” making it compound.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65167,7 +65277,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 60 - 64): Analyse the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B64",
@@ -65185,7 +65296,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple sentence.",
+    "explanation": "It contains one independent clause, so it is simple.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65193,7 +65304,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions ( Question Nos. 60 - 64): Analyse the given sentences and choose the correct one from the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B65",
@@ -65212,7 +65324,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Booze"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Food.",
+    "explanation": "A piece of bread is food.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65220,7 +65332,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 69) : Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B66",
@@ -65239,7 +65352,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Nasty"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pleasant.",
+    "explanation": "Obnoxious means offensive or unpleasant; pleasant is the opposite.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65247,7 +65360,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 69) : Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B67",
@@ -65266,7 +65380,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Thrilled"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Thrilled.",
+    "explanation": "Euphoric means intensely happy; “thrilled” is the closest and strongest offered synonym.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65274,7 +65388,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 69) : Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B68",
@@ -65293,7 +65408,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Unnerving"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Disastrous.",
+    "explanation": "An event with deaths, injuries, and extensive damage is disastrous.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65301,7 +65416,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 69) : Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B69",
@@ -65320,7 +65436,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Self centred and annoying"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Gentle and mild tempered.",
+    "explanation": "The contrast with his former short temper implies a saint is gentle and mild-tempered.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=7",
@@ -65328,7 +65444,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 69) : Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B70",
@@ -65347,7 +65464,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Edible"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Illegible.",
+    "explanation": "Illegible means impossible or difficult to read.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65355,7 +65472,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 70 - 75) : Choose the right alternative from the given options to fill in the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B71",
@@ -65374,7 +65492,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "humiliated"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: humble.",
+    "explanation": "The adjective modifying “person” is “humble.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65382,7 +65500,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 70 - 75) : Choose the right alternative from the given options to fill in the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B72",
@@ -65401,7 +65520,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "traditionary"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: tradition.",
+    "explanation": "A tribe’s “tradition” is a noun naming a custom.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65409,7 +65528,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 70 - 75) : Choose the right alternative from the given options to fill in the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B73",
@@ -65428,7 +65548,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "eyebrows"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: eyelashes.",
+    "explanation": "The phrase is “batting her eyelashes.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65436,7 +65556,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 70 - 75) : Choose the right alternative from the given options to fill in the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B74",
@@ -65455,7 +65576,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "beautify"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: beautiful.",
+    "explanation": "“Beautiful” is the adjective needed before “person.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65463,7 +65584,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 70 - 75) : Choose the right alternative from the given options to fill in the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B75",
@@ -65482,7 +65604,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "continued"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: continuously.",
+    "explanation": "“Continuously” is the adverb modifying “complaining.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65490,7 +65612,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 70 - 75) : Choose the right alternative from the given options to fill in the"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B76",
@@ -65509,7 +65632,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "toleration"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: tolerant.",
+    "explanation": "“Tolerant” is the adjective needed after “are.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65517,7 +65640,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions nos. 76 – 80) : Fill in the blanks with the appropriate form of the words given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B77",
@@ -65536,7 +65660,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "grudge"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: rivalry.",
+    "explanation": "“Rivalry” is the noun naming ongoing competition between teams.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65544,7 +65668,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions nos. 76 – 80) : Fill in the blanks with the appropriate form of the words given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B78",
@@ -65563,7 +65688,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "presented"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: presentation.",
+    "explanation": "“Presentation” is the noun that fits after the possessive name.",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65571,7 +65696,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions nos. 76 – 80) : Fill in the blanks with the appropriate form of the words given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B79",
@@ -65590,7 +65716,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "intruigal"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: intriguing.",
+    "explanation": "An interesting topic is “intriguing.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65598,7 +65724,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions nos. 76 – 80) : Fill in the blanks with the appropriate form of the words given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B80",
@@ -65617,7 +65744,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "laughter"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: laugh.",
+    "explanation": "After “can’t help but,” use the base verb “laugh.”",
     "source": "Sericulture Extension Officer under Sericulture Department · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/sericulture-seo-2018-english-p1.pdf#page=8",
@@ -65625,7 +65752,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions nos. 76 – 80) : Fill in the blanks with the appropriate form of the words given"
   },
   {
     "id": "mpsc-group-b-sericulture-seo-2018-english-p1-written-1",
@@ -68468,7 +68596,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Both (a) & (b)"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Both (a) & (b).",
+    "explanation": "The passage explicitly says duties without rights are slavery and rights without duties are lawlessness.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68476,7 +68604,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B2",
@@ -68495,7 +68625,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Population explosion"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Everybody is concerned about his/her rights, not duties.",
+    "explanation": "The passage attributes unrest to people asserting rights while neglecting duties.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68503,7 +68633,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B3",
@@ -68522,7 +68654,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Neither"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Duties.",
+    "explanation": "The passage says duties come first and rights afterwards.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68530,7 +68662,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B4",
@@ -68549,7 +68683,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Trespass"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Infringe.",
+    "explanation": "“Infringed” is the passage word closest to “restrict” among the options.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68557,7 +68691,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B5",
@@ -68576,7 +68712,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "We take account of our rights"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: We take account of our duties.",
+    "explanation": "The passage says rights can be enjoyed when we take due account of our duties.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68584,7 +68720,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B6",
@@ -68602,15 +68740,18 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Trespassed",
       "Contradictory"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options support more than one plausible answer or overlapping classifications; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "“Trespassed” is used for rights being encroached upon.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B7",
@@ -68629,7 +68770,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Our rights are the duties of our neighbour"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Rights and duties are complementary.",
+    "explanation": "The passage calls rights and duties complementary.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68637,7 +68778,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B8",
@@ -68656,7 +68799,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Which rights should be guaranteed to a citizen"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Which rights should be guaranteed to a citizen.",
+    "explanation": "The passage says it is difficult to agree which rights should be guaranteed.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68664,7 +68807,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B9",
@@ -68683,7 +68828,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "More for his domestic duties than his official duties"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: More for his duties than his rights.",
+    "explanation": "The passage says duties come first and should be taken into account.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68691,7 +68836,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B10",
@@ -68710,7 +68857,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "In the way that has been agreed to by all"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: In the opposite way to what has just been said.",
+    "explanation": "“Vice versa” means in the reverse or opposite way.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68718,7 +68865,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B11",
@@ -68737,7 +68886,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Righteous"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Unanimous.",
+    "explanation": "“Unanimous” is opposite to controversial in the sense of agreed by all.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68745,7 +68894,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B12",
@@ -68764,7 +68915,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Both (a) & (c)"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Freedom of religion.",
+    "explanation": "Freedom of religion is explicitly listed among rights every nation must ensure.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=2",
@@ -68772,7 +68923,9 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1-12) : Read the following passage carefully and choose the correct answer to",
+    "passage": "Rights and duties are two sides of the same coin. One can’t exist without the other. Duties without rights are merely slavery. Similarly, rights without duties amount to lawlessness. In any civilized society, rights and duties must go side by side. But in today’s world, everybody talks much about his rights. There is a great hue and cry if our rights are infringed. But nobody seems to bother much about his duties. That is why there is great unrest in our present-day life. Actually duties come first, and rights afterwards. Many a time one man’s rights is another man’s duty and vice versa. For example, every man has the right to have an undisturbed sleep. So it becomes the duty of his neighbour not to tune his radio at too high a pitch. If we want to enjoy our rights we should act in such a way that the rights of others are not trespassed. It can happen only if we take due account of our duties also. In short, rights and duties are complementary things and not contradictory. It is difficult to agree on which rights should be guaranteed to a citizen. For example, does a child have the right to be educated in his/her mother tongue? Some enthusiasts may say, “Certainly”. But others may say that while everyone must have a right to education, the government should not be enforced to spend money to employ teachers for the language of every group and community. Take another example. Does every adult have a right to a job? Some will say, “Yes”. Other will disagree and say that this is a privilege, not a right. They say that in these days of population explosion, it is not possible for any government to ensure full employment. There can be disagreement on such controversial issues, but there can be no disagreement on such things as the freedom of speech, freedom of religion, freedom from want and freedom from fear. Every nation worth the name must ensure these rights for her citizens."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B13",
@@ -68791,7 +68944,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "A close-fisted man"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: A man of parts.",
+    "explanation": "A man of parts is a capable or talented person.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68799,7 +68952,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B14",
@@ -68818,7 +68972,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "To keep good hours"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: To nip in the bud.",
+    "explanation": "To nip something in the bud is to stop it at the beginning.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68826,7 +68980,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B15",
@@ -68845,7 +69000,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "In black and white"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Through thick and thin.",
+    "explanation": "Through thick and thin means in good times and bad.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68853,7 +69008,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B16",
@@ -68872,7 +69028,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "A ranking system"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Ordinary people.",
+    "explanation": "Rank and file means ordinary members of a group.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68880,7 +69036,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B17",
@@ -68899,7 +69056,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "disagree"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: disagree.",
+    "explanation": "Not seeing eye to eye means disagreeing.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68907,7 +69064,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B18",
@@ -68926,7 +69084,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "repeatedly"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: in writing.",
+    "explanation": "In black and white means in writing.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68934,7 +69092,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B19",
@@ -68953,7 +69112,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "confidently"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: earnestly.",
+    "explanation": "Heart and soul means earnestly and with complete effort.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68961,7 +69120,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B20",
@@ -68980,7 +69140,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "without condition"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: without condition.",
+    "explanation": "Surrendering at discretion means surrendering unconditionally.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -68988,7 +69148,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B21",
@@ -69006,16 +69167,16 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "a useless one",
       "a rare one"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: a useless one.",
+    "answerIndex": -1,
+    "explanation": "“White elephant” can mean a costly possession that is useless or burdensome; both (a) expensive and (c) useless fit the printed phrase.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Printed choices are overlapping/ambiguous; do not score.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B22",
@@ -69034,7 +69195,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "with confidence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: in simple and brief manner.",
+    "explanation": "In a nutshell means briefly and in simple terms.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -69042,7 +69203,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B23",
@@ -69061,7 +69223,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "under control"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: in disorder.",
+    "explanation": "At sixes and sevens means in disorder.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -69069,7 +69231,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B24",
@@ -69088,7 +69251,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "cheerful"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: cheerful.",
+    "explanation": "In high spirits means cheerful.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -69096,7 +69259,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B25",
@@ -69107,7 +69271,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "It is a pity that our politicians are more interested in the loaves and fishes than withthe uplift of the poor.",
+    "question": "than with the uplift of the poor.",
     "options": [
       "bread and butter",
       "kinds of fishes",
@@ -69115,7 +69279,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "means of power"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: worldly benefits.",
+    "explanation": "Loaves and fishes refers to material or worldly benefits.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=3",
@@ -69123,7 +69287,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B26",
@@ -69142,7 +69307,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "over"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options support more than one plausible answer or overlapping classifications; keep this item unscored.",
+    "explanation": "“On the wrong side of sixty” means over sixty; both (b) above and (d) over express the same meaning.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
@@ -69152,7 +69317,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "Printed choices are overlapping/ambiguous; do not score.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B27",
@@ -69171,7 +69337,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "sat on the rocking chair"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: tormented.",
+    "explanation": "The likely intended sense of “put him on the rock” is to torture/torment him; the printed idiom appears malformed.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
@@ -69179,7 +69345,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B28",
@@ -69197,8 +69364,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "by all means",
       "by several means"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: by strong determination.",
+    "answerIndex": 2,
+    "explanation": "By hook or by crook means by any means necessary.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
@@ -69206,7 +69373,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 – 28): Choose the correct idiom and phrases given in the options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B29",
@@ -69225,15 +69393,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adjective.",
+    "explanation": "“Dead” describes the resulting state of the tiger; it is an adjective.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q029.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B30",
@@ -69252,15 +69422,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adjective.",
+    "explanation": "“Last” modifies “bench” and functions adjectivally.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q030.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B31",
@@ -69278,16 +69450,18 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Noun",
       "Preposition"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Preposition.",
+    "answerIndex": 2,
+    "explanation": "“Book” names a thing and is a noun.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q031.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B32",
@@ -69306,15 +69480,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverb.",
+    "explanation": "“Long” modifies the verb “live” and is an adverb.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q032.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B33",
@@ -69333,15 +69509,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adjective.",
+    "explanation": "“Stone” modifies “walls” attributively and is used adjectivally here.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q033.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B34",
@@ -69360,15 +69538,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Verb.",
+    "explanation": "“Even” is a verb meaning to make equal or reconcile.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q034.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B35",
@@ -69387,15 +69567,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Preposition.",
+    "explanation": "“Up” introduces the complement “the slope” and functions as a preposition.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q035.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B36",
@@ -69414,15 +69596,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adverb.",
+    "explanation": "“Round” modifies “turned” and is an adverb.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q036.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B37",
@@ -69441,15 +69625,17 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Determiner.",
+    "explanation": "“Any” precedes and determines the noun “book.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q037.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B38",
@@ -69467,16 +69653,18 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Adjective",
       "Conjunction"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pronoun.",
+    "answerIndex": 3,
+    "explanation": "“But” joins two clauses and is a conjunction.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q038.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 38): Choose the correct Parts of Speech for the underlined words:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B39",
@@ -69495,7 +69683,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: at.",
+    "explanation": "The fixed expression is “at the risk of my own life.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69503,7 +69691,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B40",
@@ -69522,7 +69711,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "in"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: in.",
+    "explanation": "The expression is “in the hope of.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69530,7 +69719,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B41",
@@ -69549,7 +69739,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "By"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: In.",
+    "explanation": "The phrase is “in addition to.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69557,7 +69747,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B42",
@@ -69576,7 +69767,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: to.",
+    "explanation": "“Adhere” takes the preposition “to.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69584,7 +69775,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B43",
@@ -69603,7 +69795,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: of.",
+    "explanation": "“Deprive” takes “of.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69611,7 +69803,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B44",
@@ -69630,7 +69823,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "helped"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: had helped.",
+    "explanation": "This is a third conditional: “If he had helped … I would have got …”.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69638,7 +69831,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B45",
@@ -69657,7 +69851,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "walks"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: was walking.",
+    "explanation": "Past continuous describes the ongoing action interrupted by the car incident.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69665,7 +69859,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B46",
@@ -69684,7 +69879,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "much"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: any.",
+    "explanation": "“Any” is used naturally in a negative sentence with plural count noun “mangoes.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69692,7 +69887,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B47",
@@ -69711,7 +69907,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "a few"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: a few.",
+    "explanation": "“A few” means some, a small number, and fits plural count noun “boys.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69719,7 +69915,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B48",
@@ -69738,7 +69935,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "or"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: nor.",
+    "explanation": "“Nor” introduces the second negative clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69746,7 +69943,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 39 – 48): Fill in the blanks using the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B49",
@@ -69765,7 +69963,7 @@ const groupBQuestionsPart8: BankQuestion[] = [
       "Compound-Complex sentence"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Compound-Complex sentence.",
+    "explanation": "It has two main clauses and a subordinate “if” clause, so it is compound-complex.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69773,7 +69971,8 @@ const groupBQuestionsPart8: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   }
 ];
 const groupBQuestionsPart9: BankQuestion[] = [
@@ -69793,8 +69992,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Compound Sentence",
       "Compound-Complex sentence"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex Sentence.",
+    "answerIndex": 0,
+    "explanation": "“Because of your folly” is a prepositional phrase; the sentence has one independent clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69802,7 +70001,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B51",
@@ -69821,7 +70021,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Compound-Complex sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Compound sentence.",
+    "explanation": "Two independent clauses are joined by “but.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=5",
@@ -69829,7 +70029,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B52",
@@ -69848,7 +70049,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Compound-Complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple sentence.",
+    "explanation": "The sentence has one independent clause; “besides food” is a phrase.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -69856,7 +70057,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B53",
@@ -69875,7 +70077,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Compound-Complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex sentence.",
+    "explanation": "“Wherever your leader goes” is a subordinate clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -69883,7 +70085,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B54",
@@ -69902,7 +70105,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Compound-Complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Compound sentence.",
+    "explanation": "The clauses are coordinated with conjunctions; there is no subordinate clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -69910,7 +70113,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B55",
@@ -69929,7 +70133,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Compound-Complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex sentence.",
+    "explanation": "“As soon as the train arrived” is subordinate to the main clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -69937,7 +70141,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B56",
@@ -69956,7 +70161,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Assertive sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Exclamatory sentence.",
+    "explanation": "The sentence expresses an exclamation or regret.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -69964,7 +70169,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B57",
@@ -69983,14 +70189,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Affirmative sentence"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options support more than one plausible answer or overlapping classifications; keep this item unscored.",
+    "explanation": "The sentence is both assertive and affirmative; the two printed answer choices (a) and (d) overlap.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "Printed choices are overlapping/ambiguous; do not score.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B58",
@@ -70009,7 +70216,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Assertive sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Interrogative sentence.",
+    "explanation": "The sentence asks a question.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -70017,7 +70224,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 59): Choose the correct sentence type from the given options :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B59",
@@ -70035,7 +70243,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Simple sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex sentence.",
+    "explanation": "The relative clause “who topped the list…” modifies “candidate,” making the sentence complex.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -70043,7 +70251,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 59 - 63) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B60",
@@ -70061,7 +70270,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Simple sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Simple sentence.",
+    "explanation": "There is a single independent clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -70069,7 +70278,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 59 - 63) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B61",
@@ -70087,7 +70297,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Simple sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Simple sentence.",
+    "explanation": "A single subject performs three coordinated actions; the sentence has one clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -70095,7 +70305,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 59 - 63) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B62",
@@ -70113,7 +70324,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Simple sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex sentence.",
+    "explanation": "“As soon as the match began” is a subordinate time clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -70121,7 +70332,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 59 - 63) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B63",
@@ -70139,7 +70351,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Simple sentence"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Simple sentence.",
+    "explanation": "One subject performs two coordinated actions; this is a simple sentence with a compound predicate.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=6",
@@ -70147,7 +70359,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 59 - 63) : Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B64",
@@ -70158,7 +70371,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The proposal **that the subcription should be increased** was accepted by all the members.",
+    "question": "subscription",
     "options": [
       "Noun Clause",
       "Adjective Clause",
@@ -70166,15 +70379,17 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Co-ordinate Clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun Clause.",
+    "explanation": "The that-clause names the content of “proposal” and functions as a noun clause in apposition.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q064.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64 -68) : Pick the correct clause of the words underlined in the given sentences:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B65",
@@ -70193,15 +70408,17 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Co-ordinate Clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun Clause.",
+    "explanation": "“Where I put my wallet” is the object of “remember,” hence a noun clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q065.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64 -68) : Pick the correct clause of the words underlined in the given sentences:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B66",
@@ -70220,15 +70437,17 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Co-ordinate Clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective Clause.",
+    "explanation": "“Who was here…” modifies “man,” so it is an adjective clause.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q066.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64 -68) : Pick the correct clause of the words underlined in the given sentences:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B67",
@@ -70247,15 +70466,17 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Co-ordinate Clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adverbial Clause.",
+    "explanation": "“While the lecturer was speaking” gives the time of falling asleep.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q067.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64 -68) : Pick the correct clause of the words underlined in the given sentences:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B68",
@@ -70274,15 +70495,17 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Adverbial Clause"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverbial Clause.",
+    "explanation": "“Where I can easily find it” tells where to put the key and is adverbial.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/recovered-2018/station-officer-2018-english-q068.webp",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 64 -68) : Pick the correct clause of the words underlined in the given sentences:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B69",
@@ -70301,7 +70524,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Treaty"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Amnesty.",
+    "explanation": "Amnesty is an official pardon or release from punishment.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70309,7 +70532,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B70",
@@ -70328,7 +70552,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Delible"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Antidote.",
+    "explanation": "An antidote counteracts poison.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70336,7 +70560,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B71",
@@ -70355,7 +70580,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Invincible"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Indispensable.",
+    "explanation": "Indispensable means absolutely necessary.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70363,7 +70588,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B72",
@@ -70382,7 +70608,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Immigrate"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Emigrate.",
+    "explanation": "To emigrate is to leave one's country to settle elsewhere.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70390,7 +70616,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B73",
@@ -70409,7 +70636,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Intangible"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Infallible.",
+    "explanation": "Infallible means incapable of error.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70417,7 +70644,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B74",
@@ -70436,7 +70664,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Murder of one’s father"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Murder of one’s brother/sister.",
+    "explanation": "Fratricide is the killing of one's brother; some usages include sibling.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70444,7 +70672,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B75",
@@ -70463,7 +70692,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Avarice"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Avarice.",
+    "explanation": "Avarice is excessive greed for wealth.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70471,7 +70700,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B76",
@@ -70490,7 +70720,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Cemetery"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Crematory.",
+    "explanation": "A crematory is a place or facility for cremation.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=7",
@@ -70498,7 +70728,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 69 – 76): Choose the correct one word substitution from the given options:"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B77",
@@ -70517,7 +70748,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "biography"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: anonymous.",
+    "explanation": "Anonymous means the writer is unknown.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=8",
@@ -70525,7 +70756,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 77 - 80) : Identify the correct usage of words given in the alternatives below :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B78",
@@ -70544,7 +70776,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "eminently"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: eminent.",
+    "explanation": "Eminent means distinguished or notable.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=8",
@@ -70552,7 +70784,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 77 - 80) : Identify the correct usage of words given in the alternatives below :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B79",
@@ -70571,7 +70804,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "germicide"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: homicide.",
+    "explanation": "Homicide denotes the killing of a human being.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=8",
@@ -70579,7 +70812,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 77 - 80) : Identify the correct usage of words given in the alternatives below :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-B80",
@@ -70598,7 +70832,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "autocracy"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: bureaucracy.",
+    "explanation": "Bureaucracy is administration by government officials.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-english.pdf#page=8",
@@ -70606,7 +70840,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 77 - 80) : Identify the correct usage of words given in the alternatives below :"
   },
   {
     "id": "mpsc-group-b-station-officer-2018-english-written-1",
@@ -81438,7 +81673,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adverb.",
+    "explanation": "“Just” modifies the verb “coming,” so it is an adverb.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81446,7 +81681,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q2",
@@ -81465,7 +81701,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adverb.",
+    "explanation": "“Out” modifies the verb “sprang,” so it is an adverb.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81473,7 +81709,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q3",
@@ -81492,7 +81729,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Pronoun.",
+    "explanation": "“They” is the personal pronoun serving as the subject.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81500,7 +81737,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q4",
@@ -81519,7 +81757,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adverb.",
+    "explanation": "“Down” functions adverbially in the command “Down with the tyrant.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81527,7 +81765,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q5",
@@ -81546,7 +81785,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Conjunction.",
+    "explanation": "“Like” introduces the subordinate comparison “she says,” so it is a conjunction.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81573,7 +81812,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Noun.",
+    "explanation": "“Self-interest” names a concept and is a noun.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81581,7 +81820,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q7",
@@ -81600,7 +81840,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Interjection.",
+    "explanation": "“Tell you what” is an interjection introducing the surprising information.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81608,7 +81848,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q8",
@@ -81627,7 +81868,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Conjunction.",
+    "explanation": "“As” introduces the reason clause “he was ill,” so it is a conjunction.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81635,7 +81876,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q9",
@@ -81654,14 +81896,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique correct answer; keep this item unscored.",
+    "explanation": "“Enough” in “I have had enough of this” is used pronominally (enough of what); the choices include adjective, verb, noun, and adverb, but no pronoun option.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after scan review; no unique answer is supported by the printed choices.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q10",
@@ -81680,7 +81923,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adjective.",
+    "explanation": "“Clear” describes the noun “message,” so it is an adjective.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=1",
@@ -81688,7 +81931,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 1 - 10): Identify the parts of speech of each underlined words:"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q11",
@@ -81707,7 +81951,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "have been looking"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: had been looking.",
+    "explanation": "The search began before the past event “I saw”; past perfect progressive fits the ongoing search.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81715,7 +81959,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q12",
@@ -81734,7 +81979,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "smell"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: smells.",
+    "explanation": "“Smells” is the simple present; “smell” is stative here and does not take the progressive.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81742,7 +81987,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q13",
@@ -81761,7 +82007,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "will she have stayed"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: would she stay.",
+    "explanation": "The inverted past-perfect condition “had we not met her” pairs with “would she stay” in this hypothetical question.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81769,7 +82015,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q14",
@@ -81788,7 +82035,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "has just stepped"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: had just stepped.",
+    "explanation": "The stepping happened immediately before the telephone rang, so past perfect marks the earlier event.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81796,7 +82043,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q15",
@@ -81815,7 +82063,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "will finish"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: will have finished.",
+    "explanation": "The future perfect conveys that the eruption will have ended before the future arrival.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81823,7 +82071,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q16",
@@ -81841,8 +82090,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "sees",
       "has seen"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: had seen.",
+    "answerIndex": 0,
+    "explanation": "In this past narrative, “till he saw” is the natural sequence of completed past events.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81850,7 +82099,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q17",
@@ -81869,7 +82119,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "has been practicing"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: is practicing.",
+    "explanation": "“These days” indicates an activity in progress around the present: “is practicing.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81877,7 +82127,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q18",
@@ -81896,7 +82147,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Isn’t she supporting"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Hasn’t she been supporting.",
+    "explanation": "“All along” points to continuing support, so present perfect progressive fits.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81904,7 +82155,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q19",
@@ -81922,8 +82174,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "have been calling",
       "am calling"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: called.",
+    "answerIndex": 3,
+    "explanation": "“I am calling to thank you” describes the purpose of the current call.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81931,7 +82183,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q20",
@@ -81950,7 +82203,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "will stand"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: stands.",
+    "explanation": "“Stands” expresses a stable geographical fact.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81958,7 +82211,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 11-20): Fill in the blanks with the most appropriate form of the verb  given."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q21",
@@ -81977,7 +82231,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: with.",
+    "explanation": "The idiom is “accommodate someone with a loan.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -81985,7 +82239,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q22",
@@ -82004,7 +82259,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: of.",
+    "explanation": "The established expression is “tenacious of life.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -82012,7 +82267,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q23",
@@ -82031,7 +82287,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "for"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: for.",
+    "explanation": "“Anxious for the work to be done” means eager for its completion.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -82039,7 +82295,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q24",
@@ -82058,7 +82315,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "up"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: into.",
+    "explanation": "“Break into” means enter forcibly.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
@@ -82066,7 +82323,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q25",
@@ -82085,10 +82343,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: to.",
+    "explanation": "The usual collocation is “antipathy to.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=2",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82112,7 +82370,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "onto"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: onto.",
+    "explanation": "“Onto” marks movement to a position on the table.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82120,7 +82378,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q27",
@@ -82139,7 +82398,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "of"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: with.",
+    "explanation": "“Intrigue with” means plot or conspire with someone.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82147,7 +82406,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q28",
@@ -82165,16 +82425,16 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "upon",
       "with"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: upon.",
+    "answerIndex": -1,
+    "explanation": "Both “prevailed on him to withdraw” and “prevailed upon him to withdraw” are standard constructions, and the options include both “on” and “upon.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; no unique answer is supported by the printed choices.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q29",
@@ -82193,7 +82453,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "through."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: through..",
+    "explanation": "“Came in through the door” describes passage through the doorway.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82201,7 +82461,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q30",
@@ -82220,7 +82481,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "by"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: at.",
+    "explanation": "“Connive at” means tacitly tolerate or overlook.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82228,7 +82489,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 21-30): Fill in the blanks with appropriate preposition given below each sentence."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q31",
@@ -82246,8 +82508,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "an",
       "none of these"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: none of these.",
+    "answerIndex": 0,
+    "explanation": "The idiomatic phrase is “a five,” with the consonant sound /f/.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82255,7 +82517,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 31-35) : Choose the correct article from the given alternatives."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q32",
@@ -82273,8 +82536,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "an",
       "none of these"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: the.",
+    "answerIndex": 0,
+    "explanation": "“One” begins with a /w/ sound, so it takes “a.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82282,7 +82545,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 31-35) : Choose the correct article from the given alternatives."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q33",
@@ -82301,7 +82565,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: a.",
+    "explanation": "“Unicorn” begins with the consonant sound /j/, so it takes “a.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82309,7 +82573,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 31-35) : Choose the correct article from the given alternatives."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q34",
@@ -82328,7 +82593,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: an.",
+    "explanation": "“Heiress” begins with a vowel sound, so it takes “an.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82336,7 +82601,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 31-35) : Choose the correct article from the given alternatives."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q35",
@@ -82355,7 +82621,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "none of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: a.",
+    "explanation": "“Work permit” is an indefinite singular count noun phrase and takes “a.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82363,7 +82629,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 31-35) : Choose the correct article from the given alternatives."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q36",
@@ -82382,7 +82649,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "wrings"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: wrung.",
+    "explanation": "The simple past of “wring” is “wrung.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82390,7 +82657,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 36-40) : Choose the correct past form of the verb from the alternatives provided."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q37",
@@ -82409,7 +82677,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Forsake"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Forsook.",
+    "explanation": "The simple past of “forsake” is “forsook.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=3",
@@ -82417,7 +82685,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 36-40) : Choose the correct past form of the verb from the alternatives provided."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q38",
@@ -82436,7 +82705,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Bored"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Bore.",
+    "explanation": "The simple past of “bear” is “bore”; “borne” is its past participle.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82444,7 +82713,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 36-40) : Choose the correct past form of the verb from the alternatives provided."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q39",
@@ -82463,7 +82733,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Woken"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Woke.",
+    "explanation": "The simple past of “wake” is “woke.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82471,7 +82741,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 36-40) : Choose the correct past form of the verb from the alternatives provided."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q40",
@@ -82490,7 +82761,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Struck"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Struck.",
+    "explanation": "The simple past of “strike” is “struck.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82498,7 +82769,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 36-40) : Choose the correct past form of the verb from the alternatives provided."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q41",
@@ -82516,7 +82788,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Compound.",
+    "explanation": "The two coordinated imperative clauses “Be just” and “fear not” form a compound sentence.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82542,7 +82814,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple.",
+    "explanation": "There is one independent clause, so the sentence is simple.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82568,7 +82840,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple.",
+    "explanation": "“But for your help” is a phrase; the sentence has one independent clause and is simple.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82594,7 +82866,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex.",
+    "explanation": "“Where he is hiding” is a subordinate noun clause serving as the subject, making the sentence complex.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82620,7 +82892,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Compound.",
+    "explanation": "The “either…or” construction joins two independent clauses.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82646,7 +82918,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex.",
+    "explanation": "“Where you please” is a subordinate adverb clause, so the sentence is complex.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82672,7 +82944,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex.",
+    "explanation": "“That is full of grief” is a relative adjective clause, so the sentence is complex.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82698,7 +82970,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple.",
+    "explanation": "“Smiling” is a participial phrase; there is only one finite clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82724,7 +82996,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Compound"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Simple.",
+    "explanation": "“To be happy” is an infinitive phrase, not a finite subordinate clause; the sentence is simple.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82750,7 +83022,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective Phrase.",
+    "explanation": "“Of means” modifies “man,” so it is an adjective phrase.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
@@ -82776,10 +83048,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun Phrase.",
+    "explanation": "The underlined gerund phrase “catching mice” functions as the object of “like,” a noun phrase.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82802,10 +83074,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun Phrase.",
+    "explanation": "The underlined infinitive phrase is the subject of “is,” so it functions as a noun phrase.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82828,10 +83100,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adverb Phrase.",
+    "explanation": "“In the twinkling of an eye” modifies “left” by telling when, so it is an adverb phrase.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82854,10 +83126,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adverb Phrase.",
+    "explanation": "“At random” modifies “answer” by telling how, so it is an adverb phrase.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82880,10 +83152,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun Phrase.",
+    "explanation": "“The atmosphere in the market” is a noun phrase with “atmosphere” as its head.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82906,10 +83178,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adverb Phrase.",
+    "explanation": "“With great force” modifies “thumbed” by telling how, so it is an adverb phrase.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82932,10 +83204,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective Clause.",
+    "explanation": "“That sounds untrue” modifies “tale,” so it is an adjective clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82958,10 +83230,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective Clause.",
+    "explanation": "“Which you mention” modifies “place,” so it is an adjective clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -82984,10 +83256,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective Clause.",
+    "explanation": "“When wars should cease” modifies the noun “time,” so it is an adjective clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83010,10 +83282,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adverb Clause.",
+    "explanation": "“When you like” modifies the command “come,” so it is an adverb clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83036,14 +83308,14 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique correct answer; keep this item unscored.",
+    "explanation": "The underlined “Glancing over his shoulder” is a participial phrase, not a finite clause; none of the three offered clause types applies.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after scan review; no unique answer is supported by the printed choices."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q62",
@@ -83061,10 +83333,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adjective Clause.",
+    "explanation": "“Whence such birds migrate” modifies “country,” so it is an adjective clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83087,10 +83359,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun Clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Noun Clause.",
+    "explanation": "“How we managed to crack the code” completes the predicate after “was” and functions as a noun clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=5",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83114,10 +83386,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Negative"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Negative.",
+    "explanation": "The negative pronoun “nothing” makes this a negative sentence.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83138,13 +83410,13 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Assertive",
       "Imperative",
       "Affirmative",
-      "Negative"
+      "Interrogative"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Imperative.",
+    "explanation": "“Let him go” is a command, so the sentence is imperative.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83165,13 +83437,13 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Assertive",
       "Imperative",
       "Affirmative",
-      "Negative"
+      "Interrogative"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Assertive.",
+    "explanation": "It is a declarative statement, classified as assertive.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
+    "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=4",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -83194,8 +83466,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Negative",
       "Affirmative"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Assertive.",
+    "answerIndex": 2,
+    "explanation": "“None but” has a negative form in this classification scheme.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83203,7 +83475,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q68",
@@ -83222,7 +83495,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Exclamatory."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Affirmative.",
+    "explanation": "The sentence is affirmative in form; “only” limits the subject.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83230,7 +83503,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q69",
@@ -83249,7 +83523,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Negative"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Negative.",
+    "explanation": "“No one” makes the sentence negative.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83257,7 +83531,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q70",
@@ -83276,7 +83551,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Exclamatory"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Exclamatory.",
+    "explanation": "The exclamation mark and exclamatory wording identify an exclamatory sentence.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83284,7 +83559,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 64-70): Identify the following sentences by choosing one of the alternatives"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q71",
@@ -83303,7 +83579,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to sacrifice life"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: under the threat of.",
+    "explanation": "“On pain of death” means under threat of death.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83311,7 +83587,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q72",
@@ -83330,7 +83607,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "quit"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: die.",
+    "explanation": "“Kick the bucket” means die.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83338,7 +83615,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q73",
@@ -83357,7 +83635,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "fell behind others"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: outshine others.",
+    "explanation": "“Steal a march” means gain an advantage over others.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83365,7 +83643,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q74",
@@ -83384,7 +83663,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "thinking deeply"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: thinking deeply.",
+    "explanation": "“Chew the cud” figuratively means think something over.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83392,7 +83671,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q75",
@@ -83411,7 +83691,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "is related to"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: is well thought of by.",
+    "explanation": "“Stand well with” someone means be regarded favorably by them.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83419,7 +83699,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q76",
@@ -83438,7 +83719,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "perfectly fits"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: where the trouble lies.",
+    "explanation": "“Where the shoe pinches” means where the difficulty or trouble lies.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=6",
@@ -83446,7 +83727,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q77",
@@ -83465,7 +83747,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "do a remarkable or surprising thing."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: do a remarkable or surprising thing..",
+    "explanation": "“Set the Thames on fire” means do something remarkable.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83473,7 +83755,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q78",
@@ -83492,7 +83775,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "knew after enquiring."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: heard rumours.",
+    "explanation": "“On the grapevine” means through rumor or informal reports.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83500,7 +83783,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q79",
@@ -83519,7 +83803,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "keep in touch"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: keep the task going.",
+    "explanation": "“Keep the ball rolling” means keep an activity going.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83527,7 +83811,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q80",
@@ -83546,7 +83831,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "carrying out a tedious job"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: solving an intricate situation.",
+    "explanation": "“Cut the Gordian knot” means solve a difficult, intricate problem decisively.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83554,7 +83839,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71-80): Choose the correct meaning of idioms and phrases written in bold"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q81",
@@ -83573,7 +83859,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "emulation"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: emulation.",
+    "explanation": "“Worthy of emulation” means worthy of being imitated.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83581,7 +83867,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q82",
@@ -83600,7 +83887,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "excited"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: blase.",
+    "explanation": "“Blasé” means unimpressed or unconcerned, fitting the contrast with being castigated.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83608,7 +83895,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q83",
@@ -83627,7 +83915,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "sour"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: putrid.",
+    "explanation": "“Putrid” describes decomposed, foul-smelling food.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83635,7 +83923,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q84",
@@ -83654,7 +83943,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "oblivious"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: obsolete.",
+    "explanation": "A car no longer in common use is obsolete.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83662,7 +83951,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q85",
@@ -83681,7 +83971,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "sagacity"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: sagacity.",
+    "explanation": "“Sagacity” means wisdom or sound judgment.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83689,7 +83979,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q86",
@@ -83708,7 +83999,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "join"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: harness.",
+    "explanation": "“Harness” means make effective use of a resource.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83716,7 +84007,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q87",
@@ -83735,7 +84027,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "malevolent"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: mellifluous.",
+    "explanation": "“Mellifluous” means sweet or musical in sound.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83743,7 +84035,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q88",
@@ -83762,7 +84055,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "irritated"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: aggravated.",
+    "explanation": "The remarks worsened the situation, so “aggravated” fits.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
@@ -83770,7 +84063,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q89",
@@ -83788,15 +84082,17 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "assist",
       "support"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique correct answer; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "“Assist people to choose and achieve” is the grammatical and semantic fit.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 81-89): Choose the word which best fills the blank from the given options."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q90",
@@ -83815,7 +84111,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "were"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: am.",
+    "explanation": "With “either…or,” the verb agrees with the nearer subject “I”: “am.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83823,7 +84119,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 90-95): Choose a verb which best agrees with the subject of the following"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q91",
@@ -83842,7 +84139,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "is"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: has.",
+    "explanation": "“Many a” takes a singular verb: “has.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83850,7 +84147,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 90-95): Choose a verb which best agrees with the subject of the following"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q92",
@@ -83869,7 +84167,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "whose"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: whom.",
+    "explanation": "“Whom” is the object of “had called” in the relative clause.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83877,7 +84175,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 90-95): Choose a verb which best agrees with the subject of the following"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q93",
@@ -83896,7 +84195,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "me"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: I.",
+    "explanation": "In formal grammar, the pronoun complement is nominative: “It was I who…”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83904,7 +84203,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 90-95): Choose a verb which best agrees with the subject of the following"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q94",
@@ -83923,7 +84223,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "is"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: is.",
+    "explanation": "“Horse and carriage” names one combined vehicle here, so the singular “is” is used.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83931,7 +84231,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 90-95): Choose a verb which best agrees with the subject of the following"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q95",
@@ -83950,7 +84251,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "have"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: is.",
+    "explanation": "“Each” is singular and takes “is.”",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83958,7 +84259,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question 90-95): Choose a verb which best agrees with the subject of the following"
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q96",
@@ -83977,7 +84279,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "beguile"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: joint.",
+    "explanation": "A hinge is a joint or pivot.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -83985,7 +84287,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Direction (Question 96-100): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q97",
@@ -84003,16 +84306,16 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "strength",
       "chide"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: strength.",
+    "answerIndex": -1,
+    "explanation": "The italicized word is “virtues,” but none of the choices is an accurate synonym for the general meaning “moral excellence”; “chastity” is only one specific virtue.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; no unique answer is supported by the printed choices.",
+    "direction": "Direction (Question 96-100): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q98",
@@ -84030,15 +84333,17 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "disparage",
       "vassal"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique correct answer; keep this item unscored.",
+    "answerIndex": 1,
+    "explanation": "“Slaughter” is closest to “carnage” among the offered choices.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Direction (Question 96-100): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q99",
@@ -84057,7 +84362,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "doggerel"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: rhythm.",
+    "explanation": "“Cadence” means the rhythm or flow of speech.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -84065,7 +84370,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Direction (Question 96-100): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q100",
@@ -84084,7 +84390,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "wise"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: wise.",
+    "explanation": "“Sagacious” means wise.",
     "source": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer) · September 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/veterinary-officer-2018-english-p2.pdf#page=8",
@@ -84092,7 +84398,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Direction (Question 96-100): Choose the word nearest in meaning of the italicized words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B1",
@@ -84111,7 +84418,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "in the air"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: about to start.",
+    "explanation": "“In the offing” means about to happen or start.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=1",
@@ -84119,7 +84426,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B2",
@@ -84138,7 +84446,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to be unsure"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to be in a dilemma.",
+    "explanation": "“Between the devil and the deep sea” means caught in a dilemma.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=1",
@@ -84146,7 +84454,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B3",
@@ -84165,7 +84474,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "try to revive interests"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to do a thing in vain.",
+    "explanation": "“Flogging a dead horse” means persisting with something futile.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=1",
@@ -84173,7 +84482,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B4",
@@ -84192,7 +84502,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "feel good"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: frustrate.",
+    "explanation": "To dash hopes is to frustrate them.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=1",
@@ -84200,7 +84510,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B5",
@@ -84219,7 +84530,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "making fun"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: not to speak plainly.",
+    "explanation": "“Mince matters” means avoid speaking plainly.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=1",
@@ -84227,7 +84538,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B6",
@@ -84246,7 +84558,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "possess the same defects"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: possess the same defects.",
+    "explanation": "“Tarred with the same brush” means sharing the same defects or bad reputation.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=1",
@@ -84254,7 +84566,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B7",
@@ -84272,8 +84585,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "overestimates",
       "pays too much attention to"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: overestimates.",
+    "answerIndex": 3,
+    "explanation": "“Make too much of” someone means give them excessive importance or attention; “pays too much attention to” is the closest option.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84281,7 +84594,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B8",
@@ -84300,7 +84614,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "too many enemies"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: too many engagements.",
+    "explanation": "“Too many irons in the fire” means having too many commitments.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84308,7 +84622,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 8) : Choose the correct meaning of Idioms and Phrases written in bold"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B9",
@@ -84327,7 +84642,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "not sympathise with"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: keep away from.",
+    "explanation": "“Give a wide berth” means keep away from.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84335,7 +84650,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B10",
@@ -84354,7 +84670,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to have desires unbacked by efforts"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: anything which eludes or deceives.",
+    "explanation": "A will-o’-the-wisp is something elusive or deceptive.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84362,7 +84678,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B11",
@@ -84373,7 +84690,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "To cut the crackle",
+    "question": "To cut the crackle.",
     "options": [
       "to dig a well",
       "to annoy others",
@@ -84381,7 +84698,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to act in a friendly way"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: to stop talking and start.",
+    "explanation": "“Cut the crackle” is evidently the source’s form of “cut the cackle”: stop talking and get started.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84389,7 +84706,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B12",
@@ -84408,7 +84726,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "be under debt"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: be in difficulties.",
+    "explanation": "“Be in the mire” means be in difficulty.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84416,7 +84734,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B13",
@@ -84435,7 +84754,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to take with some reservation"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: to take with some reservation.",
+    "explanation": "To take something with a grain of salt is to treat it with reservation.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84443,7 +84762,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B14",
@@ -84461,8 +84781,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to show one’s talents before an audience which is incapable of appreciating them",
       "to bring one’s commodities to a market where there is no demand for them."
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: to bring one’s commodities to a market where there is no demand for them..",
+    "answerIndex": 2,
+    "explanation": "“Bring one’s eggs to a bad market” means present one’s talents to an audience unable to appreciate them.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84470,7 +84790,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B15",
@@ -84489,7 +84810,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "to get the impossible"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: to send away.",
+    "explanation": "To give someone the bird is to dismiss or reject them; “send away” is the closest offered meaning.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84497,7 +84818,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B16",
@@ -84516,7 +84838,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "bitter enemies"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: close companions.",
+    "explanation": "“Like hand and glove” describes people or things that fit closely; “close companions” is the best offered meaning.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=2",
@@ -84524,7 +84846,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 9 - 16) : Choose the exact meaning of idiomatic expressions / phrases."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B17",
@@ -84543,7 +84866,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Mechanised response to external conditions"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adapting muscles to force implied on them.",
+    "explanation": "Weight training works by making muscles adapt to the resistance or force placed on them.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84551,7 +84874,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B18",
@@ -84570,7 +84894,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Stress imposed on them"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Stress imposed on them.",
+    "explanation": "The passage says muscle fibres change in response to the demands placed on them.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84578,7 +84902,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B19",
@@ -84597,7 +84922,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "By accelerating the circulation of blood"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adapting to excessive workload.",
+    "explanation": "The heart adapts to the extra workload by becoming stronger and more efficient.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84605,7 +84930,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B20",
@@ -84624,7 +84950,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: More than normal.",
+    "explanation": "A stronger heart pumps the same quantity of blood in fewer beats, so each heartbeat moves more than before.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84632,7 +84958,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B21",
@@ -84651,7 +84978,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Efficient.",
+    "explanation": "“Well-oiled” here means efficient and functioning smoothly.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84659,7 +84986,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B22",
@@ -84678,7 +85006,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Increased.",
+    "explanation": "The passage says that in today’s stressful world people need all the help exercise can give.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84686,7 +85014,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B23",
@@ -84705,7 +85034,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Accelerating the circulation of blood"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Pumping the blood to the muscles.",
+    "explanation": "The passage says the heart pumps blood to the muscles being worked.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84713,7 +85042,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B24",
@@ -84732,7 +85062,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "We should subject our body to as much exercise as it can withstand."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: We should carry out physical exercise as a routine.",
+    "explanation": "The passage supports regular physical exercise as part of maintaining the body’s efficiency.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=3",
@@ -84740,7 +85070,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 17 - 24) : Read the following passage and answer the following questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B25",
@@ -84759,7 +85090,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The weapons invented by science do not cause war, though these make it more destructive"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: The weapons invented by science do not cause war, though these make it more destructive.",
+    "explanation": "The passage says science’s weapons do not necessarily cause war, but make war more terrible.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84767,7 +85098,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B26",
@@ -84786,7 +85118,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Weapons invented by science are not used to launch a war"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: We replace force and lawlessness by law and international government.",
+    "explanation": "The writer says war can be stopped by substituting law and international government for force and anarchy.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84794,7 +85126,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B27",
@@ -84813,7 +85146,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Prevent scientists from participating in destructive activities"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Abolish war.",
+    "explanation": "The stated main problem is to stop war, not to curb science.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84821,7 +85154,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B28",
@@ -84840,7 +85174,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Both (b) and (c)"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Both (b) and (c).",
+    "explanation": "The passage names education/tolerance and understanding/creative intelligence; both options (b) and (c) express those ideas.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84848,7 +85182,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B29",
@@ -84867,7 +85202,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Introduces to an unpredictable destiny"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Carry close to death and destruction.",
+    "explanation": "“Bring to the doorstep of doom” means bring close to death or destruction.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84875,7 +85210,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B30",
@@ -84894,7 +85230,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The role of science in ensuring world peace is subsidiary to that of man"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Neither science nor the weapons it invents add to the horror of war.",
+    "explanation": "This is not implied: the passage explicitly says science’s weapons make war increasingly terrible.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84902,7 +85238,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B31",
@@ -84921,7 +85258,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Has begun, but not yet completed"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Has only just begun.",
+    "explanation": "“Scarcely begun” means only just begun.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=4",
@@ -84929,7 +85266,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B32",
@@ -84948,7 +85286,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Science and the new generation"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Science and world peace.",
+    "explanation": "The passage focuses on how science must help people secure world peace by stopping war.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -84956,7 +85294,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 25 - 32) : Read the following passage carefully and answer the questions"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B33",
@@ -84975,7 +85314,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adjective.",
+    "explanation": "“Blessed” describes the noun “thing,” so it is an adjective.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -84983,7 +85322,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B34",
@@ -85002,7 +85342,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adverb.",
+    "explanation": "“Certainly” modifies the statement and is an adverb.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85010,7 +85350,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B35",
@@ -85029,7 +85370,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adjective.",
+    "explanation": "“Such” modifies the noun phrase “a hurry,” so it is an adjective/determiner in the choices’ terminology.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85037,7 +85378,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B36",
@@ -85056,7 +85398,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Pronoun.",
+    "explanation": "“Whom” is the object pronoun in the question.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85064,7 +85406,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B37",
@@ -85082,15 +85425,17 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "answerIndex": 1,
+    "explanation": "“And see” is an interjection meaning “and look/lo.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B38",
@@ -85109,7 +85454,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Pronoun.",
+    "explanation": "“Few” stands alone as the subject and is a pronoun.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85117,7 +85462,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 33 - 38) : Identify the parts of speech of each underlined words."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B39",
@@ -85136,14 +85482,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "with"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "Both “prevailed on him to vote” and “prevailed upon him to vote” are standard constructions, and both options are present.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "Both “prevailed on him to vote” and “prevailed upon him to vote” are standard constructions, and both options are present.",
+    "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B40",
@@ -85162,7 +85509,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: from.",
+    "explanation": "The standard construction is “differs from.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85170,7 +85517,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B41",
@@ -85189,7 +85537,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: into.",
+    "explanation": "“Intrude into” is the natural collocation for entering a place without permission.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85197,7 +85545,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B42",
@@ -85216,7 +85565,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "upon"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: to.",
+    "explanation": "The standard collocation is “beneficial to health.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85224,7 +85573,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B43",
@@ -85243,7 +85593,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: in.",
+    "explanation": "One is negligent “in” what one does.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=5",
@@ -85251,7 +85601,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 39 – 43 ) : Fill in the blanks with appropriate preposition given below each"
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B44",
@@ -85270,7 +85621,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "were speaking"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: spoke.",
+    "explanation": "After the past-tense “did not know,” the clause takes past “spoke.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85278,7 +85629,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B45",
@@ -85297,7 +85649,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "had not seen"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: have not seen.",
+    "explanation": "“For ten years” continuing to the present takes the present perfect “have not seen.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85305,7 +85657,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B46",
@@ -85324,7 +85677,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "pushes."
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: are pushing.",
+    "explanation": "“Latest news” describes an event in progress now: “are pushing.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85332,7 +85685,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B47",
@@ -85351,7 +85705,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "have been cleaning"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: have just cleaned.",
+    "explanation": "The present perfect “have just cleaned” explains why the shoes are here now.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85359,7 +85713,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B48",
@@ -85378,7 +85733,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "will have finished"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: will have finished.",
+    "explanation": "“By tomorrow evening” calls for the future perfect “will have finished.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85386,12 +85741,13 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 44 – 48): Fill in the blanks with the most appropriate form of the verb given."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q49",
+    "id": "mpsc-group-b-je-iwr-2018-english-B49",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "49",
+    "questionNumber": "B49",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85404,7 +85760,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Simple"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Compound.",
+    "explanation": "The conjunction “and” joins two independent clauses, so the sentence is compound.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85415,9 +85771,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q50",
+    "id": "mpsc-group-b-je-iwr-2018-english-B50",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "50",
+    "questionNumber": "B50",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85430,7 +85786,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Simple"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Simple.",
+    "explanation": "There is one independent clause; “on the boy’s impudence” is a phrase, so the sentence is simple.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85441,22 +85797,22 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q51",
+    "id": "mpsc-group-b-je-iwr-2018-english-B51",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "51",
+    "questionNumber": "B51",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "We wish to live and so we live",
+    "question": "We wish to live and so we live.",
     "options": [
       "Compound",
       "Complex",
       "Simple"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Compound.",
+    "explanation": "“We wish to live” and “so we live” are independent clauses joined by “and so,” making a compound sentence.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85467,9 +85823,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q52",
+    "id": "mpsc-group-b-je-iwr-2018-english-B52",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "52",
+    "questionNumber": "B52",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85482,7 +85838,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Simple"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex.",
+    "explanation": "“That cannot be passed” is a subordinate relative clause, so the sentence is complex.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85493,9 +85849,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q53",
+    "id": "mpsc-group-b-je-iwr-2018-english-B53",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "53",
+    "questionNumber": "B53",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85508,7 +85864,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Simple"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Complex.",
+    "explanation": "“What I ask” is a subordinate noun clause, so the sentence is complex.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85519,9 +85875,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q54",
+    "id": "mpsc-group-b-je-iwr-2018-english-B54",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "54",
+    "questionNumber": "B54",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85534,7 +85890,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Simple"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Simple.",
+    "explanation": "“Being poor” is a participial phrase; there is one finite clause, so the sentence is simple.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85545,9 +85901,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q55",
+    "id": "mpsc-group-b-je-iwr-2018-english-B55",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "55",
+    "questionNumber": "B55",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85560,7 +85916,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective Phrase"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun Phrase.",
+    "explanation": "The infinitive phrase “To give up smoking” functions as the subject, so it is a noun phrase.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85571,9 +85927,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q56",
+    "id": "mpsc-group-b-je-iwr-2018-english-B56",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "56",
+    "questionNumber": "B56",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85585,8 +85941,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adverb Phrase",
       "Adjective Phrase"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adjective Phrase.",
+    "answerIndex": 0,
+    "explanation": "The underlined words “words full of wisdom” form a noun phrase; “words” is its head.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
@@ -85597,9 +85953,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q57",
+    "id": "mpsc-group-b-je-iwr-2018-english-B57",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "57",
+    "questionNumber": "B57",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85612,19 +85968,19 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective Phrase"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "The underlined “Whatever you do” is a finite subordinate clause, but the choices classify phrases (noun, adverb, adjective); none applies.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "The underlined “Whatever you do” is a finite subordinate clause, but the choices classify phrases (noun, adverb, adjective); none applies."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q58",
+    "id": "mpsc-group-b-je-iwr-2018-english-B58",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "58",
+    "questionNumber": "B58",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85637,10 +85993,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective Phrase"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adverb Phrase.",
+    "explanation": "“With caution” modifies “climbed” by telling how, so it is an adverb phrase.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -85648,9 +86004,9 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-je-iwr-2018-english-Q59",
+    "id": "mpsc-group-b-je-iwr-2018-english-B59",
     "paperId": "mpsc-group-b-je-iwr-2018-english",
-    "questionNumber": "59",
+    "questionNumber": "B59",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
@@ -85663,10 +86019,10 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Adjective Phrase"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Adverb Phrase.",
+    "explanation": "“At random” modifies “answer” by telling how, so it is an adverb phrase.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=6",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -85690,7 +86046,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Comparative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Negative.",
+    "explanation": "“No one” gives the sentence negative form; the best classification is negative.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85698,7 +86054,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B61",
@@ -85717,7 +86074,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Comparative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Negative.",
+    "explanation": "“No man” gives the sentence negative form; the best classification is negative.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85725,7 +86082,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B62",
@@ -85744,7 +86102,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Negative"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Comparative.",
+    "explanation": "“More nutritious than” is a comparative construction, even though the comparison is negated.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85752,7 +86110,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B63",
@@ -85771,7 +86130,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Interrogative"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Imperative.",
+    "explanation": "“Leave the package” is a command, so the sentence is imperative.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85779,7 +86138,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B64",
@@ -85797,8 +86157,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Assertive",
       "Comparative"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Comparative.",
+    "answerIndex": 1,
+    "explanation": "This is an affirmative sentence; “too cold…to drink” can be recast as “so cold that I cannot drink it.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85806,7 +86166,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 60 – 64) : Identify the following by choosing one of the alternatives given."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B65",
@@ -85825,7 +86186,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "cowardice"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: prosperity.",
+    "explanation": "Adversity is the opposite of prosperity, just as beauty is the opposite of ugliness.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85833,7 +86194,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B66",
@@ -85852,7 +86214,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "platonic"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: palpable.",
+    "explanation": "“Palpable” means able to be felt or sensed; tension can be palpable.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85860,7 +86222,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B67",
@@ -85879,7 +86242,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "overweening"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: overweening.",
+    "explanation": "“Overweening vanity” means excessive, presumptuous vanity.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85887,7 +86250,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B68",
@@ -85898,23 +86262,23 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The ties that bind a family together are __________ that they can hardly withstand angy strain.",
+    "question": "The ties that bind a family together are __________ that they can hardly withstand any strain.",
     "options": [
       "tenious",
       "tentative",
       "twisted",
       "tenacious"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: tenious.",
+    "answerIndex": -1,
+    "explanation": "The intended choice appears to be “tenuous,” but the source prints “tenious” and the sentence also omits “so” before the “that” clause, leaving no fully grammatical option as printed.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "The intended choice appears to be “tenuous,” but the source prints “tenious” and the sentence also omits “so” before the “that” clause, leaving no fully grammatical option as printed.",
+    "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options."
   }
 ];
 const groupBQuestionsPart11: BankQuestion[] = [
@@ -85927,7 +86291,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "If an inedible ink is used, this will not be __________.",
+    "question": "If an indelible ink is used, this will not be __________.",
     "options": [
       "observed",
       "obligated",
@@ -85935,7 +86299,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "obviated"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: obliterated.",
+    "explanation": "“Obliterated” means erased or destroyed; the sentence says the ink will not be erased.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=7",
@@ -85943,7 +86307,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B70",
@@ -85961,15 +86326,17 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "fortification",
       "determination"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "answerIndex": 1,
+    "explanation": "“Fortitude” is the strength of character that earns respect rather than fear.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 65 – 70): Choose the word which best fills the blanks from the given options."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B71",
@@ -85988,7 +86355,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "moderate"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: moderate.",
+    "explanation": "“Moderate” is the opposite of “exorbitant.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -85996,7 +86363,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B72",
@@ -86015,7 +86383,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "debility"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: abundance.",
+    "explanation": "“Abundance” is the opposite of “dearth.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86023,7 +86391,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B73",
@@ -86042,7 +86411,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "repeated"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: denied.",
+    "explanation": "“Denied” is the opposite of “corroborated” (confirmed).",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86050,7 +86419,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B74",
@@ -86069,7 +86439,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "automatic"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: renovated.",
+    "explanation": "“Renovated” is the closest offered opposite of “obsolete,” meaning out of date.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86077,7 +86447,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B75",
@@ -86096,7 +86467,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "captive"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: predictable.",
+    "explanation": "“Predictable” is the opposite of “capricious,” meaning unpredictable.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86104,7 +86475,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 71 – 75) : Select the opposite of the given word from the choices below."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B76",
@@ -86123,7 +86495,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Despite"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: But for.",
+    "explanation": "“But for the timely help” means without that help; the patient would have died.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86131,7 +86503,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B77",
@@ -86150,7 +86523,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "hasn’t it been"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: wasn’t it.",
+    "explanation": "The subject of the tag is “the topic,” represented by “it”; the past passive “was raised” takes “wasn’t it?”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86158,7 +86531,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B78",
@@ -86177,7 +86551,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "might"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: might.",
+    "explanation": "In a purpose clause following past “went,” “might” is the conventional sequence-of-tense form.",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86185,7 +86559,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B79",
@@ -86204,7 +86579,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "is"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: were.",
+    "explanation": "The unreal comparison “as though” takes subjunctive “were.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86212,7 +86587,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-B80",
@@ -86231,7 +86607,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "whose"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: whom.",
+    "explanation": "“Whom” is the object of the preposition “about.”",
     "source": "Junior Engineer under Irrigation & Water Resources · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/je-iwr-2018-english.pdf#page=8",
@@ -86239,7 +86615,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 – 80 )  : Fill in the blanks with the most appropriate alternative."
   },
   {
     "id": "mpsc-group-b-je-iwr-2018-english-written-1",
@@ -86276,7 +86653,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Italy is located in a lower altitude"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Italy is nearer to the equator.",
+    "explanation": "The passage gives the rule that places farther from the Equator are colder; Italy is nearer the Equator than England.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=2",
@@ -86303,7 +86680,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Iceland"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: The region between the Arctic Circle and North Pole.",
+    "explanation": "The passage places the world’s coldest regions generally between the Arctic Circle and North Pole.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=2",
@@ -86330,7 +86707,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "There is no birds living there"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Of the frozen solid ground.",
+    "explanation": "Permafrost prevents long tree roots from pushing through the frozen ground.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=2",
@@ -86357,7 +86734,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "All of these"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: All of these.",
+    "explanation": "The seal supplies food and clothing, and its bones are made into useful instruments.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=2",
@@ -86384,7 +86761,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Cart"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Sledge.",
+    "explanation": "The passage says they travel on sledges dragged by dogs.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=2",
@@ -86411,7 +86788,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "All of these"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: All of these.",
+    "explanation": "The passage says lichens need only moisture, have no roots, and can grow on frozen surfaces.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86438,7 +86815,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Walrus"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Seal, Whale and Walrus.",
+    "explanation": "The passage says harpoons are used for seals, whales, and walruses.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86465,7 +86842,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Hairy caribou"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Seal.",
+    "explanation": "The passage identifies the seal as the Eskimos’ main supply of food.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86492,7 +86869,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "The elders"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Women.",
+    "explanation": "The passage says women make all articles of clothing.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86519,7 +86896,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Vegetables"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Berries.",
+    "explanation": "Wild currants are berries.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86546,7 +86923,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Monotonous"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Barren and desolate.",
+    "explanation": "“Bleak” means barren and desolate in this context.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86573,7 +86950,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Hard Working"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Tough.",
+    "explanation": "“Hardy” means tough and able to endure difficult conditions.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86600,7 +86977,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Combing hair while examining something"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Examining something carefully to not miss out any details.",
+    "explanation": "To examine with a fine-tooth comb is to inspect carefully for every detail.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86608,7 +86985,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B14",
@@ -86627,7 +87005,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Getting ducks to launch the product"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Getting your things organized.",
+    "explanation": "Getting one’s ducks in a row means organizing things.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86635,7 +87013,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B15",
@@ -86654,7 +87033,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "turning blind from eating cookies"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: to pretend not to have noticed it.",
+    "explanation": "To turn a blind eye is to pretend not to notice something.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=3",
@@ -86662,7 +87041,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B16",
@@ -86681,7 +87061,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "something that happens once a week"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: something that happens very infrequently.",
+    "explanation": "Once in a blue moon means very infrequently.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86689,7 +87069,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B17",
@@ -86708,7 +87089,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to drive a car up the wall"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: causing extreme exasperation and annoyance.",
+    "explanation": "Driving someone up the wall means greatly annoying or exasperating them.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86716,7 +87097,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B18",
@@ -86735,7 +87117,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to concentrate very hard"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: to stop doing something for the day.",
+    "explanation": "To call it a day is to stop working for the day.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86743,7 +87125,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B19",
@@ -86762,7 +87145,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "showing a rope to someone."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: be informed about the details of a task.",
+    "explanation": "Knowing the ropes means knowing how a task or place works.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86770,7 +87153,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B20",
@@ -86789,7 +87173,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to feel exhausted"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to be extremely impressed.",
+    "explanation": "“Blew me away” means impressed me greatly.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86797,7 +87181,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B21",
@@ -86816,7 +87201,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "stealing a man from someone"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: be someone worth having.",
+    "explanation": "A catch is someone desirable or worth having as a partner.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86824,7 +87209,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B22",
@@ -86843,7 +87229,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "very expensive"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: very expensive.",
+    "explanation": "“Cost an arm and a leg” means very expensive.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86851,7 +87237,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B23",
@@ -86870,7 +87257,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "doubtful"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: precisely correct.",
+    "explanation": "To hit the nail on the head is to be precisely correct.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86878,7 +87265,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B24",
@@ -86897,7 +87285,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to work for a few hours."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: work very hard.",
+    "explanation": "To work like a dog is to work very hard.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86905,7 +87293,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B25",
@@ -86924,7 +87313,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "thirteen"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: thirteen.",
+    "explanation": "A baker’s dozen is thirteen.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86932,7 +87321,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B26",
@@ -86951,7 +87341,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "throwing stone"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: very near.",
+    "explanation": "A stone’s throw means very near.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86959,7 +87349,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B27",
@@ -86978,7 +87369,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "excitement"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: an attitude of rejection.",
+    "explanation": "Giving the cold shoulder means showing rejection or deliberate unfriendliness.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=4",
@@ -86986,7 +87377,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B28",
@@ -87005,7 +87397,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to feel sick"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: desire to leave.",
+    "explanation": "Itchy feet means a desire to travel or leave.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87013,7 +87405,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 13 - 28) Choose the Correct meaning of Idiom and phrases given in bold letters"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B29",
@@ -87032,7 +87425,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Pronoun.",
+    "explanation": "“Yourself” is a reflexive pronoun.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87040,7 +87433,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B30",
@@ -87051,7 +87445,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "She is a wearing a **gold** ring.",
+    "question": "She is wearing a **gold** ring.",
     "options": [
       "Pronoun",
       "Adverb",
@@ -87059,7 +87453,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adjective.",
+    "explanation": "“Gold” modifies “ring,” so it is an adjective.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87067,7 +87461,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B31",
@@ -87086,7 +87481,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adverb.",
+    "explanation": "“Seldom” modifies “go” and is an adverb.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87094,7 +87489,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B32",
@@ -87113,7 +87509,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Preposition.",
+    "explanation": "“About” introduces the object “his health,” so it is a preposition.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87121,7 +87517,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B33",
@@ -87140,7 +87537,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Conjunction.",
+    "explanation": "“Either” pairs with “or” to join alternatives, functioning as a conjunction.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87148,7 +87545,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B34",
@@ -87167,14 +87565,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "explanation": "“On the contrary” functions as a conjunctive adverbial phrase, but the choices include no adverb/adverbial category. It is not itself a conjunction, noun, preposition, or adjective; hold.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held because the requested grammatical category is missing from the choices.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B35",
@@ -87193,7 +87592,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Verb.",
+    "explanation": "“Tutored” is the verb, in the past participle form.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87201,7 +87600,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B36",
@@ -87220,7 +87620,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Noun.",
+    "explanation": "“Eye” names a part of the needle and is a noun.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87228,7 +87628,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B37",
@@ -87247,7 +87648,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Adjective.",
+    "explanation": "“Matchless” describes the prize, so it is an adjective.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87255,7 +87656,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B38",
@@ -87274,7 +87676,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Determiner"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Determiner.",
+    "explanation": "“Any” specifies the quantity of money and is a determiner.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87282,7 +87684,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B39",
@@ -87301,7 +87704,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Noun.",
+    "explanation": "“Showmanship” names a quality or skill and is a noun.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=5",
@@ -87309,7 +87712,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B40",
@@ -87328,7 +87732,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adjective"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Pronoun.",
+    "explanation": "“Each other” is a reciprocal pronoun.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87336,7 +87740,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B41",
@@ -87355,7 +87760,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Adjective.",
+    "explanation": "“Free” describes the resulting state of the prisoners and is an adjective.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87363,7 +87768,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B42",
@@ -87382,7 +87788,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Determiner.",
+    "explanation": "“Plenty of” specifies an indefinite amount and functions as a determiner.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87390,7 +87796,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B43",
@@ -87409,7 +87816,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Adverb.",
+    "explanation": "“Never” modifies the verb phrase and is an adverb.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87417,7 +87824,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B44",
@@ -87436,14 +87844,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Verb"
     ],
     "answerIndex": -1,
-    "explanation": "The printed wording/options do not support a unique answer; keep this item unscored.",
+    "explanation": "In “Put these books on the shelf above,” above has no object and functions adverbially. The choices omit adverb, so no listed answer is correct.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held because the requested grammatical category is missing from the choices.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B45",
@@ -87462,7 +87871,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Preposition.",
+    "explanation": "“Against” relates the policy to the people and is a preposition.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87470,7 +87879,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B46",
@@ -87489,7 +87899,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Conjunction.",
+    "explanation": "“Neither…nor” is a correlative conjunction.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87497,7 +87907,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B47",
@@ -87516,7 +87927,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Verb.",
+    "explanation": "“Borne” is the past participle of the verb “bear.”",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87524,7 +87935,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B48",
@@ -87543,7 +87955,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Preposition."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Preposition..",
+    "explanation": "“Before” takes the object “the judge,” so it is a preposition.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87551,7 +87963,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 29 - 48) Identify the part of speech of each underlined words :"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-Q49",
@@ -87564,12 +87977,12 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Look on top of the refrigerator for the key.",
     "options": [
-      "simple",
-      "compound",
-      "complex"
+      "Simple",
+      "Compound",
+      "Complex"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple.",
+    "explanation": "The sentence has one independent clause, so it is simple.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87590,12 +88003,12 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "They wanted to go to Venice, for they wanted to see Venice.",
     "options": [
-      "simple",
-      "compound",
-      "complex"
+      "Simple",
+      "Compound",
+      "Complex"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound.",
+    "explanation": "The sentence joins two independent clauses with “for,” so it is compound.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87616,12 +88029,12 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "A man may die, nation may rise and fall, but an idea lives on.",
     "options": [
-      "simple",
-      "compound",
-      "complex"
+      "Simple",
+      "Compound",
+      "Complex"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound.",
+    "explanation": "The sentence joins independent clauses, so it is compound.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
@@ -87642,15 +88055,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Though he was very rich, he was still unhappy.",
     "options": [
-      "simple",
-      "compound",
-      "complex"
+      "Simple",
+      "Compound",
+      "Complex"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: complex.",
+    "explanation": "The concessive subordinate clause introduced by “Though” makes the sentence complex.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87668,15 +88081,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Although very long, the movie was still enjoyable.",
     "options": [
-      "simple",
-      "compound",
-      "complex"
+      "Simple",
+      "Compound",
+      "Complex"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: complex.",
+    "explanation": "The subordinate clause “Although very long” makes the sentence complex.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87694,15 +88107,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "The frog jumped and landed in the pond.",
     "options": [
-      "simple",
-      "compound",
-      "complex"
+      "Simple",
+      "Compound",
+      "Complex"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple.",
+    "explanation": "The subject has two coordinated verbs but only one independent clause, so the sentence is simple.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=6",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87726,7 +88139,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "exclamatory"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Assertive.",
+    "explanation": "It makes a statement, so it is assertive.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
@@ -87734,7 +88147,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B56",
@@ -87753,7 +88167,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Interrogative"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Emphatic.",
+    "explanation": "“Do” adds emphasis to the imperative invitation, so emphatic is the intended notion.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
@@ -87761,7 +88175,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B57",
@@ -87780,7 +88195,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "imperative"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Interrogative.",
+    "explanation": "It asks a question and is interrogative.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
@@ -87788,7 +88203,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B58",
@@ -87807,7 +88223,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "negative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: imperative.",
+    "explanation": "It is a polite command/request, hence imperative.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
@@ -87815,7 +88231,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B59",
@@ -87834,7 +88251,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "exclamatory"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: interrogative.",
+    "explanation": "It is phrased as a question and is interrogative.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
@@ -87842,7 +88259,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 55 - 59) Identify the correct notion expressed by each of the following sentences"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-Q60",
@@ -87855,15 +88273,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "He is the best boy in the class.",
     "options": [
-      "positive",
-      "comparative",
-      "superlative"
+      "Positive",
+      "Comparative",
+      "Superlative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: superlative.",
+    "explanation": "“Best” is the superlative form of the adjective.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87881,15 +88299,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "No other fruit is as sweet as Mango.",
     "options": [
-      "positive",
-      "comparative",
-      "superlative"
+      "Positive",
+      "Comparative",
+      "Superlative"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: positive.",
+    "explanation": "“As sweet as” expresses the positive degree.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87907,15 +88325,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "He is richer than all other men.",
     "options": [
-      "positive",
-      "comparative",
-      "superlative"
+      "Positive",
+      "Comparative",
+      "Superlative"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: comparative.",
+    "explanation": "“Richer than” expresses the comparative degree.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87933,15 +88351,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "He is one of the most helpful students.",
     "options": [
-      "positive",
-      "comparative",
-      "superlative"
+      "Positive",
+      "Comparative",
+      "Superlative"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: superlative.",
+    "explanation": "“Most helpful” is the superlative degree.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87959,15 +88377,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Ashoka was more powerful than his father.",
     "options": [
-      "positive",
-      "comparative",
-      "superlative"
+      "Positive",
+      "Comparative",
+      "Superlative"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: comparative.",
+    "explanation": "“More powerful than” expresses the comparative degree.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
+    "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=7",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -87991,7 +88409,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Overcome"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Face.",
+    "explanation": "To encounter hardships is to face them.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -87999,7 +88417,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words."
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B66",
@@ -88018,7 +88437,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Allow"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Suggest.",
+    "explanation": "To allude to a point is to refer to or mention it indirectly; “suggest” is the nearest listed option.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88026,7 +88445,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words."
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B67",
@@ -88045,7 +88465,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Dismay"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Relish.",
+    "explanation": "To gloat over someone’s humiliation is to take pleasure in it; “relish” is closest.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88053,7 +88473,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words."
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B68",
@@ -88072,7 +88493,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Sadistic"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Taboo.",
+    "explanation": "“Illicit” means forbidden or unlawful; “taboo” is closest among the choices.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88080,7 +88501,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words."
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B69",
@@ -88099,7 +88521,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Fake"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Glittering.",
+    "explanation": "“Scintillating” means sparkling or glittering.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88107,7 +88529,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 65 - 69) Choose the word nearest in meaning to the underlined words."
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B70",
@@ -88126,7 +88549,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Allowed"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Instigated.",
+    "explanation": "To instigate workers to refuse allegiance is to urge or incite them to do so.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88134,7 +88557,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B71",
@@ -88153,7 +88577,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Excuse"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Exploit.",
+    "explanation": "To exploit a technology is to make use of it.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88161,7 +88585,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B72",
@@ -88180,7 +88605,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Ineffective"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Indispensable.",
+    "explanation": "“Indispensable” means essential. The printed phrase “prevention of democracy” appears semantically defective; likely “preservation” was intended.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88188,7 +88613,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B73",
@@ -88207,7 +88633,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Disagreement"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Disagreement.",
+    "explanation": "“Disagreement” is the noun that fits after “some.”",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=8",
@@ -88215,7 +88641,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B74",
@@ -88234,7 +88661,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Alternation"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Alter.",
+    "explanation": "To alter a plan is to change it.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88242,7 +88669,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 70 - 74) Select the most suitable alternative to fill in the blanks in the sentence"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B75",
@@ -88261,7 +88689,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Puzzled"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: respectful.",
+    "explanation": "“Disdainful” means contemptuous; “respectful” is its opposite.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88269,7 +88697,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B76",
@@ -88288,7 +88717,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Impetuous"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Inarticulate.",
+    "explanation": "“Eloquent” means fluent and persuasive; “inarticulate” is the opposite.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88296,7 +88725,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B77",
@@ -88315,7 +88745,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Unheeding"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Conscious.",
+    "explanation": "Oblivious means unaware; conscious is the opposite.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88323,7 +88753,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B78",
@@ -88342,7 +88773,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Flexible"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Flexible.",
+    "explanation": "Flexible is the opposite of rigid.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88350,7 +88781,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B79",
@@ -88369,7 +88801,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Distinguished"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer; option C is close but less precise.",
+    "explanation": "Renowned means famous; unknown is the best opposite offered.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88377,7 +88809,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-B80",
@@ -88396,7 +88829,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Virgin"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Fertile.",
+    "explanation": "Sterile means unable to reproduce; fertile is the opposite.",
     "source": "Assistant Jailor under Home (Prison) Department · February 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/assistant-jailor-2018-english.pdf#page=9",
@@ -88404,7 +88837,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions : (Questions 75 - 80)  Select the words which is opposite in meaning to the underlined"
   },
   {
     "id": "mpsc-group-b-assistant-jailor-2018-english-written-1",
@@ -88441,7 +88875,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "on intimate terms"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: human nature.",
+    "explanation": "“Flesh and blood” means human nature or the human condition.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=1",
@@ -88449,7 +88883,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B2",
@@ -88468,7 +88903,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "in dispute"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: disregarded.",
+    "explanation": "“Turned a deaf ear” means ignored or disregarded.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=1",
@@ -88476,7 +88911,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B3",
@@ -88495,7 +88931,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to end successfully"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: something which is very easy.",
+    "explanation": "“A piece of cake” means something very easy.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=1",
@@ -88503,7 +88939,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B4",
@@ -88522,7 +88959,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to be very angry"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: written proof.",
+    "explanation": "“In black and white” means in written form or written proof.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=1",
@@ -88530,7 +88967,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B5",
@@ -88549,7 +88987,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "with distinction"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: to be jealous.",
+    "explanation": "“Green with envy” means jealous.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=1",
@@ -88557,7 +88995,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B6",
@@ -88576,7 +89015,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "very scared"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: dazed.",
+    "explanation": "“In a fog” means confused or dazed.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=1",
@@ -88584,7 +89023,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B7",
@@ -88602,15 +89042,17 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to be annoying",
       "to be in charge"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "answerIndex": 0,
+    "explanation": "“Dressed” is used here to mean wearing one’s best clothes.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B8",
@@ -88629,7 +89071,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "gloomy"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: perplexed.",
+    "explanation": "“At sea” means perplexed.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88637,7 +89079,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B9",
@@ -88656,7 +89099,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "puzzled"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: came to nothing.",
+    "explanation": "“Ended in smoke” means came to nothing.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88664,7 +89107,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B10",
@@ -88683,7 +89127,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "uncomfortable"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: uncomfortable.",
+    "explanation": "“Like a fish out of water” means uncomfortable or out of place.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88691,7 +89135,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B11",
@@ -88710,7 +89155,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "concerned"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: under someone’s control.",
+    "explanation": "“At someone’s beck and call” means always ready to obey or serve them.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88718,7 +89163,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B12",
@@ -88737,7 +89183,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to be involved"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to be out of debt.",
+    "explanation": "“Keep one’s head above water” means avoid financial difficulty; “out of debt” is the closest option.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88745,7 +89191,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B13",
@@ -88763,15 +89210,17 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "a long journey",
       "in suspense"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "answerIndex": 2,
+    "explanation": "“A far cry” means a great distance or difference; “a long journey” is the closest offered meaning.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B14",
@@ -88790,7 +89239,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to calm down"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: to calm down.",
+    "explanation": "“Hold your horses” means wait or be patient; “calm down” is the closest option.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88798,7 +89247,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B15",
@@ -88817,7 +89267,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "feeling at ease"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: to be very nervous.",
+    "explanation": "“Butterflies in the stomach” means nervousness.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88825,7 +89275,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B16",
@@ -88844,7 +89295,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "something that is compulsory"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: something that is annoying.",
+    "explanation": "A “bee in one’s bonnet” is an idea or concern that persistently preoccupies or annoys someone.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=2",
@@ -88852,7 +89303,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 16) : Choose the correct meaning of the idioms provided below:"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B17",
@@ -88871,7 +89323,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "because Mrs. Bloom was unable to swim"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: because his aeroplane crashed into the ocean.",
+    "explanation": "The crash left the group in the water, forcing Tuckfield to swim toward land.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -88879,7 +89331,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B18",
@@ -88898,7 +89351,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "7"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 5.",
+    "explanation": "The passage states that all five people were aboard the plane.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -88906,7 +89359,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B19",
@@ -88925,14 +89379,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "four survived"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "The passage says all five aboard survived the crash, then identifies three survivors (Tuckfield, Youngberg, Hicks) and two deaths (Mr and Mrs Bloom). None of the answer choices gives three survivors and two deaths.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "The passage says all five aboard survived the crash, then identifies three survivors (Tuckfield, Youngberg, Hicks) and two deaths (Mr and Mrs Bloom). None of the answer choices gives three survivors and two deaths.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B20",
@@ -88951,7 +89406,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Mr and Mrs Bloom"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: wetsuit, flippers and face mask.",
+    "explanation": "Before the plane sank, he retrieved his wetsuit, flippers, and face mask.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -88959,7 +89414,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B21",
@@ -88978,7 +89434,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "because she was too old to swim"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: because she was unable to swim.",
+    "explanation": "The passage explicitly says Mrs. Bloom was unable to swim.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -88986,7 +89442,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B22",
@@ -89005,7 +89462,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Mr. Tuckfield"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Mr. Tuckfield.",
+    "explanation": "The passage says Tuckfield had gone to the Bahamas to help the Blooms repair their boat.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -89013,7 +89470,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B23",
@@ -89032,7 +89490,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "to learn swimming"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: to help repair his friends boat.",
+    "explanation": "He had gone to the Bahamas to help his friends repair their boat.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -89040,7 +89498,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B24",
@@ -89059,7 +89518,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "he shouted words of encouragement"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: he allowed himself to drown.",
+    "explanation": "“Let himself go under” means he stopped resisting and allowed himself to drown.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -89067,7 +89526,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B25",
@@ -89086,7 +89546,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "parched lips"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: parched lips.",
+    "explanation": "“Parched lips” signals thirst.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=3",
@@ -89094,7 +89554,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B26",
@@ -89113,7 +89574,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "sense of humour"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: stamina.",
+    "explanation": "Swimming 25 miles over 38 hours demonstrates stamina.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89121,7 +89582,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B27",
@@ -89140,14 +89602,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "weak"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "The question asks for a synonym of “delicious,” but none of the offered words (awkward, energetic, frenzy, weak) is a synonym.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "The question asks for a synonym of “delicious,” but none of the offered words (awkward, energetic, frenzy, weak) is a synonym.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B28",
@@ -89166,7 +89629,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "build a fire"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: waved his flippers.",
+    "explanation": "He waved his flippers to attract attention.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89174,7 +89637,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 17 – 28) : Read the passage and choose the correct answer from the given"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B29",
@@ -89193,7 +89657,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "preposition"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: abstract noun.",
+    "explanation": "“Grammar” names an abstract concept and is an abstract noun.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89201,7 +89665,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B30",
@@ -89220,7 +89685,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adverb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adjective.",
+    "explanation": "“Several” quantifies the noun “times,” so it functions as an adjective/determiner in the terminology of the choices.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89228,7 +89693,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B31",
@@ -89247,7 +89713,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "preposition"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: verb.",
+    "explanation": "“Put” is the verb in the imperative sentence.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89255,7 +89721,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B32",
@@ -89274,7 +89741,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "interjection"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adverb.",
+    "explanation": "“Ill” modifies “pleased,” so it functions as an adverb.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89282,7 +89749,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B33",
@@ -89301,7 +89769,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "pronoun"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: preposition.",
+    "explanation": "“About” takes the noun phrase “the street” as its object, so it is a preposition.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89309,7 +89777,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B34",
@@ -89328,7 +89797,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "noun"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: adverb.",
+    "explanation": "“Round” modifies “turned” and has no object, so it is an adverb.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89336,7 +89805,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B35",
@@ -89355,7 +89825,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "preposition"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: preposition.",
+    "explanation": "“Down” takes “the river” as its object, so it is a preposition.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89363,7 +89833,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B36",
@@ -89382,7 +89853,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: conjunction.",
+    "explanation": "“Whether” links the subordinate clause to “care,” so it is a conjunction.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89390,7 +89861,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B37",
@@ -89409,7 +89881,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adverb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: interjection.",
+    "explanation": "“Hush!” is an interjection expressing a command to be quiet.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89417,7 +89889,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B38",
@@ -89436,7 +89909,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adjective.",
+    "explanation": "“Half” modifies the noun “share,” so it is an adjective.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=4",
@@ -89444,7 +89917,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B39",
@@ -89463,7 +89937,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adverb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: pronoun.",
+    "explanation": "“Who” is a relative pronoun introducing a clause about “boys.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89471,7 +89945,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B40",
@@ -89490,7 +89965,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "noun"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: pronoun.",
+    "explanation": "“That” is a relative pronoun and the object of “gave.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89498,7 +89973,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B41",
@@ -89517,7 +89993,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adjective"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: verb.",
+    "explanation": "“Know” is the main verb.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89525,7 +90001,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B42",
@@ -89544,7 +90021,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "preposition"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adverb.",
+    "explanation": "“Never” modifies “told” and is an adverb.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89552,7 +90029,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B43",
@@ -89571,7 +90049,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adverb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: adjective.",
+    "explanation": "“Very” modifies “book” emphatically, meaning the exact book; the exam classifies it as an adjective.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89579,7 +90057,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B44",
@@ -89598,7 +90077,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "verb"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adverb.",
+    "explanation": "“Long” modifies the verb phrase “have you lived,” so it is an adverb.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89606,7 +90085,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B45",
@@ -89625,7 +90105,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: preposition.",
+    "explanation": "“From” takes “the rain” as its object and is a preposition.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89633,7 +90113,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B46",
@@ -89652,7 +90133,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "verb"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: conjunction.",
+    "explanation": "“That” introduces the content clause “your brother is in London,” so it is a conjunction.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89660,7 +90141,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B47",
@@ -89679,7 +90161,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "noun"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: noun.",
+    "explanation": "“Wisdom” names a quality and is a noun.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89687,7 +90169,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B48",
@@ -89706,7 +90189,34 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "adverb"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun.",
+    "explanation": "“Bunch” is the head noun of “a bunch of grapes.”",
+    "source": "Assistant Sub-Inspector under Home Department · October 2018",
+    "year": 2018,
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 29 – 48) : Choose the correct parts of speech for the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-asi-home-2018-english-B49",
+    "paperId": "mpsc-group-b-asi-home-2018-english",
+    "questionNumber": "B49",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "He behaves as one might expect him to do.",
+    "options": [
+      "Noun clause",
+      "Adverb clause",
+      "Adjective clause"
+    ],
+    "answerIndex": 1,
+    "explanation": "“As one might expect him to do” modifies “behaves” and is an adverb clause.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
@@ -89717,25 +90227,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q49",
+    "id": "mpsc-group-b-asi-home-2018-english-B50",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "49",
+    "questionNumber": "B50",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He behaves as one might expect him to do",
+    "question": "I do it because I choose to.",
     "options": [
-      "noun clause",
-      "adverb clause",
-      "adjective clause"
+      "Noun clause",
+      "Adverb clause",
+      "Adjective clause"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adverb clause.",
+    "explanation": "“Because I choose to” gives the reason for doing it, so it is an adverb clause.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89743,51 +90253,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q50",
+    "id": "mpsc-group-b-asi-home-2018-english-B51",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "50",
+    "questionNumber": "B51",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I do it because I choose to",
+    "question": "Here is the book that you want.",
     "options": [
-      "noun clause",
-      "adverb clause",
-      "adjective clause"
-    ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: adverb clause.",
-    "source": "Assistant Sub-Inspector under Home Department · October 2018",
-    "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
-  {
-    "id": "mpsc-group-b-asi-home-2018-english-Q51",
-    "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "51",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "Here is the book that you want",
-    "options": [
-      "noun clause",
-      "adverb clause",
-      "adjective clause"
+      "Noun clause",
+      "Adverb clause",
+      "Adjective clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adjective clause.",
+    "explanation": "“That you want” modifies “book,” so it is an adjective clause.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89795,25 +90279,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q52",
+    "id": "mpsc-group-b-asi-home-2018-english-B52",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "52",
+    "questionNumber": "B52",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "I earn whatever I can",
+    "question": "I earn whatever I can.",
     "options": [
-      "noun clause",
-      "adverb clause",
-      "adjective clause"
+      "Noun clause",
+      "Adverb clause",
+      "Adjective clause"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: noun clause.",
+    "explanation": "“Whatever I can” is the object of “earn,” so it is a noun clause.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89821,25 +90305,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q53",
+    "id": "mpsc-group-b-asi-home-2018-english-B53",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "53",
+    "questionNumber": "B53",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "There was nobody but wept",
+    "question": "There was nobody but wept.",
     "options": [
-      "noun clause",
-      "adverb clause",
-      "adjective clause"
+      "Noun clause",
+      "Adverb clause",
+      "Adjective clause"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: adjective clause.",
+    "explanation": "“But wept” modifies “nobody”; “but” has the older relative sense “who did not,” making it an adjective clause.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89847,25 +90331,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q54",
+    "id": "mpsc-group-b-asi-home-2018-english-B54",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "54",
+    "questionNumber": "B54",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "In spite of his popularity he cannot be called a great writer",
+    "question": "In spite of his popularity he cannot be called a great writer.",
     "options": [
-      "simple sentence",
-      "compound sentence",
-      "complex sentence"
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple sentence.",
+    "explanation": "The sentence has one independent clause; “in spite of his popularity” is a phrase, so it is simple.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89873,25 +90357,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q55",
+    "id": "mpsc-group-b-asi-home-2018-english-B55",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "55",
+    "questionNumber": "B55",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He not only educated his nephew but also set him up in business",
+    "question": "He not only educated his nephew but also set him up in business.",
     "options": [
-      "simple sentence",
-      "compound sentence",
-      "complex sentence"
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple sentence.",
+    "explanation": "One subject has the coordinated predicates “educated” and “set up,” so it is simple.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89899,25 +90383,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q56",
+    "id": "mpsc-group-b-asi-home-2018-english-B56",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "56",
+    "questionNumber": "B56",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "There is drought and so the crop is short",
+    "question": "There is drought and so the crop is short.",
     "options": [
-      "simple sentence",
-      "compound sentence",
-      "complex sentence"
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: compound sentence.",
+    "explanation": "The conjunction “and so” links two independent clauses, making it compound.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89925,50 +90409,51 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q57",
+    "id": "mpsc-group-b-asi-home-2018-english-B57",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "57",
+    "questionNumber": "B57",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Your father is the man who can help you in this matter",
+    "question": "Your father is the man who can help you in this matter.",
     "options": [
-      "simple sentence",
-      "compound sentence",
-      "complex sentence"
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "The form is assertive while the polarity is affirmative; the choices overlap, so no unique answer is supported.",
+    "answerIndex": 2,
+    "explanation": "“Who can help you in this matter” is a subordinate relative clause, making the sentence complex.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold for overlapping classifications."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q58",
+    "id": "mpsc-group-b-asi-home-2018-english-B58",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "58",
+    "questionNumber": "B58",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He succeeded unexpectedly",
+    "question": "He succeeded unexpectedly.",
     "options": [
-      "simple sentence",
-      "compound sentence",
-      "complex sentence"
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: simple sentence.",
+    "explanation": "It contains one independent clause and no subordinate clause, so it is simple.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=6",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -89976,102 +90461,100 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q59",
+    "id": "mpsc-group-b-asi-home-2018-english-B59",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "59",
+    "questionNumber": "B59",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He hurt his foot. He stopped",
+    "question": "He hurt his foot. He stopped.",
     "options": [
       "He hurt his foot and he stopped",
       "He stopped since he hurt his foot",
       "Having hurt his foot he stopped"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Having hurt his foot he stopped.",
+    "answerIndex": -1,
+    "explanation": "Each alternative is a grammatical synthesis: coordination, a causal since-clause, or a participial phrase. The prompt gives no required synthesis form to select one uniquely.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Each alternative is a grammatical synthesis: coordination, a causal since-clause, or a participial phrase. The prompt gives no required synthesis form to select one uniquely."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q60",
+    "id": "mpsc-group-b-asi-home-2018-english-B60",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "60",
+    "questionNumber": "B60",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "His wife encouraged him. He persevered",
+    "question": "His wife encouraged him. He persevered.",
     "options": [
       "Encouraged by his wife, he persevered",
       "He persevered because of his wife",
       "His wife encouraged him"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Encouraged by his wife, he persevered.",
-    "source": "Assistant Sub-Inspector under Home Department · October 2018",
-    "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
-  {
-    "id": "mpsc-group-b-asi-home-2018-english-Q61",
-    "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "61",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
-    "difficulty": "medium",
-    "question": "The stable door was open. The horse was stolen",
-    "options": [
-      "the stable door being open, the horse was stolen",
-      "the horse was stolen because the stable door was open",
-      "the stable door was open and the horse was stolen"
-    ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "Both “Encouraged by his wife, he persevered” and “He persevered because of his wife” are grammatical ways to combine the two statements; no required synthesis form is specified.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "Both “Encouraged by his wife, he persevered” and “He persevered because of his wife” are grammatical ways to combine the two statements; no required synthesis form is specified."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q62",
+    "id": "mpsc-group-b-asi-home-2018-english-B61",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "62",
+    "questionNumber": "B61",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "There goes my brother. He is called Sanga",
+    "question": "The stable door was open. The horse was stolen.",
+    "options": [
+      "The stable door being open, the horse was stolen",
+      "The horse was stolen because the stable door was open",
+      "The stable door was open and the horse was stolen"
+    ],
+    "answerIndex": -1,
+    "explanation": "The alternatives express a causal link with an absolute phrase, a because-clause, or coordination. More than one is a valid synthesis of the two statements.",
+    "source": "Assistant Sub-Inspector under Home Department · October 2018",
+    "year": 2018,
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceReviewed": true,
+    "sourceNote": "The alternatives express a causal link with an absolute phrase, a because-clause, or coordination. More than one is a valid synthesis of the two statements."
+  },
+  {
+    "id": "mpsc-group-b-asi-home-2018-english-B62",
+    "paperId": "mpsc-group-b-asi-home-2018-english",
+    "questionNumber": "B62",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English",
+    "difficulty": "medium",
+    "question": "There goes my brother. He is called Sanga.",
     "options": [
       "There goes my brother. His name is Sanga",
       "There goes my brother Sanga",
-      "My brother is sanga"
+      "My brother is Sanga"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: There goes my brother Sanga.",
+    "explanation": "The appositive name “Sanga” identifies the brother in a single sentence.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -90079,50 +90562,50 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q63",
+    "id": "mpsc-group-b-asi-home-2018-english-B63",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "63",
+    "questionNumber": "B63",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The judge gave his decision. The court listened silently",
+    "question": "The judge gave his decision. The court listened silently.",
     "options": [
       "The court listened silently to the decision given by the judge",
-      "The judge gave hi decision in silence",
+      "The judge gave his decision in silence",
       "The judge gave his decision and the court listened in silence"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "Both option (a), using a reduced phrase, and option (c), using coordination, combine the two statements into grammatical sentences.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "Both option (a), using a reduced phrase, and option (c), using coordination, combine the two statements into grammatical sentences."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q64",
+    "id": "mpsc-group-b-asi-home-2018-english-B64",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "64",
+    "questionNumber": "B64",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "He had no money. He could not give any away",
+    "question": "He had no money. He could not give any away.",
     "options": [
       "He had no money to give away",
       "He cannot give hi money away",
       "He could not give away his money"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: He had no money to give away.",
+    "explanation": "“He had no money to give away” combines the ideas without changing their meaning.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -90130,25 +90613,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q65",
+    "id": "mpsc-group-b-asi-home-2018-english-B65",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "65",
+    "questionNumber": "B65",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "You are free ________?",
+    "question": "You are free ___________?",
     "options": [
       "are you",
       "aren’t you",
       "were you"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: aren’t you.",
+    "explanation": "The positive statement “You are free” takes the negative tag “aren’t you?”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -90156,25 +90639,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q66",
+    "id": "mpsc-group-b-asi-home-2018-english-B66",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "66",
+    "questionNumber": "B66",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "She can’t swim ________?",
+    "question": "She can’t swim ___________?",
     "options": [
       "can she",
       "can’t she",
       "could she"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: can she.",
+    "explanation": "The negative statement “She can’t swim” takes the positive tag “can she?”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -90182,25 +90665,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q67",
+    "id": "mpsc-group-b-asi-home-2018-english-B67",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "67",
+    "questionNumber": "B67",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "Hruaia has already come",
+    "question": "Hruaia has already come.",
     "options": [
       "so he has",
       "yes he is",
       "no he has not"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: so he has.",
+    "explanation": "“So he has” is the affirmative echo response to “Hruaia has already come.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -90208,25 +90691,25 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-asi-home-2018-english-Q68",
+    "id": "mpsc-group-b-asi-home-2018-english-B68",
     "paperId": "mpsc-group-b-asi-home-2018-english",
-    "questionNumber": "68",
+    "questionNumber": "B68",
     "subject": "english",
     "studySection": "english",
     "topic": "general",
     "topicLabel": "General English",
     "difficulty": "medium",
-    "question": "The apples aren’t good",
+    "question": "The apples aren’t good.",
     "options": [
       "yes they are",
       "yes they were",
       "no they aren’t"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: yes they are.",
+    "answerIndex": 2,
+    "explanation": "“No, they aren’t” agrees with the negative statement “The apples aren’t good.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
-    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
+    "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=5",
     "answerSource": "derived",
     "answerConfidence": "high",
     "sourceReviewed": true,
@@ -90250,7 +90733,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "access"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: affects.",
+    "explanation": "“Affects” is the verb meaning influences.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
@@ -90258,7 +90741,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B70",
@@ -90277,7 +90761,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "flour"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: foul.",
+    "explanation": "“Foul language” means offensive or abusive language.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
@@ -90285,7 +90769,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B71",
@@ -90304,7 +90789,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "route"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: razed.",
+    "explanation": "“Razed to the ground” means demolished.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
@@ -90312,7 +90797,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B72",
@@ -90331,7 +90817,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "wane"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: wane.",
+    "explanation": "The moon is on the wane when it is decreasing in visible phase.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
@@ -90339,7 +90825,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B73",
@@ -90358,7 +90845,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "board"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: suite.",
+    "explanation": "A collection of rooms is a suite.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
@@ -90366,7 +90853,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B74",
@@ -90385,7 +90873,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "pile"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: pencil.",
+    "explanation": "A narrow bundle of rays is called a pencil of rays.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=7",
@@ -90393,7 +90881,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B75",
@@ -90412,7 +90901,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "litter"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: shoal.",
+    "explanation": "A group of fish is a shoal.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=8",
@@ -90420,7 +90909,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B76",
@@ -90438,16 +90928,16 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "choir",
       "caravan"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: caravan.",
+    "answerIndex": -1,
+    "explanation": "Both “a band of travellers” and “a caravan of travellers” are valid collective expressions; the context does not select uniquely.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Both “a band of travellers” and “a caravan of travellers” are valid collective expressions; the context does not select uniquely.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B77",
@@ -90466,7 +90956,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "colleague"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: amateur.",
+    "explanation": "An amateur plays or participates for pleasure rather than professionally.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=8",
@@ -90474,7 +90964,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B78",
@@ -90493,7 +90984,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "parasite"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: delible.",
+    "explanation": "“Delible” means capable of being erased or rubbed away.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=8",
@@ -90501,7 +90992,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B79",
@@ -90520,7 +91012,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "spokesman"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: plagiarist.",
+    "explanation": "A plagiarist steals or copies other people’s writing.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=8",
@@ -90528,7 +91020,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-B80",
@@ -90547,7 +91040,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "verse"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: lullaby.",
+    "explanation": "A lullaby is a song used to soothe a baby to sleep.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-english.pdf#page=8",
@@ -90555,7 +91048,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
     "answerConfidence": "high",
     "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 65 – 80) : Choose the correct answer"
   },
   {
     "id": "mpsc-group-b-asi-home-2018-english-written-1",
@@ -90591,8 +91085,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Test. Treat. Hepatitis",
       "Know Hepatitis-Act now"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Hepatitis ; Think Again.",
+    "answerIndex": 3,
+    "explanation": "The campaign theme was “Test. Treat. Hepatitis.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90619,7 +91113,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Vienna"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Vienna.",
+    "explanation": "Vienna topped the Mercer Quality of Living ranking in 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90646,7 +91140,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "South Africa"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: India.",
+    "explanation": "South Africa hosted the 10th BRICS Summit.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90672,8 +91166,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "TCS",
       "Facebook"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Facebook.",
+    "answerIndex": 1,
+    "explanation": "UNEP partnered with Google for environmental monitoring.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90699,8 +91193,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Japan",
       "United Kingdom"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Japan.",
+    "answerIndex": 3,
+    "explanation": "The United Kingdom ranked first in the 2018 Soft Power 30.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90726,8 +91220,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "17 July",
       "18 July"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 17 July.",
+    "answerIndex": 0,
+    "explanation": "World Youth Skills Day is observed on 15 July.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90753,8 +91247,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Bretton Woods",
       "Sochi"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Bretton Woods.",
+    "answerIndex": 0,
+    "explanation": "The Trump–Putin summit was held in Helsinki.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90780,8 +91274,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Be there for someone else. Give blood. Share life",
       "Thank you giving your life"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Hero is the one who give blood.",
+    "answerIndex": 2,
+    "explanation": "The 2018 theme was “Be there for someone else. Give blood. Share life.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90808,7 +91302,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Germany"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: USA.",
+    "explanation": "Summit was located at Oak Ridge National Laboratory in the United States.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90834,8 +91328,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Denmark",
       "Switzerland"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: USA.",
+    "answerIndex": 3,
+    "explanation": "Switzerland topped the 2018 Global Innovation Index.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=1",
@@ -90862,7 +91356,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Russia"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Russia.",
+    "explanation": "Russia was suspended from the 2018 Winter Olympics, with eligible athletes allowed to compete neutrally.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -90888,8 +91382,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "South Korea",
       "Japan"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: South Korea.",
+    "answerIndex": 0,
+    "explanation": "India received U.S. STA-1 status in 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -90915,8 +91409,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Sudan",
       "North Korea"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: South Africa.",
+    "answerIndex": 3,
+    "explanation": "North Korea was placed in Tier 3, the lowest tier, in the U.S. trafficking report.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -90942,8 +91436,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Family Planning – Call for people",
       "Family Planning – Save Earth"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Family Planning – Save Earth.",
+    "answerIndex": 1,
+    "explanation": "The theme was “Family planning is a human right.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -90969,8 +91463,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Oman",
       "Chile"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Oman.",
+    "answerIndex": 0,
+    "explanation": "The long zip line opened in the United Arab Emirates.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -90996,8 +91490,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Croatia",
       "New Zealand"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Hungary.",
+    "answerIndex": 1,
+    "explanation": "Finland topped the 2018 World Happiness Report.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91023,8 +91517,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Kavita Singh",
       "Preeti Sehrawal"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Kavita Singh.",
+    "answerIndex": 1,
+    "explanation": "Shivangi Pathak climbed Everest at age 16 in 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91050,8 +91544,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Tanzania",
       "Zimbabwe"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: South Africa.",
+    "answerIndex": 3,
+    "explanation": "Mnangagwa became president of Zimbabwe.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91078,7 +91572,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Rajasthan"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Rajasthan.",
+    "explanation": "The Army exercise was conducted in Rajasthan.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91104,8 +91598,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Nepal",
       "Myanmar"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Sri Lanka.",
+    "answerIndex": 0,
+    "explanation": "Nepal hosted Pacific Endeavor 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91131,8 +91625,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Gold",
       "Green"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Orange.",
+    "answerIndex": 3,
+    "explanation": "Indian EV registration plates use green backgrounds.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91159,7 +91653,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Tai Tzu-ying"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Carolina Marin.",
+    "explanation": "Carolina Marín won her third women’s singles world title in 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
@@ -91185,16 +91679,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Party poppers",
       "Candles"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Balloons.",
+    "answerIndex": -1,
+    "explanation": "The question gives no date or rule and refers only to an item “recently banned”; the contemporaneous restrictions applied to specific plastic products, so this wording does not identify a unique option.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=2",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the item is underspecified or no listed choice is accurate."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q24",
@@ -91212,8 +91705,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Space X",
       "Apple"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Google.",
+    "answerIndex": 3,
+    "explanation": "Apple was the first U.S. company to cross a $1 trillion market value.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91239,8 +91732,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Air pollution",
       "HIV/AIDS"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Tuberculosis eradication.",
+    "answerIndex": 1,
+    "explanation": "The protocol was under the WHO tobacco control convention.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91266,15 +91759,16 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Brussels",
       "London"
     ],
-    "answerIndex": -1,
-    "explanation": "The question is ambiguous: multiple or no options are defensible; keep it unscored.",
+    "answerIndex": 2,
+    "explanation": "The World Customs Organization is headquartered in Brussels.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q27",
@@ -91292,8 +91786,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "DRDO",
       "HAL"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: HAL.",
+    "answerIndex": 0,
+    "explanation": "BARC developed Bhabha Kavach with the Ordnance Factory Board.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91320,7 +91814,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Hyderabad"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pune.",
+    "explanation": "Pune ranked first among million-plus cities in the Ease of Living Index.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91346,8 +91840,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Shaurya Pratigya",
       "Sagar Kavach"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Shakti Darshan.",
+    "answerIndex": 3,
+    "explanation": "The coastal security exercise was named Sagar Kavach.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91373,8 +91867,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "12 years",
       "14 years"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 14 years.",
+    "answerIndex": 2,
+    "explanation": "The amendment set the age threshold at below 12 years.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91400,8 +91894,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "State Bank of India",
       "Axis Bank"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Axis Bank.",
+    "answerIndex": 2,
+    "explanation": "State Bank of India is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91427,8 +91921,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "95th Position",
       "96th Position"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 94th Position.",
+    "answerIndex": 0,
+    "explanation": "India ranked 96th in the 2018 UN E-Government Development Index.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91454,8 +91948,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "1, 3 & 4 only",
       "1, 2, 3 & 4"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 1, 3 & 4 only.",
+    "answerIndex": 3,
+    "explanation": "1, 2, 3 & 4 is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91481,8 +91975,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Chandigarh",
       "Lucknow"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: New Delhi.",
+    "answerIndex": 1,
+    "explanation": "Pune is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91508,8 +92002,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "2000-2004",
       "2000-2005"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 2000-2005.",
+    "answerIndex": 1,
+    "explanation": "Vajpayee’s full term was 1999–2004.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=3",
@@ -91535,8 +92029,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "C.Chhuanvawra",
       "A.Zakia"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: C.Chhuanvawra.",
+    "answerIndex": 1,
+    "explanation": "RL Thanmawia is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91562,8 +92056,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Devdutt Pattainak and Ramachandra Guha",
       "Medha Patkar and Kailesh Satyarthi"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Thodur Manabusi and Sanjiv Chaturvedi.",
+    "answerIndex": 1,
+    "explanation": "Bharat Vatwani and Sonam Wangchuk received the 2018 award.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91589,8 +92083,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Jaipur",
       "Hanuman Garh"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Jaipur.",
+    "answerIndex": 3,
+    "explanation": "Hanuman Garh is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91616,8 +92110,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "March 8",
       "December 17"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: March 8.",
+    "answerIndex": 0,
+    "explanation": "National Voters’ Day is 25 January.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91644,7 +92138,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Manipur"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Assam.",
+    "explanation": "The final NRC draft was published by Assam.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91670,8 +92164,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Harivansh Narayan Singh",
       "K.Rahman Khan"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Najma Heptulla.",
+    "answerIndex": 2,
+    "explanation": "Harivansh Narayan Singh became Deputy Chairman in 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91697,8 +92191,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Eight largest economy in the world",
       "Third largest economy in the world"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Third largest economy in the world.",
+    "answerIndex": 0,
+    "explanation": "India became the world’s sixth-largest economy by nominal GDP.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91724,8 +92218,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Andra Pradesh",
       "Karnataka"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Madhya Pradesh.",
+    "answerIndex": 2,
+    "explanation": "Andra Pradesh is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91751,8 +92245,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Kerala",
       "Telengana"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Kerala.",
+    "answerIndex": 1,
+    "explanation": "Haryana is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91779,7 +92273,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "National Commission for Scheduled Castes (NCSC)"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: National Commission for Backward Classes (NCBC).",
+    "explanation": "The amendment granted constitutional status to the NCBC.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91805,8 +92299,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Kerala",
       "Sikkim"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Himachal Pradesh.",
+    "answerIndex": 0,
+    "explanation": "Mizoram is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91832,8 +92326,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Respect for Elders",
       "All of these"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Community Policing.",
+    "answerIndex": 3,
+    "explanation": "All of these is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=4",
@@ -91859,8 +92353,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Rajasthan",
       "Gujarat"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Gujarat.",
+    "answerIndex": 2,
+    "explanation": "Rajasthan is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -91886,8 +92380,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Atushi",
       "Ranjit Srivastava"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Jaypree Kumar.",
+    "answerIndex": 3,
+    "explanation": "Ranjit Srivastava is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -91913,8 +92407,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Maharastra",
       "Sikkim"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Mizoram.",
+    "answerIndex": 1,
+    "explanation": "Kerala is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -91940,8 +92434,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Ayaan Hirsi Ali",
       "Abdullah Quilliam"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Maajid Nawaz.",
+    "answerIndex": 0,
+    "explanation": "Ed Husain wrote “The House of Islam: A Global History.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -91967,8 +92461,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Chetan Bhagat",
       "VS Naipaul"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: VS Naipaul.",
+    "answerIndex": 2,
+    "explanation": "Chetan Bhagat wrote “What Young India Wants.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -91994,8 +92488,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Johan Goethe",
       "Salman Khursid"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Ayad Akhtar.",
+    "answerIndex": 0,
+    "explanation": "Catherine Mayo wrote “Mother India.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92021,8 +92515,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Hussain Zaidi",
       "Kiran Bedi"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: VS Naipaul.",
+    "answerIndex": 2,
+    "explanation": "Kiran Bedi wrote “Eleventh Hour.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92048,8 +92542,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Lewis Wallace",
       "Robert Louis"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Lewiss Caroll.",
+    "answerIndex": 0,
+    "explanation": "Jonathan Swift wrote “Gulliver’s Travels.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92075,8 +92569,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Suzanne Collins",
       "Arthur Conan Doyle"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Mario Puzo.",
+    "answerIndex": 3,
+    "explanation": "Arthur Conan Doyle wrote the Sherlock Holmes stories.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92103,7 +92597,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Simona Halep"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Angelique Kerber.",
+    "explanation": "Angelique Kerber won the 2018 Wimbledon women’s singles title.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92130,7 +92624,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Robin Singh"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Jeje Lalpekhlua.",
+    "explanation": "Sunil Chhetri was AIFF Men’s Player of the Year for 2017.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92156,8 +92650,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Tiger & Whale",
       "Elephant & Eagle"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Tiger & Whale.",
+    "answerIndex": 0,
+    "explanation": "Tokyo’s mascots were Miraitowa and Someity.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92183,8 +92677,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Harry Kane",
       "Luka Modric"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Harry Kane.",
+    "answerIndex": 3,
+    "explanation": "Luka Modrić won the 2018 FIFA World Cup Golden Ball.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92210,8 +92704,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Jeremy Lalrinnunga",
       "Anthony Lalropuia"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Ritesh Agarwal.",
+    "answerIndex": 2,
+    "explanation": "Jeremy Lalrinnunga won two medals at the junior and youth Asian championships.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=5",
@@ -92237,8 +92731,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Chennai Superkings",
       "Sunriders Hyderabad"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Rajasthan Royals.",
+    "answerIndex": 2,
+    "explanation": "Chennai Super Kings won IPL 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92264,8 +92758,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Sub-Divisional Registrars",
       "Special Drawing Rights"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Software Define Radio.",
+    "answerIndex": 1,
+    "explanation": "SDR stands for Special Drawing Rights.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92291,8 +92785,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "idd est",
       "id des"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: id es.",
+    "answerIndex": 1,
+    "explanation": "“I.e.” is Latin for “id est.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92318,8 +92812,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Graphical Positioning System",
       "Gradual Positioning System"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Graphical Positioning System.",
+    "answerIndex": 1,
+    "explanation": "GPS stands for Global Positioning System.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92345,8 +92839,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Foreing Entertainment Management Act",
       "Foreign Exchange Management Act"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Films & Entertainment Management Act.",
+    "answerIndex": 3,
+    "explanation": "FEMA stands for Foreign Exchange Management Act.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92372,8 +92866,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Bayerische Motoren Warke AG",
       "Bolivian Motor Works"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Bolivian Motor Works.",
+    "answerIndex": 0,
+    "explanation": "Barclays Motor Works is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92399,8 +92893,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "International Management & Engineering Institute",
       "India, Myanmar, Ethiopia & Indonesia"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: International Management & Engineering Institute.",
+    "answerIndex": 1,
+    "explanation": "IMEI stands for International Mobile Equipment Identity.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92426,8 +92920,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Paradeep Port",
       "Kochi Port"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Kochi Port.",
+    "answerIndex": 1,
+    "explanation": "Kandla developed after Partition to compensate for loss of Karachi Port.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92454,7 +92948,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Venice"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: London.",
+    "explanation": "Belgrade is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92480,18 +92974,16 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Vesuvius",
       "Krakatoa"
     ],
-    "answerIndex": -1,
-    "explanation": "The question is ambiguous: multiple or no options are defensible; keep it unscored.",
+    "answerIndex": 1,
+    "explanation": "Stromboli is called the Lighthouse of the Mediterranean for its persistent eruptions.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q72",
@@ -92510,7 +93002,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Argentina"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Brazil.",
+    "explanation": "Brazil is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92536,8 +93028,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Senior House Officer",
       "Second House Officer"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Senior House Officer.",
+    "answerIndex": 1,
+    "explanation": "SHO stands for Station House Officer.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92563,8 +93055,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Netherland",
       "Norway"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Netherland.",
+    "answerIndex": 1,
+    "explanation": "Russia is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
@@ -92590,16 +93082,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Iceland",
       "Malta"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Iceland.",
+    "answerIndex": -1,
+    "explanation": "Hispaniola is an island shared by Haiti and the Dominican Republic. Haiti is a country on it, not the island itself; the wording and options do not match.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the item is underspecified or no listed choice is accurate."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q76",
@@ -92617,8 +93108,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Israel",
       "Lebanon"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Lebanon.",
+    "answerIndex": 2,
+    "explanation": "Israel is associated with the biblical phrase “land of milk and honey.”",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92645,7 +93136,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Switzerland"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Denmark.",
+    "explanation": "Netherlands is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92672,14 +93163,14 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Dhaka"
     ],
     "answerIndex": -1,
-    "explanation": "The question is ambiguous: multiple or no options are defensible; keep it unscored.",
+    "explanation": "The Forbidden City is in Beijing, which is not among the options. Lhasa is a different city.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after source review because the item is underspecified or no listed choice is accurate."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q79",
@@ -92697,8 +93188,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "1922",
       "1928"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 1922.",
+    "answerIndex": 0,
+    "explanation": "The Pulitzer Prizes were established in 1917.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92724,8 +93215,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Sachin Tendulkar",
       "Virat Kohli"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Kane Williamson.",
+    "answerIndex": 3,
+    "explanation": "Kane Williamson is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92751,8 +93242,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Priyanka Chopra",
       "Deepika Padukone"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Priyanka Chopra.",
+    "answerIndex": 0,
+    "explanation": "Deepika Padukone is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92778,8 +93269,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Vir Chakra",
       "Padma Vibhushan"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Bharat Ratna.",
+    "answerIndex": 3,
+    "explanation": "Padma Vibhushan is India’s second-highest civilian award.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92805,8 +93296,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Nilesh Kumar Narayan",
       "Devendra Mehta"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Nilesh Kumar Narayan.",
+    "answerIndex": 0,
+    "explanation": "Jyoti Prakash Nirala received the Ashoka Chakra in 2018.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92832,8 +93323,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "C. V. Raman",
       "Rajiv Gandhi"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Mother Teresa.",
+    "answerIndex": 0,
+    "explanation": "Tagore was the first Asian Nobel laureate, awarded in 1913.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92860,7 +93351,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Karl Benz"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: William Edward Addis.",
+    "explanation": "William Edward Addis is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92886,8 +93377,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "T.H. Maimah",
       "Percy L Spencer"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: T.H. Maimah.",
+    "answerIndex": 1,
+    "explanation": "Narinder Singh Kapany is widely known as the father of fibre optics.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92913,8 +93404,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "G Marconi",
       "WK Roentgen"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: PT Famsworth.",
+    "answerIndex": 1,
+    "explanation": "Hans Lippershey is generally credited with the first telescope patent application.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
@@ -92940,16 +93431,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Ray Tomlinson",
       "Hedy Lamarr"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Hans Lippershey.",
+    "answerIndex": -1,
+    "explanation": "No person “introduced Wi-Fi technology.” Hedy Lamarr co-patented a frequency-hopping technique, which was not Wi-Fi itself.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the item is underspecified or no listed choice is accurate."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q89",
@@ -92967,16 +93457,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Cambell Stokes",
       "Kennelly and Heaviside"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Cambell Stokes.",
+    "answerIndex": -1,
+    "explanation": "The ozone layer is credited to Charles Fabry and Henri Buisson; none of the listed choices accurately identifies them. Teisserenc de Bort studied the stratosphere but is not the discoverer.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the item is underspecified or no listed choice is accurate."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-gk-Q90",
@@ -92994,8 +93483,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Ritcher Scale",
       "Bar Codes"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Thermometer.",
+    "answerIndex": 1,
+    "explanation": "Torricelli invented the mercury barometer in 1643.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93022,7 +93511,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Donut"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Pie.",
+    "explanation": "Android 9 was released as Pie.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93049,7 +93538,7 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Graphical User Interface"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Graphical User Interface.",
+    "explanation": "GUI means Graphical User Interface.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93075,8 +93564,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Controlling",
       "Indexing"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Controlling.",
+    "answerIndex": 1,
+    "explanation": "Parity bits are used for error detection.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93102,8 +93591,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Control Unit",
       "Central Processing Unit"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Central Processing Unit.",
+    "answerIndex": 2,
+    "explanation": "The control unit coordinates computer operations.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93129,8 +93618,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "INDEXING",
       "PROLOG"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: FORTRAN.",
+    "answerIndex": 3,
+    "explanation": "PROLOG is a logic programming language used in AI.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93156,8 +93645,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Tertiary",
       "None of these"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: None of these.",
+    "answerIndex": 1,
+    "explanation": "A USB flash drive is secondary storage.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93183,8 +93672,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "7000",
       "8000"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 7000.",
+    "answerIndex": 3,
+    "explanation": "6000 is the intended answer to this item.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93210,8 +93699,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Latin Word",
       "Spanish Word"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: French Word.",
+    "answerIndex": 0,
+    "explanation": "Morphe is Greek for form or shape.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93237,8 +93726,8 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "Complementary Metal Oxo Semiconductor",
       "Complementary Metal Oscillator Semiconductor"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Complementary Metal Oscillator Semiconductor.",
+    "answerIndex": 1,
+    "explanation": "CMOS means Complementary Metal Oxide Semiconductor.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
@@ -93264,16 +93753,15 @@ const groupBQuestionsPart11: BankQuestion[] = [
       "50-74 bits",
       "100-200 bits"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 24-50 bits.",
+    "answerIndex": -1,
+    "explanation": "Mainframe word length depends on the computer architecture; there is no universal range among these choices.",
     "source": "Assistant Sub-Inspector under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/asi-home-2018-gk.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the item is underspecified or no listed choice is accurate."
   },
   {
     "id": "mpsc-group-b-asi-home-2018-mathematics-Q1",

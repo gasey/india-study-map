@@ -785,3 +785,15 @@ Current generated bank: 404 papers / 26,890 records (25,869 MCQs); 17,432 practi
 - MES under Power & Electricity General Studies: 98 worked answers; Q92 and Q94 held for overlapping choices.
 
 Current generated bank: 404 papers / 26,890 records (25,869 MCQs), 17,425 practice-ready and 8,321 official-key-backed. Source review covers 9,317 MCQs; 8,771 remain unreviewed, 546 reviewed items are held, and 729 known MCQs remain missing from extraction.
+
+## Additional English papers source-checked — 12 October 2026
+
+- Programmer under PHE Paper-I: 79 worked answers; Q3 held. The 20-mark essay remains a written prompt.
+- Sericulture Extension Officer Paper-I: 79 worked answers; Q41 held. Essay remains separate from MCQs.
+- Veterinary Officer Paper-II: restored 28 missing questions; 96 worked answers and four holds.
+- Assistant Jailor General English: restored 11 missing three-choice questions; 78 worked answers and two holds.
+- Assistant Sub-Inspector General English: restored 20 missing questions; 74 worked answers and six holds.
+- Junior Engineer under Irrigation & Water Resources General English: restored 11 missing questions; 77 worked answers and three holds.
+- Station Officer General English: 77 worked answers and three holds.
+
+Current generated bank: 404 papers / 26,890 records (25,869 MCQs), with 17,428 practice-ready and 8,321 official-key-backed. Source review covers 9,314 MCQs; 8,771 remain unreviewed, 543 reviewed items are held, and 729 known MCQs remain missing from extraction. The build report is generated at `tools/udc-ldc-build/build-report.json`.

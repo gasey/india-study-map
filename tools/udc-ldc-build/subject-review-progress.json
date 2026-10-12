@@ -7,10 +7,10 @@
     "records": 26890,
     "mcq": 25869,
     "writtenRecords": 1021,
-    "ready": 17425,
+    "ready": 17428,
     "readyOfficial": 8321,
     "pendingMcq": 7898,
-    "heldReviewed": 546,
+    "heldReviewed": 543,
     "workedGuidesReviewed": 10419,
     "pendingMcqGuides": 15450,
     "keyOnlyFeedback": 6861,
@@ -23,10 +23,10 @@
       "records": 11003,
       "mcq": 9982,
       "writtenRecords": 1021,
-      "ready": 3852,
+      "ready": 3858,
       "readyOfficial": 1682,
       "pendingMcq": 5993,
-      "heldReviewed": 137,
+      "heldReviewed": 131,
       "workedGuidesReviewed": 2810,
       "pendingMcqGuides": 7172,
       "keyOnlyFeedback": 945,
@@ -67,10 +67,10 @@
       "records": 14958,
       "mcq": 14958,
       "writtenRecords": 0,
-      "ready": 12720,
+      "ready": 12717,
       "readyOfficial": 6204,
       "pendingMcq": 1838,
-      "heldReviewed": 400,
+      "heldReviewed": 403,
       "workedGuidesReviewed": 7101,
       "pendingMcqGuides": 7857,
       "keyOnlyFeedback": 5849,
@@ -8870,46 +8870,46 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-asi-home-2018-english-B7",
-          "questionNumber": "B7",
-          "section": "english",
-          "reason": "Answer-key review hold."
-        },
-        {
-          "id": "mpsc-group-b-asi-home-2018-english-B13",
-          "questionNumber": "B13",
-          "section": "english",
-          "reason": "Answer-key review hold."
-        },
-        {
           "id": "mpsc-group-b-asi-home-2018-english-B19",
           "questionNumber": "B19",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "The passage says all five aboard survived the crash, then identifies three survivors (Tuckfield, Youngberg, Hicks) and two deaths (Mr and Mrs Bloom). None of the answer choices gives three survivors and two deaths."
         },
         {
           "id": "mpsc-group-b-asi-home-2018-english-B27",
           "questionNumber": "B27",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "The question asks for a synonym of “delicious,” but none of the offered words (awkward, energetic, frenzy, weak) is a synonym."
         },
         {
-          "id": "mpsc-group-b-asi-home-2018-english-Q57",
-          "questionNumber": "57",
+          "id": "mpsc-group-b-asi-home-2018-english-B59",
+          "questionNumber": "B59",
           "section": "english",
-          "reason": "Answer-key review hold for overlapping classifications."
+          "reason": "Each alternative is a grammatical synthesis: coordination, a causal since-clause, or a participial phrase. The prompt gives no required synthesis form to select one uniquely."
         },
         {
-          "id": "mpsc-group-b-asi-home-2018-english-Q61",
-          "questionNumber": "61",
+          "id": "mpsc-group-b-asi-home-2018-english-B60",
+          "questionNumber": "B60",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "Both “Encouraged by his wife, he persevered” and “He persevered because of his wife” are grammatical ways to combine the two statements; no required synthesis form is specified."
         },
         {
-          "id": "mpsc-group-b-asi-home-2018-english-Q63",
-          "questionNumber": "63",
+          "id": "mpsc-group-b-asi-home-2018-english-B61",
+          "questionNumber": "B61",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "The alternatives express a causal link with an absolute phrase, a because-clause, or coordination. More than one is a valid synthesis of the two statements."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-B63",
+          "questionNumber": "B63",
+          "section": "english",
+          "reason": "Both option (a), using a reduced phrase, and option (c), using coordination, combine the two statements into grammatical sentences."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-english-B76",
+          "questionNumber": "B76",
+          "section": "english",
+          "reason": "Both “a band of travellers” and “a caravan of travellers” are valid collective expressions; the context does not select uniquely."
         }
       ]
     },
@@ -8926,10 +8926,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 97,
+      "ready": 94,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 3,
+      "heldReviewed": 6,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -8940,10 +8940,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 97,
+          "ready": 94,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 3,
+          "heldReviewed": 6,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -8953,22 +8953,40 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-asi-home-2018-gk-Q26",
-          "questionNumber": "26",
+          "id": "mpsc-group-b-asi-home-2018-gk-Q23",
+          "questionNumber": "23",
           "section": "gk",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after source review because the item is underspecified or no listed choice is accurate."
         },
         {
-          "id": "mpsc-group-b-asi-home-2018-gk-Q71",
-          "questionNumber": "71",
+          "id": "mpsc-group-b-asi-home-2018-gk-Q75",
+          "questionNumber": "75",
           "section": "gk",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after source review because the item is underspecified or no listed choice is accurate."
         },
         {
           "id": "mpsc-group-b-asi-home-2018-gk-Q78",
           "questionNumber": "78",
           "section": "gk",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after source review because the item is underspecified or no listed choice is accurate."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-gk-Q88",
+          "questionNumber": "88",
+          "section": "gk",
+          "reason": "Held after source review because the item is underspecified or no listed choice is accurate."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-gk-Q89",
+          "questionNumber": "89",
+          "section": "gk",
+          "reason": "Held after source review because the item is underspecified or no listed choice is accurate."
+        },
+        {
+          "id": "mpsc-group-b-asi-home-2018-gk-Q100",
+          "questionNumber": "100",
+          "section": "gk",
+          "reason": "Held after source review because the item is underspecified or no listed choice is accurate."
         }
       ]
     },
@@ -9399,13 +9417,13 @@
           "id": "mpsc-group-b-assistant-jailor-2018-english-B34",
           "questionNumber": "B34",
           "section": "english",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held because the requested grammatical category is missing from the choices."
         },
         {
           "id": "mpsc-group-b-assistant-jailor-2018-english-B44",
           "questionNumber": "B44",
           "section": "english",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held because the requested grammatical category is missing from the choices."
         }
       ]
     },
@@ -13629,10 +13647,10 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 76,
+      "ready": 77,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 4,
+      "heldReviewed": 3,
       "workedGuidesReviewed": 80,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -13643,10 +13661,10 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 76,
+          "ready": 77,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 4,
+          "heldReviewed": 3,
           "workedGuidesReviewed": 80,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -13656,28 +13674,22 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-je-iwr-2018-english-B37",
-          "questionNumber": "B37",
-          "section": "english",
-          "reason": "Answer-key review hold."
-        },
-        {
           "id": "mpsc-group-b-je-iwr-2018-english-B39",
           "questionNumber": "B39",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "Both “prevailed on him to vote” and “prevailed upon him to vote” are standard constructions, and both options are present."
         },
         {
-          "id": "mpsc-group-b-je-iwr-2018-english-Q57",
-          "questionNumber": "57",
+          "id": "mpsc-group-b-je-iwr-2018-english-B57",
+          "questionNumber": "B57",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "The underlined “Whatever you do” is a finite subordinate clause, but the choices classify phrases (noun, adverb, adjective); none applies."
         },
         {
-          "id": "mpsc-group-b-je-iwr-2018-english-B70",
-          "questionNumber": "B70",
+          "id": "mpsc-group-b-je-iwr-2018-english-B68",
+          "questionNumber": "B68",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "The intended choice appears to be “tenuous,” but the source prints “tenious” and the sentence also omits “so” before the “that” clause, leaving no fully grammatical option as printed."
         }
       ]
     },
@@ -16611,10 +16623,10 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 77,
+      "ready": 79,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 3,
+      "heldReviewed": 1,
       "workedGuidesReviewed": 80,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -16625,10 +16637,10 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 77,
+          "ready": 79,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 3,
+          "heldReviewed": 1,
           "workedGuidesReviewed": 80,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -16638,22 +16650,10 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B49",
-          "questionNumber": "B49",
+          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B3",
+          "questionNumber": "B3",
           "section": "english",
-          "reason": "Source-checked; held because the item has overlapping or invalid answer choices."
-        },
-        {
-          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B59",
-          "questionNumber": "B59",
-          "section": "english",
-          "reason": "Source-checked; held because the item has overlapping or invalid answer choices."
-        },
-        {
-          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B75",
-          "questionNumber": "B75",
-          "section": "english",
-          "reason": "Source-checked; held because the item has overlapping or invalid answer choices."
+          "reason": "Held because the passage does not provide enough evidence to determine a unique statement."
         }
       ]
     },
@@ -17174,10 +17174,10 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 76,
+      "ready": 79,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 4,
+      "heldReviewed": 1,
       "workedGuidesReviewed": 80,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -17188,10 +17188,10 @@
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 76,
+          "ready": 79,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 4,
+          "heldReviewed": 1,
           "workedGuidesReviewed": 80,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -17201,28 +17201,10 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B46",
-          "questionNumber": "B46",
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B41",
+          "questionNumber": "B41",
           "section": "english",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B49",
-          "questionNumber": "B49",
-          "section": "english",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B52",
-          "questionNumber": "B52",
-          "section": "english",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p1-B53",
-          "questionNumber": "B53",
-          "section": "english",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held because the printed choices omit the standard correct construction."
         }
       ]
     },
@@ -18411,22 +18393,22 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-station-officer-2018-english-B6",
-          "questionNumber": "B6",
+          "id": "mpsc-group-b-station-officer-2018-english-B21",
+          "questionNumber": "B21",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "Printed choices are overlapping/ambiguous; do not score."
         },
         {
           "id": "mpsc-group-b-station-officer-2018-english-B26",
           "questionNumber": "B26",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "Printed choices are overlapping/ambiguous; do not score."
         },
         {
           "id": "mpsc-group-b-station-officer-2018-english-B57",
           "questionNumber": "B57",
           "section": "english",
-          "reason": "Answer-key review hold."
+          "reason": "Printed choices are overlapping/ambiguous; do not score."
         }
       ]
     },
@@ -21285,25 +21267,25 @@
           "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q9",
           "questionNumber": "9",
           "section": "english",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after scan review; no unique answer is supported by the printed choices."
+        },
+        {
+          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q28",
+          "questionNumber": "28",
+          "section": "english",
+          "reason": "Held after scan review; no unique answer is supported by the printed choices."
         },
         {
           "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q61",
           "questionNumber": "61",
           "section": "english",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after scan review; no unique answer is supported by the printed choices."
         },
         {
-          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q89",
-          "questionNumber": "89",
+          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q97",
+          "questionNumber": "97",
           "section": "english",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-veterinary-officer-2018-english-p2-Q98",
-          "questionNumber": "98",
-          "section": "english",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after scan review; no unique answer is supported by the printed choices."
         }
       ]
     },

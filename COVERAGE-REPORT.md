@@ -4,8 +4,8 @@ Evidence scanned: 120 official key PDFs on disk (113 registered), upstream `mpsc
 
 ## Totals
 
-- Held MCQs: **8,441**
-- Tier 1 — official key available (scorable mechanically): **711**
+- Held MCQs: **8,438**
+- Tier 1 — official key available (scorable mechanically): **708**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **58**
@@ -19,7 +19,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 8 | 7 | 1 | 87.5% |
-| inferred | 8661 | 7427 | 1234 | 85.8% |
+| inferred | 8661 | 7436 | 1225 | 85.9% |
 | key | 71 | 65 | 6 | 91.5% |
 
 ### Tier 2 sources
@@ -31,7 +31,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 ## Key attribution
 
 - 120 key PDFs on disk; 113 already registered.
-- High-confidence auto-attributions: **32** (~711 held questions). Confirm each by eye before registering.
+- High-confidence auto-attributions: **32** (~708 held questions). Confirm each by eye before registering.
 - Single-token candidates to inspect: **25**
 - Unattributed key files: **5**
 
@@ -194,7 +194,6 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-eo-2019-gs3 | General Studies Paper-III | none | 8 | 0 | 0 | 4 | 4 |
 | mpsc-group-b-eo-leit-2019-gs3 | General Studies Paper-III | none | 8 | 0 | 0 | 4 | 4 |
 | mpsc-group-b-mes-phe-2014-gs | General Studies | none | 5 | 0 | 0 | 4 | 1 |
-| mpsc-group-b-sericulture-seo-2018-english-p1 | General English Paper-I | on_disk | 4 | 4 | 0 | 0 | 0 |
 | mpsc-group-b-acm-2026-tech-p2 | Technical Paper-II | registered | 4 | 4 | 0 | 0 | 0 |
 | mpsc-group-b-vo-2019-english-p2 | General English Paper-II | none | 4 | 0 | 0 | 4 | 0 |
 | mpsc-group-b-udc-agri-2019-p1 | Paper-I | none | 4 | 0 | 0 | 4 | 0 |
@@ -269,7 +268,6 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-si-police-ub-2018-gk | General Knowledge | none | 4 | 0 | 0 | 1 | 3 |
 | mpsc-group-b-station-officer-2018-gk | General Knowledge | none | 4 | 0 | 0 | 1 | 3 |
 | mpsc-group-b-station-officer-2018-english | General English | none | 3 | 0 | 0 | 1 | 2 |
-| mpsc-group-b-asi-home-2018-gk | General Knowledge | none | 3 | 0 | 0 | 1 | 2 |
 | mpsc-group-b-mes-pwd-2020-gs | General Studies | none | 3 | 0 | 0 | 1 | 2 |
 | mpsc-group-b-inspector-fcs-2019-gs3 | General Studies Paper-III | none | 3 | 0 | 0 | 1 | 2 |
 | mpsc-group-b-steno2-2015-gk | General Knowledge | none | 2 | 0 | 0 | 1 | 1 |
@@ -279,6 +277,8 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-inspector-excise-2019-gs2 | General Studies Paper-II | none | 2 | 0 | 0 | 1 | 1 |
 | mpsc-group-b-aao-2024-arithmetic | Arithmetic | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-je-agri-2026-p1 | General English | none | 1 | 0 | 0 | 1 | 0 |
+| mpsc-group-b-programmer-phe-2018-english-p1 | General English Paper-I | none | 1 | 0 | 0 | 1 | 0 |
+| mpsc-group-b-sericulture-seo-2018-english-p1 | General English Paper-I | on_disk | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-mhs-grade-v-2017-english-p2 | General English Paper-II | none | 1 | 0 | 0 | 1 | 0 |
 | mpsc-group-b-si-excise-2025-p2 | General Knowledge & Reasoning | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-inspector-excise-2025-gs2 | General Studies Paper-II | registered | 1 | 1 | 0 | 0 | 0 |

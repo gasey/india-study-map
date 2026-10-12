@@ -10,16 +10,16 @@
  },
  "totals": {
   "papers": 420,
-  "held_mcq": 8441,
-  "tier1_key_scorable": 711,
+  "held_mcq": 8438,
+  "tier1_key_scorable": 708,
   "tier2_solid_importable": 58,
   "tier2_candidate_needs_verify": 3867,
   "tier3_needs_derivation": 3805
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 7427,
-   "disagree": 1234
+   "agree": 7436,
+   "disagree": 1225
   },
   "key": {
    "agree": 65,
@@ -2069,21 +2069,6 @@
    "tier2_candidate": 4
   },
   {
-   "paper_id": "mpsc-group-b-sericulture-seo-2018-english-p1",
-   "exam": "Sericulture Extension Officer under Sericulture Department",
-   "subject": "General English Paper-I",
-   "key_status": "on_disk",
-   "key_file": "Final Answer key for Sericulture Extension Officer under Sericulture Department.pdf",
-   "held": 4,
-   "tier1": 4,
-   "tier2": 0,
-   "tier3": 0,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
    "paper_id": "mpsc-group-b-acm-2026-tech-p2",
    "exam": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026",
    "subject": "Technical Paper-II",
@@ -3194,21 +3179,6 @@
    "tier2_candidate": 1
   },
   {
-   "paper_id": "mpsc-group-b-asi-home-2018-gk",
-   "exam": "Assistant Sub-Inspector under Home Department",
-   "subject": "General Knowledge",
-   "key_status": "none",
-   "key_file": null,
-   "held": 3,
-   "tier1": 0,
-   "tier2": 1,
-   "tier3": 2,
-   "tier2_bank": 1,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 1
-  },
-  {
    "paper_id": "mpsc-group-b-mes-pwd-2020-gs",
    "exam": "Jr. Grade of Mizoram Engineering Service (MES) under PWD",
    "subject": "General Studies",
@@ -3342,6 +3312,36 @@
    "tier2_solved": 0,
    "tier2_solid": 0,
    "tier2_candidate": 1
+  },
+  {
+   "paper_id": "mpsc-group-b-programmer-phe-2018-english-p1",
+   "exam": "Programmer under PHE Department",
+   "subject": "General English Paper-I",
+   "key_status": "none",
+   "key_file": null,
+   "held": 1,
+   "tier1": 0,
+   "tier2": 1,
+   "tier3": 0,
+   "tier2_bank": 1,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 1
+  },
+  {
+   "paper_id": "mpsc-group-b-sericulture-seo-2018-english-p1",
+   "exam": "Sericulture Extension Officer under Sericulture Department",
+   "subject": "General English Paper-I",
+   "key_status": "on_disk",
+   "key_file": "Final Answer key for Sericulture Extension Officer under Sericulture Department.pdf",
+   "held": 1,
+   "tier1": 1,
+   "tier2": 0,
+   "tier3": 0,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
   },
   {
    "paper_id": "mpsc-group-b-mhs-grade-v-2017-english-p2",
@@ -3854,6 +3854,21 @@
    "tier2_candidate": 0
   },
   {
+   "paper_id": "mpsc-group-b-asi-home-2018-gk",
+   "exam": "Assistant Sub-Inspector under Home Department",
+   "subject": "General Knowledge",
+   "key_status": "none",
+   "key_file": null,
+   "held": 6,
+   "tier1": 0,
+   "tier2": 0,
+   "tier3": 6,
+   "tier2_bank": 0,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 0
+  },
+  {
    "paper_id": "mpsc-group-b-archive-lang-2022-mcs-combined-main-2022-mcs-main-2022-general-english-64a7ef14",
    "exam": "MCS Combined MAIN 2022",
    "subject": "General English",
@@ -3947,21 +3962,6 @@
    "paper_id": "mpsc-group-b-veterinary-officer-2018-english-p2",
    "exam": "Jr. Grade of MAH & Veterinary Science (Veterinary Officer)",
    "subject": "General English Paper-II",
-   "key_status": "none",
-   "key_file": null,
-   "held": 4,
-   "tier1": 0,
-   "tier2": 0,
-   "tier3": 4,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
-   "paper_id": "mpsc-group-b-je-iwr-2018-english",
-   "exam": "Junior Engineer under Irrigation & Water Resources",
-   "subject": "General English",
    "key_status": "none",
    "key_file": null,
    "held": 4,
@@ -4079,9 +4079,9 @@
    "tier2_candidate": 0
   },
   {
-   "paper_id": "mpsc-group-b-programmer-phe-2018-english-p1",
-   "exam": "Programmer under PHE Department",
-   "subject": "General English Paper-I",
+   "paper_id": "mpsc-group-b-sericulture-seo-2018-english-p2",
+   "exam": "Sericulture Extension Officer under Sericulture Department",
+   "subject": "General English Paper-II",
    "key_status": "none",
    "key_file": null,
    "held": 3,
@@ -4094,9 +4094,9 @@
    "tier2_candidate": 0
   },
   {
-   "paper_id": "mpsc-group-b-sericulture-seo-2018-english-p2",
-   "exam": "Sericulture Extension Officer under Sericulture Department",
-   "subject": "General English Paper-II",
+   "paper_id": "mpsc-group-b-je-iwr-2018-english",
+   "exam": "Junior Engineer under Irrigation & Water Resources",
+   "subject": "General English",
    "key_status": "none",
    "key_file": null,
    "held": 3,

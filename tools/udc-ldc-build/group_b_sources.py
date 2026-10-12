@@ -1210,6 +1210,7 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': reviewed_archive_meta[slug],
                              'negativeMarking': False, 'penaltyFraction': 0}
         reviewed_2018_meta = {
+            'programmer-phe-2018-english-p1': 180,
             'programmer-phe-2018-english-p2': 120,
             'sericulture-seo-2018-english-p1': 180,
             'sericulture-seo-2018-english-p2': 120,

@@ -144150,6 +144150,2867 @@
           "answerConfidence": "high"
         }
       }
+    },
+    "archive-lang-2016-cdpo-under-social-welfar": {
+      "sourceSha256": "fc4e1911e4a2e3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+      "expectedMcq": 100,
+      "partialReview": false,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 CDPO 2016 General Studies MCQs checked against printed paper.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q1",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q1",
+          "reviewNote": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q2",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q2",
+          "reviewNote": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q3",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q3",
+          "reviewNote": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q4",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q4",
+          "reviewNote": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q5",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q5",
+          "reviewNote": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q6",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q6",
+          "reviewNote": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q7",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q7",
+          "reviewNote": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q8",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q8",
+          "reviewNote": null
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q9",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q9",
+          "reviewNote": null
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q10",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q10",
+          "reviewNote": null
+        },
+        "11": {
+          "n": 11,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q11",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q11",
+          "reviewNote": null
+        },
+        "12": {
+          "n": 12,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q12",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q12",
+          "reviewNote": null
+        },
+        "13": {
+          "n": 13,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q13",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q13",
+          "reviewNote": null
+        },
+        "14": {
+          "n": 14,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q14",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q14",
+          "reviewNote": null
+        },
+        "15": {
+          "n": 15,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q15",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q15",
+          "reviewNote": null
+        },
+        "16": {
+          "n": 16,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q16",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q16",
+          "reviewNote": null
+        },
+        "17": {
+          "n": 17,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q17",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q17",
+          "reviewNote": null
+        },
+        "18": {
+          "n": 18,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q18",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q18",
+          "reviewNote": null
+        },
+        "19": {
+          "n": 19,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q19",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q19",
+          "reviewNote": null
+        },
+        "20": {
+          "n": 20,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q20",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q20",
+          "reviewNote": null
+        },
+        "21": {
+          "n": 21,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q21",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q21",
+          "reviewNote": null
+        },
+        "22": {
+          "n": 22,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q22",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q22",
+          "reviewNote": null
+        },
+        "23": {
+          "n": 23,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q23",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q23",
+          "reviewNote": null
+        },
+        "24": {
+          "n": 24,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q24",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q24",
+          "reviewNote": null
+        },
+        "25": {
+          "n": 25,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q25",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q25",
+          "reviewNote": null
+        },
+        "26": {
+          "n": 26,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q26",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q26",
+          "reviewNote": null
+        },
+        "27": {
+          "n": 27,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q27",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q27",
+          "reviewNote": null
+        },
+        "28": {
+          "n": 28,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q28",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q28",
+          "reviewNote": null
+        },
+        "29": {
+          "n": 29,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q29",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q29",
+          "reviewNote": null
+        },
+        "30": {
+          "n": 30,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q30",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q30",
+          "reviewNote": null
+        },
+        "31": {
+          "n": 31,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q31",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q31",
+          "reviewNote": null
+        },
+        "32": {
+          "n": 32,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q32",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q32",
+          "reviewNote": null
+        },
+        "33": {
+          "n": 33,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q33",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q33",
+          "reviewNote": null
+        },
+        "34": {
+          "n": 34,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q34",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q34",
+          "reviewNote": null
+        },
+        "35": {
+          "n": 35,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q35",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q35",
+          "reviewNote": null
+        },
+        "36": {
+          "n": 36,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q36",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q36",
+          "reviewNote": null
+        },
+        "37": {
+          "n": 37,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q37",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q37",
+          "reviewNote": null
+        },
+        "38": {
+          "n": 38,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q38",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q38",
+          "reviewNote": null
+        },
+        "39": {
+          "n": 39,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q39",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q39",
+          "reviewNote": null
+        },
+        "40": {
+          "n": 40,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q40",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q40",
+          "reviewNote": null
+        },
+        "41": {
+          "n": 41,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q41",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q41",
+          "reviewNote": null
+        },
+        "42": {
+          "n": 42,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q42",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q42",
+          "reviewNote": null
+        },
+        "43": {
+          "n": 43,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q43",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q43",
+          "reviewNote": null
+        },
+        "44": {
+          "n": 44,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q44",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q44",
+          "reviewNote": null
+        },
+        "45": {
+          "n": 45,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q45",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q45",
+          "reviewNote": null
+        },
+        "46": {
+          "n": 46,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q46",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q46",
+          "reviewNote": null
+        },
+        "47": {
+          "n": 47,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q47",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q47",
+          "reviewNote": null
+        },
+        "48": {
+          "n": 48,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q48",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q48",
+          "reviewNote": null
+        },
+        "49": {
+          "n": 49,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q49",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q49",
+          "reviewNote": null
+        },
+        "50": {
+          "n": 50,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "General Studies",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q50",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Derived answer Q50",
+          "reviewNote": null
+        },
+        "51": {
+          "n": 51,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q51",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "52": {
+          "n": 52,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q52",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "53": {
+          "n": 53,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q53",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "54": {
+          "n": 54,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q54",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "55": {
+          "n": 55,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q55",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "56": {
+          "n": 56,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q56",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "57": {
+          "n": 57,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q57",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "58": {
+          "n": 58,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q58",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "59": {
+          "n": 59,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q59",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "60": {
+          "n": 60,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q60",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "61": {
+          "n": 61,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q61",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "62": {
+          "n": 62,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q62",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "63": {
+          "n": 63,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q63",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "64": {
+          "n": 64,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q64",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "65": {
+          "n": 65,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q65",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "66": {
+          "n": 66,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q66",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "67": {
+          "n": 67,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q67",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "68": {
+          "n": 68,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q68",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "69": {
+          "n": 69,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q69",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "70": {
+          "n": 70,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q70",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "71": {
+          "n": 71,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q71",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "72": {
+          "n": 72,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q72",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "73": {
+          "n": 73,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q73",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "74": {
+          "n": 74,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q74",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "75": {
+          "n": 75,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q75",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "76": {
+          "n": 76,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q76",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "77": {
+          "n": 77,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q77",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "78": {
+          "n": 78,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q78",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "79": {
+          "n": 79,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q79",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "80": {
+          "n": 80,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q80",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "81": {
+          "n": 81,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q81",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "82": {
+          "n": 82,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q82",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "83": {
+          "n": 83,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q83",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "84": {
+          "n": 84,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q84",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "85": {
+          "n": 85,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q85",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "86": {
+          "n": 86,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q86",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "87": {
+          "n": 87,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q87",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "88": {
+          "n": 88,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q88",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "89": {
+          "n": 89,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q89",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "90": {
+          "n": 90,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q90",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "91": {
+          "n": 91,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q91",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "92": {
+          "n": 92,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q92",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "93": {
+          "n": 93,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q93",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "94": {
+          "n": 94,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q94",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "95": {
+          "n": 95,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q95",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "96": {
+          "n": 96,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q96",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "97": {
+          "n": 97,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q97",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "98": {
+          "n": 98,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q98",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "99": {
+          "n": 99,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q99",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        },
+        "100": {
+          "n": 100,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q100",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Held: could not derive from print text alone",
+          "reviewNote": "Held unscored"
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q1",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q2",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q3",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q4",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q5",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q6",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q7",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q8",
+          "answerConfidence": "high"
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q9",
+          "answerConfidence": "high"
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q10",
+          "answerConfidence": "high"
+        },
+        "11": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q11",
+          "answerConfidence": "high"
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q12",
+          "answerConfidence": "high"
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q13",
+          "answerConfidence": "high"
+        },
+        "14": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q14",
+          "answerConfidence": "high"
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q15",
+          "answerConfidence": "high"
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q16",
+          "answerConfidence": "high"
+        },
+        "17": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q17",
+          "answerConfidence": "high"
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q18",
+          "answerConfidence": "high"
+        },
+        "19": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q19",
+          "answerConfidence": "high"
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q20",
+          "answerConfidence": "high"
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q21",
+          "answerConfidence": "high"
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q22",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q23",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q24",
+          "answerConfidence": "high"
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q25",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q26",
+          "answerConfidence": "high"
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q27",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q28",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q29",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q30",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q31",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q32",
+          "answerConfidence": "high"
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q33",
+          "answerConfidence": "high"
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q34",
+          "answerConfidence": "high"
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q35",
+          "answerConfidence": "high"
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q36",
+          "answerConfidence": "high"
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q37",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q38",
+          "answerConfidence": "high"
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q39",
+          "answerConfidence": "high"
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q40",
+          "answerConfidence": "high"
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q41",
+          "answerConfidence": "high"
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q42",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q43",
+          "answerConfidence": "high"
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q44",
+          "answerConfidence": "high"
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q45",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q46",
+          "answerConfidence": "high"
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q47",
+          "answerConfidence": "high"
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q48",
+          "answerConfidence": "high"
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q49",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "Derived answer Q50",
+          "answerConfidence": "high"
+        }
+      }
     }
   }
 }

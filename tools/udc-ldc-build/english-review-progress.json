@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 3497,
-    "pendingMcq": 6361,
-    "heldReviewed": 112,
+    "ready": 3776,
+    "pendingMcq": 6073,
+    "heldReviewed": 133,
     "pendingWritten": 876
   },
   "papers": [
@@ -4004,20 +4004,76 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
-      "mcq": 99,
-      "ready": 0,
+      "status": "ready-with-held-items",
+      "mcq": 100,
+      "ready": 89,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 99,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 11,
       "expectedMcq": null,
       "missingMcq": null,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q46",
+          "questionNumber": "46",
+          "reason": "No option gives a valid complex-sentence equivalent of “I request your help.”"
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q53",
+          "questionNumber": "53",
+          "reason": "The offered option changes the past tense of the source sentence; no option preserves an exact equivalent."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q57",
+          "questionNumber": "57",
+          "reason": "No option preserves the original modal “shall”; the intended nominalization changes meaning or form."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q58",
+          "questionNumber": "58",
+          "reason": "Two options are valid equivalent polite requests."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q63",
+          "questionNumber": "63",
+          "reason": "Two options form valid exclamatory equivalents."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q64",
+          "questionNumber": "64",
+          "reason": "Two options are valid assertive equivalents."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q65",
+          "questionNumber": "65",
+          "reason": "Multiple interrogative forms work rhetorically, including the negative question."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q66",
+          "questionNumber": "66",
+          "reason": "The instruction asks for an infinitive construction, but none of the options contains an infinitive."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q68",
+          "questionNumber": "68",
+          "reason": "Both A and D contain valid adjective/relative clauses and preserve the meaning."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q70",
+          "questionNumber": "70",
+          "reason": "Both clause orders are grammatical and preserve the meaning."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q80",
+          "questionNumber": "80",
+          "reason": "All four options are near-synonyms of authentic; the item has no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-fr-2019-english-1",
@@ -5109,20 +5165,26 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
-      "mcq": 89,
-      "ready": 0,
+      "status": "ready-with-held-items",
+      "mcq": 100,
+      "ready": 99,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 89,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
       "expectedMcq": null,
       "missingMcq": null,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q12",
+          "questionNumber": "12",
+          "reason": "The two options describing departure versus staying do not accurately match the printed situation; the nearest choice is not exact."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mimer-labtech-2018-english",
@@ -6609,20 +6671,66 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 91,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 9,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q12",
+          "questionNumber": "12",
+          "reason": "Both “have lived” and “have been living” are grammatical with “since 2000”; no unique option."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q15",
+          "questionNumber": "15",
+          "reason": "Both “help” (habitual) and “were helping” (past ongoing action) fit without additional context."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q17",
+          "questionNumber": "17",
+          "reason": "Both “I am pleased to announce” and “I am announcing” can be grammatical in context; no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q19",
+          "questionNumber": "19",
+          "reason": "The plural subject permits “make,” while the tense context could permit “have made” or “made”; no time marker resolves it."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q21",
+          "questionNumber": "21",
+          "reason": "Both “politest” and “most polite” are standard superlatives."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q24",
+          "questionNumber": "24",
+          "reason": "“All” and “Some” both fit the plural verb “were”; “Each” would take “was.”"
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q38",
+          "questionNumber": "38",
+          "reason": "“Lest” is the intended conjunction, but “lest you shall be late” is not standard; the item provides no fully correct option."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q51",
+          "questionNumber": "51",
+          "reason": "Both “Daily exercise is invigorating” and “Daily exercise makes one invigorated” are grammatical transformations."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q70",
+          "questionNumber": "70",
+          "reason": "Both “who” and “that” can introduce the adjective clause in the offered sentences."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-vo-2019-english-p1",

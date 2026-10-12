@@ -4,15 +4,15 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26864,
-    "mcq": 25843,
+    "records": 26876,
+    "mcq": 25855,
     "writtenRecords": 1021,
-    "ready": 14671,
+    "ready": 14950,
     "readyOfficial": 8322,
-    "pendingMcq": 10751,
-    "heldReviewed": 421,
-    "workedGuidesReviewed": 7437,
-    "pendingMcqGuides": 18406,
+    "pendingMcq": 10463,
+    "heldReviewed": 442,
+    "workedGuidesReviewed": 7737,
+    "pendingMcqGuides": 18118,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -20,15 +20,15 @@
   },
   "sections": {
     "english": {
-      "records": 10991,
-      "mcq": 9970,
+      "records": 11003,
+      "mcq": 9982,
       "writtenRecords": 1021,
-      "ready": 3497,
+      "ready": 3776,
       "readyOfficial": 1682,
-      "pendingMcq": 6361,
-      "heldReviewed": 112,
-      "workedGuidesReviewed": 2430,
-      "pendingMcqGuides": 7540,
+      "pendingMcq": 6073,
+      "heldReviewed": 133,
+      "workedGuidesReviewed": 2730,
+      "pendingMcqGuides": 7252,
       "keyOnlyFeedback": 945,
       "writtenGuidesReviewed": 118,
       "pendingWrittenGuides": 903
@@ -11116,35 +11116,102 @@
       "imported": true,
       "expectedMcq": null,
       "missingMcq": null,
-      "records": 99,
-      "mcq": 99,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 89,
       "readyOfficial": 0,
-      "pendingMcq": 99,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 99,
+      "pendingMcq": 0,
+      "heldReviewed": 11,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "english": {
-          "records": 99,
-          "mcq": 99,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 89,
           "readyOfficial": 0,
-          "pendingMcq": 99,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 99,
+          "pendingMcq": 0,
+          "heldReviewed": 11,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q46",
+          "questionNumber": "46",
+          "section": "english",
+          "reason": "No option gives a valid complex-sentence equivalent of “I request your help.”"
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q53",
+          "questionNumber": "53",
+          "section": "english",
+          "reason": "The offered option changes the past tense of the source sentence; no option preserves an exact equivalent."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q57",
+          "questionNumber": "57",
+          "section": "english",
+          "reason": "No option preserves the original modal “shall”; the intended nominalization changes meaning or form."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q58",
+          "questionNumber": "58",
+          "section": "english",
+          "reason": "Two options are valid equivalent polite requests."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q63",
+          "questionNumber": "63",
+          "section": "english",
+          "reason": "Two options form valid exclamatory equivalents."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q64",
+          "questionNumber": "64",
+          "section": "english",
+          "reason": "Two options are valid assertive equivalents."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q65",
+          "questionNumber": "65",
+          "section": "english",
+          "reason": "Multiple interrogative forms work rhetorically, including the negative question."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q66",
+          "questionNumber": "66",
+          "section": "english",
+          "reason": "The instruction asks for an infinitive construction, but none of the options contains an infinitive."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q68",
+          "questionNumber": "68",
+          "section": "english",
+          "reason": "Both A and D contain valid adjective/relative clauses and preserve the meaning."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q70",
+          "questionNumber": "70",
+          "section": "english",
+          "reason": "Both clause orders are grammatical and preserve the meaning."
+        },
+        {
+          "id": "mpsc-group-b-feo-2017-english-p2-Q80",
+          "questionNumber": "80",
+          "section": "english",
+          "reason": "All four options are near-synonyms of authentic; the item has no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-fr-2019-english-1",
@@ -14998,35 +15065,42 @@
       "imported": true,
       "expectedMcq": null,
       "missingMcq": null,
-      "records": 89,
-      "mcq": 89,
+      "records": 100,
+      "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 99,
       "readyOfficial": 0,
-      "pendingMcq": 89,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 89,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "english": {
-          "records": 89,
-          "mcq": 89,
+          "records": 100,
+          "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 99,
           "readyOfficial": 0,
-          "pendingMcq": 89,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 89,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q12",
+          "questionNumber": "12",
+          "section": "english",
+          "reason": "The two options describing departure versus staying do not accurately match the printed situation; the nearest choice is not exact."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mimer-computer-operator-2018-p1",
@@ -20636,12 +20710,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 91,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 9,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -20650,18 +20724,73 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 91,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 9,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q12",
+          "questionNumber": "12",
+          "section": "english",
+          "reason": "Both “have lived” and “have been living” are grammatical with “since 2000”; no unique option."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q15",
+          "questionNumber": "15",
+          "section": "english",
+          "reason": "Both “help” (habitual) and “were helping” (past ongoing action) fit without additional context."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q17",
+          "questionNumber": "17",
+          "section": "english",
+          "reason": "Both “I am pleased to announce” and “I am announcing” can be grammatical in context; no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q19",
+          "questionNumber": "19",
+          "section": "english",
+          "reason": "The plural subject permits “make,” while the tense context could permit “have made” or “made”; no time marker resolves it."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q21",
+          "questionNumber": "21",
+          "section": "english",
+          "reason": "Both “politest” and “most polite” are standard superlatives."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q24",
+          "questionNumber": "24",
+          "section": "english",
+          "reason": "“All” and “Some” both fit the plural verb “were”; “Each” would take “was.”"
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q38",
+          "questionNumber": "38",
+          "section": "english",
+          "reason": "“Lest” is the intended conjunction, but “lest you shall be late” is not standard; the item provides no fully correct option."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q51",
+          "questionNumber": "51",
+          "section": "english",
+          "reason": "Both “Daily exercise is invigorating” and “Daily exercise makes one invigorated” are grammatical transformations."
+        },
+        {
+          "id": "mpsc-group-b-vety-mah-2021-english-p2-Q70",
+          "questionNumber": "70",
+          "section": "english",
+          "reason": "Both “who” and “that” can introduce the adjective clause in the offered sentences."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-vo-2019-english-p1",

@@ -105771,15 +105771,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: admiration is a noun.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q2",
@@ -105797,15 +105798,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Verb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: comfortable is an adjective.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q3",
@@ -105823,15 +105825,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Adjective",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: about is a preposition governing its object.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q4",
@@ -105849,15 +105852,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Adjective",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: down is a preposition governing “the river”.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q5",
@@ -105875,15 +105879,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Pronoun",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: book is used as a verb.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q6",
@@ -105901,15 +105906,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Preposition",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: the clause expresses cause.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q7",
@@ -105927,15 +105933,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Preposition",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: some modifies the noun boys.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q8",
@@ -105953,15 +105960,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Verb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: need is a verb.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q9",
@@ -105979,15 +105987,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Adjective",
       "Interjection"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: “What!” is an interjection.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q10",
@@ -106005,15 +106014,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: they is a pronoun.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q11",
@@ -106031,18 +106041,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "is raining",
       "will be raining"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the present progressive describes rain happening now.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q12",
@@ -106061,7 +106069,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "will live"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “have lived” and “have been living” are grammatical with “since 2000”; no unique option.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
@@ -106070,8 +106078,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceReviewed": true,
+    "sourceNote": "Both “have lived” and “have been living” are grammatical with “since 2000”; no unique option."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q13",
@@ -106089,18 +106097,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "came",
       "has come"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the present simple follows “every time”.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q14",
@@ -106118,18 +106124,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Did",
       "Were"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the question uses “did” plus the base verb.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q15",
@@ -106148,7 +106152,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "were helping"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “help” (habitual) and “were helping” (past ongoing action) fit without additional context.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
@@ -106157,8 +106161,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceReviewed": true,
+    "sourceNote": "Both “help” (habitual) and “were helping” (past ongoing action) fit without additional context."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q16",
@@ -106176,18 +106180,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "had arrived",
       "will be arriving"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the future perfect describes completion by a future time.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q17",
@@ -106206,7 +106208,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "am announcing"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The item permits more than one grammatical future announcement form.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
@@ -106215,8 +106217,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceReviewed": true,
+    "sourceNote": "Both “I am pleased to announce” and “I am announcing” can be grammatical in context; no unique answer."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q18",
@@ -106234,18 +106236,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "are achieving",
       "have been achieved"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: people is plural.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q19",
@@ -106264,7 +106264,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "made"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The plural subject permits “make,” while the tense context could permit “have made” or “made”; no time marker resolves it.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
@@ -106273,8 +106273,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceReviewed": true,
+    "sourceNote": "The plural subject permits “make,” while the tense context could permit “have made” or “made”; no time marker resolves it."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q20",
@@ -106292,18 +106292,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Did",
       "Have"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: the present perfect question is “Have you completed”.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Fill in the blanks with the correct form of the verbs."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q21",
@@ -106322,7 +106320,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "more polite"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “politest” and “most polite” are standard superlatives.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
@@ -106331,8 +106329,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceReviewed": true,
+    "sourceNote": "Both “politest” and “most polite” are standard superlatives."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q22",
@@ -106350,18 +106348,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "little",
       "less"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: little modifies uncountable tea.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q23",
@@ -106379,18 +106375,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "nearby",
       "nearest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: coming near is the intended meaning.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q24",
@@ -106409,7 +106403,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Each"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“All” and “Some” both fit the plural verb “were”; “Each” would take “was.”",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
@@ -106418,8 +106412,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceReviewed": true,
+    "sourceNote": "“All” and “Some” both fit the plural verb “were”; “Each” would take “was.”"
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q25",
@@ -106437,18 +106431,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "few",
       "a lot"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: much modifies uncountable work.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q26",
@@ -106466,18 +106458,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "generously",
       "generousness"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: generously is an adverb.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q27",
@@ -106495,18 +106485,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "later",
       "late"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: “late” modifies the verb arrived.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q28",
@@ -106524,18 +106512,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "single",
       "one"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: only modifies the noun son.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q29",
@@ -106553,18 +106539,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "good",
       "goodly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: well modifies did.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q30",
@@ -106582,18 +106566,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "all",
       "whole"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: all modifies uncountable patience.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 21 - 30) : Complete the following sentences using the appropriate"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q31",
@@ -106611,18 +106593,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "atop",
       "upon"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: above locates the apartment.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q32",
@@ -106640,18 +106620,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "in",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: at is used for a precise time.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q33",
@@ -106669,18 +106647,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "yet",
       "since"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: yet links contrasting clauses.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q34",
@@ -106698,18 +106674,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "on",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: with indicates the instrument.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q35",
@@ -106727,18 +106701,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "to",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: accused collocates with of.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q36",
@@ -106756,18 +106728,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "since",
       "unless"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: therefore signals a result.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q37",
@@ -106785,18 +106755,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "by",
       "between"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: compare X with Y is the standard construction.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q38",
@@ -106815,7 +106783,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "lest"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Lest” is the intended conjunction, but “lest you shall be late” is not standard; the item provides no fully correct option.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
@@ -106824,8 +106792,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceReviewed": true,
+    "sourceNote": "“Lest” is the intended conjunction, but “lest you shall be late” is not standard; the item provides no fully correct option."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q39",
@@ -106843,18 +106811,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "upon",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: depends collocates with upon.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q40",
@@ -106872,18 +106838,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "up",
       "through"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: look into means investigate.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with the correct preposition or conjunction."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q41",
@@ -106901,15 +106865,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "I shall marry",
       "the girl whom I shall marry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the main clause is “She is the girl”.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q42",
@@ -106927,15 +106892,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "where you lived in",
       "you lived in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: where introduces a relative clause (the printed sentence redundantly adds “in”).",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q43",
@@ -106953,15 +106919,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "that you are not",
       "that you are not at all repentant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: the that-clause is a noun clause.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q44",
@@ -106979,15 +106946,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "My sister",
       "it was night"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the clause expresses time.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q45",
@@ -107005,15 +106973,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "he saw me",
       "as soon as"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: as soon as introduces a time clause.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q46",
@@ -107031,15 +107000,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "as I have to go out of station",
       "as I have to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the main clause is “I cannot attend office”.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q47",
@@ -107057,15 +107027,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "he is poor",
       "Though he is poor"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: the clause expresses concession.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q48",
@@ -107083,15 +107054,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "who laughs last",
       "laughs hardest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: who introduces a relative clause.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q49",
@@ -107109,15 +107081,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "abide by",
       "what you have promised"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: what-clause functions as a noun clause.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q50",
@@ -107135,15 +107108,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "is taller than",
       "taller than Abel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the main clause is “Jacob is taller”.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 41 - 50) : Analyse the following complex and compound sentences by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q51",
@@ -107162,7 +107136,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Daily exercise is invigorating."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “Daily exercise is invigorating” and “Daily exercise makes one invigorated” are grammatical transformations.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
@@ -107171,8 +107145,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceReviewed": true,
+    "sourceNote": "Both “Daily exercise is invigorating” and “Daily exercise makes one invigorated” are grammatical transformations."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q52",
@@ -107190,18 +107164,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "This weather is very hot.",
       "This weather is too hot that I cannot bear it."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: too…to is equivalent to so…that…cannot.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q53",
@@ -107219,18 +107191,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Tom is not healthier than Bob.",
       "Tom is healthiest than Bob."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the comparative sentence preserves the intended comparison.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q54",
@@ -107248,18 +107218,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "The train do not arrive on time.",
       "The train do not arrive late."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the negative form preserves the assertion.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q55",
@@ -107277,18 +107245,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Everyone will deny that he was the greatest sportsman of all time.",
       "Everyone will say that he was not the greatest sportsman of all time."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: none will deny is equivalent to all will admit.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q56",
@@ -107306,18 +107272,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "You are suffering, hence you are stupid.",
       "Owing to your stupidity, you are suffering."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: therefore joins the result in a compound sentence.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q57",
@@ -107335,18 +107299,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "I was born in a year that I do not know.",
       "I do not know the year of my birth."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: “year of my birth” forms a simple sentence.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q58",
@@ -107364,18 +107326,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Fie! That I may see my country again!",
       "What a longing to see my country again!"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: “O that…” is the exclamatory form.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q59",
@@ -107393,18 +107353,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "She is a woman of great beautifulness.",
       "She is a very beauty woman."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: beauty is a noun.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q60",
@@ -107422,18 +107380,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "He too is so honest that he will not accept a bribe.",
       "He is too honest to accept a bribe."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: too honest to accept preserves the meaning.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Transform the following sentences as directed, without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q61",
@@ -107451,18 +107407,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "I finished my work and gave it to the teacher.",
       "I gave my work to the teacher when I finished it."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: having finished indicates prior completion.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q62",
@@ -107480,18 +107434,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "He finished first in the race and it was very fortunate.",
       "He finished first in the race with great fortune."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: fortunately is the appropriate sentence adverb.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q63",
@@ -107509,18 +107461,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Do what you like but do not talk to me again.",
       "Do what you like if you do not talk to me again."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: but joins the contrasting ideas.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q64",
@@ -107538,18 +107488,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "I may whether go or I may stay, it is not certain.",
       "It is not certain whether I may go or stay."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: whether…or expresses alternatives.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q65",
@@ -107567,18 +107515,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "I have sold my car and it is red in colour.",
       "I have sold my car which was red in colour."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: that introduces an adjective clause modifying shirt.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q66",
@@ -107596,18 +107542,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Jacob was promoted, therefore he was given a raise.",
       "Jacob was promoted and raised."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: as well as is the intended cumulative connector.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q67",
@@ -107625,18 +107569,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "John is my neighbor as well as buying a new car.",
       "John, my neighbor, has bought a new car."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: “my neighbour” is in apposition to John.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q68",
@@ -107654,18 +107596,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "It is very messy, so one cannot stay to here.",
       "It is to messy that one cannot stay here."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: too messy to stay preserves the meaning.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q69",
@@ -107683,18 +107623,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "He looked out the window and saw a great bird.",
       "As he looked out the window, he saw a great bird."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the participial phrase joins the ideas.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q70",
@@ -107713,7 +107651,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "The man I saw in the market could not see."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “who” and “that” can introduce the adjective clause in the offered sentences.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
@@ -107722,8 +107660,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "Both “who” and “that” can introduce the adjective clause in the offered sentences."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q71",
@@ -107741,18 +107679,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "pessimist",
       "pragmatist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: an optimist expects a favourable outcome.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q72",
@@ -107770,18 +107706,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "pottery",
       "calligraphy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: calligraphy is beautiful handwriting.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q73",
@@ -107799,18 +107733,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "convalescent",
       "contraceptive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: combustible means capable of burning.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q74",
@@ -107828,18 +107760,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "inedible",
       "indelible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: illegible means impossible or difficult to read.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q75",
@@ -107857,18 +107787,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "amateur",
       "immature"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: an amateur is not a professional.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q76",
@@ -107884,20 +107812,18 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "amphibious",
       "ambitious",
       "amorphous",
-      "ambigious"
+      "ambiguous"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: ambiguous means open to multiple explanations.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q77",
@@ -107915,18 +107841,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "insufficient",
       "insoluble"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: insatiable means impossible to satisfy.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q78",
@@ -107944,18 +107868,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "weather-cock",
       "philanderer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a turncoat changes allegiance.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q79",
@@ -107973,18 +107895,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "omnific",
       "invisible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: unanimous means in complete agreement.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q80",
@@ -108002,18 +107922,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "missionary",
       "misogyny"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a mercenary is hired for payment.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Fill in the blanks with the most appropriate word."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q81",
@@ -108031,15 +107949,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "secure",
       "uncertain"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: perilous means dangerous.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q82",
@@ -108057,15 +107976,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "unsure",
       "amazing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: inevitable means unavoidable.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q83",
@@ -108083,15 +108003,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "expert",
       "manufacturer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: a virtuoso is an expert performer.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q84",
@@ -108109,15 +108030,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "examiner",
       "trainer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a novice is a beginner.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q85",
@@ -108135,15 +108057,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "stopped",
       "requested"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: compelled means forced.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q86",
@@ -108161,15 +108084,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "probable",
       "possible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: evident means obvious.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q87",
@@ -108187,15 +108111,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "dishonest",
       "greedy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: avaricious means greedy.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q88",
@@ -108213,15 +108138,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "calm",
       "silence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: placate means calm or appease.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q89",
@@ -108239,15 +108165,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "shy",
       "sullen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: gregarious means sociable.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q90",
@@ -108265,15 +108192,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "respectable",
       "stern"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: imperious means domineering or overbearing.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the synonym (same meaning) of the underlined words."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q91",
@@ -108291,15 +108219,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "merry",
       "violent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: humble contrasts with proud.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q92",
@@ -108317,15 +108246,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "wise",
       "unobvious"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: prudent contrasts with unwise.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q93",
@@ -108343,15 +108273,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "sympathy",
       "arrogance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: apathy contrasts with sympathy.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q94",
@@ -108369,15 +108300,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "thief",
       "drunkard"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: a teetotaller contrasts with a drunkard.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q95",
@@ -108395,15 +108327,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "joyous",
       "unnatural"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: decisive contrasts with hesitant.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q96",
@@ -108421,15 +108354,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "angry",
       "indifferent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: lenient contrasts with strict.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q97",
@@ -108447,15 +108381,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "secretive",
       "unfriendly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: genial contrasts with unfriendly.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q98",
@@ -108473,15 +108408,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "hard-working",
       "intelligent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: diligent contrasts with lazy.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q99",
@@ -108499,15 +108435,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "dexterity",
       "effort"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: agility contrasts with clumsiness.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q100",
@@ -108525,15 +108462,16 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "confused",
       "frank"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a misanthrope hates mankind.",
     "source": "Jr. Grade of MAH & Veterinary Officer under AH&Vety Department (Contract) · November 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/vety-mah-2021-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct antonym (opposite in meaning) of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-ato-2017-english-B13",
@@ -110271,17 +110209,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Preposition",
       "Verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: about is a preposition.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q2",
@@ -110299,17 +110236,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: back modifies door.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q3",
@@ -110327,17 +110263,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Preposition",
       "Verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: barked is a verb.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q4",
@@ -110355,17 +110290,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: better is an adjective.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q5",
@@ -110383,17 +110317,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Verb",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: book is a noun.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q6",
@@ -110411,17 +110344,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Noun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: walking is a verb form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q7",
@@ -110439,17 +110371,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Verb",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: till connects clauses.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q8",
@@ -110467,17 +110398,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Noun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: while is used as a noun.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q9",
@@ -110495,17 +110425,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Noun",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: hurrah is an interjection.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q10",
@@ -110523,17 +110452,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Noun",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: wind is a noun.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q11",
@@ -110551,18 +110479,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "are living",
       "live"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: since 1990 takes the present perfect continuous.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q12",
@@ -110580,18 +110506,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "written",
       "write"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: usual describes a habit.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q13",
@@ -110609,18 +110533,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "are buying",
       "buy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: two years ago requires the simple past.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q14",
@@ -110638,18 +110560,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "is shining",
       "has been shining"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the action was ongoing when the other event occurred.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q15",
@@ -110667,18 +110587,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "were",
       "is"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the first conditional uses present simple after if.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q16",
@@ -110696,18 +110614,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "will not be spare",
       "would not spare"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the first conditional expresses a likely future result.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q17",
@@ -110725,18 +110641,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "have been teaching",
       "taught"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: for six months takes the present perfect continuous.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q18",
@@ -110754,18 +110668,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "dies",
       "is dying"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the earlier past event takes the past perfect.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q19",
@@ -110783,18 +110695,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "whistling",
       "whistles"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the present progressive describes what is happening now.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q20",
@@ -110812,18 +110722,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "has been moving",
       "moved"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the past progressive describes an action in progress.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 11-20) Fill in the blanks with the correct form of the verbs from those given in"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q21",
@@ -110841,18 +110749,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "many",
       "few"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: any is used in a negative sentence.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 21-25). Choose the correct determiners to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q22",
@@ -110870,18 +110776,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "the little",
       "few"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: sugar is uncountable and takes a little.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 21-25). Choose the correct determiners to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q23",
@@ -110899,18 +110803,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "a",
       "no error"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: useful begins with a consonant /y/ sound.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 21-25). Choose the correct determiners to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q24",
@@ -110928,18 +110830,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "an",
       "no error"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the specific pen takes the definite article.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 21-25). Choose the correct determiners to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q25",
@@ -110957,18 +110857,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "a",
       "no error"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: easy begins with a vowel sound.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 21-25). Choose the correct determiners to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q26",
@@ -110986,18 +110884,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "with",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the idiom is dispose of.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (26 -30) choose the correct prepositions to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q27",
@@ -111015,18 +110911,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "if",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: on such a day is the correct preposition.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (26 -30) choose the correct prepositions to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q28",
@@ -111044,18 +110938,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "if",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: arrive at the station is the standard collocation.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (26 -30) choose the correct prepositions to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q29",
@@ -111073,18 +110965,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "against",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: lean against is the correct preposition.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (26 -30) choose the correct prepositions to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q30",
@@ -111102,18 +110992,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "on",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: take after means resemble.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (26 -30) choose the correct prepositions to complete the sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q31",
@@ -111131,18 +111019,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "differ",
       "difference"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: think differently is the meaning.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (31-35) Fill in the blanks choosing the correct adjectives and adverbs to complete the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q32",
@@ -111160,18 +111046,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "anybody",
       "more"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: hardly is negative and pairs with anybody.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (31-35) Fill in the blanks choosing the correct adjectives and adverbs to complete the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q33",
@@ -111189,18 +111073,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "skill",
       "skillful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: skilful is an adjective.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (31-35) Fill in the blanks choosing the correct adjectives and adverbs to complete the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q34",
@@ -111218,18 +111100,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "worsen",
       "worsed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the comparison requires the comparative form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (31-35) Fill in the blanks choosing the correct adjectives and adverbs to complete the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q35",
@@ -111247,18 +111127,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "bitten",
       "bitterly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: bitterly modifies cold.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (31-35) Fill in the blanks choosing the correct adjectives and adverbs to complete the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q36",
@@ -111276,18 +111154,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Present Indefinite Tense",
       "Future Indefinite Tense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: present continuous is used for a current action.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 36-40) Name the tense of the verb of the following."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q37",
@@ -111305,18 +111181,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Present Continuous Tense",
       "Present Perfect Continuous Tense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the simple present expresses a general truth.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 36-40) Name the tense of the verb of the following."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q38",
@@ -111334,18 +111208,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Present Perfect Tense",
       "Present Perfect Continuous Tense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the present perfect is the required form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 36-40) Name the tense of the verb of the following."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q39",
@@ -111363,18 +111235,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Future Perfect Continuous Tense",
       "Future Continuous Tense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the simple future is the required form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 36-40) Name the tense of the verb of the following."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q40",
@@ -111392,18 +111262,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Future Perfect Tense",
       "Future Continuous Tense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the future perfect shows completion by a future point.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 36-40) Name the tense of the verb of the following."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q41",
@@ -111421,18 +111289,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The sky cleared when the sun rises",
       "The sun rose in the clear sky"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the two independent clauses make a compound sentence.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q42",
@@ -111450,18 +111316,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He not only murdered but robbed him",
       "Not only he murdered but robbed him."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: not only…but also is the correlative pair.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q43",
@@ -111479,18 +111343,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The teacher is saying",
       "The teacher should be listened"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the noun clause functions as an object.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q44",
@@ -111508,18 +111370,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "We cannot live without food.",
       "We cannot eat or live"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the infinitive expresses purpose.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q45",
@@ -111537,18 +111397,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Having finished his exercise, he put away his books.",
       "He put away his books after he finish his exercise"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the perfect participle shows earlier completion.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q46",
@@ -111567,7 +111425,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Your help is requested"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No option gives a valid complex-sentence equivalent of “I request your help.”",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
@@ -111576,8 +111434,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceReviewed": true,
+    "sourceNote": "No option gives a valid complex-sentence equivalent of “I request your help.”"
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q47",
@@ -111595,18 +111453,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Speaking the truth can prevent killing",
       "I will kill you, if you do not speak the truth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: if introduces a conditional clause.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q48",
@@ -111624,18 +111480,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Her son is missing when she arrived at home.",
       "Her son is missing when she is arriving at home."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the sentence coordinates independent clauses.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q49",
@@ -111653,18 +111507,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He was falling down climbing the stairs.",
       "He fell down the stairs while climbing."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the participial phrase makes the sentence simple.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q50",
@@ -111682,18 +111534,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The boy was disobedient and so the teacher punished him.",
       "The boy was disobedient the teacher punished him."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the clauses are coordinated.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41-50) Convert the given sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q51",
@@ -111711,18 +111561,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He is not small to go alone.",
       "He is too small not to go alone."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: too…to is the intended transformation.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 51-55) Find out which is the correct transformed sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q52",
@@ -111740,18 +111588,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "His father is so wise as the son.",
       "His father is not so wise as the son."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: the negative comparative is equivalent.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 51-55) Find out which is the correct transformed sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q53",
@@ -111770,7 +111616,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Nobody is absent."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The offered option changes the past tense of the source sentence; no option preserves an exact equivalent.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
@@ -111779,8 +111625,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 51-55) Find out which is the correct transformed sentence."
+    "sourceReviewed": true,
+    "sourceNote": "The offered option changes the past tense of the source sentence; no option preserves an exact equivalent."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q54",
@@ -111798,18 +111644,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The meal is delicious.",
       "The meal is not delicious one"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the sentence is the assertive equivalent.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 51-55) Find out which is the correct transformed sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q55",
@@ -111827,18 +111671,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He ran as fast as he may.",
       "He ran as fast as he might."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: could is the correct past form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 51-55) Find out which is the correct transformed sentence."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q56",
@@ -111856,18 +111698,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "His attempt was success.",
       "His attempts was succeeded."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: successful is the adjective form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 56-60) Transform the following sentences without changing the meaning by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q57",
@@ -111886,7 +111726,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Take your examination with confidence."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No option preserves the original modal “shall”; the intended nominalization changes meaning or form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=6",
@@ -111895,8 +111735,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 56-60) Transform the following sentences without changing the meaning by"
+    "sourceReviewed": true,
+    "sourceNote": "No option preserves the original modal “shall”; the intended nominalization changes meaning or form."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q58",
@@ -111915,7 +111755,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Be respectfully to parents and teachers"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Two options are valid equivalent polite requests.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
@@ -111924,8 +111764,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 56-60) Transform the following sentences without changing the meaning by"
+    "sourceReviewed": true,
+    "sourceNote": "Two options are valid equivalent polite requests."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q59",
@@ -111943,18 +111783,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He accepted all the proposed",
       "He accept all that we proposed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: proposed is used as a verb.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 56-60) Transform the following sentences without changing the meaning by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q60",
@@ -111972,18 +111810,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "I have no intentioning to spend my vacation here.",
       "I have no intention to spend my vacation here."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: intention is the requested meaning.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 56-60) Transform the following sentences without changing the meaning by"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q61",
@@ -112001,18 +111837,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The razor was not sharpen.",
       "The razor isn’t sharpen."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: not sharp is an equivalent negative form.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 61-65) Transform the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q62",
@@ -112030,18 +111864,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He is brave.",
       "He is courage."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the phrase is an affirmative equivalent.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 61-65) Transform the following sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q63",
@@ -112060,7 +111892,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "What a sweet song!"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Two options form valid exclamatory equivalents.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
@@ -112069,8 +111901,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 61-65) Transform the following sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "Two options form valid exclamatory equivalents."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q64",
@@ -112089,7 +111921,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "It is very cold today."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Two options are valid assertive equivalents.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
@@ -112098,8 +111930,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 61-65) Transform the following sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "Two options are valid assertive equivalents."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q65",
@@ -112118,7 +111950,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Are not horses faithful animals?"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Multiple interrogative forms work rhetorically, including the negative question.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
@@ -112127,8 +111959,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 61-65) Transform the following sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "Multiple interrogative forms work rhetorically, including the negative question."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q66",
@@ -112147,7 +111979,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "She acted according to my advice."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The instruction asks for an infinitive construction, but none of the options contains an infinitive.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
@@ -112156,8 +111988,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 66-70) Synthesise the sentences as directed in the brackets."
+    "sourceReviewed": true,
+    "sourceNote": "The instruction asks for an infinitive construction, but none of the options contains an infinitive."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q67",
@@ -112175,18 +112007,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He neither smokes nor drinks",
       "Neither he smokes or drinks."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: neither…nor is the correct pair.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 66-70) Synthesise the sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q68",
@@ -112205,7 +112035,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The man I know is a doctor."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both A and D contain valid adjective/relative clauses and preserve the meaning.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=7",
@@ -112214,8 +112044,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 66-70) Synthesise the sentences as directed in the brackets."
+    "sourceReviewed": true,
+    "sourceNote": "Both A and D contain valid adjective/relative clauses and preserve the meaning."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q69",
@@ -112233,18 +112063,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "The students disobeyed the teacher because he was annoyed.",
       "The students disobeyed because the teacher was annoyed."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the clause expresses cause.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 66-70) Synthesise the sentences as directed in the brackets."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q70",
@@ -112263,7 +112091,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "He was caught in the rain while he was going to school."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both clause orders are grammatical and preserve the meaning.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
@@ -112272,8 +112100,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 66-70) Synthesise the sentences as directed in the brackets."
+    "sourceReviewed": true,
+    "sourceNote": "Both clause orders are grammatical and preserve the meaning."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q71",
@@ -112291,18 +112119,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Sincere",
       "Unconventional"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: candid contrasts with guarded.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71-75) Each of the following sentence is followed by four words. Select the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q72",
@@ -112320,18 +112146,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Beautiful",
       "Slippery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: slimy contrasts with clean.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71-75) Each of the following sentence is followed by four words. Select the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q73",
@@ -112349,18 +112173,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Clear",
       "Useful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: fuzzy contrasts with clear.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71-75) Each of the following sentence is followed by four words. Select the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q74",
@@ -112378,18 +112200,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Decreased",
       "Augmented"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: enhanced contrasts with decreased.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71-75) Each of the following sentence is followed by four words. Select the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q75",
@@ -112407,18 +112227,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Painful",
       "Harsh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: coarse contrasts with delicate.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71-75) Each of the following sentence is followed by four words. Select the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q76",
@@ -112436,18 +112254,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Improve",
       "Spoil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: block means obstruct.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76-80) Each of the following sentence is followed by four words or group of"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q77",
@@ -112465,18 +112281,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Timid",
       "Fanatic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: zealot means fanatic.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76-80) Each of the following sentence is followed by four words or group of"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q78",
@@ -112494,18 +112308,43 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Dull",
       "Lean"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: insipid means dull.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76-80) Each of the following sentence is followed by four words or group of"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-feo-2017-english-p2-Q79",
+    "paperId": "mpsc-group-b-feo-2017-english-p2",
+    "questionNumber": "79",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "He was a CHARISMATIC leader. Choose the synonym of the underlined word.",
+    "options": [
+      "Exceptionally fascinating",
+      "Particularly popular",
+      "Compulsively pleasant",
+      "Strangely haunting"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: charismatic means exceptionally fascinating.",
+    "source": "Fishery Extension Officer under Fisheries Department · December 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q80",
@@ -112524,14 +112363,14 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Genuine"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "All four options are near-synonyms of authentic; the item has no unique answer.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 76-80) Each of the following sentence is followed by four words or group of"
+    "sourceReviewed": true,
+    "sourceNote": "All four options are near-synonyms of authentic; the item has no unique answer."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q81",
@@ -112549,18 +112388,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "To die fighting.",
       "To meet one’s final defeat."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: meet one’s Waterloo means suffer a final defeat.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q82",
@@ -112578,18 +112415,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Coward",
       "Between two opinions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: sitting on the fence means remain undecided.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q83",
@@ -112607,18 +112442,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "To continue doing anything.",
       "To stay away from something."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the intended idiom means defy or challenge.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q84",
@@ -112636,18 +112469,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "To waste time.",
       "To manage the business of the household."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: manage the household is the meaning.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q85",
@@ -112665,18 +112496,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "comedy",
       "very intelligent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: at wit’s end means confused or perplexed.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q86",
@@ -112694,18 +112523,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "to understand the hidden meaning of the word",
       "to wash dirty clothes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: air dirty laundry means quarrel publicly.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q87",
@@ -112723,18 +112550,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Very ferocious enemy",
       "Unrecognisable danger"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: a snake in the grass is a hidden enemy.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q88",
@@ -112752,18 +112577,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Beyond the reach",
       "Irrelevant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: beside the point means irrelevant.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q89",
@@ -112781,18 +112604,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "In a dilemma",
       "A man who is drowning"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: dilemma means difficult choice.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q90",
@@ -112810,18 +112631,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "To dance and sing",
       "To be good at sport"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: happy and carefree is the meaning.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 81-90) In the following questions, out of the given alternatives, choose the one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q91",
@@ -112839,18 +112658,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Misogymist",
       "Polygamist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a misogamist hates marriage.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q92",
@@ -112868,18 +112685,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Configuration",
       "Confrontation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: a congregation is an assembly of worshippers.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q93",
@@ -112897,18 +112712,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "A religious war.",
       "An act of speaking against religion."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: blasphemy is speech against religion.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q94",
@@ -112926,18 +112739,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "One who knows all.",
       "One who hears everything."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: omnipotent means all-powerful.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q95",
@@ -112955,18 +112766,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "A place for birds.",
       "A place for luggage at a railway station."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: a slaughterhouse is where animals are slaughtered.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q96",
@@ -112984,18 +112793,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Stencilling",
       "Graphics"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: calligraphy is decorative handwriting.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q97",
@@ -113013,18 +112820,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Null",
       "Annul"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: annul means cancel or nullify.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q98",
@@ -113042,18 +112847,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Insomnia",
       "Forgetting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: amnesia is loss of memory.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q99",
@@ -113071,18 +112874,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "a remedy for all ills",
       "something spiritual"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: potable means fit to drink.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2-Q100",
@@ -113100,18 +112901,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "one who hates mankind",
       "a lover of mankind"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: a misanthrope hates mankind.",
     "source": "Fishery Extension Officer under Fisheries Department · December 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/feo-2017-english-p2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91-100) Out of the four alternatives, choose the one which can be substituted"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p1-Q4",
@@ -113179,15 +112978,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: quickly modifies the verb dressed.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q2",
@@ -113205,15 +113005,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: have is a verb.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q3",
@@ -113231,15 +113032,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: decided is a verb.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q4",
@@ -113257,15 +113059,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: environment is a noun.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q5",
@@ -113283,15 +113086,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the is an article.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q6",
@@ -113309,15 +113113,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Preposition",
       "Pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the source uses “to” as the available infinitive marker category.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q7",
@@ -113335,15 +113140,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: although introduces a subordinate clause.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q8",
@@ -113361,15 +113167,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: master is a verb.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 1 – 8): Identify the parts of speech of the underlined words:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q9",
@@ -113387,18 +113194,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Always",
       "Should"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: rarely means hardly ever.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 9 – 13): Choose the correct response from the options given:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q10",
@@ -113416,18 +113221,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "rather far",
       "Close by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: quite far means rather far.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 9 – 13): Choose the correct response from the options given:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q11",
@@ -113445,18 +113248,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "It was extremely hot.",
       "It was quite hot."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: terribly means extremely.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 9 – 13): Choose the correct response from the options given:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q12",
@@ -113475,7 +113276,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Leave immediately."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The two options describing departure versus staying do not accurately match the printed situation; the nearest choice is not exact.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
@@ -113484,8 +113285,8 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 9 – 13): Choose the correct response from the options given:"
+    "sourceReviewed": true,
+    "sourceNote": "The two options describing departure versus staying do not accurately match the printed situation; the nearest choice is not exact."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q13",
@@ -113503,18 +113304,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "It is a complete lie",
       "it is not a total lie"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: further from the truth means a complete falsehood.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Question 9 – 13): Choose the correct response from the options given:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q14",
@@ -113532,15 +113331,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: might expresses possibility.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q15",
@@ -113558,15 +113358,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "Suggestion"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: should gives advice.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q16",
@@ -113584,15 +113385,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Order",
       "Condition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the wording expresses prohibition.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q17",
@@ -113610,15 +113412,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Condition",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: if introduces the condition.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q18",
@@ -113636,15 +113439,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the sentence expresses a wish.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q19",
@@ -113662,15 +113466,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the wording is a polite request.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q20",
@@ -113688,15 +113493,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "Offer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: giving the gift is an offer.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q21",
@@ -113714,15 +113520,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: every morning describes a habit.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q22",
@@ -113740,15 +113547,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "Obligation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: bound expresses obligation.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q23",
@@ -113766,15 +113574,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Possibility",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: the imperative is advice, not request, purpose, or possibility.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 14 – 23): Identify the notion/concept expressed by eachof the following sentences"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q24",
@@ -113792,18 +113601,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "knows",
       "has been known"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: is known to be is the passive construction.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q25",
@@ -113821,18 +113628,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "has demanded",
       "have demanded"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: has demanded is the correct present-perfect form.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q26",
@@ -113850,18 +113655,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "on",
       "over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: on is the correct preposition with shelf.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q27",
@@ -113879,18 +113682,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "of",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: key to is the standard collocation.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q28",
@@ -113908,18 +113709,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "would have",
       "none of the these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: would have rammed completes the unreal past condition.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q29",
@@ -113937,18 +113736,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "could scored",
       "was scored"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: had scored forms the third conditional.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q30",
@@ -113966,18 +113763,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "have has been",
       "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: could have been is the correct unreal past passive.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 24 – 30): Fill in the blanks with the correct words/phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q31",
@@ -113995,15 +113790,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "with",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: put up with means tolerate.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q32",
@@ -114021,15 +113817,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "upon",
       "about"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: against is the correct preposition.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q33",
@@ -114047,15 +113844,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "upon",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: in an environment is the idiomatic phrase.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q34",
@@ -114073,15 +113871,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "on",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: concentrate on is the standard collocation.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q35",
@@ -114099,15 +113898,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "upon",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: basis of is the standard phrase.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q36",
@@ -114125,15 +113925,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "from",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: for a long time is the duration phrase.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q37",
@@ -114151,15 +113952,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "since",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: since Friday marks the starting point.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q38",
@@ -114177,15 +113979,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "on",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: call by different names is the idiom.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q39",
@@ -114203,15 +114006,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "over",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: jacket over shirt is the intended order.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q40",
@@ -114229,15 +114033,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "for",
       "with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: swim across is the correct direction.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31 – 40): Fill in the blanks with appropriate prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q41",
@@ -114255,15 +114060,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "break into",
       "walk into"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: break into is the phrasal verb.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q42",
@@ -114281,15 +114087,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "asked across",
       "asked around"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: ask around means inquire among people.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q43",
@@ -114307,15 +114114,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "keep up",
       "keep from"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: keep up with means stay at the same pace.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q44",
@@ -114333,15 +114141,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "bring in",
       "bring about"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: bring about means cause.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q45",
@@ -114359,15 +114168,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "come towards",
       "comes forward"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the mandative subjunctive uses come.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q46",
@@ -114385,15 +114195,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "given away",
       "none of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: give away means donate or disclose.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q47",
@@ -114411,15 +114222,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "handed down",
       "handed in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: handed down means passed to later generations.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q48",
@@ -114437,15 +114249,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "put up into",
       "put up with"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: put up with means tolerate.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q49",
@@ -114463,15 +114276,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "taken aback",
       "take aback"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: taken aback means surprised.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q50",
@@ -114489,15 +114303,276 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "run into",
       "run from"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: run through means rehearse.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 41 – 50): Fill in the blanks with phrasal verbs:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q51",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "51",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Thanmawii forgot her book on the bus; therefore, she couldn’t finish her homework.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 2,
+    "explanation": "Option C is best: the two independent clauses form a compound sentence.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q52",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "52",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Lianzela left for his home town this morning.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: there is one independent clause.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q53",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "53",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Weeds are easy to grow and hard to kill.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: one subject has coordinated infinitive complements.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q54",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "54",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "My dad owns a beautifully restored car and a bike too.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: one clause has a compound object.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q55",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "55",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Sangliani was late; however, the class had not started.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 2,
+    "explanation": "Option C is best: however joins two independent clauses.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q56",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "56",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Intelligent persons are respected.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: there is one independent clause.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q57",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "57",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Nathan fell out of the bed, and mom ran to check on him.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 2,
+    "explanation": "Option C is best: and coordinates two independent clauses.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q58",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "58",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "If you want to speak to Sita, then learn Hindi.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 1,
+    "explanation": "Option B is best: if introduces a subordinate condition.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q59",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "59",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "The kangaroo jumped and landed in the playfield.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: one subject has a compound predicate.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q60",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "60",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "The pancake smells delicious.",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: there is one independent clause.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q61",
@@ -114515,15 +114590,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: the indirect question functions as a noun clause.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q62",
@@ -114541,15 +114617,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the relative clause modifies man.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q63",
@@ -114567,15 +114644,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the clause expresses purpose.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q64",
@@ -114593,15 +114671,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: whoever-clause is the object of the preposition.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q65",
@@ -114619,15 +114698,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: the relative clause modifies caterpillar.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q66",
@@ -114645,15 +114725,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: while introduces a time clause.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q67",
@@ -114671,15 +114752,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: wherever introduces a place clause.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q68",
@@ -114697,15 +114779,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: but coordinates independent clauses.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q69",
@@ -114723,15 +114806,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the clause gives a reason.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q70",
@@ -114749,15 +114833,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "adjective clause",
       "co-ordinate clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the clause gives a reason.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 61 – 70): Pick the correct clause of the words underlines in the given sentences:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q71",
@@ -114775,15 +114860,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: candid is the opposite of guarded.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q72",
@@ -114801,15 +114887,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: slimy contrasts with clean.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q73",
@@ -114827,15 +114914,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: fuzzy contrasts with clear.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q74",
@@ -114853,15 +114941,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: enhanced contrasts with decreased.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q75",
@@ -114879,15 +114968,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: coarse contrasts with delicate.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q76",
@@ -114905,15 +114995,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: block means obstruct.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q77",
@@ -114931,15 +115022,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: zealot means fanatic.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q78",
@@ -114957,15 +115049,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: insipid means dull.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q79",
@@ -114983,15 +115076,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: charismatic means exceptionally fascinating.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q80",
@@ -115009,15 +115103,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: it matches the requested meaning or grammatical form.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 71 – 80): Analyze the following sentences and pick out the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q81",
@@ -115035,15 +115130,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "repugnant",
       "coherent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: meet one’s Waterloo means suffer a final defeat.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q82",
@@ -115061,15 +115157,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "colluding",
       "commuting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: sitting on the fence means remain undecided.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q83",
@@ -115087,15 +115184,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "embossed",
       "impair"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: the intended idiom means challenge or defy.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "medium",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q84",
@@ -115113,15 +115211,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "dismembered",
       "disrupted"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: manage the household is the meaning.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q85",
@@ -115139,15 +115238,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "rice",
       "raised"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: at one’s wit’s end means confused or perplexed.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q86",
@@ -115165,15 +115265,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "compliment",
       "consequence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: air dirty laundry means expose a quarrel publicly.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q87",
@@ -115191,15 +115292,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "versatile",
       "voracious"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: a hidden enemy is a snake in the grass.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q88",
@@ -115217,15 +115319,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "exterminating",
       "exhilarating"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: irrelevant or off-topic is beside the point.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q89",
@@ -115243,15 +115346,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "revarnish",
       "regarnish"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: a dilemma is a difficult choice.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q90",
@@ -115269,15 +115373,42 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "genetic",
       "heretic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: happy and carefree is the meaning.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 81 – 90): Choose the most suitable alternative to make the sentence meaningful:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+  },
+  {
+    "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q91",
+    "paperId": "mpsc-group-b-mhs-grade-v-2017-english-p2",
+    "questionNumber": "91",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "general",
+    "topicLabel": "General English Paper-II",
+    "difficulty": "medium",
+    "question": "Conspicuously or grossly unconventional or unusual.",
+    "options": [
+      "eccentric",
+      "enigmatic",
+      "fanatic"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option A is best: a misogamist hates marriage.",
+    "source": "Grade-V of Mizoram Horticulture Service · November 2017",
+    "year": 2017,
+    "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q92",
@@ -115295,15 +115426,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "Assassin",
       "hired gun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a congregation is an assembly of worshippers.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q93",
@@ -115321,15 +115453,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "reticent",
       "competent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: blasphemy is speech against religion.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q94",
@@ -115347,15 +115480,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "reactionaries",
       "contemporaries"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: omnipotent means all-powerful.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q95",
@@ -115373,15 +115507,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "stationary",
       "equilibrium"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D is best: a slaughterhouse is a place where animals are slaughtered.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q96",
@@ -115399,15 +115534,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "tenacious",
       "precarious"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: calligraphy is decorative handwriting.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q97",
@@ -115425,15 +115561,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "anxious",
       "devious"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: annul means cancel or nullify.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q98",
@@ -115451,15 +115588,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "naïve",
       "prodigy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Option C is best: amnesia is loss of memory.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q99",
@@ -115477,18 +115615,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "theist",
       "ascetic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A is best: potable means fit to drink.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2-Q100",
@@ -115506,15 +115642,16 @@ const groupBQuestionsPart14: BankQuestion[] = [
       "antonym",
       "homophone"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B is best: a misanthrope hates mankind.",
     "source": "Grade-V of Mizoram Horticulture Service · November 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 91 – 100): Choose the correct alternative which is closest in meaning to the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-labtech-hfw-2017-english-Q2",
@@ -117971,7 +118108,9 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart15: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-2014-gk-Q21",
     "paperId": "mpsc-group-b-ada-2014-gk",
@@ -118298,9 +118437,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart15: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q33",
     "paperId": "mpsc-group-b-ada-2014-gk",
@@ -126320,7 +126457,9 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart16: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q20",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -126644,9 +126783,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart16: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q32",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -135133,7 +135270,9 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart17: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q62",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -135507,9 +135646,7 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart17: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q74",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -144003,7 +144140,9 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart18: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p2-B22",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
@@ -144387,9 +144526,7 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart18: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p2-B34",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
@@ -152753,7 +152890,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adtp-2026-gs-Q22",
     "paperId": "mpsc-group-b-adtp-2026-gs",
@@ -153126,9 +153265,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-gs-Q34",
     "paperId": "mpsc-group-b-adtp-2026-gs",
@@ -161995,7 +162132,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adtp-2026-tech3-Q22",
     "paperId": "mpsc-group-b-adtp-2026-tech3",
@@ -162369,9 +162508,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-tech3-Q34",
     "paperId": "mpsc-group-b-adtp-2026-tech3",
@@ -171153,7 +171290,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q69",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -171527,9 +171666,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q81",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -179963,7 +180100,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q72",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -180287,9 +180426,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q84",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -189452,7 +189589,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q76",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -189838,9 +189977,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q88",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -198230,7 +198367,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p2-A20",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
@@ -198617,9 +198756,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p2-A32",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
@@ -206880,7 +207017,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p1-A31",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
@@ -207267,9 +207406,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p1-A44",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
@@ -215711,7 +215848,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q59",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -216075,9 +216214,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q71",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -223973,7 +224110,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q33",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -224297,9 +224436,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q45",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -231990,7 +232127,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q65",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -232314,9 +232453,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q77",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -241148,7 +241285,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q37",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -241520,9 +241659,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "The reviewers could not confirm any listed option as the Zawlbuk sleeping portion; Awkpaka appears in sources for another area."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q49",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -249958,7 +250095,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=8"
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-written-17",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -250287,9 +250426,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives C. Verify the printed item."
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-acm-2026-tech-p3-A9",
     "paperId": "mpsc-group-b-acm-2026-tech-p3",
@@ -258918,7 +259055,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cao-2026-gs2-Q19",
     "paperId": "mpsc-group-b-cao-2026-gs2",
@@ -259291,9 +259430,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cao-2026-gs2-Q31",
     "paperId": "mpsc-group-b-cao-2026-gs2",
@@ -267933,7 +268070,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A19",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
@@ -268317,9 +268456,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A31",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
@@ -276746,7 +276883,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for the following 3 (three) passages :Read the given passages carefully and answer the"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B27",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -277091,9 +277230,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 38 -42) Put in the correct form of the verbs from the alternatives given:"
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-B39",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -285109,7 +285246,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1 – 10): Name the Part of Speech of the underlined words in the following"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q3",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -285421,9 +285560,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 11 – 20): Fill in the blanks with the correct form of the verbs from those given"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5-Q15",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -293043,7 +293180,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 45 – 48): Identify the appropriate verb-form to fill in the blanks:"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B48",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -293371,9 +293510,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 59 – 64): Identify the correct notion expressed by each of the following"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B60",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -301136,7 +301273,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "source": "Tourist Officer-2012 · 2012",
     "year": 2012,
     "sourceHref": "/papers/group-b/archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f-written-5",
     "paperId": "mpsc-group-b-archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f",
@@ -301408,9 +301547,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "source": "MCS Combined ( Main ) - 2017 · 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683.pdf#page=2"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683-written-5",
     "paperId": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683",
@@ -308904,7 +309041,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 49 – 53 ) : Analyse the given sentences and choose the correct option:"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B51",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -309213,9 +309352,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 59 -64 ) : Analyse the given sentences and choose the correct options :"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B63",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -316862,7 +316999,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No.  41 to 50): Convert the following sentences as directed:"
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q47",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -317210,9 +317349,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions No. 51 to 60): Transform the following sentences as directed without losing"
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q59",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -325355,7 +325492,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question No. 21 - 30): Choose the appropriate adverbs or adjectives to complete the"
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q31",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -325697,9 +325836,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question No. 41 -50) : Analyse the following sentences by finding out the clause mentioned"
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q43",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -333544,7 +333681,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9-B64",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
@@ -333868,9 +334007,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-Q7",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -341947,7 +342084,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "source": "MCS ( Main ) - 2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-mcs-main-2024-mcs-main-general-english-2024-8e9e1be2.pdf#page=4"
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650-written-1",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650",
@@ -342211,9 +342350,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. I - 10) : Choose the correct Parts of Speech for the underlined words"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q9",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -349931,7 +350068,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q86",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -350292,9 +350431,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 1 - 10) : Choose the correct Parts of Speech for each of the words written in"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B3",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -357727,7 +357864,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 31 - 40) : Fill in the blanks with the appropriate conjunction or preposition."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q37",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -358042,9 +358181,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q49",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -365424,7 +365561,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 45- 48): Choose the synonym of the following:"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B47",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -365736,9 +365875,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 57 - 66): Choose the correct form of the verb that agrees with the subject of"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B59",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -373272,7 +373409,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-27",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -373488,9 +373627,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "source": "Librarian July-2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf#page=4"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630-conventional-39",
     "paperId": "mpsc-group-b-archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -381883,7 +382020,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "paperExamExcluded": true,
     "direction": "Directions (Question Nos. 6 - 10) : Rewrite the sentences by substituting the underlined word(s) with"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B10",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -382251,9 +382390,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/instructor-iti-2026-paper-i-general-english-final-key.pdf",
     "paperExamExcluded": true,
     "direction": "Directions (Question No. 21 - 25) : Convert the following sentences as directed, while retaining the"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890-B22",
     "paperId": "mpsc-group-b-archive-lang-2026-instructor-iti-april-2026-paper-i-general-english-192ed890",
@@ -391422,7 +391559,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "source": "Cooperative Audit Officer - March, 2026 · 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-written-3",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -391770,9 +391909,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17-Q12",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-director-town-planning-under-ud-pa-deptt-2026-assistant-direct-fb729a17",
@@ -400536,7 +400673,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 11 - 15)Choose the correct meaning of the following idioms and phrases:"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B14",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -400884,9 +401023,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question Nos. 21 - 25) : For each of the following sentence four alternatives are given."
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5-B26",
     "paperId": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -408501,7 +408638,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B37",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B38",
     "questionNumber": "B38",
@@ -408826,9 +408965,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B49",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B50",
     "questionNumber": "B50",
@@ -416345,7 +416482,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B13",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ri-2026-p1-B14",
     "questionNumber": "B14",
@@ -416669,9 +416808,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Research Investigator · May 2026 · B25",
     "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ri-2026-p1-B26",
     "questionNumber": "B26",
@@ -424361,7 +424498,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 60 - 64) Synthesise the given sentence as directed in the brackets."
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B65",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -424678,9 +424817,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Questions No. 76 - 80) : Select the word which is opposite in meaning to the underlined"
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B77",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -432747,7 +432884,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 1 - 16) : From the four alternatives given, choose the correct meaning of"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B3",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -433104,9 +433243,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 1 - 16) : From the four alternatives given, choose the correct meaning of"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-fcs-2018-english-B15",
     "paperId": "mpsc-group-b-si-fcs-2018-english",
@@ -440950,7 +441087,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 1-10): Identify the parts of speech of the underlined words:"
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B9",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -441262,9 +441401,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 11-20): Identify and choose the correct notion/concept expressed by each of the"
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B21",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -448833,7 +448970,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A70",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -449159,9 +449298,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B82",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -457164,7 +457301,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach3-2019-english-B51",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -457497,9 +457636,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions for Questions 49 - 64 : Analyze the following sentences and state its kind."
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach3-2019-english-B63",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -465609,7 +465746,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q27",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -465942,9 +466081,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q39",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -473593,7 +473730,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q24",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -473896,9 +474035,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q36",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -481709,7 +481846,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 11 - 15) : Choose the appropriate preposition from the alternatives given under"
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q14",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -482054,9 +482193,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 21 - 30) : Fill in the blanks with appropriate forms of Verbs from the four"
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q26",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -489696,7 +489833,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q14",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -490032,9 +490171,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q26",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -497836,7 +497973,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q8",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -498172,9 +498311,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q20",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -505917,7 +506054,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-iof-2019-gs-Q93",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -506213,9 +506352,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "source": "Inspector under Excise & Narcotics Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-excise-2019-english-p1.pdf#page=1"
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p1-written-5",
     "paperId": "mpsc-group-b-inspector-excise-2019-english-p1",
@@ -514071,7 +514208,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q74",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -514404,9 +514543,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q86",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -522072,7 +522209,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 81-90): Give one word for the following expressions/sentences."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q82",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -522408,9 +522547,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 91-100): Fill in the blanks with the correct option."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q94",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -530397,7 +530534,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q19",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -530724,9 +530863,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs2-Q31",
     "paperId": "mpsc-group-b-jics-2019-gs2",
@@ -538612,7 +538749,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 16) : Choose the correct alternatives for the following idioms and"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B2",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -538960,9 +539099,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 1 - 16) : Choose the correct alternatives for the following idioms and"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-staff-nurse-2019-english-B14",
     "paperId": "mpsc-group-b-staff-nurse-2019-english",
@@ -546909,7 +547046,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q1",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -547230,9 +547369,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs2-Q13",
     "paperId": "mpsc-group-b-translator-2019-gs2",
@@ -554609,7 +554746,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B4",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -554935,9 +555074,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-agri-2019-p1-B16",
     "paperId": "mpsc-group-b-udc-agri-2019-p1",
@@ -562718,7 +562855,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A25",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -563042,9 +563181,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p2-A37",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p2",
@@ -570827,7 +570964,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B48",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -571151,9 +571290,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B60",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -578921,7 +579058,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A69",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -579244,9 +579383,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-B81",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -587027,7 +587164,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held: option (d) inaccurately says UV converts skin oil into vitamin D; vitamin D synthesis begins with 7-dehydrocholesterol in skin."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A15",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -587353,9 +587492,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held: both low melting point and high resistance are defensible fuse-wire properties; the item has more than one correct choice."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p2-A27",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p2",
@@ -595120,7 +595257,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B38",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -595444,9 +595583,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B50",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -603034,7 +603171,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q55",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -603334,9 +603473,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q67",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -611050,7 +611187,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q49",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -611377,9 +611516,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q61",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -619387,7 +619524,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q43",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -619699,9 +619838,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q55",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -627379,7 +627516,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q81",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -627702,9 +627841,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q93",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -635509,7 +635646,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions Nos. 67 - 71) : Choose the correct collocation."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q69",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -635830,9 +635969,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions Nos. 77 - 86) : Choose the correct antonyms of the following words."
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q81",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -643755,7 +643892,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q81",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -644082,9 +644221,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q93",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -651834,7 +651971,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 61 - 70) : Synthesise the following sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q62",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -652174,9 +652313,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 71 - 80) : Choose the correct meaning of the following underlined idioms and phrases."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q74",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -659961,7 +660098,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q56",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -660288,9 +660427,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q68",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -668620,7 +668757,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q65",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -668979,9 +669118,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q80",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -677635,7 +677772,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q17",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -677994,9 +678133,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q29",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025",
@@ -686646,7 +686783,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q54",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -687004,9 +687143,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q67",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -695640,7 +695777,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -695999,9 +696138,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q58",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025",
@@ -704206,7 +704343,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q70",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -704575,9 +704714,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q82",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -712987,7 +713124,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q61",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -713354,9 +713493,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q73",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -722000,7 +722137,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q88",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -722334,9 +722473,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q9",
     "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -729578,7 +729715,9 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q34",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -729878,9 +730017,7 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies-Q46",
     "paperId": "mpsc-group-b-archive2325-jrgrade-of-mes-combined-july-2024-general-studies",
@@ -738383,7 +738520,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q87",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -738764,9 +738903,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q99",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -746905,7 +747042,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=2",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q18",
     "questionNumber": "18",
@@ -747220,9 +747359,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceHref": "/papers/group-b/mimer-computer-operator-2018-p1.pdf#page=3",
     "sourceNote": "Text-layer transcription of the source paper; solution reused from the System Manager independent solve passes. No verified official key is attached. The printed cover does not state a negative-marking rule.",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mimer-computer-operator-2018-p1-q30",
     "questionNumber": "30",
@@ -751692,6 +751829,18 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-vety-mah-2021-english-p2": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-feo-2017-english-p2": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-mhs-grade-v-2017-english-p2": {
     "marksPerQuestion": 1,
     "durationMinutes": 120,
     "negativeMarking": false,

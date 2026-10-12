@@ -1190,6 +1190,16 @@ def build_additional():
             # Printed cover: 100 two-mark questions in two hours, with negative marking.
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': True, 'penaltyFraction': 1/3}
+        reviewed_archive_meta = {
+            'feo-2017-english-p2': 120,
+            'mhs-grade-v-2017-english-p2': 120,
+            'vety-mah-2021-english-p2': 180,
+        }
+        if slug in reviewed_archive_meta and repairs.get(slug, {}).get('derivedAnswers'):
+            # Source covers give the time and full marks; the papers contain
+            # one-mark objective items and do not state a negative-marking rule.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': reviewed_archive_meta[slug],
+                             'negativeMarking': False, 'penaltyFraction': 0}
         reviewed_2018_meta = {
             'programmer-phe-2018-english-p2': 120,
             'sericulture-seo-2018-english-p1': 180,

@@ -10,16 +10,16 @@
  },
  "totals": {
   "papers": 420,
-  "held_mcq": 8433,
+  "held_mcq": 8441,
   "tier1_key_scorable": 711,
   "tier2_solid_importable": 58,
-  "tier2_candidate_needs_verify": 3865,
-  "tier3_needs_derivation": 3799
+  "tier2_candidate_needs_verify": 3867,
+  "tier3_needs_derivation": 3805
  },
  "validation_upstream_vs_official": {
   "inferred": {
-   "agree": 7419,
-   "disagree": 1242
+   "agree": 7427,
+   "disagree": 1234
   },
   "key": {
    "agree": 65,
@@ -218,7 +218,7 @@
   ]
  },
  "tier2_sources": {
-  "bank_v2:inferred": 3865,
+  "bank_v2:inferred": 3867,
   "bank_v2:derived": 56,
   "bank_v2:key": 2
  },
@@ -3104,6 +3104,21 @@
    "tier2_candidate": 1
   },
   {
+   "paper_id": "mpsc-group-b-programmer-phe-2018-english-p2",
+   "exam": "Programmer under PHE Department",
+   "subject": "General English Paper-II",
+   "key_status": "none",
+   "key_file": null,
+   "held": 7,
+   "tier1": 0,
+   "tier2": 1,
+   "tier3": 6,
+   "tier2_bank": 1,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 1
+  },
+  {
    "paper_id": "mpsc-group-b-inspector-excise-2019-english-p2",
    "exam": "Inspector under Excise & Narcotics Department",
    "subject": "General English Paper-II",
@@ -3136,6 +3151,21 @@
   {
    "paper_id": "mpsc-group-b-si-police-ub-2018-gk",
    "exam": "Sub Inspector (UB) under Home Department",
+   "subject": "General Knowledge",
+   "key_status": "none",
+   "key_file": null,
+   "held": 4,
+   "tier1": 0,
+   "tier2": 1,
+   "tier3": 3,
+   "tier2_bank": 1,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 1
+  },
+  {
+   "paper_id": "mpsc-group-b-station-officer-2018-gk",
+   "exam": "Station Officer, Fire & Emergency Services under Home Department",
    "subject": "General Knowledge",
    "key_status": "none",
    "key_file": null,
@@ -3254,6 +3284,21 @@
    "tier2_candidate": 1
   },
   {
+   "paper_id": "mpsc-group-b-mes-power-2018-gs",
+   "exam": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department",
+   "subject": "General Studies",
+   "key_status": "none",
+   "key_file": null,
+   "held": 2,
+   "tier1": 0,
+   "tier2": 1,
+   "tier3": 1,
+   "tier2_bank": 1,
+   "tier2_solved": 0,
+   "tier2_solid": 0,
+   "tier2_candidate": 1
+  },
+  {
    "paper_id": "mpsc-group-b-inspector-excise-2019-gs2",
    "exam": "Inspector under Excise & Narcotics Department",
    "subject": "General Studies Paper-II",
@@ -3287,21 +3332,6 @@
    "paper_id": "mpsc-group-b-je-agri-2026-p1",
    "exam": "Junior Engineer, Agriculture & Farmer Welfare",
    "subject": "General English",
-   "key_status": "none",
-   "key_file": null,
-   "held": 1,
-   "tier1": 0,
-   "tier2": 1,
-   "tier3": 0,
-   "tier2_bank": 1,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 1
-  },
-  {
-   "paper_id": "mpsc-group-b-mes-power-2018-gs",
-   "exam": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department",
-   "subject": "General Studies",
    "key_status": "none",
    "key_file": null,
    "held": 1,
@@ -3809,15 +3839,15 @@
    "tier2_candidate": 0
   },
   {
-   "paper_id": "mpsc-group-b-sericulture-seo-2018-english-p2",
-   "exam": "Sericulture Extension Officer under Sericulture Department",
-   "subject": "General English Paper-II",
+   "paper_id": "mpsc-group-b-mes-pwd-2018-gs",
+   "exam": "Jr. Grade of Mizoram Engineering Service (MES) under PWD",
+   "subject": "General Studies",
    "key_status": "none",
    "key_file": null,
-   "held": 5,
+   "held": 6,
    "tier1": 0,
    "tier2": 0,
-   "tier3": 5,
+   "tier3": 6,
    "tier2_bank": 0,
    "tier2_solved": 0,
    "tier2_solid": 0,
@@ -3908,21 +3938,6 @@
    "tier1": 0,
    "tier2": 0,
    "tier3": 5,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
-   "paper_id": "mpsc-group-b-programmer-phe-2018-english-p2",
-   "exam": "Programmer under PHE Department",
-   "subject": "General English Paper-II",
-   "key_status": "none",
-   "key_file": null,
-   "held": 4,
-   "tier1": 0,
-   "tier2": 0,
-   "tier3": 4,
    "tier2_bank": 0,
    "tier2_solved": 0,
    "tier2_solid": 0,
@@ -4079,9 +4094,9 @@
    "tier2_candidate": 0
   },
   {
-   "paper_id": "mpsc-group-b-station-officer-2018-gk",
-   "exam": "Station Officer, Fire & Emergency Services under Home Department",
-   "subject": "General Knowledge",
+   "paper_id": "mpsc-group-b-sericulture-seo-2018-english-p2",
+   "exam": "Sericulture Extension Officer under Sericulture Department",
+   "subject": "General English Paper-II",
    "key_status": "none",
    "key_file": null,
    "held": 3,
@@ -4607,21 +4622,6 @@
    "paper_id": "mpsc-group-b-station-officer-2018-mathematics",
    "exam": "Station Officer, Fire & Emergency Services under Home Department",
    "subject": "Mathematics",
-   "key_status": "none",
-   "key_file": null,
-   "held": 1,
-   "tier1": 0,
-   "tier2": 0,
-   "tier3": 1,
-   "tier2_bank": 0,
-   "tier2_solved": 0,
-   "tier2_solid": 0,
-   "tier2_candidate": 0
-  },
-  {
-   "paper_id": "mpsc-group-b-mes-pwd-2018-gs",
-   "exam": "Jr. Grade of Mizoram Engineering Service (MES) under PWD",
-   "subject": "General Studies",
    "key_status": "none",
    "key_file": null,
    "held": 1,

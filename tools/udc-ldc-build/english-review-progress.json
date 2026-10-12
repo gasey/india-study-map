@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 3853,
+    "ready": 3852,
     "pendingMcq": 5993,
-    "heldReviewed": 136,
+    "heldReviewed": 137,
     "pendingWritten": 876
   },
   "papers": [
@@ -5424,11 +5424,11 @@
       "archiveBatch": "earlier-import",
       "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 96,
+      "ready": 93,
       "readyOfficial": 0,
       "sourceReviewedMcq": 100,
       "pendingMcq": 0,
-      "heldReviewed": 4,
+      "heldReviewed": 7,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
@@ -5437,24 +5437,39 @@
       "keyHref": null,
       "heldItems": [
         {
-          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q26",
-          "questionNumber": "26",
-          "reason": "Source-reviewed answer-key hold."
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q22",
+          "questionNumber": "22",
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
         },
         {
-          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q78",
-          "questionNumber": "78",
-          "reason": "Source-reviewed answer-key hold."
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q24",
+          "questionNumber": "24",
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q26",
+          "questionNumber": "26",
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q29",
+          "questionNumber": "29",
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q33",
+          "questionNumber": "33",
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
         },
         {
           "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q92",
           "questionNumber": "92",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
         },
         {
           "id": "mpsc-group-b-programmer-phe-2018-english-p2-Q93",
           "questionNumber": "93",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after source review; multiple offered constructions/meanings are valid or choices are not uniquely defensible."
         }
       ]
     },
@@ -5724,11 +5739,11 @@
       "archiveBatch": "earlier-import",
       "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 95,
+      "ready": 97,
       "readyOfficial": 0,
       "sourceReviewedMcq": 100,
       "pendingMcq": 0,
-      "heldReviewed": 5,
+      "heldReviewed": 3,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
@@ -5737,29 +5752,19 @@
       "keyHref": null,
       "heldItems": [
         {
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q15",
+          "questionNumber": "15",
+          "reason": "Held after source review because multiple grammatical choices are defensible."
+        },
+        {
           "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q45",
           "questionNumber": "45",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after source review because multiple grammatical choices are defensible."
         },
         {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q47",
-          "questionNumber": "47",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q49",
-          "questionNumber": "49",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q50",
-          "questionNumber": "50",
-          "reason": "Source-reviewed answer-key hold."
-        },
-        {
-          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q80",
-          "questionNumber": "80",
-          "reason": "Source-reviewed answer-key hold."
+          "id": "mpsc-group-b-sericulture-seo-2018-english-p2-Q68",
+          "questionNumber": "68",
+          "reason": "Held after source review because multiple grammatical choices are defensible."
         }
       ]
     },

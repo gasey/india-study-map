@@ -776,3 +776,12 @@ Current build: 404 papers / 26,890 records (25,869 MCQs), with 17,433 practice-r
 - Sericulture Extension Officer Paper-II: 97 worked answers, three held for multiple valid constructions. All 100 questions are present; Q58’s duplicated printed choice label is noted.
 
 Current generated bank: 404 papers / 26,890 records (25,869 MCQs); 17,432 practice-ready and 8,321 official-key-backed. Source review covers 9,310 MCQs; 8,771 remain unreviewed, 539 reviewed items are held, and 729 known MCQs remain missing from extraction.
+
+## Additional 2018 paper reviews — 12 October 2026
+
+- Station Officer General Knowledge: 96 worked answers; Q61, Q71, Q74 and Q94 held for ambiguity. Reconstructed Q95’s four physical choices after extraction merged two of them.
+- Station Officer Mathematics: reviewed all 100 items and restored fraction, exponent, chart, set-notation and Venn-diagram text. Q18 is held because the scan duplicates the mathematically equivalent correct choices; the remaining items have worked answers.
+- MES under PWD General Studies: 94 worked answers; six held for outdated/underspecified science or terminology. Restored Q2’s formulas.
+- MES under Power & Electricity General Studies: 98 worked answers; Q92 and Q94 held for overlapping choices.
+
+Current generated bank: 404 papers / 26,890 records (25,869 MCQs), 17,425 practice-ready and 8,321 official-key-backed. Source review covers 9,317 MCQs; 8,771 remain unreviewed, 546 reviewed items are held, and 729 known MCQs remain missing from extraction.

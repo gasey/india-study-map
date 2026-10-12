@@ -7,10 +7,10 @@
     "records": 26890,
     "mcq": 25869,
     "writtenRecords": 1021,
-    "ready": 17432,
+    "ready": 17425,
     "readyOfficial": 8321,
     "pendingMcq": 7898,
-    "heldReviewed": 539,
+    "heldReviewed": 546,
     "workedGuidesReviewed": 10419,
     "pendingMcqGuides": 15450,
     "keyOnlyFeedback": 6861,
@@ -67,10 +67,10 @@
       "records": 14958,
       "mcq": 14958,
       "writtenRecords": 0,
-      "ready": 12727,
+      "ready": 12720,
       "readyOfficial": 6204,
       "pendingMcq": 1838,
-      "heldReviewed": 393,
+      "heldReviewed": 400,
       "workedGuidesReviewed": 7101,
       "pendingMcqGuides": 7857,
       "keyOnlyFeedback": 5849,
@@ -14746,10 +14746,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 99,
+      "ready": 98,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 1,
+      "heldReviewed": 2,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -14760,10 +14760,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 99,
+          "ready": 98,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 1,
+          "heldReviewed": 2,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -14776,7 +14776,13 @@
           "id": "mpsc-group-b-mes-power-2018-gs-Q92",
           "questionNumber": "92",
           "section": "gk",
-          "reason": "Source-reviewed answer-key hold."
+          "reason": "Held after scan review; the available choices do not support one reliable answer."
+        },
+        {
+          "id": "mpsc-group-b-mes-power-2018-gs-Q94",
+          "questionNumber": "94",
+          "section": "gk",
+          "reason": "Held after scan review; the available choices do not support one reliable answer."
         }
       ]
     },
@@ -14833,10 +14839,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 99,
+      "ready": 94,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 1,
+      "heldReviewed": 6,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -14847,10 +14853,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 99,
+          "ready": 94,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 1,
+          "heldReviewed": 6,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -14860,10 +14866,40 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-mes-pwd-2018-gs-Q60",
-          "questionNumber": "60",
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q21",
+          "questionNumber": "21",
           "section": "gk",
-          "reason": "Answer-key review hold."
+          "reason": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q48",
+          "questionNumber": "48",
+          "section": "gk",
+          "reason": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q51",
+          "questionNumber": "51",
+          "section": "gk",
+          "reason": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q57",
+          "questionNumber": "57",
+          "section": "gk",
+          "reason": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q62",
+          "questionNumber": "62",
+          "section": "gk",
+          "reason": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
+        },
+        {
+          "id": "mpsc-group-b-mes-pwd-2018-gs-Q82",
+          "questionNumber": "82",
+          "section": "gk",
+          "reason": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
         }
       ]
     },
@@ -18407,10 +18443,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 97,
+      "ready": 96,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 3,
+      "heldReviewed": 4,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -18421,10 +18457,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 97,
+          "ready": 96,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 3,
+          "heldReviewed": 4,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -18434,22 +18470,28 @@
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-station-officer-2018-gk-Q26",
-          "questionNumber": "26",
+          "id": "mpsc-group-b-station-officer-2018-gk-Q61",
+          "questionNumber": "61",
           "section": "gk",
-          "reason": "Two options are correct."
+          "reason": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
         },
         {
           "id": "mpsc-group-b-station-officer-2018-gk-Q71",
           "questionNumber": "71",
           "section": "gk",
-          "reason": "The question does not specify a colour model."
+          "reason": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
         },
         {
-          "id": "mpsc-group-b-station-officer-2018-gk-Q78",
-          "questionNumber": "78",
+          "id": "mpsc-group-b-station-officer-2018-gk-Q74",
+          "questionNumber": "74",
           "section": "gk",
-          "reason": "No unique answer without a size criterion."
+          "reason": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
+        },
+        {
+          "id": "mpsc-group-b-station-officer-2018-gk-Q94",
+          "questionNumber": "94",
+          "section": "gk",
+          "reason": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
         }
       ]
     },
@@ -18497,7 +18539,7 @@
           "id": "mpsc-group-b-station-officer-2018-mathematics-Q18",
           "questionNumber": "18",
           "section": "arithmetic",
-          "reason": "Answer-key review hold."
+          "reason": "Held because duplicate answer values appear in the source scan."
         }
       ]
     },

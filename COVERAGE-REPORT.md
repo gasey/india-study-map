@@ -4,13 +4,13 @@ Evidence scanned: 120 official key PDFs on disk (113 registered), upstream `mpsc
 
 ## Totals
 
-- Held MCQs: **8,433**
+- Held MCQs: **8,441**
 - Tier 1 — official key available (scorable mechanically): **711**
 
   > **Tier 1 is not a safe bulk win.** The count above is a filename-similarity upper bound; validating the candidate key→paper assignments against the upstream corpus mostly *rejects* them. See `KEY-ATTRIBUTION-AUDIT.md` (`key_attribution_audit.py`) before registering any key.
 - Tier 2a — upstream answer solid, import then score: **58**
-- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **3,865**
-- Tier 3 — needs fresh derivation: **3,799**
+- Tier 2b — upstream *inferred* candidate, **must be verified** before scoring: **3,867**
+- Tier 3 — needs fresh derivation: **3,805**
 
 ## Validation — how trustworthy is the upstream corpus?
 
@@ -19,12 +19,12 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 | upstream source | n | agree | disagree | accuracy |
 |---|---|---|---|---|
 | derived | 8 | 7 | 1 | 87.5% |
-| inferred | 8661 | 7419 | 1242 | 85.7% |
+| inferred | 8661 | 7427 | 1234 | 85.8% |
 | key | 71 | 65 | 6 | 91.5% |
 
 ### Tier 2 sources
 
-- bank_v2:inferred: 3,865
+- bank_v2:inferred: 3,867
 - bank_v2:derived: 56
 - bank_v2:key: 2
 
@@ -67,7 +67,7 @@ Upstream answers joined to *your* official-keyed questions and compared by chose
 
 Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key..pdf, Final Answer key - DSWO, 2026..pdf, General Knowledge Final.pdf, Provisional Answer Key for DSWO under SW,W&CD Department..pdf
 
-## Papers with evidence (top 40 of 220)
+## Papers with evidence (top 40 of 222)
 
 | paper | subject | key | held | T1 | T2solid | T2cand | T3 |
 |---|---|---|---|---|---|---|---|
@@ -263,9 +263,11 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff | General English | none | 66 | 0 | 0 | 1 | 65 |
 | mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48 | General English | none | 60 | 0 | 0 | 1 | 59 |
 | mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495 | General English | none | 60 | 0 | 0 | 1 | 59 |
+| mpsc-group-b-programmer-phe-2018-english-p2 | General English Paper-II | none | 7 | 0 | 0 | 1 | 6 |
 | mpsc-group-b-inspector-excise-2019-english-p2 | General English Paper-II | none | 7 | 0 | 0 | 1 | 6 |
 | mpsc-group-b-mpe-ss-2020-gk | General Knowledge | none | 5 | 0 | 0 | 1 | 4 |
 | mpsc-group-b-si-police-ub-2018-gk | General Knowledge | none | 4 | 0 | 0 | 1 | 3 |
+| mpsc-group-b-station-officer-2018-gk | General Knowledge | none | 4 | 0 | 0 | 1 | 3 |
 | mpsc-group-b-station-officer-2018-english | General English | none | 3 | 0 | 0 | 1 | 2 |
 | mpsc-group-b-asi-home-2018-gk | General Knowledge | none | 3 | 0 | 0 | 1 | 2 |
 | mpsc-group-b-mes-pwd-2020-gs | General Studies | none | 3 | 0 | 0 | 1 | 2 |
@@ -273,10 +275,10 @@ Unattributed: DSWO 2023 Final Answer Key..pdf, DSWO- 2023 Provisioanl Answer Key
 | mpsc-group-b-steno2-2015-gk | General Knowledge | none | 2 | 0 | 0 | 1 | 1 |
 | mpsc-group-b-je-2016-english | General English | none | 2 | 0 | 0 | 1 | 1 |
 | mpsc-group-b-si-police-ub-2018-mathematics | Mathematics | none | 2 | 0 | 0 | 1 | 1 |
+| mpsc-group-b-mes-power-2018-gs | General Studies | none | 2 | 0 | 0 | 1 | 1 |
 | mpsc-group-b-inspector-excise-2019-gs2 | General Studies Paper-II | none | 2 | 0 | 0 | 1 | 1 |
 | mpsc-group-b-aao-2024-arithmetic | Arithmetic | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-je-agri-2026-p1 | General English | none | 1 | 0 | 0 | 1 | 0 |
-| mpsc-group-b-mes-power-2018-gs | General Studies | none | 1 | 0 | 0 | 1 | 0 |
 | mpsc-group-b-mhs-grade-v-2017-english-p2 | General English Paper-II | none | 1 | 0 | 0 | 1 | 0 |
 | mpsc-group-b-si-excise-2025-p2 | General Knowledge & Reasoning | registered | 1 | 1 | 0 | 0 | 0 |
 | mpsc-group-b-inspector-excise-2025-gs2 | General Studies Paper-II | registered | 1 | 1 | 0 | 0 | 0 |

@@ -70643,7 +70643,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "University of Calcutta"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Goa University.",
+    "explanation": "Goa University researchers reported a pigment from a wild edible mushroom with potential anticancer properties.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70670,7 +70670,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Uttarakhand"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Uttarakhand.",
+    "explanation": "Uttarakhand made Sanskrit an official language in addition to Hindi.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70697,7 +70697,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Crowd Hack"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Move Hack.",
+    "explanation": "NITI Aayog called the global mobility hackathon MoveHack 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70724,7 +70724,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Hanuman garh"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Bikaner.",
+    "explanation": "The announced Rajasthan cow sanctuary was planned at Napasar in Bikaner district.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70743,7 +70743,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Who became the world’s oldest verified living person after the death of Chiyo Miyako on 22 July 2018?",
+    "question": "Who has become the world’s oldest verified living person after the death of Chiyo Miyato on 22nd July, 2018?",
     "options": [
       "Kama Chinen",
       "Nabi Tajima",
@@ -70751,7 +70751,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Misao Okawa"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Kane Tanaka.",
+    "explanation": "Kane Tanaka became the oldest verified living person after Chiyo Miyako died in July 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70778,7 +70778,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nagaland"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Meghalaya.",
+    "explanation": "Langshiang Falls is in Meghalaya.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70797,7 +70797,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "How many Ms World titles has India won to date?",
+    "question": "How many Miss World titles has India won to date?",
     "options": [
       "4",
       "5",
@@ -70805,7 +70805,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "7"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: 6.",
+    "explanation": "By October 2018, India had six Miss World winners, counting Manushi Chhillar (2017).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70832,7 +70832,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "JAXA"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: NASA.",
+    "explanation": "NASA planned the Parker Solar Probe, the first mission to fly through the Sun’s corona.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70859,7 +70859,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Hu Shuli"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: William Mark Tully.",
+    "explanation": "Mark Tully received the 2018 RedInk lifetime achievement award.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=1",
@@ -70886,7 +70886,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "London"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Delhi.",
+    "explanation": "The WHO’s 2018 megacity comparison identified Delhi as the most polluted megacity.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -70913,7 +70913,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "The Shape of Water"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: The Shape of Water.",
+    "explanation": "The Shape of Water won Best Picture at the 2018 Academy Awards.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -70940,7 +70940,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "United Kingdom"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: USA.",
+    "explanation": "The United States announced its withdrawal from the UN Human Rights Council in June 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -70967,7 +70967,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Meenakshi Chaudhury"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Anukreethy Vas.",
+    "explanation": "Anukreethy Vas won Femina Miss India 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -70994,7 +70994,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Jammu & Kashmir"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Jammu & Kashmir.",
+    "explanation": "Governor’s Rule was imposed in Jammu and Kashmir in June 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71021,7 +71021,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Motorola"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Samsung.",
+    "explanation": "Samsung opened the world’s largest mobile phone manufacturing facility in Noida, India.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71048,7 +71048,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "31"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: 26.",
+    "explanation": "India won 26 gold medals at the 2018 Commonwealth Games.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71075,7 +71075,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "31"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: 32.",
+    "explanation": "Thirty-two national teams participated in the 2018 FIFA World Cup.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71102,7 +71102,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Diego Costa"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Cristiano Ronaldo.",
+    "explanation": "Cristiano Ronaldo scored the tournament’s first hat-trick, against Spain.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71121,7 +71121,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The world’s first medicine made from marijuana is named:",
+    "question": "World’s first medicine made from marijuana is named as",
     "options": [
       "Malarone",
       "Effexor",
@@ -71129,7 +71129,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Epidiolex"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Epidiolex.",
+    "explanation": "The intended name is Epidiolex, the first FDA-approved cannabis-derived medicine; the paper misspells it “Epidolex.”",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71156,7 +71156,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Japan"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: India.",
+    "explanation": "The NASA freshwater study highlighted declining freshwater storage in India, including the Indus basin and groundwater losses.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71182,8 +71182,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Energymeter",
       "Fluorimeter"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best answer: Fluorimeter.",
+    "answerIndex": 0,
+    "explanation": "The DAE instrument was called a Uraniumeter and detects trace uranium in water.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71210,7 +71210,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Kochi"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Diu.",
+    "explanation": "Diu was reported as India’s first city/urban area to run on 100% renewable energy during daytime.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=2",
@@ -71237,7 +71237,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Thermal power plant"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Cosmetic and hygiene products.",
+    "explanation": "Parabens are preservatives commonly used in cosmetics and personal-care/hygiene products.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71264,7 +71264,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Monkey"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Birds.",
+    "explanation": "Newcastle disease is a contagious viral disease of birds.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71291,7 +71291,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Xiamio"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Zabivaka.",
+    "explanation": "Zabivaka was the official 2018 FIFA World Cup mascot.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71310,22 +71310,23 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Which teams shared the 2018 Men’s Hockey Champions Trophy?",
+    "question": "Which team won the 2018 Men’s Hockey Champions Trophy?",
     "options": [
       "Belgium",
       "Argentina",
       "India",
       "Australia"
     ],
-    "answerIndex": -1,
-    "explanation": "India and Australia shared the 2018 Champions Trophy title, and both are listed as choices.",
+    "answerIndex": 3,
+    "explanation": "Australia won the 2018 Men’s Hockey Champions Trophy final against India in a shoot-out after a 1–1 draw.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Two options are correct."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-gk-Q27",
@@ -71344,7 +71345,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Simona Halep"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Simona Halep.",
+    "explanation": "Simona Halep won the 2018 French Open women’s singles title.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71371,7 +71372,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Churchill Brothers"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Bengaluru FC.",
+    "explanation": "Bengaluru FC won the 2018 Super Cup final.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71398,7 +71399,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ramhlun Futsal Club"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Chhinga Veng Futsal Club.",
+    "explanation": "Chanmari Futsal Club beat Chhinga Veng Futsal Club 6–5 in the inaugural MFA Futsal League final.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71425,7 +71426,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Switzerland"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Switzerland.",
+    "explanation": "The International Olympic Committee is headquartered in Lausanne, Switzerland.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71452,7 +71453,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Basketball"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Basketball.",
+    "explanation": "A free throw is a scoring attempt in basketball.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71471,15 +71472,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Who won the 2018 Hungarian Grand Prix?",
+    "question": "Who has won the 2018 Formula One Hungarian Grand Prix Tournament?",
     "options": [
       "Sebastian Vettel",
       "Lewis Hamilton",
-      "Max Verstappen",
-      "Daniel Ricciardo"
+      "Valtteri Bottas",
+      "Daniel Riccardo"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Lewis Hamilton.",
+    "explanation": "Lewis Hamilton won the 2018 Hungarian Grand Prix.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71506,7 +71507,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Vitamin K"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Vitamin F.",
+    "explanation": "Vitamin F is not a formally recognized vitamin category; the other listed letters name recognized vitamins.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71533,7 +71534,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Stripers"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Creepers.",
+    "explanation": "Creepers have weak stems and spread along the ground.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71560,7 +71561,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Hockey"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Hockey.",
+    "explanation": "Lalremsiami is an Indian field hockey player.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=3",
@@ -71587,7 +71588,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Hydrogen"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Nitrogen.",
+    "explanation": "Nitrogen makes up about 78% of dry air, the largest share.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71614,7 +71615,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Minerals"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Enzymes.",
+    "explanation": "Digestive enzymes break food into smaller molecules in the stomach; among the choices, enzymes are the essential agent.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71641,7 +71642,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Intestines"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Kidney.",
+    "explanation": "The kidneys filter wastes from blood to form urine.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71668,7 +71669,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "The measurement of length"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: The weather.",
+    "explanation": "Meteorology studies the atmosphere and weather.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71695,7 +71696,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Urea.",
+    "explanation": "Urea is the main nitrogenous waste in normal human urine.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71722,7 +71723,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nickel"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Tungsten.",
+    "explanation": "A bulb filament is made of tungsten because of its high melting point.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71749,7 +71750,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Diabetes"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Diabetes.",
+    "explanation": "Insulin deficiency causes diabetes mellitus.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71776,7 +71777,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Because the gun is heavier than the firing soldier"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Because to every action, there is an equal and opposite reaction.",
+    "explanation": "The recoiling gun and forward-moving bullet have equal and opposite momentum changes, consistent with Newton’s third law.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71803,7 +71804,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "R.Vanlawma"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: J.Malsawma.",
+    "explanation": "J. Malsawma wrote under the pen name Thanpuii Pa.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71830,7 +71831,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "William Wordsworth"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Geoffrey Chaucer.",
+    "explanation": "Geoffrey Chaucer is conventionally called the father of English poetry.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71856,8 +71857,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "R.L.Kamlala",
       "Ralngama"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best answer: C.Z. Huala.",
+    "answerIndex": 1,
+    "explanation": "Laithangpuia is remembered as the blind Mizo poet.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71884,7 +71885,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Y.V. Reddy"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Urjit Patel.",
+    "explanation": "Urjit Patel was RBI Governor in October 2018; he resigned in December 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71911,7 +71912,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Charles Babbage"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Charles Babbage.",
+    "explanation": "Charles Babbage is widely known as the father of the computer.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=4",
@@ -71938,7 +71939,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Automated Tallying Machine"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Automated Teller Machine.",
+    "explanation": "ATM stands for Automated Teller Machine.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -71965,7 +71966,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Greece"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Turkey.",
+    "explanation": "“Sick man of Europe” historically referred to the Ottoman Empire, centered in present-day Turkey.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -71992,7 +71993,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Poland"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Norway.",
+    "explanation": "Oslo is Norway’s capital.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72019,7 +72020,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Myanmar"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Myanmar.",
+    "explanation": "The kyat is Myanmar’s currency.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72046,7 +72047,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Kampuchea"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Persia.",
+    "explanation": "Iran was historically known as Persia.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72073,7 +72074,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Israel"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Japan.",
+    "explanation": "Japan’s national legislature is called the National Diet.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72100,7 +72101,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nodes"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Leaves.",
+    "explanation": "Most plant gas exchange occurs through stomata, which are found mainly in leaves.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72127,7 +72128,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nutrition"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Stimuli.",
+    "explanation": "Changes that provoke a response are stimuli (plural of stimulus).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72154,7 +72155,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Four"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Two.",
+    "explanation": "An electric cell has two terminals: positive and negative.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72181,7 +72182,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Petals"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Pistils.",
+    "explanation": "The pistil/carpel is the central, innermost female part of a typical flower.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72207,8 +72208,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Winter",
       "Rainy"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best answer: Winter.",
+    "answerIndex": 0,
+    "explanation": "Rabi crops are generally sown in autumn and harvested in spring; autumn is the best listed choice.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72235,7 +72236,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Entremophile"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Pathogens.",
+    "explanation": "Disease-causing microorganisms are called pathogens.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72254,23 +72255,22 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The 4R principle in waste management is:",
+    "question": "4R principle consist of",
     "options": [
       "Reduce-Reuse-Recycle-Recover",
       "Refuse-Reuse-Recycle-Recover",
       "Reduce-Reuse-Recycle-Remix",
       "Reduce-Reuse-Recycle-Reproduce"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is a common four-R formulation: Reduce, Reuse, Recycle and Recover.",
+    "answerIndex": -1,
+    "explanation": "There is no single universally fixed “4R” formulation: “Reduce, Reuse, Recycle, Recover” and “Refuse, Reuse, Recycle, Recover” both occur in waste-management frameworks; the question gives no framework/source.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-gk-Q62",
@@ -72289,7 +72289,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Carburetion"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Carbonisation.",
+    "explanation": "The slow conversion of buried vegetation into coal is carbonisation.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=5",
@@ -72316,7 +72316,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Lactogen"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Testosterone.",
+    "explanation": "Testosterone is the principal male sex hormone listed.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72343,7 +72343,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ohm"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Decibel.",
+    "explanation": "Loudness level is commonly expressed in decibels.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72370,7 +72370,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Vitamin D"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Ultraviolet Rays.",
+    "explanation": "Ultraviolet exposure stimulates melanin production in the skin.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72397,7 +72397,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "leaf"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: seed.",
+    "explanation": "Coffee is prepared from the plant’s seeds (coffee beans).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72424,7 +72424,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Virus"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Virus.",
+    "explanation": "Dengue is caused by dengue virus, transmitted by Aedes mosquitoes.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72451,7 +72451,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "8"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: 7.",
+    "explanation": "Pure water is neutral at pH 7 under ordinary conditions.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72478,7 +72478,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Nicotine"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Nicotine.",
+    "explanation": "Nicotine is the addictive harmful substance in tobacco.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72505,7 +72505,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Noise"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Birds.",
+    "explanation": "Ornithology is the study of birds.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72524,7 +72524,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Which colour is not a primary colour?",
+    "question": "Which of the following is not a primary colour?",
     "options": [
       "Red",
       "Blue",
@@ -72532,14 +72532,14 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Yellow"
     ],
     "answerIndex": -1,
-    "explanation": "Green is not primary in the traditional red-yellow-blue model, while yellow is not primary in the additive red-green-blue model.",
+    "explanation": "“Primary colours” depends on the colour model. In the additive RGB model yellow is not primary; in the traditional RYB model green is not primary. With no model specified, options (c) and (d) can each be correct.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The question does not specify a colour model."
+    "sourceNote": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-gk-Q72",
@@ -72558,7 +72558,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2 %"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: 3.5 %.",
+    "explanation": "Average ocean salinity is about 35 parts per thousand, or 3.5%.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72585,7 +72585,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Isomorphs"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Allotropes.",
+    "explanation": "Diamond and graphite are structural allotropes of carbon.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72611,16 +72611,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Carbon dioxide",
       "Nitrous oxide"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best answer: Carbon dioxide.",
+    "answerIndex": -1,
+    "explanation": "Soda water contains dissolved carbon dioxide, and some of it forms carbonic acid in water. Thus both options (a) and (c) are defensible as written.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-gk-Q75",
@@ -72639,7 +72638,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sarojini Naidu"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Rabindranath Tagore.",
+    "explanation": "Rabindranath Tagore was the first Asian and Indian Nobel laureate in Literature (1913).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72666,7 +72665,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "A Brief History of Time"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: A Brief History of Time.",
+    "explanation": "Stephen Hawking authored A Brief History of Time.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=6",
@@ -72693,7 +72692,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "B. Lalthangliana"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Lalhmingchhuanga Zongte.",
+    "explanation": "The author is Rev. Lalhmingchhuanga Zongte; option (b) is a misspelled rendering of his surname.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72719,15 +72718,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Tlawng",
       "Tiau"
     ],
-    "answerIndex": -1,
-    "explanation": "“Largest” is undefined: Chhimtuipui is largest by discharge/volume, while Tlawng is longer.",
+    "answerIndex": 0,
+    "explanation": "Chhimtuipui (Kaladan/Kolodyne) is Mizoram’s largest river.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "No unique answer without a size criterion."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-gk-Q79",
@@ -72745,8 +72745,8 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Vahrit",
       "Tlaiberh"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best answer: Vavu.",
+    "answerIndex": 2,
+    "explanation": "Vahrit, the Mrs Hume’s pheasant, is Mizoram’s state bird.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72773,7 +72773,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Prions"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Bacteria.",
+    "explanation": "Scrub typhus is caused by Orientia tsutsugamushi, a bacterium; mites transmit it.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72800,7 +72800,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Multi"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Micro.",
+    "explanation": "MUDRA expands to Micro Units Development and Refinance Agency; M means Micro.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72827,7 +72827,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "General"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Group.",
+    "explanation": "SHG means Self-Help Group, so G stands for Group.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72854,7 +72854,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "The neem"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: The banyan.",
+    "explanation": "The banyan is India’s national tree.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72875,13 +72875,13 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Acid used in an automobile battery:",
     "options": [
-      "Hydrochloric acid",
-      "Sulphuric acid",
-      "Nitric acid",
-      "Citric acid"
+      "Hydrocloric Acid",
+      "Sulphuric Acid",
+      "Nitric Acid",
+      "Citric Acid"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Sulphuric acid.",
+    "explanation": "Automobile lead-acid batteries use sulfuric acid as electrolyte.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72900,15 +72900,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "In which cave in Thailand were 12 members of the Wild Boars football team and their coach trapped?",
+    "question": "In which cave of Thailand were 12 members of the Wild Boars football team and their coach trapped?",
     "options": [
-      "Kartchner Caverns",
-      "Dongzhong Caves",
-      "Tham Luang Cave",
-      "Carlsbad Caverns"
+      "Kartchner caverns",
+      "Dongzhong caves",
+      "Tham Luang cave",
+      "Caslsbad caverns"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Tham Luang Cave.",
+    "explanation": "The Wild Boars youth football team and coach were trapped in Tham Luang cave.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72935,7 +72935,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "West Bengal"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: West Bengal.",
+    "explanation": "West Bengal launched the “I am not afraid of English” initiative.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72954,15 +72954,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "The time difference between India and Greenwich Mean Time is:",
+    "question": "The difference between Indian standard Time and Greenwich Mean Time is:",
     "options": [
-      "5½ hours",
-      "4½ hours",
-      "6 hours",
-      "5 hours"
+      "5 ½ hours",
+      "4 1/2hours",
+      "5 hours",
+      "6 hours"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: 5½ hours.",
+    "explanation": "Indian Standard Time is UTC/GMT +5 hours 30 minutes.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -72989,7 +72989,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sikkim"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Goa.",
+    "explanation": "Goa is the smallest Indian state by area.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -73016,7 +73016,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Sound.",
+    "explanation": "Acoustics studies sound.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=7",
@@ -73035,15 +73035,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Which combination of nickname and real name is not correctly matched?",
+    "question": "Which of the following combination of nick name-real name is not matched correctly?",
     "options": [
-      "Awithangpa — Thangzachhinga",
-      "Taitesena — Ralthatchhunga",
-      "Lalmama — Lalhmingthanga",
-      "Lalkherha — Chhunphunga"
+      "Awithangpa-Thangzachhinga",
+      "Taitesena- Ralthatchhunga",
+      "Lalmama-Lalhmingthanga",
+      "Lalkherha-Chhunphunga"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Awithangpa — Thangzachhinga.",
+    "explanation": "Awithangpa was Hmarlûtvunga, not Thangzachhinga; the other listed nickname/name pairs match.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73070,7 +73070,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Cricket"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Football.",
+    "explanation": "Mizo footballer K. Kawla was associated with football.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73097,7 +73097,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ramachandra Guha"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Ramachandra Guha.",
+    "explanation": "Ramachandra Guha authored Gandhi: The Years That Changed the World, 1914–1948.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73124,7 +73124,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "V.S. Naipaul"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: Kazuo Ishiguro.",
+    "explanation": "Kazuo Ishiguro wrote The Remains of the Day and won the 2017 Nobel Prize in Literature.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73143,23 +73143,25 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Which country awards most Nobel Prizes?",
+    "question": "Which country awards the Nobel Prize?",
     "options": [
       "USA",
       "UK",
       "Russia",
       "Sweden"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best answer: Sweden.",
+    "answerIndex": -1,
+    "explanation": "Nobel Prizes are awarded in Sweden except the Nobel Peace Prize, which is awarded in Norway. The question does not specify a category, so the country is not uniquely determined.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "legacy-inferred",
+    "answerConfidence": "low",
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the options depend on unstated assumptions or multiple choices are correct."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-gk-Q95",
@@ -73178,7 +73180,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Phosphorus"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Graphite.",
+    "explanation": "Pencil “lead” is graphite, a form of carbon.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73205,7 +73207,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ed Husain"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: Ed Husain.",
+    "explanation": "Ed Husain authored The House of Islam: A Global History.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73224,15 +73226,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Knowledge",
     "difficulty": "medium",
-    "question": "Who was the Attorney General of India at the time of the October 2018 examination?",
+    "question": "Who is the current Attorney General of India?",
     "options": [
-      "Dipak Misra",
-      "Ranjit Kumar",
-      "K.K. Venugopal",
+      "Dipak Mistra",
+      "Rajit Kumar",
+      "K.K.Venugopal",
       "Parmod Kohli"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best answer: K.K. Venugopal.",
+    "explanation": "K. K. Venugopal was India’s Attorney General at the October 2018 exam date.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73259,7 +73261,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Lunglei"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best answer: Serchhip.",
+    "explanation": "Serchhip district had Mizoram’s highest 2011 literacy rate, about 97.91%.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73286,7 +73288,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "All of these"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best answer: All of these.",
+    "explanation": "Disaster management includes mitigation, response, recovery, rehabilitation and reconstruction; all listed phases are included.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73313,7 +73315,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Mizoram"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best answer: Kerala.",
+    "explanation": "Kerala ranked first among large states in the Public Affairs Index 2018.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-gk.pdf#page=8",
@@ -73340,7 +73342,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "175 −1−1−1−1"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 156.",
+    "explanation": "35% receive free dinners, so 65% do not: 0.65×240=156.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=1",
@@ -73359,15 +73361,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "[(2⁻¹ × 5⁻¹)⁻¹] ÷ 4⁻¹",
+    "question": "The value of (2⁻¹×5⁻¹)⁻¹ ÷ 4⁻¹ is",
     "options": [
       "2.5",
       "40",
-      "4/10",
-      "10/4"
+      "4",
+      "10"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 40 410.",
+    "explanation": "(2⁻¹×5⁻¹)⁻¹=10, and 4⁻¹=1/4; 10÷1/4=40.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=1",
@@ -73394,7 +73396,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Rs. 10000.",
+    "explanation": "Two half-year periods at 5% give present worth 11025/(1.05)²=Rs 10,000.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=1",
@@ -73421,7 +73423,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(-2, -1)"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: (2, -1).",
+    "explanation": "x²−x−2=(x−2)(x+1), so the roots are 2 and −1, option (c).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=1",
@@ -73448,7 +73450,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(5, 25)"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: (5, 25).",
+    "explanation": "The pattern is (n,n²); the next pair is (5,25).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=1",
@@ -73475,7 +73477,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "152"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 136.",
+    "explanation": "The girls receive 1/5 of 680, which is 136.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=1",
@@ -73494,7 +73496,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "The adjoining pie chart shows the expenditure incurred by a publisher in bringing out a book. If a book costs Rs. 120 to the publisher, then the expenditure on binding the book is - Paper Printing 72°108° 54° 90° Binding 36° Misc a_lty oy R",
+    "question": "The adjoining pie chart shows the expenditure incurred by a publisher in bringing out a book. If a book costs Rs. 120 to the publisher, then the expenditure on binding the book is The expenditure on binding is",
     "options": [
       "Rs. 16",
       "Rs. 18",
@@ -73502,7 +73504,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Rs. 38"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Rs. 18.",
+    "explanation": "Binding is the 54° sector: 120×54/360=Rs 18, option (b).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73529,7 +73531,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "11 n²−1"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 11 n²−1.",
+    "explanation": "The values sum to 54 before x; the five-value total must be 65 for mean 13, so x=11 (option d).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73548,7 +73550,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "The nth term of an AP is , the value of 20th term is - 19",
+    "question": "The nth term of an arithmetic progression is (n²−1)/19. The value of its 20th term is",
     "options": [
       "17",
       "19",
@@ -73556,7 +73558,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "23"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 21.",
+    "explanation": "The 20th term is (20²−1)/19=399/19=21.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73583,7 +73585,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "80"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 60.",
+    "explanation": "By inclusion-exclusion, 50+20−10=60 people speak at least one language.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73610,7 +73612,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "10 m/s"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 15 m/s.",
+    "explanation": "180 m/12 s=15 m/s.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73637,7 +73639,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3 hrs"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 3 hrs.",
+    "explanation": "Time=102/34=3 hours.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73656,7 +73658,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "A can do a piece of work in 12 days and B can do it in 30 days. What fraction of the work is done by A in 1 day?",
+    "question": "A and B together can do a piece of work in 12 days, while B alone can finish it in 30 days. Then the work done by A in 1 day is - 11",
     "options": [
       "1/20",
       "1/12",
@@ -73664,7 +73666,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1/60"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: .",
+    "explanation": "A’s daily work is 1/12−1/30=(5−2)/60=1/20.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73691,7 +73693,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "£ 270"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: £ 265.",
+    "explanation": "Four percent of £250 is £10; adding £5 gives £265.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=2",
@@ -73718,7 +73720,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "15"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 13.",
+    "explanation": "56/7=8, so the missing value satisfying ?−5=8 is 13.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=3",
@@ -73745,7 +73747,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "21"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 18.",
+    "explanation": "75 paise buys five oranges; Rs 2.70=270 paise buys 270/75×5=18 oranges.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=3",
@@ -73764,15 +73766,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Pupils who succeeded in getting Maths GCSE at Grade C or above were analysed from 2006 to 2012. 70 63 60 54 49 50 43 423942 40 30 20 10 0 2006200720082009201020112012 The mean percentage from 2009 to 2012 was -",
+    "question": "Pupils who succeeded in getting Maths GCSE at Grade C or above were analysed from 2006 to 2012. 70 63 60 54 49 50 43 423942 40 30 20 10 0 2006200720082009201020112012 The mean percentage from 2009 to 2012 was",
     "options": [
       "45%",
-      "46.25 %",
+      "46.25%",
       "48.25%",
-      "49 % 243"
+      "49%"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 48.25%.",
+    "explanation": "The 2009–2012 values are 39, 42, 49, 63; their mean is 193/4=48.25%.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=3",
@@ -73791,22 +73793,22 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Simplify √243 / √363.",
+    "question": "The value of 243/363 is",
     "options": [
-      "√9/√11",
-      "√81/√121",
-      "√(81/121)",
+      "9/11",
+      "81/121",
+      "81/121",
       "9/11"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "explanation": "The scan prints duplicate values in the answer choices: 81/121 appears twice (and 9/11 appears twice). The question’s value is clear, but the correct option is not unique.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=3",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "sourceNote": "Held because duplicate answer values appear in the source scan."
   },
   {
     "id": "mpsc-group-b-station-officer-2018-mathematics-Q19",
@@ -73817,7 +73819,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If x = 2 is one of the roots of kx² + 2x − 3 = 0, then k = ?",
+    "question": "If x=2 is one of the roots of the equation kx² + 2x - 3 = 0, then the value of ‘k’ is - 1−1",
     "options": [
       "1/4",
       "−1/4",
@@ -73825,7 +73827,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "−4"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer:  44.",
+    "explanation": "Substitute x=2: 4k+4−3=0, hence k=−1/4.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=3",
@@ -73852,7 +73854,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(-5, 2) x+1"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: (5, -2).",
+    "explanation": "Solving x+y=3 and 4x−3y=26 gives (x,y)=(5,−2).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=3",
@@ -73871,7 +73873,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Find the multiplicative inverse of (x+1)/(x−2).",
+    "question": "The multiplicative inverse of (x+1)/(x−2) is",
     "options": [
       "(x+2)/(x−1)",
       "−(x+1)/(x−2)",
@@ -73879,7 +73881,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(x−1)/(x+2)"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: .",
+    "explanation": "The reciprocal of (x+1)/(x−2) is (x−2)/(x+1).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -73906,7 +73908,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "12"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 12.",
+    "explanation": "x/9=4/3, so x=12.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -73933,7 +73935,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "9"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 8.",
+    "explanation": "(14+x)/(25+x)=2/3 gives 42+3x=50+2x, so x=8.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -73960,7 +73962,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "8"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 8.",
+    "explanation": "The first eight odd numbers are 1 through 15; their mean is (1+15)/2=8 (option d).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -73987,7 +73989,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "198"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 214.",
+    "explanation": "The ninth term from the end is 254−8×5=214.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -74014,7 +74016,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1,2,3,5,7"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 1,2,3,5,7.",
+    "explanation": "A∪B={1,2,3,5,7}.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -74033,7 +74035,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "A die is thrown once. What is the probability of getting a prime number?",
+    "question": "In a throw of a die, the probability of getting a prime number is - 13",
     "options": [
       "1/2",
       "3/2",
@@ -74041,7 +74043,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2/3"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: .",
+    "explanation": "Prime outcomes on a die are 2, 3, and 5, so probability is 3/6=1/2.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -74068,7 +74070,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "20"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 22.",
+    "explanation": "There are 22 integers from 122 to 143 inclusive, and none is a square.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -74095,7 +74097,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "4"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 1.",
+    "explanation": "The next square after 80 is 81, so add 1 (option c).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -74122,7 +74124,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(x + 4)(x – 3)"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: (x + 4)(x – 3)².",
+    "explanation": "The common factors with minimum exponents are (x−3)²(x+4), option c.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=4",
@@ -74149,7 +74151,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1/12 days."
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 24 days.",
+    "explanation": "A’s rate is 1/8−1/12=1/24 work/day.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74176,7 +74178,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1.5 seconds."
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 15 seconds.",
+    "explanation": "60 km/h=50/3 m/s; 250÷(50/3)=15 seconds.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74203,7 +74205,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "34 minutes."
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 40 minutes.",
+    "explanation": "The net fill rate is 1/20; outlet rate=1/24+1/30−1/20=1/40, so 40 minutes.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74230,7 +74232,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "x² – x – 12"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: x² – x – 12.",
+    "explanation": "A monic polynomial with roots −3 and 4 is (x+3)(x−4)=x²−x−12.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74257,7 +74259,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "9"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 9.",
+    "explanation": "a₁₉−a₁₅=4d=36, so d=9.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74284,7 +74286,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "4750"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 5050.",
+    "explanation": "Sum 1 through 100 is 100×101/2=5050.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74311,7 +74313,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "10 cm"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 10 cm.",
+    "explanation": "Half-diagonals are 8 and 6; side=√(8²+6²)=10 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74338,7 +74340,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "81 : 16"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 16 : 81.",
+    "explanation": "Areas of similar triangles scale as the square of side ratio: 4²:9²=16:81.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74365,7 +74367,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2Ö7 units"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 10 units.",
+    "explanation": "Distance=√((-6)²+8²)=10.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74392,7 +74394,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "16.5 cm"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 14 cm.",
+    "explanation": "Using π=22/7, r²=616×7/22=196, hence r=14 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74419,7 +74421,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "21 cm"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 21 cm.",
+    "explanation": "r=C/(2π)=132/(2×22/7)=21 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=5",
@@ -74446,7 +74448,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "8πr² sq. units"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 4πr²sq. units.",
+    "explanation": "Two joined hemispheres form a sphere; its curved area is 4πr².",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74473,7 +74475,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "140"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 88.",
+    "explanation": "Less than 14.6 seconds includes 5+7+8+68=88 candidates.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74500,7 +74502,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "7"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 7.",
+    "explanation": "200×0.035=7 rotten apples.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74527,7 +74529,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "250"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Rs 200.",
+    "explanation": "The installment total is 700+500+500=1700; excess over Rs 1500 cash price is Rs 200.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74554,7 +74556,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "30 km/h"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 26.67 km/h.",
+    "explanation": "For equal distances, average speed=2×20×40/(20+40)=26.67 km/h.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74581,7 +74583,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "15 hours"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 60 hours.",
+    "explanation": "Leak rate=1/15−1/20=1/60 tank/hour.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74608,7 +74610,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "38"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 38.",
+    "explanation": "399=n(1+20)/2=10.5n, so n=38.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74635,7 +74637,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "15 cm"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 6 cm.",
+    "explanation": "Radius²=8²−(2√7)²=64−28=36, so r=6 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74662,7 +74664,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(-3, -5)"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: (- 3, 2).",
+    "explanation": "Midpoint is ((−1−5)/2,(7−3)/2)=(−3,2).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=6",
@@ -74689,7 +74691,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "90^o"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 60^o.",
+    "explanation": "tan θ=(50√3)/50=√3, so θ=60°.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74716,7 +74718,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "25 cm"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 21 cm.",
+    "explanation": "Equal volumes: sphere volume=49×33×24=38,808 cm³; this equals (4/3)(22/7)r³ for r=21 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74743,7 +74745,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(x + 1) (x – 2)( x + 3)(x + 4) x−3"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: (x + 3)²(x + 1)³(x – 2) (x + 4).",
+    "explanation": "The LCM takes the highest exponent of each factor: (x+3)²(x+1)³(x−2)(x+4).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74762,7 +74764,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Find the additive inverse of (x−3)/(x+7).",
+    "question": "The additive inverse of (x−3)/(x+7) is",
     "options": [
       "(x−7)/(x+3)",
       "(x+3)/(x−7)",
@@ -74770,7 +74772,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "(x+7)/(x−3)"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: –.",
+    "explanation": "The additive inverse of (x−3)/(x+7) is −(x−3)/(x+7).",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74797,7 +74799,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3x² – 6x – 2 =0 6"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 2x² – 7x + 6 = 0.",
+    "explanation": "Substitution of x=2 in 2x²−7x+6 gives 8−14+6=0.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74816,7 +74818,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If 6/5, a, and 4 are in arithmetic progression, find a.",
+    "question": "If 6/5, a, 4 are in arithmetic progression, the value of a is",
     "options": [
       "13/5",
       "13",
@@ -74824,7 +74826,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "26/5"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: .",
+    "explanation": "In an AP, the middle term is the mean of its neighbours: a=(6/5+4)/2=13/5.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74843,7 +74845,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Find the area of a sector with radius r and angle θ degrees.",
+    "question": "If θ is the angle (in degrees) of a sector of a circle of radius r, then area of the sector is: πr²θπr²θ",
     "options": [
       "πr²θ/180°",
       "πr²θ/360°",
@@ -74851,7 +74853,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2πrθ/360°"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer:  180360 2πrθ2πrθ.",
+    "explanation": "Sector area for degree measure θ is (θ/360)πr².",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74878,7 +74880,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "49 cm"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 49 cm.",
+    "explanation": "The wire length is rectangle perimeter 2(84+70)=308 cm; 2πr=308 gives r=49 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=7",
@@ -74905,7 +74907,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "90^o"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 90^o.",
+    "explanation": "By cosine rule, cos B=(108+36−144)/(2·6√3·6)=0, so B=90°.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -74924,15 +74926,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "If n (A) = 40, n(AB) = 60, n (AB) = 10, then n (B)=",
+    "question": "If n(A)=40, n(A∪B)=60, and n(A∩B)=10, then n(B)=",
     "options": [
-      "= 40, n(AB) = 60, n (AB) = 10, then n",
-      "= (a)70(b)50",
+      "70",
+      "50",
       "60",
       "30"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 30.",
+    "explanation": "n(B)=n(A∪B)−n(A)+n(A∩B)=60−40+10=30.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -74959,7 +74961,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "20%"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 20%.",
+    "explanation": "Failed in at least one=63+42−25=80%; therefore 20% passed both.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -74986,7 +74988,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "12cm"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 25cm.",
+    "explanation": "By Pythagoras, AC=√(24²+7²)=25 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -75013,7 +75015,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "£525.5"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: £534.46.",
+    "explanation": "Compound growth gives 450×1.035⁵≈£534.46.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -75040,7 +75042,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "60.3"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 47.5.",
+    "explanation": "12.5%=1/8; 380/8=47.5 kg.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -75067,7 +75069,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "16% −95"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 14%.",
+    "explanation": "Additional tuition totals 76 out of 529 pupils; 76/529≈14.37%, which rounds to 14%.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=8",
@@ -75086,7 +75088,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Find the sum of −9/16 and 5/12.",
+    "question": "The sum of −9/16 and 5/12 is",
     "options": [
       "−7/18",
       "7/28",
@@ -75094,7 +75096,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "7/48"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: .",
+    "explanation": "−9/16+5/12=(−27+20)/48=−7/48.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75121,7 +75123,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "IV quadrant"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: II quadrant.",
+    "explanation": "The midpoint is (−1,4), in quadrant II.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75148,7 +75150,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 6.",
+    "explanation": "Using mode=3 median−2 mean: 36=3×16−2 mean, so mean=6.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75175,7 +75177,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "10"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 6.",
+    "explanation": "n(A∩B)=n(A)−n(A−B)=10−4=6.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75194,7 +75196,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "A bag has 4 red, 4 black and 4 white balls. Find the probability of drawing a ball that is neither black nor white.",
+    "question": "A bag contains 3 white, 4 red and 5 black balls. One ball is drawn at random. The probability that the ball drawn is neither black nor white is - 11",
     "options": [
       "1/4",
       "1/2",
@@ -75202,7 +75204,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3/4"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: .",
+    "explanation": "Only red balls are neither black nor white: 4/12=1/3.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75229,7 +75231,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "-8x a⁰"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: -8x a⁰.",
+    "explanation": "(−x+y)−(7x+y)=−8x.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75248,7 +75250,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "Evaluate (a/b)⁰.",
+    "question": "The value of (a/b)⁰ is",
     "options": [
       "−1",
       "1",
@@ -75256,7 +75258,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "∞"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 1.",
+    "explanation": "Any nonzero number to power zero is 1.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75283,7 +75285,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       " 2"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 2.",
+    "explanation": "For x²−3x+2, product of roots is the constant term, 2.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=9",
@@ -75310,7 +75312,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "10b+a"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 10b+a.",
+    "explanation": "With b in tens and a in units, the number is 10b+a.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75337,7 +75339,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "26 yrs & 91 yrs"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 30 yrs & 55 yrs.",
+    "explanation": "Let ages be 6k and 11k. (6k−20)/(11k−20)=2/7 gives k=5, hence 30 and 55.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75364,7 +75366,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "40-50"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 10-20.",
+    "explanation": "There are 30 observations; the 15th/16th lie in 10–20 since cumulative frequency reaches 16 there.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75391,7 +75393,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "25th term"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 25th term.",
+    "explanation": "4+(n−1)5=124 gives n=25.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75418,7 +75420,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "a × a × a"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: a × a × a.",
+    "explanation": "a³ means a multiplied by itself three times: a×a×a.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75445,7 +75447,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "– 10"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: – 10.",
+    "explanation": "Substitute x=2: 4+6+k=0, so k=−10.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75472,7 +75474,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "p² = 4q"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: p² = 4q.",
+    "explanation": "Equal roots require discriminant p²−4q=0, hence p²=4q.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75499,7 +75501,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "1 cm"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 6 cm.",
+    "explanation": "The chord is in the radius-5 circle at distance 4 from the centre; half-chord=√(25−16)=3, so chord=6 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75526,7 +75528,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ö40 units"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 10 units.",
+    "explanation": "Distance=√((6−0)²+(5+3)²)=√100=10.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75553,7 +75555,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 1.",
+    "explanation": "sec²θ(1+sinθ)(1−sinθ)=sec²θ(1−sin²θ)=sec²θ cos²θ=1.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=10",
@@ -75580,7 +75582,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 1.",
+    "explanation": "sin(47°+43°)=sin90°=1.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75607,7 +75609,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "9p cm²"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 9p cm².",
+    "explanation": "The inscribed circle has diameter 6 and radius 3, so area=9π cm².",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75634,7 +75636,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "10 days"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 10 days.",
+    "explanation": "Adding pairwise work rates gives 2(A+B+C)=1/10+1/15+1/30=1/5, so total rate=1/10 and time=10 days.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75661,7 +75663,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "0"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 2.",
+    "explanation": "Exactly two tangents can be drawn from an external point to a circle.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75688,7 +75690,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "75 m"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 90 m.",
+    "explanation": "sin30°=45/L, so string length L=90 m.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75715,7 +75717,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "49 cm"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 41 cm.",
+    "explanation": "Frustum slant height=√(40²+(20−11)²)=√1681=41 cm.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75742,7 +75744,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "20"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 20.",
+    "explanation": "a₈−a₃ spans five common differences: 5×4=20.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75769,7 +75771,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "4p rh"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 2p rh.",
+    "explanation": "Cylinder curved surface area is circumference×height=2πrh.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75796,7 +75798,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "11cm, 12cm, 17cm BC1ar(PRQ)"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 11cm, 12cm, 17cm BC1ar(PRQ).",
+    "explanation": "Only 11²+12²=265 differs from 17²=289; the other triples are Pythagorean, so option d.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75815,15 +75817,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "DABC ~ DPQR and  = . Then  is equal to: QR3ar(BCA)",
+    "question": "If ΔABC ~ ΔPQR and BC/QR=1/3, then area(PRQ)/area(BCA) is",
     "options": [
       "9",
       "3",
       "1/3",
       "1/9"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 9.",
+    "answerIndex": 3,
+    "explanation": "Corresponding side ratio is 1:3, so area ratio ar(PRQ)/ar(BCA)=1:9.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75850,7 +75852,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "5 : 56 : 10"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 35 : 56 : 80.",
+    "explanation": "Equalize b: 5:8 and 7:10 become 35:56 and 56:80, giving 35:56:80.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=11",
@@ -75877,7 +75879,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "16"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 10.",
+    "explanation": "Adding 2 to every datum increases the mean by 2, giving 10.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=12",
@@ -75904,7 +75906,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "90 m/s"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 30 m/s.",
+    "explanation": "5.4 km/3 min=5400 m/180 s=30 m/s.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=12",
@@ -75931,7 +75933,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "15-20"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 10-15.",
+    "explanation": "The highest frequency is 8 in class 10–15.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=12",
@@ -75958,7 +75960,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "2270"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 2270.",
+    "explanation": "454÷0.2=454×5=2270.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=12",
@@ -75985,7 +75987,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Rs. 335 & Rs. 544"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Rs. 336 & Rs. 644.",
+    "explanation": "Each ratio part is 980/35=28; shares are 12×28=336 and 23×28=644.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=12",
@@ -76004,15 +76006,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "Mathematics",
     "difficulty": "medium",
-    "question": "In the given diagram,(AB)C= 2 345 16 7 9 8",
+    "question": "In the given three-set Venn diagram, (A∩B)∩C is",
     "options": [
-      "1,2,3,4,5,6,7,8,9",
-      "3,4,7,8,9",
-      "3,4,7",
-      "7"
+      "{1,2,3,4,5,6,7,8,9}",
+      "{3,4,7,8,9}",
+      "{3,4,7}",
+      "{7}"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 7.",
+    "explanation": "The triple intersection contains region 7, so the set is {7}.",
     "source": "Station Officer, Fire & Emergency Services under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/station-officer-2018-mathematics.pdf#page=12",
@@ -76039,7 +76041,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ionosphere"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Ionosphere.",
+    "explanation": "Appleton layer is part of the ionosphere.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76058,15 +76060,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Match the following statements: 12 A.Force1.mv 2 B.Kinetic Energy2.F × t C.Potential Energy3.m × a D.Impulse4.Mgh Codes ABCD",
+    "question": "Match each physical quantity with its formula: A. Force; B. Kinetic energy; C. Potential energy; D. Impulse.",
     "options": [
-      "3412",
-      "3142",
-      "2413",
-      "1234"
+      "A–3, B–4, C–1, D–2",
+      "A–3, B–1, C–4, D–2",
+      "A–2, B–4, C–1, D–3",
+      "A–1, B–2, C–3, D–4"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 3142.",
+    "explanation": "Force=ma, kinetic energy=½mv², potential energy=mgh, and impulse=F×t.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76093,7 +76095,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Passing carbon dioxide into lime water"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Dissolving sulphur in carbon disulphide.",
+    "explanation": "Dissolving sulfur in carbon disulfide is a physical separation; the other choices involve chemical change.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76120,7 +76122,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Erythrocytes"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Leucocytes.",
+    "explanation": "Leucocytes defend the body against infection.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76147,7 +76149,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Both DNA and RNA"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: DNA or RNA.",
+    "explanation": "A virus contains either DNA or RNA as its genetic material, not both.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76174,7 +76176,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Embryo"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Aleurone layer.",
+    "explanation": "The aleurone layer is protein-rich in cereal grains.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76201,7 +76203,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "May radiate heat or may not"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Radiate heat.",
+    "explanation": "Any body above absolute zero emits thermal radiation, including at 0°C.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=1",
@@ -76228,7 +76230,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Radiation"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Convection.",
+    "explanation": "Rising hot air carries heat and smoke by convection.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76255,7 +76257,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "15°C"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 4°C.",
+    "explanation": "Liquid water reaches maximum density at 4°C.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76282,7 +76284,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "None of the above"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Radiation.",
+    "explanation": "Silvering reflects infrared radiation and reduces radiative heat transfer.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76309,7 +76311,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Data is insufficient"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 400km.",
+    "explanation": "Using c=fλ gives λ≈3×10⁸/750=4×10⁵ m, or 400 km.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76336,7 +76338,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Mannitol"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Drikold.",
+    "explanation": "Drikold is a trade name for solid carbon dioxide/dry ice.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76363,7 +76365,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Galactose"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Fructose.",
+    "explanation": "Fructose is the major sugar in honey.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76390,7 +76392,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Citric acid"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Alcoholic drinks.",
+    "explanation": "Fermented alcoholic beverages are among humanity’s earliest biotechnology products.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76417,7 +76419,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Auxotrophs"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Autotrophs.",
+    "explanation": "Autotrophs synthesize their own food.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76444,7 +76446,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Haemoerythrin"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Haemophilia.",
+    "explanation": "Haemophilia impairs blood clotting.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76471,7 +76473,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "No reaction"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: A chain reaction.",
+    "explanation": "Coagulation proceeds through a cascade of reactions.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76498,7 +76500,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "An auricular systole, a ventricular systole and a pause"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: An auricular systole, a ventricular systole and a pause.",
+    "explanation": "The cardiac cycle includes atrial systole, ventricular systole, then a pause/diastole.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76525,7 +76527,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Pasteur"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Landsteiner.",
+    "explanation": "Karl Landsteiner discovered the ABO blood groups.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76552,7 +76554,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "plasma"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Red blood corpuscles.",
+    "explanation": "Red blood cells carry oxygen via haemoglobin.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=2",
@@ -76578,16 +76580,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Liver",
       "Lymph nodes"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Bone marrow.",
+    "answerIndex": -1,
+    "explanation": "Lymphocytes arise and mature in multiple lymphoid tissues; bone marrow is the primary source, while lymph nodes and spleen also support lymphocyte production. No single answer is unambiguously exclusive.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q22",
@@ -76606,7 +76607,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Fatty acids and glycerol"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Fatty acids and glycerol.",
+    "explanation": "Lipase hydrolyses fats into fatty acids and glycerol.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76633,7 +76634,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Thymus"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Pituitary.",
+    "explanation": "The pituitary receives hypothalamic signals and regulates other endocrine glands.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76660,7 +76661,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sindhu"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Sindhu.",
+    "explanation": "The Rigvedic Sarasvati? In Aryan tradition the river par excellence is Sindhu.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76687,7 +76688,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3142"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 2341.",
+    "explanation": "The pairing is Wedderburn–Bombay, Yule–Allahabad, Tyabji–Madras, Mehta–Calcutta.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76714,7 +76715,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "The moral values of all Indian religions of that period"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: The moral values of all Indian religions of that period.",
+    "explanation": "Ashoka’s Dhamma drew broadly on shared ethical values of Indian religions.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76741,7 +76742,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "New India"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: New India.",
+    "explanation": "Annie Besant founded/edited New India.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76768,7 +76769,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Krishna I"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Krishna I.",
+    "explanation": "Rashtrakuta king Krishna I commissioned the Kailasa temple at Ellora.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76795,7 +76796,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Architecture"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Painting.",
+    "explanation": "These named schools are traditions of Indian painting.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=3",
@@ -76822,7 +76823,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Sanskrit"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Prakrit.",
+    "explanation": "Prakrit was the Mauryan court/administrative language.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -76849,7 +76850,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Rocks and mountains"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Inscriptions.",
+    "explanation": "Epigraphy studies inscriptions.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -76876,7 +76877,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Turkey"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Turkey.",
+    "explanation": "The Khilafat movement protested treatment of the Ottoman Caliphate/Turkey.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -76903,7 +76904,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Poona"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Bombay.",
+    "explanation": "Gandhi established the Satyagraha Sabha in Bombay in 1919.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -76930,7 +76931,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Disraeli"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Ramsay MacDonald.",
+    "explanation": "Ramsay MacDonald convened the First Round Table Conference.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -76957,7 +76958,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Date of transfer of power"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Priority to be given to communal question.",
+    "explanation": "The conference deadlocked principally over communal representation and priority.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -76984,7 +76985,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "87°15´E near Kolkata"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 82°30´E near Allahabad.",
+    "explanation": "IST is based on 82°30′E, near Allahabad/Prayagraj.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -77011,7 +77012,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "he neither gains nor lose any hours"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: he loses 24 hours.",
+    "explanation": "Crossing the date line west-to-east moves the calendar back one day, a 24-hour loss.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -77038,7 +77039,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "The inner core and the outer core"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: The outer core and the inner mantle.",
+    "explanation": "The Gutenberg discontinuity separates mantle from outer core.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -77065,7 +77066,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "65 and 35"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 71 and 29.",
+    "explanation": "Oceans cover about 71% and continents 29% of Earth’s surface.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -77092,7 +77093,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Roaring forties zone"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Rain shadow zone.",
+    "explanation": "The dry leeward area is the rain shadow.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -77119,7 +77120,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Lines of equal value of rainfall"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Points of equal depth in an ocean, a sea or lake.",
+    "explanation": "Isobaths join points of equal water depth.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=4",
@@ -77146,7 +77147,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3142"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: 2341.",
+    "explanation": "Kiel: North/Baltic; Suez: Red/Mediterranean; Panama: Caribbean/Pacific; St Lawrence: Great Lakes/Atlantic.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
@@ -77173,7 +77174,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Maginot Line"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Mc Mahon Line.",
+    "explanation": "The McMahon Line is the boundary line associated with India and China in the eastern sector.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
@@ -77200,7 +77201,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Agriculture"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Agriculture.",
+    "explanation": "The Borlaug Award recognizes agricultural achievement.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
@@ -77227,7 +77228,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Gold"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Copper.",
+    "explanation": "Copper was the first metal widely used by humans.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
@@ -77254,7 +77255,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Tropics"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Equator.",
+    "explanation": "Day and night are approximately equal year-round at the equator.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
@@ -77281,7 +77282,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "3142"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: 3142.",
+    "explanation": "Eskimos—northern Canada; Berbers—northwest Africa; Bindibus—Australia; Masai—Tanzania.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
@@ -77307,16 +77308,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Negroids",
       "Australoids"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Caucasoids.",
+    "answerIndex": -1,
+    "explanation": "“Caucasoid/Mongoloid/Negroid/Australoid” are outdated racial taxonomies with no sound scientific basis for a globally ranked largest group; the question is not responsibly answerable as framed.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=5",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q49",
@@ -77335,7 +77335,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Fertility factor.",
+    "explanation": "Fertility is the primary determinant of natural population growth.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77362,7 +77362,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Ferdinand Magellan"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Ferdinand Magellan.",
+    "explanation": "Magellan’s expedition completed the first circumnavigation, though Magellan himself died en route.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77388,16 +77388,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Degraded but cultivable",
       "Alkaline soil"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Degraded but cultivable.",
+    "answerIndex": -1,
+    "explanation": "“Wasteland” is not precisely defined by these choices: it can refer to uncultivable land, or degraded land that may be cultivable after reclamation. The item does not specify a definition.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q52",
@@ -77416,7 +77415,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Moon"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Moon.",
+    "explanation": "Schrödinger Basin is a lunar impact basin.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77443,7 +77442,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "London"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Damascus.",
+    "explanation": "Damascus is commonly cited among the world’s oldest continuously inhabited cities.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77470,7 +77469,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Madhya Pradesh"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Tamil Nadu.",
+    "explanation": "The Toda people are indigenous to the Nilgiri hills of Tamil Nadu.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77497,7 +77496,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Chambal Valley"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Narmada Valley.",
+    "explanation": "The Narmada valley is a classic rift valley.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77524,7 +77523,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Amundsen"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Robert Peary.",
+    "explanation": "Robert Peary is conventionally credited with reaching the North Pole overland.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77550,16 +77549,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Elliptical line",
       "Curved line"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Zigzag line.",
+    "answerIndex": -1,
+    "explanation": "The International Date Line is irregular and bends around land/territorial boundaries; both “zigzag” and “curved” can describe that shape, so the choices do not distinguish uniquely.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q58",
@@ -77578,7 +77576,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Baluchistan"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Sind.",
+    "explanation": "Hyderabad in Pakistan is in Sindh.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77605,7 +77603,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Order-Neisse Line"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 38th parallel.",
+    "explanation": "The Korean demarcation is near the 38th parallel.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77631,15 +77629,16 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Kumaon Hills",
       "Nilgiri Hills"
     ],
-    "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique, defensible answer; keep this item unscored.",
+    "answerIndex": 3,
+    "explanation": "The Neelakurinji blooms periodically in the Nilgiri hills, about every 12 years.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
     "sourceReviewed": true,
-    "sourceNote": "Answer-key review hold."
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q61",
@@ -77658,7 +77657,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "14"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 13.",
+    "explanation": "A baker’s dozen is 13.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=6",
@@ -77684,16 +77683,15 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Easily distinguishable",
       "Most sensitive to the eye"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Easily distinguishable.",
+    "answerIndex": -1,
+    "explanation": "The main physical reason red serves as a distant danger signal is its long wavelength and relatively low scattering. That reason is absent; “easily distinguishable” is vague and not a uniquely adequate explanation.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q63",
@@ -77712,7 +77710,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "14%"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 59%.",
+    "explanation": "14/24×100≈58.3%, approximately 59%.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77739,7 +77737,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Article 443"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Article 343.",
+    "explanation": "Article 343 declares Hindi in Devanagari script the Union’s official language.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77766,7 +77764,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "River Disputes"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Centre-State Relations.",
+    "explanation": "The Sarkaria Commission examined Centre–State relations.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77793,7 +77791,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Council of Ministers"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: President.",
+    "explanation": "Parliament consists of the President and two Houses: Lok Sabha and Rajya Sabha.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77820,7 +77818,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "Times Now"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: All India Radio.",
+    "explanation": "“Bahujana Hitaya, Bahujana Sukhaya” is All India Radio’s motto.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77847,7 +77845,7 @@ const groupBQuestionsPart9: BankQuestion[] = [
       "by the Security Council"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: by the General Assembly on the recommendations of the Security Council.",
+    "explanation": "The Security Council recommends a candidate and the General Assembly appoints the Secretary-General.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77876,7 +77874,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Manmohan Singh"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Mahatma Gandhi.",
+    "explanation": "The “need, not greed” saying is attributed to Mahatma Gandhi.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77903,7 +77901,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "3142"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 1234.",
+    "explanation": "Habeas corpus=have the body; mandamus=we command; certiorari=quash/call up; quo warranto=by what authority.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=7",
@@ -77930,7 +77928,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Supreme Court"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Supreme Court.",
+    "explanation": "The Supreme Court protects/enforces fundamental rights under Article 32.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -77957,7 +77955,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Comptroller and Auditor General of India"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Vice-President.",
+    "explanation": "The Vice-President is removed by a Rajya Sabha resolution, not impeached.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -77984,7 +77982,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Foreign Pilgrimage"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Foreign Pilgrimage.",
+    "explanation": "Foreign pilgrimage is not a legislative matter within Parliament’s jurisdiction.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78011,7 +78009,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Chief Election Commissioner"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Speaker of the Lok Sabha.",
+    "explanation": "The Lok Sabha elects its Speaker; the President does not appoint the Speaker.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78038,7 +78036,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Salaries and allowances of the judges of the high court are determined by the Supreme Court"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Salaries and allowances of the judges of the high court are determined by the Supreme Court.",
+    "explanation": "High Court judges’ salaries are set by Parliament, not the Supreme Court.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78065,7 +78063,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Independent of the Judiciary"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Presidential government.",
+    "explanation": "India is parliamentary, not presidential.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78092,7 +78090,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Attorney-General of India"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Union Council of Ministers.",
+    "explanation": "The President promulgates ordinances on the aid and advice of the Union Council of Ministers.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78119,7 +78117,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "46th Amendment"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 44th Amendment.",
+    "explanation": "The 44th Amendment restored the Lok Sabha term to five years.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78146,7 +78144,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "45th Amendment"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 44th Amendment.",
+    "explanation": "The 44th Amendment removed the Right to Property from fundamental rights.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78173,7 +78171,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Atal Bihari Vajpeee"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: V.P. Singh.",
+    "explanation": "V.P. Singh’s tenure is commonly associated with 7 Race Course Road becoming the PM’s official residence.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78200,7 +78198,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "4"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 2.",
+    "explanation": "The Constitution requires no more than six months between sessions, so Parliament must meet at least twice yearly.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
@@ -78226,16 +78224,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Assam, Orissa and Madhya Pradesh",
       "Bihar, Madhya Pradesh and Orissa"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Bihar, Madhya Pradesh and Orissa.",
+    "answerIndex": -1,
+    "explanation": "The article’s named states are outdated: following state reorganizations, Article 164(1) names Chhattisgarh, Jharkhand, Madhya Pradesh, and Odisha. No option gives the current set; option (d) reflects the older wording.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after source review because the prompt is scientifically outdated, incomplete, ambiguous or missing a unique option."
   },
   {
     "id": "mpsc-group-b-mes-pwd-2018-gs-Q83",
@@ -78254,7 +78251,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Lok Sabha"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Union Parliament.",
+    "explanation": "Residuary legislative powers belong to Parliament under Article 248.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78281,7 +78278,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "To abide by the constitution and respect its ideals"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: To uphold secularism.",
+    "explanation": "The Constitution does not list “uphold secularism” as a separately worded Fundamental Duty.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78308,7 +78305,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "ICJThe Hague"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: FAOBrussels.",
+    "explanation": "FAO is headquartered in Rome, not Brussels.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78335,7 +78332,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Haryana"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Jammu and Kashmir.",
+    "explanation": "Article 370 applied to Jammu and Kashmir (as the paper’s historical framing).",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78362,7 +78359,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "World Bank"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: World Bank.",
+    "explanation": "The “third window” refers to a World Bank lending facility.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78388,8 +78385,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Morarji Desai",
       "Sir R.K. Shanmukham Chetty"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: C. Rajagopalachari.",
+    "answerIndex": 2,
+    "explanation": "Morarji Desai introduced sales tax as a state revenue source in Bombay State.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78416,7 +78413,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Minimum level of per capita consumer expenditure"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Minimum level of per capita consumer expenditure.",
+    "explanation": "The poverty line is conventionally measured by minimum per-capita consumption expenditure.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78443,7 +78440,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Sixth Plan"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Fifth Plan.",
+    "explanation": "India’s Rolling Plan was introduced after the Fifth Plan, under the Janata government.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78470,7 +78467,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Net Domestic Product (NDP)"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Net National Product (NNP).",
+    "explanation": "National income is conventionally measured as NNP at factor cost.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78497,7 +78494,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Atal Bihari Vajpayee"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Jawaharlal Nehru.",
+    "explanation": "Jawaharlal Nehru called large multipurpose river projects “temples of modern India.”",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78524,7 +78521,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Paul Krugman"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Mahbub-Ul-Haq.",
+    "explanation": "Mahbub ul Haq led the Human Development Report project, with Amartya Sen’s intellectual contribution.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=9",
@@ -78551,7 +78548,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Socialist economy"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Black money economy.",
+    "explanation": "A parallel economy is the unreported/black-money economy.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78578,7 +78575,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "T.T. Krishnamachari"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: R.K. Shanmukham Chetty.",
+    "explanation": "R.K. Shanmukham Chetty presented independent India’s first budget.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78605,7 +78602,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Myanmar"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Bhutan.",
+    "explanation": "The Indian rupee has historically been accepted as legal tender in Bhutan.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78632,7 +78629,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Corporation Bank"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: ICICI.",
+    "explanation": "ICICI was the first Indian bank listed on the NYSE.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78659,7 +78656,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Ramsay Macdonald"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Sir George Williams.",
+    "explanation": "Sir George Williams founded the YMCA.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78686,7 +78683,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Yale University"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Columbia University.",
+    "explanation": "Columbia University administers the Pulitzer Prizes.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78713,7 +78710,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Nuclear Weapons"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Protection of Ozone Layer.",
+    "explanation": "The Montreal Protocol protects the ozone layer.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-pwd-2018-gs.pdf#page=10",
@@ -78740,7 +78737,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Ahmedabad"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Hyderabad.",
+    "explanation": "ESCI is headquartered in Hyderabad.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78767,7 +78764,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Customer determination"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Customer determination.",
+    "explanation": "Quality is defined by whether the product or service meets customer needs.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78794,7 +78791,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Project Management"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Value Engineering..",
+    "explanation": "Value engineering optimizes the balance of function/performance, reliability, and cost.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78821,7 +78818,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "all of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: he acquires skill.",
+    "explanation": "Skills make a person a productive human resource.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78848,7 +78845,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Attitude to habits"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Attitude to habits.",
+    "explanation": "Habitual attitudes can block openness to new ideas.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78875,7 +78872,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "black, white and blue"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: red, yellow and blue.",
+    "explanation": "The traditional primary pigment colors are red, yellow, and blue.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78902,7 +78899,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "the lighter is the weight"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: the lower is the center of gravity.",
+    "explanation": "A lower centre of gravity improves stability.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78929,7 +78926,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Calcium and Magnesium"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Calcium and Magnesium.",
+    "explanation": "Calcium and magnesium ions cause water hardness.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78956,7 +78953,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Interpretation"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Energy source.",
+    "explanation": "Remote sensing requires an energy source to illuminate or emit from the target.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -78983,7 +78980,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Combination of all of these"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Light.",
+    "explanation": "LiDAR uses laser light and measures its reflected return.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=1",
@@ -79010,7 +79007,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Harshavardhana"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Harshavardhana.",
+    "explanation": "Harshavardhana was called Lord of the whole of North India.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79037,7 +79034,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Bricks"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Stones.",
+    "explanation": "Early Indian inscriptions, notably Ashokan edicts, were engraved on stone.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79064,7 +79061,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Porus"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Ashoka.",
+    "explanation": "Ashoka fought the Kalinga War.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79091,7 +79088,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Buddhism"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Buddhism.",
+    "explanation": "Nalanda was a major Buddhist learning centre.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79118,7 +79115,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Central Asia.",
+    "explanation": "The conventional textbook answer is migration from Central Asia.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79145,7 +79142,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "62 seconds"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 52 seconds.",
+    "explanation": "The full national anthem takes about 52 seconds.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79172,7 +79169,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Shah Jahan"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Shah Jahan.",
+    "explanation": "Shah Jahan died confined as a prisoner at Agra Fort.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79199,7 +79196,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Thiruvananthapuram"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Surat.",
+    "explanation": "The English East India Company’s first permanent Indian factory was at Surat.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79226,7 +79223,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Assassination of Mahatma Gandhi"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Salt law.",
+    "explanation": "The Dandi March protested the salt tax/law.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79253,7 +79250,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "William Bentinck"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: William Bentinck.",
+    "explanation": "Lord William Bentinck abolished sati in 1829.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79280,7 +79277,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Solomon island international airport"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Kansai international airport.",
+    "explanation": "Kansai International Airport was built on an artificial island.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79307,7 +79304,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "J.Presperckert"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Charles Babbage.",
+    "explanation": "Charles Babbage designed the Analytical Engine, an early mechanical computer.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79334,7 +79331,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "373^oK"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: 273^oK.",
+    "explanation": "0°C is 273 K (approximately 273.15 K).",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79361,7 +79358,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Pendulum clock"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Pendulum clock.",
+    "explanation": "Christiaan Huygens invented the pendulum clock.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=2",
@@ -79388,7 +79385,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: both recurring and non-recurring costs.",
+    "explanation": "Life-cycle cost sums recurring and non-recurring costs over the product’s life.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79415,7 +79412,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Subsidence"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Faulting.",
+    "explanation": "Escarpments commonly form along faults.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79442,7 +79439,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "All of these"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: All of these.",
+    "explanation": "An artesian aquifer is a permeable layer confined between impermeable strata, recharged where exposed.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79469,7 +79466,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Induction"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Convection.",
+    "explanation": "Bulk movement of fluid carrying heat is convection.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79496,7 +79493,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Wind direction is highly unpredictable"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Only vertical wind current is felt predominantly.",
+    "explanation": "Doldrums are marked by rising vertical air currents and weak surface winds.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79523,7 +79520,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Arctic ocean"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Atlantic ocean.",
+    "explanation": "The Atlantic Ocean is characteristically S-shaped.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79550,7 +79547,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Paperback"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Paperback.",
+    "explanation": "A flexible soft-cover book is paperback bound.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79577,7 +79574,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "six groups"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: four groups.",
+    "explanation": "Indian rivers are commonly grouped into four systems: Himalayan, Deccan, coastal, and inland drainage.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79604,7 +79601,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Debajyoti Das"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Chetan Bhagat.",
+    "explanation": "Chetan Bhagat wrote “Making India Awesome.”",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79631,7 +79628,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Autonomous District Councils"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Fundamental duties.",
+    "explanation": "Article 51A contains Fundamental Duties.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79658,7 +79655,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "six months"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: six months.",
+    "explanation": "The Constitution bars a gap of more than six months between parliamentary sessions.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79685,7 +79682,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "June 21"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: April 21.",
+    "explanation": "Civil Services Day is observed on 21 April.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79712,7 +79709,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Criket"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Badminton.",
+    "explanation": "Kidambi Srikanth is a badminton player.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=3",
@@ -79739,7 +79736,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "VAT"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: VAT.",
+    "explanation": "State VAT was subsumed into GST.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79766,7 +79763,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Eligible for re-election"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Qualified for election to member of Rajya Sabha.",
+    "explanation": "A presidential candidate must qualify for Lok Sabha membership, not Rajya Sabha membership.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79793,7 +79790,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "SBI"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: SBI.",
+    "explanation": "YONO is SBI’s digital banking/service platform.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79820,7 +79817,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: PMMSK.",
+    "explanation": "PMMSK (Mahila Shakti Kendra) supports women’s protection and empowerment.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79847,7 +79844,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Arunachal Pradesh"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Manipur.",
+    "explanation": "The Sangai Festival is celebrated in Manipur.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79874,7 +79871,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "The Moon"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: The Sun.",
+    "explanation": "Aditya-L1 is a solar observatory mission.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79901,7 +79898,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Program"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Program.",
+    "explanation": "A program is a set of instructions directing a computer.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79928,7 +79925,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Venezuala."
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: China..",
+    "explanation": "Miss World 2017 was held in China.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79955,7 +79952,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Tamil Nadu"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Karnataka.",
+    "explanation": "Nirmala Sitharaman represented Karnataka in the Rajya Sabha at the time.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -79982,7 +79979,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Vihaan Networks Ltd."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Vihaan Networks Ltd..",
+    "explanation": "Vihaan Networks Ltd. signed the MoU with BSNL for Relief 123.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -80009,7 +80006,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Bengaluru"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Chennai.",
+    "explanation": "Chennai was added to UNESCO’s Creative Cities Network as a City of Music in 2017.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -80036,7 +80033,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "A.B.Vajpayee"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Sardar Vallabhai Patel.",
+    "explanation": "National Unity Day marks Sardar Vallabhbhai Patel’s birthday.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -80063,7 +80060,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Kavaratti."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Kavaratti..",
+    "explanation": "Kavaratti is Lakshadweep’s capital.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=4",
@@ -80090,7 +80087,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Nag"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Arjun.",
+    "explanation": "Arjun was India’s first indigenously developed main battle tank.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80117,7 +80114,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Bihar"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Rajasthan.",
+    "explanation": "The Palace on Wheels is associated with Rajasthan.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80144,7 +80141,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Jharkhand"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Uttarakhand.",
+    "explanation": "Corbett National Park is in Uttarakhand.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80171,7 +80168,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Krishna"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Yamuna..",
+    "explanation": "The Yamuna flows through Delhi, Mathura, and Agra.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80198,7 +80195,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Polo"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Polo.",
+    "explanation": "Mallet is used in polo.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80225,7 +80222,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Progress"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Family Planning.",
+    "explanation": "The red triangle is the symbol of family planning.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80252,7 +80249,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Galvanometer"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Voltmeter.",
+    "explanation": "A voltmeter measures potential difference.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80279,7 +80276,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Nitrous Oxide"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Nitrous Oxide.",
+    "explanation": "Nitrous oxide is used as an anesthetic.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80306,7 +80303,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Coloured mirror"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Convex mirror.",
+    "explanation": "Convex mirrors provide a wide field of view for vehicle rear/side mirrors.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80333,7 +80330,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "45"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: -40.",
+    "explanation": "Celsius and Fahrenheit scales coincide at −40°.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80360,7 +80357,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Home Guards"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Home Guards.",
+    "explanation": "Home Guards were first raised in India in December 1946, before NCC (1948), Territorial Army (1949), and BSF (1965).",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80387,7 +80384,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Dilwara Temple"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Golden Temple.",
+    "explanation": "Amritsar is home to the Golden Temple.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80414,7 +80411,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "promote cultivation of bamboo in non-forest areas."
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: promote cultivation of bamboo in non-forest areas..",
+    "explanation": "The 2017 ordinance excluded bamboo grown in non-forest areas from the legal definition of tree, promoting its cultivation/transport.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=5",
@@ -80441,7 +80438,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Trishul"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Brahmos.",
+    "explanation": "BrahMos was successfully test-fired from a Sukhoi fighter aircraft.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80468,7 +80465,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Gujarat"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Gujarat.",
+    "explanation": "Garba is a Gujarati folk dance.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80495,7 +80492,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Ribosomes"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Mitochondria.",
+    "explanation": "Mitochondria generate most cellular ATP and are called the cell’s powerhouse.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80522,7 +80519,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "D"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: C.",
+    "explanation": "Vitamin C deficiency causes scurvy.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80549,7 +80546,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Liver"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Liver.",
+    "explanation": "The liver is the body’s largest gland.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80576,7 +80573,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Pharmacology"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Microbiology.",
+    "explanation": "Microbiology studies microorganisms, including their structure and uses.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80603,7 +80600,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: None of these.",
+    "explanation": "The usual drinking-water pH range is 6.5–8.5, which is not exactly listed; “None” is therefore correct.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80630,7 +80627,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Silver.",
+    "explanation": "Silver is a chemical element; water and carbon dioxide are compounds.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80657,7 +80654,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: A man standing on one leg.",
+    "explanation": "Standing on one leg is unstable because a small displacement tends to increase the deviation.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80684,7 +80681,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Viscosity"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Strain.",
+    "explanation": "Strain is a ratio of lengths and is dimensionless.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80711,7 +80708,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Vacuum"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Metal bar.",
+    "explanation": "Sound travels fastest in solids such as a metal bar; it does not travel in vacuum.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80738,7 +80735,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "North"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: North.",
+    "explanation": "Earth’s magnetic south pole is near the geographic North Pole.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80765,7 +80762,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Two fluids"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Electrons.",
+    "explanation": "Static charging by friction transfers electrons.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80792,7 +80789,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Copper"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Nichrome.",
+    "explanation": "Nichrome has high resistivity and tolerates high temperatures.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=6",
@@ -80819,7 +80816,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: True.",
+    "explanation": "A true balance returns to zero when the load is removed.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -80846,7 +80843,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "provide assistance to Bangladesh due to influx of Rohingya refugees"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: provide assistance to Bangladesh due to influx of Rohingya refugees.",
+    "explanation": "Operation Insaniyat provided relief to Bangladesh amid the Rohingya refugee influx.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -80873,7 +80870,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "17th"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: 15th.",
+    "explanation": "The November 2017 commission was the 15th Finance Commission.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -80900,7 +80897,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "‘Yoga for Happy life’"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: ‘Yoga for Health’.",
+    "explanation": "The 2017 International Yoga Day theme was “Yoga for Health.”",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -80927,7 +80924,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "IIT-Kanpur"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: IIT-Kharagpur..",
+    "explanation": "IIT Kharagpur, established in 1951, was India’s first IIT.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -80954,7 +80951,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Hongkong"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Japan.",
+    "explanation": "The 2017 Asian Winter Games were held in Sapporo, Japan.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -80980,8 +80977,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Zoom Air",
       "None of these"
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Spice Jet.",
+    "answerIndex": 2,
+    "explanation": "Zoom Air was the newest domestic airline cited in the 2017 context.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -81007,8 +81004,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Number of isotopes",
       "None of these"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Number of isotopes.",
+    "answerIndex": 0,
+    "explanation": "For a neutral atom, atomic number equals the number of orbiting electrons (and also protons).",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -81034,8 +81031,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Carbon",
       "Sulphur"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Nitrogen.",
+    "answerIndex": 2,
+    "explanation": "Carbon is the defining element of organic compounds.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -81061,8 +81058,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "He became the second Dalit to be elected to the post of President.",
       "He was born in 1st October 1945."
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: He was born in 1st October 1945..",
+    "answerIndex": 1,
+    "explanation": "Ram Nath Kovind was a Rajya Sabha member, not a Lok Sabha member, from 1994 to 2006.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -81088,8 +81085,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Eradication of poverty for the weaker.",
       "Women first, Prosperity for All."
     ],
-    "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Prosperity for all the women..",
+    "answerIndex": 3,
+    "explanation": "The summit theme was “Women First, Prosperity for All.”",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=7",
@@ -81115,8 +81112,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Magnesium and Alumina",
       "None of these"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Magnesium and Alumina.",
+    "answerIndex": 0,
+    "explanation": "Oceanic crust is basaltic and rich in silica and magnesium (sima).",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81142,8 +81139,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Meanders",
       "Levees"
     ],
-    "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Levees.",
+    "answerIndex": 2,
+    "explanation": "Meanders are large bends in a river channel across a plain.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81169,8 +81166,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Methylene",
       "Ethylene"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Propane.",
+    "answerIndex": 3,
+    "explanation": "Ethylene promotes fruit ripening.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81197,7 +81194,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Padma Shri"
     ],
     "answerIndex": -1,
-    "explanation": "The scan/options do not support a unique answer; keep the question unscored.",
+    "explanation": "Government employees are generally ineligible for Padma awards (with limited exceptions), which includes Padma Vibhushan, Padma Bhushan, and Padma Shri; the question asks for a single award but lists three.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81207,7 +81204,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Source-reviewed answer-key hold."
+    "sourceNote": "Held after scan review; the available choices do not support one reliable answer."
   },
   {
     "id": "mpsc-group-b-mes-power-2018-gs-Q93",
@@ -81225,8 +81222,8 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Secretariat",
       "All of the above in joint session"
     ],
-    "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Secretariat.",
+    "answerIndex": 1,
+    "explanation": "The Security Council recommends a Secretary-General candidate to the General Assembly.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81252,16 +81249,15 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Referendum",
       "Plebiscite"
     ],
-    "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: By-election.",
+    "answerIndex": -1,
+    "explanation": "“Referendum” and “plebiscite” both describe a direct popular vote on an important political issue, and are used synonymously in many references. The item offers both.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
-    "answerSource": "derived",
-    "answerConfidence": "high",
-    "sourceReviewed": true,
+    "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
+    "sourceReviewed": true,
+    "sourceNote": "Held after scan review; the available choices do not support one reliable answer."
   },
   {
     "id": "mpsc-group-b-mes-power-2018-gs-Q95",
@@ -81280,7 +81276,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Gangri"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Ladakh.",
+    "explanation": "Khapa-chan is a name associated with Ladakh.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81307,7 +81303,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "None of these"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Amitabh Bachchan.",
+    "explanation": "Amitabh Bachchan was named Indian Film Personality of the Year in the 2017 context.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81334,7 +81330,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Subhash Chandra Bose"
     ],
     "answerIndex": 3,
-    "explanation": "Option D is the best-supported answer: Subhash Chandra Bose.",
+    "explanation": "The slogan is associated with Subhas Chandra Bose.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81361,7 +81357,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Jharkhand"
     ],
     "answerIndex": 1,
-    "explanation": "Option B is the best-supported answer: Kerala.",
+    "explanation": "Kerala is India’s leading rubber-producing state.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81388,7 +81384,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Constitution of UK"
     ],
     "answerIndex": 2,
-    "explanation": "Option C is the best-supported answer: Constitution of socialist countries such as Russia.",
+    "explanation": "Fundamental Duties were inspired by constitutions of socialist states, especially the USSR.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",
@@ -81415,7 +81411,7 @@ const groupBQuestionsPart10: BankQuestion[] = [
       "Tropical rainforests"
     ],
     "answerIndex": 0,
-    "explanation": "Option A is the best-supported answer: Tropical deciduous.",
+    "explanation": "Tropical deciduous forests occupy the largest share of India’s forest area.",
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under Power & Electricity Department · August 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/mes-power-2018-gs.pdf#page=8",

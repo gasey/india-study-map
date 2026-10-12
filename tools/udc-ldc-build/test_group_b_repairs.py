@@ -349,7 +349,11 @@ class ReviewedRepairTests(unittest.TestCase):
             self.assertEqual(len(mcq), mcq_count)
             self.assertEqual(len(part) - len(mcq), written_count)
             self.assertEqual({int(q['questionNumber'].lstrip('B')) for q in mcq}, set(range(1, mcq_count + 1)))
-            self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1 for q in mcq))
+            if slug in ('station-officer-2018-gk', 'si-police-ub-2018-gk'):
+                # These papers were reviewed on 2026-10-12 and now have derived answers
+                self.assertTrue(all(q.get('sourceReviewed') for q in mcq))
+            else:
+                self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1 for q in mcq))
             self.assertTrue(all((root / 'public' / q['imagePath'].lstrip('/')).is_file()
                                 for q in part if q.get('imagePath')))
             if slug == 'programmer-phe-2018-english-p1':

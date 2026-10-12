@@ -7,12 +7,12 @@
     "records": 26878,
     "mcq": 25857,
     "writtenRecords": 1021,
-    "ready": 15896,
+    "ready": 16281,
     "readyOfficial": 8322,
-    "pendingMcq": 9485,
-    "heldReviewed": 476,
-    "workedGuidesReviewed": 8717,
-    "pendingMcqGuides": 17140,
+    "pendingMcq": 9085,
+    "heldReviewed": 491,
+    "workedGuidesReviewed": 9117,
+    "pendingMcqGuides": 16740,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -67,12 +67,12 @@
       "records": 14946,
       "mcq": 14946,
       "writtenRecords": 0,
-      "ready": 11288,
+      "ready": 11673,
       "readyOfficial": 6205,
-      "pendingMcq": 3325,
-      "heldReviewed": 333,
-      "workedGuidesReviewed": 5497,
-      "pendingMcqGuides": 9449,
+      "pendingMcq": 2925,
+      "heldReviewed": 348,
+      "workedGuidesReviewed": 5897,
+      "pendingMcqGuides": 9049,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -10965,12 +10965,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 92,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 8,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10979,18 +10979,67 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 92,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 8,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q43",
+          "questionNumber": "43",
+          "section": "gk",
+          "reason": "The 1740s source estimate falls in both the 1740–1750 and 1730–1750 options, so the overlapping ranges do not give a unique answer."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q82",
+          "questionNumber": "82",
+          "section": "gk",
+          "reason": "The scan’s four-arm number cross has no clearly supported single rule from the displayed examples; hold rather than infer a pattern."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q86",
+          "questionNumber": "86",
+          "section": "gk",
+          "reason": "Both “stern:boat” and “beam:ship” express a part-to-whole relation like heel:foot, so two options fit."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q91",
+          "questionNumber": "91",
+          "section": "gk",
+          "reason": "The figure-matrix rule is not uniquely recoverable from the low-resolution scan; leave unscored."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q93",
+          "questionNumber": "93",
+          "section": "gk",
+          "reason": "The dot-and-line matrix does not produce a uniquely defensible missing figure from the scan; leave unscored."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q95",
+          "questionNumber": "95",
+          "section": "gk",
+          "reason": "The human-figure matrix has several changing body/head components with no unique rule established; leave unscored."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q97",
+          "questionNumber": "97",
+          "section": "gk",
+          "reason": "The boy could be the girl’s brother or cousin depending on whether the uncle’s daughter is her mother or aunt; the relationship is underspecified."
+        },
+        {
+          "id": "mpsc-group-b-eo-2019-gs3-Q99",
+          "questionNumber": "99",
+          "section": "gk",
+          "reason": "The clues leave arrangements where both RV and QW can be non-neighbours, so the multiple-choice item has no unique answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-leit-2019-english-p1",
@@ -12494,12 +12543,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 96,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -12508,18 +12557,43 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 96,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q29",
+          "questionNumber": "29",
+          "section": "gk",
+          "reason": "All four statements appear true: Mir Qasim succeeded Siraj-ud-Daulah, moved the capital to Monghyr, signed a treaty with the Company in 1760, and ruled during the Battle of Buxar. No listed statement is clearly false."
+        },
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q34",
+          "questionNumber": "34",
+          "section": "gk",
+          "reason": "Both Berar and Bikaner were not annexed under the Doctrine of Lapse: Berar was assigned/ceded on other grounds, while Bikaner was not annexed. Multiple options (c and d) are defensible."
+        },
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q37",
+          "questionNumber": "37",
+          "section": "gk",
+          "reason": "No listed year is correct if ‘first official census’ means the first census actually conducted: India’s first census was held non-synchronously in 1872. 1881 was the first synchronous all-India census; neither 1872 nor an explicit synchronous qualifier appears among choices."
+        },
+        {
+          "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q58",
+          "questionNumber": "58",
+          "section": "gk",
+          "reason": "The Consumer Protection Act empowered these commissions with specified civil-court powers; none of the choices (civil or judicial magistrate, first or second class) states that power correctly."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -12534,12 +12608,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 100,
       "readyOfficial": 0,
-      "pendingMcq": 100,
+      "pendingMcq": 0,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -12548,12 +12622,12 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 100,
           "readyOfficial": 0,
-          "pendingMcq": 100,
+          "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -12796,12 +12870,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -12810,18 +12884,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-iof-2019-gs-Q10",
+          "questionNumber": "10",
+          "section": "gk",
+          "reason": "Mirabai Chanu won gold in the 48 kg category at the 2018 Commonwealth Games; none of the options (55, 45, 65, 50 kg) is correct."
+        },
+        {
+          "id": "mpsc-group-b-iof-2019-gs-Q69",
+          "questionNumber": "69",
+          "section": "gk",
+          "reason": "World Blood Donor Day is 14 June, but none of the options gives that date."
+        },
+        {
+          "id": "mpsc-group-b-iof-2019-gs-Q74",
+          "questionNumber": "74",
+          "section": "gk",
+          "reason": "Jammu and Kashmir came under Governor’s Rule in June 2018; President’s Rule began in December 2018. No option answers the question as written."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-jao-2025-p1",

@@ -489757,14 +489757,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "EKA",
       "PARAM YUVA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "PARAM 8000, developed by C-DAC, was India’s first supercomputer.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q2",
@@ -489782,17 +489784,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "IIT Chennai",
       "IIT Kanpur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "IIT Kharagpur was established first, in 1951.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q3",
@@ -489810,17 +489811,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "APJ Abdul Kalam",
       "Satish Dhawan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Vikram Sarabhai is recognized as the father of India’s space programme.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q4",
@@ -489838,17 +489838,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "India",
       "Israel"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Aryabhata was launched by a Soviet Kosmos-3M rocket from Kapustin Yar.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q5",
@@ -489866,17 +489865,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "15th August, 1995",
       "26th August, 1997"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "VSNL launched public Internet service in India on 15 August 1995.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q6",
@@ -489894,17 +489892,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Electric waves",
       "Ultrasonic waves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Radar detects objects by transmitting and receiving radio waves.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q7",
@@ -489922,17 +489919,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Ambika Soni and Narasimha Rao",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Jyoti Basu made the first Indian mobile call to Union telecom minister Sukh Ram in 1995.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q8",
@@ -489950,17 +489946,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Pratap Reddy",
       "Naresh Trehan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Subhash Mukhopadhyay created Durga, India’s first test-tube baby.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q9",
@@ -489978,17 +489973,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Cochin",
       "Chennai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The National Institute of Ocean Technology is headquartered in Chennai.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q10",
@@ -490006,17 +490000,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Sutlej River",
       "Brahmaputra River"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bhakra Dam is built across the Sutlej River.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q11",
@@ -490034,17 +490027,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Vikram Sarabhai",
       "Jamsetji Tata"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jamsetji Tata was the founder and principal benefactor of the Indian Institute of Science.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q12",
@@ -490062,17 +490054,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "13 March",
       "30 August"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India observes National Mathematics Day on Ramanujan’s birthday, 22 December.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q13",
@@ -490090,17 +490081,16 @@ const groupBQuestionsPart58: BankQuestion[] = [
       "Genetics",
       "Mathematics"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Har Gobind Khorana received the Nobel Prize in Chemistry.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   }
 ];
 const groupBQuestionsPart59: BankQuestion[] = [
@@ -490120,17 +490110,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Prime Minister of India",
       "Union Minister of Science and Technology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Prime Minister is ex-officio chair of CSIR.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q15",
@@ -490148,17 +490137,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "HAMSAT",
       "EDUSAT"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "EDUSAT was India’s first satellite dedicated to education.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q16",
@@ -490176,17 +490164,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Mumbai",
       "Bangalore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "ISRO headquarters is in Bengaluru.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q17",
@@ -490204,17 +490191,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "1988",
       "1996"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India’s first nuclear test, Smiling Buddha, was conducted in 1974.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q18",
@@ -490232,17 +490218,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Homi J Bhabha",
       "Vikram  Sarabhai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Homi J. Bhabha founded India’s nuclear programme.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q19",
@@ -490260,17 +490245,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "satellite television communication",
       "wireless communication between equipment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bluetooth enables short-range wireless communication between devices.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q20",
@@ -490288,17 +490272,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Pyrometer",
       "Lactometer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A hygrometer measures humidity.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q21",
@@ -490316,17 +490299,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Prithvi-4",
       "K-15"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The K-15 (Sagarika) is a submarine-launched ballistic missile.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q22",
@@ -490344,17 +490326,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Indian Institute of Science, Bangalore",
       "Indian Iron and Steel Co. Ltd., Burnpur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India’s first computer, HEC-2M, was installed at the Indian Statistical Institute in Calcutta.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q23",
@@ -490372,17 +490353,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "M.S. Swaminathan",
       "J.V. Narlikar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Verghese Kurien led the White Revolution in India.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q24",
@@ -490400,17 +490380,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Palladium catalysed cross couplings in organic synthesis",
       "Work in the area of olefin metathesis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Ramakrishnan shared the 2009 Chemistry Nobel for studies of ribosome structure and function.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q25",
@@ -490428,17 +490407,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Antarctica",
       "Arabian Sea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dakshin Gangotri was established in Antarctica.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q26",
@@ -490456,17 +490434,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "1967",
       "1977"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The SITE-era rural development television broadcasts began in 1967.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q27",
@@ -490484,17 +490461,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Tidal wave energy",
       "Nuclear energy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Solar energy is widely suited to India’s abundant sunlight.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q28",
@@ -490512,17 +490488,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Subscriber Telephone Dialing",
       "Save Telephone Dialing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "STD means Subscriber Trunk Dialling.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q29",
@@ -490540,17 +490515,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Prithvi",
       "Arjun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Arjun is a battle tank, not a missile in the Integrated Guided Missile Development Programme.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q30",
@@ -490568,17 +490542,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Ham, a chimpanzee",
       "Felix, a cat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Laika, a dog, was the first living creature sent into Earth orbit.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q31",
@@ -490596,17 +490569,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "French Guiana",
       "Sri Harikota"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "IRS-1A was launched from Baikonur by a Soviet rocket.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q32",
@@ -490624,17 +490596,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Columbia",
       "Discovery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kalpana Chawla’s first spaceflight was aboard Space Shuttle Columbia in 1997.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q33",
@@ -490652,17 +490623,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Rotameter",
       "Pilot tube"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A pilot tube measures airflow speed and is used for aircraft airspeed.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q34",
@@ -490680,17 +490650,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Edward Teller",
       "Hans Bethe"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Edward Teller is widely known as the father of the hydrogen bomb.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q35",
@@ -490708,17 +490677,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Chlorine",
       "Methane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nitrous oxide is commonly called laughing gas.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q36",
@@ -490736,17 +490704,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "B group",
       "O group"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "People with AB blood group are universal recipients for red-cell transfusions (under the standard ABO framing).",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q37",
@@ -490764,17 +490731,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "pollutants",
       "seeds"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pedology is the scientific study of soils.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q38",
@@ -490792,17 +490758,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Butane and propane",
       "Carbon dioxide and oxygen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "LPG cooking gas is principally a mixture of butane and propane.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q39",
@@ -490820,14 +490785,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Khaw kheng thawi",
       "Vawkte khal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Fano dawi is a ritual associated with seeking a productive jhum harvest.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q40",
@@ -490845,14 +490812,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Tukluh bawi",
       "Lal sutpui vuan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tukluh bawi referred to a person captured or surrendered after defeat in war.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q41",
@@ -490870,14 +490839,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Khawmu",
       "Tulum"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Khawmu is the Mizo folklore figure described in the question as a large female demon.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q42",
@@ -490895,14 +490866,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Chin Hills",
       "Kawlphai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Kawlphai is the Mizo name associated with the Kabaw Valley settlement region.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q43",
@@ -490921,7 +490894,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "1730 - 1750 AD"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The 1740s source estimate falls in both the 1740–1750 and 1730–1750 options, so the overlapping ranges do not give a unique answer.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
@@ -490930,7 +490903,8 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The 1740s source estimate falls in both the 1740–1750 and 1730–1750 options, so the overlapping ranges do not give a unique answer."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q44",
@@ -490948,14 +490922,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Zalen",
       "Thirdeng"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Zalen were chief’s kin who could choose jhum land; historical accounts describe their allocation privilege.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q45",
@@ -490973,17 +490949,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "April, 1844",
       "January, 1871"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The first recorded Lushai raid on British territory is dated April 1844.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q46",
@@ -491001,14 +490976,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Rothangpuia",
       "Lalburha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Suakpuilala is the chief associated with the claim of placing his image on a coin.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q47",
@@ -491026,17 +491003,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Haka",
       "Demagiri"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Fort Tregear, the Chittagong Column’s advanced base, was at Demagiri.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q48",
@@ -491054,14 +491030,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Burma Army",
       "Lushai Army"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Lushai Scout Corps was also called Biate Sipai.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q49",
@@ -491079,17 +491057,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "25 June 1899",
       "25 July 1899"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The source’s intended answer is 25 July 1899 for Khuma and Khara’s baptism.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q50",
@@ -491107,17 +491084,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "2029",
       "2900"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "About 2,100 Lushai men left in the 27th Labour Corps in 1917; 2,029 later returned.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q51",
@@ -491135,17 +491111,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Mizo National Brigade (MNB)",
       "Mizo National Army (MNA)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The MNF’s armed force was called the Mizo National Army.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q52",
@@ -491163,14 +491138,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Awkpaka",
       "Awlrawt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bawhbel was the large log fastened across the main entrance of the early zawlbuk.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q53",
@@ -491188,14 +491165,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Biate",
       "Tachhip"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kairuma’s memorial stone is at Biate.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q54",
@@ -491213,17 +491192,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Extended Loop Area",
       "Voluntery Grouping Centre"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first village-grouping phase was called Protected and Progressive Villages.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q55",
@@ -491241,17 +491219,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Anandam Padmanaban",
       "Hiteshwar Saikia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "General K. V. Krishna Rao was Mizoram’s first Governor after statehood.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q56",
@@ -491269,14 +491246,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Lalchhandama Ralte",
       "Lalruatkima"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lalchhandama Ralte held the Labour, Employment, Skill Development and Entrepreneurship portfolio in 2019.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q57",
@@ -491294,14 +491273,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "15th Lok Sabha",
       "16th Lok Sabha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dr H. Lallungmuana was elected during the 13th Lok Sabha.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q58",
@@ -491319,14 +491300,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Lemlawi",
       "Fenthlir"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bengbung, Rawchhem and Lemlawi are documented Mizo instruments; Fenthlir is not among them.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q59",
@@ -491344,17 +491327,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "C.A. Soppit",
       "Capt. J.Shakespeare"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "T. H. Lewin wrote The Hill Tracts of Chittagong and the Dwellers Therein.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q60",
@@ -491372,14 +491354,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Za chham lak",
       "Sarthi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Za chham lak means a sudden death without an apparent cause.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q61",
@@ -491397,14 +491381,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Raldawna and Tumchhingi",
       "Chhawrtuineihlala and Tuanpuii"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The paired characters in the Duhmanga tale are Duhmanga and Dardini, making Duhmanga–Tlingi the odd pair.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q62",
@@ -491422,14 +491408,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Thang lian",
       "Puang zar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The conventional gloss for “Lawi ang thang” is “Thang lian.”",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q63",
@@ -491447,17 +491435,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Chhura farep - Zotlang, Champhai",
       "Lungvando - Biate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kawtchhuah Ropui at Vangchhia is the ASI-protected megalithic site.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q64",
@@ -491475,17 +491462,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "11 May, 2011",
       "11 May, 2009"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The World Bank-funded Aizawl–Lunglei road was inaugurated on 11 May 2011.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q65",
@@ -491503,17 +491489,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Rev. Dr. Zairema",
       "Rev. Liangkhaia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rev. Dr Zairema wrote God’s Miracles in Mizoram.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q66",
@@ -491531,17 +491516,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Rs. 93293",
       "Rs. 85317"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 2016–17 Economic Survey gives 2015–16 per-capita income as Rs 85,659.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q67",
@@ -491559,17 +491543,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Krista Tlangau",
       "Kohhran Beng"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mizo Chanchin Laisuih was the first Mizo-language newspaper, published in 1898.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q68",
@@ -491587,17 +491570,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "2157 metres",
       "2156 metres"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Phawngpui’s listed height is 2,157 metres.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q69",
@@ -491615,14 +491597,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Prof. A.K. Sharma",
       "Prof. K.R.S. Sambasiva Rao"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Prof. K. R. S. Sambasiva Rao was Mizoram University vice-chancellor in April 2019.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q70",
@@ -491640,17 +491624,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Mim Kut",
       "Thal Favang Kut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Chai dance is associated with Chapchar Kut.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q71",
@@ -491668,17 +491651,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "1876",
       "1896"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The ‘Thli chhe tleh kum’ event is dated 1876 in Mizo traditional chronology.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q72",
@@ -491696,17 +491678,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Lalruanga, Kungawrhi & Chemtatrawta",
       "Chemtatrawta, Lalruanga & Chhura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lewin recorded Chemtatrawta, Lalruanga and Kungawrhi; option C contains those three tales.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q73",
@@ -491724,14 +491705,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Dr. Peter Frazer",
       "Edith Chapman"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dr Peter Fraser pursued emancipation of slaves and faced a court case over his efforts.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q74",
@@ -491749,17 +491732,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Palai",
       "Lawichal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lawichal is appointed by the bride’s family to escort her safely to the groom’s home.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q75",
@@ -491777,17 +491759,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Nose",
       "Ears"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Mizo belief described the spirit as leaving through the tip of the head.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q76",
@@ -491805,17 +491786,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "17",
       "18"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The pattern alternates −5 and −2, so the next term is 17.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q77",
@@ -491833,17 +491813,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "5.7",
       "5.9"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The sequence increases by 0.8 each time, giving 5.5.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q78",
@@ -491861,17 +491840,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "324",
       "429"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Multiply by successive integers and subtract the next integer: ×1−2, ×2−3, ×3−4, ×4−5, then ×5−6 = 429.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q79",
@@ -491889,17 +491867,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "109",
       "178"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The pattern alternates ÷2 and +8, so 178 ÷2 = 89.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q80",
@@ -491917,17 +491894,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "11",
       "12"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Half the sum of each row gives 6, 8, then (6+9+5)/2 = 10.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q81",
@@ -491945,17 +491921,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "15",
       "22"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Multiply the first two numbers and subtract the third: 5×5−3 = 22.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q82",
@@ -491974,13 +491949,14 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "71"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The scan’s four-arm number cross has no clearly supported single rule from the displayed examples; hold rather than infer a pattern.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "The scan’s four-arm number cross has no clearly supported single rule from the displayed examples; hold rather than infer a pattern."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q83",
@@ -491998,14 +491974,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "22",
       "23"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The centre number is the sum of the four outer numbers; 9+1+6+4 = 20.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q84",
@@ -492023,17 +492001,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "helmet : injury",
       "water : tide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A levee protects against floods just as a helmet protects against injury.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q85",
@@ -492051,17 +492028,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "explode : ignite",
       "pilfer : steal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Extort means obtain by force; pilfer means steal.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q86",
@@ -492080,7 +492056,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "cruiser : vessel"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “stern:boat” and “beam:ship” express a part-to-whole relation like heel:foot, so two options fit.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
@@ -492089,7 +492065,8 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Both “stern:boat” and “beam:ship” express a part-to-whole relation like heel:foot, so two options fit."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q87",
@@ -492107,17 +492084,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "censure",
       "critique"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Critique is the least direct synonym for condemn; the other choices are closer synonyms.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q88",
@@ -492135,17 +492111,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "amass",
       "deliberate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Amass means accumulate or gather.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q89",
@@ -492163,17 +492138,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "vigilant",
       "imperturbable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Perpetual means continuous or never-ending.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q90",
@@ -492191,17 +492165,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "facilitate",
       "disrespect"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Expedite means facilitate or make progress faster.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q91",
@@ -492220,13 +492193,14 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The figure-matrix rule is not uniquely recoverable from the low-resolution scan; leave unscored.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "The figure-matrix rule is not uniquely recoverable from the low-resolution scan; leave unscored."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q92",
@@ -492244,14 +492218,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The third figure in each row is the component left after subtracting the first from the second; the missing component is the X figure (4).",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q93",
@@ -492270,13 +492246,14 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The dot-and-line matrix does not produce a uniquely defensible missing figure from the scan; leave unscored.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "The dot-and-line matrix does not produce a uniquely defensible missing figure from the scan; leave unscored."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q94",
@@ -492294,14 +492271,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "3",
       "4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The matrix’s third column and bottom row complete as full vertical lines; figure 3 does so.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q95",
@@ -492320,13 +492299,14 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "4"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The human-figure matrix has several changing body/head components with no unique rule established; leave unscored.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "The human-figure matrix has several changing body/head components with no unique rule established; leave unscored."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q96",
@@ -492344,17 +492324,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "P - M + N x Q",
       "Q - S % P"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "P is M’s brother; M is N’s mother; N is Q’s sister, so P is Q’s maternal uncle.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q97",
@@ -492373,7 +492352,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Son-in-law"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The boy could be the girl’s brother or cousin depending on whether the uncle’s daughter is her mother or aunt; the relationship is underspecified.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=11",
@@ -492382,7 +492361,8 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The boy could be the girl’s brother or cousin depending on whether the uncle’s daughter is her mother or aunt; the relationship is underspecified."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q98",
@@ -492400,17 +492380,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "Between E and D",
       "Between C and E"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The only arrangement satisfying the clues is E–B–A–C–D, placing A directly between B and C.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q99",
@@ -492429,7 +492408,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "QW"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The clues leave arrangements where both RV and QW can be non-neighbours, so the multiple-choice item has no unique answer.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=11",
@@ -492438,7 +492417,8 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The clues leave arrangements where both RV and QW can be non-neighbours, so the multiple-choice item has no unique answer."
   },
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q100",
@@ -492456,14 +492436,16 @@ const groupBQuestionsPart59: BankQuestion[] = [
       "28 triangles, 5 squares",
       "24 triangles, 3 squares"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Counting all sizes gives 24 triangles and the three unit squares.",
     "source": "Employment Officer under Labour, Employment & Industrial Training Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/eo-2019-gs3.pdf#page=11",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-fr-2019-english-1-written-1",
@@ -503817,17 +503799,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Four times",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Vajpayee was Prime Minister on three separate occasions: briefly in 1996, then in 1998–99 and 1999–2004.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q2",
@@ -503845,17 +503826,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Shan state",
       "Kachin state"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Rohingya crisis and associated human-rights abuses drew international condemnation in Rakhine State.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q3",
@@ -503873,17 +503853,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "NPP",
       "NCP"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Conrad Sangma won the South Tura by-election as a National People’s Party (NPP) candidate.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q4",
@@ -503901,14 +503880,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "7th",
       "8th"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India placed eighth in the 2018 Asian Games medal table.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q5",
@@ -503926,17 +503907,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "National Center for Biological Science",
       "DRDO"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Council of Scientific and Industrial Research launched the Science and the City initiative.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q6",
@@ -503954,17 +503934,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "April 10",
       "April 11"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "World Homeopathy Day is observed on 10 April.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q7",
@@ -503982,14 +503961,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Rajasthan",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Maharashtra announced free chemotherapy for cancer patients through its public health services.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q8",
@@ -504007,14 +503988,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Utter Pradesh",
       "Rajasthan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Haryana announced ₹500 monthly nutrition assistance for notified TB patients from 1 April 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q9",
@@ -504032,14 +504015,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kerala",
       "Tamilnadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Maharashtra included organ and body donation in the secondary-school syllabus.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q10",
@@ -504058,7 +504043,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "50 kg"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Mirabai Chanu won gold in the 48 kg category at the 2018 Commonwealth Games; none of the options (55, 45, 65, 50 kg) is correct.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
@@ -504067,7 +504052,8 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Mirabai Chanu won gold in the 48 kg category at the 2018 Commonwealth Games; none of the options (55, 45, 65, 50 kg) is correct."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q11",
@@ -504085,17 +504071,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ministry of Coal",
       "Ministry of Health"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "UTTAM was launched by the Ministry of Coal.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q12",
@@ -504113,14 +504098,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ahmedabad",
       "Bhopal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Global Logistics Conference was inaugurated in New Delhi.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q13",
@@ -504138,17 +504125,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "April 4, 2018",
       "April 5, 2018"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "National Maritime Day is observed on 5 April.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q14",
@@ -504166,17 +504152,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Arun Jaitley",
       "Nitin Jairam Gadkari"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Nirmala Sitharaman was India’s Defence Minister at the time.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q15",
@@ -504194,17 +504179,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Maharashtra",
       "Gujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kummanam Rajasekharan is from Kerala.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q16",
@@ -504222,14 +504206,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Ministry of Human Development",
       "Ministry of Women and Child Development"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rashtriya Avishkar Abhiyan was launched by the Ministry of Human Resource Development; option (c) omits ‘Resource.’",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q17",
@@ -504247,17 +504233,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Sikkim",
       "Uttarakhand"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sikkim announced a monthly pension for eligible organic farmers.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q18",
@@ -504275,14 +504260,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Karnataka",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Karnataka introduced one-percent reservation for orphans in education and public employment.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q19",
@@ -504300,14 +504287,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Tawnluia",
       "Robert Romawia Royte"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Dr. Beichhua held the relevant Mizoram ministerial portfolio at the time.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q20",
@@ -504325,17 +504314,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "USA",
       "Vietnam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India overtook Vietnam to become the world’s second-largest mobile-phone producer.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q21",
@@ -504346,21 +504334,23 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies",
     "difficulty": "medium",
-    "question": "Which state government signed a landmark agreement with Hmar Peoples Convention (Democratic)",
+    "question": "Which state government signed a landmark agreement with Hmar Peoples Convention (Democratic) or HPC (D) on April 2, 2018",
     "options": [
       "Nagaland",
       "Manipur",
       "Mizoram",
       "Assam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The agreement with HPC (D) was signed by the Mizoram government.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q22",
@@ -504378,17 +504368,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Gujarat",
       "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kerala won the 2018 Santosh Trophy final against West Bengal.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q23",
@@ -504406,17 +504395,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "John Isner",
       "Andy Murray"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "John Isner won the 2018 Miami Open men’s singles title.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q24",
@@ -504434,17 +504422,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Article 16",
       "Article 19"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Article 14 guarantees equality before the law and equal protection of the laws; the right to equality spans Articles 14–18.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q25",
@@ -504462,17 +504449,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Goldilock Zone",
       "Venus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "NASA’s InSight mission was designed to study the interior of Mars.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q26",
@@ -504490,17 +504476,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "April 1, 2018",
       "April 2, 2018"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The nationwide e-way bill system took effect on 1 April 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q27",
@@ -504518,17 +504503,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1993",
       "1994"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Protection of Human Rights Act was enacted in 1993.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q28",
@@ -504546,14 +504530,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kelsih",
       "Kelkang"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sibuta Lung is at Tachhip (the option spells it ‘Tachhip’).",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q29",
@@ -504571,17 +504557,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Mr. Pranab Mukherjee",
       "Dr. Shankar Dayal Sharma"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A.P.J. Abdul Kalam was the first President to visit Siachen.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q30",
@@ -504599,14 +504584,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Chhattisgarh",
       "Odisha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The ancient zircon grain was found in a rock sample from Odisha’s Singhbhum region.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q31",
@@ -504624,17 +504611,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Iraq",
       "Kuwait"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Iraq was India’s largest oil supplier in the cited reporting period.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q32",
@@ -504652,17 +504638,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "26 January",
       "29 January"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Human Rights Day is observed on 10 December.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q33",
@@ -504680,17 +504665,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Gujarat",
       "Uttar Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Statue of Unity stands in Gujarat.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q34",
@@ -504708,17 +504692,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "The existence of some small universes rather than multiverse",
       "Quantum communication system and security"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Hawking’s final research paper discussed a possible finite set of small universes rather than an unlimited multiverse.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q35",
@@ -504736,14 +504719,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Bijapur, Chhattisgarh",
       "Dhar, Madhya Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The first Van Dhan Vikas Kendra was opened in Bijapur, Chhattisgarh.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q36",
@@ -504761,17 +504746,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Facebook",
       "Google"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "NITI Aayog signed its AI letter of intent with Microsoft.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q37",
@@ -504789,17 +504773,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Hyderabad",
       "Amravati"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Deccan Dialogue was held in Hyderabad.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q38",
@@ -504817,17 +504800,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Bangkok-Jakarta",
       "Washington-Paris"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Singapore–Kuala Lumpur was the busiest international air route among the listed options.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q39",
@@ -504845,17 +504827,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Medical treatment and Higher Education",
       "To start a new business and purchase a new house"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "NPS partial withdrawals could be used for medical treatment and children’s higher education (among other permitted purposes).",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q40",
@@ -504873,17 +504854,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Assam",
       "Manipur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Tiwa community celebrates Yangli in Assam.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q41",
@@ -504901,14 +504881,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Uttar Pradesh Chief Minister Shri Yogi Adityanath",
       "Chief Minister of Odisha Mr. Naveen Patnaik"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bihar Chief Minister Nitish Kumar proposed adding ‘non-violence’ to the Constitution’s Preamble.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q42",
@@ -504926,14 +504908,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Pradhan Mantri Kshetriya Vikash Karyakram",
       "Pradhan Mantri Rashtriya Vikash Karyakram"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Multi-Sectoral Development Programme was renamed Pradhan Mantri Jan Vikas Karyakram.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q43",
@@ -504951,14 +504935,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Aizawl South II",
       "Aizawl West II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lalduhoma gave up Aizawl West-I and retained Serchhip.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q44",
@@ -504976,17 +504962,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Venus",
       "Mars"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "InSight investigates Mars’s internal structure.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q45",
@@ -505004,17 +504989,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kamal Hassan",
       "Sri Sri Ravi Shankar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Actor Kamal Haasan launched the Maiam Whistle app.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q46",
@@ -505032,17 +505016,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Patna",
       "Guwahati"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pravasi Bharatiya Divas 2019 was hosted in Varanasi.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q47",
@@ -505060,17 +505043,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Nangbo, China",
       "Ningbo, China"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Asian Weightlifting Championships were held in Ningbo, China.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q48",
@@ -505088,17 +505070,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "22nd March",
       "27th March"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "World Water Day is 22 March.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q49",
@@ -505116,17 +505097,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Shashi Kapoor",
       "Kader Khan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Vinod Khanna received the 2018 Dadasaheb Phalke Award, announced at the 2017 National Film Awards.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q50",
@@ -505144,17 +505124,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Divya Dutta",
       "Sasha Thirupati"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Sridevi received the 65th National Film Award for Best Actress for Mom.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q51",
@@ -505172,17 +505151,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Canada",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Australia topped the 2018 Commonwealth Games medal table.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q52",
@@ -505200,17 +505178,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Puducherry",
       "Kochi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Diu became the first Indian city to run entirely on renewable energy during daytime.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q53",
@@ -505228,17 +505205,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Fiction",
       "Music"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Kendrick Lamar won the Pulitzer Prize for Music.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q54",
@@ -505256,17 +505232,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Cairo",
       "Hong Kong"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The WHO report identified Delhi as the most polluted megacity among the listed choices.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q55",
@@ -505284,17 +505259,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "3rd May",
       "5th May"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "World Press Freedom Day is observed on 3 May.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q56",
@@ -505312,17 +505286,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Vladimir Putin",
       "Narendra Modi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Forbes ranked Vladimir Putin as the world’s most powerful person in 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q57",
@@ -505340,17 +505313,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Hershey",
       "TATA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Walmart acquired a 77% stake in Flipkart.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q58",
@@ -505368,17 +505340,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Odisha",
       "Tamil Nadu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The 2018 Nipah outbreak in India was detected in Kerala.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q59",
@@ -505396,17 +505367,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Pune",
       "Indore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Indore was ranked India’s cleanest city in Swachh Survekshan 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q60",
@@ -505424,17 +505394,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Singapore",
       "Sri Lanka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Malaysia’s Mahathir Mohamad was elected Prime Minister at age 92.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q61",
@@ -505452,17 +505421,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Liverpool F.C.",
       "Juventus"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Real Madrid won the 2018 UEFA Champions League.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q62",
@@ -505480,17 +505448,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kolkata Knight Riders",
       "Royal Challengers Bangalore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Chennai Super Kings won IPL 2018. The scan duplicates Kolkata Knight Riders as options (b) and (c), but the correct option is still unique.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q63",
@@ -505508,17 +505475,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Chandigarh",
       "Meerut"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Delhi–Meerut Expressway connects Delhi with Meerut.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q64",
@@ -505536,14 +505502,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Colombia",
       "Brazil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Colombia became the first South American country to join NATO as a global partner (not a member).",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q65",
@@ -505561,17 +505529,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Chennai",
       "Bengaluru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bengaluru Airport was recognized as the world’s busiest single-runway airport.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q66",
@@ -505589,17 +505556,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Angelique Kerber",
       "Petra Kvitová"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Simona Halep won the 2018 French Open women’s singles title.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q67",
@@ -505617,17 +505583,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "12th June",
       "18th June"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "World Day Against Child Labour is 12 June.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q68",
@@ -505645,17 +505610,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Japan",
       "China"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first Trump–Kim summit took place in Singapore.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q69",
@@ -505674,7 +505638,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "18th June"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "World Blood Donor Day is 14 June, but none of the options gives that date.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
@@ -505683,7 +505647,8 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "World Blood Donor Day is 14 June, but none of the options gives that date."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q70",
@@ -505701,17 +505666,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Lionel Messi",
       "Diego Costa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Cristiano Ronaldo scored the tournament’s first hat-trick, against Spain.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q71",
@@ -505729,17 +505693,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "United Kingdom",
       "United States of America"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The United States announced its withdrawal from the UN Human Rights Council.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q72",
@@ -505757,17 +505720,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Anukreethy Vas",
       "Meenakshi Chaudhary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Anukreethy Vas won Femina Miss India 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q73",
@@ -505785,17 +505747,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "June 21",
       "June 24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "World Refugee Day is 20 June.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q74",
@@ -505814,7 +505775,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Jammu and Kashmir"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Jammu and Kashmir came under Governor’s Rule in June 2018; President’s Rule began in December 2018. No option answers the question as written.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=6",
@@ -505823,7 +505784,8 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Jammu and Kashmir came under Governor’s Rule in June 2018; President’s Rule began in December 2018. No option answers the question as written."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q75",
@@ -505841,17 +505803,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Odisha",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Maharashtra’s statewide plastic ban took effect in June 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q76",
@@ -505869,17 +505830,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Morocco",
       "Saudi Arabia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Essam El-Hadary represented Egypt.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q77",
@@ -505897,17 +505857,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Samsung",
       "MI"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Samsung opened the world’s largest mobile-phone factory in Noida, India.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q78",
@@ -505925,17 +505884,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "300",
       "400"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Hima Das won the 400-metre event at the IAAF World U20 Championships.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q79",
@@ -505953,17 +505911,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "1904",
       "1905"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Bengal partition took effect in 1905.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q80",
@@ -505981,17 +505938,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Serena Williams",
       "Simona Halep"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Angelique Kerber won the 2018 Wimbledon women’s singles title.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q81",
@@ -506009,17 +505965,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "England",
       "Belgium"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "France won the 2018 FIFA World Cup.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q82",
@@ -506037,17 +505992,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Romelu Lukaku",
       "Harry Kane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Harry Kane won the Golden Boot with six goals.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q83",
@@ -506065,17 +506019,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Thibaut Courtois",
       "David de Gea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Thibaut Courtois won the 2018 World Cup Golden Glove.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q84",
@@ -506093,17 +506046,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "15th July",
       "16th July"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "World Youth Skills Day is observed on 15 July.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q85",
@@ -506121,14 +506073,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Sakshi Malik",
       "Sakshi Malik"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Navjot Kaur became the first Indian woman to win gold at the Asian Wrestling Championships. Options (c) and (d) duplicate Sakshi Malik.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q86",
@@ -506146,17 +506100,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Get Out",
       "Lady Bird"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Shape of Water won Best Picture at the 2018 Academy Awards.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q87",
@@ -506174,17 +506127,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Arunachal Pradesh",
       "Madhya Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Krem Puri, the world’s longest sandstone cave, was discovered in Meghalaya.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q88",
@@ -506202,17 +506154,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kummanam Rajasekharan",
       "Keshari Nath Tripathi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kummanam Rajasekharan served as Mizoram Governor from May 2018 to June 2019; the answer depends on the paper’s likely 2018 current-affairs reference period.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q89",
@@ -506230,17 +506181,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "27th January",
       "30th Jnauary"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "National Girl Child Day is observed on 24 January.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q90",
@@ -506258,14 +506208,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Kangana Ranaut",
       "Deepika Padukone"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Vidya Balan won the 2018 Filmfare Best Actress award for Tumhari Sulu.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q91",
@@ -506283,17 +506235,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Rafael Nadal",
       "Roger Federer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Roger Federer reached 20 men’s Grand Slam singles titles in 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q92",
@@ -506311,17 +506262,16 @@ const groupBQuestionsPart60: BankQuestion[] = [
       "Australia",
       "Pakistan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India won the 2018 ICC Under-19 Cricket World Cup.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   }
 ];
 const groupBQuestionsPart61: BankQuestion[] = [
@@ -506341,17 +506291,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Haryana",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Kerala topped NITI Aayog’s 2018 Healthy States index among the listed choices.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q94",
@@ -506369,17 +506318,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Palestine",
       "Angora"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Narendra Modi became the first Indian Prime Minister to make an official visit to Palestine in February 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q95",
@@ -506397,17 +506345,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Meghalaya",
       "Tripura"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The first draft of the NRC referenced here was published in Assam.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q96",
@@ -506425,17 +506372,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Oman",
       "Kuwait"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The United Arab Emirates introduced VAT on 1 January 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q97",
@@ -506453,17 +506399,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Mizoram",
       "Arunachal Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tripura was the second northeastern state after Sikkim to be declared open-defecation-free.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q98",
@@ -506481,17 +506426,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Caroline Wozniacki",
       "Garbiñe Muguruza"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Caroline Wozniacki won the 2018 Australian Open women’s singles title.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q99",
@@ -506509,17 +506453,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "Goa",
       "Kerala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The National Sports University was established in Manipur.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q100",
@@ -506537,17 +506480,16 @@ const groupBQuestionsPart61: BankQuestion[] = [
       "6 September 2018",
       "7 September 2018"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Supreme Court delivered its Section 377 judgment on 6 September 2018.",
     "source": "Inspector of Factories under Labour Employment Department · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/iof-2019-gs.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-excise-2019-english-p1-written-1",
@@ -656219,17 +656161,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Acquiring Monopoly of  Trade with India",
       "Promoting educational facilities in India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The East India Company began as a trading enterprise seeking a monopoly of Indian trade.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q2",
@@ -656247,17 +656188,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Meerut",
       "Allahabad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Company defeated Siraj-ud-Daulah at Plassey in 1757.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q3",
@@ -656275,14 +656215,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1780",
       "1790"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Battle of Wandiwash in 1760 secured the Company’s decisive political position in the Carnatic; 1760 is the intended choice.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q4",
@@ -656300,17 +656242,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Christians",
       "All the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The intended choice is ‘All the above’: Dalhousie’s annexations provoked broad resentment across communities.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q5",
@@ -656328,17 +656269,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1856",
       "1857"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Awadh was annexed in 1856, on the stated pretext of misgovernment.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q6",
@@ -656356,17 +656296,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Contemporary Warfare",
       "Defensive Warfare"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Marathas were known for mobile guerrilla warfare.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q7",
@@ -656384,17 +656323,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Hyder Ali",
       "Shah Alam II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tipu Sultan was the son of Hyder Ali.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q8",
@@ -656412,17 +656350,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Sikhs",
       "The Nizam of Hyderabad"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Marathas became the principal inheritors of power as Mughal authority declined.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q9",
@@ -656440,17 +656377,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "William Bentick",
       "Cornwallis"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Cornwallis introduced the Permanent Settlement in Bengal in 1793.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q10",
@@ -656468,17 +656404,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1773",
       "1774"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Parliament passed the Regulating Act in 1773.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q11",
@@ -656496,17 +656431,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Annexation of Indian States",
       "Subsidiary Alliance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Wellesley used the Subsidiary Alliance to bring Indian states under British paramountcy.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q12",
@@ -656524,17 +656458,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Dishonouring by the English of their womenfolk",
       "All the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Indigo Revolt was driven by planter repression, corruption, and abuses; ‘All the above’ is intended.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q13",
@@ -656552,17 +656485,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Tea",
       "Rubber"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Rubber was not yet a major plantation crop in nineteenth-century India.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q14",
@@ -656577,20 +656509,19 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "options": [
       "M.K. Gandhi",
       "R.C. Dutt",
-      "Dadabhai Naroroji",
+      "Dadabhai Naoroji",
       "Dr. D.R. Gadgil"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dadabhai Naoroji is credited with formulating the Drain of Wealth theory.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q15",
@@ -656608,17 +656539,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "So that educated Indians would remain loyal to the British Government and this would strengthen the foundation of British rule in India",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The listed colonial aims of modern education are all presented as motives, so ‘All of these’ is intended.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q16",
@@ -656636,14 +656566,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Confiscating the Rights of Ownership of Land",
       "Handing over the peasants’ land to the talugdars"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The intended choice is transfer of peasant land to taluqdars, a punishment associated with reprisals after peasant resistance.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q17",
@@ -656661,17 +656593,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Mohammad Shah",
       "Shah Jahan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Bahadur Shah Zafar was the Mughal emperor during the 1857 uprising.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q18",
@@ -656689,17 +656620,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Zamindars",
       "East India company"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Deccan riots targeted Marwari moneylenders and their credit practices.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q19",
@@ -656713,21 +656643,20 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "question": "The Ilbert Bill was introduced during the time of",
     "options": [
       "Lord Canning",
-      "Lord Duffering",
+      "Lord Dufferin",
       "Lord Ripon",
       "Lord Carson"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Ilbert Bill was introduced under Viceroy Lord Ripon.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q20",
@@ -656738,24 +656667,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "The INC proclaimed Purna Swaraj or complete indepedence as its objective in the year",
+    "question": "The INC proclaimed Purna Swaraj or complete independence as its objective in the year",
     "options": [
       "1892",
       "1905",
       "1906",
       "1929"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Congress adopted Purna Swaraj as its objective at the Lahore session in 1929.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q21",
@@ -656773,17 +656701,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Universal adult franchise was introduced",
       "Brought in reforms into education"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 1909 reforms enlarged the elected element in legislative councils; this is the intended choice, though ‘for the first time’ overstates it because the 1892 Act had already introduced indirect election.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q22",
@@ -656797,21 +656724,20 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "question": "The Father of extremism in Indian national movement was",
     "options": [
       "Gopal Krishna Gokhale",
-      "Dada Bhai Naroji",
+      "Dadabhai Naoroji",
       "Bal Gangadhar Tilak",
       "Arobind Ghosh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bal Gangadhar Tilak is commonly called the Father of Indian Extremism.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q23",
@@ -656829,17 +656755,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The rural masses were not to be included",
       "The militant gained importance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Gandhi–Irwin Pact led to suspension of the Civil Disobedience Movement, drawing criticism from some leaders.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q24",
@@ -656857,17 +656782,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1925",
       "1928"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Communist Party of India was founded at Kanpur in 1925.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q25",
@@ -656885,17 +656809,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Simon Commission",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lala Lajpat Rai was fatally injured while protesting the Simon Commission.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q26",
@@ -656913,17 +656836,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "August 1941",
       "March 1944"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Muslim League adopted the Pakistan demand at its Lahore session in March 1940.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q27",
@@ -656941,17 +656863,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Madras",
       "Goa"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Royal Indian Navy mutiny began in Bombay in February 1946.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q28",
@@ -656969,17 +656890,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "3 September 1945",
       "2 September 1946"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Nehru’s interim government took office on 2 September 1946.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q29",
@@ -656998,13 +656918,14 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Battle of Buxar broke out during his regime"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "All four statements appear true: Mir Qasim succeeded Siraj-ud-Daulah, moved the capital to Monghyr, signed a treaty with the Company in 1760, and ruled during the Battle of Buxar. No listed statement is clearly false.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "All four statements appear true: Mir Qasim succeeded Siraj-ud-Daulah, moved the capital to Monghyr, signed a treaty with the Company in 1760, and ruled during the Battle of Buxar. No listed statement is clearly false."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q30",
@@ -657022,17 +656943,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Jhansi",
       "Holkar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jhansi was not one of the principal houses of the Maratha Confederacy; the Gaikwads, Bhonsles, and Holkars were.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q31",
@@ -657050,17 +656970,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Nizam of Hyderabad",
       "None of the Above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Nizam of Hyderabad concluded the first Subsidiary Alliance with the Company in 1798.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q32",
@@ -657078,17 +656997,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Coimbatore",
       "Pondicherry"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Company established its early factory at Masulipatam on the Coromandel coast.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q33",
@@ -657106,14 +657024,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Kurukshetra",
       "Haridwar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The first session of the Hindu Mahasabha was held at Haridwar in 1915.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q34",
@@ -657132,7 +657052,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Bikaner"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both Berar and Bikaner were not annexed under the Doctrine of Lapse: Berar was assigned/ceded on other grounds, while Bikaner was not annexed. Multiple options (c and d) are defensible.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
@@ -657141,7 +657061,8 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Both Berar and Bikaner were not annexed under the Doctrine of Lapse: Berar was assigned/ceded on other grounds, while Bikaner was not annexed. Multiple options (c and d) are defensible."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q35",
@@ -657159,17 +657080,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Village communities",
       "Cultivators"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Ryotwari settlements assessed revenue directly with individual cultivators.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q36",
@@ -657187,17 +657107,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1831",
       "1832"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Bengal Sati Regulation abolishing sati was enacted in 1829.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q37",
@@ -657216,7 +657135,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1892"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No listed year is correct if ‘first official census’ means the first census actually conducted: India’s first census was held non-synchronously in 1872. 1881 was the first synchronous all-India census; neither 1872 nor an explicit synchronous qualifier appears among choices.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
@@ -657225,7 +657144,8 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "No listed year is correct if ‘first official census’ means the first census actually conducted: India’s first census was held non-synchronously in 1872. 1881 was the first synchronous all-India census; neither 1872 nor an explicit synchronous qualifier appears among choices."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q38",
@@ -657236,21 +657156,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Match List-I with List-II and select the correct answer from the codes given below: List-IList-II (Land reforms and peasant revolt)(Governor Generals/Viceroy)",
+    "question": "Match List-I with List-II and select the correct answer from the codes below. List-I (Land reforms and peasant revolt): A. Ryotwari Settlement; B. Mahalwari Settlement; C. Permanent Settlement; D. Champaran Satyagraha. List-II (Governor Generals/Viceroys): I. Cornwallis; II. Thomas Munro; III. William Bentinck; IV. Chelmsford.",
     "options": [
-      "Ryotwari Settlement(I)Cornwallis",
-      "Mahalwari settlement(II)Thomas Munro",
-      "Permanent settlement(III)William Bentinck",
-      "Champaran Satyagraha(IV)Chelmsford Codes : (a)(b)(c)(d) (a)(II)(III)(I)(IV) (b)(II)(I)(III)(IV) (c)(I)(II)(IV)(III) (d)(I)(II)(III)(IV)"
+      "(A) II, (B) III, (C) I, (D) IV",
+      "(A) II, (B) I, (C) III, (D) IV",
+      "(A) I, (B) II, (C) IV, (D) III",
+      "(A) I, (B) II, (C) III, (D) IV"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct matches are Ryotwari–Munro, Mahalwari–Bentinck, Permanent Settlement–Cornwallis, and Champaran–Chelmsford; this is code (a).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q39",
@@ -657268,17 +657190,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "G.V. Joshi",
       "None of the Above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Dadabhai Naoroji wrote Poverty and Un-British Rule in India, and he is absent from the listed names; thus ‘None of the Above.’",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q40",
@@ -657296,17 +657217,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Malwa",
       "Bhubaneswar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Bhubaneswar was not a principal nineteenth-century opium production centre.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q41",
@@ -657324,17 +657244,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1875-1890",
       "1820s-30s"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Young Bengal movement was active in the 1820s and 1830s.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q42",
@@ -657352,17 +657271,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "From Bombay to Madras",
       "From Bombay to Pune"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The first major telegraph line connected Calcutta with Agra.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q43",
@@ -657373,21 +657291,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Match List-I with List-II and select the correct answer from the codes given below: List-IList-II",
+    "question": "Match List-I with List-II and select the correct answer from the codes below. List-I: A. Arya Samaj; B. Deoband School; C. Ramakrishna Mission; D. Wahabi Movement. List-II: I. Swami Vivekananda; II. Shah Waliullah; III. Swami Dayanand; IV. Muhammad Qasim Wanotavi and Rashid Ahmad Gangohi.",
     "options": [
-      "Arya Samaj(I)Swami Vivekanand",
-      "Deoband School(II)Shah Walliullah",
-      "Ram Krishna Mission(III)Swami Dayanand",
-      "Wahabi Movement(IV)Muhammad Qasim Wanotavi and Rashid Ahmad Gangohi Codes: (a)(b)(c)(d) (a)(III)(IV)(I)(II) (b)(I)(II)(III)(IV) (c)(III)(I)(IV)(II) (d)(I)(III)(IV)(II)"
+      "(A) III, (B) IV, (C) I, (D) II",
+      "(A) I, (B) II, (C) III, (D) IV",
+      "(A) III, (B) I, (C) IV, (D) II",
+      "(A) I, (B) III, (C) IV, (D) II"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Arya Samaj–Dayanand (III), Deoband–Qasim and Gangohi (IV), Ramakrishna Mission–Vivekananda (I), and Wahabi–Shah Waliullah (II) give code (a).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q44",
@@ -657405,17 +657325,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Lord Irwin",
       "Lord Hardinge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Rowlatt Act was passed during Lord Chelmsford’s viceroyalty in 1919.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q45",
@@ -657430,20 +657349,19 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "options": [
       "Michael Madhusudan Dutt",
       "Kalyanam R.",
-      "Dada Dinabandu Mitra",
+      "Dinabandhu Mitra",
       "Bankim Chandra Chattopadhyay"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dinabandhu Mitra wrote the Bengali play Nil Darpan.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q46",
@@ -657461,17 +657379,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "William Jones",
       "Jonathan Duncan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Sir William Jones founded the Asiatic Society of Bengal in 1784.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q47",
@@ -657489,17 +657406,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Leader of the Ahom revolt",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "U Tirot Singh led the Khasi resistance to British expansion.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q48",
@@ -657517,14 +657433,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "(II), (IV), (I), (III)",
       "(IV), (II), (I), (III)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Chronologically the cases are Alipore (1908), Howrah/Dacca (1910), Kakori (1925), and the Central Assembly bombing (1929), code (c).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q49",
@@ -657542,17 +657460,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1908",
       "1910"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Vernacular Press Act and Arms Act were passed in 1878.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q50",
@@ -657563,21 +657480,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Match the List-I the annual sessions of Indian National Congress with List—II its President in that session: List- IList-II",
+    "question": "Match the annual sessions of the Indian National Congress in List-I with its presidents in List-II. List-I: A. Benares Session of 1905; B. Lahore Session of 1909; C. Calcutta Session of 1917; D. Haripura Session of 1938. List-II: i. Madan Mohan Malaviya; ii. Annie Besant; iii. Gopal Krishna Gokhale; iv. Subhas Chandra Bose.",
     "options": [
-      "Benares Session of 1905(i)Madan Mohan Malaviya",
-      "Lahore Session of 1909(ii)Annie Besant",
-      "Calcutta Session of 1917(iii)Gopal Krishna Gokhale",
-      "Haripura Session of 1938(iv)Subhas Chandra Bose Codes: abcd (a)(i)(ii)(iii)(iv) (b)(ii)(i)(iii)(iv) (c)(i)(ii)(iv)(iii) (d)(iii)(i)(ii)(iv)"
+      "(A) i, (B) ii, (C) iii, (D) iv",
+      "(A) ii, (B) i, (C) iii, (D) iv",
+      "(A) i, (B) ii, (C) iv, (D) iii",
+      "(A) iii, (B) i, (C) ii, (D) iv"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The session presidents map as Gokhale, Malaviya, Besant, and Subhas Bose, giving code (d).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q51",
@@ -657595,17 +657514,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "17th November 2004",
       "17th December 2004"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Mizoram Gazette notification renaming the department is dated 17 November 2004.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q52",
@@ -657623,17 +657541,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "17 October",
       "18 October"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "World Food Day is observed on 16 October.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q53",
@@ -657651,14 +657568,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "99th",
       "103rd"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "India ranked 103rd in the 2018 Global Hunger Index.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q54",
@@ -657676,17 +657595,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Mining Science",
       "Space Science"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Blue Planet Prize recognizes contributions to environmental science and environmental protection.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q55",
@@ -657703,17 +657621,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "2 and 3 only",
       "1,2 and 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Statements 1 and 2 are accurate; the Paris Agreement was adopted on 12 December 2015, not 2016.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q56",
@@ -657724,21 +657641,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Match the following alternatives with regard to National Food Security Act: Section     Provision",
+    "question": "Match the sections of the National Food Security Act in List-I with their provisions in List-II. List-I: A. Section 15; B. Section 16; C. Section 28; D. Section 29. List-II: 1. District Grievance Redressal Officer; 2. State Food Commission; 3. Social Audit; 4. Vigilance Committee. Select the correct answer.",
     "options": [
-      "Section 15(1) Food Commission",
-      "Section 16(2) District Grievance Redressal Officer",
-      "Section 28(3) Vigilance Committee",
-      "Section 29(4) Social Audit Select the correct answer from below: ABCD (a)1234 (b)2143 (c)1324 (d)2413"
+      "(A) 1, (B) 2, (C) 3, (D) 4",
+      "(A) 2, (B) 1, (C) 4, (D) 3",
+      "(A) 1, (B) 3, (C) 2, (D) 4",
+      "(A) 2, (B) 4, (C) 1, (D) 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The accurate section matches are 15–DGRO, 16–Food Commission, 28–Social Audit, and 29–Vigilance Committees, code (b).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q57",
@@ -657756,17 +657675,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Pro-Israel",
       "Pro-Arab"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The United States cited UNESCO’s anti-Israel bias when announcing its withdrawal.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q58",
@@ -657785,7 +657703,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Judicial magistrate second class"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The Consumer Protection Act empowered these commissions with specified civil-court powers; none of the choices (civil or judicial magistrate, first or second class) states that power correctly.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
@@ -657794,7 +657712,8 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The Consumer Protection Act empowered these commissions with specified civil-court powers; none of the choices (civil or judicial magistrate, first or second class) states that power correctly."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q59",
@@ -657812,17 +657731,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Homeland, Millitary and Aerospace",
       "Armed Forces, Airforce and Anti-terrorists"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The planned tri-service agencies covered cyber, space, and special operations.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q60",
@@ -657840,17 +657758,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Taiwan",
       "Saudi Arabia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Saudi Arabia granted citizenship to the humanoid robot Sophia in 2017.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q61",
@@ -657867,17 +657784,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "2 and 3 only",
       "1,2 and 3"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Statement 1 is false because the SDG deadline is 2030; statements 2 and 3 are true.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q62",
@@ -657895,17 +657811,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Three  years",
       "Four Years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Intensified Mission Indradhanush targeted every child under two years, as well as pregnant women.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q63",
@@ -657921,16 +657836,18 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Gujarat",
       "Karnataka",
       "Rajasthan",
-      "Telengana"
+      "Telangana"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Rajasthan was reported as the first state to incorporate skill development in higher education.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q64",
@@ -657948,17 +657865,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "79.80%",
       "79.90%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 2011 Census recorded Hindus as 79.8% of India’s population.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q65",
@@ -657976,17 +657892,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Repo Rate",
       "Reverse Repo Rate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The repo rate is the rate at which RBI lends short-term funds against eligible securities.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q66",
@@ -657997,24 +657912,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Circardian Rhythm is a:",
+    "question": "Circadian rhythm is a:",
     "options": [
       "24 hr cycle in living beings",
       "12 hr cycle in living beings",
       "24 hr cycle in Earth’s rotation",
       "12 hr cycle in Earth’s rotation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A circadian rhythm is an approximately 24-hour cycle in living organisms.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q67",
@@ -658032,17 +657946,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Online hate speech",
       "Offshore banking"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The T. Vishwanathan committee examined the IT Act’s provision on sending offensive electronic messages.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q68",
@@ -658060,17 +657973,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Rajat Kumar",
       "Rana Kumar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Rajnish Kumar became SBI chairman in October 2017.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q69",
@@ -658088,17 +658000,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "P. Chidambaram",
       "Natwar Singh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Pranab Mukherjee authored The Coalition Years.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q70",
@@ -658116,17 +658027,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Kavita Devi",
       "Asha Devi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Kavita Devi became the first Indian woman to sign a WWE contract.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q71",
@@ -658144,17 +658054,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Smriti Mandhana",
       "Niranjana Nagarajan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mithali Raj is often called the Sachin Tendulkar of Indian women’s cricket.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q72",
@@ -658172,17 +658081,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Skills Agency Network and Knowledge Awareness for Livelihood Promotion",
       "Skills Agency Network and Knowledge Awareness for Livelihood Protection"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "SANKALP expands to Skills Acquisition and Knowledge Awareness for Livelihood Promotion.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q73",
@@ -658200,17 +658108,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Korea",
       "Indonesia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "‘Hermit Kingdom’ is the conventional epithet for Korea, especially its historical isolation.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q74",
@@ -658228,17 +658135,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Bandwidth",
       "Batch Process"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bandwidth describes the capacity or rate of data transmission over a connection.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q75",
@@ -658256,17 +658162,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Shareware",
       "Freeware"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A clone is software that performs the same function as a better-known program.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q76",
@@ -658284,17 +658189,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Article 347",
       "Article 349"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Article 340 authorizes a commission to investigate the conditions of socially and educationally backward classes.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q77",
@@ -658312,17 +658216,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "J S Khehar",
       "HL Dattu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ranjan Gogoi was Chief Justice of India when this 2019 paper was set.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q78",
@@ -658340,14 +658243,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Richard Verma",
       "Nancy Jo Powell"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kenneth Juster was the U.S. Ambassador to India in 2018–19.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q79",
@@ -658358,24 +658263,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Who win Noble peace prize 2018?",
+    "question": "Who win Nobel Peace Prize 2018?",
     "options": [
       "Denis Mukwege and Nadia Murad",
       "Juan Manuel Santos",
       "Malala Yousafzai",
       "Green Peace"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Denis Mukwege and Nadia Murad jointly received the 2018 Nobel Peace Prize.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q80",
@@ -658393,17 +658297,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Paris",
       "Brussels"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Paris was selected to host the 2024 Summer Olympics.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q81",
@@ -658421,17 +658324,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Right to Pay",
       "All the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Supreme Court recognized privacy as a fundamental right in 2017.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q82",
@@ -658449,17 +658351,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Kolkata",
       "Chennai"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Ahmedabad was India’s first city inscribed as a UNESCO World Heritage City.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q83",
@@ -658477,17 +658378,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "50",
       "100"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India was ranked 112th in the 2018 SDG Index.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q84",
@@ -658505,17 +658405,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Garbiñe Muguruza",
       "Angelique Kerber"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Angelique Kerber won the 2018 Wimbledon women’s singles title.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q85",
@@ -658533,17 +658432,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Nawaz Sharif",
       "Yousuf Raza Gilani"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Imran Khan became Pakistan’s prime minister in 2018.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q86",
@@ -658561,17 +658459,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "France",
       "Russia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The United States commissioned the USS Gerald R. Ford, then the world’s most expensive aircraft carrier.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q87",
@@ -658589,17 +658486,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Voter Verified Paper Audit Trail",
       "Voter Verifiable Personal Audit Trail"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "VVPAT stands for Voter Verifiable Paper Audit Trail.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q88",
@@ -658617,17 +658513,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "21st  May",
       "22nd May"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Earth Day is observed on 22 April.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q89",
@@ -658645,17 +658540,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "England",
       "Pakistan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Pakistan is the intended answer in contemporary current-affairs usage of ‘Terror Tax.’",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q90",
@@ -658666,21 +658560,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Who is the first person from the North East to hold the position of Controller General of Account of India?",
+    "question": "Who is the first person from the North East to hold the position of Controller General of Accounts of India?",
     "options": [
       "Anthony Lianzuala",
       "Lalrinsanga",
       "Rajendra Kumar",
       "Vinay Gupta"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Anthony Lianzuala was the first person from Northeast India to serve as Controller General of Accounts.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q91",
@@ -658698,17 +658594,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Gangtok",
       "Kohima"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mawlynnong in Meghalaya is widely cited as Asia’s cleanest village.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q92",
@@ -658726,17 +658621,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Dadra and Nagar Haveli",
       "Daman and Diu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Barren Island is in the Andaman and Nicobar Islands.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q93",
@@ -658754,17 +658648,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Dipak Misra",
       "HL Dattu"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Supreme Court initiated contempt proceedings against Justice C. S. Karnan.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q94",
@@ -658782,17 +658675,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Sunway TaihuLight, China",
       "Sequioa, USA"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Summit in the United States held the top supercomputer ranking in 2018.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q95",
@@ -658805,19 +658697,21 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Which team won 72nd Santosh trophy 2018?",
     "options": [
-      "Kerela",
+      "Kerala",
       "Mizoram",
       "Manipur",
       "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Kerala won the 72nd Santosh Trophy in 2018.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q96",
@@ -658835,14 +658729,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "111",
       "110"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "India ranked 133rd in the 2018 World Happiness Report.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q97",
@@ -658853,21 +658749,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-I",
     "difficulty": "medium",
-    "question": "Which become the First Indian cities to use robot to control unruly traffic?",
+    "question": "Which became the first Indian city to use robot to control unruly traffic?",
     "options": [
       "Indore",
       "Bangalore",
       "Chennai",
       "Pune"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Indore introduced a robot traffic marshal to help control traffic.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=10",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q98",
@@ -658885,17 +658783,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Uruguay",
       "India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Uruguay was the first country to legalize regulated production, sale, and consumption of cannabis.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=11",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q99",
@@ -658913,17 +658810,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Roger Graham",
       "Andrew Sean Greer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Andrew Sean Greer won the 2018 Pulitzer Prize for Fiction for Less.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=11",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q100",
@@ -658941,17 +658837,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Lucknow",
       "Amritsar"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Kolkata’s underwater metro tunnel was India’s first such project.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs1.pdf#page=11",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q1",
@@ -658969,14 +658864,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Hindus and the Muslims",
       "All of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The policy used communal division to set Hindus and Muslims against one another.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q2",
@@ -658994,17 +658891,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Bankim Chandra Chatterjee",
       "MK Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Bankim Chandra Chattopadhyay wrote ‘Vande Mataram’ in Anandamath.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q3",
@@ -659022,14 +658918,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The Hindus and the Muslims",
       "Railways development"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The stated administrative rationale for Bengal’s partition was to benefit Muslim-majority eastern Bengal; it also served colonial political aims.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q4",
@@ -659040,21 +658938,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "Jawahar Ragar Yaojona was launched in",
+    "question": "Jawahar Rozgar Yojana was launched in",
     "options": [
       "5th Five Year Plan",
       "6th Five Year Plan",
       "7th Five Year Plan",
       "8th Five Year Plan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Jawahar Rozgar Yojana was launched during the Seventh Five-Year Plan.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q5",
@@ -659072,17 +658972,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Because of Cabinet Members’ resignation",
       "His ministry loses absolute majority in the Assembly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A ministry that has lost its majority may advise dissolution; the Governor assesses whether another ministry can command confidence.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q6",
@@ -659100,17 +658999,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Well established conventions prevailing in other federations of the world",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Union–State relations are principally governed by the Constitution.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q7",
@@ -659128,17 +659026,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The right of Parliament to asked Judiciary to review its own judgment in view of of the popular resentment",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Judicial review is the courts’ power to test the constitutionality of legislative and executive action.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q8",
@@ -659156,17 +659053,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "All elected members of both the Houses of Parliaments and State Assemblies",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The presidential electoral college includes elected MPs and elected MLAs of states and the relevant Union Territories.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q9",
@@ -659182,19 +659078,18 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The President on the advise from the State Governor",
       "By both the Houses of Parliaments",
       "The President with the approval of the Parliaments",
-      "President with the approval of the Council of Minister"
+      "The President acting on the aid and advice of the Union Council of Ministers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The President issues an Article 359 order on the aid and advice of the Union Council of Ministers; D is the closest option, though ‘approval’ is imprecise.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q10",
@@ -659212,17 +659107,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Twenty-Fifth Amendment",
       "Twenty-Eight Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 25th Amendment inserted Article 31C, giving specified Directive Principles priority over certain Fundamental Rights.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q11",
@@ -659240,17 +659134,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Directive Principles of State Policy",
       "Right to Constitutional Remedies"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Dr. Ambedkar described Article 32, the Right to Constitutional Remedies, as the Constitution’s ‘heart and soul’.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q12",
@@ -659268,17 +659161,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "43th Amendment",
       "44th Amendment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The 44th Amendment removed the right to property from the list of Fundamental Rights.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q13",
@@ -659296,17 +659188,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Dadabai Nauroji",
       "Mrs Anne Besant"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tilak and Annie Besant led separate Home Rule Leagues; Tilak launched his in April 1916 before Besant’s league later that year.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q14",
@@ -659324,17 +659215,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Considering a Money Bill",
       "Appointing Judges"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Under Article 312, Rajya Sabha may authorize Parliament to create a new All India Service.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q15",
@@ -659352,17 +659242,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "The authority of the court to issue various writs",
       "The authority of the court to interpret the legality of laws."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Judicial review determines whether laws and government actions conform to the Constitution.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q16",
@@ -659380,17 +659269,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Electoral reform",
       "Financial reforms"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Sarkaria Commission examined Centre–State relations.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q17",
@@ -659408,17 +659296,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Prohibition",
       "Quo warranto"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Quo warranto challenges a person’s legal authority to hold a public office.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q18",
@@ -659436,14 +659323,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "220",
       "230"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lok Sabha’s daily limit for unstarred questions is 230.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q19",
@@ -659461,17 +659350,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Lok Sabha Secretariat",
       "Rajia Sabha Secretasriat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "NITI Aayog replaced the Planning Commission in 2015.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q20",
@@ -659489,17 +659377,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Spanish",
       "French"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The word ‘caste’ comes through Spanish casta, meaning lineage/breed or stock.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q21",
@@ -659517,17 +659404,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Spectators",
       "Politists"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In political-participation typologies, apathetics remain disengaged from political activity.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q22",
@@ -659545,17 +659431,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Article 337",
       "Article 338"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Article 335 requires consideration of SC/ST claims in appointments and services, consistent with administrative efficiency.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q23",
@@ -659573,17 +659458,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "KC Wheare",
       "Ivor Jennings"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "K. C. Wheare described India as quasi-federal.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q24",
@@ -659601,17 +659485,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "List of Oath and affirmation",
       "Duties of the President and Vice President"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Seventh Schedule contains the Union, State and Concurrent Lists.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q25",
@@ -659624,22 +659507,21 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "difficulty": "medium",
     "question": "Which languages have been added to the 8th Schedule of the Constitution by 92nd Constitutional Amendment in2003?",
     "options": [
-      "Bodo, Santhali, Andmani, Bhojpuri",
-      "Bodo, Santhali, Maithili, Andmini",
+      "Bodo, Santhali, Andamanese, Bhojpuri",
+      "Bodo, Santhali, Maithili, Andamanese",
       "Bodo, Santhali, Maithili, Dogri",
-      "Bodo, Santhali, Maithili, Andmani"
+      "Bodo, Santhali, Maithili, Andamanese"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The 92nd Amendment added Bodo, Dogri, Maithili and Santhali; option C contains those four.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q26",
@@ -659657,17 +659539,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1986",
       "1967"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The MNF was outlawed after the 1966 uprising.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q27",
@@ -659685,17 +659566,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Ethnicity",
       "Caste system"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Power elites are associated with socio-economic position and control of major institutions.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q28",
@@ -659713,14 +659593,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Swaraj",
       "Satyagraha"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gandhi held that non-violence (ahimsa) was the only means to achieve true socialism.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q29",
@@ -659738,17 +659620,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Demand for national integration",
       "Demand for regional separate autonomy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Demand for national integration is not a manifestation of regionalism.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q30",
@@ -659766,17 +659647,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Indian Forest Service",
       "Indian Police Service"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Indian Foreign Service is a Central Civil Service; IAS, IPS and Indian Forest Service are All India Services.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q31",
@@ -659794,17 +659674,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "25 years",
       "30 years"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The minimum age to contest Panchayat elections is 21 years under Article 243F.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q32",
@@ -659822,17 +659701,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "To establish Gandhian democracy",
       "To establish social and economic democracy."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Directive Principles aim to establish social and economic democracy alongside political democracy.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q33",
@@ -659850,17 +659728,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "To establish real social equality",
       "To prevent the Muslims from joining the nationalist struggle"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Separate electorates were introduced to secure Muslim political representation/interests under colonial rule.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q34",
@@ -659878,17 +659755,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "1943",
       "1944"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Quit India Movement began in August 1942.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q35",
@@ -659906,17 +659782,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Lord Ripon",
       "Lord Wellesly"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Lord Ripon’s 1882 resolution is regarded as the foundation of local self-government in India.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q36",
@@ -659934,17 +659809,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "2017",
       "2014"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Smart Cities Mission was launched in June 2015.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q37",
@@ -659962,17 +659836,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Dadabhai Naoroji",
       "MN Roy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Raja Ram Mohan Roy founded the Brahmo Sabha, later known as the Brahmo Samaj.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q38",
@@ -659990,14 +659863,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Modern Capitalism",
       "Modern Individualism"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sri Aurobindo criticised modern industrialisation and its materialist effects.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q39",
@@ -660015,17 +659890,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "First Five Year Plan",
       "Industrial Policy of 1948"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Industrial Policy Resolution of 1948 articulated India’s mixed-economy framework.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q40",
@@ -660043,17 +659917,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "remains the same",
       "increasing at a decreasing rate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Agriculture’s share of India’s economy has declined over time as other sectors grew.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q41",
@@ -660071,17 +659944,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Poverty in terms of the prevailing price level",
       "Poverty in terms of the absolute level of unemployment"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Absolute poverty is measured against a fixed minimum standard of basic needs, often operationalised through calorie/nutrition requirements.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q42",
@@ -660099,17 +659971,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Fundamental Duties",
       "Preamble of the Constitution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Planning objectives draw substantially from the Directive Principles of State Policy.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q43",
@@ -660127,17 +659998,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Mahatma Gandhi",
       "Jawaharlal Nehru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "M. Visvesvaraya wrote Planned Economy for India (1934).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q44",
@@ -660155,17 +660025,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Rice",
       "Wheat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Wheat was the first crop for which minimum support prices were announced in 1966–67.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q45",
@@ -660183,17 +660052,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "42%",
       "45%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The Fourteenth Finance Commission recommended 42% of the divisible central tax pool for states.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q46",
@@ -660211,14 +660079,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "(ii) and (iii) only",
       "(i), (ii), and (iii)"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Land reform encompasses abolition of intermediaries, tenancy reform and ceilings on holdings.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q47",
@@ -660229,21 +660099,23 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "Assertion (A): Disguised unemployment is a common feature of Indian agriculture",
+    "question": "Assertion (A): Disguised unemployment is a common feature of Indian agriculture. Reason (R): India has been relatively slow in adopting farm mechanisation. Choose the correct answer.",
     "options": [
-      ": Disguised unemployment is a common feature of Indian agriculture (a)Both A & R are true and R is the correct explanation of A",
-      "Both A & R are true but R is NOT the correct explanation of A",
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
       "A is true but R is false",
       "A is false but R is true"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Both statements are true; slow mechanisation can leave surplus labour on farms, contributing to disguised unemployment.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q48",
@@ -660261,17 +660133,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Industrial Policy Statement, 1969",
       "Industrial Policy Statement, 1973"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The 1956 Industrial Policy Resolution classified industries into Schedules A, B and C.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q49",
@@ -660289,17 +660160,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Rs. 2 and Rs. 4 respectively",
       "Rs. 3 and Rs. 4 respectively"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Under the NFSA, eligible beneficiaries pay ₹2/kg for wheat and ₹3/kg for rice; the printed order is wheat then rice.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q50",
@@ -660317,17 +660187,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "IDBI:   Industrial Finance",
       "FCI:    Financial Assistance to Commercial institutions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "FCI procures, stores and distributes foodgrains; it does not provide financial assistance to commercial institutions.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q51",
@@ -660345,17 +660214,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "NAFED",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Food Corporation of India is the main agency supplying grain to the Public Distribution System.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q52",
@@ -660373,17 +660241,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Quality of food",
       "Food security"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "PDS’s central purpose is food security through access to essential foodgrains.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q53",
@@ -660401,17 +660268,16 @@ const groupBQuestionsPart79: BankQuestion[] = [
       "Income distance",
       "Area"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Demographic change had the lowest weight (10%) among these Fourteenth Finance Commission criteria.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   }
 ];
 const groupBQuestionsPart80: BankQuestion[] = [
@@ -660431,17 +660297,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Constant liquidity",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "When RBI buys securities, it pays funds into the market, increasing liquidity.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q55",
@@ -660459,17 +660324,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Bank Rate",
       "Base Rate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The repo rate is the rate at which RBI lends short-term funds to banks against securities.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q56",
@@ -660487,17 +660351,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Unrecorded goods",
       "Goods through smuggling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Invisible exports are non-merchandise receipts, especially services.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q57",
@@ -660515,17 +660378,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Exchange rate volatility",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A persistent external deficit can reflect import growth, weak export growth and exchange-rate pressures; all listed factors can contribute.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q58",
@@ -660543,17 +660405,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "4th Five-Year Plan",
       "6th Five-Year Plan"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The Sixth Five-Year Plan (1980–85) emphasised poverty alleviation and employment.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q59",
@@ -660571,17 +660432,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Highly centralized nature of Planning",
       "All of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Lack of perspective, imbalanced development and excessive centralisation are all cited planning problems.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q60",
@@ -660592,21 +660452,23 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "Assertion (A) : Indian economy is referred to as a ‘mixed economy’",
+    "question": "Assertion (A): The Indian economy is referred to as a mixed economy. Reason (R): The Government of India recognizes the relative importance of both public and private sectors in economic development. Choose the correct answer.",
     "options": [
-      ": Indian economy is referred to as a ‘mixed economy’ (a)Both A & R are true and R is the correct explanation of A",
-      "Both A & R are true but R is NOT the correct explanation of A",
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
       "A is true but R is false",
       "A is false but R is true"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Both the assertion and reason are true, and the reason explains the mixed-economy label: both public and private sectors have roles.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q61",
@@ -660624,14 +660486,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "2500 $",
       "2750 $"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The IMF’s nominal per-capita GDP estimate for India in 2017 was approximately US$1,983.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q62",
@@ -660642,24 +660506,23 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "According to Dr Dandekar and and Mr. N. Rath the minimum amount of calories one should take is",
+    "question": "According to Dr Dandekar and Mr. N. Rath the minimum amount of calories one should take is",
     "options": [
       "2500",
       "2450",
       "2250",
       "2350"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Dandekar and Rath’s poverty-line calorie benchmark was 2,250 calories per person per day (rural).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q63",
@@ -660677,17 +660540,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "17 %",
       "15.87 %"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Agriculture and allied activities contributed about 17% of GDP in 2018–19 at the commonly cited constant-price series.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q64",
@@ -660705,17 +660567,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "The Technological Revolution",
       "The New Agricultural Revolution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The package of HYV seeds, fertilisers, pesticides, irrigation and mechanisation is the Green Revolution.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q65",
@@ -660733,17 +660594,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Ryotwari system, Mahalwari system, Zamindari system",
       "Ryotwari system, Zamindari system, Maharashi system"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The three main pre-independence land-tenure systems were zamindari, ryotwari and mahalwari.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q66",
@@ -660761,14 +660621,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Harvesting subsidy",
       "Food subsidy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Food policy’s heavy fiscal cost includes food subsidy for procurement, storage and distribution.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q67",
@@ -660786,17 +660648,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "APJ Abdul Kalam",
       "Dr. Manmohan Singh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A. P. J. Abdul Kalam advocated PURA—Providing Urban Amenities in Rural Areas.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q68",
@@ -660814,17 +660675,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "The crisis of implementing the strategy of planning advocated by the economists due to the existence of a gap between theory and practice",
       "The polician are not keen to implement the model of planning."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The listed diagnosis identifies an implementation gap between planning theory/strategy and practice as the central cause.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q69",
@@ -660842,14 +660702,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "6 %",
       "4 %"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The RBI’s cash reserve ratio at the time of this 2019 paper was 4%.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q70",
@@ -660867,17 +660729,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Long term loan",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "IDBI was established in 1964 as a development finance institution for long-term industrial finance.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q71",
@@ -660895,17 +660756,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Vice President of India",
       "Home Minister of India"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Prime Minister of India chairs NITI Aayog.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q72",
@@ -660923,17 +660783,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "2008",
       "2005"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The National Rural Employment Guarantee Scheme began in 2006.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q73",
@@ -660944,24 +660803,23 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "The Indian constitution that specifies the distribution of legislative, administrative and executive power between the state and the Union is written in",
+    "question": "The Indian constitution that specifies the distribution of legislative and administrative relations/powers between the state and the Union is written in",
     "options": [
       "Part XI of the constitution",
       "Part X of the constitution",
       "Part IX of the constitution",
       "Part VIII of the constitution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Part XI sets out legislative and administrative relations between the Union and the States.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q74",
@@ -660979,17 +660837,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "April 1970",
       "July 1969"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Fourteen major commercial banks were nationalised on 19 July 1969.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q75",
@@ -661007,17 +660864,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Low rate of lending fund and high rate of interest",
       "Inefficient managerial skill and low level of technology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Lower interest income and rising operating costs were both major pressures on public-sector bank profitability.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q76",
@@ -661035,17 +660891,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "The Inner Himalaya",
       "Purvanchal Range"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Nainital lies in the Lesser Himalaya (Kumaon range).",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q77",
@@ -661063,17 +660918,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Tamil Nadu",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tamil Nadu receives substantial rainfall from the north-east monsoon.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q78",
@@ -661091,17 +660945,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Tropical moist deciduous forest",
       "Tropical wet evergreen forest"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Tropical moist deciduous forests occupy the largest area among the listed forest types.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q79",
@@ -661119,17 +660972,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Spiti Valley",
       "Lakshadweep islands"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Shompen are an Indigenous people of Great Nicobar in the Nicobar Islands.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q80",
@@ -661147,17 +660999,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "New Population Policy, 2001",
       "National Population Control Programme, 2006"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "India’s population policy is the National Population Policy, 2000.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q81",
@@ -661175,17 +661026,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Bringa",
       "Watra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In Andhra Pradesh, shifting cultivation is called podu.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q82",
@@ -661203,17 +661053,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Presence of ferric oxides",
       "Abundance of phosphates"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Ferric oxides impart the characteristic red colour to red soils.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q83",
@@ -661231,17 +661080,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Narmada",
       "Godavari"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Jayakwadi Dam is built across the Godavari River in Maharashtra.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q84",
@@ -661259,17 +661107,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Dharnai",
       "Ballia"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Mawlynnong in Meghalaya is widely known as India’s cleanest village.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q85",
@@ -661287,17 +661134,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Bhopal",
       "Bengaluru"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lucknow lies farther east in longitude than Hyderabad, Bengaluru and Bhopal.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q86",
@@ -661315,17 +661161,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Karnataka",
       "Andhra Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Gujarat has the longest coastline among the listed states.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q87",
@@ -661343,17 +661188,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Aryan rocks",
       "Purana rocks"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Archaean rocks are among Earth’s oldest rock formations.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q88",
@@ -661371,17 +661215,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Bay of Bengal",
       "None"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Lakshadweep lies in the Arabian Sea.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q89",
@@ -661399,17 +661242,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Proto-Austroloids",
       "Palaeo-Mongoloids"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Older anthropological texts identify Negrito groups as the earliest occupants; this is the intended textbook answer, not a modern scientific consensus.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q90",
@@ -661427,17 +661269,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Forest",
       "Wasteland"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Fallow land is cultivable land temporarily left uncultivated.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q91",
@@ -661455,17 +661296,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Shifting cultivation",
       "Pisciculture"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Most Indian farmers practise subsistence-oriented farming.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q92",
@@ -661483,14 +661323,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Maharashtra",
       "Arunchal Pradesh"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The early iron works at Porto Novo (Parangipettai) in the Madras Presidency date to 1830.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q93",
@@ -661505,20 +661347,19 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "options": [
       "Tata Iron and Steel Company",
       "Indian Iron and Steel Company",
-      "Bilai Iron and Steel Centre",
+      "Bhilai Steel Plant",
       "Hindustan Steel Limited"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Tata Iron and Steel Company, founded in 1907 at Jamshedpur, is India’s oldest major integrated steel company.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q94",
@@ -661536,17 +661377,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Sex ratio",
       "Population density"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Backward-area identification commonly used economic, agricultural and demographic indicators; sex ratio was not among the standard indicators intended here.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q95",
@@ -661564,17 +661404,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Champakaru Canal",
       "Udyog Mandal Canal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The Ganga–Bhagirathi–Hooghly route (NW-1) is the longest listed National Waterway.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q96",
@@ -661589,20 +661428,19 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "options": [
       "At least 50% of male working population",
       "A minimum of 5000 population",
-      "Population density at least 250 persons per sq.km",
+      "Population density at least 400 persons per sq.km",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A Census urban town has at least 5,000 people; it also requires density of 400/km² and 75% of male workers in non-agricultural work.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q97",
@@ -661620,17 +661458,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Urban Centre",
       "Satellite Town"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The rural–urban fringe is the transition zone between rural and urban areas.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q98",
@@ -661648,17 +661485,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Drought Prone Area Development",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The canal’s command-area development is associated with the Command Area Development Programme.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q99",
@@ -661676,17 +661512,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Karnataka",
       "Kerala"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Andhra Pradesh was reorganised in 2014 when Telangana was formed.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q100",
@@ -661704,17 +661539,16 @@ const groupBQuestionsPart80: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The Siachen Glacier lies in the disputed India–Pakistan sector of the eastern Karakoram.",
     "source": "Grade-V of Mizoram Food, Civil Supplies & Consumer Affairs Service (Inspector) · 2019",
     "year": 2019,
     "sourceHref": "/papers/group-b/inspector-fcs-2019-gs2.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs3-Q1",

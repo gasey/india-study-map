@@ -540,7 +540,7 @@ browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
 assertions still expect **3,540 ready**, **1,618 official**, **36 held** and
 **13 missing**; these no longer match the imported archive. Refresh those
 assertions before relying on the script. The current Group B build report is
-15,896 ready, 8,322 official, 476 held-reviewed, 9,485 unreviewed and 733
+16,281 ready, 8,322 official, 491 held-reviewed, 9,085 unreviewed and 733
 missing MCQs (25,857 MCQs total across 404 papers). AAO 2024 General English is Exam-mode eligible while AAO 2024
 Arithmetic remains out because it has a compensated item.
 
@@ -663,3 +663,52 @@ was available or used.
 Source: `public/papers/group-b/inspector-excise-2019-gs1.pdf`; durable review
 input: `tools/udc-ldc-build/group-b-text-repairs.json` under
 `inspector-excise-2019-gs1`.
+
+
+## Employment Officer General Studies Paper-III 2019 answer review — 12 October 2026
+
+Checked all 100 questions against the scan and inspected the figure questions on
+the source pages. Added 92 derived answers. Q43, Q82, Q91, Q93, Q95, Q97 and
+Q99 are held because their ranges overlap, visual rules are unclear, wording is
+underspecified, or multiple options can satisfy the clues. Q86 also has two
+valid part-to-whole analogies. The review ledger reports 92 ready, 8 held,
+0 pending. No official key was available or used.
+
+Source: `public/papers/group-b/eo-2019-gs3.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `eo-2019-gs3`.
+
+## Inspector FCS General Studies Paper-I 2019 answer review — 12 October 2026
+
+Compared all 100 questions and choices with the 11-page scan. Added 96 answers
+with explanations and restored the flattened mapping-table layouts in Q38, Q43,
+Q50 and Q56. The scan prints only three choices for Q55 and Q61; those items
+still have unique answers. Q29, Q34, Q37 and Q58 are held because choices are
+multiple, missing or inaccurate. The review ledger reports 96 ready, 4 held,
+0 pending. No official key was used.
+
+Source: `public/papers/group-b/inspector-fcs-2019-gs1.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under
+`inspector-fcs-2019-gs1`.
+
+## Inspector FCS General Studies Paper-II 2019 answer review — 12 October 2026
+
+Checked all 100 items against the source scan. Added 100 answers with
+explanations and restored omitted assertion/reason lines in Q47 and Q60.
+Corrected source text and factual errors, including the census-town density
+criterion in Q96. The review ledger reports 100 ready, 0 held, 0 pending.
+No official key was used.
+
+Source: `public/papers/group-b/inspector-fcs-2019-gs2.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under
+`inspector-fcs-2019-gs2`.
+
+## Inspector of Factories General Studies 2019 answer review — 12 October 2026
+
+Checked all 100 items against the eight-page scan and restored the ending of Q21,
+which extraction had dropped. Added 97 answers with explanations; Q10, Q69 and
+Q74 are held because the correct weight, date or event is absent/misstated in
+the options. Source wording issues and repeated choices are recorded in notes.
+The review ledger reports 97 ready, 3 held, 0 pending. No official key was used.
+
+Source: `public/papers/group-b/iof-2019-gs.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `iof-2019-gs`.

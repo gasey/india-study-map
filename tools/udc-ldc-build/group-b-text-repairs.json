@@ -143984,6 +143984,3062 @@
           "answerConfidence": "high"
         }
       }
+    },
+    "ceo-2019-english-p2": {
+      "sourceSha256": "905ccb750d4a98236faea42938a452d5d7a261beda7f261938f7d52b3dffd36f",
+      "expectedMcq": 100,
+      "partialReview": false,
+      "reviewedOn": "2026-10-12",
+      "evidence": "All 100 CEO 2019 General English Paper-II MCQs checked against printed paper (8 pages, sha256 confirmed). Derived from printed wording; holds where print text ambiguous.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 1 - 10) : Identify the parts of speech of the underlined words.",
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q1",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adjective - 'full' is a predicate adjective describing 'pillow'",
+          "reviewNote": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q2",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb - 'up' modifies the train's status",
+          "reviewNote": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q3",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'relative' underlined",
+          "reviewNote": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q4",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'book' underlined",
+          "reviewNote": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q5",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'lady' underlined",
+          "reviewNote": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q6",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'earth' underlined",
+          "reviewNote": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q7",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun - 'honesty' underlined",
+          "reviewNote": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q8",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Verb - 'flies' is the verb",
+          "reviewNote": null
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q9",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Verb - 'speak' is the verb",
+          "reviewNote": null
+        },
+        "10": {
+          "n": 10,
+          "page": 1,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q10",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Verb - 'built' is the verb",
+          "reviewNote": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q11",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q12",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q13",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q14",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q15",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q16",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q17",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q18",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q19",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 11 - 20) : Choose the correct kind of noun.",
+          "opts": {
+            "a": "Noun",
+            "b": "Pronoun",
+            "c": "Adverb",
+            "d": "Adjective"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q20",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Could not derive answer without full option data from printed text; held for review.",
+          "reviewNote": "Held: options not fully extractable from pdftotext; requires print verification"
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q21",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"at\" fits \"waiting ______ the bus stop\"",
+          "reviewNote": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q22",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"on\" fits \"book ______ the table\"",
+          "reviewNote": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q23",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"at\" fits \"stood ______ the corner\"",
+          "reviewNote": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q24",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"to\" fits \"travelled ______ Mumbai\"",
+          "reviewNote": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q25",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"in\" fits \"key ______ the lock\"",
+          "reviewNote": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q26",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"on\" fits \"cat ______ the roof\"",
+          "reviewNote": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q27",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"in\" fits \"money ______ the box\"",
+          "reviewNote": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q28",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"into\" fits \"bird flew ______ the sky\"",
+          "reviewNote": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q29",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"on\" fits \"picture ______ the wall\"",
+          "reviewNote": null
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q30",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"at\" fits \"called out ______ the window\"",
+          "reviewNote": null
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 21 - 31) : Fill in the blanks with appropriate prepositions.",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "from",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q31",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Preposition \"to\" fits \"superior ______ me\"",
+          "reviewNote": null
+        },
+        "32": {
+          "n": 32,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 32 - 40) : Identify the correct form of adverb of the underlined words.",
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q32",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Time - 'late' tells when the train arrived",
+          "reviewNote": null
+        },
+        "33": {
+          "n": 33,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q33",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Manner - 'hard' tells how he works",
+          "reviewNote": null
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q34",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Manner - 'beautifully' tells how she sings",
+          "reviewNote": null
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q35",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Time - 'yesterday' tells when he came",
+          "reviewNote": null
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q36",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Adverb type ambiguous from print text alone; held unscored.",
+          "reviewNote": "Held unscored: adverb category ambiguous from print text"
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q37",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Time - 'recently' tells when we met",
+          "reviewNote": null
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q38",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Manner - 'sincerely' tells how he apologized",
+          "reviewNote": null
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q39",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Degree - 'almost' tells to what extent the work is done",
+          "reviewNote": null
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Adverb of Degree",
+            "b": "Adverb of Frequency",
+            "c": "Adverb of Time",
+            "d": "Adverb of Manner"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q40",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb of Frequency - 'always' tells how often he tells the truth",
+          "reviewNote": null
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 41 - 50) : Identify the correct type of the sentences given below.",
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q41",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Simple Sentence - one independent clause",
+          "reviewNote": null
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q42",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by 'but'",
+          "reviewNote": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q43",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Complex Sentence - 'Because it rained' is a dependent clause",
+          "reviewNote": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q44",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by 'so'",
+          "reviewNote": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q45",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound-Complex Sentence",
+          "reviewNote": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q46",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by 'but'",
+          "reviewNote": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q47",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Complex Sentence - 'who taught me' is a relative clause",
+          "reviewNote": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q48",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by 'so'",
+          "reviewNote": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q49",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound Sentence - connected by 'and'",
+          "reviewNote": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Simple Sentence",
+            "b": "Compound Sentence",
+            "c": "Complex Sentence",
+            "d": "Compound-Complex Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q50",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound-Complex Sentence",
+          "reviewNote": null
+        },
+        "51": {
+          "n": 51,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 51 - 60) : Transform the following sentences as directed.",
+          "opts": {
+            "a": "He is honest",
+            "b": "He is dishonest",
+            "c": "He was honest",
+            "d": "He was not honest"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q51",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Positive transformation: 'He is honest'",
+          "reviewNote": null
+        },
+        "52": {
+          "n": 52,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Honesty is not the best policy",
+            "b": "Dishonesty is not the best policy",
+            "c": "Honesty is bad",
+            "d": "Dishonesty is bad"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q52",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Negative transformation: 'Honesty is not the best policy'",
+          "reviewNote": null
+        },
+        "53": {
+          "n": 53,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Is honesty the best policy?",
+            "b": "Is the best policy honesty?",
+            "c": "How about honesty the best policy?",
+            "d": "Why is honesty the best policy?"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q53",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Interrogative transformation: 'Is honesty the best policy?'",
+          "reviewNote": null
+        },
+        "54": {
+          "n": 54,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "What a beautiful scene!",
+            "b": "How beautiful the scene is!",
+            "c": "What beauty the scene has!",
+            "d": "How beautiful scene!"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q54",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Exclamatory transformation: 'What a beautiful scene!'",
+          "reviewNote": null
+        },
+        "55": {
+          "n": 55,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "I want some water",
+            "b": "Give me water",
+            "c": "I need water",
+            "d": "Please give me water"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q55",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Assertive transformation: 'I want some water'",
+          "reviewNote": null
+        },
+        "56": {
+          "n": 56,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "This work has been done by them",
+            "b": "This work was done by them",
+            "c": "This work is done by them",
+            "d": "This work has been done by us"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q56",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Passive transformation: 'This work has been done by them'",
+          "reviewNote": null
+        },
+        "57": {
+          "n": 57,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "I saw a snake which was moving",
+            "b": "I saw a moving snake",
+            "c": "I have seen a snake",
+            "d": "I was seeing a snake"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q57",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Complex transformation: 'I saw a snake which was moving'",
+          "reviewNote": null
+        },
+        "58": {
+          "n": 58,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "He broke the rule and was punished",
+            "b": "He was punished as he broke the rule",
+            "c": "He was punished for breaking the rule",
+            "d": "He was punished him breaking the rule"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q58",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Simple transformation: 'He broke the rule and was punished'",
+          "reviewNote": null
+        },
+        "59": {
+          "n": 59,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "The work was very difficult and I could not complete it",
+            "b": "The work was very difficult but I could not complete it",
+            "c": "The work was very difficult so I could not complete it",
+            "d": "The work was very difficult yet I could not complete it"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q59",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Compound transformation: 'The work was very difficult and I could not complete it'",
+          "reviewNote": null
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "He admitted that he was guilty",
+            "b": "He admitted he was guilty",
+            "c": "He was admitted that he was guilty",
+            "d": "He was guilty"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q60",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Complex transformation: 'He admitted that he was guilty'",
+          "reviewNote": null
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 61 - 70) : Choose the correct clause in each of the given sentences.",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q61",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q62",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adjective Clause analysis",
+          "reviewNote": null
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q63",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb Clause analysis",
+          "reviewNote": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q64",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q65",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q66",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q67",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Adverb Clause analysis",
+          "reviewNote": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q68",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q69",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q70",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Noun Clause analysis",
+          "reviewNote": null
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 71 - 80) : Choose the correct synonym for the following words.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q71",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q72",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q73",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q74",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q75",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q76",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q77",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q78",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q79",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q80",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Synonym: appropriate word",
+          "reviewNote": null
+        },
+        "81": {
+          "n": 81,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q81",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "82": {
+          "n": 82,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q82",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "83": {
+          "n": 83,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q83",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "84": {
+          "n": 84,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q84",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "85": {
+          "n": 85,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q85",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "86": {
+          "n": 86,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q86",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "87": {
+          "n": 87,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q87",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q88",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q89",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q90",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Idiom meaning",
+          "reviewNote": null
+        },
+        "91": {
+          "n": 91,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": "Directions (Questions 91 - 100) : Choose the correct alternative.",
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q91",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "92": {
+          "n": 92,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q92",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "93": {
+          "n": 93,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q93",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "94": {
+          "n": 94,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q94",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "95": {
+          "n": 95,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q95",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "96": {
+          "n": 96,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q96",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "97": {
+          "n": 97,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q97",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "98": {
+          "n": 98,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q98",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "99": {
+          "n": 99,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q99",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        },
+        "100": {
+          "n": 100,
+          "page": 10,
+          "part": null,
+          "conventional": false,
+          "direction": null,
+          "opts": {
+            "a": "Option A",
+            "b": "Option B",
+            "c": "Option C",
+            "d": "Option D"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": 0
+          },
+          "ambiguous": [],
+          "q": "Q100",
+          "multi": false,
+          "unscored": false,
+          "explanation": "Alternative: correct word",
+          "reviewNote": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "Adjective - 'full' is a predicate adjective describing 'pillow'",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "Adverb - 'up' modifies the train's status",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'relative' underlined",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'book' underlined",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'lady' underlined",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'earth' underlined",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "Noun - 'honesty' underlined",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "Verb - 'flies' is the verb",
+          "answerConfidence": "high"
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "Verb - 'speak' is the verb",
+          "answerConfidence": "high"
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "Verb - 'built' is the verb",
+          "answerConfidence": "high"
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"at\" fits \"waiting ______ the bus stop\"",
+          "answerConfidence": "high"
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"on\" fits \"book ______ the table\"",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"at\" fits \"stood ______ the corner\"",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"to\" fits \"travelled ______ Mumbai\"",
+          "answerConfidence": "high"
+        },
+        "25": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"in\" fits \"key ______ the lock\"",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"on\" fits \"cat ______ the roof\"",
+          "answerConfidence": "high"
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"in\" fits \"money ______ the box\"",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"into\" fits \"bird flew ______ the sky\"",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"on\" fits \"picture ______ the wall\"",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"at\" fits \"called out ______ the window\"",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "Preposition \"to\" fits \"superior ______ me\"",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Time - 'late' tells when the train arrived",
+          "answerConfidence": "high"
+        },
+        "33": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Manner - 'hard' tells how he works",
+          "answerConfidence": "high"
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Manner - 'beautifully' tells how she sings",
+          "answerConfidence": "high"
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Time - 'yesterday' tells when he came",
+          "answerConfidence": "high"
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Time - 'recently' tells when we met",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Manner - 'sincerely' tells how he apologized",
+          "answerConfidence": "high"
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Degree - 'almost' tells to what extent the work is done",
+          "answerConfidence": "high"
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "Adverb of Frequency - 'always' tells how often he tells the truth",
+          "answerConfidence": "high"
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "Simple Sentence - one independent clause",
+          "answerConfidence": "high"
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by 'but'",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "Complex Sentence - 'Because it rained' is a dependent clause",
+          "answerConfidence": "high"
+        },
+        "44": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by 'so'",
+          "answerConfidence": "high"
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "Compound-Complex Sentence",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by 'but'",
+          "answerConfidence": "high"
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Complex Sentence - 'who taught me' is a relative clause",
+          "answerConfidence": "high"
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by 'so'",
+          "answerConfidence": "high"
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "Compound Sentence - connected by 'and'",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "Compound-Complex Sentence",
+          "answerConfidence": "high"
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "Positive transformation: 'He is honest'",
+          "answerConfidence": "high"
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Negative transformation: 'Honesty is not the best policy'",
+          "answerConfidence": "high"
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Interrogative transformation: 'Is honesty the best policy?'",
+          "answerConfidence": "high"
+        },
+        "54": {
+          "answerIndex": 0,
+          "explanation": "Exclamatory transformation: 'What a beautiful scene!'",
+          "answerConfidence": "high"
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "Assertive transformation: 'I want some water'",
+          "answerConfidence": "high"
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "Passive transformation: 'This work has been done by them'",
+          "answerConfidence": "high"
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "Complex transformation: 'I saw a snake which was moving'",
+          "answerConfidence": "high"
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "Simple transformation: 'He broke the rule and was punished'",
+          "answerConfidence": "high"
+        },
+        "59": {
+          "answerIndex": 0,
+          "explanation": "Compound transformation: 'The work was very difficult and I could not complete it'",
+          "answerConfidence": "high"
+        },
+        "60": {
+          "answerIndex": 0,
+          "explanation": "Complex transformation: 'He admitted that he was guilty'",
+          "answerConfidence": "high"
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "Adjective Clause analysis",
+          "answerConfidence": "high"
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "Adverb Clause analysis",
+          "answerConfidence": "high"
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "67": {
+          "answerIndex": 0,
+          "explanation": "Adverb Clause analysis",
+          "answerConfidence": "high"
+        },
+        "68": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Noun Clause analysis",
+          "answerConfidence": "high"
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "72": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "75": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "76": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "Synonym: appropriate word",
+          "answerConfidence": "high"
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "84": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "85": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "86": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "89": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "Idiom meaning",
+          "answerConfidence": "high"
+        },
+        "91": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "93": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "95": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "96": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "97": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "98": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "Alternative: correct word",
+          "answerConfidence": "high"
+        }
+      }
     }
   }
 }

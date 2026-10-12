@@ -222,3 +222,26 @@ First batch: Combined Group B (NG) Paper-II, December 2024, Series A
 Arithmetic Q36–45, read from the scanned pages and matched to the final key. The
 bank stays at 352 papers / 22,676 records, 3,834 practice-ready (1,752 official);
 2,480 MCQs now carry worked guides and 552 official records are still key-only.
+
+## Subject classification and English guide update — 13 October 2026
+
+Durable ID tags now cover both banks. The separate clerical bank has 547
+Arithmetic records (501 MCQs and 46 descriptive items); 527 have a precise
+Maths topic and 20 remain Mixed because OCR is unclear, prompts span multiple
+topics, or there is no clock category. Its 255 Computer questions are all tagged
+to canonical computer topics. The MIMER 2018 compiler and firmware questions
+were corrected to Programming and Hardware/Memory. All 858 clerical English
+records and its Reasoning records already use their matching subject routes.
+
+In the Group B supplement, all 707 Arithmetic and 110 Computer records resolve
+to canonical topics or documented Mixed cases. JAO Series B now routes Q31–50
+to Reasoning and Q51–100 to GK; Q39, Q41 and Q44 have specific reasoning topic
+overrides. English remains routed to the English section; 36 Inspector of Excise
+(August 2025) MCQs now have source-checked worked guides against the final key.
+
+The tag audit found 1,446 durable overrides, all pointing to existing question
+IDs across the generated banks. The Group B build report still has 8,771 MCQs
+marked unreviewed; topic classification and worked guides do not count as full
+source review. English has 7,136 pending MCQ worked guides and 903 pending
+written guides in the Group B ledger. `python3 tools/udc-ldc-build/build_group_b.py`,
+`git diff --check` and `npm run build` completed successfully for this update.

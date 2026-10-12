@@ -1332,11 +1332,11 @@ def build_additional():
                         solution_explanation = peer.get('why') or solution_explanation
             if slug == jao_b_review['slug']:
                 # Series B is partitioned on the printed scan: Q1–30 arithmetic,
-                # Q31–45 reasoning and Q46–100 general knowledge. The classifier
+                # Q31–50 reasoning and Q51–100 general knowledge. The classifier
                 # must not leave manually repaired items in the broad GK bucket.
                 if q['n'] <= 30:
                     section = 'arithmetic'
-                elif q['n'] <= 45:
+                elif q['n'] <= 50:
                     section = 'reasoning'
                     if topic_id == 'general':
                         topic_label = 'General Intelligence & Reasoning'

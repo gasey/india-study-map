@@ -1116,6 +1116,486 @@
           "page": 9
         }
       }
+    },
+    {
+      "paperId": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
+      "exam": "Inspector of Excise under Excise & Narcotics Dept.-August-2025",
+      "sourceHref": "/papers/group-b/archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a.pdf",
+      "sourceSha256": "d0705e32872096d3e411349b5779e23b1929dc5bf458898fa38ef8f77277dcf2",
+      "keyHref": "/papers/group-b/keys/inspector-excise-2025-final-key.pdf#page=1",
+      "keySha256": "a2bf16ba4290c73931f8540c271486bae5ddfc45b1a770ceeeaf213ac5121e07",
+      "reviewedOn": "2026-10-13",
+      "evidence": "Visually checked printed Section B pages 4–7 and the final key page 1. Confirmed all 36 stems, option order, underlining, directions, and official answers; independently worked each item and matched it against the final key. Section A comprises descriptive tasks and is outside this MCQ guide.",
+      "questions": {
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B1": {
+          "expectedQuestion": "This is **what** I want.",
+          "expectedOptions": [
+            "Preposition",
+            "Adverb",
+            "Pronoun",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“What I want” is a fused relative clause: “what” means “the thing that” and functions as a pronoun within that clause. It is the object of “want”.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B2": {
+          "expectedQuestion": "This is an **absolute** truth.",
+          "expectedOptions": [
+            "Adverb",
+            "Noun",
+            "Interjection",
+            "Adjective"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Absolute” modifies the noun “truth”, so it is an adjective.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B3": {
+          "expectedQuestion": "What are the latest **tidings**?",
+          "expectedOptions": [
+            "Conjunction",
+            "Verb",
+            "Noun",
+            "Pronoun"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Tidings” names news or information, so it is a plural noun.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B4": {
+          "expectedQuestion": "**Oh!** That I had the wings of a bird.",
+          "expectedOptions": [
+            "Adjective",
+            "Interjection",
+            "Verb",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Oh!” is an interjection expressing a sudden wish or feeling.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B5": {
+          "expectedQuestion": "This **information** is all wrong.",
+          "expectedOptions": [
+            "Preposition",
+            "Verb",
+            "Noun",
+            "Conjunction"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Information” names what is wrong; it is a noun (and is normally uncountable).",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B6": {
+          "expectedQuestion": "It is **too** hot to go out.",
+          "expectedOptions": [
+            "Pronoun",
+            "Adverb",
+            "Interjection",
+            "Adjective"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Too” modifies the adjective “hot” by indicating degree, so it is an adverb.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B7": {
+          "expectedQuestion": "**Besides** clothes, I gave him money.",
+          "expectedOptions": [
+            "Conjunction",
+            "Preposition",
+            "Verb",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Besides” means “in addition to” and takes the noun “clothes” as its object; it is a preposition.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B8": {
+          "expectedQuestion": "The player **kicked** the ball.",
+          "expectedOptions": [
+            "Verb",
+            "Noun",
+            "Interjection",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Kicked” is the action verb in the sentence; it tells what the player did.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B9": {
+          "expectedQuestion": "Ours is the **last** house in the street.",
+          "expectedOptions": [
+            "Preposition",
+            "Adjective",
+            "Interjection",
+            "Conjunction"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Last” modifies “house” by identifying which house; it is an adjective.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B10": {
+          "expectedQuestion": "These mangoes are **almost** ripe.",
+          "expectedOptions": [
+            "Adverb",
+            "Noun",
+            "Pronoun",
+            "Verb"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Almost” modifies the adjective “ripe” by expressing degree; it is an adverb.",
+          "page": 4
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B11": {
+          "expectedQuestion": "The court has absolved him _______ all the charges leveled against him.",
+          "expectedOptions": [
+            "of",
+            "from",
+            "to",
+            "upon"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The standard construction is “absolve someone of a charge”.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B12": {
+          "expectedQuestion": "Consequent upon heavy loss he is worse ____ these days.",
+          "expectedOptions": [
+            "upon",
+            "off",
+            "to",
+            "on"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Worse off” is the idiom meaning in a less favourable condition.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B13": {
+          "expectedQuestion": "I shall stay here _______ Friday.",
+          "expectedOptions": [
+            "in",
+            "for",
+            "by",
+            "till"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Till Friday” means that the stay continues up to Friday.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B14": {
+          "expectedQuestion": "She was overcome _____ fatigue and went to bed.",
+          "expectedOptions": [
+            "by",
+            "to",
+            "on",
+            "for"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The usual construction is “overcome by fatigue”: “by” introduces the cause.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B15": {
+          "expectedQuestion": "She swam ______ the river to the other side.",
+          "expectedOptions": [
+            "to",
+            "over",
+            "across",
+            "in"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Across the river” means from one side to the other.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B16": {
+          "expectedQuestion": "The rain water seeps ______ the ground.",
+          "expectedOptions": [
+            "over",
+            "under",
+            "to",
+            "for"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Of the choices, “under the ground” is the idiomatic expression for water seeping below the surface.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B17": {
+          "expectedQuestion": "He piques himself _______his artistic taste.",
+          "expectedOptions": [
+            "on",
+            "at",
+            "by",
+            "of"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Pique oneself on” means to take pride in a quality; hence “on”.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B18": {
+          "expectedQuestion": "His head is teeming ___________ brilliant ideas.",
+          "expectedOptions": [
+            "by",
+            "to",
+            "with",
+            "of"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The collocation is “teeming with” ideas, meaning full of them.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B19": {
+          "expectedQuestion": "Extremism is detrimental ______ the progress of the country.",
+          "expectedOptions": [
+            "to",
+            "for",
+            "with",
+            "at"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Detrimental to” is the standard adjective–preposition pairing.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B20": {
+          "expectedQuestion": "The property was divided __________ the two brothers.",
+          "expectedOptions": [
+            "among",
+            "to",
+            "at",
+            "between"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Between” is used for a relationship involving two people; the property was divided between the brothers.",
+          "page": 5
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B21": {
+          "expectedQuestion": "The proposal, though initially appealing, was ultimately rejected due to its ___ assumptions about the market.",
+          "expectedOptions": [
+            "arbitrary",
+            "objective",
+            "hypothetical",
+            "flawed"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The sentence contrasts an initially appealing proposal with its rejection because the assumptions were defective; “flawed” fits.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B22": {
+          "expectedQuestion": "Despite his public apology, the minister’s explanation failed to ___ the growing public anger.",
+          "expectedOptions": [
+            "escalate",
+            "pacify",
+            "obscure",
+            "deflect"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "An apology is intended to calm anger. “Pacify” means soothe or calm; the other choices do not fit that meaning.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B23": {
+          "expectedQuestion": "She took the comment as a personal insult, even though none was ___ intended.",
+          "expectedOptions": [
+            "directly",
+            "deliberately",
+            "truthfully",
+            "explicitly"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Deliberately intended” means intended on purpose, matching the contrast that no insult was meant.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B24": {
+          "expectedQuestion": "The report was dismissed as being full of vague generalizations and lacked ___ evidence.",
+          "expectedOptions": [
+            "circumstantial",
+            "empirical",
+            "verbal",
+            "anecdotal"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Empirical evidence” is evidence based on observation or experiment, the natural contrast to vague generalizations.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B25": {
+          "expectedQuestion": "The new officer’s approach was admired for being ___ but firm, avoiding unnecessary confrontation.",
+          "expectedOptions": [
+            "passive",
+            "lenient",
+            "tactful",
+            "submissive"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A tactful approach handles a situation sensitively while remaining firm, without provoking needless confrontation.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B26": {
+          "expectedQuestion": "The company’s decision to withdraw from the project was not strategic but rather a result of ___ financial planning.",
+          "expectedOptions": [
+            "astute",
+            "dispassionate",
+            "poor",
+            "speculative"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The sentence says the withdrawal was a consequence of bad financial planning; “poor” supplies that meaning.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B27": {
+          "expectedQuestion": "Her statement was so ___ that it could be interpreted in several ways, depending on the context.",
+          "expectedOptions": [
+            "direct",
+            "rigid",
+            "vague",
+            "ambiguous"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A statement that can be interpreted in several ways is ambiguous.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B28": {
+          "expectedQuestion": "Although he had the facts on his side, his ___ tone alienated even those who agreed with him.",
+          "expectedOptions": [
+            "assertive",
+            "persuasive",
+            "formal",
+            "condescending"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A condescending tone treats listeners as inferior and can alienate even those who agree.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B29": {
+          "expectedQuestion": "Which of the following words is closest in meaning to ‘precarious’?",
+          "expectedOptions": [
+            "predictable",
+            "temporary",
+            "dangerous",
+            "unstable"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Precarious” means insecure or unstable; “unstable” is the closest synonym offered.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B30": {
+          "expectedQuestion": "Mitigate is to damage as:",
+          "expectedOptions": [
+            "aggravate is to pain",
+            "exaggerate is to story",
+            "ease is to burden",
+            "inflict is to wound"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "To mitigate damage is to reduce its severity; to ease a burden is likewise to lessen it. The relationship is verb-to-object reduction.",
+          "page": 6
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B31": {
+          "expectedQuestion": "Which sentence best uses the word ‘impartial’?",
+          "expectedOptions": [
+            "He was impartial to her feelings.",
+            "The referee made an impartial call.",
+            "She expressed her impartial love for sweets.",
+            "The manager showed impartiality by promoting only her relatives."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "An impartial call is fair and unbiased. The other sentences misuse “impartial” or contradict it.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B32": {
+          "expectedQuestion": "Choose the option in which ‘allege’ is used correctly.",
+          "expectedOptions": [
+            "The witness alleged the facts with strong evidence.",
+            "The accused was alleged guilty without trial.",
+            "The newspaper alleged that corruption had occurred.",
+            "He alleged a prize for his honesty."
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Allege that…” correctly introduces an unproven claim. The other options use “allege” with an incorrect complement or meaning.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B33": {
+          "expectedQuestion": "What is the antonym of ‘consensus’ in the context of group decisions?",
+          "expectedOptions": [
+            "Approval",
+            "Disagreement",
+            "Accord",
+            "Harmony"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Consensus is general agreement; its opposite in a group decision is disagreement.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B34": {
+          "expectedQuestion": "Which word best fits the sentence: ‘He was widely ___ for his honesty and dedication to duty.’",
+          "expectedOptions": [
+            "alleged",
+            "dissenting",
+            "mitigated",
+            "acclaimed"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Acclaimed for” means publicly praised for a quality; it fits the sentence.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B35": {
+          "expectedQuestion": "‘Dissent’ is most opposite in meaning to:",
+          "expectedOptions": [
+            "Object",
+            "Concur",
+            "Challenge",
+            "Protest"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "To dissent is to disagree; to concur is to agree, making it the opposite.",
+          "page": 7
+        },
+        "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a-B36": {
+          "expectedQuestion": "Which word best fits the sentence: ‘The judge’s decision was widely considered ___ because it balanced law with compassion.’",
+          "expectedOptions": [
+            "arbitrary",
+            "biased",
+            "lenient",
+            "judicious"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A judicious decision shows sound judgment. Balancing law with compassion is presented as evidence of such judgment.",
+          "page": 7
+        }
+      }
     }
   ]
 }

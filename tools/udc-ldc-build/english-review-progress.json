@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 3776,
-    "pendingMcq": 6073,
-    "heldReviewed": 133,
+    "ready": 3853,
+    "pendingMcq": 5993,
+    "heldReviewed": 136,
     "pendingWritten": 876
   },
   "papers": [
@@ -5386,18 +5386,34 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 0,
+      "ready": 77,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B49",
+          "questionNumber": "B49",
+          "reason": "Source-checked; held because the item has overlapping or invalid answer choices."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B59",
+          "questionNumber": "B59",
+          "reason": "Source-checked; held because the item has overlapping or invalid answer choices."
+        },
+        {
+          "id": "mpsc-group-b-programmer-phe-2018-english-p1-B75",
+          "questionNumber": "B75",
+          "reason": "Source-checked; held because the item has overlapping or invalid answer choices."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-programmer-phe-2018-english-p2",

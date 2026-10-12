@@ -1214,6 +1214,7 @@ def build_additional():
             'assistant-jailor-2018-english': 180,
             'asi-home-2018-english': 180,
             'asi-home-2018-gk': 180,
+            'asi-home-2018-mathematics': 180,
         }
         if slug in reviewed_2018_meta and repairs.get(slug, {}).get('derivedAnswers'):
             # Durations and one-mark objective items come from the printed

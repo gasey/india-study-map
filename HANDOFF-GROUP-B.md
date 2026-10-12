@@ -8,6 +8,16 @@ Use the generated subject/English ledgers for current local progress; older date
 snapshots below are historical and do not establish current deployment status.
 The guide supersedes older OCR-only review or blanket staging instructions.
 
+## Programmer PHE 2018 Paper-I answer review — 12 October 2026
+
+All 80 English MCQs were checked against the scanned source. The module now
+contains 77 derived answers with worked explanations; Q49, Q59 and Q75 remain
+unscored because the offered sentence classes or synonyms overlap or lack a
+valid unique choice. The paper has no official MPSC key. The essay prompt
+remains a written-response item. Source-checked question text and derived
+answers are in `tools/udc-ldc-build/group-b-text-repairs.json`; the generated
+answers are in `src/data/banks/mpsc-group-b-general.ts`.
+
 ## Published English review batch — 10 October 2026
 
 App content commit `49ff3ae` is pushed to `main` and deployed to production.
@@ -529,11 +539,27 @@ browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
 `/udc-ldc` route (or a URL argument). Its historical hardcoded progress
 assertions still expect **3,540 ready**, **1,618 official**, **36 held** and
 **13 missing**; these no longer match the imported archive. Refresh those
-assertions before relying on the script. The current generated report is
-3,763 ready, 1,618 official, 43 held-reviewed, 18,707 unreviewed and 533
+assertions before relying on the script. The current Group B build report is
+15,126 ready, 8,322 official, 446 held-reviewed, 11,156 unreviewed and 735
 missing MCQs. AAO 2024 General English is Exam-mode eligible while AAO 2024
 Arithmetic remains out because it has a compensated item.
 
 When extracting generated question arrays for an audit, use
 `json.JSONDecoder().raw_decode` from each `const groupBQuestionsPartN` start; a
 regex ending at the first `];` can truncate a string containing that text.
+
+## Assistant Sub-Inspector Mathematics 2018 answer review — 12 October 2026
+
+Reviewed all 100 October 2018 Mathematics questions and options against the
+printed source scan. Added 99 independently derived answers with worked
+explanations; Q21 remains held because the question does not specify simple or
+compound interest. Corrected scan/extraction damage in fraction and radical
+stems/options, including Q8–14, Q19, Q28, Q32–33, Q42, Q54, Q60, Q67, Q72,
+Q84, Q89–91 and Q100. No official MPSC key is available or used. The generated
+review ledger reports 99 ready, 1 held, 0 pending, and 100 worked guides.
+
+The source PDF is `public/papers/group-b/asi-home-2018-mathematics.pdf`;
+the durable reviewed transcription and answers are in
+`tools/udc-ldc-build/group-b-text-repairs.json` under
+`asi-home-2018-mathematics`. The generator now records the paper's printed
+three-hour duration and one mark per question.

@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 2384,
-    "pendingMcq": 7476,
-    "heldReviewed": 40,
+    "ready": 2456,
+    "pendingMcq": 7396,
+    "heldReviewed": 48,
     "pendingWritten": 876
   },
   "papers": [
@@ -5029,18 +5029,59 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 80,
-      "ready": 0,
+      "ready": 72,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 8,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
       "writtenGuides": 0,
       "pendingWritten": 1,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B42",
+          "questionNumber": "B42",
+          "reason": "Held unscored: options (a) “from” and (b) “to” are both grammatical with different, equally natural meanings and the printed stem supplies no context to choose between them. The legacy inferred candidate says “from”; the home-coming reading gives “to”. No unique answer can be confirmed from the print."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B44",
+          "questionNumber": "B44",
+          "reason": "Held unscored: three printed options — (a) Neither, (b) Either and (c) Each — all fit the singular verb “is” with “of the two”, so the printed item does not determine a unique choice. The legacy inferred candidate says “Either”, which the print does not establish."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B45",
+          "questionNumber": "B45",
+          "reason": "Held unscored: three printed options — (a) Neither, (b) Either and (c) Each — are all grammatical with “of the two mangoes is”, so the printed item has no unique answer. The legacy inferred candidate says “Either”, which the print does not establish."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B59",
+          "questionNumber": "B59",
+          "reason": "Held unscored: options (a) and (c) are both grammatically correct syntheses of the two printed sentences, so the item has no unique answer. The legacy inferred candidate says (a); (c) is equally correct."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B61",
+          "questionNumber": "B61",
+          "reason": "Held unscored: three printed options — (a), (b) and (c) — are grammatical syntheses that preserve both printed facts, so no unique answer can be derived. The legacy inferred candidate says (c); (a) and (b) are equally correct."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B62",
+          "questionNumber": "B62",
+          "reason": "Held unscored: options (b) and (d) are both correct syntheses of the two printed sentences, so the print does not determine a unique choice. The legacy inferred candidate says (d)."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B63",
+          "questionNumber": "B63",
+          "reason": "Held unscored: options (b) and (d) are equivalent correct syntheses (and (c) also preserves both printed facts), so the printed item has no unique answer. The legacy inferred candidate says (b)."
+        },
+        {
+          "id": "mpsc-group-b-mimer-labtech-2018-english-B64",
+          "questionNumber": "B64",
+          "reason": "Held unscored: options (a), (b) and (d) are all defensible syntheses — (a) and (b) differ from (d) only by shifting the printed past tense to the present — so the item does not have a unique answer without an official key. The legacy inferred candidate says (d)."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-mpe-ss-2020-english",

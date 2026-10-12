@@ -1041,6 +1041,12 @@ def build_additional():
             entry['expectedMcq'] = 80
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'mimer-labtech-2018-english' and repairs.get(slug, {}).get('derivedAnswers'):
+            # Printed cover: 3 hours, 100 marks (Section A essay 20 marks,
+            # Section B 80 MCQs at "one (1) each"); no negative-marking rule
+            # is printed on the paper.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                              'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'aao-2025-p1' and repairs.get(slug, {}).get('derivedAnswers'):
             # Cover: 3 hours, 40 written marks plus 60 one-mark MCQs, with
             # negative marking. The paper does not specify the penalty size;

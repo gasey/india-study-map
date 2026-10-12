@@ -130314,6 +130314,2253 @@
           "direction": "Directions (Question Nos. 62- 66): Choose the most appropriate meaning for the following idioms and phrases."
         }
       }
+    },
+    "mimer-labtech-2018-english": {
+      "sourceSha256": "0a1d4899c9e5413e47157a3ac83f9b38010cf1ffb63791eff559f637a31ea92f",
+      "expectedMcq": 80,
+      "partialReview": false,
+      "reviewedOn": "2026-10-12",
+      "evidence": "Pages 1–8 of public/papers/group-b/mimer-labtech-2018-english.pdf (the copy of \"1.General English Common Paper.pdf\", SHA256 0a1d4899c9e5413e47157a3ac83f9b38010cf1ffb63791eff559f637a31ea92f) were rendered and read page by page; all 80 Section B stems, options, option order and direction lines were compared character for character with the printed text. Corrections recorded: the Q1–12 direction was stored truncated after \"best answer to\" and is restored to the printed \"…best answer to each questions:\"; the Q29–37 target words are underlined in the print (verified at 300 dpi) and their emphasis was corrected from bold to underline; the reading passage for Q1–12 printed on pages 1–2 is restored on each of those questions. The paper carries no official answer key: 72 items were solved independently and recorded as derived answers, and 8 items (42, 44, 45, 59, 61, 62, 63, 64) are held unscored because the printed choices do not support a unique answer. Section A (the essay) stays a separate pending written prompt.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Wealth",
+            "b": "Cleanliness",
+            "c": "Sunlight",
+            "d": "Anxieties"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "It is difficult to sustain proper health devoid of",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Several diseases",
+            "b": "Malnutrition",
+            "c": "Indigestion",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Consumption of water which is not clean and pure can lead to",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Cheap",
+            "b": "Easily prepared",
+            "c": "Nutritious",
+            "d": "Tasty"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We should constantly attempt to consume food which are",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Loneliness",
+            "b": "Happiness",
+            "c": "Cleanliness",
+            "d": "Godliness"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is not dependent upon the wealth of a person?",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Fresh Air",
+            "b": "Green Vegetables",
+            "c": "Proper Diet",
+            "d": "All of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What are the things good health depends upon",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Money",
+            "b": "Property",
+            "c": "Travelling",
+            "d": "Health"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What is the source of all happiness",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "relationship",
+            "b": "habits",
+            "c": "friendship",
+            "d": "manners"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "One must cultivate good ___________ to stay healthy.",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Good health",
+            "b": "Good Physique",
+            "c": "Good meal",
+            "d": "Good sleep"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What contributes to the emotional well being of a person",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Anxieties",
+            "b": "Depression",
+            "c": "Boredom",
+            "d": "Hunger"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What should we always free ourselves from?",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Damp and humid",
+            "b": "Airy and sunny",
+            "c": "Hot and dry",
+            "d": "Wet and sultry"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What are the ideal conditions for a house?",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Early to bed and early to rise",
+            "b": "Taking a bath everyday",
+            "c": "Eating vegetables",
+            "d": "Balanced and nutritious diet"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "What factors contributes to the proper growth of the body?",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "12": {
+          "n": 12,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Question 1 – 12): Read the following passages carefully and choose the best answer to each questions:",
+          "opts": {
+            "a": "Clean our hands with soap",
+            "b": "Take a bath",
+            "c": "Go for a walk",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "How should we maintain cleanliness after having a meal?",
+          "multi": false,
+          "passage": "Good health depends on several things. Fresh air and sunlight are very important for our health. Fresh air helps us to improve our immune system and overall health. So a morning walk is very useful for health. Sunlight helps our body to produce vitamin-D. A dirty and damp atmosphere causes lots of diseases. Fresh and pure drinking water is also necessary for good health. Impure drinking- water is the cause of several diseases. So, we must take care of these things. Food is another necessary thing for the body. Nutritious foods help us to maintain good health. Consumption of healthy foods helps us to minimize any health related problems. We all should know, how, when and what to eat. We should always include a portion of green vegetables, fruits or salads in our meal. Green vegetables are sources of vital nutrients. Our digestive system plays a key role in our overall health. Fiber rich foods such as whole grain wheat, bran rice, etc. help us improve our digestive system. A balanced and nutritious diet helps the proper growth of the body. But we must remember that we eat to live and not that we live to eat. In India, over-eating causes a large number of deaths. If we eat less, we may live more.\n\nCleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health. We should clear our house and the surrounding areas every day. Every day, we should bath twice, in the morning and in the evening. After eating food, we should clean our hands with soap.\n\nVarious types of diseases erupt from unclean surroundings. We should always throw the garbage in the dustbin. A disease-free body is a healthy body, and cleanliness is the key for health. We must know some simple rules of hygiene. Our house must be airy and sunny. Apart from all this, we must form good habits. We should keep ourselves free from cares and anxieties. Early rising is equally necessary for good health. So we must try to keep fit. Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness. Money can’t buy happiness. Happiness is priceless and not dependent upon the wealth of a person. Good health, however, contribute to the emotional well-being and happiness of a person. Even with limited income, a person with sound health can lead a happy and enjoyable life."
+        },
+        "13": {
+          "n": 13,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Wonderful statement",
+            "b": "Meaningless statement",
+            "c": "Inconsistent statement",
+            "d": "Thoughtless statement"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Sweeping Statement",
+          "multi": false
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Yellow Thumb",
+            "b": "Green Thumb",
+            "c": "Red Thumb",
+            "d": "White Thumb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "To have a natural interest",
+          "multi": false
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "A white cat",
+            "b": "A white leopard",
+            "c": "A white elephant",
+            "d": "A white owl"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Costly or troublesome possession",
+          "multi": false
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Took to heels",
+            "b": "Took off",
+            "c": "Took a jet",
+            "d": "Took away"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Run away in fear",
+          "multi": false
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Green-eyed monster",
+            "b": "Brown-eyed monster",
+            "c": "Blue-eyed monster",
+            "d": "Loch Ness monster"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Used as a way of talking about jealousy",
+          "multi": false
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Spilling the milk",
+            "b": "Spilling the beans",
+            "c": "Spilling the tea",
+            "d": "Spilling the water"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Revealing an information indiscreetly",
+          "multi": false
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Bury the hatchet",
+            "b": "Went to the winds",
+            "c": "An axe to grind",
+            "d": "At one’s wit’s end"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A private interest to serve",
+          "multi": false
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Fits and starts",
+            "b": "Close shave",
+            "c": "Bad Blood",
+            "d": "Shake in shoes"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Tremble with fear",
+          "multi": false
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "On the verge of",
+            "b": "Sowing wild oats",
+            "c": "Like a phoenix",
+            "d": "Hobson’s Choice"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Irresponsible pleasure seeking in young age",
+          "multi": false
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "A red letter day",
+            "b": "Burn one’s boat",
+            "c": "A sore point",
+            "d": "A bolt from the blue"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Something unexpected and unpleasant",
+          "multi": false
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Throw down a glove",
+            "b": "Turn a deaf ear",
+            "c": "Have the last laugh",
+            "d": "To steer clear of"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "To be victorious at the end of an argument",
+          "multi": false
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "A damp squib",
+            "b": "In cold blood",
+            "c": "To smell a rat",
+            "d": "Give vent to"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A disappointing result",
+          "multi": false
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "To lose ground",
+            "b": "Sailing in the same boat",
+            "c": "To make one’s blood boil",
+            "d": "To add fuel to the fire"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Being in the same difficult situation",
+          "multi": false
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Hand in glove",
+            "b": "Soft option",
+            "c": "To speak one’s mind",
+            "d": "Gift of the gab"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Ability to speak well",
+          "multi": false
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Carrot and stick",
+            "b": "Ins and outs",
+            "c": "Eat everyone’s salt",
+            "d": "Hand in glove"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Reward and punishment policy",
+          "multi": false
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:",
+          "opts": {
+            "a": "Stick to guns",
+            "b": "To toe the line",
+            "c": "Null and void",
+            "d": "Leaps and bounds"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "To follow the lead",
+          "multi": false
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My mother and I __went__ to the market today.",
+          "multi": false
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Adjective",
+            "d": "Conjunction"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We saw a man with a __heavy__ load on his back.",
+          "multi": false
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Conjunction",
+            "c": "Preposition",
+            "d": "Adverb"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The customer and I __critically__ evaluated information on the company’s web site.",
+          "multi": false
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Preposition",
+            "b": "Adjective",
+            "c": "Adverb",
+            "d": "Interjection"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Brian often talked __about__ Ms. Rita.",
+          "multi": false
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Noun",
+            "b": "Verb",
+            "c": "Pronoun",
+            "d": "Conjunction"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "John and I attended a dinner with __his__ parents.",
+          "multi": false
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Interjection",
+            "b": "Conjunction",
+            "c": "Adverb",
+            "d": "Pronoun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "He was not handsome, __yet__ he was a successful actor.",
+          "multi": false
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Abstract Noun",
+            "b": "Common Noun",
+            "c": "Concrete Noun",
+            "d": "Proper Noun"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The role of the courts is to dispense __justice__ fairly to everyone.",
+          "multi": false
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Adverb of manner",
+            "b": "Adverb of time",
+            "c": "Adverb of frequency",
+            "d": "Adverb of degree"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Dr. Clancy is __seldom__ wrong in his diagnosis.",
+          "multi": false
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 29 – 37): Choose the correct Parts of Speech for the underlined words:",
+          "opts": {
+            "a": "Adverb of manner",
+            "b": "Adverb of time",
+            "c": "Adverb of frequency",
+            "d": "Adverb of degree"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "After taking the medicine my mother is feeling __much__ better.",
+          "multi": false
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "already ate",
+            "b": "already eaten",
+            "c": "had eaten",
+            "d": "had ate."
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I’m afraid I’m not hungry. I have ____________________.",
+          "multi": false
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "had became",
+            "b": "have become",
+            "c": "has become",
+            "d": "had become"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Travelling _______________ much easier in the 20th century.",
+          "multi": false
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "has known",
+            "b": "have known",
+            "c": "had known",
+            "d": "has knew"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mark and I ____________each other since Kindergarten.",
+          "multi": false
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "were not able",
+            "b": "was not able",
+            "c": "would not able",
+            "d": "is not able"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The police ___________ to catch the thief.",
+          "multi": false
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "from",
+            "b": "to",
+            "c": "onto",
+            "d": "on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Mathew has returned __________ his home town.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“Return” takes either “to” or “from” a place, and both printed choices give a complete, natural sentence: “Mathew has returned to his home town” (he is now back in his home town) and “Mathew has returned from his home town” (he has come back from there). The printed stem gives no context that selects one reading, so no unique choice follows from the page.",
+          "reviewNote": "Held unscored: options (a) “from” and (b) “to” are both grammatical with different, equally natural meanings and the printed stem supplies no context to choose between them. The legacy inferred candidate says “from”; the home-coming reading gives “to”. No unique answer can be confirmed from the print."
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "on",
+            "b": "in",
+            "c": "to",
+            "d": "into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The children climbed ________ the monkey bars.",
+          "multi": false
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "Neither",
+            "b": "Either",
+            "c": "Each",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "____________ of the two books is costly.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "“Neither … is”, “Either … is” and “Each … is” are all standard with “of the two”: neither and either are singular by rule, and “each of the two books” also takes the singular verb “is”. All three printed choices therefore complete the stem grammatically, and nothing in the print says whether one, both or neither of the books is costly.",
+          "reviewNote": "Held unscored: three printed options — (a) Neither, (b) Either and (c) Each — all fit the singular verb “is” with “of the two”, so the printed item does not determine a unique choice. The legacy inferred candidate says “Either”, which the print does not establish."
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "Neither",
+            "b": "Either",
+            "c": "Each",
+            "d": "None of these"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "___________ of the two mangoes is ripe.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Exactly as in Q44, “Neither”, “Either” and “Each” all take the singular verb “is” with “of the two mangoes”, so each of the three printed choices yields a grammatical sentence. The print gives no context about how many mangoes are ripe.",
+          "reviewNote": "Held unscored: three printed options — (a) Neither, (b) Either and (c) Each — are all grammatical with “of the two mangoes is”, so the printed item has no unique answer. The legacy inferred candidate says “Either”, which the print does not establish."
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "carelessly",
+            "b": "angrily",
+            "c": "happily",
+            "d": "greedily"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My son looked at the box of chocolate _______________.",
+          "multi": false
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "among",
+            "b": "besides",
+            "c": "between",
+            "d": "within"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A small table was lying ___________ the two chairs.",
+          "multi": false
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 38 – 48): Fill in the blanks choosing the correct option given:",
+          "opts": {
+            "a": "until",
+            "b": "till",
+            "c": "before",
+            "d": "while"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "May hay _________ the sun shines.",
+          "multi": false
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Compound Sentence",
+            "c": "Simple Sentence",
+            "d": "Compound-Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Bob and Ronny ate too much and felt sick.",
+          "multi": false
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Compound Sentence",
+            "c": "Simple Sentence",
+            "d": "Compound-Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "I spoke to your friend in English, but he responded in Mizo.",
+          "multi": false
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Compound Sentence",
+            "c": "Simple Sentence",
+            "d": "Compound-Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Lucy returned the computer after she knew it was damaged.",
+          "multi": false
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Compound Sentence",
+            "c": "Simple Sentence",
+            "d": "Compound-Complex sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My parents usually go for a walk while the sun sets, but it was raining today.",
+          "multi": false
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Affirmative Sentence",
+            "b": "Interrogative Sentence",
+            "c": "Negative Sentence",
+            "d": "Imperative Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Only God can help us.",
+          "multi": false
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Affirmative Sentence",
+            "b": "Interrogative Sentence",
+            "c": "Negative Sentence",
+            "d": "Assertive Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Michael doesn’t always visit me.",
+          "multi": false
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Affirmative Sentence",
+            "b": "Interrogative Sentence",
+            "c": "Negative Sentence",
+            "d": "Assertive Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Who doesn’t wish to be happy?",
+          "multi": false
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Exclamatory Sentence",
+            "b": "Imperative Sentence",
+            "c": "Negative Sentence",
+            "d": "Assertive Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "They did not play football yesterday.",
+          "multi": false
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Exclamatory Sentence",
+            "b": "Interrogative Sentence",
+            "c": "Negative Sentence",
+            "d": "Assertive Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Hurrah! We have won the game.",
+          "multi": false
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 49 – 58): Choose the correct sentence type from the given options:",
+          "opts": {
+            "a": "Exclamatory Sentence",
+            "b": "Interrogative Sentence",
+            "c": "Imperative Sentence",
+            "d": "Assertive Sentence"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Let us go out for a walk.",
+          "multi": false
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+          "opts": {
+            "a": "Raju, my landlord, is a miser",
+            "b": "Miser is my landlord Raju",
+            "c": "My landlord Raju is a miser",
+            "d": "Raju is a miser landlord"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Raju is my landlord. He is a miser.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Two printed options combine the two sentences correctly: (a) “Raju, my landlord, is a miser” sets off the appositive with commas, and (c) “My landlord Raju is a miser” puts the name in apposition. Both keep the facts that Raju is the speaker’s landlord and that he is a miser, and neither can be preferred from the print. (b) has impossible word order and (d) drops “my”.",
+          "reviewNote": "Held unscored: options (a) and (c) are both grammatically correct syntheses of the two printed sentences, so the item has no unique answer. The legacy inferred candidate says (a); (c) is equally correct."
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+          "opts": {
+            "a": "My neighbour has a lot of money and unhappy too",
+            "b": "In spite of having a lot of money my neighbour is very unhappy",
+            "c": "My neighbour is unhappy due to his money",
+            "d": "Money is the source of my neighbour’s unhappiness"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "My neighbour has a lot of money. But he is very unhappy.",
+          "multi": false
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+          "opts": {
+            "a": "Amy won a lottery and bought an expensive car",
+            "b": "Amy bought an expensive car because she won a lottery",
+            "c": "Having won a lottery Amy bought an expensive car",
+            "d": "Winning a lottery helped Amy bought an expensive car"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Amy won a lottery. She bought an expensive car.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Options (a), (b) and (c) each combine the two printed sentences into one correct sentence preserving both facts: coordination with “and”, a causal “because” clause, and a perfect participle respectively. Only (d) is wrong (“helped Amy bought” is ungrammatical). The print gives no basis for choosing among the three correct syntheses.",
+          "reviewNote": "Held unscored: three printed options — (a), (b) and (c) — are grammatical syntheses that preserve both printed facts, so no unique answer can be derived. The legacy inferred candidate says (c); (a) and (b) are equally correct."
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+          "opts": {
+            "a": "Will they come certainly?",
+            "b": "They will come and that is certain",
+            "c": "Certainly come they will",
+            "d": "They will certainly come"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "They will come. That is certain.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Option (d) “They will certainly come” turns “That is certain” into the adverb “certainly”, and option (b) “They will come and that is certain” also keeps both printed facts in one grammatical sentence. (a) wrongly turns the statement into a question and (c) uses an unnatural inversion, but (b) and (d) are both correct.",
+          "reviewNote": "Held unscored: options (b) and (d) are both correct syntheses of the two printed sentences, so the print does not determine a unique choice. The legacy inferred candidate says (d)."
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+          "opts": {
+            "a": "Danny collects vintage cars because it is his hobby",
+            "b": "It is Danny’s hobby to collect vintage cars",
+            "c": "Vintage cars are collected by Danny as a hobby",
+            "d": "Danny’s hobby is to collect vintage cars"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Danny collects vintage cars. It is his hobby.",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Options (b) “It is Danny’s hobby to collect vintage cars” and (d) “Danny’s hobby is to collect vintage cars” express the same correct synthesis, and (c) “Vintage cars are collected by Danny as a hobby” also preserves both printed facts in the passive. In (a) the pronoun “it” has no clear antecedent. The print gives no basis for preferring (b), (c) or (d).",
+          "reviewNote": "Held unscored: options (b) and (d) are equivalent correct syntheses (and (c) also preserves both printed facts), so the printed item has no unique answer. The legacy inferred candidate says (b)."
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 59 – 64): Choose the correct synthesis from the sentences given in options:",
+          "opts": {
+            "a": "In spite of having many shortcomings Rosy is a nice girl",
+            "b": "Rosy is a nice girl though she has many shortcomings",
+            "c": "Rosy is a nice girl who has many shortcomings",
+            "d": "Rosy had many shortcomings although she was a nice girl"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Rosy had many shortcomings. But she was a nice girl",
+          "multi": false,
+          "unscored": true,
+          "explanation": "Option (d) “Rosy had many shortcomings although she was a nice girl” preserves both printed facts, the past tense of the print and the contrast introduced by “But”. Options (a) and (b) also combine the two sentences correctly, but shift the printed past tense to the present; (c) drops the contrast altogether. The print alone does not settle whether tense preservation is required.",
+          "reviewNote": "Held unscored: options (a), (b) and (d) are all defensible syntheses — (a) and (b) differ from (d) only by shifting the printed past tense to the present — so the item does not have a unique answer without an official key. The legacy inferred candidate says (d)."
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Atheist",
+            "b": "Amateur",
+            "c": "Anarchist",
+            "d": "Arsonist"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A person who believes in a state of lawlessness",
+          "multi": false
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Connoisseur",
+            "b": "Cacographer",
+            "c": "Cynosure",
+            "d": "Coquette"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A critical judge of any art or craft",
+          "multi": false
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Constellation",
+            "b": "Crusaders",
+            "c": "Congregation",
+            "d": "Curator"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "A group of worshippers",
+          "multi": false
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Crochet",
+            "b": "Cricket",
+            "c": "Croquet",
+            "d": "Creche"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Nursery for babies and young children",
+          "multi": false
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Bathophobia",
+            "b": "Dipsophobia",
+            "c": "Geraphobia",
+            "d": "Bibliophobia"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Fear of books",
+          "multi": false
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Ephemeral",
+            "b": "Eternal",
+            "c": "Everlasting",
+            "d": "Eternity"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Lasting a very short time",
+          "multi": false
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Incredible",
+            "b": "Indelible",
+            "c": "Inedible",
+            "d": "Impossible"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Marks that cannot be removed",
+          "multi": false
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 65 – 72): Choose the right one word substitution from the given options:",
+          "opts": {
+            "a": "Cynic",
+            "b": "Misogynist",
+            "c": "Linguist",
+            "d": "Skeptic"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "One who sneers at the aims and beliefs of his fellowmen",
+          "multi": false
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "absorbed in",
+            "b": "absorbed at",
+            "c": "absorbed on",
+            "d": "absorbed to"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The man was _____________ his work.",
+          "multi": false
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "angry against",
+            "b": "angry to",
+            "c": "angry on",
+            "d": "angry with"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "The teacher was ____________ him.",
+          "multi": false
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "conform with",
+            "b": "conform to",
+            "c": "conform about",
+            "d": "conform on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "We must _________ the rules.",
+          "multi": false
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "exception of",
+            "b": "exception in",
+            "c": "exception to",
+            "d": "exception on"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "This is an ____________ the rule.",
+          "multi": false
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "leaving to",
+            "b": "leaving for",
+            "c": "leaving towards",
+            "d": "leaving into"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "They are __________ India soon.",
+          "multi": false
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "to do",
+            "b": "for doing",
+            "c": "of doing",
+            "d": "about doing"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "They are quite capable ____________ that.",
+          "multi": false
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "went",
+            "b": "leave",
+            "c": "going",
+            "d": "go"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Did you ________ to school yesterday?",
+          "multi": false
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": "B",
+          "conventional": false,
+          "direction": "Directions (Questions 73 – 80): Choose the right Usage from the given options:",
+          "opts": {
+            "a": "knew",
+            "b": "know",
+            "c": "known",
+            "d": "knows"
+          },
+          "marked": null,
+          "cov": {
+            "a": 0.0,
+            "b": 0.0,
+            "c": 0.0,
+            "d": 0.0
+          },
+          "ambiguous": [],
+          "q": "Ruth talks as if she ________ everything.",
+          "multi": false
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 1,
+          "explanation": "The printed passage (pages 1–2) states, “Cleanliness is essential for good health. Without cleanliness, it is very difficult to maintain proper health.” Health therefore cannot be sustained without cleanliness, so the choice is (b) Cleanliness.",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "The printed passage (pages 1–2) states, “Impure drinking- water is the cause of several diseases.” Water that is not clean and pure therefore leads to several diseases — (a).",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "The printed passage (pages 1–2) states, “Nutritious foods help us to maintain good health,” and “We should always include a portion of green vegetables, fruits or salads in our meal.” The food we should constantly try to eat is therefore nutritious — (c).",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "The printed passage (pages 1–2) states, “Happiness is priceless and not dependent upon the wealth of a person.” Happiness is the thing that does not depend on wealth — (b).",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 3,
+          "explanation": "The printed passage (pages 1–2) states, “Good health depends on several things. Fresh air and sunlight are very important for our health,” together with “a portion of green vegetables, fruits or salads” and “A balanced and nutritious diet helps the proper growth of the body.” Fresh air, green vegetables and a proper diet are all named, so (d) All of these.",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 3,
+          "explanation": "The printed passage (pages 1–2) states, “Health is the real wealth. Health is a great treasure. It is the highest blessing. It is the source of all happiness,” and, in the next sentence, “Money can’t buy happiness.” The source of all happiness is therefore (d) Health.",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "The printed passage (pages 1–2) states, “Apart from all this, we must form good habits.” One must cultivate good (b) habits to stay healthy.",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "The printed passage (pages 1–2) states, “Good health, however, contribute to the emotional well-being and happiness of a person.” Emotional well-being is contributed to by (a) Good health.",
+          "answerConfidence": "high"
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "The printed passage (pages 1–2) states, “We should keep ourselves free from cares and anxieties.” The thing to be kept free from is (a) Anxieties.",
+          "answerConfidence": "high"
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "The printed passage (pages 1–2) states, “Our house must be airy and sunny.” Airy and sunny are therefore the ideal conditions for a house — (b). The other printed choices describe what the passage calls unhealthy: “A dirty and damp atmosphere causes lots of diseases.”",
+          "answerConfidence": "high"
+        },
+        "11": {
+          "answerIndex": 3,
+          "explanation": "The printed passage (pages 1–2) states, “A balanced and nutritious diet helps the proper growth of the body.” The factor that contributes to proper growth is therefore (d) Balanced and nutritious diet.",
+          "answerConfidence": "high"
+        },
+        "12": {
+          "answerIndex": 0,
+          "explanation": "The printed passage (pages 1–2) states, “After eating food, we should clean our hands with soap.” The way to keep clean after a meal is (a) Clean our hands with soap.",
+          "answerConfidence": "high"
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "A sweeping statement is a broad, indiscriminate generalisation that ignores particular cases; it is made without due thought about its exceptions. None of the printed choices states that standard sense exactly: “Wonderful statement” is positive, “Meaningless statement” claims the statement has no meaning at all, and “Inconsistent statement” claims it contradicts itself or other statements. The only printed choice that fits how a sweeping statement is produced is (d) Thoughtless statement, so (d) is the best of the four. Confidence is medium because the standard sense (“over-generalised”) is missing from the printed option set.",
+          "answerConfidence": "medium"
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "“To have a green thumb” is the idiom for having a natural interest or talent, especially with plants; the other printed colours are not idioms here. The answer is (b) Green Thumb.",
+          "answerConfidence": "high"
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "“A white elephant” is the idiom for a costly or troublesome possession that costs more than it is worth; a white cat, white leopard and white owl are not. The answer is (c) A white elephant.",
+          "answerConfidence": "high"
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "“To take to one’s heels” means to run away in fear; the printed option (a) Took to heels expresses this. “Took off” means departed, “took a jet” is literal, and “took away” means removed — (a).",
+          "answerConfidence": "high"
+        },
+        "17": {
+          "answerIndex": 0,
+          "explanation": "The “green-eyed monster” is the traditional idiom for jealousy; the other eye-colour options are not idioms. The answer is (a) Green-eyed monster.",
+          "answerConfidence": "high"
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "“To spill the beans” means to reveal information indiscreetly; spilling milk, tea or water is literal only. The answer is (b) Spilling the beans.",
+          "answerConfidence": "high"
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "“To have an axe to grind” means to have a private interest or motive to serve; “bury the hatchet” means end a quarrel, “went to the winds” means disappeared and “at one’s wit’s end” means baffled. The answer is (c) An axe to grind.",
+          "answerConfidence": "high"
+        },
+        "20": {
+          "answerIndex": 3,
+          "explanation": "“To shake in one’s shoes” means to tremble with fear; “fits and starts” describes irregular effort, “close shave” a narrow escape and “bad blood” hostility. The answer is (d) Shake in shoes.",
+          "answerConfidence": "high"
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "“To sow wild oats” means to indulge in irresponsible pleasure-seeking while young; the other printed options mean approaching a limit, rising from ashes and an unavoidable choice. The answer is (b) Sowing wild oats.",
+          "answerConfidence": "high"
+        },
+        "22": {
+          "answerIndex": 3,
+          "explanation": "“A bolt from the blue” is something unexpected and unpleasant arriving without warning; a red letter day is a happy occasion, “burn one’s boat” means burn one’s options and a sore point is an irritant. The answer is (d) A bolt from the blue.",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 2,
+          "explanation": "“To have the last laugh” means to be victorious at the end of an argument or dispute; “throw down a glove” challenges, “turn a deaf ear” ignores and “steer clear of” avoids. The answer is (c) Have the last laugh.",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "“A damp squib” is something that fizzles out and fails — a disappointing result; “in cold blood” means ruthlessly, “smell a rat” means suspect treachery and “give vent to” means express. The answer is (a) A damp squib.",
+          "answerConfidence": "high"
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "“To be in the same boat” (printed as “Sailing in the same boat”) means to be in the same difficult situation as someone else; the other options mean losing position, causing anger and making matters worse. The answer is (b) Sailing in the same boat.",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "“The gift of the gab” is the ability to speak well and fluently; “hand in glove” means close cooperation, “soft option” the easier course and “speak one’s mind” say what one thinks. The answer is (d) Gift of the gab.",
+          "answerConfidence": "high"
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "The “carrot and stick” policy is the combined use of reward (carrot) and punishment (stick); “ins and outs” are details, “eat everyone’s salt” means live on others and “hand in glove” means in close alliance. The answer is (a) Carrot and stick.",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "“To toe the line” means to follow the lead by conforming to the expected standard; “stick to guns” means persist, “null and void” means invalid and “leaps and bounds” means rapidly. The answer is (b) To toe the line.",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "The underlined word “went” is the past tense of “go” and is the finite verb of the sentence, so it is a verb — (b).",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The underlined word “heavy” qualifies the noun “load” by describing it, so it is an adjective — (c).",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 3,
+          "explanation": "The underlined word “critically” modifies the verb “evaluated” by telling how the information was evaluated, so it is an adverb — (d).",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "The printed page (page 4) underlines “about” in “Brian often talked about Ms. Rita.” “About” introduces the object of “talked”, so it is a preposition — (a). A differently transcribed legacy copy of this sentence names “often” as the underlined word and therefore answers “Adverb”; on this printed paper the underline is on “about”, and “often” (an adverb of frequency) is not underlined here, so the derived answer follows the print.",
+          "answerConfidence": "high"
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "The underlined word “his” is the possessive form standing for a person’s; among the printed choices (Noun, Verb, Pronoun, Conjunction) it is a pronoun — (c).",
+          "answerConfidence": "high"
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "The underlined word “yet” joins the two clauses “He was not handsome” and “he was a successful actor” as a contrasting coordinating conjunction, so it is a conjunction — (b).",
+          "answerConfidence": "high"
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "The underlined word “justice” names an idea or quality that cannot be seen or touched, so it is an abstract noun — (a).",
+          "answerConfidence": "high"
+        },
+        "36": {
+          "answerIndex": 2,
+          "explanation": "The underlined word “seldom” answers how often Dr. Clancy is wrong, so it is an adverb of frequency — (c), not of manner, time or degree.",
+          "answerConfidence": "high"
+        },
+        "37": {
+          "answerIndex": 3,
+          "explanation": "The underlined word “much” in “feeling much better” measures how great the improvement is, so it is an adverb of degree — (d).",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "The auxiliary “have” needs a past participle: “I have already eaten.” “already ate” and “had ate” are not past participles, and “have had eaten” is ungrammatical, so (b) already eaten.",
+          "answerConfidence": "high"
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "The gerund “Travelling” is a singular subject, so it takes “has become”; the present perfect suits a change completed in the twentieth century and holding now. “have become” disagrees in number, “had became” is not a past participle, and the past perfect “had become” has no past reference point in the sentence. The answer is (c) has become.",
+          "answerConfidence": "high"
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "“Mark and I” is a compound (plural) subject, and “since Kindergarten” calls for the present perfect: “have known each other”. “has known” and “has knew” disagree in number and “had knew” is not a past participle. The answer is (b) have known.",
+          "answerConfidence": "high"
+        },
+        "41": {
+          "answerIndex": 0,
+          "explanation": "“Police” is a plural noun (a body of officers), so it takes the plural verb “were”; “would not able” lacks a verb form and “was/is not able” disagree in number. The answer is (a) were not able.",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "Children climb on the monkey bars — the structure is climbed over and across, not entered: “into” needs an enclosed space, “in” does not express climbing up onto the frame, and “to” only indicates direction. The answer is (a) on.",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "The adverb must fit the scene: a boy looking at a box of chocolate. “Greedily” is the choice the item is built around — chocolate provokes desire — and it is the most characteristic description of the look. “Happily”, “angrily” and “carelessly” are grammatical but need a context the stem does not supply, so with chocolate as the cue the best of the four printed options is (d) greedily. Confidence is medium because no context in the print rules the others out.",
+          "answerConfidence": "medium"
+        },
+        "47": {
+          "answerIndex": 2,
+          "explanation": "The table lies between exactly two chairs; “among” requires three or more, “besides” means “in addition to”, and “within” means inside. The answer is (c) between.",
+          "answerConfidence": "high"
+        },
+        "48": {
+          "answerIndex": 3,
+          "explanation": "The printed line is the proverb “Make hay while the sun shines” (printed “May hay _________ the sun shines”), which means use the opportunity while it lasts; the proverb requires “while”. The answer is (d) while. (“May hay” is a printed misprint for “Make hay”, preserved as printed.)",
+          "answerConfidence": "high"
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "“Bob and Ronny ate too much and felt sick” contains one independent clause with a compound subject (Bob and Ronny) and a compound predicate (ate … and felt sick). A sentence with a single clause stays simple even when its subject and predicate are compound; a compound sentence would need two independent clauses, and there is no subordinate clause either. The answer is (c) Simple Sentence.",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "“I spoke to your friend in English” and “he responded in Mizo” are two independent clauses joined by the coordinating conjunction “but”, with no subordinate clause, so the sentence is compound — (b).",
+          "answerConfidence": "high"
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "The independent clause “Lucy returned the computer” is followed by the subordinate clause “after she knew it was damaged”, so the sentence has one independent and one dependent clause: complex — (a).",
+          "answerConfidence": "high"
+        },
+        "52": {
+          "answerIndex": 3,
+          "explanation": "The sentence has two independent clauses — “My parents usually go for a walk” and “it was raining today” — joined by “but”, plus the subordinate clause “while the sun sets”. Two independents plus one subordinate clause give compound-complex — (d).",
+          "answerConfidence": "high"
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "“Only God can help us” is a positive statement: no negation, no question, no command. It is therefore an affirmative sentence — (a).",
+          "answerConfidence": "high"
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "The sentence carries the negation “doesn’t” (does not), which is the feature the item tests. “Assertive” is the broader class that includes affirmative sentences as well, so the specific and correct printed label here is (c) Negative Sentence.",
+          "answerConfidence": "high"
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "“Who doesn’t wish to be happy?” is a wh-question ending in a question mark, so its sentence type is interrogative — (b). The “doesn’t” belongs to the question form and does not turn it into a plain negative statement.",
+          "answerConfidence": "high"
+        },
+        "56": {
+          "answerIndex": 2,
+          "explanation": "“did not” negates the verb, so the sentence is negative — (c). As in Q54, “Assertive” is the wider class (statements), while the distinguishing printed feature here is the negation.",
+          "answerConfidence": "high"
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "“Hurrah!” expresses a sudden joyful feeling, so the sentence is exclamatory — (a). It is neither a question, a negation nor a plain statement.",
+          "answerConfidence": "high"
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "“Let us go out for a walk” expresses a request or suggestion with the verb in its base form and no stated subject, which is the imperative mood — (c).",
+          "answerConfidence": "high"
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "The two printed sentences contrast: having a lot of money on one side, being very unhappy on the other. Option (b) keeps both facts and marks the contrast with “In spite of”. Option (a) is ungrammatical (“has a lot of money and unhappy too”), while (c) and (d) replace the printed contrast with a false cause of the unhappiness. The answer is (b) In spite of having a lot of money my neighbour is very unhappy.",
+          "answerConfidence": "high"
+        },
+        "65": {
+          "answerIndex": 2,
+          "explanation": "An anarchist is a person who believes the state should be abolished and advocates a state of lawlessness; an atheist denies God, an amateur is a non-professional and an arsonist sets fires. The answer is (c) Anarchist.",
+          "answerConfidence": "high"
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "A connoisseur is a critical judge of any art or craft; a cacographer writes badly, a cynosure is the centre of attention and a coquette is a flirting woman. The answer is (a) Connoisseur.",
+          "answerConfidence": "high"
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "A congregation is a group of people gathered for worship; a constellation is a group of stars, crusaders are campaigners and a curator tends a museum collection. The answer is (c) Congregation.",
+          "answerConfidence": "high"
+        },
+        "68": {
+          "answerIndex": 3,
+          "explanation": "A crèche (printed “Creche”) is a nursery for babies and young children; crochet is a form of needlework, cricket a sport and croquet a lawn game. The answer is (d) Creche.",
+          "answerConfidence": "high"
+        },
+        "69": {
+          "answerIndex": 3,
+          "explanation": "The combining form “biblio-” means book, so fear of books is bibliophobia; bathophobia is fear of depths, dipsophobia fear of drinking and “Geraphobia” is not the term for books. The answer is (d) Bibliophobia.",
+          "answerConfidence": "high"
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Ephemeral means lasting a very short time; eternal and everlasting mean lasting for ever, and eternity is a noun for infinite time. The answer is (a) Ephemeral.",
+          "answerConfidence": "high"
+        },
+        "71": {
+          "answerIndex": 1,
+          "explanation": "Indelible marks or ink cannot be removed or erased; incredible means unbelievable, inedible means not fit to eat and impossible means not possible. The answer is (b) Indelible.",
+          "answerConfidence": "high"
+        },
+        "72": {
+          "answerIndex": 0,
+          "explanation": "A cynic sneers at the aims and beliefs of other people; a misogynist hates women, a linguist studies language and a sceptic doubts. The answer is (a) Cynic.",
+          "answerConfidence": "high"
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "The verb “absorbed” takes the preposition “in”: “absorbed in his work”. The other printed prepositions do not complete the collocation. The answer is (a) absorbed in.",
+          "answerConfidence": "high"
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "The adjective “angry” takes “with” before a person: “angry with him”. The answer is (d) angry with.",
+          "answerConfidence": "high"
+        },
+        "75": {
+          "answerIndex": 1,
+          "explanation": "The verb “conform” is followed by “to”: “conform to the rules”. The answer is (b) conform to.",
+          "answerConfidence": "high"
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "The fixed collocation is “an exception to the rule”; the other printed prepositions are not used with “exception” in this sense. The answer is (c) exception to.",
+          "answerConfidence": "high"
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "“Leave for” a place means to depart towards it: “They are leaving for India soon.” The answer is (b) leaving for.",
+          "answerConfidence": "high"
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "“Capable” takes “of” followed by a gerund: “capable of doing that”. The answer is (c) of doing.",
+          "answerConfidence": "high"
+        },
+        "79": {
+          "answerIndex": 3,
+          "explanation": "After the auxiliary “did” the main verb must be the bare form: “Did you go to school yesterday?” “went” would repeat the past marking, “leave” does not fit “to school” here and “going” is not a bare infinitive. The answer is (d) go.",
+          "answerConfidence": "high"
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "“As if” introduces a comparison that is not real: Ruth does not actually know everything, so English uses the simple past subjunctive — “as if she knew everything”. “knows”, “know” and “known” do not give the unreal comparison tested here. The answer is (a) knew.",
+          "answerConfidence": "high"
+        }
+      }
     }
   }
 }

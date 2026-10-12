@@ -7,12 +7,12 @@
     "records": 26782,
     "mcq": 25761,
     "writtenRecords": 1021,
-    "ready": 13325,
+    "ready": 13418,
     "readyOfficial": 8315,
-    "pendingMcq": 12090,
-    "heldReviewed": 346,
-    "workedGuidesReviewed": 6020,
-    "pendingMcqGuides": 19741,
+    "pendingMcq": 11990,
+    "heldReviewed": 353,
+    "workedGuidesReviewed": 6120,
+    "pendingMcqGuides": 19641,
     "keyOnlyFeedback": 6958,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -23,12 +23,12 @@
       "records": 10921,
       "mcq": 9900,
       "writtenRecords": 1021,
-      "ready": 2552,
+      "ready": 2645,
       "readyOfficial": 1682,
-      "pendingMcq": 7296,
-      "heldReviewed": 52,
-      "workedGuidesReviewed": 1425,
-      "pendingMcqGuides": 8475,
+      "pendingMcq": 7196,
+      "heldReviewed": 59,
+      "workedGuidesReviewed": 1525,
+      "pendingMcqGuides": 8375,
       "keyOnlyFeedback": 945,
       "writtenGuidesReviewed": 118,
       "pendingWrittenGuides": 903
@@ -17911,12 +17911,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 93,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 7,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -17925,18 +17925,61 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 93,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 7,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q18",
+          "questionNumber": "18",
+          "section": "english",
+          "reason": "Held unscored: no time marker in the printed stem; (a) is singing, (b) has sung, (c) sang and (d) sings are all grammatical readings and the print gives no basis to choose one."
+        },
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q40",
+          "questionNumber": "40",
+          "section": "english",
+          "reason": "Held unscored: two printed options — (a) little and (d) a little — are both correct with the uncountable “milk”, and the stem gives no context to prefer one. No unique answer follows from the page."
+        },
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q52",
+          "questionNumber": "52",
+          "section": "english",
+          "reason": "Held unscored: options (a), (b) and (d) are all simple sentences that preserve the printed meaning, so the item has no unique answer without an official key."
+        },
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q54",
+          "questionNumber": "54",
+          "section": "english",
+          "reason": "Held unscored: options (b) and (c) are both correct complex syntheses of the printed sentences, so no unique answer can be derived from the page."
+        },
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q66",
+          "questionNumber": "66",
+          "section": "english",
+          "reason": "Held unscored: no printed option preserves the printed facts — the only adverb-clause option (b) changes “it”/the ambulance to “the doctor”, while (a)/(d) are compound and (c) reverses the sequence. Held pending source clarification."
+        },
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q67",
+          "questionNumber": "67",
+          "section": "english",
+          "reason": "Held unscored: options (a) and (d) both contain a noun clause and are grammatically equivalent (the subordinator “that” is optional), so the item has no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-to-2020-english-p2-Q91",
+          "questionNumber": "91",
+          "section": "english",
+          "reason": "Held unscored: options (c) “No law and order” and (d) “Having no ruler” are both accepted meanings of “anarchy”, and the single printed sentence does not determine which is intended."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-translator-2019-english",

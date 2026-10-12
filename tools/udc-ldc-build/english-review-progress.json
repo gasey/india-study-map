@@ -4,9 +4,9 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 2914,
-    "pendingMcq": 6896,
-    "heldReviewed": 90,
+    "ready": 2830,
+    "pendingMcq": 6991,
+    "heldReviewed": 79,
     "pendingWritten": 876
   },
   "papers": [
@@ -3627,76 +3627,20 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/ceo-2019-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "ready-with-held-items",
+      "status": "needs-review",
       "mcq": 100,
-      "ready": 89,
+      "ready": 0,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 100,
-      "pendingMcq": 0,
-      "heldReviewed": 11,
+      "sourceReviewedMcq": 0,
+      "pendingMcq": 100,
+      "heldReviewed": 0,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": [
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q11",
-          "questionNumber": "11",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q12",
-          "questionNumber": "12",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q13",
-          "questionNumber": "13",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q14",
-          "questionNumber": "14",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q15",
-          "questionNumber": "15",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q16",
-          "questionNumber": "16",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q17",
-          "questionNumber": "17",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q18",
-          "questionNumber": "18",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q19",
-          "questionNumber": "19",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q20",
-          "questionNumber": "20",
-          "reason": "Held: options not fully extractable from pdftotext; requires print verification"
-        },
-        {
-          "id": "mpsc-group-b-ceo-2019-english-p2-Q36",
-          "questionNumber": "36",
-          "reason": "Held unscored: adverb category ambiguous from print text"
-        }
-      ]
+      "heldItems": []
     },
     {
       "paperId": "mpsc-group-b-chemist2-2020-english",
@@ -3927,10 +3871,10 @@
       "archiveBatch": "earlier-import",
       "status": "needs-review",
       "mcq": 100,
-      "ready": 0,
+      "ready": 5,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
+      "sourceReviewedMcq": 5,
+      "pendingMcq": 95,
       "heldReviewed": 0,
       "expectedMcq": 100,
       "missingMcq": 0,

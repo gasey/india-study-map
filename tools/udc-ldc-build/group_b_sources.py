@@ -499,6 +499,11 @@ LANGUAGE_WRITTEN_RE = re.compile(
 def language_written_prompt(slug, question):
     if slug not in DIRECT_LANGUAGE_SLUGS or 'English' not in LANGUAGE_ARCHIVE_BY_SLUG[slug]['subject']:
         return False
+    # The phrase “write a letter” occurs inside this quoted indirect-speech
+    # MCQ; it is not a written-response prompt.
+    if (slug == 'archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e'
+            and question.get('n') == 67):
+        return False
     return bool(LANGUAGE_WRITTEN_RE.search(question.get('q', '')))
 
 GENERAL_ARCHIVE_FOLDERS = {
@@ -555,6 +560,10 @@ HUB_FILES = {
 # Previously attached directly to the generated bank. Keep these source
 # figures in the generator so a new paper import cannot remove them.
 HUB_FIGURES = {
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q40': '/question-images/group-b/jao-2025-p2-q040.png',
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q41': '/question-images/group-b/jao-2025-p2-q041.png',
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q44': '/question-images/group-b/jao-2025-p2-q044.png',
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q45': '/question-images/group-b/jao-2025-p2-q045.png',
  'mpsc-group-b-co-2026-p2-Q89': '/question-images/group-b/co-2026-p2-q089.webp',
  'mpsc-group-b-co-2026-p2-Q96': '/question-images/group-b/co-2026-p2-q096.webp',
 }
@@ -792,6 +801,8 @@ def build_additional():
             'fr-2019-science-2': (2, 120),
             'fr-2019-science-3': (2, 120),
             'jics-2019-english': (1, 180),
+            'inspector-fcs-2019-english-p2': (1, 120),
+            'fr-2019-english-2': (1, 120),
             'udc-combined-2019-p1': (1, 180),
             'udc-combined-2019-p2': (1, 180),
             'udc-revenue-2019-p1': (1, 180),
@@ -1068,6 +1079,26 @@ def build_additional():
         if slug in ('asce-2021-english-p2', 'vety-mah-2021-english-p2'):
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
                              'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59' and repairs.get(slug):
+            # Printed cover: 2 hours, 100 marks, one mark per question.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924' and repairs.get(slug):
+            # Printed cover: 2 hours, 100 marks, one mark per question.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc' and repairs.get(slug):
+            # Printed cover: 2 hours, 100 marks, one mark per question.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc' and repairs.get(slug):
+            # Printed cover: 2 hours, 100 marks, one mark per question.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e' and repairs.get(slug):
+            # Printed cover: 2 hours, 100 marks, one mark per question.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 120,
+                             'negativeMarking': False, 'penaltyFraction': 0}
         if slug == 'aao-2024-gk' and reviewed_numbers:
             # Printed page 1: 100 marks, one per question, three hours.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
@@ -1199,6 +1230,8 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': True, 'penaltyFraction': 1/3}
         reviewed_archive_meta = {
+            'archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024': 120,
+            'archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709': 120,
             'ada-2014-gk': 180,
             'feo-2017-english-p2': 120,
             'mhs-grade-v-2017-english-p2': 120,
@@ -1215,6 +1248,7 @@ def build_additional():
             'archive-lang-2016-junior-scientific-officer-chemistry-and-finger-print-under-home-forensic-344f4e32': 180,
             'archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5': 180,
             'archive-lang-2016-computer-operator-contract-under-sad-deptt-1-computer-operator-contract-14365dca': 180,
+            'archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d': 120,
         }
         if slug in reviewed_archive_meta and repairs.get(slug, {}).get('derivedAnswers'):
             # Source covers give the time and full marks; the papers contain
@@ -1373,7 +1407,7 @@ def build_additional():
                               **({'independentAnswerIndex': jao_peer_candidate,
                                   'independentAnswerSource': 'solved',
                                   'answerConfidence': 'medium'} if jao_peer_candidate is not None else {}),
-                              **({'imagePath': q['imagePath']} if q.get('imagePath') else {}),
+                              **({'imagePath': HUB_FIGURES.get(paper_id + '-' + (q.get('part') or 'Q') + str(q['n']), q.get('imagePath'))} if q.get('imagePath') or paper_id + '-' + (q.get('part') or 'Q') + str(q['n']) in HUB_FIGURES else {}),
                               **({'answerSource': 'official', 'answerKeyRef': key_ref, 'compensated': True} if cell is None else {}),
                               **({'sourceReview': True, 'paperExamExcluded': True} if source_review else {}),
                               **({'sourceReviewed': True} if text_reviewed else {}),

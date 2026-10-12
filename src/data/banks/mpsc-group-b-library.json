@@ -3103,8 +3103,9 @@
     "sitting": "2024",
     "subject": "General Knowledge",
     "sourceHref": "/papers/group-b/archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/mjs-civil-judge-2024-provisional-key.pdf#page=1",
     "imported": true,
+    "expectedMcq": 100,
     "reviewRequired": true
   },
   {
@@ -4016,7 +4017,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 99
+    "expectedMcq": 100
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-jr-grade-of-mes-2024-ae-sdo-under-phe-jr-grade-of-mes-phe-general-englis-c6a0cdfd",

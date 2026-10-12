@@ -9,7 +9,7 @@
       "keyHref": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
       "keySha256": "122276716def67fbb1936075b17ef1402ff9fef7d6689b0122cf6c6ff609f805",
       "reviewedOn": "2026-10-11",
-      "evidence": "Printed stems and options read from scanned pages 2, 5 and 6 of the Paper-II Series A booklet and compared with the stored transcription; every independent derivation matched the MPSC final key. Computer Knowledge Q1-8 and Simple Arithmetic Q36-45.",
+      "evidence": "Printed stems and options read from scanned pages 2, 5, 6 and 7 of the Paper-II Series A booklet and compared with the stored transcription; every independent derivation matched the MPSC final key. Computer Knowledge Q1-8 and Simple Arithmetic Q36-45.",
       "questions": {
         "mpsc-group-b-ng-2024-paper-2-a-q001": {
           "expectedQuestion": "Which of the following is a characteristic of SSDs (Solid State Drives)?",
@@ -244,6 +244,19 @@
           "independentAnswerIndex": 1,
           "explanation": "Passing marks needed = marks scored (40) + marks short (40) = 80, which is 40% of the maximum. Maximum marks = 80 ÷ 0.40 = 200.",
           "page": 6
+        },
+        "mpsc-group-b-ng-2024-paper-2-a-q056": {
+          "expectedQuestion": "If (-5)^(x + 1) × (-5)^4 = (-5)^8, then the value of x is -",
+          "expectedOptions": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The bases are equal, so add the exponents: (x + 1) + 4 = 8. Thus x + 5 = 8 and x = 3, option (b). This independently derived result matches the MPSC final key.",
+          "page": 7
         }
       }
     },

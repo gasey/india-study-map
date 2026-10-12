@@ -178049,6 +178049,4836 @@
           "explanation": "The June 2017 India–China confrontation occurred at Doklam near the India–China–Bhutan trijunction."
         }
       }
+    },
+    "eo-leit-2019-gs1": {
+      "sourceSha256": "2aa7260ad971d2b43ebbad1dd00b440d5095590fd62eefbdd40f9f48ed1f4913",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "evidence": "Employment Officer second-series General Studies Paper-I scan: all 100 stems, option order and text checked against the separate scan. It matches the first-series paper text and answer map; Q52, Q61 and Q98 remain held. Corrected Q2, Q10 and Q54 typos. No official key used.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Before the foundation of Calcutta the biggest English settlement in Bengal was :",
+          "opts": {
+            "a": "Qasim Bazar",
+            "b": "Chittagong",
+            "c": "Hugli",
+            "d": "Murshidabad"
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Which of the following privileges obtained by the English under the Royal Farman of 1717 proved to be the bone of contention between them and the Nawabs of Bengal?",
+          "opts": {
+            "a": "The freedom to export and import their goods in Bengal without paying customs dues",
+            "b": "Permission to rent additional territory around Calcutta",
+            "c": "Exemption from payment of all customs and duties at Surat",
+            "d": "Free currency granted throughout the Mughal dominion to the company’s coin minted at Bombay"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "What was the ostensible reason for the English to take up additional fortification of Calcutta?",
+          "opts": {
+            "a": "To protect English trade against local rebellion",
+            "b": "In expectation of a struggle with the French on the eve of Seven Years war",
+            "c": "As a measure of defiance against the weak political and military authority of the Nawab",
+            "d": "In order to strengthen their establishment in Bengal"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "What was the prime cause of Siraj-ud-Daulah’s ruin?",
+          "opts": {
+            "a": "The conspiracy of the men of his court",
+            "b": "The newly acquired confidence and strength of the British",
+            "c": "The superior military tactics of the English",
+            "d": "His lack of energy and decision"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "The treaty of Salbai was signed between",
+          "opts": {
+            "a": "Robert Clive and Ragunath Rao",
+            "b": "Warren Hastings and Mahdji Scindia",
+            "c": "Robert Clive and Madhav Rao",
+            "d": "The English and the Baji Rao II"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "After the Third Battle of Panipat, the lost fortunes of Maratha Empire were restored by Peshwa :",
+          "opts": {
+            "a": "Balaji II",
+            "b": "Madhav Rao I",
+            "c": "Balaji Bajirao",
+            "d": "Ragunath Rao"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "The Maratha navy in the Eighteenth Century was developed by :",
+          "opts": {
+            "a": "The Scindhia",
+            "b": "The Gaikwad",
+            "c": "The Angrias",
+            "d": "The siddis"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "The Chiefs of Sindh, Amirs were made to sign a subsidiary treaty in :",
+          "opts": {
+            "a": "1832",
+            "b": "1835",
+            "c": "1836",
+            "d": "1839"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "What was the main reason for the defeat of the Allied forces by the English in the Battle of Buxar (1764)?",
+          "opts": {
+            "a": "Treacherous behavior of the army commander",
+            "b": "The defection of Shah Alam II",
+            "c": "Inherent defects of Indian army and state organization",
+            "d": "Lack of adequate preparation for the confrontation"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The worst feature of the Dual Government in Bengal was that :",
+          "opts": {
+            "a": "Maintenance of law and order was nobody’s responsibility",
+            "b": "The English began to enjoy rights without responsibilities",
+            "c": "The poor peasantry of Bengal was auctioned to the revenue bidder",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Which of the following was the first Governor General of the Government of Bengal?",
+          "opts": {
+            "a": "Robert Clive",
+            "b": "Warren Hastings",
+            "c": "Lord Cornwallis",
+            "d": "Lord Hastings"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "The Nawab of Awadh signed a subsidiary treaty in :",
+          "opts": {
+            "a": "1798",
+            "b": "1800",
+            "c": "1801",
+            "d": "1802"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "‘Doctrine of Lapse’ was introduced by:",
+          "opts": {
+            "a": "Lord Dalhousie",
+            "b": "Lord Auckland",
+            "c": "Lord Ellenborough",
+            "d": "Lord Hardinge"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "The immediate provocation for the quadruple alliance formed by Hyder Ali leading to the Second Anglo – Mysore war (1780-84) was:",
+          "opts": {
+            "a": "The terms of the treaty of 1769 were not fulfilled by the Madras Government",
+            "b": "When the Marathas invaded Hyder’s territories in 1771, the English did not help",
+            "c": "The English tried to play one South Indian power against another in order to prevent them from",
+            "d": "The English captured Mahe, the source of Hyder’s military supplies"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "The death of Banda Bahadur gave a setback to the territorial ambitions of the Sikhs and their power declined. Where did the Sikhs take shelter during this period?",
+          "opts": {
+            "a": "Rajputana",
+            "b": "Kashmir",
+            "c": "The Hills of the Punjab",
+            "d": "Kabul"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "Who was the founder of the autonomous kingdom of Awadh or Oudh?",
+          "opts": {
+            "a": "Safdarjung",
+            "b": "Saadat Khan",
+            "c": "Shuja-Ud-Daula",
+            "d": "Asaj-Ud-Daula"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "Which of the following legalized the company’s control over Bengal?",
+          "opts": {
+            "a": "The treaty with Mir Jafar after the Battle of Plassey (1757)",
+            "b": "The treaty with Mir Jafar after the Battle of Buxar (1764)",
+            "c": "The treaty of February 1765 with Nizam-ud-Daula",
+            "d": "The imperial grant of the Diwani of Bengal, Bihar and Orissa by Shah Alam II"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "The Permanent Settlement was made with :",
+          "opts": {
+            "a": "The Zamindars",
+            "b": "The Peasant cultivators",
+            "c": "The Village communities",
+            "d": "The Muqadams"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "In the nineteenth century there was a phenomenal increase of pressure of population on land because:",
+          "opts": {
+            "a": "The introduction of commercial crops attracted the peasantry to agriculture",
+            "b": "The ruin of handicrafts and village industries drove the population to agriculture",
+            "c": "The fall of the native governments had to reduced the avenues of employment",
+            "d": "The urban population began to migrate to the rural areas for security reasons"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "What was the cause of the impoverishment of the peasantry in the 19th Century?",
+          "opts": {
+            "a": "British Imperialism",
+            "b": "Lack of technological progress",
+            "c": "Heavy assessment of land revenue",
+            "d": "Fundamental changes in the structure of rural society"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "The theory of the early British rulers that the company, as the owner of agricultural was entitled to the whole of the ‘economic rent’ derived its support from:",
+          "opts": {
+            "a": "The theory of surplus value",
+            "b": "The Agio theory of interest",
+            "c": "Keyne’s Theory of Income and Employment",
+            "d": "The Ricardian theory of Income and Employment"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "The main reason for the permanent indebtedness of the peasantry was:",
+          "opts": {
+            "a": "False accounting",
+            "b": "Forge Signature",
+            "c": "Making the debtor sign for larger accounts than he had borrowed",
+            "d": "High rate of interest on loans"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "The first serious blow which the British inflicted on India’s prosperous handloom industry was that",
+          "opts": {
+            "a": "Duty was imposed on the looms",
+            "b": "Weavers were forced to sell their goods at dictated prices",
+            "c": "Due to export of raw cotton there was acute scarcity of cotton",
+            "d": "Cash crops like indigo and opium"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "On account of the various factors of economic exploitation, the impoverishment of the peasantry was accompanied by:",
+          "opts": {
+            "a": "Decline in Birth rate",
+            "b": "Increase in Death rate",
+            "c": "Ill – Health of the people",
+            "d": "Increase in the incidence of famines"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "A remarkable feature of the spread of Landlordism was the growth of :",
+          "opts": {
+            "a": "Aristocracy",
+            "b": "Capitalism",
+            "c": "Sub-Infeudation",
+            "d": "Cultivation"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "The single most important cause for the absence of cultivators with the cultivators to improve agriculture during the British rule was :",
+          "opts": {
+            "a": "Absence of institutional finance",
+            "b": "Chronic poverty",
+            "c": "High rate of Taxation",
+            "d": "Absence of technological breakthrough"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "The factor which precipitated the decline of Indian industries particularly rural artisan industries was:",
+          "opts": {
+            "a": "Rise in prices",
+            "b": "Growth in population",
+            "c": "Building of Railways",
+            "d": "Pressure on agriculture"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "q": "An Indian mercantile class, which almost completely vanished on account of the British economic policies and commercial practices of the Europeans in India was:",
+          "opts": {
+            "a": "Freight traders",
+            "b": "Sugar manufacturers",
+            "c": "Bankers",
+            "d": "Brokers"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "The trade which was virtually monopolized by the European merchants in India was :",
+          "opts": {
+            "a": "Import trade",
+            "b": "Textile export",
+            "c": "Export trade in agricultural produce",
+            "d": "Manufacture and sale of salt"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "What was the basic objective of the various measures, taken by the British Government at Calcutta, in the field of internal trade from time to time?",
+          "opts": {
+            "a": "To create a local market for British manufacturers",
+            "b": "To destroy the Indian Handicrafts",
+            "c": "To help establish the monopoly of the company and its servants over inland trade",
+            "d": "To realize the maximum possible revenues from regulation and control of Indian trade"
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "The essence or the main purpose of the British policies of moulding the Indian economy into colonial pattern was :",
+          "opts": {
+            "a": "To earn profit for the company and its shareholders",
+            "b": "To secure a favorable balance of trade for the mother country",
+            "c": "To buy cheaply raw materials for the home industries and to sell dearly its manufactured goods",
+            "d": "To secure the monopoly of Indian exports for the home country and its subjects."
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "When did the company lose its monopoly of Indian trade which was thrown open to all?",
+          "opts": {
+            "a": "1813",
+            "b": "1833",
+            "c": "1853",
+            "d": "1793"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "After 1833, the single biggest source of drain of India’s wealth to Britain was :",
+          "opts": {
+            "a": "Export of Opium and Indigo",
+            "b": "British capital investment in India",
+            "c": "Import of mill-made textiles and woolens",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "The biggest British capital investment in India was made in:",
+          "opts": {
+            "a": "The tea, coffee and indigo plantation",
+            "b": "The railways, banking, insurance and shipping",
+            "c": "The cotton textile industry",
+            "d": "The jute mills"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "The root of poverty of the people of India during the British rule was that:",
+          "opts": {
+            "a": "All economic resources of India were at the mercy of the British",
+            "b": "Indian economy had been bound to the colonial interests",
+            "c": "Agriculture remained almost the sole occupation of the masses",
+            "d": "Foreign capital flowed into all branches of India’s economic life"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "In which of the following industries did Indians have a large share from the beginning?",
+          "opts": {
+            "a": "Cotton Textile",
+            "b": "Jute",
+            "c": "Coal Mining",
+            "d": "Sugar"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Which of the following gave a big blow to the Indigo industry as a result of which it gradually declined?",
+          "opts": {
+            "a": "Withdrawal of British capital",
+            "b": "Insurrection and peasant uprising against oppression",
+            "c": "Invention of a synthetic dye",
+            "d": "A slump in the world market on account of general"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "q": "Who was the first to formulate the theory of three successive phases of British colonialism in India- namely mercantilist, Free Trade Mercantile capitalism and Finance Imperialism?",
+          "opts": {
+            "a": "Dadabhai Naaroji",
+            "b": "R.C Dutt",
+            "c": "R.P Dutt",
+            "d": "Karl Marx"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "q": "Against which of the following evil customs/ practices, did Raja Ram Mohan Roy organise a historic agitation?",
+          "opts": {
+            "a": "Rigidities of the caste system",
+            "b": "Women becoming Sati",
+            "c": "Kulinism",
+            "d": "Degrading position of women"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "q": "Under whose guidance did Prarthana Samj came into existence in Maharashtra?",
+          "opts": {
+            "a": "Keshab Chandra Sen",
+            "b": "Lokahitawadi",
+            "c": "Sibnath Sastri",
+            "d": "Debendranath Tagore"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "Who was the leader and inspirer of the Young Bengal Movement of the late 1820’s and 1830’s?",
+          "opts": {
+            "a": "Rashik Krishna Mallik",
+            "b": "Ramtanu Lahiri",
+            "c": "Henry Vivian Derozio",
+            "d": "Peary Chand Mitra"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "The resistance to British rule during the early phase upto 1857 took three broad forms. Which of the following was not one of them?",
+          "opts": {
+            "a": "Constitutional Agitation",
+            "b": "Civil Rebellion",
+            "c": "Tribal Uprisings",
+            "d": "Peasant movements and agrarian uprisings"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "The play Nil Darpan (1860) of the famous Bengali writer Dinbandhu Mitra portrays the oppression of",
+          "opts": {
+            "a": "The artisans",
+            "b": "The handloom weavers",
+            "c": "The common man",
+            "d": "The Indigo planters"
+          },
+          "part": null,
+          "reviewNote": "The scan itself says “oppression of” before option D (“The Indigo planters”); the wording is likely a source-paper error. Original scan wording is preserved."
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "The rebellion of the Moplah peasants of Malabar (north Kerala) during 1836 to 1854 were directed against the oppression of:",
+          "opts": {
+            "a": "Revenue officials of the British government",
+            "b": "Money lenders",
+            "c": "Landlords",
+            "d": "Foreign planters"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "Which of the following factors caused the greatest social cleavage in India before the foundation of INC?",
+          "opts": {
+            "a": "The Ilbert Bill Controversy",
+            "b": "The reduction of age for entry to the Civil Service",
+            "c": "The Arms Act of 1878",
+            "d": "The Vernacular Press Act"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "A Muslim organization, which proposed during the first world war that muslims should participate and try to reach an accord with the congress was :",
+          "opts": {
+            "a": "Muslim League",
+            "b": "Ahmadiya Movement",
+            "c": "Ehrar League",
+            "d": "Deoband Movement"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "The brain behind the bomb attack on Viceroy Lord Hardinge at Chandhi Chowk, Delhi in December was:",
+          "opts": {
+            "a": "Rasbehari Bose",
+            "b": "Bhai Parmanand",
+            "c": "Sachindranath Sanyal",
+            "d": "Sohan Lal Pathak"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "What was the main political weapon used by the moderate nationalist to exert pressure upon the government against the partition of Bengal.",
+          "opts": {
+            "a": "Satyagraha",
+            "b": "Civil Disobedience",
+            "c": "Non-Cooperation",
+            "d": "Swadeshi and Boycott"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "q": "Who organized Abhinava Bharat, a secret society of revolutionaries?",
+          "opts": {
+            "a": "Khudiram Bose",
+            "b": "Prafulla Chaki",
+            "c": "A.D Savarkar",
+            "d": "Pulin Bihari Das"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "q": "Mahatma Gandhi first experimented with his techinique of Satyagraha in :",
+          "opts": {
+            "a": "Champaran ( Bihar)",
+            "b": "Kaira (Gujarat)",
+            "c": "Ahmadabad Mill Strike",
+            "d": "Anti- Rowlatt Act Agitation"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "q": "Rohingya Muslims are mostly domicile of which of the following state of Myanmar?",
+          "opts": {
+            "a": "Kachin state",
+            "b": "Chin state",
+            "c": "Rakhine state",
+            "d": "Shan state"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "q": "Which one of the following leaders has featured in the top ‘Global Thinkers 2019’ ranking of the prestigious Foreign Policy publication?",
+          "opts": {
+            "a": "Mukesh Ambani",
+            "b": "Narendra Modi",
+            "c": "Jack Ma",
+            "d": "Jeff Bezos"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Hold: Mukesh Ambani, Jack Ma and Jeff Bezos all appear to be listed among Foreign Policy’s 2019 Global Thinkers, so multiple options are defensible.",
+          "reviewNote": "Hold: Mukesh Ambani, Jack Ma and Jeff Bezos all appear to be listed among Foreign Policy’s 2019 Global Thinkers, so multiple options are defensible."
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "In which club do the Indian football super star, Jeje Lalpekhlua is playing now?",
+          "opts": {
+            "a": "East Bengal",
+            "b": "Jamshedpur FC",
+            "c": "Chennaiyin FC",
+            "d": "FC Goa"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "Which of the following states introduced Fat Tax?",
+          "opts": {
+            "a": "Karnataka",
+            "b": "Kerala",
+            "c": "Andhra Pradesh",
+            "d": "Maharashtra"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Which one of the Indian actress is appointed as UNICEF Global Goodwill Ambassador?",
+          "opts": {
+            "a": "Priyanka Chopra",
+            "b": "Aishwaria Rai",
+            "c": "Deepika Padukone",
+            "d": "Katrina Kaif"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Which of the following International Organizations released the State of Children’s Report?",
+          "opts": {
+            "a": "UNESCO",
+            "b": "UNDP",
+            "c": "UNICEF",
+            "d": "WHO"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Defence Research and Development Organization (DRDO) has its headquarters in",
+          "opts": {
+            "a": "Mussoorie",
+            "b": "Mysore",
+            "c": "Delhi",
+            "d": "Hyderabad"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Which one of the following football club win the Indian Super Cup in 2019?",
+          "opts": {
+            "a": "Kerala Blasters",
+            "b": "FC Goa",
+            "c": "Delhi Dynmos",
+            "d": "Chennayin City FC"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "The World’s first cloned goat bearing superfine Cashmere wool was born in",
+          "opts": {
+            "a": "UK",
+            "b": "USA",
+            "c": "Australia",
+            "d": "China"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "Mission XI Million is related to",
+          "opts": {
+            "a": "Cricket",
+            "b": "Football",
+            "c": "Hockey",
+            "d": "Wrestling"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "Which of the following country is not member of BIMSTEC?",
+          "opts": {
+            "a": "Bangladesh,",
+            "b": "Thailand",
+            "c": "Bhutan",
+            "d": "India"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Hold: Bangladesh, Thailand, Bhutan and India are all BIMSTEC members; no listed choice is correct.",
+          "reviewNote": "Hold: Bangladesh, Thailand, Bhutan and India are all BIMSTEC members; no listed choice is correct."
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "World Cancer Day is observes on",
+          "opts": {
+            "a": "January 24",
+            "b": "February 4",
+            "c": "March 14",
+            "d": "April 4"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "q": "Who is the present incumbent of the Office of Chief Justice of India?",
+          "opts": {
+            "a": "Ranjan Gogoi",
+            "b": "HL Dattu",
+            "c": "TS Thakur",
+            "d": "Dipak Misra"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "q": "Antonio Guterres, the present Secretary General of UN belongs to",
+          "opts": {
+            "a": "France",
+            "b": "Italy",
+            "c": "Portugal",
+            "d": "Argentina"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "Which state government during January 2018 came up with a unique way of preserving trees by allowing people to forge fraternal ties with trees?",
+          "opts": {
+            "a": "Sikkim",
+            "b": "Assam",
+            "c": "Tripura",
+            "d": "Arunachal Pradesh"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "Who is the present defence minister of India?",
+          "opts": {
+            "a": "Manohar Parrikar",
+            "b": "Nirmala Sitharaman",
+            "c": "Arun Jaitley",
+            "d": "Sushma Swaraj"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "Which country will become the world’s first country to allow legalized production, sale and consumption of marijuana?",
+          "opts": {
+            "a": "Norway",
+            "b": "Portugal",
+            "c": "Uruguay",
+            "d": "Mexico"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "The G-7 Foreign Ministers meeting 2018 was held in which country?",
+          "opts": {
+            "a": "France",
+            "b": "Italy",
+            "c": "Canada",
+            "d": "India"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "“World Homeopathy Day” is celebrated on which date every year, to commemorate the birth anniversary of Dr. Christian Friedrich Samuel Hahnemann – the founder of Homoeopathy?",
+          "opts": {
+            "a": "10th April",
+            "b": "11th April",
+            "c": "12th April",
+            "d": "13th April"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "Which country has executed most people in 2018, as per Amnesty International Global Report “Death Sentences & Executions 2018?",
+          "opts": {
+            "a": "Pakistan",
+            "b": "Iran",
+            "c": "China",
+            "d": "Vietnam"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "The Union Ministry of Home Affairs has launched web portal and mobile application named “Bharat ke Veer” to enable people to contribute towards family of martyrs from central paramilitary forces. This app is technically supported by National Informatics Centre (NIC) and powered by ________",
+          "opts": {
+            "a": "SBI",
+            "b": "Canara Bank",
+            "c": "Indian Bank",
+            "d": "Bank of Baroda"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "Which state government has launched “Operation Durga” to ensure women safety?",
+          "opts": {
+            "a": "Punjab",
+            "b": "Uttar Pradesh",
+            "c": "Haryana",
+            "d": "Gujarat"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "Who was crowned Miss World 2018?",
+          "opts": {
+            "a": "Manushi Chhillar",
+            "b": "Vanessa Ponce",
+            "c": "Priyanka Chopra",
+            "d": "Catriona Gray"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "On April 7, 2017, Union Minister for Information and Broadcasting M. Venkaiah Naidu inaugurated the three-day National Children’s Film Festival (NCFF) in:",
+          "opts": {
+            "a": "Visakhapatnam, Andhra Pradesh",
+            "b": "Panaji, Goa",
+            "c": "Kochi, Kerala",
+            "d": "Imphal, Manipur"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "Who was awarded the Best Actress Award at the 65th National Film Awards, 2018?",
+          "opts": {
+            "a": "Gautami Tadimalla",
+            "b": "Prynka Chopra",
+            "c": "Sridevi",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "Who has won the 2017 Pulitzer Prize in fiction for his novel “The Underground Railroad”?",
+          "opts": {
+            "a": "Hisham Matar",
+            "b": "Colson Whitehead",
+            "c": "Matthew Desmond",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "Who among the following has become the “Most Followed” world leader on Instagram?",
+          "opts": {
+            "a": "Indian Prime Minister Narendra Modi",
+            "b": "Russia President Vladimir Putin",
+            "c": "US President Donald Trump",
+            "d": "Aung Shan Shu Kyi of Myanmar"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "On which day International Women’s Day is observed?",
+          "opts": {
+            "a": "March 4",
+            "b": "March 6",
+            "c": "March 8",
+            "d": "March 10"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "World No Tobacco day is observed on",
+          "opts": {
+            "a": "31st May",
+            "b": "12th April",
+            "c": "5th March",
+            "d": "6th June"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "Which player wins the US Open 2018 Women’s Single title?",
+          "opts": {
+            "a": "Madison keys",
+            "b": "Sloane Stephens",
+            "c": "Simona Halep",
+            "d": "Naomi Osaka"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "Which Chinese city hosted the 2017 BRICS Summit?",
+          "opts": {
+            "a": "Fuzhou",
+            "b": "Shenzhen",
+            "c": "Shanghai",
+            "d": "Xiamen"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "Which country in the month of September 2017 conducted hydrogen bomb test?",
+          "opts": {
+            "a": "Taiwan",
+            "b": "Iran",
+            "c": "North Korea",
+            "d": "South Korea"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "Which Indian movie is nominated for Oscar 2018 foreign language category?",
+          "opts": {
+            "a": "Dangal",
+            "b": "Bahubali 2",
+            "c": "Newton",
+            "d": "Jolly LLB 2"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "According to Global Hunger Index 2018 India is ranked on",
+          "opts": {
+            "a": "95th",
+            "b": "103th",
+            "c": "104th",
+            "d": "110th"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "q": "How many seats are won by Mizo National Front Party won in the Legislative Assembly Election, 2018?",
+          "opts": {
+            "a": "24",
+            "b": "25",
+            "c": "26",
+            "d": "28"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "q": "International day of the Girl Child is observed on",
+          "opts": {
+            "a": "25th September",
+            "b": "28th September",
+            "c": "4th October",
+            "d": "11th October"
+          },
+          "part": null
+        },
+        "87": {
+          "n": 87,
+          "page": 8,
+          "q": "Which one became the smallest country to qualifies for the 2018 FIFA World Cup?",
+          "opts": {
+            "a": "Austria",
+            "b": "Macedonia",
+            "c": "Iceland",
+            "d": "Kosovo"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 9,
+          "q": "Which state became the first India to incorporate skill development programme in Higher Education?",
+          "opts": {
+            "a": "Rajasthan",
+            "b": "Maharashtra",
+            "c": "Madhya Pradesh",
+            "d": "Gujarat"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "Which politician wrote the book ‘The Coalition Years: 1996-2012’?",
+          "opts": {
+            "a": "Manmohan Singh",
+            "b": "Pranab Mukherjee",
+            "c": "Hamid Ansari",
+            "d": "Venkaiah Naidu"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "The United Nation Day is celebrated on",
+          "opts": {
+            "a": "20th October",
+            "b": "24th October",
+            "c": "26th October",
+            "d": "30th October"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "Who is the winner of the 2018 Man Booker Prize?",
+          "opts": {
+            "a": "Karen Russell",
+            "b": "Anna Burns",
+            "c": "David Foster Wallace",
+            "d": "Colson Whitehead"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "q": "Who is the present Minister of Labour, Employment, Skill Development & Entrepreneurship in Mizoram?",
+          "opts": {
+            "a": "K.Lalrinliana",
+            "b": "Lalruatkima",
+            "c": "Tawnluia",
+            "d": "Lalchhandama Ralte"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "q": "The 2018 ASEAN Summit was held in",
+          "opts": {
+            "a": "Singapore",
+            "b": "Malaysia",
+            "c": "Indonesia",
+            "d": "Vietnam"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "q": "The 2017 Asia Cup Hockey Women’s Title won by",
+          "opts": {
+            "a": "Malaysia",
+            "b": "Pakistan",
+            "c": "India",
+            "d": "Japan"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "q": "Which country recently pulled out from UNESCO in support of Israel?",
+          "opts": {
+            "a": "UK",
+            "b": "USA",
+            "c": "Brazil",
+            "d": "Australia"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "q": "The United Nations has declared 2018 as the International Year of-",
+          "opts": {
+            "a": "Sustainable Tourism for development",
+            "b": "Millets",
+            "c": "Environment",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 9,
+          "q": "Which country becomes the first to ban FM Radio broadcasting?",
+          "opts": {
+            "a": "South America",
+            "b": "Brazil",
+            "c": "China",
+            "d": "Norway"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 9,
+          "q": "Which one is the first city in India to have WiFi connectivity in public places?",
+          "opts": {
+            "a": "Mumbai",
+            "b": "New Delhi",
+            "c": "Kolkata",
+            "d": "Chennai"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Hold: the wording is imprecise, historical claims vary by whether it means first Wi-Fi hotspots or a Wi-Fi-enabled city, and the options omit Bengaluru, often cited for the first free public Wi-Fi hotspots.",
+          "reviewNote": "Hold: the wording is imprecise, historical claims vary by whether it means first Wi-Fi hotspots or a Wi-Fi-enabled city, and the options omit Bengaluru, often cited for the first free public Wi-Fi hotspots."
+        },
+        "99": {
+          "n": 99,
+          "page": 9,
+          "q": "Who wins the 2018 Australian Open Men’s Single Title?",
+          "opts": {
+            "a": "Rafael Nadal",
+            "b": "Marin Èiliæ",
+            "c": "Roger Federer",
+            "d": "Grigor Dimitrov"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 9,
+          "q": "In which year did the US President Donald Trump formally announced recognition of Jerusalem as the capital of Israel?",
+          "opts": {
+            "a": "2017",
+            "b": "2018",
+            "c": "2019",
+            "d": "2016"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "Hugli was the largest English settlement before Calcutta."
+        },
+        "2": {
+          "answerIndex": 0,
+          "explanation": "The duty-free trade privilege was the central dispute."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "The stated justification was preparation for conflict with France."
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "Court conspiracies undermined Siraj-ud-Daulah."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "Warren Hastings and Mahadji Scindia concluded the Treaty of Salbai."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "Madhav Rao I restored Maratha fortunes after Panipat."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "The Angrias developed the Maratha navy."
+        },
+        "8": {
+          "answerIndex": 3,
+          "explanation": "The subsidiary treaty with Sindh’s Amirs was signed in 1839."
+        },
+        "9": {
+          "answerIndex": 2,
+          "explanation": "The question points to weaknesses in Indian military and state organization."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "All three listed problems are presented as features of Dual Government."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "Warren Hastings was Bengal’s first Governor-General."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "Awadh signed its subsidiary treaty in 1801."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "Lord Dalhousie introduced the Doctrine of Lapse."
+        },
+        "14": {
+          "answerIndex": 3,
+          "explanation": "The English capture of Mahe provoked Hyder Ali."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "Sikhs took refuge in the Punjab hills."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "Saadat Khan founded Awadh’s autonomous kingdom."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "Shah Alam II’s Diwani grant legalized Company control."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "Permanent Settlement was made with zamindars."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "The decline of handicrafts pushed people toward agriculture."
+        },
+        "20": {
+          "answerIndex": 2,
+          "explanation": "Heavy land-revenue assessments impoverished peasants."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "The question refers to Ricardo’s theory of rent."
+        },
+        "22": {
+          "answerIndex": 3,
+          "explanation": "High loan interest contributed to persistent indebtedness."
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "Weavers were forced to sell at prices dictated by the Company."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "Impoverishment was accompanied by increased famines."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "Landlordism encouraged sub-infeudation."
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "Chronic poverty limited cultivators’ ability to invest."
+        },
+        "27": {
+          "answerIndex": 3,
+          "explanation": "Pressure on agriculture weakened rural artisan industries."
+        },
+        "28": {
+          "answerIndex": 2,
+          "explanation": "Indigenous bankers were among mercantile groups that declined."
+        },
+        "29": {
+          "answerIndex": 2,
+          "explanation": "European merchants dominated agricultural-produce exports."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The measures aimed to secure Company and servant control of inland trade."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "Colonial policy sought cheap raw materials and a market for British manufactures."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "The Company’s Indian-trade monopoly ended in 1813."
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "The question treats all three listed channels as contributing to the drain."
+        },
+        "34": {
+          "answerIndex": 1,
+          "explanation": "Railways, banking, insurance and shipping drew the largest British investment."
+        },
+        "35": {
+          "answerIndex": 1,
+          "explanation": "The Indian economy was subordinated to colonial interests."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "Indians had a substantial share in cotton textiles from the beginning."
+        },
+        "37": {
+          "answerIndex": 2,
+          "explanation": "Synthetic dye displaced natural indigo."
+        },
+        "38": {
+          "answerIndex": 2,
+          "explanation": "R. P. Dutt set out the successive phases of colonialism."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "Raja Ram Mohan Roy campaigned against sati."
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "Keshab Chandra Sen’s guidance is the intended answer."
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "Henry Vivian Derozio inspired Young Bengal."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "Constitutional agitation was not a form of resistance before 1857."
+        },
+        "43": {
+          "answerIndex": 3,
+          "explanation": "Nil Darpan depicts oppression by indigo planters."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "The Moplah rebellions targeted landlord oppression."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "The Ilbert Bill controversy sharpened racial divisions."
+        },
+        "46": {
+          "answerIndex": 3,
+          "explanation": "The Deoband movement is the intended organization."
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Rasbehari Bose planned the attack on Lord Hardinge."
+        },
+        "48": {
+          "answerIndex": 3,
+          "explanation": "Swadeshi and boycott were used against Bengal’s partition."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "A. D. Savarkar organized Abhinava Bharat."
+        },
+        "50": {
+          "answerIndex": 0,
+          "explanation": "Champaran was Gandhi’s first Satyagraha in India."
+        },
+        "51": {
+          "answerIndex": 2,
+          "explanation": "Rohingya Muslims are primarily from Rakhine State."
+        },
+        "53": {
+          "answerIndex": 2,
+          "explanation": "Jeje Lalpekhlua was playing for Chennaiyin FC."
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "Kerala introduced a “fat tax.”"
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "Priyanka Chopra was UNICEF’s Global Goodwill Ambassador."
+        },
+        "56": {
+          "answerIndex": 2,
+          "explanation": "UNICEF publishes the State of the World’s Children report."
+        },
+        "57": {
+          "answerIndex": 2,
+          "explanation": "DRDO is headquartered in Delhi."
+        },
+        "58": {
+          "answerIndex": 1,
+          "explanation": "FC Goa won the 2019 Super Cup."
+        },
+        "59": {
+          "answerIndex": 3,
+          "explanation": "The cloned cashmere goat was born in China."
+        },
+        "60": {
+          "answerIndex": 1,
+          "explanation": "Mission XI Million promoted football."
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "World Cancer Day is February 4."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "Ranjan Gogoi was CJI when the paper was set."
+        },
+        "64": {
+          "answerIndex": 2,
+          "explanation": "António Guterres is from Portugal."
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "Sikkim allowed people to forge fraternal ties with trees."
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "Nirmala Sitharaman was Defence Minister in April 2019."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "Uruguay was the first country to legalize regulated marijuana production and sale."
+        },
+        "68": {
+          "answerIndex": 2,
+          "explanation": "The 2018 G7 Foreign Ministers’ meeting was in Canada."
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "World Homeopathy Day is April 10."
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "China is the intended answer based on Amnesty’s estimate; its execution figures are secret and excluded from confirmed totals."
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "SBI powered the Bharat Ke Veer contribution platform."
+        },
+        "72": {
+          "answerIndex": 2,
+          "explanation": "Haryana launched Operation Durga."
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "Vanessa Ponce won Miss World 2018."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "The film festival opened in Visakhapatnam."
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "Sridevi received the 2018 National Film Award for Best Actress."
+        },
+        "76": {
+          "answerIndex": 1,
+          "explanation": "Colson Whitehead won the 2017 Pulitzer for The Underground Railroad."
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "Narendra Modi was reported as the most-followed world leader on Instagram."
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "International Women’s Day is March 8."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "World No Tobacco Day is May 31."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "Naomi Osaka won the 2018 US Open women’s singles title."
+        },
+        "81": {
+          "answerIndex": 3,
+          "explanation": "Xiamen hosted the 2017 BRICS Summit."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "North Korea conducted the September 2017 hydrogen-bomb test."
+        },
+        "83": {
+          "answerIndex": 2,
+          "explanation": "Newton was India’s 2018 Oscar foreign-language submission."
+        },
+        "84": {
+          "answerIndex": 1,
+          "explanation": "India ranked 103rd in the 2018 Global Hunger Index."
+        },
+        "85": {
+          "answerIndex": 2,
+          "explanation": "MNF won 26 seats in the 2018 Mizoram election."
+        },
+        "86": {
+          "answerIndex": 3,
+          "explanation": "International Day of the Girl Child is October 11."
+        },
+        "87": {
+          "answerIndex": 2,
+          "explanation": "Iceland was the smallest country by population to qualify for the 2018 World Cup."
+        },
+        "88": {
+          "answerIndex": 0,
+          "explanation": "Rajasthan was reported as first to incorporate skill development into higher education."
+        },
+        "89": {
+          "answerIndex": 1,
+          "explanation": "Pranab Mukherjee wrote The Coalition Years: 1996–2012."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "United Nations Day is October 24."
+        },
+        "91": {
+          "answerIndex": 1,
+          "explanation": "Anna Burns won the 2018 Man Booker Prize."
+        },
+        "92": {
+          "answerIndex": 3,
+          "explanation": "Lalchhandama Ralte held the portfolio after the 2018 Mizoram election."
+        },
+        "93": {
+          "answerIndex": 0,
+          "explanation": "Singapore hosted the 2018 ASEAN Summit."
+        },
+        "94": {
+          "answerIndex": 2,
+          "explanation": "India won the 2017 Women’s Asia Cup Hockey title."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "The United States withdrew from UNESCO in support of Israel."
+        },
+        "96": {
+          "answerIndex": 0,
+          "explanation": "2018 was the International Year of Sustainable Tourism for Development."
+        },
+        "97": {
+          "answerIndex": 3,
+          "explanation": "Norway was the first country to shut down FM radio broadcasting."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "Roger Federer won the 2018 Australian Open men’s singles title."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "Trump announced recognition of Jerusalem as Israel’s capital in 2017."
+        }
+      }
+    },
+    "eo-leit-2019-gs2": {
+      "sourceSha256": "e22cd96e9b045a7df209706c857fc7a878a7e485b7d4fd0664ae91f83b4c6094",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "evidence": "Employment Officer second-series General Studies Paper-II scan: all 100 questions and options checked. Corrected source typos and factual wording in Q1, Q26, Q38, Q49, Q51, Q62, Q70 and Q80. Q34, Q86 and Q88 remain held for defective or scientifically invalid choices. No official key used.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "Who among the following described Aurobindo as a ‘Poet of patriotism, prophet of nationalism and lover of humanity?",
+          "opts": {
+            "a": "R P Dutt",
+            "b": "Vivekananda",
+            "c": "C R Das",
+            "d": "M N Roy"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "Which of the following is true regarding Gandhian concept of ‘ Sarvodaya’?",
+          "opts": {
+            "a": "Welfare of the majority of people",
+            "b": "Government by the majority of the party",
+            "c": "Protection of the minorities",
+            "d": "Welfare of all sections of the society"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "Who coined the slogan “ No control, no Co-operation”?",
+          "opts": {
+            "a": "Aurobindo",
+            "b": "Mahatma Gandhi",
+            "c": "Subhash Bose",
+            "d": "Jawaharlal Nehru"
+          },
+          "part": null
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Which of the following is not a feature of Jayaprakash Narayan’s partyless democracy?",
+          "opts": {
+            "a": "Constant watch of the representives by the electing bodies",
+            "b": "Maximum propaganda",
+            "c": "Dispersal of political power",
+            "d": "Comparatively less expensive election"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "Who is the author of ‘Savitri’?",
+          "opts": {
+            "a": "Aurobindo",
+            "b": "M N Roy",
+            "c": "Rabindranath Tagore",
+            "d": "Mahatma Gandhi"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "“Once God is let in, there is an end to the sovereignty of man.” Who said this?",
+          "opts": {
+            "a": "Jawaharlal Nehru",
+            "b": "M N Roy",
+            "c": "B R Ambedkar",
+            "d": "Vivekananda"
+          },
+          "part": null
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "Who among the following can dismiss Governor of a state from his office?",
+          "opts": {
+            "a": "State Legislative Assembly",
+            "b": "Parliament",
+            "c": "President",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "The sixth schedule of the Indian Constitution deals with the administration and control of Scheduled Areas and Scheduled Tribes in the four states of",
+          "opts": {
+            "a": "Manipur, Mizoram Tripura and Nagaland",
+            "b": "Assam, Meghalaya, Tripura and Mizoram",
+            "c": "Assam, Meghalaya, Arunachal Pradesh and Nagaland",
+            "d": "Assam, Meghalaya, Mizoram and Nagaland"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "q": "The constitution of India empowers the Supreme Court of India to adjudicate disputes between the Centre and States through",
+          "opts": {
+            "a": "Appellate Jurisdiction",
+            "b": "Original Jurisdiction",
+            "c": "Advisory Jurisdiction",
+            "d": "Writ Jurisdiction"
+          },
+          "part": null
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "The resolution for removing the Vice-President of India can be moved in",
+          "opts": {
+            "a": "Lok Sabha only",
+            "b": "Rajya Sabha only",
+            "c": "Either of the two houses of the parliament",
+            "d": "Joint sitting if the two houses of the parliament"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "Which of the following writes literally means ‘We command’?",
+          "opts": {
+            "a": "Habeas Corpus",
+            "b": "Mandamus",
+            "c": "Quo Warranto",
+            "d": "Certiorari"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "Which of the following parts/provisions of the Indian Constitution cannot be amended:",
+          "opts": {
+            "a": "Preamble to the constitution",
+            "b": "Directives Principles of State Policy",
+            "c": "Fundamental Rights",
+            "d": "Judicial Review"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "A system of “ Dyarchy “ was introduced in India for the first time by the Government of India Act 1919, which implied that the spheres of the various subjects were divided into_____?",
+          "opts": {
+            "a": "Central subjects and Provincial subjects",
+            "b": "Reserved subjects and Transferred subjects",
+            "c": "Vested subjects and Residual subjects",
+            "d": "General subjects and Concurrent subjects"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "The 8th schedule of constitution of India, originally had how many languages?",
+          "opts": {
+            "a": "12",
+            "b": "14",
+            "c": "16",
+            "d": "22"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Who among the following is called the “Gaurdian of the public purse” of India?",
+          "opts": {
+            "a": "Comptroller & Auditor General",
+            "b": "Finance Minister",
+            "c": "Chairman of Public Accounts Committee",
+            "d": "Prime Minister"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "Consider the following: 1.High Courts 2.Supreme Court Have appellate jurisdiction:",
+          "opts": {
+            "a": "Only 1",
+            "b": "Only 2",
+            "c": "Both 1 & 2",
+            "d": "Neither 1 nor 2"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "Consider the following statements: 1.Elections to the Panchayats are held by the Union Election Commission 2.The reservation for weaker sections and women are mandatory in Panchayat seats 3.The term of Panchayat is 5 years. Which among the above statements is/are correct?",
+          "opts": {
+            "a": "1, 2 and 3",
+            "b": "2 and 3",
+            "c": "2 only",
+            "d": "1 and 2"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "q": "The “Universal Adult Suffrage” is enshrined in which among the following articles of Constitution of India?",
+          "opts": {
+            "a": "323",
+            "b": "324",
+            "c": "325",
+            "d": "326"
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "q": "Which among the following was the purpose of setting up the Balwant Rai Mehta Committee in 1956?",
+          "opts": {
+            "a": "Suggesting measures for democratic decentralization",
+            "b": "Suggesting measures for better efficiency in implementation of the Community Development Projects",
+            "c": "Reporting the working of the village Panchayats",
+            "d": "Investigating the feasibility of setting up new Panchayat machinery"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "q": "Economic Planning comes under which of the following list?",
+          "opts": {
+            "a": "Union list",
+            "b": "Concurrent list",
+            "c": "State list",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Article 359 of the constitution authorizes the president of India to suspend the right to move any court for the enforcement of Fundamental Rights during:",
+          "opts": {
+            "a": "A National Emergency",
+            "b": "A failure of constitutional machinery in States",
+            "c": "A financial emergency",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "The speaker of the Lok Sabha can ask a member of the house to stop speaking and let another member speak. This phenomenon is known as:",
+          "opts": {
+            "a": "Crossing the floor",
+            "b": "Yielding the floor",
+            "c": "Point of Order",
+            "d": "Calling Attention Motion"
+          },
+          "part": null
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "The only state in Indian Union which has its own separate state constitution is",
+          "opts": {
+            "a": "Nagaland",
+            "b": "Jammu and Kashmir",
+            "c": "Sikkim",
+            "d": "Goa"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "A person to be eligible for election as president of India should have completed",
+          "opts": {
+            "a": "25 years",
+            "b": "21 years",
+            "c": "30 years",
+            "d": "35 years of age"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "What did the term ‘picket’ refer to?",
+          "opts": {
+            "a": "Stealing from shops",
+            "b": "Import of goods",
+            "c": "Protest by blocking shop entrances",
+            "d": "Boycott of cloths and goods"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Champaran Satyagraha (1917) was launched by Gandhiji against",
+          "opts": {
+            "a": "High revenue demand",
+            "b": "Indigo planters",
+            "c": "Mill owners",
+            "d": "Salt tax"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "In India seats are reserves for women in which of the following bodies?",
+          "opts": {
+            "a": "Lok Sabha",
+            "b": "State Legislative Assemblies",
+            "c": "Panchayati Raj Assemblies",
+            "d": "Cabinet"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "What does the Ashoka’s wheel in the national flag represent?",
+          "opts": {
+            "a": "Wheel of peace",
+            "b": "Wheel of prosperity",
+            "c": "Wheel of authority",
+            "d": "Wheel of the law"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "q": "Who was the chairman of the Advisory committee while framing the constitution?",
+          "opts": {
+            "a": "Jawaharlal Nehru",
+            "b": "K.M Munshi",
+            "c": "Krupalani",
+            "d": "Vallabhai Patel"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "q": "The provisions regarding emergency in the constitution are adopted from”",
+          "opts": {
+            "a": "Germany",
+            "b": "Japan",
+            "c": "U.K Constitution",
+            "d": "U.S.S.R Constitution"
+          },
+          "part": null
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "q": "Who among the following appoint the judge of the High Court of Indian State?",
+          "opts": {
+            "a": "President with advice of Chief Justice of India",
+            "b": "President with Advice of the Prime Minister",
+            "c": "Law Ministry",
+            "d": "President with advice of a collegium of judges."
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth is a fundamental right classifiable under",
+          "opts": {
+            "a": "Right to freedom of religion",
+            "b": "Right to equality",
+            "c": "Right against exploitation",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "Which fundamental right of Indian constitution has been deleted by the 44th amendment Act?",
+          "opts": {
+            "a": "Right against exploitation",
+            "b": "Right to property",
+            "c": "Right to protest",
+            "d": "Right to speak"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "Which Article of the constitution envisages free and compulsory education for children upto the age of 14 years?",
+          "opts": {
+            "a": "Article 19",
+            "b": "Article 31",
+            "c": "Article 32",
+            "d": "Article 45"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "No listed option gives Article 21A, which establishes the enforceable right to free and compulsory education for ages 6–14. Article 45 is now about early childhood care and education below age six.",
+          "reviewNote": "No listed option gives Article 21A, which establishes the enforceable right to free and compulsory education for ages 6–14. Article 45 is now about early childhood care and education below age six."
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "Which is the Oldest Political Party in India?",
+          "opts": {
+            "a": "Bharatiya Janata Party",
+            "b": "Indian National Congress",
+            "c": "Communist Party of India",
+            "d": "Bahujan Samaj Party"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "When did India Adopt a written constitution?",
+          "opts": {
+            "a": "November 26, 1949",
+            "b": "January 26, 1950",
+            "c": "January 1, 1997",
+            "d": "January 1, 1999"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "What are ‘National parties’?",
+          "opts": {
+            "a": "Parties which have units in various states.",
+            "b": "Parties which have no units.",
+            "c": "Parties which have unit in two states",
+            "d": "Parties which have unit in all states."
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "All India Muslim League was founded in 1907 under:",
+          "opts": {
+            "a": "Aga Khan",
+            "b": "Nawab Salimullah of Dacca",
+            "c": "Nawab Mohsin-Ul-Mulk",
+            "d": "All of these"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "The economic system adopted by India is:",
+          "opts": {
+            "a": "Socialist economy",
+            "b": "Mixed economy",
+            "c": "Capitalist economy",
+            "d": "Controlled economy"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "The Reserve Bank of India was established on :",
+          "opts": {
+            "a": "April 1, 1935",
+            "b": "April 1, 1926.",
+            "c": "April 1, 1933",
+            "d": "April 1, 1951"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "q": "Mahatma Gandh National Rural Employment Generation Scheme ( MGNREGS) was launched in :",
+          "opts": {
+            "a": "2005",
+            "b": "2006",
+            "c": "2008",
+            "d": "2007"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "q": "Promotional steps taken towards Financial Institution are:",
+          "opts": {
+            "a": "No Frills Account",
+            "b": "General Credit Cards",
+            "c": "Easy KYC Norms",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "q": "Goods and Service Tax (GST) is implemented With effect from:",
+          "opts": {
+            "a": "August 1, 2017",
+            "b": "July 1, 2017",
+            "c": "June 1, 2017",
+            "d": "September 1, 2017"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "The Government of India prepares draft ‘Standard Operating Procedures;’ (SOP_s) for approval of :",
+          "opts": {
+            "a": "Export Policy",
+            "b": "Industrial Policy",
+            "c": "Foreign Direct Investment",
+            "d": "Import Policy"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "The 2017 Global Retail Development Index (GRDI) in its 16th. Edition ranks top 30 developing countries, and India secures:",
+          "opts": {
+            "a": "Top position",
+            "b": "Second position",
+            "c": "Third position",
+            "d": "Fourth position"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "Indian Oil Corporation (IOC), Hindustan Petroleum Corporation (HPCL) and Bharat Petroleum Corporation(BPCL) have started daily revision of the prices of petroleum and diesel from.",
+          "opts": {
+            "a": "July 16, 2017",
+            "b": "January 16, 2017",
+            "c": "June 16, 2017",
+            "d": "August 16, 2017"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "Switzerland has ratified automatic exchange of financial account information with:",
+          "opts": {
+            "a": "India and 40 other countries",
+            "b": "India only",
+            "c": "50 developing countries",
+            "d": "5 developed countries"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Green Revolution was associated with:",
+          "opts": {
+            "a": "High Yielding Variety of Seeds (HYVS)",
+            "b": "Chemical Fertilizers",
+            "c": "New Technolog",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "The concept of ‘Evergreen Revolution’ given by Dr. Swaminathan as the Chairman of National Commission on Farmers is:",
+          "opts": {
+            "a": "Sustainability",
+            "b": "Development of agricultural market.",
+            "c": "Increasein agricultural credit.",
+            "d": "Maximisation of foodgrains output"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "Basic criteria to fix the prices of agricultural commodities are:",
+          "opts": {
+            "a": "Cost of production criterion",
+            "b": "Ruling Prices criterion",
+            "c": "Both (a) & (b)",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "The causes of unfavourable terms of trade in agricultural sector as against non-agricultural sector is/are:",
+          "opts": {
+            "a": "Inelastic supply",
+            "b": "Inelastic demand",
+            "c": "Competitive agricultural trade",
+            "d": "All of these"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "The two types of Farm Budgeting are:",
+          "opts": {
+            "a": "Downward and Upward Budgeting",
+            "b": "Fixed and Flexible Budgeting",
+            "c": "Partial and Complete Budgeting",
+            "d": "Income and Expenditure Budgeting"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "q": "During the first half of 2016-17, agriculture and allied sector register a growth of :",
+          "opts": {
+            "a": "3.5 per cent",
+            "b": "2.5 per cent",
+            "c": "2.0 per cent",
+            "d": "4.00 per cent"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "q": "The basic objective of Twelfth Five Year Plan (2012 – 17) is:",
+          "opts": {
+            "a": "Rapid industrialisation",
+            "b": "Mechanisation of Agriculture",
+            "c": "Faster, more inclusive and sustainable growth",
+            "d": "Healthy inter-dependence between agriculture and industry"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "q": "Revenue deficit arises when the Government’s :",
+          "opts": {
+            "a": "Actual net receipts is lower than the projected receipts",
+            "b": "Expenditure exceeds revenue",
+            "c": "Debt is mounting",
+            "d": "Expenditure is met from borrowing"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "q": "Demonetisation is a bold and decisive measure :",
+          "opts": {
+            "a": "To curb tax evation and parallel economy",
+            "b": "To eliminate corruption and black money",
+            "c": "To eliminate counterfeit currency and terror funding",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "Which one of the following is not the objective of New Industrial Policy, 1991?",
+          "opts": {
+            "a": "To unshackle industrial economy from the cobwebs of Bureaurocratic Control.",
+            "b": "To introduce Liberalisation with a view to integrate Indian economy with the world",
+            "c": "To remove restriction on Direct Foreign Investment.",
+            "d": "To upgrade Public Enterprises."
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Inter – Bank Call Money Market is also known as :",
+          "opts": {
+            "a": "Money at Call",
+            "b": "Money at Short Notice",
+            "c": "Both (a) & (b)",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "Some of the major impact of Economic Reforms are:",
+          "opts": {
+            "a": "Transition from a seller’s market to a buyer’s market.",
+            "b": "Transition from a command economy to a market economy.",
+            "c": "Transition from a semi-closed economy to an open economy.",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "Which of the following is not the Institutional source of Agricultural Credit?",
+          "opts": {
+            "a": "Government",
+            "b": "Regional Rural Banks",
+            "c": "Traders and Commission Agents",
+            "d": "Commercial Banks"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "Agricultural price policy should be able to perform the following functions:",
+          "opts": {
+            "a": "To stabilize prices to prevent fluctuation",
+            "b": "To increase marketable surplus",
+            "c": "Both (a) & (b)",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "Acceptability and implementation of Farm technology depends upon:",
+          "opts": {
+            "a": "Responsiveness of society to new ideas",
+            "b": "Extent and type of education",
+            "c": "Present position of existing technology",
+            "d": "All of these"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "q": "The share of agriculture in Indian National Income is:",
+          "opts": {
+            "a": "Diminishing",
+            "b": "Increasing",
+            "c": "Constant",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "q": "Which one of the following is not the component of New Agricultural Strategy?",
+          "opts": {
+            "a": "Consolidation of land holdings",
+            "b": "Reduction of population pressure",
+            "c": "Improved variety of seeds",
+            "d": "Extension of Irrigation"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "q": "Disinvestment Commission classified Public Sector Enterprises into:",
+          "opts": {
+            "a": "Strategic sector",
+            "b": "Core sector",
+            "c": "Non-Core sector",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "q": "Which one of the following is not the prescribed area of large-scale sector given by Industrial Policy, 1977?",
+          "opts": {
+            "a": "Basic Industries",
+            "b": "Capital-intensive Industries",
+            "c": "Capital Goods Industries",
+            "d": "High Technology Industrie"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "q": "The price policy of public undertakings is influenced by:",
+          "opts": {
+            "a": "Profit Motive",
+            "b": "Government Regulation and control",
+            "c": "Social implication of its price policy",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "The Government appointed Monopolies Inquiry Commission to enquire into monopoly power and restrictive practices of:",
+          "opts": {
+            "a": "The private sector",
+            "b": "The public sector",
+            "c": "Both public and private sectors",
+            "d": "The Joint Sector"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "The Monopolies and Restrictive Trade Practices(MRTP) Commission has been vested with:",
+          "opts": {
+            "a": "Direct Controlling Power",
+            "b": "Recommendatory Power",
+            "c": "Power to take direct action",
+            "d": "Judicial Power"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "The major overhaul of Trade Policy on July, 1991 entails :",
+          "opts": {
+            "a": "Suspension of Cash Compensatory Support",
+            "b": "Abolition of unlisted OGL",
+            "c": "Both (a) & (b)",
+            "d": "None of these"
+          },
+          "part": null,
+          "reviewNote": "Source scan contains a typographical/historical text error corrected in the reviewed transcription; see source-review evidence."
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "The Balance of Payment after Economic Reforms of 1991 has shown that dependence on external assistance and external commercial borrowing :",
+          "opts": {
+            "a": "has increased markedly",
+            "b": "has come down markedly",
+            "c": "has not shown any change",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "Measures of Tenancy Reforms pertain to :",
+          "opts": {
+            "a": "Regulation of Rent",
+            "b": "Security of Tenure",
+            "c": "Conferment of ownership to tenants",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "The main problems of implementing Ceiling on land holdings is/are:",
+          "opts": {
+            "a": "Mala fide Transfer",
+            "b": "Compensation and allotment of surplus",
+            "c": "Both (a) & (b)",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "Empirical evidence, in connection with the interdependence between agriculture and industry, has shown that:",
+          "opts": {
+            "a": "Agriculture supplies raw materials to industry",
+            "b": "Agriculture supplies labour to industry",
+            "c": "Industry provides agricultural tools",
+            "d": "All of these"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "q": "The main impact of Economic Liberalisation on agriculture and allied sectors is/are:",
+          "opts": {
+            "a": "Increasing production of foodgrains",
+            "b": "Increasing trend in horticultural output",
+            "c": "Both (a ) & (b)",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "q": "The connecting link between the Himalayas and the high ranges of Central Asia is",
+          "opts": {
+            "a": "Himadri",
+            "b": "Himayan",
+            "c": "Pamir",
+            "d": "Himachal"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "q": "The shallow sea lying between the Angaraland and Gondwanaland is known as",
+          "opts": {
+            "a": "Black sea",
+            "b": "Tethys sea",
+            "c": "Aral sea",
+            "d": "Arabian sea"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "q": "The Himalayan ranges occur immediately north of the Great Himalayan range are called",
+          "opts": {
+            "a": "Kumaon Himalayas",
+            "b": "Purvachal",
+            "c": "Trans-Himalayas",
+            "d": "Lesser Himalayas"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "Which of the following is the major Himalayan river system?",
+          "opts": {
+            "a": "Ganga",
+            "b": "Godavari",
+            "c": "Cauvery",
+            "d": "Tlawng"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "The Indus along with its tributaries forms one of the largest drainage systems of the world",
+          "opts": {
+            "a": "Satluj",
+            "b": "Narmada",
+            "c": "Indus",
+            "d": "Tapti"
+          },
+          "part": null,
+          "reviewNote": "The scan says the Indus drainage system “originated in India,” but the Indus rises in Tibet. Stem wording repaired; intended option remains Indus."
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "The reason for existing high air pressure over extensive parts of northwest India is",
+          "opts": {
+            "a": "High temperature",
+            "b": "Low temperature",
+            "c": "Normal temperature",
+            "d": "Extremely high temperature"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "Who forecasted flood for the first- time in India?",
+          "opts": {
+            "a": "Central Water Commission",
+            "b": "Central Ground Water Board",
+            "c": "India Meteorological Department",
+            "d": "Agriculture Department"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "The soils of Extra-Peninsular India are known as",
+          "opts": {
+            "a": "Zonal",
+            "b": "Azonal",
+            "c": "Intra-zonal",
+            "d": "Lateritic"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "Littoral and Swamp type of forest falls under",
+          "opts": {
+            "a": "Dry Tropical Forest",
+            "b": "Montane Temperate Forest",
+            "c": "Moist Tropical Forest",
+            "d": "Alpine Forest"
+          },
+          "part": null
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "q": "Which river passes through the mineral heartland of India?",
+          "opts": {
+            "a": "Ganga",
+            "b": "Godavari",
+            "c": "Damodar",
+            "d": "Cauvery"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "q": "The most primitive race of the India is",
+          "opts": {
+            "a": "Brachycephals",
+            "b": "Mongoloids",
+            "c": "Dravidians",
+            "d": "Nordics"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "The question relies on obsolete racial typologies (‘race’ categories) and lacks a scientifically valid, unambiguous answer; hold.",
+          "reviewNote": "The question relies on obsolete racial typologies (‘race’ categories) and lacks a scientifically valid, unambiguous answer; hold."
+        },
+        "87": {
+          "n": 87,
+          "page": 8,
+          "q": "The earliest tribal settlers in Indian Peninsula are known as",
+          "opts": {
+            "a": "Bhils",
+            "b": "Adivasis",
+            "c": "Gonds",
+            "d": "Mundas"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "q": "Which Indian state has the highest number of schedule castes?",
+          "opts": {
+            "a": "Andhra Pradesh",
+            "b": "Karnataka",
+            "c": "West Bengal",
+            "d": "Bihar"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "No correct option: Uttar Pradesh has the largest Scheduled Caste population by absolute count; it is absent.",
+          "reviewNote": "No correct option: Uttar Pradesh has the largest Scheduled Caste population by absolute count; it is absent."
+        },
+        "89": {
+          "n": 89,
+          "page": 9,
+          "q": "Fallow land is a type of",
+          "opts": {
+            "a": "Wasteland",
+            "b": "Cultivable land",
+            "c": "Culturable waste",
+            "d": "Land not available for cultivation"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "The major agriculture practice in India is",
+          "opts": {
+            "a": "Subsistence farming",
+            "b": "Shifting cultivation",
+            "c": "Plantation agriculture",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "The richest mineral belt of India is",
+          "opts": {
+            "a": "Central belt",
+            "b": "South-western belt",
+            "c": "North-western belt",
+            "d": "North-eastern Peninsular Belt"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "q": "Which geographical factor influences the location of an industry?",
+          "opts": {
+            "a": "Capital",
+            "b": "Banking Facilities",
+            "c": "Raw material",
+            "d": "Insurance"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "q": "The main objective of the industrial policy is",
+          "opts": {
+            "a": "Slow and steady industrial development",
+            "b": "Rapid Industrial development",
+            "c": "Slow industrial development",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "q": "The first industrial policy was drafted in the year",
+          "opts": {
+            "a": "1948",
+            "b": "1951",
+            "c": "1996",
+            "d": "2017"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "q": "The trade of goods and services within a nation is known as",
+          "opts": {
+            "a": "Inter-regional Trade",
+            "b": "Intra-regional Trade",
+            "c": "Regional Trade",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "q": "Which of the following is not an objective of the national urbanization policy?",
+          "opts": {
+            "a": "Reduction of poverty",
+            "b": "Attainment of gainful self employment",
+            "c": "Creation of skilled wage employment oppurtunities",
+            "d": "Financial support for higher education"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 9,
+          "q": "In which type of settlement the number of villages is less than half the number of hamlets?",
+          "opts": {
+            "a": "Compact",
+            "b": "Semi-compact",
+            "c": "Hamlet",
+            "d": "Dispersed"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 9,
+          "q": "Which new Indian state has been formed in the year 2014 as per state reorganization act?",
+          "opts": {
+            "a": "Karnataka",
+            "b": "West Bengal",
+            "c": "Telangana",
+            "d": "Andhra Pradesh"
+          },
+          "part": null
+        },
+        "99": {
+          "n": 99,
+          "page": 9,
+          "q": "Which strait is the main shipping channel between the Indian Ocean and the Pacific Ocean, linking major Asian economies?",
+          "opts": {
+            "a": "Malacca",
+            "b": "Sunda",
+            "c": "Bali",
+            "d": "Lombok"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 9,
+          "q": "At Indo-China-Bhutan trijunction, the confrontation between India and China was started on 16th June, 2017 at",
+          "opts": {
+            "a": "Doklam",
+            "b": "Kashmir",
+            "c": "Kargil",
+            "d": "Arunachal Pradesh"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "C. R. Das used this description in his defence of Aurobindo at the Alipore trial."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "Sarvodaya means the welfare or uplift of all."
+        },
+        "3": {
+          "answerIndex": 0,
+          "explanation": "Sri Aurobindo used ‘No control, no co-operation’ as a watchword for lawful agitation."
+        },
+        "4": {
+          "answerIndex": 1,
+          "explanation": "Partyless democracy seeks participation and decentralisation, not maximum election propaganda."
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "Savitri is Sri Aurobindo’s epic poem."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "The statement is attributed to M. N. Roy, a secular radical humanist."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "The President appoints a Governor and may remove the Governor during the pleasure term."
+        },
+        "8": {
+          "answerIndex": 1,
+          "explanation": "The Sixth Schedule applies in Assam, Meghalaya, Tripura and Mizoram."
+        },
+        "9": {
+          "answerIndex": 1,
+          "explanation": "Centre–State disputes fall within the Supreme Court’s original jurisdiction under Article 131."
+        },
+        "10": {
+          "answerIndex": 1,
+          "explanation": "A removal resolution must originate in the Rajya Sabha under Article 67(b)."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "Mandamus literally means ‘we command’."
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "Judicial review is part of the Constitution’s basic structure and cannot be abrogated by amendment."
+        },
+        "13": {
+          "answerIndex": 1,
+          "explanation": "The 1919 Act introduced provincial dyarchy by dividing subjects into reserved and transferred."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "The Eighth Schedule originally listed 14 languages."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "The Comptroller and Auditor General audits public expenditure and is called guardian of the public purse."
+        },
+        "16": {
+          "answerIndex": 2,
+          "explanation": "Both High Courts and the Supreme Court exercise appellate jurisdiction."
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "Panchayat elections are conducted by State Election Commissions, while reservation and five-year terms are constitutionally provided."
+        },
+        "18": {
+          "answerIndex": 3,
+          "explanation": "Article 326 provides for elections on the basis of adult suffrage."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "The committee reviewed the Community Development Programme and National Extension Service; its recommendations promoted democratic decentralisation."
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "Economic and social planning is in the Concurrent List (Entry 20)."
+        },
+        "21": {
+          "answerIndex": 0,
+          "explanation": "Article 359 permits suspension of the right to move courts for specified Fundamental Rights during a Proclamation of Emergency, subject to the Article 20/21 safeguard."
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "Yielding the floor means giving another member the opportunity to speak."
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "At the 2019 sitting, Jammu and Kashmir had its own State Constitution."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "A presidential candidate must be at least 35 years old."
+        },
+        "25": {
+          "answerIndex": 2,
+          "explanation": "Picketing involved protesting outside or blocking access to shops, often to discourage purchases."
+        },
+        "26": {
+          "answerIndex": 1,
+          "explanation": "The Champaran movement challenged European indigo planters’ coercive cultivation system."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "Constitutional reservations for women apply in Panchayats (and municipalities), not the listed Parliament/Assembly/Cabinet choices."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "The Ashoka Chakra represents the Dharma Chakra, or wheel of law."
+        },
+        "29": {
+          "answerIndex": 3,
+          "explanation": "Vallabhbhai Patel chaired the Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas."
+        },
+        "30": {
+          "answerIndex": 0,
+          "explanation": "India’s emergency provisions drew chiefly on the Weimar Constitution of Germany."
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "High Court judges are appointed by the President after constitutionally specified consultations; option A is the closest listed choice."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "The prohibition on discrimination is a right to equality, principally Article 15."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "The 44th Amendment removed the right to property from the list of Fundamental Rights; it is now a constitutional/legal right."
+        },
+        "35": {
+          "answerIndex": 1,
+          "explanation": "The Indian National Congress was founded in 1885 and is the oldest listed party."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "The Constituent Assembly adopted the Constitution on 26 November 1949."
+        },
+        "37": {
+          "answerIndex": 0,
+          "explanation": "The paper’s broad civics definition describes national parties as having units across various states; formal recognition criteria have changed over time."
+        },
+        "38": {
+          "answerIndex": 3,
+          "explanation": "The League was founded at Dhaka in 1906; Aga Khan, Salimullah and Mohsin-ul-Mulk are all associated with its founding leadership."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "India adopted a mixed economy combining public and private sectors."
+        },
+        "40": {
+          "answerIndex": 0,
+          "explanation": "The Reserve Bank of India began operations on 1 April 1935."
+        },
+        "41": {
+          "answerIndex": 1,
+          "explanation": "The employment guarantee scheme began in 2006, initially in 200 districts."
+        },
+        "42": {
+          "answerIndex": 3,
+          "explanation": "No-frills accounts, general credit cards and simplified KYC were all financial-inclusion measures."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "GST took effect across India on 1 July 2017."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "The SOP framework concerns processing and approval of Foreign Direct Investment proposals."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "India ranked first in the 2017 Global Retail Development Index."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "Daily dynamic fuel-price revision was rolled out nationally on 16 June 2017."
+        },
+        "47": {
+          "answerIndex": 0,
+          "explanation": "Switzerland ratified automatic exchange arrangements with India and about 40 other jurisdictions in the reported round."
+        },
+        "48": {
+          "answerIndex": 3,
+          "explanation": "The Green Revolution combined high-yielding seeds with fertilisers and new agricultural technology."
+        },
+        "49": {
+          "answerIndex": 0,
+          "explanation": "The Evergreen Revolution emphasises sustained productivity without ecological harm."
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "Agricultural price setting considers production costs and prevailing market prices."
+        },
+        "51": {
+          "answerIndex": 3,
+          "explanation": "Inelastic supply and demand and competitive trade contribute to agriculture’s unfavourable terms of trade."
+        },
+        "52": {
+          "answerIndex": 2,
+          "explanation": "Farm budgeting is commonly divided into partial and complete budgeting."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "The reported first-half 2016–17 growth rate for agriculture and allied activities was 3.5%."
+        },
+        "54": {
+          "answerIndex": 2,
+          "explanation": "The Twelfth Plan’s stated theme was faster, more inclusive and sustainable growth."
+        },
+        "55": {
+          "answerIndex": 1,
+          "explanation": "Revenue deficit is revenue expenditure in excess of revenue receipts; B is the closest stated description."
+        },
+        "56": {
+          "answerIndex": 3,
+          "explanation": "The stated objectives included curbing evasion/parallel economy, black money, counterfeit notes and terror funding."
+        },
+        "57": {
+          "answerIndex": 3,
+          "explanation": "The 1991 policy aimed at deregulation, liberalisation and foreign investment; upgrading public enterprises is not stated as that policy’s objective."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "The call money market is also known as money at call and short notice."
+        },
+        "59": {
+          "answerIndex": 3,
+          "explanation": "The reforms shifted markets toward buyers, reduced command controls and opened the economy."
+        },
+        "60": {
+          "answerIndex": 2,
+          "explanation": "Traders and commission agents are non-institutional sources of farm credit."
+        },
+        "61": {
+          "answerIndex": 2,
+          "explanation": "Agricultural price policy aims to stabilise prices and encourage marketable surplus."
+        },
+        "62": {
+          "answerIndex": 3,
+          "explanation": "Adoption depends on social receptivity, education and the existing technology base."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "Agriculture’s share of national income has declined as industry and services expanded."
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "Reducing population pressure is not a component of the New Agricultural Strategy; improved seeds and irrigation are."
+        },
+        "65": {
+          "answerIndex": 3,
+          "explanation": "The Disinvestment Commission used strategic, core and non-core sector classifications."
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "The listed large-scale areas under the 1977 policy included basic, capital-goods and high-technology industries; ‘capital-intensive’ is the odd choice."
+        },
+        "67": {
+          "answerIndex": 3,
+          "explanation": "Public-enterprise pricing is affected by profitability, government controls and social objectives."
+        },
+        "68": {
+          "answerIndex": 0,
+          "explanation": "The Monopolies Inquiry Commission examined concentration and restrictive practices in the private sector."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "Under the MRTP framework, the Commission’s role was recommendatory in key matters of concentration and monopolistic practices."
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "The July 1991 overhaul included suspension of Cash Compensatory Support and abolition of unlisted OGL."
+        },
+        "71": {
+          "answerIndex": 1,
+          "explanation": "Post-reform policy reduced reliance on external assistance and commercial borrowing."
+        },
+        "72": {
+          "answerIndex": 3,
+          "explanation": "Tenancy reform covers rent regulation, security of tenure and transfer of ownership to tenants."
+        },
+        "73": {
+          "answerIndex": 2,
+          "explanation": "Mala fide transfers and issues of compensation/allotment were both implementation problems."
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "Agriculture supplies industry with raw materials and labour, while industry supplies farm tools and inputs."
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "Liberalisation was associated with rising foodgrain production and horticultural output."
+        },
+        "76": {
+          "answerIndex": 2,
+          "explanation": "The Pamir region links the Himalayan system with the high ranges of Central Asia."
+        },
+        "77": {
+          "answerIndex": 1,
+          "explanation": "The Tethys Sea lay between Angaraland and Gondwanaland."
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "The ranges north of the Great Himalaya are the Trans-Himalayas."
+        },
+        "79": {
+          "answerIndex": 0,
+          "explanation": "The Ganga is a major Himalayan river system among the listed choices."
+        },
+        "80": {
+          "answerIndex": 2,
+          "explanation": "The intended answer is the Indus system, one of the world’s largest drainage systems; its headwaters are in Tibet, so the stem’s ‘originated in India’ wording is inaccurate."
+        },
+        "81": {
+          "answerIndex": 1,
+          "explanation": "Low winter temperatures produce high pressure over northwest India."
+        },
+        "82": {
+          "answerIndex": 0,
+          "explanation": "The Central Water Commission issued India’s first flood forecast in 1958."
+        },
+        "83": {
+          "answerIndex": 1,
+          "explanation": "Extra-Peninsular alluvial soils are transported/azonal soils."
+        },
+        "84": {
+          "answerIndex": 2,
+          "explanation": "Littoral and swamp forests are classified as moist tropical forests."
+        },
+        "85": {
+          "answerIndex": 2,
+          "explanation": "The Damodar flows through the Chota Nagpur mineral belt, India’s mineral heartland."
+        },
+        "87": {
+          "answerIndex": 1,
+          "explanation": "Adivasi means original/first inhabitant and is the intended umbrella term for early tribal populations."
+        },
+        "89": {
+          "answerIndex": 1,
+          "explanation": "Fallow land is agricultural/cultivable land temporarily left uncropped."
+        },
+        "90": {
+          "answerIndex": 0,
+          "explanation": "Subsistence farming remains the predominant broad form of Indian agriculture."
+        },
+        "91": {
+          "answerIndex": 3,
+          "explanation": "The north-eastern Peninsular belt around Chota Nagpur is India’s richest mineral belt."
+        },
+        "92": {
+          "answerIndex": 2,
+          "explanation": "Availability of raw material is a geographical factor in industrial location."
+        },
+        "93": {
+          "answerIndex": 1,
+          "explanation": "Industrial policy seeks rapid industrial development."
+        },
+        "94": {
+          "answerIndex": 0,
+          "explanation": "India’s first Industrial Policy Resolution was adopted in 1948."
+        },
+        "95": {
+          "answerIndex": 0,
+          "explanation": "Trade between regions within one nation is inter-regional (domestic) trade."
+        },
+        "96": {
+          "answerIndex": 3,
+          "explanation": "Financial support for higher education is not one of the usual objectives listed for national urbanisation policy; poverty reduction and employment are."
+        },
+        "97": {
+          "answerIndex": 2,
+          "explanation": "A hamleted/fragmented settlement has hamlets sufficiently numerous relative to villages; the option label ‘Hamlet’ is the intended type."
+        },
+        "98": {
+          "answerIndex": 2,
+          "explanation": "Telangana was created in 2014 under the Andhra Pradesh Reorganisation Act."
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "The Strait of Malacca is the principal shipping link between the Indian and Pacific Oceans for Asian trade."
+        },
+        "100": {
+          "answerIndex": 0,
+          "explanation": "The 2017 India–China standoff at the Bhutan–India–China junction occurred on the Doklam plateau."
+        }
+      }
+    },
+    "inspector-excise-2019-gs1": {
+      "sourceSha256": "a7f69651e874ab164e8a89aba868449005f3c7a68b7c26d201254a634fee5467",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-12",
+      "evidence": "Inspector under Excise and Narcotics 2019 General Studies Paper-I scan: all 100 questions and option order checked. Restored the truncated ending of Q41(c). Q3, Q6, Q22, Q84 and Q86 remain held for multiple correct choices, defective chronology or invalid framing. Source wording issues in Q9 and Q30 are preserved and noted. No official key used.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "q": "The East India Company was established in :",
+          "opts": {
+            "a": "1600 AD",
+            "b": "1601AD",
+            "c": "1602 AD",
+            "d": "1603 AD"
+          },
+          "part": null
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "q": "The first English factory in India was established at:",
+          "opts": {
+            "a": "Hooghly",
+            "b": "Surat",
+            "c": "Calcutta",
+            "d": "Bombay"
+          },
+          "part": null
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "q": "The Battle of Buxar was fought (1764)  between:",
+          "opts": {
+            "a": "Nawab Siraj –Ud-Daulah and the English",
+            "b": "Haider Ali and the English",
+            "c": "Mir Qasim,  the Nawab of Bengal and the English",
+            "d": "Shujap- Ud-Daulah, Nawab of Awadh and the English"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "The Battle of Buxar involved both Mir Qasim and Shuja-ud-Daulah; options (c) and (d) each name a genuine combatant, so there is no unique option.",
+          "reviewNote": "The Battle of Buxar involved both Mir Qasim and Shuja-ud-Daulah; options (c) and (d) each name a genuine combatant, so there is no unique option."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "q": "Who was popularly known as ‘Nana Saheb’?",
+          "opts": {
+            "a": "Baji Rao I",
+            "b": "Shahu",
+            "c": "Baji Rao II",
+            "d": "Balaji Baji Rao"
+          },
+          "part": null
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "q": "Which of the following British officials in India was associated with the Dual System of Administration?",
+          "opts": {
+            "a": "Robert Clive",
+            "b": "Lord Wallesly",
+            "c": "Lord Dalhausie",
+            "d": "Lord Cornwallis"
+          },
+          "part": null
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "q": "What is the correct chronological order of states annexed under the policy of “Doctrine of Lapse”?",
+          "opts": {
+            "a": "Satara > Jaipur > Sambhalpur> Bahat",
+            "b": "Jaipur > Satara > Sambhalpur> Bahat",
+            "c": "Bahat >Satara > Jaipur > Sambhalpur",
+            "d": "Satara > Jaipur > Bahat> Sambhalpur"
+          },
+          "part": null,
+          "reviewNote": "The printed option sequence includes Jaipur, which was not annexed under the Doctrine of Lapse, and ‘Bahat’ is unclear; no option gives a reliable sequence.",
+          "unscored": true,
+          "explanation": "The printed option sequence includes Jaipur, which was not annexed under the Doctrine of Lapse, and ‘Bahat’ is unclear; no option gives a reliable sequence."
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "q": "Which of the following state was not the victim of “The Subsidiary Alliance System”?",
+          "opts": {
+            "a": "Mysore",
+            "b": "Satara",
+            "c": "Awadh",
+            "d": "Hyderabad"
+          },
+          "part": null
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "q": "Which of the following acts of the British Government in India gave permission to grant the Christian missionaries to go to India to propagate English and teach their religion?",
+          "opts": {
+            "a": "Charter act of 1813",
+            "b": "Charter act of 1833",
+            "c": "Charter act of 1853",
+            "d": "Charter act of 1858"
+          },
+          "part": null
+        },
+        "9": {
+          "n": 9,
+          "page": 1,
+          "q": "Who introduced the Ryotwari System in India?",
+          "opts": {
+            "a": "Munro and Charles Reed",
+            "b": "Lord Cornwallis",
+            "c": "John shore",
+            "d": "None of these"
+          },
+          "part": null,
+          "reviewNote": "The scan and extraction both print “Charles Reed”; likely historical correction is Alexander Read. Original source text is preserved."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "q": "Mahalwari system was introduced in:",
+          "opts": {
+            "a": "Madras, Bengal and Mysore",
+            "b": "Bengal, Odhisha and Mysore",
+            "c": "Western parts of UP, Punjab and Delhi",
+            "d": "Bengal, Calcutta and Delhi"
+          },
+          "part": null
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "q": "One of the economic consequences of the British rule in India in the 19th century was the",
+          "opts": {
+            "a": "increase in the export of Indian handicrafts",
+            "b": "growth in the number of Indian owned factories",
+            "c": "commercialization of Indian agriculture",
+            "d": "rapid increase in the urban population"
+          },
+          "part": null
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "q": "The staple commodities of export by the English East India Company from Bengal in the middle of the 18th century were:",
+          "opts": {
+            "a": "Raw cotton, oil-seeds and opium",
+            "b": "Sugar, salt, zinc and lead",
+            "c": "Copper, silver, gold, spices and tea",
+            "d": "Cotton, silk, saltpetre and opium"
+          },
+          "part": null
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "q": "Indigo manufacture was introduced in India at the end of the 18th century and flourished in:",
+          "opts": {
+            "a": "Bengal and Bihar",
+            "b": "Delhi and UP",
+            "c": "Bengal and Orissa",
+            "d": "Bengal and Bombay"
+          },
+          "part": null
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "q": "Who had written the book “poverty and un-British rule in India”?",
+          "opts": {
+            "a": "R.C. Dutta",
+            "b": "Dada bhai Naoroji",
+            "c": "S.C Bose",
+            "d": "R.C. Das"
+          },
+          "part": null
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "q": "Which of the following act ended the monopoly of trade of east India Company with china and sea route also?",
+          "opts": {
+            "a": "Pitt’s India Act, AD 1784",
+            "b": "The charter Act, 1813 AD",
+            "c": "Charter Act, 1833 AD",
+            "d": "The Regulating Act, AD 1773"
+          },
+          "part": null
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "q": "Which of the following Governor-General introduced the services of railway and telegraph systems?",
+          "opts": {
+            "a": "Lord Cornwallis",
+            "b": "Lord Dalhousie",
+            "c": "Lord Wellesley",
+            "d": "Lord Bentinck"
+          },
+          "part": null
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "q": "Which of the Act made the governor of Bengal as Governor General of India?",
+          "opts": {
+            "a": "Pitt’s India Act, AD 1784",
+            "b": "The charter Act, 1813 AD",
+            "c": "Charter Act, 1793 AD",
+            "d": "The Regulating Act, AD 1773"
+          },
+          "part": null
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "q": "Which of the following statement is incorrect about educational policy of “Wood Despatch”?",
+          "opts": {
+            "a": "Recommendation of Anglo-Vernacular Schools throughout the country",
+            "b": "To introduce only English as a medium of instruction",
+            "c": "Creation of universities on the model of the London University in all the Presidencies",
+            "d": "The Universities were set up at Bombay, Calcutta and Madras in 1857."
+          },
+          "part": null
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "q": "Indian Civil Service was established by:",
+          "opts": {
+            "a": "Warren Hastings",
+            "b": "Lord Cornwallis",
+            "c": "Lord Wallesly",
+            "d": "William Bentinck"
+          },
+          "part": null
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "q": "Who among the following published first newspaper in India?",
+          "opts": {
+            "a": "James Augustus Hickey",
+            "b": "Lord William Bentinck",
+            "c": "Lord Cornwallis",
+            "d": "Sir Thomas Munro"
+          },
+          "part": null
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "q": "Who founded the Ramakrishna Mission in 1896 ?",
+          "opts": {
+            "a": "Raja Rammohan Roy",
+            "b": "Ramakrishna Paramahansa",
+            "c": "Swami Dayananda Saraswa",
+            "d": "Swami Vivekananda"
+          },
+          "part": null
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "q": "Ishwar Chandra Vidyasagar was a great 19th Century Social Reformer who struggle form which of the following social cause?",
+          "opts": {
+            "a": "Female Education",
+            "b": "Abolition of Sati",
+            "c": "Widow Remarriage",
+            "d": "Untouchability"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Vidyasagar campaigned for both female education and widow remarriage, so two choices are defensible.",
+          "reviewNote": "Vidyasagar campaigned for both female education and widow remarriage, so two choices are defensible."
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "q": "Who established Prarthna Samaj?",
+          "opts": {
+            "a": "Ishwar Chandra Vidya Sagar",
+            "b": "Derozio",
+            "c": "David Hare",
+            "d": "Athmaram Panduranga with the help of Keshav Chandra Sen"
+          },
+          "part": null
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "q": "The custom of Sati was abolished by Lord William Bentinck in the year:",
+          "opts": {
+            "a": "1823",
+            "b": "1825",
+            "c": "1826",
+            "d": "1829"
+          },
+          "part": null
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "q": "Which of the following provisions are included under female infanticide act of 1870? I.Declared female infanticide illegal equivalent to murder II.Parents to register the birth of all babies compulsorily. III.Verification of female children after some years of birth particularly in areas where the custom is still prevalent.",
+          "opts": {
+            "a": "Only I",
+            "b": "All the above statement",
+            "c": "Only II and III",
+            "d": "Only I and II"
+          },
+          "part": null
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "q": "Who is the author of the book “The First Indian War of Independence- 1857-59”?",
+          "opts": {
+            "a": "Karl Marx",
+            "b": "Syed Ahmad Khan",
+            "c": "R. C. Mazumdar",
+            "d": "S. N. Sen"
+          },
+          "part": null
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "q": "The Parsi Reform Movement Rahnumai Mazdayasnan Sabha (Religious Reform Association) was founded in which year?",
+          "opts": {
+            "a": "1850",
+            "b": "1851",
+            "c": "1857",
+            "d": "1885"
+          },
+          "part": null
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "q": "Who was the prominent leader in Lucknow during the Revolt of 1857?",
+          "opts": {
+            "a": "Rani Laxmi Bai",
+            "b": "Begum Hazrat Mahal",
+            "c": "Tantia Tope",
+            "d": "Bahadur Shah Zafar"
+          },
+          "part": null
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "q": "When was Queen Victoria’s Proclamation?",
+          "opts": {
+            "a": "1857",
+            "b": "1858",
+            "c": "1862",
+            "d": "1892"
+          },
+          "part": null
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "q": "After the commencement of the government of India Act-1858, what name was to British Governor-General of India?",
+          "opts": {
+            "a": "Governor-General of India.",
+            "b": "Governor of the state",
+            "c": "Viceroy of the state",
+            "d": "None of these"
+          },
+          "part": null,
+          "reviewNote": "The scan prints “Viceroy of the state”; likely intended wording is “Viceroy of India.” Original source text is preserved."
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "q": "Which among the following Viceroys was associated with the ‘Ilbert Bill Controversy’?",
+          "opts": {
+            "a": "Lord Curzon",
+            "b": "Lord Lytton",
+            "c": "Lord Ripon",
+            "d": "Lord Hardinge"
+          },
+          "part": null
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "q": "Which of the following Government of India Act introduced the diarchy system in the provinces of India?",
+          "opts": {
+            "a": "Government of India Act, 1909",
+            "b": "Government of India Act, 1919",
+            "c": "Government of India Act, 1935",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "q": "The Morley-Minto reforms act was enacted in:",
+          "opts": {
+            "a": "1905",
+            "b": "1909",
+            "c": "1919",
+            "d": "1857"
+          },
+          "part": null
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "q": "When was the Bengal province partitioned?",
+          "opts": {
+            "a": "1905",
+            "b": "1906",
+            "c": "1907",
+            "d": "1909"
+          },
+          "part": null
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "q": "The play Nil Darpan (The Mirror of Indigo) was written in 1858-1859 by:",
+          "opts": {
+            "a": "Dinabandhu Mitra",
+            "b": "Bharatendu Harishchandra",
+            "c": "Makhanlal Chaturvedi",
+            "d": "Rabindranath Tagore"
+          },
+          "part": null
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "q": "The first Santhal Rebellion (1854) was led by",
+          "opts": {
+            "a": "Birsa Munda",
+            "b": "Bir Singh",
+            "c": "Sidhu and Kanhu",
+            "d": "Daroga Mahesh Lal Dutt"
+          },
+          "part": null
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "q": "Moplah revolt occurred in:",
+          "opts": {
+            "a": "Bengal",
+            "b": "Bihar",
+            "c": "Uttar Pradesh",
+            "d": "Malabar region"
+          },
+          "part": null
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "q": "Who among the following founded the Depressed Classes Mission of India?",
+          "opts": {
+            "a": "Dr. B.R Ambedkar",
+            "b": "Vitthal Ramji Shinde",
+            "c": "Annabhau Sathe",
+            "d": "Shantabai Kamble"
+          },
+          "part": null
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "q": "Who among the following gave the safety-valve theory for the India National Congress?",
+          "opts": {
+            "a": "Bal Gangadhar Tilak",
+            "b": "Lala Lajpat Rai",
+            "c": "Bipinchandra Pa",
+            "d": "Annie Besant"
+          },
+          "part": null
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "q": "Which of the following leader was not moderate?",
+          "opts": {
+            "a": "Dada Bhai Naorojis",
+            "b": "Anand Charlu",
+            "c": "Bipin Chandra Pal",
+            "d": "Madan Mohan Malviya"
+          },
+          "part": null
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "q": "Which of the following statement is not true about the Indian National Congress?",
+          "opts": {
+            "a": "It was formed in 1885",
+            "b": "W.C. Bannerjee was the first president of congress.",
+            "c": "It was formed when 72 delegates from all the presidencies and provinces of India met at Bombay.",
+            "d": "Its founder, A.O.Hume, was a retired British professor in India"
+          },
+          "part": null
+        },
+        "42": {
+          "n": 42,
+          "page": 4,
+          "q": "Who ordered the Jallianwala Bagh massacre?",
+          "opts": {
+            "a": "Michael O’Dwyer",
+            "b": "Nigel Collett",
+            "c": "Reginald Dyer",
+            "d": "Saifuddin Kitchlew"
+          },
+          "part": null
+        },
+        "43": {
+          "n": 43,
+          "page": 4,
+          "q": "Arrange the following events/movements in the correct order of their chronology: 1.Rowlatt Act Satyagraha2.Civil Disobedience Movement 3.Boycott of Simon Commission4.Quit India Movement.",
+          "opts": {
+            "a": "1-2-3-4",
+            "b": "1-3-2-4",
+            "c": "2-3-4-1",
+            "d": "2-3-1-4"
+          },
+          "part": null
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "q": "Which among the following cities saw the first instance of Satyagraha in India?",
+          "opts": {
+            "a": "Surat",
+            "b": "Kheda",
+            "c": "Champaran",
+            "d": "Ahmedabad"
+          },
+          "part": null
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "q": "Which among the following is not a literary work of Mahatma Gandhi?",
+          "opts": {
+            "a": "Hind Swaraj",
+            "b": "Indian Opinion",
+            "c": "Yugantar",
+            "d": "Young India"
+          },
+          "part": null
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "q": "Which Indian mass movement began with the famous ‘Dandi March’ of Mahatma Gandhi?",
+          "opts": {
+            "a": "Civil Disobedience Movement",
+            "b": "Non-Cooperation Movement",
+            "c": "Khilafat Movement",
+            "d": "Quit India Movement"
+          },
+          "part": null
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "q": "Who was the founder of the Muslim League in 1906 ?",
+          "opts": {
+            "a": "Muhammad Ali Jinnah",
+            "b": "Shaukat Ali",
+            "c": "Nawab Khwaja Salimullah",
+            "d": "Aga Khan"
+          },
+          "part": null
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "q": "Which of the following personalities were the founders of the ‘Home Rule Movement’? 1.Bal Gangadhar Tilak2.Annie Besant 3.Mohammad Ali Jinnah4.Mahatma Gandhi",
+          "opts": {
+            "a": "1 and 2",
+            "b": "1, 2 and 3",
+            "c": "1, 3 and 4",
+            "d": "1, 2, 3 and 4"
+          },
+          "part": null
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "q": "The pioneer of Communism in India was:",
+          "opts": {
+            "a": "S.A.Dange",
+            "b": "M.R.Jayakar",
+            "c": "M.N.Roy",
+            "d": "Nalin Gupta"
+          },
+          "part": null
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "q": "Who was the first Governor General of the new Indian Dominion?",
+          "opts": {
+            "a": "Rajendra Prasad",
+            "b": "Vallabhbhai Patel",
+            "c": "Rajagopalachari",
+            "d": "Lord Mountbatten"
+          },
+          "part": null
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "q": "India’s first Greenfield smart city project will start in",
+          "opts": {
+            "a": "Guwahati",
+            "b": "Ranchi",
+            "c": "Lucknow",
+            "d": "Mumbai"
+          },
+          "part": null
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "q": "Which date is observed as “Hindi Diwas”?",
+          "opts": {
+            "a": "14th September",
+            "b": "20th September",
+            "c": "23rd September",
+            "d": "25th September"
+          },
+          "part": null
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "q": "What is the name of the scheme initiated by PM Narendra Modi to provide electricity to all households in India?",
+          "opts": {
+            "a": "Saubhagya",
+            "b": "Swavalamban",
+            "c": "Amrut",
+            "d": "Ujjwala"
+          },
+          "part": null
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "q": "Who was awarded the Grand Prix Award 2017 for his work in organic farming?",
+          "opts": {
+            "a": "T.R. Zeliang (Nagaland)",
+            "b": "Mukul Sangma (Meghalaya)",
+            "c": "N. Biren Singh (Manipur)",
+            "d": "Pawan Chamling (Sikkim)"
+          },
+          "part": null
+        },
+        "55": {
+          "n": 55,
+          "page": 5,
+          "q": "When is the International Day of Democracy celebrated?",
+          "opts": {
+            "a": "15 September",
+            "b": "15 October",
+            "c": "15 August",
+            "d": "15 December"
+          },
+          "part": null
+        },
+        "56": {
+          "n": 56,
+          "page": 5,
+          "q": "Which Bollywood actor was conferred with the 2017 Global Diversity Award?",
+          "opts": {
+            "a": "Amitabh Bachchan",
+            "b": "Salman Khan",
+            "c": "Nawazuddin Siddiqui",
+            "d": "Ranbir Singh"
+          },
+          "part": null
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "q": "______________ was the theme observed on “International Day of Peace” 2017",
+          "opts": {
+            "a": "“Together for Peace: Respect, Safety and Dignity for All”",
+            "b": "“Long Live absolute world peace”",
+            "c": "“Peace and Democracy make your voice Heard”",
+            "d": "“Who will you make peace with”"
+          },
+          "part": null
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "q": "Which among the following cities will host the 2028 Summer Olympic?",
+          "opts": {
+            "a": "Berlin",
+            "b": "Brussels",
+            "c": "Rome",
+            "d": "Los Angeles"
+          },
+          "part": null
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "q": "Which company introduced a digital assistance robot named ELEKTRA to respond to consumer queries?",
+          "opts": {
+            "a": "Reliance Energy",
+            "b": "Oracle Corporation",
+            "c": "Accenture",
+            "d": "Tidel Park"
+          },
+          "part": null
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "q": "Who is the Chairman of the 15th Finance Commission?",
+          "opts": {
+            "a": "Bimal Jalan",
+            "b": "C. Rangarajan",
+            "c": "D. Subarao",
+            "d": "N.K. Singh"
+          },
+          "part": null
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "q": "Which Bank has won the Best Performing Public Sector Bank Award for the Financial Year 2017-18 from the Pension Fund Regulatory and Development Authority (PFRDA)?",
+          "opts": {
+            "a": "Dena Bank",
+            "b": "Vijaya Bank",
+            "c": "Axis Bank",
+            "d": "Bank of Maharashtra"
+          },
+          "part": null
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "q": "In which country has the PM Narendra Modi launched BHIM, Rupay Card and SBI Apps recently?",
+          "opts": {
+            "a": "Indonesia",
+            "b": "Malaysia",
+            "c": "Singapore",
+            "d": "Brazil"
+          },
+          "part": null
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "q": "Who is the present Governor of Mizoram?",
+          "opts": {
+            "a": "S.C. Jamir",
+            "b": "P. S. Sreedharan Pillai",
+            "c": "Jagdish Mukhi",
+            "d": "Ganeshi Lal"
+          },
+          "part": null
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "q": "The present Governor of the Reserve Bank of India is",
+          "opts": {
+            "a": "Urjit Patel",
+            "b": "Shaktikanta Das",
+            "c": "P. S. Sreedharan Pillai",
+            "d": "Arvind Subramaniam"
+          },
+          "part": null
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "q": "In May 2016, the Reserve Bank of India Act 1934 was amended to provide a statutory basis for the implementation of which of the following:",
+          "opts": {
+            "a": "The flexible inflation targeting framework",
+            "b": "The flexible deflation targeting framework",
+            "c": "The flexible Banking Ombudsman framework",
+            "d": "The flexible KYC framework"
+          },
+          "part": null
+        },
+        "66": {
+          "n": 66,
+          "page": 6,
+          "q": "Which of the following scheme is related to regional connectivity?",
+          "opts": {
+            "a": "UDAN",
+            "b": "RGGVY",
+            "c": "DDU-GK",
+            "d": "UDAY"
+          },
+          "part": null
+        },
+        "67": {
+          "n": 67,
+          "page": 6,
+          "q": "Electric vehicles in India will get number plate of which colour as approved by the Central Government?",
+          "opts": {
+            "a": "Yellow",
+            "b": "White",
+            "c": "Red",
+            "d": "Green"
+          },
+          "part": null
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "q": "Which institution got 1st rank in the NIRF’s India Rankings 2019 released by President Ram Nath Kovind on April 8, 2019?",
+          "opts": {
+            "a": "IIT Kharagpur",
+            "b": "IIT Madras",
+            "c": "IIT Delhi",
+            "d": "IISc Bangalore"
+          },
+          "part": null
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "q": "Which of the following market indices is related to National Stock Exchange?",
+          "opts": {
+            "a": "SENSEX",
+            "b": "NIFTY",
+            "c": "NCDEX",
+            "d": "MCX"
+          },
+          "part": null
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "q": "A merger of three public sector banks took place on April 1, 2019 to be the second largest PSB in India. The three banks are____",
+          "opts": {
+            "a": "Bank of Baroda, Vijaya Bank, and Dena Bank",
+            "b": "Vijaya Bank, Bank of India, and Dena Bank",
+            "c": "Bank of Baroda, Punjab National Bank, and Vijaya Bank",
+            "d": "Bank of India, Vijaya Bank, and Punjab National Bank"
+          },
+          "part": null
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "q": "India’s rank in the Global Peace Index released by the Institute for Economics and Peace (IEP) on June 2019 was",
+          "opts": {
+            "a": "121st",
+            "b": "131st",
+            "c": "141st",
+            "d": "151st"
+          },
+          "part": null
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "q": "Which of the following countries is elected to the Non-Permanent Members of the United Nations Security Council on June 7, 2019?",
+          "opts": {
+            "a": "Singapore",
+            "b": "Bangladesh",
+            "c": "Nepal",
+            "d": "Vietnam"
+          },
+          "part": null
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "q": "Who of the following is not the appointed Advocates for Sustainable Development Goals (SDGs)?",
+          "opts": {
+            "a": "Erna Solberg",
+            "b": "Boris Johnson",
+            "c": "Nadia Murad",
+            "d": "Dia Mirza"
+          },
+          "part": null
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "q": "Which study is not included in the scientific goals of Chandrayaan 2 Mission by ISRO?",
+          "opts": {
+            "a": "Lunar topography",
+            "b": "Mineralogy",
+            "c": "Soft landing on the lunar surface",
+            "d": "Water ice"
+          },
+          "part": null
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "q": "Novak Djokovic defeat Rafael Nadal in the Australian Open Final Match 2019 by",
+          "opts": {
+            "a": "6-3, 6-2, 6-3",
+            "b": "6-2, 6-4, 6-3",
+            "c": "6-3, 6-2, 6-4",
+            "d": "6-2, 6-3, 6-3"
+          },
+          "part": null
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "q": "The Indian Cricket Captain, Virad Kohli has became the quickest batsman to complete 20000 international runs in his _____",
+          "opts": {
+            "a": "414th International Innings",
+            "b": "415th International Innings",
+            "c": "416th International Innings",
+            "d": "417th International Innings"
+          },
+          "part": null
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "q": "The Omani author Jokha Al Harthi won the Man Booker International Prize 2019 for her novel",
+          "opts": {
+            "a": "Celestial Bodies",
+            "b": "Man in the Universe",
+            "c": "Galaxy",
+            "d": "No Man Land"
+          },
+          "part": null
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "q": "Who among the following has resigned as Deputy Governor of the Reserve Bank of India recently?",
+          "opts": {
+            "a": "K. Natarajan",
+            "b": "Arvind Pranagaria",
+            "c": "Viral Acharya",
+            "d": "Samant Goel"
+          },
+          "part": null
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "q": "Who among the following was the appointed National Security Adviser for his second term in June 2019?",
+          "opts": {
+            "a": "Shyam Saran",
+            "b": "Ajit Doval",
+            "c": "Arvind Kumar",
+            "d": "YV Subba Reddy"
+          },
+          "part": null
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "q": "Which of the following Chief Minister is wrong match with the state?",
+          "opts": {
+            "a": "Chhattisgarh – Bhupesh Baghel",
+            "b": "Goa – Pramod Sawant",
+            "c": "Gujarat – Vijay Rupani",
+            "d": "Himachal Pradesh – Manohar Lal Khattar"
+          },
+          "part": null
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "q": "Poshan Rally is associated with",
+          "opts": {
+            "a": "Nutrition",
+            "b": "Maternal Health",
+            "c": "Infant Mortality Rate",
+            "d": "HIV"
+          },
+          "part": null
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "q": "According to the National Statistic Office, Ministry of Statistics and Programme Implementation, India’s GDP growth rate in the Q1 (April-June) 2019-20 was",
+          "opts": {
+            "a": "5.7%",
+            "b": "5.2%",
+            "c": "5%",
+            "d": "4.9%"
+          },
+          "part": null
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "q": "The Economic Survey 2018-19 projected the Indian Economy a 5 Trillion Dollar by",
+          "opts": {
+            "a": "2022-23",
+            "b": "2024-25",
+            "c": "2030-31",
+            "d": "2032-33"
+          },
+          "part": null
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "q": "Which is not the approach of the Economic Survey 2018-19",
+          "opts": {
+            "a": "Shifting Gears",
+            "b": "Policy for Real People, Not Robots",
+            "c": "Nourishing Dwarfs to become Giants",
+            "d": "Data Revolution"
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "All four phrases appear as themes/approaches in the Economic Survey 2018–19, so the ‘not included’ question has no correct choice.",
+          "reviewNote": "All four phrases appear as themes/approaches in the Economic Survey 2018–19, so the ‘not included’ question has no correct choice."
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "q": "The fiscal deficit of the Union Government of India for the FY 2018-19 was",
+          "opts": {
+            "a": "3.6% of GDP",
+            "b": "3.5% of GDP",
+            "c": "3.4% of GDP",
+            "d": "3.3% of GDP"
+          },
+          "part": null
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "q": "Which of the following statements is correct about the abrogation of Article 370 and 35A by the Constitutional Order of the President of India?",
+          "opts": {
+            "a": "The state of Jammu & Kashmir into two Union Territories.",
+            "b": "Jammu and Kashmir Reorganisation Act, 2009 come into effect on 31st October 2019.",
+            "c": "Ladakh will be administered by Lt. Governor acting on behalf of the Central Government.",
+            "d": "This Constitutional Order of the President superseded the Order of 1950."
+          },
+          "part": null,
+          "unscored": true,
+          "explanation": "Both (a) and (d) are correct in substance: the former state was reorganised into two Union Territories, and the 2019 Presidential Order superseded the 1950 Order. Option (b) also misprints the Act year (2019, not 2009).",
+          "reviewNote": "Both (a) and (d) are correct in substance: the former state was reorganised into two Union Territories, and the 2019 Presidential Order superseded the 1950 Order. Option (b) also misprints the Act year (2019, not 2009)."
+        },
+        "87": {
+          "n": 87,
+          "page": 8,
+          "q": "Which date is marked as World Suicide Prevention Day?",
+          "opts": {
+            "a": "10 September",
+            "b": "15 September",
+            "c": "19 September",
+            "d": "20 September"
+          },
+          "part": null
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "q": "The Reserve Bank of India reduced the repo rate by 25 basis points in June 2019. The repo rate after this announcement is ___",
+          "opts": {
+            "a": "6%",
+            "b": "5.75%",
+            "c": "5.5%",
+            "d": "5.25%"
+          },
+          "part": null
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "q": "The book “Sabka Saath Sabka Vikas” is",
+          "opts": {
+            "a": "a collection of the speeches of the PM Modi",
+            "b": "an autobiography of former Union Minister Arun Jaitley",
+            "c": "compiled by Bharatiya Sanskrit Pitham",
+            "d": "None of these"
+          },
+          "part": null
+        },
+        "90": {
+          "n": 90,
+          "page": 9,
+          "q": "The present Union Minister of Micro, Small and Medium Enterprises is",
+          "opts": {
+            "a": "DV Sadananda",
+            "b": "Ramvilas Paswan",
+            "c": "Ravi Shankar Prasad",
+            "d": "Nitin Gadkari"
+          },
+          "part": null
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "q": "Prime Minister Narendra Modi and Nepali PM K.P. Sharma Oli jointly inaugurated a direct bus service between which two sacred cities in 2018?",
+          "opts": {
+            "a": "Gorakhpur and Ayodhya",
+            "b": "Janakpur and Ayodhya",
+            "c": "Janakpur and Gorakhpur",
+            "d": "Janakpur and Gaya"
+          },
+          "part": null
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "q": "Which state government has announced the “Biju Swasthya Kalyan Yojana”?",
+          "opts": {
+            "a": "Tamil Nadu",
+            "b": "Maharashtra",
+            "c": "Odisha",
+            "d": "Kerala"
+          },
+          "part": null
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "q": "Which of the following countries is not the member of BIMSTEC?",
+          "opts": {
+            "a": "India",
+            "b": "Bangladesh",
+            "c": "Myanmar",
+            "d": "Pakistan"
+          },
+          "part": null
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "q": "Miguel Diaz-Canel is the President of which country?",
+          "opts": {
+            "a": "Greece",
+            "b": "Cuba",
+            "c": "Finland",
+            "d": "Argentina"
+          },
+          "part": null
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "q": "Which of the following footballers was named the UEFA Men Player of the Year 2019?",
+          "opts": {
+            "a": "Lionel Messi",
+            "b": "Virgil Van Dijk",
+            "c": "Christiano Ronaldo",
+            "d": "Luka Modric"
+          },
+          "part": null
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "q": "Which of the following is the world’s most valuable brand?",
+          "opts": {
+            "a": "Google",
+            "b": "Facebook",
+            "c": "Amazon",
+            "d": "Apple"
+          },
+          "part": null
+        },
+        "97": {
+          "n": 97,
+          "page": 9,
+          "q": "Indo-Russia Riffles Limited was inaugurated on March 3, 2019 to manufacture new",
+          "opts": {
+            "a": "Kalashnikov AK-203 rifles",
+            "b": "Kalashnikov AK-47 rifles",
+            "c": "Kalashnikov AK-54 rifles",
+            "d": "Kalashnikov AK-303 rifles"
+          },
+          "part": null
+        },
+        "98": {
+          "n": 98,
+          "page": 9,
+          "q": "The Pradhan Mantri Shram Yogi Maan-Dhan (PM-SYM) Yojana was launched in March 2019 to assure",
+          "opts": {
+            "a": "Monthly pension of ‘3000 for the enrolled unorganized sector workers",
+            "b": "Monthly Old-Age Pension for citizen above 60 years of age",
+            "c": "Monthly old age pension of ‘3000 for disabled workers",
+            "d": "Monthly pension for all BPL families"
+          },
+          "part": null
+        },
+        "99": {
+          "n": 99,
+          "page": 9,
+          "q": "The name of Cryptocurrency to be launched by Facebook in 2020 is",
+          "opts": {
+            "a": "Crypt",
+            "b": "Encrypt",
+            "c": "Libra",
+            "d": "Lila"
+          },
+          "part": null
+        },
+        "100": {
+          "n": 100,
+          "page": 9,
+          "q": "The winner of B-Plan Contest in the Mizoram Kailawn 2019 Entreneurship Summit was",
+          "opts": {
+            "a": "Lalruatfela (Doorbell)",
+            "b": "Peter Vanlalhriata (Know Waste)",
+            "c": "Vanramhlimpuii (Zonu Meat Processing)",
+            "d": "Francis Lalmalsawma Sailo (Zo Mushroom)"
+          },
+          "part": null
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "The East India Company received its royal charter in 1600."
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "The English established their first Indian factory at Surat in 1613."
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "Balaji Baji Rao was also known as Nana Saheb."
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "Robert Clive instituted the Dual System of administration in Bengal."
+        },
+        "7": {
+          "answerIndex": 1,
+          "explanation": "Satara was annexed under the Doctrine of Lapse; Mysore, Awadh and Hyderabad were associated with subsidiary alliances."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "The Charter Act of 1813 ended the Company’s resistance to missionary entry into India."
+        },
+        "9": {
+          "answerIndex": 0,
+          "explanation": "The Ryotwari system is associated with Thomas Munro and Alexander Read; the paper prints ‘Charles Reed,’ likely an error."
+        },
+        "10": {
+          "answerIndex": 2,
+          "explanation": "The Mahalwari settlement applied chiefly in the North-Western Provinces, Punjab and Delhi region."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "Colonial policy encouraged commercial cultivation for export, displacing subsistence production."
+        },
+        "12": {
+          "answerIndex": 3,
+          "explanation": "Bengal exports included cotton, silk, saltpetre and opium."
+        },
+        "13": {
+          "answerIndex": 0,
+          "explanation": "Indigo cultivation expanded particularly in Bengal and Bihar."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "Dadabhai Naoroji wrote Poverty and Un-British Rule in India."
+        },
+        "15": {
+          "answerIndex": 2,
+          "explanation": "The Charter Act of 1833 ended the Company’s remaining China trade monopoly."
+        },
+        "16": {
+          "answerIndex": 1,
+          "explanation": "Railways and the telegraph were introduced during Lord Dalhousie’s tenure."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "The Regulating Act of 1773 made the Governor of Bengal the Governor-General of Bengal."
+        },
+        "18": {
+          "answerIndex": 1,
+          "explanation": "Wood’s Despatch promoted English and vernacular education; it did not prescribe English as the only medium."
+        },
+        "19": {
+          "answerIndex": 1,
+          "explanation": "Lord Cornwallis is credited with establishing the civil service on a regular, salaried basis."
+        },
+        "20": {
+          "answerIndex": 0,
+          "explanation": "James Augustus Hickey published the Bengal Gazette, India’s first printed newspaper, in 1780."
+        },
+        "21": {
+          "answerIndex": 3,
+          "explanation": "Swami Vivekananda founded the Ramakrishna Mission."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "Prarthana Samaj was founded by Atmaram Pandurang, with Keshab Chandra Sen’s influence."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "The Bengal Sati Regulation was enacted in 1829."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "The Female Infanticide Prevention Act provided for registration, surveillance and criminalization; all three listed provisions are intended."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "The title is commonly attributed to Karl Marx (with Friedrich Engels) in writings on the 1857 revolt."
+        },
+        "27": {
+          "answerIndex": 1,
+          "explanation": "Rahnumai Mazdayasnan Sabha was founded in 1851."
+        },
+        "28": {
+          "answerIndex": 1,
+          "explanation": "Begum Hazrat Mahal led the resistance in Lucknow."
+        },
+        "29": {
+          "answerIndex": 1,
+          "explanation": "Queen Victoria’s Proclamation was issued in 1858."
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The intended title is Viceroy of India, conferred on the Governor-General after 1858; option (c) appears to contain a wording error (‘of the state’)."
+        },
+        "31": {
+          "answerIndex": 2,
+          "explanation": "The Ilbert Bill controversy occurred during Lord Ripon’s viceroyalty."
+        },
+        "32": {
+          "answerIndex": 1,
+          "explanation": "The Government of India Act 1919 introduced dyarchy in the provinces."
+        },
+        "33": {
+          "answerIndex": 1,
+          "explanation": "The Morley–Minto reforms were enacted in 1909."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "The Bengal partition took effect in 1905."
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "Dinabandhu Mitra wrote Nil Darpan."
+        },
+        "36": {
+          "answerIndex": 2,
+          "explanation": "The 1855–56 Santhal uprising was led by Sidhu and Kanhu."
+        },
+        "37": {
+          "answerIndex": 3,
+          "explanation": "The Moplah uprising took place in the Malabar region."
+        },
+        "38": {
+          "answerIndex": 1,
+          "explanation": "Vitthal Ramji Shinde founded the Depressed Classes Mission of India in 1906."
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "Lala Lajpat Rai advanced the ‘safety-valve’ interpretation of Congress’s founding."
+        },
+        "40": {
+          "answerIndex": 2,
+          "explanation": "Bipin Chandra Pal was an extremist/nationalist, not a moderate."
+        },
+        "41": {
+          "answerIndex": 3,
+          "explanation": "A.O. Hume was a retired Indian Civil Service officer, not a retired British professor in India."
+        },
+        "42": {
+          "answerIndex": 2,
+          "explanation": "Brigadier-General Reginald Dyer ordered the firing at Jallianwala Bagh."
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "Rowlatt Satyagraha (1919), Simon boycott (1928–29), Civil Disobedience (1930), Quit India (1942)."
+        },
+        "44": {
+          "answerIndex": 2,
+          "explanation": "Champaran (1917) was Gandhi’s first satyagraha in India."
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "Yugantar was a Bengali revolutionary newspaper, not a work by Gandhi."
+        },
+        "46": {
+          "answerIndex": 0,
+          "explanation": "The Dandi March launched the Civil Disobedience Movement."
+        },
+        "47": {
+          "answerIndex": 2,
+          "explanation": "Nawab Khwaja Salimullah proposed the formation of the Muslim League at Dhaka in 1906."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "Tilak and Annie Besant organized the two Home Rule Leagues."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "M.N. Roy was a pioneering communist thinker and organizer in India."
+        },
+        "50": {
+          "answerIndex": 3,
+          "explanation": "Lord Mountbatten was the first Governor-General of independent India/the new Dominion."
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "Ranchi’s smart city was described at the time as India’s first greenfield smart-city project."
+        },
+        "52": {
+          "answerIndex": 0,
+          "explanation": "Hindi Diwas is observed on 14 September."
+        },
+        "53": {
+          "answerIndex": 0,
+          "explanation": "Saubhagya aimed to provide household electricity connections to all."
+        },
+        "54": {
+          "answerIndex": 3,
+          "explanation": "Pawan Chamling received the 2017 One World Award Grand Prix for Sikkim’s organic-farming movement."
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "The International Day of Democracy is observed on 15 September."
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "Amitabh Bachchan received the 2017 Global Diversity Award."
+        },
+        "57": {
+          "answerIndex": 0,
+          "explanation": "The 2017 theme was ‘Together for Peace: Respect, Safety and Dignity for All.’"
+        },
+        "58": {
+          "answerIndex": 3,
+          "explanation": "Los Angeles was selected to host the 2028 Summer Olympics."
+        },
+        "59": {
+          "answerIndex": 0,
+          "explanation": "Reliance Energy introduced ELEKTRA as a digital assistant for customer queries."
+        },
+        "60": {
+          "answerIndex": 3,
+          "explanation": "N.K. Singh chaired the 15th Finance Commission."
+        },
+        "61": {
+          "answerIndex": 3,
+          "explanation": "Bank of Maharashtra received the PFRDA award for FY 2017–18."
+        },
+        "62": {
+          "answerIndex": 2,
+          "explanation": "The announcements were made during the Prime Minister’s 2018 visit to Singapore."
+        },
+        "63": {
+          "answerIndex": 1,
+          "explanation": "P.S. Sreedharan Pillai was Mizoram’s Governor at the November 2019 sitting."
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "Shaktikanta Das was RBI Governor in November 2019."
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "The 2016 amendment provided the statutory basis for flexible inflation targeting."
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "UDAN is the regional air-connectivity scheme."
+        },
+        "67": {
+          "answerIndex": 3,
+          "explanation": "Electric vehicles were assigned green number plates."
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "IIT Madras ranked first overall in the 2019 NIRF rankings."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "NIFTY is the National Stock Exchange’s flagship index."
+        },
+        "70": {
+          "answerIndex": 0,
+          "explanation": "Bank of Baroda merged with Vijaya Bank and Dena Bank on 1 April 2019."
+        },
+        "71": {
+          "answerIndex": 2,
+          "explanation": "India ranked 141st in the 2019 Global Peace Index."
+        },
+        "72": {
+          "answerIndex": 3,
+          "explanation": "Vietnam was elected to a non-permanent Security Council seat on 7 June 2019."
+        },
+        "73": {
+          "answerIndex": 1,
+          "explanation": "Boris Johnson was not among the UN SDG Advocates listed in 2019."
+        },
+        "74": {
+          "answerIndex": 2,
+          "explanation": "Soft landing is an engineering objective, not one of the scientific investigation goals listed."
+        },
+        "75": {
+          "answerIndex": 0,
+          "explanation": "Djokovic won the final 6–3, 6–2, 6–3."
+        },
+        "76": {
+          "answerIndex": 3,
+          "explanation": "Kohli reached 20,000 international runs in his 417th innings."
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "Jokha Alharthi won for Celestial Bodies."
+        },
+        "78": {
+          "answerIndex": 2,
+          "explanation": "Viral Acharya resigned as RBI Deputy Governor in 2019."
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "Ajit Doval was reappointed National Security Adviser in June 2019."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "Manohar Lal Khattar was Chief Minister of Haryana, not Himachal Pradesh."
+        },
+        "81": {
+          "answerIndex": 0,
+          "explanation": "Poshan Abhiyaan/Rally concerns nutrition."
+        },
+        "82": {
+          "answerIndex": 2,
+          "explanation": "The NSO’s initial estimate for Q1 FY2019–20 GDP growth was 5.0%."
+        },
+        "83": {
+          "answerIndex": 1,
+          "explanation": "The stated target was a $5 trillion economy by FY2024–25."
+        },
+        "85": {
+          "answerIndex": 2,
+          "explanation": "The revised FY2018–19 Union fiscal deficit was 3.4% of GDP."
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "World Suicide Prevention Day is observed on 10 September."
+        },
+        "88": {
+          "answerIndex": 1,
+          "explanation": "After the June 2019 cut, the repo rate was 5.75%."
+        },
+        "89": {
+          "answerIndex": 0,
+          "explanation": "The book is a collection of speeches by Prime Minister Narendra Modi."
+        },
+        "90": {
+          "answerIndex": 3,
+          "explanation": "Nitin Gadkari held the MSME portfolio in November 2019."
+        },
+        "91": {
+          "answerIndex": 1,
+          "explanation": "The direct bus linked Janakpur and Ayodhya."
+        },
+        "92": {
+          "answerIndex": 2,
+          "explanation": "Odisha launched the Biju Swasthya Kalyan Yojana."
+        },
+        "93": {
+          "answerIndex": 3,
+          "explanation": "Pakistan is not a BIMSTEC member."
+        },
+        "94": {
+          "answerIndex": 1,
+          "explanation": "Miguel Díaz-Canel is President of Cuba."
+        },
+        "95": {
+          "answerIndex": 1,
+          "explanation": "Virgil van Dijk won the 2019 UEFA Men’s Player of the Year award."
+        },
+        "96": {
+          "answerIndex": 2,
+          "explanation": "Amazon was ranked the world’s most valuable brand in 2019."
+        },
+        "97": {
+          "answerIndex": 0,
+          "explanation": "The Indo-Russia joint venture was established to manufacture AK-203 rifles."
+        },
+        "98": {
+          "answerIndex": 0,
+          "explanation": "PM-SYM provides eligible unorganised-sector workers a ₹3,000 monthly pension from age 60."
+        },
+        "99": {
+          "answerIndex": 2,
+          "explanation": "Facebook announced Libra as its planned cryptocurrency (later renamed Diem)."
+        },
+        "100": {
+          "answerIndex": 3,
+          "explanation": "Francis Lalmalsawma Sailo’s Zo Mushroom won the B-Plan contest."
+        }
+      }
     }
   }
 }

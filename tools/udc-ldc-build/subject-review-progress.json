@@ -7,12 +7,12 @@
     "records": 26878,
     "mcq": 25857,
     "writtenRecords": 1021,
-    "ready": 15607,
+    "ready": 15896,
     "readyOfficial": 8322,
-    "pendingMcq": 9785,
-    "heldReviewed": 465,
-    "workedGuidesReviewed": 8417,
-    "pendingMcqGuides": 17440,
+    "pendingMcq": 9485,
+    "heldReviewed": 476,
+    "workedGuidesReviewed": 8717,
+    "pendingMcqGuides": 17140,
     "keyOnlyFeedback": 6961,
     "writtenGuidesReviewed": 118,
     "pendingWrittenGuides": 903,
@@ -67,12 +67,12 @@
       "records": 14946,
       "mcq": 14946,
       "writtenRecords": 0,
-      "ready": 10999,
+      "ready": 11288,
       "readyOfficial": 6205,
-      "pendingMcq": 3625,
-      "heldReviewed": 322,
-      "workedGuidesReviewed": 5197,
-      "pendingMcqGuides": 9749,
+      "pendingMcq": 3325,
+      "heldReviewed": 333,
+      "workedGuidesReviewed": 5497,
+      "pendingMcqGuides": 9449,
       "keyOnlyFeedback": 5949,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
@@ -11085,12 +11085,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11099,18 +11099,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs1-Q52",
+          "questionNumber": "52",
+          "section": "gk",
+          "reason": "Hold: Mukesh Ambani, Jack Ma and Jeff Bezos all appear to be listed among Foreign Policy’s 2019 Global Thinkers, so multiple options are defensible."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs1-Q61",
+          "questionNumber": "61",
+          "section": "gk",
+          "reason": "Hold: Bangladesh, Thailand, Bhutan and India are all BIMSTEC members; no listed choice is correct."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs1-Q98",
+          "questionNumber": "98",
+          "section": "gk",
+          "reason": "Hold: the wording is imprecise, historical claims vary by whether it means first Wi-Fi hotspots or a Wi-Fi-enabled city, and the options omit Bengaluru, often cited for the first free public Wi-Fi hotspots."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-leit-2019-gs2",
@@ -11125,12 +11144,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 97,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11139,18 +11158,37 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 97,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs2-Q34",
+          "questionNumber": "34",
+          "section": "gk",
+          "reason": "No listed option gives Article 21A, which establishes the enforceable right to free and compulsory education for ages 6–14. Article 45 is now about early childhood care and education below age six."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs2-Q86",
+          "questionNumber": "86",
+          "section": "gk",
+          "reason": "The question relies on obsolete racial typologies (‘race’ categories) and lacks a scientifically valid, unambiguous answer; hold."
+        },
+        {
+          "id": "mpsc-group-b-eo-leit-2019-gs2-Q88",
+          "questionNumber": "88",
+          "section": "gk",
+          "reason": "No correct option: Uttar Pradesh has the largest Scheduled Caste population by absolute count; it is absent."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -12048,12 +12086,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 95,
       "readyOfficial": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -12062,18 +12100,49 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 95,
           "readyOfficial": 0,
-          "pendingMcq": 100,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
+          "pendingMcq": 0,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs1-Q3",
+          "questionNumber": "3",
+          "section": "gk",
+          "reason": "The Battle of Buxar involved both Mir Qasim and Shuja-ud-Daulah; options (c) and (d) each name a genuine combatant, so there is no unique option."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs1-Q6",
+          "questionNumber": "6",
+          "section": "gk",
+          "reason": "The printed option sequence includes Jaipur, which was not annexed under the Doctrine of Lapse, and ‘Bahat’ is unclear; no option gives a reliable sequence."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs1-Q22",
+          "questionNumber": "22",
+          "section": "gk",
+          "reason": "Vidyasagar campaigned for both female education and widow remarriage, so two choices are defensible."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs1-Q84",
+          "questionNumber": "84",
+          "section": "gk",
+          "reason": "All four phrases appear as themes/approaches in the Economic Survey 2018–19, so the ‘not included’ question has no correct choice."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs1-Q86",
+          "questionNumber": "86",
+          "section": "gk",
+          "reason": "Both (a) and (d) are correct in substance: the former state was reorganised into two Union Territories, and the 2019 Presidential Order superseded the 1950 Order. Option (b) also misprints the Act year (2019, not 2009)."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-inspector-excise-2019-gs2",

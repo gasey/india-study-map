@@ -540,7 +540,7 @@ browser check pins the split on the mixed Computer/Arithmetic/Reasoning paper
 assertions still expect **3,540 ready**, **1,618 official**, **36 held** and
 **13 missing**; these no longer match the imported archive. Refresh those
 assertions before relying on the script. The current Group B build report is
-15,607 ready, 8,322 official, 465 held-reviewed, 10,658 unreviewed and 733
+15,896 ready, 8,322 official, 476 held-reviewed, 9,485 unreviewed and 733
 missing MCQs (25,857 MCQs total across 404 papers). AAO 2024 General English is Exam-mode eligible while AAO 2024
 Arithmetic remains out because it has a compensated item.
 
@@ -625,3 +625,41 @@ MPSC key was available or used. The review ledger reports 97 ready, 3 held,
 
 Source: `public/papers/group-b/eo-2019-gs2.pdf`; durable review input:
 `tools/udc-ldc-build/group-b-text-repairs.json` under `eo-2019-gs2`.
+
+
+## Employment Officer second-series General Studies Paper-I 2019 review — 12 October 2026
+
+Compared all 100 stems and options with the separate second-series scan. The
+scan text matches the first-series paper; reused the reviewed answer map and
+held Q52, Q61 and Q98 for multiple/no correct choices or ambiguous wording.
+Corrected Q2, Q10 and Q54 typos. The review ledger reports 97 ready, 3 held,
+0 pending. No official key was used.
+
+Source: `public/papers/group-b/eo-leit-2019-gs1.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `eo-leit-2019-gs1`.
+
+## Employment Officer second-series General Studies Paper-II 2019 review — 12 October 2026
+
+Checked all 100 questions and options against the second-series scan. Added 97
+answers with explanations; Q34, Q86 and Q88 are held because the present
+constitutional provision is missing, the question uses scientifically invalid
+racial categories, or the correct geographic choice is missing. Corrected
+source typos in Q1, Q26, Q38, Q49, Q51, Q62 and Q70. Repaired Q80’s false
+claim about the Indus headwaters while retaining the intended answer. The
+review ledger reports 97 ready, 3 held, 0 pending. No official key was used.
+
+Source: `public/papers/group-b/eo-leit-2019-gs2.pdf`; durable review input:
+`tools/udc-ldc-build/group-b-text-repairs.json` under `eo-leit-2019-gs2`.
+
+## Inspector Excise General Studies Paper-I 2019 review — 12 October 2026
+
+Checked all 100 questions and option order against the nine-page scan. Added 95
+answers with explanations and restored the truncated ending of Q41(c). Q3, Q6,
+Q22, Q84 and Q86 are held for multiple correct answers, defective historical
+wording or invalid framing. Preserved source errors in Q9 and Q30 with notes.
+The review ledger reports 95 ready, 5 held, 0 pending. No official MPSC key
+was available or used.
+
+Source: `public/papers/group-b/inspector-excise-2019-gs1.pdf`; durable review
+input: `tools/udc-ldc-build/group-b-text-repairs.json` under
+`inspector-excise-2019-gs1`.

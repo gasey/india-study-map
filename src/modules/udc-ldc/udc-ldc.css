@@ -294,3 +294,66 @@ html.dark .udc-ldc-page {
 @media (max-width: 600px) {
   .udc-learning-session-heading { flex-direction: column; align-items: flex-start; }
 }
+
+/* Subject compilations and Economics lessons */
+.udc-subject-compilations { max-width: 1040px; }
+.udc-subject-compilations .udc-hero { margin-left: 0; margin-right: 0; }
+.udc-compilation-nav { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
+.udc-compilation-nav button, .udc-guide-toolbar button, .udc-guide-practice,
+.udc-economics-question-heading button {
+  border: 1px solid var(--border); border-radius: 9px; padding: 8px 12px;
+  background: var(--bg-panel); color: var(--text-primary); font: inherit; font-size: 12px; cursor: pointer;
+}
+.udc-compilation-section { margin-bottom: 30px; scroll-margin-top: 18px; }
+.udc-compilation-heading { padding: 18px 20px; margin-bottom: 14px; border-radius: 14px;
+  background: color-mix(in srgb, var(--udc-primary) 8%, var(--bg-panel)); border: 1px solid var(--border); }
+.udc-compilation-heading > span { font-size: 10px; font-weight: 800; letter-spacing: .12em; color: var(--udc-primary); }
+.udc-compilation-heading h3 { margin: 6px 0 8px; font-size: 22px; line-height: 1.25; }
+.udc-compilation-heading p { margin: 0; max-width: 760px; line-height: 1.6; font-size: 13px; color: var(--text-secondary); }
+.udc-compilation-heading small, .udc-economics-question-heading small { font-size: 12px; font-weight: 600; opacity: .65; }
+.udc-mizo-notes { margin-top: 20px; }
+.udc-mizo-notes > summary { cursor: pointer; font-size: 14px; font-weight: 650; padding: 12px 0; }
+.udc-guide-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; font-size: 12px; color: var(--text-secondary); }
+.udc-guide-toolbar button { flex: none; }
+.udc-guide-lessons { display: grid; gap: 10px; }
+.udc-guide-lesson { border: 1px solid var(--border); border-radius: 13px; background: var(--bg-panel); overflow: hidden; }
+.udc-guide-lesson > summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 12px; padding: 16px; }
+.udc-guide-lesson > summary::-webkit-details-marker { display: none; }
+.udc-guide-lesson > summary::after { content: '+'; font-size: 20px; color: var(--text-secondary); }
+.udc-guide-lesson[open] > summary::after { content: '−'; }
+.udc-guide-number { flex: none; font-size: 13px; font-weight: 700; display: grid; place-items: center; width: 34px; height: 34px;
+  border-radius: 10px; color: var(--udc-primary); background: color-mix(in srgb, var(--udc-primary) 10%, transparent); }
+.udc-guide-title { flex: 1; min-width: 0; }
+.udc-guide-title strong { display: block; font-size: 14px; line-height: 1.4; }
+.udc-guide-title small { display: block; font-size: 11px; margin-top: 4px; color: var(--text-secondary); }
+.udc-guide-priority { flex: none; font-size: 10px; font-weight: 650; padding: 3px 7px; border-radius: 5px; background: var(--bg-panel-elev); color: var(--text-secondary); }
+.udc-guide-priority.is-critical { background: color-mix(in srgb, var(--udc-primary) 12%, transparent); color: var(--udc-primary); }
+.udc-guide-body { padding: 0 20px 20px; border-top: 1px solid var(--border); }
+.udc-guide-explanation { max-width: 78ch; font-size: 14px; line-height: 1.8; }
+.udc-guide-explanation p { margin: 15px 0; }
+.udc-guide-memory { border-left: 3px solid var(--udc-primary); padding: 12px 15px; border-radius: 0 9px 9px 0;
+  background: color-mix(in srgb, var(--udc-primary) 7%, transparent); font-size: 13px; line-height: 1.65; margin: 16px 0; }
+.udc-guide-memory > strong { color: var(--udc-primary); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.udc-guide-memory p { margin: 5px 0 0; }
+.udc-guide-reference-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.udc-guide-reference-grid aside { padding: 13px 15px; border: 1px solid var(--border); border-radius: 10px; font-size: 12.5px; line-height: 1.65; }
+.udc-guide-reference-grid h4 { margin: 0 0 8px; font-size: 12px; }
+.udc-guide-traps { background: color-mix(in srgb, var(--warn, #b06f1a) 5%, transparent); }
+.udc-guide-traps h4 { color: var(--warn, #b06f1a); }
+.udc-guide-traps ul { padding-left: 18px; margin: 0; }
+.udc-guide-traps li + li { margin-top: 6px; }
+.udc-guide-facts p { padding: 7px 0; margin: 0; overflow-wrap: anywhere; }
+.udc-guide-facts p + p { border-top: 1px solid var(--border); }
+.udc-guide-practice { margin-top: 14px; color: var(--udc-primary); font-weight: 650; }
+.udc-economics-question-heading { scroll-margin-top: 18px; margin-top: 28px; margin-bottom: 12px; }
+.udc-economics-question-heading h3 { font-size: 19px; margin: 0 0 8px; }
+.udc-economics-question-heading p { font-size: 13px; }
+.udc-economics-question-heading button { margin-left: 8px; }
+@media (max-width: 640px) {
+  .udc-guide-reference-grid { grid-template-columns: 1fr; }
+  .udc-guide-lesson > summary { gap: 9px; padding: 13px 11px; }
+  .udc-guide-priority { display: none; }
+  .udc-guide-body { padding: 0 13px 15px; }
+  .udc-guide-toolbar { align-items: flex-start; }
+  .udc-compilation-heading { padding: 16px; }
+}

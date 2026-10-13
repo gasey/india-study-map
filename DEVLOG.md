@@ -1,3 +1,30 @@
+## 14 October 2026 — Smooth flat browsing and subject practice compilations
+
+Flat Browse previously mounted the complete filtered question list, including
+options, passage rendering and review panels. Large lists now render nearby
+blocks with IntersectionObserver and retain measured placeholders for blocks
+outside the viewport. This limits mounted question cards while keeping a
+continuous scroll range; selected answers stay in Browse state. Focused review
+forms/options remain mounted. Lists of up to 300 questions retain ordinary
+rendering, browser find and print behavior. Full-bank searching uses Filters;
+browser find can only inspect mounted cards in larger lists.
+
+Mizo and Economics now reuse interactive Browse cards in expanded continuous
+sections. Both keep answers hidden until an option is selected or the user
+requests reveal; study history, explanations and source cautions follow the
+normal Browse behavior. Flat cards now retain the question's paper/source label.
+The Economics guide has numbered lessons, short paragraphs, memory aids,
+formula/reference panels, common traps, and buttons to try related questions.
+Related-question matching uses the stem, so distractor options do not create
+false concept matches. Jump buttons connect the subjects, guide and questions.
+
+Validation: TypeScript and production build passed. Browser checks in production
+preview exercised the complete 27,591-row local module, with roughly 10–20
+cards mounted in the flat view, navigation to the far end, Mizo answer selection
+and retained feedback after scrolling, and Economics concept-to-question links.
+No console warnings/errors appeared in those flows. Actual iPad scroll timing
+has not been measured; the earlier global large-bundle build warning remains.
+
 ## 11 October 2026 — Junior Grade of MES (Combined) October-2025 General Studies: +100
 
 Imported the General Studies paper of the Junior Grade of Mizoram

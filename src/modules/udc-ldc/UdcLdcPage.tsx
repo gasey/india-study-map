@@ -28,6 +28,7 @@ import { AnswerSources } from './AnswerSources';
 import { SubjectStudyView } from './SubjectStudyView';
 import { LearningDashboard } from './LearningDashboard';
 import { QuestionStudyGuides } from './QuestionStudyGuides';
+import { WindowedQuestionList } from './WindowedQuestionList';
 import { buildLearningDashboard } from './learningModel';
 import { groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
@@ -496,13 +497,14 @@ const toolBtnOn: React.CSSProperties = {
 };
 
 function BrowseView({
-  rows, questions, progress, flags, onAnswer, onStudied, studyProgress,
+  rows, questions, progress, flags, onAnswer, onStudied, studyProgress, flatOnly = false,
 }: {
   rows: PaperStats[]; questions: BankQuestion[]; progress: ProgressMap;
   flags: Record<string, FlagInfo>;
   onAnswer?: (id: string, correct: boolean, meta?: AttemptMetadata) => void;
   onStudied?: (id: string) => void;
   studyProgress?: LearningState['questions'];
+  flatOnly?: boolean;
 }) {
   const [retained, setRetained] = useState<Record<string, BankQuestion>>({});
   const selectionLocks = useRef(new Set<string>());
@@ -536,7 +538,7 @@ function BrowseView({
   const [seed, setSeed] = useState(0);
   // Flat view: mix all questions into one continuous list instead of
   // grouping by paper. Toggled by the button in the header.
-  const [flat, setFlat] = useState(false);
+  const [flat, setFlat] = useState(flatOnly);
   // When not flat, whether all papers are expanded. Toggled by "Expand all"
   // button. Defaults to first paper open only.
   const [allOpen, setAllOpen] = useState(false);
@@ -646,16 +648,17 @@ function BrowseView({
             Re-shuffle
           </button>
         )}
-        <button
+        {!flatOnly && <button
           type="button"
           onClick={() => setFlat((v) => !v)}
           style={{ ...toolBtn, ...(flat ? toolBtnOn : null) }}
         >
           {flat ? 'Group by paper' : 'Flat view'}
-        </button>
+        </button>}
         <span style={{ fontSize: 12, opacity: 0.6 }}>
           Pick an option to check it — or reveal without answering.
         </span>
+        {flat && !flatOnly && displayQuestions.length > 300 && <span style={{ fontSize: 12, opacity: 0.6 }}>Use Filters to search the whole list.</span>}
       </div>
       {visible.map((r) => {
         const isOpen = flat
@@ -711,7 +714,7 @@ function BrowseView({
                   {r.paper.examName}
                 </span>
                 <span style={{ display: 'block', fontSize: 12.5, opacity: 0.7, marginTop: 2 }}>
-                  {r.paper.paperNumber} · {r.paper.post} · {r.paper.year}
+                  {flat ? 'Continuous question list' : <>{r.paper.paperNumber} · {r.paper.post} · {r.paper.year}</>}
                 </span>
                 {note && (
                   <span style={{
@@ -745,7 +748,7 @@ function BrowseView({
                     <a href={r.paper.sourceFile} target="_blank" rel="noreferrer">Open printed paper ↗</a>
                   </p>
                 )}
-                {r.questions.map((q, i) => {
+                <WindowedQuestionList questions={r.questions} renderQuestion={(q, i) => {
                   const mode = textMode(q);
                   return (
                   <div
@@ -770,7 +773,8 @@ function BrowseView({
                           title={`Flagged: ${flags[q.id].issueType.replace(/_/g, ' ')}`}
                         />
                       )}
-                      <div style={{ flex: 1 }}>
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        {flat && q.source && <p style={{ fontSize: 11, margin: '0 0 8px', color: 'var(--text-secondary)' }}>{q.source}{q.year ? ` · ${q.year}` : ''}</p>}
                         <QuestionContext direction={q.direction} passage={q.passage} plain={mode.plain} collapsed />
                         {q.sourceReview && <p style={{ fontSize: 12, color: 'var(--warn, #b06f1a)', margin: '0 0 8px' }}>
                           {q.sourceReviewed ? 'The printed source is checked; this item is held unscored. ' : 'This item needs review before scored practice. '}
@@ -972,7 +976,7 @@ function BrowseView({
                     </div>
                   </div>
                   );
-                })}
+                }} />
               </div>
             )}
           </div>
@@ -1151,7 +1155,10 @@ export default function UdcLdcPage() {
       </>}
 
       {tab === 'progress' && <ProgressView rows={visibleRows} />}
-      {tab === 'guides' && <QuestionStudyGuides questions={moduleQuestions} />}
+      {tab === 'guides' && <QuestionStudyGuides questions={moduleQuestions} renderQuestions={(questions) =>
+        <BrowseView flatOnly rows={visibleRows} questions={questions} progress={progress} flags={flags}
+          onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />
+      } />}
       {(tab === 'maths' || tab === 'english' || tab === 'computer') && <SubjectStudyView
         key={tab}
         subject={tab === 'maths' ? 'arithmetic' : tab === 'computer' ? 'computer' : 'english'}

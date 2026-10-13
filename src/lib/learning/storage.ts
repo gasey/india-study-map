@@ -1,6 +1,6 @@
 import { annotateLearningAttempt, applyAttempts, createAttemptId, emptyLearningState, markQuestionStudied, mergeLearningStates, migrateLegacy, parseLearningState, safeId } from './engine';
 import { compactLearningState, openLearningDatabase, readLearningDatabase, updateLearningDatabase } from './indexedDb';
-import type { AttemptInput, AttemptMetadata, LearningState, StorageStatus } from './types';
+import type { AttemptInput, AttemptMetadata, Confidence, LearningState, StorageStatus } from './types';
 
 export interface LearningSnapshot { learning: LearningState; ready: boolean; storageStatus: StorageStatus }
 export interface LearningStoreOptions { moduleId: string; legacyKey?: string; storage?: Storage; disableIndexedDb?: boolean; storageTimeoutMs?: number }
@@ -175,7 +175,7 @@ export class LearningStore {
     return this.transact(state => applyAttempts(state, prepared, this.sourceId, now));
   };
   markStudied = (questionId: string): Promise<void> => { const at = Date.now(); return this.transact(state => markQuestionStudied(state, questionId, this.sourceId, at)); };
-  annotateAttempt = (eventId: string, patch: { mistakeReason?: string }): Promise<void> => this.transact(state => annotateLearningAttempt(state, eventId, patch));
+  annotateAttempt = (eventId: string, patch: { mistakeReason?: string; confidence?: Confidence }): Promise<void> => this.transact(state => annotateLearningAttempt(state, eventId, patch));
   exportProgress = (): string => JSON.stringify(compactLearningState(this.snapshot.learning), null, 2);
   importProgress = async (json: string): Promise<{ added: number }> => {
     const incoming = parseLearningState(json, this.options.moduleId);

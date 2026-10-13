@@ -11,7 +11,6 @@ import engSentence from './primers-eng-sentence.json';
 import engComprehension from './primers-eng-comprehension.json';
 import gs1Current from './primers-gs1-current.json';
 import gs2Economy from './primers-gs2-economy.json';
-import economyPyq from './primers-economy-old-pyq.json';
 import gs2Geography from './primers-gs2-geography.json';
 
 export interface Primer {
@@ -43,7 +42,6 @@ export const allPrimers: Primer[] = [
   ...(engComprehension as Primer[]),
   ...(gs1Current as Primer[]),
   ...(gs2Economy as Primer[]),
-  ...(economyPyq as Primer[]),
   ...(gs2Geography as Primer[]),
 ];
 
@@ -52,7 +50,6 @@ export const UNIT_LABELS: Record<string, string> = {
   'GS3-SCITECH': 'Science',
   'GS3-APTITUDE': 'Aptitude',
   'GS2-ECONOMY': 'Economy',
-  'GS2-ECONOMY-PYQ': 'Economics from Older Questions',
   'GS2-GEOGRAPHY': 'Geography',
   'GS1-HISTORY': 'History',
   'GS3-MIZORAM': 'Mizoram GK',

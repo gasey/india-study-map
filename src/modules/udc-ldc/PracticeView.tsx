@@ -3,6 +3,7 @@ import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf, textMode } from './filters';
+import type { Confidence } from '@/lib/learning/types';
 import { QuestionText } from './QuestionText';
 import { QuestionContext } from './QuestionContext';
 import { QuestionImage } from './QuestionImage';
@@ -40,21 +41,22 @@ interface Props {
   progress: ProgressMap;
   onAnswer: (questionId: string, correct: boolean, meta?: PracticeAnswerMeta) => void;
   onMistakeReason?: (eventId: string, reason: string) => void;
+  onAttemptConfidence?: (eventId: string, confidence: Confidence) => void;
   onFinish?: () => void;
 }
 
-export function PracticeView({ questions, progress, onAnswer, onMistakeReason, onFinish }: Props) {
+export function PracticeView({ questions, progress, onAnswer, onMistakeReason, onAttemptConfidence, onFinish }: Props) {
   const pool = useMemo(() => questions.filter(isAnswerable), [questions]);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [session, setSession] = useState({ done: 0, right: 0 });
   const [heldQuestion, setHeldQuestion] = useState<BankQuestion | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const [confidence, setConfidence] = useState<'sure' | 'unsure' | 'guess' | ''>('');
   const [mistakeReason, setMistakeReason] = useState('');
   const answerEvent = useRef<string | null>(null);
   const activeSince = useRef(Date.now());
   const visibleMs = useRef(0);
+  const autoNextTimer = useRef<number | null>(null);
   const questionCardRef = useRef<HTMLDivElement>(null);
   const { flags } = useFlags();
 
@@ -67,6 +69,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
     };
     document.addEventListener('visibilitychange', visibility);
     return () => document.removeEventListener('visibilitychange', visibility);
+  }, []);
+  useEffect(() => () => {
+    if (autoNextTimer.current !== null) window.clearTimeout(autoNextTimer.current);
   }, []);
 
   if (!pool.length && !heldQuestion) {
@@ -107,50 +112,46 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   if (!isMcqQuestion(q)) return null;
   const accent = SECTION_COLOUR[sectionOf(q)];
   const mode = textMode(q);
-  const hasPick = picked !== null;
   const correct = submitted && picked === q.answerIndex;
   const prior = progress[q.id];
   const groupBPaper = groupBGeneralPapers.find((paper) => paper.id === q.paperId);
 
-  const choose = (idx: number) => {
-    if (submitted) return;
-    setPicked(idx);
-  };
-
-  const submitAnswer = () => {
-    if (picked === null || submitted || answerEvent.current) return;
-    const eventId = `practice:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`;
-    answerEvent.current = eventId;
-    setHeldQuestion(q);
-    setSubmitted(true);
-    const ok = picked === q.answerIndex;
-    setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
-    onAnswer(q.id, ok, {
-      eventId, selectedIndex: picked,
-      durationMs: Math.max(0, visibleMs.current + (document.hidden ? 0 : Date.now() - activeSince.current)),
-      ...(confidence ? { confidence } : {}), source: onFinish ? 'review' : 'practice',
-    });
-  };
-
   const next = () => {
+    if (autoNextTimer.current !== null) window.clearTimeout(autoNextTimer.current);
+    autoNextTimer.current = null;
     if (onFinish && i >= pool.length - 1) { onFinish(); return; }
     const currentIndex = pool.findIndex(item => item.id === q.id);
     setPicked(null);
     setSubmitted(false);
     setHeldQuestion(null);
     answerEvent.current = null;
-    setConfidence('');
     setMistakeReason('');
     visibleMs.current = 0;
     activeSince.current = Date.now();
     setI(currentIndex >= 0 ? (currentIndex + 1) % Math.max(1, pool.length) : Math.min(i, Math.max(0, pool.length - 1)));
-    // The progress update can re-render the surrounding page and otherwise
-    // reset the nested scroll panel to its top. Keep the next question in the
-    // reading position on desktop, phones, and tablets alike.
-    requestAnimationFrame(() => {
-      questionCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+    requestAnimationFrame(() => questionCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
   };
+
+  const submitAnswer = (selectedIndex: number) => {
+    if (submitted || answerEvent.current) return;
+    const eventId = `practice:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`;
+    answerEvent.current = eventId;
+    setHeldQuestion(q);
+    setPicked(selectedIndex);
+    setSubmitted(true);
+    const ok = selectedIndex === q.answerIndex;
+    setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
+    onAnswer(q.id, ok, {
+      eventId, selectedIndex,
+      durationMs: Math.max(0, visibleMs.current + (document.hidden ? 0 : Date.now() - activeSince.current)),
+      source: onFinish ? 'review' : 'practice',
+    });
+    // Answer selection submits immediately. Show the feedback briefly; wrong
+    // answers get a little more time for the confidence prompt before moving on.
+    autoNextTimer.current = window.setTimeout(next, ok ? 2200 : 6500);
+  };
+
+  const choose = (idx: number) => submitAnswer(idx);
 
   return (
     <div>
@@ -276,39 +277,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
           })}
         </div>
 
-        {!submitted && hasPick && (
-          <p aria-live="polite" style={{ margin: '10px 0 0', fontSize: 12.5, opacity: 0.75 }}>
-            {optionLetter(picked!)} selected. You can change it before confirming.
-          </p>
-        )}
-
-        {!submitted && <details style={{ marginTop: 10 }}>
-          <summary style={{ cursor: 'pointer', fontSize: 12.5, color: 'var(--text-secondary)' }}>Confidence (optional)</summary>
-          <label className="udc-recall-confidence">
-            How confident are you?{' '}
-            <select value={confidence} onChange={e => setConfidence(e.target.value as typeof confidence)}>
-              <option value="">Skip</option>
-              <option value="sure">I know this</option>
-              <option value="unsure">Not quite sure</option>
-              <option value="guess">Guessing</option>
-            </select>
-          </label>
-        </details>}
-
-        {!submitted && <button
-          type="button"
-          onClick={submitAnswer}
-          disabled={!hasPick}
-          style={{
-            marginTop: 12, font: 'inherit', fontSize: 14, fontWeight: 700,
-            padding: '10px 18px', minHeight: 44, borderRadius: 9,
-            cursor: hasPick ? 'pointer' : 'default', border: 0,
-            background: hasPick ? 'var(--info, #3b7dd8)' : 'var(--bg-panel-elev, #eee)',
-            color: hasPick ? '#fff' : 'var(--text-secondary)',
-          }}
-        >
-          Confirm answer
-        </button>}
+        {!submitted && <p aria-live="polite" style={{ margin: '10px 0 0', fontSize: 12.5, opacity: 0.75 }}>
+          Select an option to submit and continue.
+        </p>}
 
         {submitted && (
           <div style={{ marginTop: 14 }}>
@@ -336,6 +307,19 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 <option value="guess">Guessed</option>
               </select>
             </label>}
+            {!correct && onAttemptConfidence && (
+              <div style={{ marginTop: 9, fontSize: 12.5 }}>
+                <strong>How confident were you?</strong>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7, marginTop: 6 }}>
+                  {([['sure', 'Sure'], ['unsure', 'Unsure'], ['guess', 'Guessing']] as const).map(([value, label]) => (
+                    <button key={value} type="button" onClick={() => {
+                      if (answerEvent.current) onAttemptConfidence(answerEvent.current, value);
+                      next();
+                    }} style={{ border: '1px solid var(--border, #dcdce3)', borderRadius: 999, padding: '5px 11px', background: 'var(--bg-panel, transparent)', color: 'inherit', cursor: 'pointer', font: 'inherit' }}>{label}</button>
+                  ))}
+                </div>
+              </div>
+            )}
             {q.answerAsOf && (
               /* Current affairs. The answer was right at the SITTING and may be
                  wrong today — an office-holder, an award, an index ranking. Sits
@@ -392,17 +376,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}
-            <button
-              type="button"
-              onClick={next}
-              style={{
-                marginTop: 12, font: 'inherit', fontSize: 13.5, fontWeight: 600,
-                padding: '7px 16px', borderRadius: 999, cursor: 'pointer',
-                border: 0, background: 'var(--info, #3b7dd8)', color: '#fff',
-              }}
-            >
-              {onFinish && i >= pool.length - 1 ? 'Finish session' : 'Next question'}
-            </button>
+            <p style={{ marginTop: 10, fontSize: 11.5, opacity: 0.65 }} aria-live="polite">
+              {correct ? 'Moving to the next question…' : 'Choose a confidence rating to continue, or this will advance automatically.'}
+            </p>
           </div>
         )}
         {/* Flag / private note / comments, against the review service that

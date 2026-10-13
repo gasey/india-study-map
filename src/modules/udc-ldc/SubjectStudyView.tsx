@@ -1,5 +1,6 @@
 import { useMemo, useState, type ReactNode } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
+import type { Confidence } from '@/lib/learning/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import { isAnswerable, sectionOf } from './filters';
@@ -12,10 +13,11 @@ interface Props {
   progress: ProgressMap;
   onAnswer: (id: string, correct: boolean, meta?: PracticeAnswerMeta) => void;
   onMistakeReason?: (eventId: string, reason: string) => void;
+  onAttemptConfidence?: (eventId: string, confidence: Confidence) => void;
   renderBrowse: (questions: BankQuestion[]) => ReactNode;
 }
 
-export function SubjectStudyView({ subject, questions, progress, onAnswer, onMistakeReason, renderBrowse }: Props) {
+export function SubjectStudyView({ subject, questions, progress, onAnswer, onMistakeReason, onAttemptConfidence, renderBrowse }: Props) {
   const [topic, setTopic] = useState<StudyTopicId | 'all'>('all');
   const [mode, setMode] = useState<'practice' | 'read'>('practice');
   const [kind, setKind] = useState<'mcq' | 'written'>('mcq');
@@ -71,6 +73,6 @@ export function SubjectStudyView({ subject, questions, progress, onAnswer, onMis
       <label className="udc-subject-search">Search <input type="search" value={search} onChange={e => setSearch(e.target.value)} placeholder={topic !== 'all' ? 'Search within this topic' : `Search ${title} questions`} /></label>
     </div>
     <p className="udc-subject-status" aria-live="polite">{ready} ready to practise · {filtered.length} available to read{kind === 'mcq' && filtered.length > ready ? ` · ${filtered.length - ready} awaiting answer or source review` : ''}</p>
-    {mode === 'practice' ? <PracticeView key={`${subject}-${topic}-${attempt}-${search}`} questions={filtered} progress={progress} onAnswer={onAnswer} onMistakeReason={onMistakeReason} /> : <div key={`${subject}-${topic}-${attempt}-${kind}-${search}`}>{renderBrowse(filtered)}</div>}
+    {mode === 'practice' ? <PracticeView key={`${subject}-${topic}-${attempt}-${search}`} questions={filtered} progress={progress} onAnswer={onAnswer} onMistakeReason={onMistakeReason} onAttemptConfidence={onAttemptConfidence} /> : <div key={`${subject}-${topic}-${attempt}-${kind}-${search}`}>{renderBrowse(filtered)}</div>}
   </section>;
 }

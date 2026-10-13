@@ -1,4 +1,4 @@
-import type { AttemptEvent, AttemptInput, LearningPolicy, LearningState, LegacyProgress, QuestionLearning, SourceProgress } from './types';
+import type { AttemptEvent, AttemptInput, Confidence, LearningPolicy, LearningState, LegacyProgress, QuestionLearning, SourceProgress } from './types';
 
 export const MINUTE = 60_000;
 export const DAY = 24 * 60 * MINUTE;
@@ -126,11 +126,11 @@ export function markQuestionStudied(state: LearningState, questionId: string, so
   source.updatedAt = now;
   return { ...state, questions: { ...state.questions, [questionId]: summarizeQuestion({ ...current.sources, [sourceId]: source }, current.legacy) }, revision: state.revision + 1, updatedAt: now };
 }
-export function annotateLearningAttempt(state: LearningState, eventId: string, patch: { mistakeReason?: string }, now = Date.now()): LearningState {
+export function annotateLearningAttempt(state: LearningState, eventId: string, patch: { mistakeReason?: string; confidence?: Confidence }, now = Date.now()): LearningState {
   for (const [id, question] of Object.entries(state.questions)) {
     for (const [sourceId, source] of Object.entries(question.sources)) {
       if (!source.recent.some(event => event.eventId === eventId)) continue;
-      const nextSource = { ...source, updatedAt: now, recent: source.recent.map(event => event.eventId === eventId ? { ...event, mistakeReason: patch.mistakeReason?.trim().slice(0, 240) } : event) };
+      const nextSource = { ...source, updatedAt: now, recent: source.recent.map(event => event.eventId === eventId ? { ...event, ...(patch.mistakeReason !== undefined ? { mistakeReason: patch.mistakeReason.trim().slice(0, 240) } : {}), ...(patch.confidence ? { confidence: patch.confidence } : {}) } : event) };
       return { ...state, questions: { ...state.questions, [id]: summarizeQuestion({ ...question.sources, [sourceId]: nextSource }, question.legacy) }, revision: state.revision + 1, updatedAt: now };
     }
   }

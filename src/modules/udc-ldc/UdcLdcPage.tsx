@@ -8,7 +8,7 @@ import { QuestionImage } from './QuestionImage';
 import type { ProgressMap } from './useProgress';
 import { isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
-import type { AttemptMetadata, LearningState } from '@/lib/learning/types';
+import type { AttemptMetadata, Confidence, LearningState } from '@/lib/learning/types';
 import {
   BANK_ID, EMPTY_FILTERS, SECTION_COLOUR, SECTION_LABEL, applyFilters, isAnswerable,
   optionLetter, sectionOf, textMode,
@@ -27,6 +27,7 @@ import { EssayTopicArchive } from './EssayTopicArchive';
 import { AnswerSources } from './AnswerSources';
 import { SubjectStudyView } from './SubjectStudyView';
 import { LearningDashboard } from './LearningDashboard';
+import { QuestionStudyGuides } from './QuestionStudyGuides';
 import { buildLearningDashboard } from './learningModel';
 import { groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
@@ -49,7 +50,7 @@ import './udc-ldc.css';
 // ============================================
 
 
-type Tab = 'learning' | 'progress' | 'papers' | 'maths' | 'english' | 'computer' | 'essays' | 'browse' | 'practice' | 'exam';
+type Tab = 'learning' | 'progress' | 'papers' | 'guides' | 'maths' | 'english' | 'computer' | 'essays' | 'browse' | 'practice' | 'exam';
 const paperNegativeMarking = {
   ...mpscUdcLdcNegativeMarking,
   ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
@@ -1078,6 +1079,7 @@ export default function UdcLdcPage() {
     return tracker.importProgress(await file.text());
   };
   const tagMistake = (eventId: string, reason: string) => { void tracker.annotateAttempt(eventId, { mistakeReason: reason }); };
+  const tagConfidence = (eventId: string, confidence: Confidence) => { void tracker.annotateAttempt(eventId, { confidence }); };
 
   if (!data) {
     return <div style={{ padding: 24 }}>Bank <code>{BANK_ID}</code> is not registered.</div>;
@@ -1106,7 +1108,7 @@ export default function UdcLdcPage() {
       </div>
 
       <div className="udc-tabs" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 18 }}>
-        {(['learning', 'progress', 'papers', 'maths', 'english', 'computer', 'essays', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
+        {(['learning', 'progress', 'papers', 'guides', 'maths', 'english', 'computer', 'essays', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             className={`udc-tab ${tab === t ? 'is-active' : ''}`}
@@ -1121,7 +1123,7 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
+            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'guides' ? 'Mizo & Economics guides' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
           </button>
         ))}
       </div>
@@ -1138,7 +1140,7 @@ export default function UdcLdcPage() {
             <button type="button" style={toolBtn} onClick={() => setLearningSession(null)}>Back to my learning</button>
           </div>
           {learningSession.mode === 'practice' ? <PracticeView key={learningSession.id}
-            questions={learningQuestions} progress={progress} onAnswer={record} onMistakeReason={tagMistake}
+            questions={learningQuestions} progress={progress} onAnswer={record} onMistakeReason={tagMistake} onAttemptConfidence={tagConfidence}
             onFinish={() => { setLearningSession(null); setLearningMessage('Session complete. Your learning progress and review queue are updated.'); }} />
             : <BrowseView key={learningSession.id} rows={visibleRows} questions={learningQuestions} progress={progress} flags={flags}
               onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
@@ -1149,6 +1151,7 @@ export default function UdcLdcPage() {
       </>}
 
       {tab === 'progress' && <ProgressView rows={visibleRows} />}
+      {tab === 'guides' && <QuestionStudyGuides />}
       {(tab === 'maths' || tab === 'english' || tab === 'computer') && <SubjectStudyView
         key={tab}
         subject={tab === 'maths' ? 'arithmetic' : tab === 'computer' ? 'computer' : 'english'}
@@ -1156,6 +1159,7 @@ export default function UdcLdcPage() {
         progress={progress}
         onAnswer={record}
         onMistakeReason={tagMistake}
+        onAttemptConfidence={tagConfidence}
         renderBrowse={(questions) => <BrowseView rows={visibleRows} questions={questions} progress={progress} flags={flags}
           onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
       />}
@@ -1224,7 +1228,7 @@ export default function UdcLdcPage() {
       {tab === 'browse' && <BrowseView key={JSON.stringify(filters)} rows={visibleRows} questions={filtered} progress={progress} flags={flags}
         onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
       {tab === 'practice' && (
-        <PracticeView key={JSON.stringify(filters)} questions={filtered} progress={progress} onAnswer={record} onMistakeReason={tagMistake} />
+        <PracticeView key={JSON.stringify(filters)} questions={filtered} progress={progress} onAnswer={record} onMistakeReason={tagMistake} onAttemptConfidence={tagConfidence} />
       )}
       {/* The exam view deliberately ignores the filter rail: you sit the whole
           paper as printed, or it is not an exam. */}

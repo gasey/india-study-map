@@ -62,3 +62,11 @@ export function isPaperSubjectTechnical(subject: string | null | undefined): boo
   if (GENERAL_SUBJECT_RE.test(subject)) return false;
   return TECHNICAL_SUBJECT_RE.test(subject);
 }
+
+// UDC/LDC study includes computer knowledge even when the source paper's
+// subject also carries a technical-paper label. Other technical subjects stay
+// outside that general-study module.
+export function isGeneralStudyPaperSubjectTechnical(subject: string | null | undefined): boolean {
+  if (/\bcomputer\s+knowledge\b/i.test(subject ?? '')) return false;
+  return isPaperSubjectTechnical(subject);
+}

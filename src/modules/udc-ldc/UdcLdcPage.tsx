@@ -28,7 +28,7 @@ import { SubjectStudyView } from './SubjectStudyView';
 import { LearningDashboard } from './LearningDashboard';
 import { buildLearningDashboard } from './learningModel';
 import { groupBGeneralQuestions, groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
-import { isPaperSubjectTechnical } from '@/lib/technicalPosts';
+import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
 import './udc-ldc.css';
 
 // ============================================
@@ -1025,10 +1025,10 @@ export default function UdcLdcPage() {
   }, [data, corrections]);
 
   // Keep every imported record in the bank for provenance and future use,
-  // while limiting this study module to general/non-technical papers.
+  // while limiting this study module to general papers plus Computer Knowledge.
   const technicalPaperIds = useMemo(() => new Set(
     (data?.bank.papers ?? [])
-      .filter((paper) => isPaperSubjectTechnical(paper.paperSubject))
+      .filter((paper) => isGeneralStudyPaperSubjectTechnical(paper.paperSubject))
       .map((paper) => paper.id),
   ), [data]);
   const visibleRows = useMemo(() => data?.rows.filter((row) => !technicalPaperIds.has(row.paper.id)) ?? [],
@@ -1090,7 +1090,7 @@ export default function UdcLdcPage() {
       <h1 style={{ margin: '0 0 4px', fontSize: 22 }}>UDC / LDC / Group B</h1>
       <p style={{ margin: 0, fontSize: 14 }}>
         Direct recruitment general papers: English, GK, basic computer, arithmetic and reasoning.
-        Group B gazetted, LDE and subject-specific technical papers are excluded.
+        Subject-specific technical papers are excluded, with Computer Knowledge retained for study.
       </p>
       <p style={{ margin: '8px 0 0', fontSize: 12 }}>
         {groupBGeneralQuestions.length} Group B questions and written prompts are available.

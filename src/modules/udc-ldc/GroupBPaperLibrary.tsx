@@ -3,7 +3,7 @@ import archive from '@/data/banks/mpsc-group-b-library.json';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import { isAnswerable } from './filters';
-import { isPaperSubjectTechnical } from '@/lib/technicalPosts';
+import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
 interface LibraryPaper {
   id: string; exam: string; sitting: string; subject: string; sourceHref: string;
   keyHref: string | null; correctionHref?: string; expectedMcq?: number; imported: boolean;
@@ -18,7 +18,7 @@ export function GroupBPaperLibrary({ questions, excludedPaperIds, onBrowse }: {
 }) {
   const [search, setSearch] = useState('');
   const visibleLibrary = useMemo(() => library.filter((paper) =>
-    !excludedPaperIds.has(paper.id) && !isPaperSubjectTechnical(paper.subject)), [excludedPaperIds]);
+    !excludedPaperIds.has(paper.id) && !isGeneralStudyPaperSubjectTechnical(paper.subject)), [excludedPaperIds]);
   const progress = useMemo(() => {
     const ids = new Set(visibleLibrary.map((p) => p.id));
     const items = questions.filter((q) => q.paperId && ids.has(q.paperId));
@@ -44,7 +44,7 @@ export function GroupBPaperLibrary({ questions, excludedPaperIds, onBrowse }: {
   }, [search, visibleLibrary]);
   return <section className="udc-paper-library">
     <h2>Group B general &amp; computer papers</h2>
-    <p>{visibleLibrary.length} non-technical papers from the local archive. Shared papers are listed once for all participating posts.</p>
+    <p>{visibleLibrary.length} general and computer-knowledge papers from the local archive. Other technical papers stay outside this module. Shared papers are listed once for all participating posts.</p>
     <p className="udc-library-progress" role="status">
       {progress.mcq.toLocaleString()} MCQs · {progress.written.toLocaleString()} written prompts ·{' '}
       {progress.ready.toLocaleString()} ready to practise ({progress.official.toLocaleString()} with official answers) ·{' '}

@@ -324,7 +324,7 @@ GENERAL_PAPERS_2019 = [
  ('geologist-jun-nov-2020-english-p3', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-III', 'Geologist Junior General Englsih Paper-III Nov.pdf'),
  ('geologist-jun-2020-english-p1', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-I', 'Geologist Junior General English Paper-I.pdf'),
  ('geologist-jun-2020-english-p2', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-II', 'Geologist Junior General English Paper-II.pdf'),
- ('geologist-jun-2020-english-p3', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-III', 'Geologist Junior General English Paper-III.pdf'),
+ ('geologist-jun-2020-english-p3', 'Geologist Junior under Commerce & Industries Department', 'January 2020', 'Geology Paper III', 'Geologist Junior General English Paper-III.pdf'),
  ('je-agri-2020-english', 'Junior Engineer under Agriculture Department (Crop Husbandry)', '2020', 'General English', 'JE General English.pdf'),
  ('mes-pwd-2020-english', 'Jr. Grade of Mizoram Engineering Service (MES) under PWD', '2020', 'General English', 'MES General Englsih.pdf'),
  ('mes-pwd-2020-gs', 'Jr. Grade of Mizoram Engineering Service (MES) under PWD', '2020', 'General Studies', 'MES General Studies.pdf'),
@@ -700,8 +700,12 @@ def build_additional():
             meta[entry['id']] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                                 'negativeMarking': False, 'penaltyFraction': 0}
         if slug.startswith('acf-2018-'):
-            entry['expectedMcq'] = 80 if slug.endswith('english') else 100
+            entry['expectedMcq'] = 65 if slug == 'acf-2018-english' else 100 if slug == 'acf-2018-gk' else entry.get('expectedMcq')
         if slug in ('asce-2021-english-p2', 'vety-mah-2021-english-p2'):
+            entry['expectedMcq'] = 100
+        if slug == 'archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c':
+            entry['expectedMcq'] = 100
+        if slug == 'geologist-jun-2020-english-p3':
             entry['expectedMcq'] = 100
         if slug.startswith('si-police-2026-'):
             entry['keyHref'] = '/papers/group-b/keys/si-police-2026-final-key.pdf'
@@ -1230,6 +1234,8 @@ def build_additional():
             meta[paper_id] = {'marksPerQuestion': 2, 'durationMinutes': 120,
                              'negativeMarking': True, 'penaltyFraction': 1/3}
         reviewed_archive_meta = {
+            'archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9': 180,
+            'archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c': 120,
             'archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024': 120,
             'archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709': 120,
             'ada-2014-gk': 180,
@@ -1254,6 +1260,10 @@ def build_additional():
             # Source covers give the time and full marks; the papers contain
             # one-mark objective items and do not state a negative-marking rule.
             meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': reviewed_archive_meta[slug],
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        if slug == 'acf-2018-english' and repairs.get(slug, {}).get('derivedAnswers'):
+            # The cover states 3 hours and 100 marks; Section B has 65 one-mark MCQs.
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
                              'negativeMarking': False, 'penaltyFraction': 0}
         reviewed_2018_meta = {
             'programmer-phe-2018-english-p1': 180,
@@ -1366,6 +1376,73 @@ def build_additional():
             section = 'english' if 'English' in subject else 'arithmetic' if subject in ('Arithmetic', 'Mathematics') else 'gk'
             topic_id, topic_label = 'general', subject
             solution_explanation = derived['explanation'] if derived and text_reviewed else q.get('explanation', '')
+            if slug == 'asce-2021-english-p2':
+                # The printed directions partition this English paper into
+                # ten-question grammar/vocabulary sections.
+                topic_id = ('parts_of_speech' if q['n'] <= 10 else
+                            'sentence_types' if 11 <= q['n'] <= 20 else
+                            'verb_tenses' if 21 <= q['n'] <= 30 else
+                            'prepositions' if 31 <= q['n'] <= 40 else
+                            'sentence_types' if 41 <= q['n'] <= 60 else
+                            'clauses' if 61 <= q['n'] <= 70 else
+                            'idioms_phrases' if 71 <= q['n'] <= 80 else
+                            'word_usage' if 81 <= q['n'] <= 90 else
+                            'one_word_substitution')
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9':
+                n = q['n']
+                if n <= 16:
+                    topic_id = 'idioms_phrases'
+                elif n <= 32 or 66 <= n <= 70:
+                    topic_id = 'comprehension'
+                elif n <= 40 or 71 <= n <= 80:
+                    topic_id = 'word_usage'
+                elif n <= 48:
+                    topic_id = 'prepositions'
+                elif n <= 53 or n == 55:
+                    topic_id = 'sentence_types'
+                elif n == 54:
+                    topic_id = 'voice'
+                elif n == 56:
+                    topic_id = 'narration'
+                elif n <= 59:
+                    topic_id = 'degrees_of_comparison'
+                else:
+                    topic_id = 'clauses'
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'acf-2018-english':
+                n = q['n']
+                topic_id = ('verb_tenses' if n <= 10 else 'parts_of_speech' if n <= 20 else
+                            'prepositions' if n <= 30 else 'idioms_phrases' if n <= 40 else
+                            'sentence_types' if n <= 50 else 'conjunctions' if n <= 60 else
+                            'one_word_substitution')
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c':
+                n = q['n']
+                topic_id = ('parts_of_speech' if n <= 10 else 'verb_tenses' if n <= 20 else
+                            'word_usage' if n <= 25 else 'word_usage' if n <= 35 else
+                            'sentence_transformation' if n <= 65 else 'idioms_phrases' if n <= 75 else
+                            'word_usage' if n <= 85 else 'vocabulary_antonym' if n <= 90 else
+                            'vocabulary_synonym' if n <= 95 else 'one_word_substitution')
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'geologist-jun-2020-english-p3':
+                if q['n'] <= 10:
+                    topic_id, section = 'geology_mineral_resources', 'gk'
+                elif q['n'] <= 30:
+                    topic_id, section = 'geology_ore_deposits', 'gk'
+                elif q['n'] <= 44:
+                    topic_id, section = 'geology_mining_methods', 'gk'
+                elif q['n'] <= 60:
+                    topic_id, section = 'geology_energy_resources', 'gk'
+                elif q['n'] <= 75:
+                    topic_id, section = 'geology_engineering', 'gk'
+                elif q['n'] <= 83 or 91 <= q['n'] <= 95:
+                    topic_id, section = 'figure_series', 'reasoning'
+                elif q['n'] <= 90:
+                    topic_id, section = 'comprehension', 'english'
+                else:
+                    topic_id, section = 'coding_decoding', 'reasoning'
+                topic_label = taxonomy.resolve(topic_id)[1]
             if slug in DIRECT_LANGUAGE_SLUGS and 'Arithmetic & Reasoning' in subject:
                 peer = jao_by_question.get(normalized(q['q']))
                 if peer:

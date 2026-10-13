@@ -605,7 +605,7 @@
     "sourceHref": "/papers/group-b/acf-2018-english.pdf",
     "keyHref": null,
     "imported": true,
-    "expectedMcq": 80,
+    "expectedMcq": 65,
     "reviewRequired": true
   },
   {
@@ -2588,13 +2588,13 @@
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3",
     "exam": "Geologist Junior under Commerce & Industries Department",
-    "sitting": "2020",
-    "subject": "General English Paper-III",
+    "sitting": "January 2020",
+    "subject": "Geology Paper III",
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 100
+    "expectedMcq": 100,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-je-agri-2020-english",
@@ -4108,8 +4108,8 @@
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 82
+    "expectedMcq": 100,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-jr-grade-of-mes-combined-july-2024-jr-grade-of-mes-combined-july-2024-ge-dd26ea27",

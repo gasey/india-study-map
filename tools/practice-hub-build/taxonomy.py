@@ -26,7 +26,10 @@ GROUPS = [
 TOPICS = {
     # ---------------------------------------------------------- English
     "parts_of_speech":        ("english", "Parts of Speech"),
+    "verb_tenses":             ("english", "Verb Tenses"),
+    "sentence_types":          ("english", "Sentence Types"),
     "prepositions":           ("english", "Prepositions"),
+    "conjunctions":           ("english", "Conjunctions"),
     "clauses":                ("english", "Clauses"),
     "sentence_transformation": ("english", "Sentence Transformation"),
     "narration":              ("english", "Narration / Reported Speech"),
@@ -54,6 +57,11 @@ TOPICS = {
     "science_physics":           ("gk", "Science — Physics"),
     "science_chemistry":         ("gk", "Science — Chemistry"),
     "science_biology":           ("gk", "Science — Biology"),
+    "geology_mineral_resources": ("gk", "Geology — Mineral Resources"),
+    "geology_ore_deposits":       ("gk", "Geology — Ore Deposits & Geophysics"),
+    "geology_mining_methods":     ("gk", "Geology — Mining & Exploration"),
+    "geology_energy_resources":  ("gk", "Geology — Coal & Petroleum"),
+    "geology_engineering":        ("gk", "Geology — Engineering & Hydrogeology"),
     "sports_misc":               ("gk", "Sports & Miscellaneous"),
 
     # ---------------------------------------------------------- Mizoram

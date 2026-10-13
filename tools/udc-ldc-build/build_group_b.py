@@ -244,7 +244,12 @@ def build():
     assert all(q.get('explanation', '').strip() for q in questions
                if q.get('answerSource') == 'official' and q.get('answerIndex', -1) >= 0)
     ready = [q for q in questions if q.get('type') != 'descriptive' and q.get('answerIndex', -1) >= 0 and not q.get('sourceReview') and not q.get('figureBased')]
-    assert all(q['paperId'] in meta for q in ready), sorted({q['paperId'] for q in ready if q['paperId'] not in meta})
+    # Complete marking metadata is required only for items eligible for a
+    # timed full-paper attempt. A source-incomplete paper can still expose
+    # individually solved practice questions without inventing its cover
+    # duration or scoring scheme.
+    assert all(q['paperId'] in meta for q in ready if not q.get('paperExamExcluded')), sorted(
+        {q['paperId'] for q in ready if not q.get('paperExamExcluded') and q['paperId'] not in meta})
     assert all(q.get('answerKeyRef') for q in ready if q.get('answerSource') == 'official')
     report = {'papers': len(papers), 'items': len(questions), 'mcq': sum(q.get('type') != 'descriptive' for q in questions),
               'written': sum(q.get('type') == 'descriptive' for q in questions), 'ready': len(ready),

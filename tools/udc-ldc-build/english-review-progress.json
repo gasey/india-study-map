@@ -4,10 +4,10 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 6498,
-    "pendingMcq": 3222,
-    "heldReviewed": 302,
-    "pendingWritten": 873
+    "ready": 6804,
+    "pendingMcq": 2856,
+    "heldReviewed": 348,
+    "pendingWritten": 872
   },
   "papers": [
     {
@@ -99,20 +99,71 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/acf-2018-english.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 65,
-      "ready": 0,
+      "ready": 55,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 65,
-      "heldReviewed": 0,
-      "expectedMcq": 80,
-      "missingMcq": 15,
-      "writtenRecords": 0,
-      "writtenGuides": 0,
+      "sourceReviewedMcq": 65,
+      "pendingMcq": 0,
+      "heldReviewed": 10,
+      "expectedMcq": 65,
+      "missingMcq": 0,
+      "writtenRecords": 2,
+      "writtenGuides": 2,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-acf-2018-english-B2",
+          "questionNumber": "B2",
+          "reason": "“Will” is the likely textbook choice, but “shall” can also express first-person future in this sentence; no official key was located."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B4",
+          "questionNumber": "B4",
+          "reason": "Both “could” (ability/request) and “would” (wish/request) can complete “I wish you ___ tell me earlier” depending on intended nuance; no official key was located."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B8",
+          "questionNumber": "B8",
+          "reason": "Both “must” and “should” are grammatical and plausible with a generic recommendation; no context distinguishes obligation from advice."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B10",
+          "questionNumber": "B10",
+          "reason": "Both “might” and “would” can follow “I thought he ___ be at home” under different intended meanings; no official key was located."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B27",
+          "questionNumber": "B27",
+          "reason": "Both “under” and “underneath” are standard and grammatical in this sentence."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B28",
+          "questionNumber": "B28",
+          "reason": "Both “by the 3:30 bus” and “on the 3:30 bus” are idiomatic; the scan provides no contextual distinction."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B34",
+          "questionNumber": "B34",
+          "reason": "The idiomatic meaning of “goes about with” is to accompany/associate with someone, but none of the printed choices states that meaning clearly."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B51",
+          "questionNumber": "B51",
+          "reason": "Both “but” and “though” can form grammatical concessive sentences with the clauses as printed."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B53",
+          "questionNumber": "B53",
+          "reason": "Both “and” (sequence) and “or” (choice) can connect the imperatives; the intended relation is not specified."
+        },
+        {
+          "id": "mpsc-group-b-acf-2018-english-B58",
+          "questionNumber": "B58",
+          "reason": "As printed, the stem already contains “for” after the blank; none of the choices yields a sound sentence when inserted. The item appears defective."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-acm-2026-tech-p1",
@@ -839,20 +890,91 @@
       "sourceSha256": "16f3dc314a198ff2efc0cdfd90c620a339e7467dec80eafe2e84f93dbb02cd19",
       "archivePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 80,
-      "ready": 0,
+      "ready": 66,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 14,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenGuides": 1,
+      "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B1",
+          "questionNumber": "B1",
+          "reason": "The idiom means a fair-weather friend is dependable only in favourable times; no option states that meaning. “Selfish” is only an indirect trait and is not an equivalent definition."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B13",
+          "questionNumber": "B13",
+          "reason": "“Time and again”, “off and on”, and “now and then” can all fit the sentence, with differing frequency implications but no context to select one."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B32",
+          "questionNumber": "B32",
+          "reason": "Both “Massacre on the road” and “Uncivil behaviour of drivers” describe the passage’s central idea; the paper gives no unique-title criterion."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B33",
+          "questionNumber": "B33",
+          "reason": "Several options can grammatically modify “dressed” (colourfully, beautifully, happily); no context distinguishes one."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B37",
+          "questionNumber": "B37",
+          "reason": "Both “fast” and “quickly” are grammatical adverbs with “time passed”; no unique answer."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B38",
+          "questionNumber": "B38",
+          "reason": "“Serious”, “ghastly”, and “fair” are adjectives that can follow “look”; without context this item has several grammatical options."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B41",
+          "questionNumber": "B41",
+          "reason": "“Surprised at” and “surprised by” both fit “the way he behaved.”"
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B43",
+          "questionNumber": "B43",
+          "reason": "Both “disappointed with the hotel” and “disappointed in the hotel” are standard usage."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B52",
+          "questionNumber": "B52",
+          "reason": "“Assertive” describes the declarative sentence form; “affirmative” describes its positive polarity. The question’s categories overlap."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B55",
+          "questionNumber": "B55",
+          "reason": "“Statement”, “assertive”, and “affirmative” overlap for this positive declarative sentence; no unique category is specified."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B56",
+          "questionNumber": "B56",
+          "reason": "The sentence is a statement, and its main clause is active while the subordinate clause is passive; the options mix classification dimensions."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B71",
+          "questionNumber": "B71",
+          "reason": "Both “intervene in” and “interfere in” can mean getting involved in matters outside one’s business."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B77",
+          "questionNumber": "B77",
+          "reason": "Both “customarily” and “traditionally” are grammatical and close in meaning in this context."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B78",
+          "questionNumber": "B78",
+          "reason": "Both “presentation” and “show” can refer to a theatre production of a play; the stem supplies no distinction."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2015-mpe-ss-2015-5-mpe-ss-2015-general-english-0439a35c",
@@ -2663,20 +2785,101 @@
       "sourceSha256": "6150708e440ad75a4d166c545c63057471925f41b6eed061f58085ac76886851",
       "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
-      "mcq": 42,
-      "ready": 0,
+      "status": "ready-with-held-items",
+      "mcq": 100,
+      "ready": 84,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 42,
-      "heldReviewed": 0,
-      "expectedMcq": 82,
-      "missingMcq": 40,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 16,
+      "expectedMcq": 100,
+      "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q11",
+          "questionNumber": "11",
+          "reason": "The natural completion is “I completed the assignment I had been given,” but “completed” is not offered. The offered past-perfect “had completed” is possible only under a different unstated timeline, while “was completing” can also fit a different context; the item provides no time context that selects one."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q14",
+          "questionNumber": "14",
+          "reason": "Both “contemplated” and “had been contemplating” can fit a past plan later cancelled; the sentence gives no context that selects one tense uniquely."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q15",
+          "questionNumber": "15",
+          "reason": "Both “started” and “am starting” can be grammatical in different time contexts; no time cue makes one uniquely correct."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q26",
+          "questionNumber": "26",
+          "reason": "Both “above mine” and “over mine” can describe the vertical position of the flat; the sentence does not rule out either option, so no unique key is safe."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q28",
+          "questionNumber": "28",
+          "reason": "The sentence and choices do not provide a sound unique completion. “Lest you are late” is nonstandard (normally “lest you be late”), while the other choices do not express the intended warning cleanly."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q36",
+          "questionNumber": "36",
+          "reason": "Both option A and option D are grammatical complex-sentence conversions with the same meaning; the item has duplicate valid answers."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q43",
+          "questionNumber": "43",
+          "reason": "Both option B (“too weak to walk”) and option D (“as a consequence of his weakness”) are simple sentences preserving the meaning. The question does not specify a more precise simple construction, so it has duplicate defensible answers."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q44",
+          "questionNumber": "44",
+          "reason": "The printed source says “It is so cold that I had to turn off the fan,” mixing present and past. The only candidate compound answer (C) repeats a present/past mismatch (“It is ... and so I turned off ...”). No offered option is a clean, meaning-preserving compound transformation."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q49",
+          "questionNumber": "49",
+          "reason": "Options A and B both use a verb and preserve the meaning: “was beautified” and “made ... beautiful” are valid transformations."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q50",
+          "questionNumber": "50",
+          "reason": "The requested affirmative transformation is defective: the negative meaning “not seen by anyone” cannot be expressed by any supplied affirmative option without changing the meaning."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q51",
+          "questionNumber": "51",
+          "reason": "No option correctly uses an adjective while preserving the meaning. The expected wording would be something like “He gave the ladies a charming smile.”"
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q59",
+          "questionNumber": "59",
+          "reason": "The expected “too ... to” conversion would be “The movie was too violent for me to finish.” Option D omits “for me” and changes the understood subject; the other options do not use an infinitive construction. No offered answer fully preserves the meaning."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q60",
+          "questionNumber": "60",
+          "reason": "Both option B (“Finishing his work…”) and option D (“after finishing his work”) contain a participial construction and preserve the sequence; the item has more than one plausible answer."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q63",
+          "questionNumber": "63",
+          "reason": "Both options A and C are grammatical “although” constructions expressing the same contrast between the promise and the workers’ continued anger. The changed clause order does not establish a unique answer."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q64",
+          "questionNumber": "64",
+          "reason": "All four options misuse “neither” with an already negative clause. A correct form would be “Kim neither forgot the thief’s name nor his face.”"
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q87",
+          "questionNumber": "87",
+          "reason": "Both “obstruse” (apparently intended as “obscure,” though misspelled in print) and “subtle” can mean not obvious; spelling/meaning makes the intended antonym unreliable."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650",
@@ -3917,20 +4120,51 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
-      "mcq": 79,
-      "ready": 0,
+      "status": "ready-with-held-items",
+      "mcq": 100,
+      "ready": 94,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 79,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 6,
       "expectedMcq": 100,
-      "missingMcq": 21,
+      "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-asce-2021-english-p2-Q45",
+          "questionNumber": "45",
+          "reason": "The sentence coordinates two predicates under one expressed subject (“He was born great but didn’t achieve greatness”). By strict clause-based classification this is simple with a compound predicate; some school keys treat the coordinated predicates as compound. Hold because the source offers no convention to settle the classification."
+        },
+        {
+          "id": "mpsc-group-b-asce-2021-english-p2-Q56",
+          "questionNumber": "56",
+          "reason": "“Hey, no smoking in here!” is an exclamatory prohibition with imperative force. Both imperative and exclamatory can describe it under the paper’s broad sentence-type labels; hold as ambiguous."
+        },
+        {
+          "id": "mpsc-group-b-asce-2021-english-p2-Q68",
+          "questionNumber": "68",
+          "reason": "The fourth option is visibly mislabelled “(c)” in the source, duplicating the third option’s label. Although the intended answer is the adverb clause, the printed choice label is defective; hold unscored. The scan labels both the third and fourth choices “(c)”; the fourth choice is retained in slot d as printed text value and the item is held unscored because its printed label is defective."
+        },
+        {
+          "id": "mpsc-group-b-asce-2021-english-p2-Q77",
+          "questionNumber": "77",
+          "reason": "The natural idiom is “pass over the faults” (overlook them), but that choice is absent. “Passed by” is the closest option but is not a standard equivalent in this construction; hold as defective."
+        },
+        {
+          "id": "mpsc-group-b-asce-2021-english-p2-Q84",
+          "questionNumber": "84",
+          "reason": "Both “show restraint” and “exhibit restraint” are grammatical and have the same meaning. Hold because two choices are correct."
+        },
+        {
+          "id": "mpsc-group-b-asce-2021-english-p2-Q89",
+          "questionNumber": "89",
+          "reason": "Both “grossly inappropriate” and “grossly unfair” are grammatical, natural completions and convey nearly the same criticism. The item does not give enough context to distinguish options (a) and (c); hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-asi-2024-p1",
@@ -5008,19 +5242,19 @@
     {
       "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
       "exam": "Geologist Junior under Commerce & Industries Department",
-      "sitting": "2020",
-      "subject": "General English Paper-III",
+      "sitting": "January 2020",
+      "subject": "Geology Paper III",
       "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
-      "mcq": 100,
-      "ready": 0,
+      "status": "content-ready",
+      "mcq": 7,
+      "ready": 7,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
+      "sourceReviewedMcq": 7,
+      "pendingMcq": 0,
       "heldReviewed": 0,
-      "expectedMcq": 100,
-      "missingMcq": 0,
+      "expectedMcq": null,
+      "missingMcq": null,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,

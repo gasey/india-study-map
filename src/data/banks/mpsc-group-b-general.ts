@@ -3520,7 +3520,7 @@ export const groupBGeneralPapers: ExamPaper[] = [
     "examName": "Geologist Junior under Commerce & Industries Department",
     "post": "Geologist Junior under Commerce & Industries Department",
     "paperNumber": "Paper-III",
-    "paperSubject": "General English Paper-III",
+    "paperSubject": "Geology Paper III",
     "year": 2020,
     "sourceFile": "/papers/group-b/geologist-jun-2020-english-p3.pdf"
   },
@@ -99858,8 +99858,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B1",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "The policeman ___________ the thief red-handed.",
     "options": [
@@ -99868,17 +99868,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "is caught",
       "catching"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Caught red-handed” is the past-tense predicate describing what the policeman did.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -99887,8 +99886,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B2",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "I do not think I ___________ be able to go.",
     "options": [
@@ -99898,7 +99897,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "shall"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: “Will” is the likely textbook choice, but “shall” can also express first-person future in this sentence; no official key was located.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
@@ -99907,7 +99906,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "“Will” is the likely textbook choice, but “shall” can also express first-person future in this sentence; no official key was located.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -99916,8 +99916,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B3",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "The whole day yesterday, the boys ___________ to the cricket commentary.",
     "options": [
@@ -99926,17 +99926,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "has listened",
       "listened"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Yesterday” places the completed listening in the past, so “listened” fits.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -99945,8 +99944,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B4",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "I wish you ___________ tell me earlier.",
     "options": [
@@ -99956,7 +99955,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "will"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “could” (ability/request) and “would” (wish/request) can complete “I wish you ___ tell me earlier” depending on intended nuance; no official key was located.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
@@ -99965,7 +99964,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “could” (ability/request) and “would” (wish/request) can complete “I wish you ___ tell me earlier” depending on intended nuance; no official key was located.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -99974,8 +99974,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B5",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "After ___________ into the bus we discovered that we had boarded the wrong one.",
     "options": [
@@ -99984,17 +99984,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "getting",
       "had got"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "After a preposition, the gerund “getting” is used.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -100003,8 +100002,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B6",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "You ___________ to pay your debts.",
     "options": [
@@ -100013,17 +100012,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "ought",
       "will"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The construction is “ought to pay”; only “ought” fits before “to”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -100032,8 +100030,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B7",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "Last week some wicked people ___________ brown sugar into the town but they were arrested.",
     "options": [
@@ -100042,17 +100040,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "have smuggled",
       "are smuggling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Last week” requires the simple past “smuggled”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -100061,8 +100058,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B8",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "Students ___________ get up early.",
     "options": [
@@ -100072,7 +100069,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "would"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “must” and “should” are grammatical and plausible with a generic recommendation; no context distinguishes obligation from advice.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
@@ -100081,7 +100078,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “must” and “should” are grammatical and plausible with a generic recommendation; no context distinguishes obligation from advice.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -100090,8 +100088,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B9",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "In the morning, he ___________ a torn shirt but in the evening he changed it.",
     "options": [
@@ -100100,17 +100098,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "has put on",
       "was put on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Putting on the shirt preceded the later change, so past perfect “had put on” fits.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -100119,8 +100116,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B10",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
     "difficulty": "medium",
     "question": "I thought he ___________ at home.",
     "options": [
@@ -100130,7 +100127,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "would"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “might” and “would” can follow “I thought he ___ be at home” under different intended meanings; no official key was located.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=2",
@@ -100139,7 +100136,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “might” and “would” can follow “I thought he ___ be at home” under different intended meanings; no official key was located.",
     "direction": "Directions (Questions 1-10): Fill in the blanks with appropriate form of the verb given."
   },
   {
@@ -100148,27 +100146,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B11",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "Let us move **on**.",
+    "question": "Let us move __on__.",
     "options": [
       "verb",
       "adverb",
       "conjunction",
       "preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "In “move on,” “on” is an adverbial particle in the phrasal verb.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100177,24 +100174,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B12",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "The man wears a **green** coat.",
+    "question": "The man wears a __green__ coat.",
     "options": [
       "noun",
       "adjective",
       "adverb",
       "verb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Green” modifies the noun “coat,” so it is an adjective.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100203,24 +100202,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B13",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**They** did a fine work.",
+    "question": "__They__ did a fine work.",
     "options": [
       "noun",
       "verb",
       "pronoun",
       "preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“They” stands in for a noun phrase and is a pronoun.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100229,24 +100230,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B14",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "I ran fast **but** missed the bus.",
+    "question": "I ran fast __but__ missed the bus.",
     "options": [
       "conjunction",
       "preposition",
       "adverb",
       "pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“But” joins two clauses, so it is a conjunction.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100255,24 +100258,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B15",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "The patient has not eaten **since** yesterday.",
+    "question": "The patient has not eaten __since__ yesterday.",
     "options": [
       "preposition",
       "verb",
       "adjective",
       "adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Since” takes the noun phrase “yesterday,” functioning as a preposition.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100281,24 +100286,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B16",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "Rachel want to go to a **university** in the United States.",
+    "question": "Rachel want to go to a __university__ in the United States.",
     "options": [
       "adjective",
       "preposition",
       "noun",
       "pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“University” names an institution and is a noun.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100307,24 +100314,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B17",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**Ah!** What a sight.",
+    "question": "__Ah!__ What a sight.",
     "options": [
       "preposition",
       "interjection",
       "pronoun",
       "conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Ah!” expresses an exclamation and is an interjection.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100333,24 +100342,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B18",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "I’m sure I’ve **met** your parents before.",
+    "question": "I’m sure I’ve __met__ your parents before.",
     "options": [
       "verb",
       "adverb",
       "interjection",
       "pronoun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Met” is the main verb, in the present perfect construction “have met”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100359,24 +100370,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B19",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "Andy knocked on the door **but** nobody answered.",
+    "question": "Andy knocked on the door __but__ nobody answered.",
     "options": [
       "adverb",
       "adjective",
       "conjunction",
       "interjection"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“But” joins the two clauses, so it is a conjunction.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100385,24 +100398,26 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B20",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**After** lunch let’s go out for a coffee.",
+    "question": "__After__ lunch let’s go out for a coffee.",
     "options": [
       "pronoun",
       "preposition",
       "verb",
       "adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“After” governs the noun “lunch,” so it is a preposition.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify the part of speech of the underlined words/sentence."
   },
   {
@@ -100411,8 +100426,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B21",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "The thief entered the house __________ the window.",
     "options": [
@@ -100421,17 +100436,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "through",
       "into"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Entering by way of the window is expressed with “through”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100440,8 +100454,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B22",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "You must abide __________ the rules of the organisation.",
     "options": [
@@ -100450,17 +100464,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "with",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The fixed expression is “abide by the rules”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100469,8 +100482,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B23",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "There is no unity __________ the players.",
     "options": [
@@ -100479,17 +100492,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "towards",
       "among"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Among” is the standard choice for unity within a group of players.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100498,8 +100510,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B24",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "His illness has taken a turn __________ the worst.",
     "options": [
@@ -100508,17 +100520,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "of",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The idiom is “take a turn for the worse”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100527,8 +100538,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B25",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "The tiger jumped __________ the fence.",
     "options": [
@@ -100537,17 +100548,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "across",
       "above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A tiger jumps over a fence when crossing above it.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100556,8 +100566,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B26",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "They sat __________ campfires and sang all night.",
     "options": [
@@ -100566,17 +100576,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "besides",
       "through"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Round” means around the campfires.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100585,8 +100594,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B27",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "Are you wearing anything __________ your cardigan?",
     "options": [
@@ -100596,7 +100605,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "by"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “under” and “underneath” are standard and grammatical in this sentence.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
@@ -100605,7 +100614,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “under” and “underneath” are standard and grammatical in this sentence.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100614,8 +100624,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B28",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "He is arriving __________ the 3:30 bus.",
     "options": [
@@ -100625,7 +100635,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "on"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “by the 3:30 bus” and “on the 3:30 bus” are idiomatic; the scan provides no contextual distinction.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
@@ -100634,7 +100644,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “by the 3:30 bus” and “on the 3:30 bus” are idiomatic; the scan provides no contextual distinction.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100643,8 +100654,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B29",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "He succumbed __________ his injuries.",
     "options": [
@@ -100653,17 +100664,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "for",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The verb takes the preposition “to”: “succumbed to his injuries”.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100672,8 +100682,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B30",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "She is not interested __________ buying new clothes now.",
     "options": [
@@ -100682,17 +100692,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "in",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The fixed construction is “interested in” doing something.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Fill in the blanks with appropriate preposition."
   },
   {
@@ -100701,25 +100710,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B31",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "I told the students to buckle down this semester.",
+    "question": "I told the students to __buckle down__ this semester.",
     "options": [
       "work seriously",
       "take it easy",
       "drop a subject",
       "go for a vacation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Buckle down” means to apply oneself seriously to work.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B32",
@@ -100727,25 +100738,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B32",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "This is a hard nut to crack.",
+    "question": "This is a __hard nut to crack__.",
     "options": [
       "expensive thing",
       "a difficult problem",
       "a foolish search",
       "an easy question"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A “hard nut to crack” is a difficult problem.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B33",
@@ -100753,25 +100766,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B33",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "Mrs. Roy keeps an open house on Saturday evening parties, you’ll find all kinds of people there.",
+    "question": "Mrs. Roy __keeps an open house__ on Saturday evening parties, you’ll find all kinds of people there.",
     "options": [
       "welcomes all members",
       "welcomes a select group",
       "keeps the door of the house open",
       "keeps the gates open for a few people."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Keep an open house” means welcome visitors generally; option (a) is the closest offered.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B34",
@@ -100779,10 +100794,10 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B34",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The young servant goes about with the old master.",
+    "question": "The young servant __goes about__ with the old master.",
     "options": [
       "goes around",
       "moves around",
@@ -100790,14 +100805,15 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "tries to know more about"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: The idiomatic meaning of “goes about with” is to accompany/associate with someone, but none of the printed choices states that meaning clearly.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceReviewed": true,
+    "sourceNote": "The idiomatic meaning of “goes about with” is to accompany/associate with someone, but none of the printed choices states that meaning clearly.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B35",
@@ -100805,25 +100821,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B35",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The master loves to rock the boat.",
+    "question": "The master loves to __rock the boat__.",
     "options": [
       "to conspire against",
       "to agitate against",
       "to upset the balance",
       "to create difficulties."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Rock the boat” means cause trouble or disturbance; “create difficulties” is the closest offered choice.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B36",
@@ -100831,25 +100849,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B36",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "I go to the theatre once in a blue moon.",
+    "question": "I go to the theatre __once in a blue moon__.",
     "options": [
       "often",
       "infrequently",
       "daily",
       "always"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Once in a blue moon” means very rarely.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B37",
@@ -100857,25 +100877,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B37",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The Maths test was a piece of cake.",
+    "question": "The Maths test was a __piece of cake__.",
     "options": [
       "hard",
       "easy",
       "problematic",
       "difficult"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“A piece of cake” means something easy.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B38",
@@ -100883,25 +100905,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B38",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The ball is in your court, its up to you.",
+    "question": "The __ball is in your court__, its up to you.",
     "options": [
       "your decision",
       "accomplish",
       "miss the chance you have to",
       "congenial"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“The ball is in your court” means the next decision or action is yours.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B39",
@@ -100909,25 +100933,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B39",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "He was in the doldrums after being insulted in.",
+    "question": "He was __in the doldrums__ after being insulted in.",
     "options": [
       "low spirits",
       "hilarious",
       "high spirited",
       "dedicated"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“In the doldrums” means in low spirits; the printed sentence has an unrelated trailing “in.”",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B40",
@@ -100935,25 +100961,27 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B40",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The sisters finally saw eye to eye on the matter.",
+    "question": "The sisters finally __saw eye to eye__ on the matter.",
     "options": [
       "agreed",
       "disagreed",
       "watched",
       "differed"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Saw eye to eye” means agreed.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 31-40): Which of the given alternatives best expresses the meaning of the Idiom/phrase marked in italics."
   },
   {
     "id": "mpsc-group-b-acf-2018-english-B41",
@@ -100961,8 +100989,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B41",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "It may be sunny today.",
     "options": [
@@ -100971,14 +100999,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "possibility",
       "ability"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“May” expresses possibility.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -100987,8 +101017,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B42",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "One must always respect and treat the elders well.",
     "options": [
@@ -100997,14 +101027,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "possibility",
       "purpose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Must” expresses obligation.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101013,8 +101045,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B43",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Keep quiet.",
     "options": [
@@ -101023,14 +101055,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "prohibition",
       "duty"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Keep quiet” is an order.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101039,8 +101073,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B44",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Would you kindly come along with us.",
     "options": [
@@ -101049,14 +101083,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "duty",
       "purpose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Would you kindly” frames the imperative as a request.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101065,8 +101101,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B45",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "The family usually travel by air.",
     "options": [
@@ -101075,14 +101111,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "purpose",
       "obligation"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Usually” signals a habitual action.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101091,8 +101129,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B46",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Don’t smoke please.",
     "options": [
@@ -101101,14 +101139,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "advice",
       "duty"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The polite “please” frames “Don’t smoke” as a request.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101117,8 +101157,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B47",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Get out.",
     "options": [
@@ -101127,14 +101167,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "request",
       "purpose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Get out” is a direct command.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101143,8 +101185,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B48",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Have fun at the fair.",
     "options": [
@@ -101153,14 +101195,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "possibility",
       "threat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Have fun” expresses a wish for the listener.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101169,8 +101213,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B49",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Feed the fish once a day.",
     "options": [
@@ -101179,14 +101223,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "purpose",
       "habitual"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Feed the fish once a day” gives an instruction.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101195,8 +101241,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B50",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Do have tea with me.",
     "options": [
@@ -101205,14 +101251,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "purpose",
       "order"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Do have tea with me” invites the listener.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 41-50): Identify the notion/concept expressed by each of the sentences."
   },
   {
@@ -101221,8 +101269,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B51",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "He finished first __________ he began late.",
     "options": [
@@ -101232,7 +101280,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "because"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “but” and “though” can form grammatical concessive sentences with the clauses as printed.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
@@ -101241,7 +101289,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “but” and “though” can form grammatical concessive sentences with the clauses as printed.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101250,8 +101299,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B52",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "My grandfather died __________ I was born.",
     "options": [
@@ -101260,17 +101309,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "because",
       "or"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The grandfather’s death occurred before the speaker’s birth.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101279,8 +101327,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B53",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "Come in __________ go out.",
     "options": [
@@ -101290,7 +101338,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "however"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: Both “and” (sequence) and “or” (choice) can connect the imperatives; the intended relation is not specified.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
@@ -101299,7 +101347,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "Both “and” (sequence) and “or” (choice) can connect the imperatives; the intended relation is not specified.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101308,8 +101357,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B54",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "The war was lost; __________ the country was occupied.",
     "options": [
@@ -101318,17 +101367,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "otherwise",
       "or"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The occupation follows as a consequence of the war being lost.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101337,8 +101385,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B55",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "I started on time __________ was late.",
     "options": [
@@ -101347,17 +101395,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "but",
       "otherwise"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“But” introduces the contrast between starting on time and being late.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101366,8 +101413,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B56",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "She was late, __________ the game had not started.",
     "options": [
@@ -101376,17 +101423,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "however",
       "or"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“But” expresses the contrast between her being late and the game not having started yet.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101395,8 +101441,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B57",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "I was sick; __________ ,I did not go to work.",
     "options": [
@@ -101405,17 +101451,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "since",
       "still"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Therefore” introduces the consequence of being sick.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101424,8 +101469,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B58",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "He can’t go home __________ for he has no place to go.",
     "options": [
@@ -101435,7 +101480,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "however"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Held for review: As printed, the stem already contains “for” after the blank; none of the choices yields a sound sentence when inserted. The item appears defective.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=6",
@@ -101444,7 +101489,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceReviewed": true,
+    "sourceNote": "As printed, the stem already contains “for” after the blank; none of the choices yields a sound sentence when inserted. The item appears defective.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101453,8 +101499,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B59",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "He has car, __________ he can’t drive it.",
     "options": [
@@ -101463,17 +101509,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "consequently",
       "because"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Yet” marks the contrast between owning a car and being unable to drive it.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101482,8 +101527,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B60",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "conjunctions",
+    "topicLabel": "Conjunctions",
     "difficulty": "medium",
     "question": "I have graduated, __________ I will go on training.",
     "options": [
@@ -101492,17 +101537,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "and",
       "yet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“So” introduces the next step resulting from graduation.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 51-60): Choose the correct conjunction to fill in the blanks."
   },
   {
@@ -101511,8 +101555,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B61",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "One who is not sure about God’s existence:",
     "options": [
@@ -101521,17 +101565,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "anarchist",
       "agnostic"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "An agnostic is unsure whether God exists.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases."
   },
   {
@@ -101540,8 +101583,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B62",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "A lover of oneself:",
     "options": [
@@ -101550,17 +101593,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "narcissist",
       "hedonist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A narcissist is excessively self-admiring or self-loving.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases."
   },
   {
@@ -101569,8 +101611,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B63",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "One who does not care for art and literature:",
     "options": [
@@ -101579,17 +101621,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "philistine",
       "misogamist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A philistine is indifferent or hostile to art and culture.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases."
   },
   {
@@ -101598,8 +101639,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B64",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "An unconventional style of living:",
     "options": [
@@ -101608,17 +101649,16 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "effeminate",
       "pyromania"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Bohemian” describes an unconventional way of life.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases."
   },
   {
@@ -101627,8 +101667,8 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "questionNumber": "B65",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "One who is a centre of attraction:",
     "options": [
@@ -101637,18 +101677,55 @@ const groupBQuestionsPart12: BankQuestion[] = [
       "henpeck",
       "agoraphobe"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A cynosure is a person or thing that attracts attention.",
     "source": "Assistant Conservator of Forest · 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 61-65): Choose the appropriate one-word substitute for the given phrases."
+  },
+  {
+    "id": "mpsc-group-b-acf-2018-english-written-1",
+    "paperId": "mpsc-group-b-acf-2018-english",
+    "type": "descriptive",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write an essay on __any 1 (one)__ of the given topics (20 marks): (a) Conservation of the flora and fauna in Mizoram; (b) Impact of technology in Society; (c) Environmental Problems and its Solutions.",
+    "explanation": "Choose one topic. Plan a focused thesis, organize relevant examples into clear paragraphs, and conclude by linking your points back to the main idea. Reserve time to check structure, grammar, and spelling.",
+    "sourceReview": false,
+    "sourceReviewed": true,
+    "sourceNote": "",
+    "source": "Assistant Conservator of Forest · 2018",
+    "year": 2018,
+    "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=1"
+  },
+  {
+    "id": "mpsc-group-b-acf-2018-english-written-2",
+    "paperId": "mpsc-group-b-acf-2018-english",
+    "type": "descriptive",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "written",
+    "topicLabel": "General English · written",
+    "difficulty": "medium",
+    "question": "Write a précis of the following passage (15 marks):\nTechnology now threatens to grow into a system, functioning purely in its own interests without regard for the best interest of mankind. Symptomatic of this is the way in which technology has been driven to evolve a special technique for suggesting to man what he imagines he needs. We might eventually arrive at a stage where man, who should be the beneficiary of modern production, becomes a slave to the productive process. On the one hand, he may buy a car, a television set or a washing machine but he becomes, on the other hand, in the office, at his machine in the factory, at his drawing board, in sales-promotion, or even in the manager’s office, merely a tiny cog in a gigantic organisation. He performs his function and plays his part. The little humanity and individuality he has, must be bought at the price of living to further the aims of others. Instead of being able to participate in lively cut-and-thrust of dealing with his fellow beings, instead of handling matters that concern real people, a modern business man leads a remarkably abstract sort of life. The result is that feeling of “not-belonging”, so often deplored these days in public discussions. It is an inner emotion of modern man who experiences sensations of rootlessness, of belonging nowhere, who feels a stranger in his own backyard. Man’s liberation from the vagaries of nature, the basic task we attributed to technology, has now become, by a strange freak of logic, man’s alienation from nature. And what in its beginning seemed destined to exert a humanising influence on man, now turns out to be brutalising him.",
+    "explanation": "Identify the central argument and supporting points, omit examples and repetition, use your own concise wording, preserve the author’s meaning, and give the précis an appropriate title if required.",
+    "sourceReview": false,
+    "sourceReviewed": true,
+    "sourceNote": "",
+    "source": "Assistant Conservator of Forest · 2018",
+    "year": 2018,
+    "sourceHref": "/papers/group-b/acf-2018-english.pdf#page=1"
   },
   {
     "id": "mpsc-group-b-acf-2018-gk-Q1",
@@ -102539,7 +102616,9 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart13: BankQuestion[] = [
   {
     "id": "mpsc-group-b-acf-2018-gk-Q34",
     "paperId": "mpsc-group-b-acf-2018-gk",
@@ -102593,9 +102672,7 @@ const groupBQuestionsPart12: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart13: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-acf-2018-gk-Q36",
     "paperId": "mpsc-group-b-acf-2018-gk",
@@ -104354,25 +104431,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "1",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "Harry **and** his friends are in a hurry.",
+    "question": "Harry __and__ his friends are in a hurry.",
     "options": [
       "Noun",
       "Pronoun",
       "Verb",
       "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“And” joins two nouns/groups, so it is a coordinating conjunction.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q2",
@@ -104380,25 +104459,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "2",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**None** of my friends was in the class.",
+    "question": "__None__ of my friends was in the class.",
     "options": [
       "Noun",
       "Pronoun",
       "Verb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“None” stands in for “not one” of the friends; it is a pronoun.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q3",
@@ -104406,25 +104487,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "3",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "The **swimmer** got off the road in a hurry.",
+    "question": "The __swimmer__ got off the road in a hurry.",
     "options": [
       "Noun",
       "Pronoun",
       "Verb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Swimmer” names a person, so it is a noun.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q4",
@@ -104432,25 +104515,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "4",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**Freedom** is a great blessing indeed.",
+    "question": "__Freedom__ is a great blessing indeed.",
     "options": [
       "Noun",
       "Pronoun",
       "Verb",
       "Adjective"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Freedom” names an abstract quality/state, so it is a noun.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q5",
@@ -104458,25 +104543,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "5",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "What an **amusing** show!",
+    "question": "What an __amusing__ show!",
     "options": [
       "Noun",
       "Pronoun",
       "Adjective",
       "Adverb"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Amusing” describes the show, so it is an adjective.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q6",
@@ -104484,25 +104571,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "6",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**Lift** this load and keep it in the corner.",
+    "question": "__Lift__ this load and keep it in the corner.",
     "options": [
       "Adjective",
       "Adverb",
       "Verb",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Lift” is the action verb in this imperative sentence.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q7",
@@ -104510,25 +104599,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "7",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "You **look** awesome.",
+    "question": "You __look__ awesome.",
     "options": [
       "Adjective",
       "Adverb",
       "Verb",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Look” is a linking verb connecting “you” with the adjective “awesome.”",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q8",
@@ -104536,25 +104627,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "8",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "It is **too** hot to go out.",
+    "question": "It is __too__ hot to go out.",
     "options": [
       "Adjective",
       "Adverb",
       "Verb",
       "Preposition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Too” modifies the adjective “hot,” so it is an adverb.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q9",
@@ -104562,25 +104655,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "9",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "**Ohh!** What a blunder.",
+    "question": "__Ohh!__ What a blunder.",
     "options": [
       "Preposition",
       "Conjunction",
       "Interjection",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Ohh!” expresses a sudden feeling, so it is an interjection.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q10",
@@ -104588,25 +104683,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "10",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "He jumped **off** his bicycle.",
+    "question": "He jumped __off__ his bicycle.",
     "options": [
       "Preposition",
       "Conjunction",
       "Interjection",
       "Noun"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Off” is a preposition taking “his bicycle” as its object.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=1",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 1 - 10) : Choose the correct Part of Speech for the underlined words from the choices given below:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q11",
@@ -104614,8 +104711,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "11",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Be off my eyes.",
     "options": [
@@ -104624,15 +104721,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Be off my eyes” is a direct order, so it is a command.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q12",
@@ -104640,8 +104739,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "12",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Forgive me, my Lord.",
     "options": [
@@ -104650,15 +104749,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Forgive me, my Lord” is a plea, so it is a request.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q13",
@@ -104666,8 +104767,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "13",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Let me show you how this is done.",
     "options": [
@@ -104676,15 +104777,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Let me show you” offers an action, so it is a proposal.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q14",
@@ -104692,8 +104795,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "14",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Always take good care of your health.",
     "options": [
@@ -104702,15 +104805,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Always take good care” gives guidance about health, so it is advice.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q15",
@@ -104718,8 +104823,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "15",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Do what I bid you.",
     "options": [
@@ -104728,15 +104833,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Do what I bid you” is a direct order, so it is a command.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q16",
@@ -104744,8 +104851,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "16",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Do not insult your elders.",
     "options": [
@@ -104754,15 +104861,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The negative imperative urges proper treatment of elders; it is advice.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q17",
@@ -104770,8 +104879,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "17",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Stop all your tantrums.",
     "options": [
@@ -104780,18 +104889,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Stop all your tantrums” is a direct order, so it is a command.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q18",
@@ -104799,8 +104907,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "18",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Do not disobey your parents.",
     "options": [
@@ -104809,15 +104917,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The negative imperative advises respect for parents; it is advice.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q19",
@@ -104825,8 +104935,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "19",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Let me make an effort to help you.",
     "options": [
@@ -104835,18 +104945,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Let me make an effort” proposes the speaker’s action, so it is a proposal.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q20",
@@ -104854,8 +104963,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "20",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Speak some kind words, please.",
     "options": [
@@ -104864,18 +104973,287 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Request",
       "Proposal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The polite “please” makes this a request.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 11 - 20) : Identify the type of Imperative sentences and pick out the correct answer from the given types."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q21",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "21",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "The lights are already out for the day.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Are” is present tense.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q22",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "22",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "The proceedings will continue today.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Will continue” is future tense.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q23",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "23",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "Were you afraid of him?",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Were” is past tense.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q24",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "24",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "The children continued corresponding with their school friends.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Continued” is past tense.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q25",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "25",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "Dina has failed the last examination.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 0,
+    "explanation": "The present perfect “has failed” is classified as present tense in this three-way tense set.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q26",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "26",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "They will have settled the matter by then.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Will have settled” is future perfect, within the future tense category.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q27",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "27",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "Ladies will be in their best clothes for the dinner party.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Will be” is future tense.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q28",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "28",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "She has had her lunch at the time we met her.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Had had” is past perfect, within the past tense category; the clause anchors it to a past time.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q29",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "29",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "The wife has betrayed her husband.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Has betrayed” is present perfect, within the present tense category.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q30",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "30",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "We had a walk in the fresh morning breeze.",
+    "options": [
+      "present tense",
+      "past tense",
+      "future tense"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Had” is past tense.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 21 - 30) : Identify the tense of the given sentences and choose the correct answer from the options provided at the end of each:"
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q31",
@@ -104883,28 +105261,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "31",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "The capseller rested ___________ a shady tree.",
+    "question": "The capseller rested _______ a shady tree.",
     "options": [
       "above",
       "behind",
       "before",
       "beneath"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Beneath a shady tree” gives the position of the capseller; beneath is the fitting preposition.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q32",
@@ -104912,28 +105289,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "32",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "My uncle sent a watch ___________ me.",
+    "question": "My uncle sent a watch _______ me.",
     "options": [
       "for",
       "at",
       "by",
       "on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“For me” is the only fitting listed phrase: the watch was sent for the speaker’s benefit.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q33",
@@ -104941,28 +105317,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "33",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "This is the school that she studies___________.",
+    "question": "This is the school that she studies_______.",
     "options": [
       "on",
       "in",
       "of",
       "by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The standard construction is “the school that she studies in.”",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q34",
@@ -104970,28 +105345,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "34",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "A knife is to cut ___________.",
+    "question": "A knife is to cut _______.",
     "options": [
       "on",
       "with",
       "by",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The tool is a knife “to cut with.”",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q35",
@@ -104999,28 +105373,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "35",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "The amount is ___________ my ability to spend.",
+    "question": "The amount is _______ my ability to spend.",
     "options": [
       "over",
       "behind",
       "beyond",
       "above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Beyond my ability” means exceeding what I can spend.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q36",
@@ -105028,28 +105401,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "36",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "The players will be chosen ___________ their all-year performance.",
+    "question": "The players will be chosen _______ their all-year performance.",
     "options": [
       "during",
       "considering",
       "owing",
       "regarding"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Performance is the consideration used in selection; “considering” fits.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q37",
@@ -105057,28 +105429,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "37",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "Please do not disturb me ___________ my examinations.",
+    "question": "Please do not disturb me _______ my examinations.",
     "options": [
       "during",
       "considering",
       "owing",
       "regarding"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“During my examinations” locates the time period.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q38",
@@ -105086,28 +105457,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "38",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "At the end of the long journey, all the children opened up ___________ their likes and dislikes.",
+    "question": "At the end of the long journey, all the children opened up _______ their likes and dislikes.",
     "options": [
       "during",
       "considering",
       "owing",
       "regarding"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Opened up regarding” means spoke openly about their likes and dislikes.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q39",
@@ -105115,28 +105485,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "39",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "Five excited puppies are almost too many to put up ___________.",
+    "question": "Five excited puppies are almost too many to put up _______.",
     "options": [
       "at",
       "with",
       "by",
       "of"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Put up with” means tolerate or accommodate.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q40",
@@ -105144,28 +105513,296 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "40",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
-    "question": "Who should I give a high five ___________?",
+    "question": "Who should I give a high five _______?",
     "options": [
       "at",
       "to",
       "with",
       "for"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The collocation is “give a high five to someone.”",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at the end of each question."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q41",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "41",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "All students beat the mad dog with a stick.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 0,
+    "explanation": "The sentence has one independent clause; “with a stick” is a phrase, so it is simple.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q42",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "42",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "The dress which you are wearing is expensive.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Which you are wearing” is a dependent relative clause, making the sentence complex.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q43",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "43",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "Fools build imaginary castles in the air.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 0,
+    "explanation": "It contains one independent clause and no subordinate clause, so it is simple.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q44",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "44",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "She couldn’t hear you because the radio was on.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Because the radio was on” is a subordinate clause, making this complex.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q45",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "45",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "He was born great but didn’t achieve greatness.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": -1,
+    "explanation": "The sentence coordinates two predicates under one expressed subject (“He was born great but didn’t achieve greatness”). By strict clause-based classification this is simple with a compound predicate; some school keys treat the coordinated predicates as compound. Hold because the source offers no convention to settle the classification.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 31 - 40) : Fill in the blanks with appropriate preposition provided at"
+    "sourceReviewed": true,
+    "sourceNote": "The sentence coordinates two predicates under one expressed subject (“He was born great but didn’t achieve greatness”). By strict clause-based classification this is simple with a compound predicate; some school keys treat the coordinated predicates as compound. Hold because the source offers no convention to settle the classification.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q46",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "46",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "Since I believed his words I didn’t ask for a proof.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 2,
+    "explanation": "The “Since I believed his words” clause is subordinate to the main clause; the sentence is complex.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q47",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "47",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "Some praise the work, and some praise the architect.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 1,
+    "explanation": "Two independent clauses are joined by “and,” so it is compound.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q48",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "48",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "Dr. Radhakrishnan, our President, was a philosopher.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 0,
+    "explanation": "It has one independent clause; “our President” is an appositive, so it is simple.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q49",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "49",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "Hari as well as his sister owns a car.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 0,
+    "explanation": "“As well as his sister” is an inserted phrase, not a clause; the sentence is simple.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q50",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "50",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
+    "difficulty": "medium",
+    "question": "The boy who lives in this room is a collegian.",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Who lives in this room” is a relative clause, so the sentence is complex.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=4",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 41 - 50) : Analyze the following sentences and indicate the kind of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q51",
@@ -105173,8 +105810,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "51",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Most of our communication is to give other people information.",
     "options": [
@@ -105183,15 +105820,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "It states information, so it is declarative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q52",
@@ -105199,8 +105838,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "52",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Can you help me find my shoes?",
     "options": [
@@ -105209,15 +105848,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "It asks a direct question, so it is interrogative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q53",
@@ -105225,8 +105866,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "53",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "What a gorgeous room!",
     "options": [
@@ -105235,15 +105876,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The “What a…” construction expresses strong feeling, so it is exclamatory.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q54",
@@ -105251,8 +105894,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "54",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "I don’t like to gamble, but if there’s one thing I’m willing to bet on, it’s myself.",
     "options": [
@@ -105261,15 +105904,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "It makes a statement, so it is declarative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q55",
@@ -105277,8 +105922,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "55",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Which do you prefer, white or red?",
     "options": [
@@ -105287,15 +105932,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "It asks a direct question, so it is interrogative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q56",
@@ -105303,8 +105950,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "56",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Hey, no smoking in here!",
     "options": [
@@ -105314,7 +105961,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Exclamatory"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Hey, no smoking in here!” is an exclamatory prohibition with imperative force. Both imperative and exclamatory can describe it under the paper’s broad sentence-type labels; hold as ambiguous.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
@@ -105323,8 +105970,9 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceReviewed": true,
+    "sourceNote": "“Hey, no smoking in here!” is an exclamatory prohibition with imperative force. Both imperative and exclamatory can describe it under the paper’s broad sentence-type labels; hold as ambiguous.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q57",
@@ -105332,8 +105980,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "57",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Watch out.",
     "options": [
@@ -105342,15 +105990,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Watch out” is a command, so it is imperative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q58",
@@ -105358,8 +106008,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "58",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Keep off the grass.",
     "options": [
@@ -105368,18 +106018,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Keep off the grass” is a command, so it is imperative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q59",
@@ -105387,8 +106036,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "59",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "What kind of music do you want to dance to?",
     "options": [
@@ -105397,15 +106046,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "It asks a direct question, so it is interrogative.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q60",
@@ -105413,8 +106064,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "60",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "How interesting this film is!",
     "options": [
@@ -105423,15 +106074,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Interrogative",
       "Exclamatory"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The “How interesting…” construction expresses strong feeling, so it is exclamatory.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 51 - 60) : Identify the type of sentences and choose the correct one from the choices provided at the end of each."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q61",
@@ -105439,25 +106092,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "61",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "He must have done his duty, **for he is a conscientious man**.",
+    "question": "He must have done his duty, __for he is a conscientious man__.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The underlined clause is joined to the preceding clause by coordinating “for,” so it is coordinate.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q62",
@@ -105465,25 +106120,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "62",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "The moment **which is lost** is lost for ever.",
+    "question": "The moment __which is lost__ is lost for ever.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Which is lost” modifies “moment,” so it is an adjective clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q63",
@@ -105491,28 +106148,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "63",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "The exact time **when this occurred** has not been ascertained.",
+    "question": "The exact time __when this occurred__ has not been ascertained.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“When this occurred” modifies “time,” so it is an adjective (relative) clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q64",
@@ -105520,28 +106176,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "64",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "**While there is life** there is hope.",
+    "question": "__While there is life__ there is hope.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“While there is life” tells when/under what condition hope exists; it is an adverb clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q65",
@@ -105549,28 +106204,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "65",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "The heart **that is full of grief** is heavy.",
+    "question": "The heart __that is full of grief__ is heavy.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“That is full of grief” modifies “heart,” so it is an adjective clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q66",
@@ -105578,25 +106232,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "66",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "You can talk **as much as you want**.",
+    "question": "You can talk __as much as you want__.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“As much as you want” modifies “talk” by expressing extent, so it is an adverb clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q67",
@@ -105604,10 +106260,38 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "67",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "**That you are drunk** aggravates your offence.",
+    "question": "__That you are drunk__ aggravates your offence.",
+    "options": [
+      "Co-ordinate clause",
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause"
+    ],
+    "answerIndex": 1,
+    "explanation": "“That you are drunk” is the subject of “aggravates,” so it is a noun clause.",
+    "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
+    "year": 2021,
+    "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
+  },
+  {
+    "id": "mpsc-group-b-asce-2021-english-p2-Q68",
+    "paperId": "mpsc-group-b-asce-2021-english-p2",
+    "questionNumber": "68",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
+    "difficulty": "medium",
+    "question": "__When the cat is away__ the mice will play.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
@@ -105615,14 +106299,15 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "Adverb clause"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The fourth option is visibly mislabelled “(c)” in the source, duplicating the third option’s label. Although the intended answer is the adverb clause, the printed choice label is defective; hold unscored.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceReviewed": true,
+    "sourceNote": "The fourth option is visibly mislabelled “(c)” in the source, duplicating the third option’s label. Although the intended answer is the adverb clause, the printed choice label is defective; hold unscored. The scan labels both the third and fourth choices “(c)”; the fourth choice is retained in slot d as printed text value and the item is held unscored because its printed label is defective.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q69",
@@ -105630,25 +106315,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "69",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "Tell me **where you live**.",
+    "question": "Tell me __where you live__.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Where you live” is the object of “tell,” so it is a noun clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q70",
@@ -105656,25 +106343,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "70",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
-    "question": "Everybody else went down to meet the train, **but I did not**.",
+    "question": "Everybody else went down to meet the train, __but I did not__.",
     "options": [
       "Co-ordinate clause",
       "Noun clause",
       "Adjective clause",
       "Adverb clause"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“But I did not” is coordinated with the first clause, so it is a coordinate clause.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 61 - 70) : Pick the correct clause of the words underlined in the given sentences."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q71",
@@ -105682,28 +106371,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "71",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "Having walked twenty miles, he is quite ___________.",
+    "question": "Having walked twenty miles, he is quite _______.",
     "options": [
       "done for",
       "done with",
       "done up",
       "done at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Done up” means exhausted, matching the long walk.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q72",
@@ -105711,28 +106399,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "72",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "That building ___________ Rs.5000 a month.",
+    "question": "That building _______ Rs.5000 a month.",
     "options": [
       "brings in",
       "brings about",
       "brings over",
       "brings below"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Brings in” means earns income; the building earns Rs. 5000 monthly.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q73",
@@ -105740,28 +106427,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "73",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "New responsibilities often ___________ virtues and abilities unsuspected before.",
+    "question": "New responsibilities often _______ virtues and abilities unsuspected before.",
     "options": [
       "call for",
       "call out",
       "call in",
       "call on"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Call out” means evoke or bring forth; new responsibilities can reveal latent abilities.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q74",
@@ -105769,28 +106455,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "74",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "When does the Convocation ___________?",
+    "question": "When does the Convocation _______?",
     "options": [
       "come of",
       "come off",
       "come in",
       "come by"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Come off” means take place, as a convocation does.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q75",
@@ -105798,28 +106483,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "75",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "He agreed to ___________ my orders.",
+    "question": "He agreed to _______ my orders.",
     "options": [
       "carry forward",
       "carry of",
       "carry over",
       "carry out"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Carry out orders” means execute them.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q76",
@@ -105827,28 +106511,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "76",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "He was ___________ in the prime of life.",
+    "question": "He was _______ in the prime of life.",
     "options": [
       "cut for",
       "cut with",
       "cut off",
       "cut over"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Cut off” means killed or ended prematurely; it fits “in the prime of life.”",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q77",
@@ -105856,10 +106539,10 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "77",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The Director generally___________ the faults of his subordinates.",
+    "question": "The Director generally_______ the faults of his subordinates.",
     "options": [
       "passed off",
       "passed by",
@@ -105867,7 +106550,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "passed with"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The natural idiom is “pass over the faults” (overlook them), but that choice is absent. “Passed by” is the closest option but is not a standard equivalent in this construction; hold as defective.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
@@ -105876,8 +106559,9 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceReviewed": true,
+    "sourceNote": "The natural idiom is “pass over the faults” (overlook them), but that choice is absent. “Passed by” is the closest option but is not a standard equivalent in this construction; hold as defective.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q78",
@@ -105885,28 +106569,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "78",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "I cannot ___________ the meaning of this verse.",
+    "question": "I cannot _______ the meaning of this verse.",
     "options": [
       "make out",
       "make up",
       "made for",
       "made of"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Make out” means understand or decipher.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q79",
@@ -105914,28 +106597,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "79",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The tailor’s bill has ___________ a large amount.",
+    "question": "The tailor’s bill has _______ a large amount.",
     "options": [
       "run up with",
       "run in with",
       "run away with",
       "run up to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Run up to” means reach or amount to a total.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q80",
@@ -105943,28 +106625,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "80",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "The piano ___________ too much room.",
+    "question": "The piano _______ too much room.",
     "options": [
       "takes in",
       "takes up",
       "takes on",
       "takes off"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Takes up” means occupies space.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 71 - 80) : Choose the most suitable idioms to make the sentence meaningful."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q81",
@@ -105972,28 +106653,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "81",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "They are not rich but they always wear ___________ clothes.",
+    "question": "They are not rich but they always wear _______ clothes.",
     "options": [
       "respected",
       "respectable",
       "respective",
       "respectful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Respectable clothes” means decent or socially acceptable clothing.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q82",
@@ -106001,28 +106681,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "82",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "The truck driver was ___________ injured, he died within half an hour.",
+    "question": "The truck driver was _______ injured, he died within half an hour.",
     "options": [
       "gravely",
       "bravely",
       "fatefully",
       "fatally"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Fatally injured” means injured so severely as to cause death.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q83",
@@ -106030,28 +106709,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "83",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "She is too ___________ to be deceived easily.",
+    "question": "She is too _______ to be deceived easily.",
     "options": [
       "strong",
       "kind",
       "diligent",
       "intelligent"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Intelligence makes a person less easily deceived.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q84",
@@ -106059,10 +106737,10 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "84",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "The government instructed the soldiers to ___________ restraint and handle the situation meticulously.",
+    "question": "The government instructed the soldiers to _______ restraint and handle the situation meticulously.",
     "options": [
       "enforce",
       "show",
@@ -106070,7 +106748,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "exhibit"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “show restraint” and “exhibit restraint” are grammatical and have the same meaning. Hold because two choices are correct.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
@@ -106079,8 +106757,9 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceReviewed": true,
+    "sourceNote": "Both “show restraint” and “exhibit restraint” are grammatical and have the same meaning. Hold because two choices are correct.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q85",
@@ -106088,28 +106767,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "85",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "We could ___________ trouble on our borders.",
+    "question": "We could _______ trouble on our borders.",
     "options": [
       "comprehend",
       "supplement",
       "complement",
       "sense"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "To “sense trouble” means perceive that trouble is developing.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q86",
@@ -106117,28 +106795,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "86",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "This is the ___________ chosen for the hospital complex to be built next year.",
+    "question": "This is the _______ chosen for the hospital complex to be built next year.",
     "options": [
       "locality",
       "area",
       "site",
       "sight"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A “site” is a location selected for a building.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q87",
@@ -106146,28 +106823,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "87",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "She lives in the world of ___________.",
+    "question": "She lives in the world of _______.",
     "options": [
       "allusions",
       "illusions",
       "conclusions",
       "delusions"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“World of illusions” means a life shaped by false impressions.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q88",
@@ -106175,28 +106851,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "88",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "The Eiffel Tower is a remarkable ___________ of engineering.",
+    "question": "The Eiffel Tower is a remarkable _______ of engineering.",
     "options": [
       "feat",
       "wonder",
       "creation",
       "strength"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A “feat of engineering” is an impressive engineering achievement.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q89",
@@ -106204,10 +106879,10 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "89",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "It is grossly ___________ to suggest that the school was responsible for the accident.",
+    "question": "It is grossly _______ to suggest that the school was responsible for the accident.",
     "options": [
       "inappropriate",
       "justified",
@@ -106215,7 +106890,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "unfit"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “grossly inappropriate” and “grossly unfair” are grammatical, natural completions and convey nearly the same criticism. The item does not give enough context to distinguish options (a) and (c); hold.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=7",
@@ -106224,8 +106899,9 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceReviewed": true,
+    "sourceNote": "Both “grossly inappropriate” and “grossly unfair” are grammatical, natural completions and convey nearly the same criticism. The item does not give enough context to distinguish options (a) and (c); hold.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q90",
@@ -106233,28 +106909,27 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "90",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "If you drink too much, it will ___________ your judgement.",
+    "question": "If you drink too much, it will _______ your judgement.",
     "options": [
       "impede",
       "impose",
       "infect",
       "impair"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Impair” means weaken or damage judgement.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 81 - 90) : Choose the correct alternative which is closest in meaning to the given sentence."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q91",
@@ -106262,8 +106937,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "91",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "medicine that kills germs",
     "options": [
@@ -106272,18 +106947,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "germicide",
       "pesticide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A germicide is a substance that kills germs.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q92",
@@ -106291,8 +106965,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "92",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "one who kills the king",
     "options": [
@@ -106301,18 +106975,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "homicide",
       "fratricide"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Regicide is the killing of a king.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q93",
@@ -106320,8 +106993,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "93",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "an animal that lives on fish",
     "options": [
@@ -106330,18 +107003,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "grassivore",
       "piscivore"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A piscivore feeds on fish.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q94",
@@ -106349,8 +107021,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "94",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "a person who worships one God",
     "options": [
@@ -106359,18 +107031,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "polytheist",
       "atheist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A monotheist believes in one God.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q95",
@@ -106378,8 +107049,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "95",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "one who loves mankind",
     "options": [
@@ -106388,18 +107059,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "misogynist",
       "philogynist"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A philanthropist loves or seeks the welfare of humankind.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q96",
@@ -106407,8 +107077,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "96",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "beautiful writing",
     "options": [
@@ -106417,18 +107087,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "calligraphy",
       "autobiography"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Calligraphy is the art of beautiful writing.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q97",
@@ -106436,8 +107105,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "97",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "study of languages",
     "options": [
@@ -106446,18 +107115,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "geology",
       "algology"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Philology is the study of language and literature.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q98",
@@ -106465,8 +107133,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "98",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "that can be corrected",
     "options": [
@@ -106475,18 +107143,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "credible",
       "incredible"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Corrigible means capable of being corrected.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q99",
@@ -106494,8 +107161,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "99",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "science of living beings",
     "options": [
@@ -106504,18 +107171,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "geology",
       "botany"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Biology is the science of living organisms.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-asce-2021-english-p2-Q100",
@@ -106523,8 +107189,8 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "questionNumber": "100",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-II",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
     "difficulty": "medium",
     "question": "government by the few",
     "options": [
@@ -106533,18 +107199,17 @@ const groupBQuestionsPart13: BankQuestion[] = [
       "democracy",
       "polyarchy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "An oligarchy is government by a small group.",
     "source": "Assistant Soil Conservation Engineer under LRS&WC Department · February 2021",
     "year": 2021,
     "sourceHref": "/papers/group-b/asce-2021-english-p2.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions No. 91 - 100) : Choose the correct one-word substitutes from the choices provided for the following group of words."
   },
   {
     "id": "mpsc-group-b-vety-mah-2021-english-p2-Q1",
@@ -110217,7 +110882,9 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions : (Question 56 - 60) : Choose the word nearest in meaning to the underlined word :"
-  },
+  }
+];
+const groupBQuestionsPart14: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ato-2017-english-B57",
     "paperId": "mpsc-group-b-ato-2017-english",
@@ -110884,9 +111551,7 @@ const groupBQuestionsPart13: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions : (Questions 71 - 80) : Choose the correct meaning of the underlined idioms and phrases :"
-  }
-];
-const groupBQuestionsPart14: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ato-2017-english-B80",
     "paperId": "mpsc-group-b-ato-2017-english",
@@ -118279,7 +118944,9 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart15: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-2014-english-Q9",
     "paperId": "mpsc-group-b-ada-2014-english",
@@ -118894,9 +119561,7 @@ const groupBQuestionsPart14: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart15: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-2014-gk-Q21",
     "paperId": "mpsc-group-b-ada-2014-gk",
@@ -126515,7 +127180,9 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 21–30): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart16: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B26",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -127142,9 +127809,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart16: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p2-Q16",
     "paperId": "mpsc-group-b-si-excise-2025-p2",
@@ -135256,7 +135921,9 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart17: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q35",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -135938,9 +136605,7 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart17: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q58",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -144151,7 +144816,9 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "source": "Child Development Project Officer (CDPO) - November-2025 · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/cdpo-2025-social-work-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart18: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p1-written-5",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
@@ -144805,9 +145472,7 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=7",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart18: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p2-B18",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p2",
@@ -152963,7 +153628,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "source": "Assistant Director (Food & Drugs) - November-2025 · November 2025",
     "year": 2025,
     "sourceHref": "/papers/group-b/adfd-2025-technical-p3.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adfd-2025-technical-p3-written-5",
     "paperId": "mpsc-group-b-adfd-2025-technical-p3",
@@ -153559,9 +154226,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-gs-Q18",
     "paperId": "mpsc-group-b-adtp-2026-gs",
@@ -162090,7 +162755,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adtp-2026-tech2-Q95",
     "paperId": "mpsc-group-b-adtp-2026-tech2",
@@ -162801,9 +163468,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-tech3-Q18",
     "paperId": "mpsc-group-b-adtp-2026-tech3",
@@ -171240,7 +171905,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q42",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -171958,9 +172625,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q65",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -180156,7 +180821,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q45",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -180785,9 +181452,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q68",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -189494,7 +190159,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q49",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -190253,9 +190920,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q72",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -198404,7 +199069,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p1-written-1",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
@@ -199031,9 +199698,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=4",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p2-A16",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p2",
@@ -206955,7 +207620,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p1-A4",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
@@ -207681,9 +208348,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=9",
     "paperExamExcluded": true
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-horticulture-p1-A27",
     "paperId": "mpsc-group-b-agri-2025-horticulture-p1",
@@ -215819,7 +216484,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q32",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -216516,9 +217183,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q55",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -224175,7 +224840,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p2-Q6",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -224795,9 +225462,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p2-Q29",
     "paperId": "mpsc-group-b-aao-2025-p2",
@@ -232191,7 +232856,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q38",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -232812,9 +233479,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q61",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -241232,7 +241897,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q10",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -241954,9 +242621,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Official key gives B; the reviewed independent solution gives D. Held unscored until the conflict is resolved.",
     "disputeNote": "Independent solution gives D; the official key gives B. Verify the printed item before scoring."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p2-Q33",
     "paperId": "mpsc-group-b-si-police-2026-p2",
@@ -250247,7 +250912,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-A40",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -250816,9 +251483,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "Assistant Controller of Mines under Geology & Mining, Commerce & Industries Deptt. - March-2026 · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/acm-2026-tech-p2.pdf#page=7"
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-written-13",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -259033,7 +259698,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cao-2026-gs1-Q92",
     "paperId": "mpsc-group-b-cao-2026-gs1",
@@ -259724,9 +260391,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cao-2026-gs2-Q15",
     "paperId": "mpsc-group-b-cao-2026-gs2",
@@ -268036,7 +268701,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2"
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q92",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
@@ -268735,9 +269402,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-tech1-A15",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-tech1",
@@ -276904,7 +277569,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "source": "AE (Civil)-2016 (Contract) under Trade & Commerce Deptt. · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-ae-civil-2016-contract-under-trade-commerce-deptt-4-ae-civil-under-trade-6a39cadd.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-ae-civil-2016-contract-under-trade-commerce-deptt-4-ae-civil-under-trade-6a39cadd-written-7",
     "paperId": "mpsc-group-b-archive-lang-2016-ae-civil-2016-contract-under-trade-commerce-deptt-4-ae-civil-under-trade-6a39cadd",
@@ -277522,9 +278189,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favourite; they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, “Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish”. The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5-Q23",
     "paperId": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -285024,7 +285689,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63-B35",
     "paperId": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63",
@@ -285552,9 +286219,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "source": "Inspector of Taxes-2016 under Taxation Deptt. · 2016",
     "year": 2016,
     "sourceHref": "/papers/group-b/archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178.pdf#page=2"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178-written-5",
     "paperId": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178",
@@ -293010,7 +293675,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 17- 32) : Read the following passage carefully and choose the appropriate"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B21",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -293656,9 +294323,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 39-44): Identify the parts of speech of each underlined words:"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B44",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -299675,8 +300340,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B1",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Fair weather friends",
     "options": [
@@ -299686,7 +300351,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "familiar"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The idiom means a fair-weather friend is dependable only in favourable times; no option states that meaning. “Selfish” is only an indirect trait and is not an equivalent definition.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=1",
@@ -299695,8 +300360,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceReviewed": true,
+    "sourceNote": "The idiom means a fair-weather friend is dependable only in favourable times; no option states that meaning. “Selfish” is only an indirect trait and is not an equivalent definition.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B2",
@@ -299704,8 +300370,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B2",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "In sad earnest",
     "options": [
@@ -299714,18 +300380,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "easily",
       "seriously"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“In sad earnest” means in a serious or earnest manner.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B3",
@@ -299733,8 +300398,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B3",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "At a loose end",
     "options": [
@@ -299743,18 +300408,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "losing something",
       "to share"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“At a loose end” means having no definite occupation or activity.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B4",
@@ -299762,8 +300426,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B4",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Hard nut to crack",
     "options": [
@@ -299772,18 +300436,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "difficult problem",
       "trouble maker"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A “hard nut to crack” is a difficult problem.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B5",
@@ -299791,8 +300454,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B5",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To come into notice",
     "options": [
@@ -299801,18 +300464,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "to mould something",
       "to attract attention"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "To “come into notice” is to attract attention.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B6",
@@ -299820,8 +300482,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B6",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To move heaven and earth",
     "options": [
@@ -299830,18 +300492,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "to move something very big",
       "to gain some more"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Move heaven and earth” means make a great effort.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B7",
@@ -299849,8 +300510,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B7",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To bring to light",
     "options": [
@@ -299859,18 +300520,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "to explain",
       "to expose"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "To “bring to light” is to reveal or expose something.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B8",
@@ -299878,8 +300538,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B8",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Back and belly",
     "options": [
@@ -299888,18 +300548,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "body and soul",
       "back and forth"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Back and belly” refers to the necessities of clothing and food.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 1 – 8) : Indicate the correct meaning of the given idioms and phrases:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 1 – 8): Indicate the correct meaning of the given idioms and phrases:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B9",
@@ -299907,8 +300566,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B9",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "__________ is the mother of good luck.",
     "options": [
@@ -299917,18 +300576,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Patience",
       "Endurance"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The proverb is “Patience is the mother of good luck.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B10",
@@ -299936,8 +300594,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B10",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Every failure is a __________ to success.",
     "options": [
@@ -299946,18 +300604,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "flow of spirits",
       "fast friend"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A failure can be a stepping-stone to later success.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B11",
@@ -299965,8 +300622,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B11",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Fools rush in where __________ fear to tread.",
     "options": [
@@ -299975,18 +300632,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "angels",
       "devils"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The saying is “Fools rush in where angels fear to tread.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B12",
@@ -299994,8 +300650,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B12",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To err is human, to __________ divine.",
     "options": [
@@ -300004,18 +300660,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "blame",
       "forgive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The saying is “To err is human, to forgive divine.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B13",
@@ -300023,8 +300678,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B13",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "He used to see me __________.",
     "options": [
@@ -300034,7 +300689,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "by and large"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Time and again”, “off and on”, and “now and then” can all fit the sentence, with differing frequency implications but no context to select one.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
@@ -300043,8 +300698,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceReviewed": true,
+    "sourceNote": "“Time and again”, “off and on”, and “now and then” can all fit the sentence, with differing frequency implications but no context to select one.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B14",
@@ -300052,8 +300708,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B14",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "John’s dealings have always been __________.",
     "options": [
@@ -300062,18 +300718,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "heart and soul",
       "by and large"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Fair and square” means honest or straightforward; it fits dealings.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B15",
@@ -300081,8 +300736,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B15",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "He wandered __________ before I met him.",
     "options": [
@@ -300091,18 +300746,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "time and again",
       "out and out"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Hither and thither” means from place to place or in different directions.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B16",
@@ -300110,8 +300764,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B16",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Let us __________ with our work.",
     "options": [
@@ -300120,18 +300774,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "go beyond",
       "go ahead"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Go ahead with” means proceed with the work.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 9 – 16) : Fill in the blanks with the idioms/phrases out of the given options:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 9 – 16): Fill in the blanks with the idioms/phrases out of the given options:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B17",
@@ -300139,8 +300792,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B17",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The passage is about:",
     "options": [
@@ -300149,18 +300802,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Industrial Development",
       "Wild Life"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage describes humanity’s relationship with the natural and human environment; “Human Environment” is the broadest listed title.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 1 : Questions Nos. 17 – 22\nOne cannot be truly human and civilised unless one looks upon not only all fellow-men but all creation with the eyes of a friend. Throughout India, edicts carved on rocks and iron pillars are reminders that 22 centuries ago Emperor Ashoka defined a king’s duty as not merely to protect citizens and punish wrong-doers but also to preserve animal life and forest trees. Ashoka was the first and perhaps the only monarch until very recently, to forbid the killing of a large number of species of animals for sport or food. He went further, regretting the carnage of his military conquests and enjoining upon his successors to find “their only pleasure in the peace that comes through righteousness.”\nAlong with the rest of mankind, we in India – in spite of Ashoka – have been guilty of wanton disregard for the sources of our sustenance. We share your concern at the rapid deterioration of flora and fauna. Some of our own wild life has been wiped out, miles of forests with beautiful old trees, mute witnesses of history, have been destroyed. Even though our industrial development is in its infancy, and at its most difficult stage, we are taking various steps to deal with incipient environmental imbalances; the more so because of our concern for the human being – a species which is also imperiled. In poverty he is threatened by malnutrition and disease, in weakness by war, in richness by the pollution brought about by his own prosperity.\n(From Indira Gandhi’s Speech at the UN Conference on ‘Human Environment’, 1972)"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B18",
@@ -300168,8 +300820,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B18",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "Mrs. Gandhi describe a person who looks upon his fellow-men and the World with friendly eyes as:",
     "options": [
@@ -300178,18 +300830,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Truly human and civilised",
       "Truly human beings"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage explicitly says such a person is truly human and civilised.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 1 : Questions Nos. 17 – 22\nOne cannot be truly human and civilised unless one looks upon not only all fellow-men but all creation with the eyes of a friend. Throughout India, edicts carved on rocks and iron pillars are reminders that 22 centuries ago Emperor Ashoka defined a king’s duty as not merely to protect citizens and punish wrong-doers but also to preserve animal life and forest trees. Ashoka was the first and perhaps the only monarch until very recently, to forbid the killing of a large number of species of animals for sport or food. He went further, regretting the carnage of his military conquests and enjoining upon his successors to find “their only pleasure in the peace that comes through righteousness.”\nAlong with the rest of mankind, we in India – in spite of Ashoka – have been guilty of wanton disregard for the sources of our sustenance. We share your concern at the rapid deterioration of flora and fauna. Some of our own wild life has been wiped out, miles of forests with beautiful old trees, mute witnesses of history, have been destroyed. Even though our industrial development is in its infancy, and at its most difficult stage, we are taking various steps to deal with incipient environmental imbalances; the more so because of our concern for the human being – a species which is also imperiled. In poverty he is threatened by malnutrition and disease, in weakness by war, in richness by the pollution brought about by his own prosperity.\n(From Indira Gandhi’s Speech at the UN Conference on ‘Human Environment’, 1972)"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B19",
@@ -300197,8 +300848,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B19",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "“A king’s duty is not merely to protest citizens and punish wrong-doers but also to preserve animal life and forest trees.” This is a definition of a king’s duty by:",
     "options": [
@@ -300207,18 +300858,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "William Cooper",
       "Mahatma Gandhi"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The passage attributes this definition of a king’s duty to Emperor Ashoka. The question itself prints “protest,” although the passage says “protect.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The printed question reads “protest citizens”; the passage itself says “protect citizens.” This source typo is retained.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 1 : Questions Nos. 17 – 22\nOne cannot be truly human and civilised unless one looks upon not only all fellow-men but all creation with the eyes of a friend. Throughout India, edicts carved on rocks and iron pillars are reminders that 22 centuries ago Emperor Ashoka defined a king’s duty as not merely to protect citizens and punish wrong-doers but also to preserve animal life and forest trees. Ashoka was the first and perhaps the only monarch until very recently, to forbid the killing of a large number of species of animals for sport or food. He went further, regretting the carnage of his military conquests and enjoining upon his successors to find “their only pleasure in the peace that comes through righteousness.”\nAlong with the rest of mankind, we in India – in spite of Ashoka – have been guilty of wanton disregard for the sources of our sustenance. We share your concern at the rapid deterioration of flora and fauna. Some of our own wild life has been wiped out, miles of forests with beautiful old trees, mute witnesses of history, have been destroyed. Even though our industrial development is in its infancy, and at its most difficult stage, we are taking various steps to deal with incipient environmental imbalances; the more so because of our concern for the human being – a species which is also imperiled. In poverty he is threatened by malnutrition and disease, in weakness by war, in richness by the pollution brought about by his own prosperity.\n(From Indira Gandhi’s Speech at the UN Conference on ‘Human Environment’, 1972)"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B20",
@@ -300226,8 +300876,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B20",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "What dangers does man have to face when he is poor?",
     "options": [
@@ -300236,18 +300886,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "lack of good relationship",
       "malnutrition and disease"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The passage states that poverty threatens people with malnutrition and disease.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 1 : Questions Nos. 17 – 22\nOne cannot be truly human and civilised unless one looks upon not only all fellow-men but all creation with the eyes of a friend. Throughout India, edicts carved on rocks and iron pillars are reminders that 22 centuries ago Emperor Ashoka defined a king’s duty as not merely to protect citizens and punish wrong-doers but also to preserve animal life and forest trees. Ashoka was the first and perhaps the only monarch until very recently, to forbid the killing of a large number of species of animals for sport or food. He went further, regretting the carnage of his military conquests and enjoining upon his successors to find “their only pleasure in the peace that comes through righteousness.”\nAlong with the rest of mankind, we in India – in spite of Ashoka – have been guilty of wanton disregard for the sources of our sustenance. We share your concern at the rapid deterioration of flora and fauna. Some of our own wild life has been wiped out, miles of forests with beautiful old trees, mute witnesses of history, have been destroyed. Even though our industrial development is in its infancy, and at its most difficult stage, we are taking various steps to deal with incipient environmental imbalances; the more so because of our concern for the human being – a species which is also imperiled. In poverty he is threatened by malnutrition and disease, in weakness by war, in richness by the pollution brought about by his own prosperity.\n(From Indira Gandhi’s Speech at the UN Conference on ‘Human Environment’, 1972)"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B21",
@@ -300255,8 +300904,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B21",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "When man is politically weak he faces the danger of:",
     "options": [
@@ -300265,18 +300914,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "quarelling",
       "having a row"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The passage states that weakness brings the danger of war.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 1 : Questions Nos. 17 – 22\nOne cannot be truly human and civilised unless one looks upon not only all fellow-men but all creation with the eyes of a friend. Throughout India, edicts carved on rocks and iron pillars are reminders that 22 centuries ago Emperor Ashoka defined a king’s duty as not merely to protect citizens and punish wrong-doers but also to preserve animal life and forest trees. Ashoka was the first and perhaps the only monarch until very recently, to forbid the killing of a large number of species of animals for sport or food. He went further, regretting the carnage of his military conquests and enjoining upon his successors to find “their only pleasure in the peace that comes through righteousness.”\nAlong with the rest of mankind, we in India – in spite of Ashoka – have been guilty of wanton disregard for the sources of our sustenance. We share your concern at the rapid deterioration of flora and fauna. Some of our own wild life has been wiped out, miles of forests with beautiful old trees, mute witnesses of history, have been destroyed. Even though our industrial development is in its infancy, and at its most difficult stage, we are taking various steps to deal with incipient environmental imbalances; the more so because of our concern for the human being – a species which is also imperiled. In poverty he is threatened by malnutrition and disease, in weakness by war, in richness by the pollution brought about by his own prosperity.\n(From Indira Gandhi’s Speech at the UN Conference on ‘Human Environment’, 1972)"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B22",
@@ -300284,8 +300932,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B22",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "In richness, man faces the danger of:",
     "options": [
@@ -300294,18 +300942,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "an impure environment",
       "water pollution **Passage – 2 : Questions Nos. 23 – 27**"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage says prosperity brings pollution; “an impure environment” best matches.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 1 : Questions Nos. 17 – 22\nOne cannot be truly human and civilised unless one looks upon not only all fellow-men but all creation with the eyes of a friend. Throughout India, edicts carved on rocks and iron pillars are reminders that 22 centuries ago Emperor Ashoka defined a king’s duty as not merely to protect citizens and punish wrong-doers but also to preserve animal life and forest trees. Ashoka was the first and perhaps the only monarch until very recently, to forbid the killing of a large number of species of animals for sport or food. He went further, regretting the carnage of his military conquests and enjoining upon his successors to find “their only pleasure in the peace that comes through righteousness.”\nAlong with the rest of mankind, we in India – in spite of Ashoka – have been guilty of wanton disregard for the sources of our sustenance. We share your concern at the rapid deterioration of flora and fauna. Some of our own wild life has been wiped out, miles of forests with beautiful old trees, mute witnesses of history, have been destroyed. Even though our industrial development is in its infancy, and at its most difficult stage, we are taking various steps to deal with incipient environmental imbalances; the more so because of our concern for the human being – a species which is also imperiled. In poverty he is threatened by malnutrition and disease, in weakness by war, in richness by the pollution brought about by his own prosperity.\n(From Indira Gandhi’s Speech at the UN Conference on ‘Human Environment’, 1972)"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B23",
@@ -300313,8 +300960,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B23",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "Instead of adapting, an animal:",
     "options": [
@@ -300323,18 +300970,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "must find ways to feed itself",
       "moves into different habitat from time to time"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The first sentence says an animal may move away to another location instead of adapting in place.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 2 : Questions Nos. 23 – 27\nSometimes an animal copes with a changed situation, not by adapting to it, but by moving away from it to another location. There, it may still have to adapt, but the type of adaptation may be easier. There are primitive races of man that have attempted to avoid the pressures or changes that civilisation brings. They have had to adjust to living in remote or harsh conditions. Examples are the pygmies of the Congo who have escaped into the thickest jungles which are full of dangers. They have learned to obtain a living there and to cope with wild animals. African bushmen manage to live off the arid Kalahari Desert where there is hardly any other life. Life is tough for the bushmen but they are left in peace. These social adaptations could well lead to biological adaptations over a number of generations, but this is a very slow progress and it is unlikely that any single person would be aware of it taking place."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B24",
@@ -300342,8 +300988,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B24",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "Some earliest human beings:",
     "options": [
@@ -300352,18 +300998,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "had to live in distant and unpleasant environment",
       "become civilised easily"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage says primitive peoples adjusted to living in remote or harsh conditions.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. Printed wording “beware the changes” is preserved verbatim, although it appears to be a source typo for “beware of.”",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 2 : Questions Nos. 23 – 27\nSometimes an animal copes with a changed situation, not by adapting to it, but by moving away from it to another location. There, it may still have to adapt, but the type of adaptation may be easier. There are primitive races of man that have attempted to avoid the pressures or changes that civilisation brings. They have had to adjust to living in remote or harsh conditions. Examples are the pygmies of the Congo who have escaped into the thickest jungles which are full of dangers. They have learned to obtain a living there and to cope with wild animals. African bushmen manage to live off the arid Kalahari Desert where there is hardly any other life. Life is tough for the bushmen but they are left in peace. These social adaptations could well lead to biological adaptations over a number of generations, but this is a very slow progress and it is unlikely that any single person would be aware of it taking place."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B25",
@@ -300371,8 +301016,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B25",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "It is clear in the passage that:",
     "options": [
@@ -300381,18 +301026,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "there is no obligation for human beings to find a new environment",
       "no man has more difficulties than African bushmen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "It says the Congo pygmies escaped into jungles full of dangers, including wild animals.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 2 : Questions Nos. 23 – 27\nSometimes an animal copes with a changed situation, not by adapting to it, but by moving away from it to another location. There, it may still have to adapt, but the type of adaptation may be easier. There are primitive races of man that have attempted to avoid the pressures or changes that civilisation brings. They have had to adjust to living in remote or harsh conditions. Examples are the pygmies of the Congo who have escaped into the thickest jungles which are full of dangers. They have learned to obtain a living there and to cope with wild animals. African bushmen manage to live off the arid Kalahari Desert where there is hardly any other life. Life is tough for the bushmen but they are left in peace. These social adaptations could well lead to biological adaptations over a number of generations, but this is a very slow progress and it is unlikely that any single person would be aware of it taking place."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B26",
@@ -300400,8 +301044,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B26",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "Choose the most appropriate title for the passage",
     "options": [
@@ -300410,18 +301054,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Adapting to Change",
       "African Bushmen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage’s main theme is adapting to changed conditions.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 2 : Questions Nos. 23 – 27\nSometimes an animal copes with a changed situation, not by adapting to it, but by moving away from it to another location. There, it may still have to adapt, but the type of adaptation may be easier. There are primitive races of man that have attempted to avoid the pressures or changes that civilisation brings. They have had to adjust to living in remote or harsh conditions. Examples are the pygmies of the Congo who have escaped into the thickest jungles which are full of dangers. They have learned to obtain a living there and to cope with wild animals. African bushmen manage to live off the arid Kalahari Desert where there is hardly any other life. Life is tough for the bushmen but they are left in peace. These social adaptations could well lead to biological adaptations over a number of generations, but this is a very slow progress and it is unlikely that any single person would be aware of it taking place."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B27",
@@ -300429,8 +301072,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B27",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The word ‘arid’ means:",
     "options": [
@@ -300439,18 +301082,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "very wet",
       "very dull **Passage – 3 : Question Nos. 28 – 32** Much of the blood on the street flows essentially from uncivil behaviour of drivers who refuse"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Arid” means very dry.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 2 : Questions Nos. 23 – 27\nSometimes an animal copes with a changed situation, not by adapting to it, but by moving away from it to another location. There, it may still have to adapt, but the type of adaptation may be easier. There are primitive races of man that have attempted to avoid the pressures or changes that civilisation brings. They have had to adjust to living in remote or harsh conditions. Examples are the pygmies of the Congo who have escaped into the thickest jungles which are full of dangers. They have learned to obtain a living there and to cope with wild animals. African bushmen manage to live off the arid Kalahari Desert where there is hardly any other life. Life is tough for the bushmen but they are left in peace. These social adaptations could well lead to biological adaptations over a number of generations, but this is a very slow progress and it is unlikely that any single person would be aware of it taking place."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B28",
@@ -300458,8 +301100,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B28",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "Traffic accidents may be regarded as a Social problem since:",
     "options": [
@@ -300468,18 +301110,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "most of the accidents are caused by drivers who don’t pay attention to the traffic rules",
       "traffic accidents can cause serious economic damage"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage links road casualties to drivers who disregard others’ legal and moral rights and traffic rules.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 3 : Questions Nos. 28 – 32\nMuch of the blood on the street flows essentially from uncivil behaviour of drivers who refuse to respect the legal and moral rights of others. So the massacre on the road may be regarded as a social problem. Safety standards for vehicle have been raised both at the point of manufacture and through periodic road-worthiness inspections. In addition, speed limits have been lowered. Due to these measures, the accident rate has decreased. But the accident experts still worry because there has been little or no improvements in the way drivers behave."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B29",
@@ -300487,8 +301128,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B29",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The number of accidents has fallen because:",
     "options": [
@@ -300497,18 +301138,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "drivers have finally learned how to behave",
       "there has been improvement in the way drivers behave"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The stated safety improvements were vehicle standards/inspections and lower speed limits, not changed driver behaviour.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 3 : Questions Nos. 28 – 32\nMuch of the blood on the street flows essentially from uncivil behaviour of drivers who refuse to respect the legal and moral rights of others. So the massacre on the road may be regarded as a social problem. Safety standards for vehicle have been raised both at the point of manufacture and through periodic road-worthiness inspections. In addition, speed limits have been lowered. Due to these measures, the accident rate has decreased. But the accident experts still worry because there has been little or no improvements in the way drivers behave."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B30",
@@ -300516,8 +301156,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B30",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "It is pointed out in the passage that those who violate traffic regulations:",
     "options": [
@@ -300526,18 +301166,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "are the biggest threat to those with whom they share the road",
       "don’t know most of the traffic rules and regulations"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The passage frames uncivil drivers as endangering other road users.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 3 : Questions Nos. 28 – 32\nMuch of the blood on the street flows essentially from uncivil behaviour of drivers who refuse to respect the legal and moral rights of others. So the massacre on the road may be regarded as a social problem. Safety standards for vehicle have been raised both at the point of manufacture and through periodic road-worthiness inspections. In addition, speed limits have been lowered. Due to these measures, the accident rate has decreased. But the accident experts still worry because there has been little or no improvements in the way drivers behave."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B31",
@@ -300545,8 +301184,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B31",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The word ‘massacre’ means:",
     "options": [
@@ -300555,18 +301194,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "violation of traffic rules",
       "vehicle safety"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "A massacre is a slaughter of people; the passage uses it figuratively for road deaths.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 3 : Questions Nos. 28 – 32\nMuch of the blood on the street flows essentially from uncivil behaviour of drivers who refuse to respect the legal and moral rights of others. So the massacre on the road may be regarded as a social problem. Safety standards for vehicle have been raised both at the point of manufacture and through periodic road-worthiness inspections. In addition, speed limits have been lowered. Due to these measures, the accident rate has decreased. But the accident experts still worry because there has been little or no improvements in the way drivers behave."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B32",
@@ -300574,8 +301212,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B32",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The most appropriate title for this passage is:",
     "options": [
@@ -300585,7 +301223,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Uncivil behaviour of drivers"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “Massacre on the road” and “Uncivil behaviour of drivers” describe the passage’s central idea; the paper gives no unique-title criterion.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
@@ -300594,8 +301232,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions for the following 3 (three) passages : Read the following passages carefully and choose the"
+    "sourceReviewed": true,
+    "sourceNote": "Both “Massacre on the road” and “Uncivil behaviour of drivers” describe the passage’s central idea; the paper gives no unique-title criterion.",
+    "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the best answer to each of the questions out of the four alternatives:\n\nPassage – 3 : Questions Nos. 28 – 32\nMuch of the blood on the street flows essentially from uncivil behaviour of drivers who refuse to respect the legal and moral rights of others. So the massacre on the road may be regarded as a social problem. Safety standards for vehicle have been raised both at the point of manufacture and through periodic road-worthiness inspections. In addition, speed limits have been lowered. Due to these measures, the accident rate has decreased. But the accident experts still worry because there has been little or no improvements in the way drivers behave."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B33",
@@ -300603,8 +301242,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B33",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Everybody at the party was __________ dressed.",
     "options": [
@@ -300614,7 +301253,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "happily"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Several options can grammatically modify “dressed” (colourfully, beautifully, happily); no context distinguishes one.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
@@ -300623,8 +301262,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceReviewed": true,
+    "sourceNote": "Several options can grammatically modify “dressed” (colourfully, beautifully, happily); no context distinguishes one.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B34",
@@ -300632,8 +301272,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B34",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "The mother-pig bore a __________ of ten piglets.",
     "options": [
@@ -300642,18 +301282,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "litter",
       "cub"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A group of piglets is called a litter.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B35",
@@ -300661,8 +301300,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B35",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "What a stupid thing to do! Can you imagine anybody __________ so stupid.",
     "options": [
@@ -300671,18 +301310,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "feeling",
       "be"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Imagine anybody acting so stupid” is the only offered grammatical completion.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B36",
@@ -300690,8 +301328,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B36",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "She speaks __________ English.",
     "options": [
@@ -300700,18 +301338,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "well",
       "warm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Well” is the adverb modifying “speaks.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B37",
@@ -300719,8 +301356,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B37",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Our holiday was too short. The time passed very __________.",
     "options": [
@@ -300730,7 +301367,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "suddenly"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “fast” and “quickly” are grammatical adverbs with “time passed”; no unique answer.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
@@ -300739,8 +301376,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceReviewed": true,
+    "sourceNote": "Both “fast” and “quickly” are grammatical adverbs with “time passed”; no unique answer.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B38",
@@ -300748,8 +301386,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B38",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Why do you always look so __________?",
     "options": [
@@ -300759,7 +301397,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "serious"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Serious”, “ghastly”, and “fair” are adjectives that can follow “look”; without context this item has several grammatical options.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
@@ -300768,8 +301406,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceReviewed": true,
+    "sourceNote": "“Serious”, “ghastly”, and “fair” are adjectives that can follow “look”; without context this item has several grammatical options.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B39",
@@ -300777,8 +301416,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B39",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Bread is made from __________.",
     "options": [
@@ -300787,18 +301426,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "meat",
       "millet"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Bread is made from flour; wheat is milled into flour first.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B40",
@@ -300806,8 +301444,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B40",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "My memory is getting worse. I keep __________ things.",
     "options": [
@@ -300816,18 +301454,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "referring",
       "detaining"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Keep forgetting things” describes repeated lapses of memory.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 33 – 40) : Choose the correct form of nouns, verbs, adjectives and adverbs from"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 33 – 40): Choose the correct form of nouns, verbs, adjectives and adverbs from the alternatives given:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B41",
@@ -300835,8 +301472,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B41",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "I was surprised __________ the way he behaved. It was completely out of character.",
     "options": [
@@ -300846,7 +301483,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "for"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Surprised at” and “surprised by” both fit “the way he behaved.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
@@ -300855,8 +301492,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceReviewed": true,
+    "sourceNote": "“Surprised at” and “surprised by” both fit “the way he behaved.”",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B42",
@@ -300864,8 +301502,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B42",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "Are you still upset __________ what I said to you yesterday?",
     "options": [
@@ -300874,18 +301512,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "with",
       "of"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Upset about” is the standard preposition for a thing said or done.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B43",
@@ -300893,8 +301530,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B43",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "We enjoyed our holiday, but we were a bit disappointed __________ the hotel.",
     "options": [
@@ -300904,7 +301541,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "in"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “disappointed with the hotel” and “disappointed in the hotel” are standard usage.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
@@ -300913,8 +301550,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceReviewed": true,
+    "sourceNote": "Both “disappointed with the hotel” and “disappointed in the hotel” are standard usage.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B44",
@@ -300922,8 +301560,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B44",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "Money isn’t the solution __________ every problem.",
     "options": [
@@ -300932,18 +301570,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "on",
       "to"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The standard collocation is “the solution to a problem.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B45",
@@ -300951,8 +301588,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B45",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "There are some differences __________ British and American English.",
     "options": [
@@ -300961,18 +301598,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "between",
       "in"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Between” is used for differences involving two varieties of English.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B46",
@@ -300980,8 +301616,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B46",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "Are you hungry? Would you care __________ something to eat?",
     "options": [
@@ -300990,18 +301626,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "of",
       "at"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Would you care for…?” is the conventional offer/request form.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B47",
@@ -301009,8 +301644,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B47",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "They wore warm clothes to protect themselves __________ the cold.",
     "options": [
@@ -301019,18 +301654,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "for",
       "against"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "The fixed expression is “protect oneself against the cold.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B48",
@@ -301038,8 +301672,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B48",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "prepositions",
+    "topicLabel": "Prepositions",
     "difficulty": "medium",
     "question": "There was an awful noise as the car crashed __________ a tree.",
     "options": [
@@ -301048,18 +301682,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "over",
       "before"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A car crashes into an object it collides with.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 41 – 48) : Fill in the blanks with correct prepositions:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 41 – 48): Fill in the blanks with correct prepositions:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B49",
@@ -301067,8 +301700,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B49",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "There can be no smoke without fire.",
     "options": [
@@ -301077,15 +301710,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Interrogative",
       "Assertive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The clause contains negative “no,” so it is a negative sentence.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B50",
@@ -301093,8 +301728,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B50",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Can a leopard change his spots?",
     "options": [
@@ -301103,15 +301738,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Affirmative",
       "Negative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The sentence asks a direct question, so it is interrogative.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B51",
@@ -301119,8 +301756,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B51",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Was any man ever immortal!",
     "options": [
@@ -301129,15 +301766,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Exclamatory",
       "Negative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The printed exclamation mark and emphatic rhetorical wording make this exclamatory.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B52",
@@ -301145,8 +301784,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B52",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "He was more worthy of praise than anyone else.",
     "options": [
@@ -301156,7 +301795,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Affirmative"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Assertive” describes the declarative sentence form; “affirmative” describes its positive polarity. The question’s categories overlap.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
@@ -301165,8 +301804,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceReviewed": true,
+    "sourceNote": "“Assertive” describes the declarative sentence form; “affirmative” describes its positive polarity. The question’s categories overlap.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B53",
@@ -301174,8 +301814,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B53",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "Nowhere in the world will you find a mountain peak higher than Everest.",
     "options": [
@@ -301184,15 +301824,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Interrogative",
       "Assertive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Nowhere” makes the sentence negative in meaning.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B54",
@@ -301200,8 +301842,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B54",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "voice",
+    "topicLabel": "Active & Passive Voice",
     "difficulty": "medium",
     "question": "He was laughed at by them.",
     "options": [
@@ -301210,15 +301852,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Statement",
       "Imperative"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The subject receives the action (“was laughed at”), so the sentence is passive.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B55",
@@ -301226,8 +301870,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B55",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_types",
+    "topicLabel": "Sentence Types",
     "difficulty": "medium",
     "question": "As soon as he came he made objections.",
     "options": [
@@ -301237,23 +301881,26 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "“Statement”, “assertive”, and “affirmative” overlap for this positive declarative sentence; no unique category is specified.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
-  },
+    "sourceReviewed": true,
+    "sourceNote": "“Statement”, “assertive”, and “affirmative” overlap for this positive declarative sentence; no unique category is specified.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B56",
     "paperId": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
     "questionNumber": "B56",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "narration",
+    "topicLabel": "Narration / Reported Speech",
     "difficulty": "medium",
     "question": "William prayed to the Judge that he might be pardoned.",
     "options": [
@@ -301263,14 +301910,15 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Imperative"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The sentence is a statement, and its main clause is active while the subordinate clause is passive; the options mix classification dimensions.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 49 – 56) : Analyse the given sentences and choose the correct option:"
+    "sourceReviewed": true,
+    "sourceNote": "The sentence is a statement, and its main clause is active while the subordinate clause is passive; the options mix classification dimensions.",
+    "direction": "Directions (Questions 49 – 56): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B57",
@@ -301278,8 +301926,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B57",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "degrees_of_comparison",
+    "topicLabel": "Degrees of Comparison",
     "difficulty": "medium",
     "question": "The Pacific is the deepest Ocean.",
     "options": [
@@ -301287,15 +301935,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Superlative Degree",
       "Positive Degree"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Deepest” is the superlative form of the adjective.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. The printed option (a) misspells “Degree” as “Degre”; preserved verbatim.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B58",
@@ -301303,8 +301953,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B58",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "degrees_of_comparison",
+    "topicLabel": "Degrees of Comparison",
     "difficulty": "medium",
     "question": "This pot is not so good as that.",
     "options": [
@@ -301312,15 +301962,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Comparative Degree",
       "Positive Degree"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Not so good as” expresses the positive degree in the “not so/as…as” pattern.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B59",
@@ -301328,8 +301980,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B59",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "degrees_of_comparison",
+    "topicLabel": "Degrees of Comparison",
     "difficulty": "medium",
     "question": "Shakespeare is greater than any other English poet.",
     "options": [
@@ -301337,15 +301989,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Comparative Degree",
       "Superlative Degree"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Greater than” is the comparative degree.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B60",
@@ -301353,8 +302007,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B60",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
     "question": "A child who has lost its parents is to be pitied.",
     "options": [
@@ -301362,15 +302016,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Complex Sentence",
       "Simple Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Who has lost its parents” is a subordinate relative clause, so the sentence is complex.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B61",
@@ -301378,8 +302034,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B61",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
     "question": "Fortunately he has a strong sense of humour.",
     "options": [
@@ -301387,15 +302043,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Compound Sentence",
       "Complex Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "There is one independent clause and no subordinate clause, so it is simple.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B62",
@@ -301403,8 +302061,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B62",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
     "question": "I gave him not only money but also good advice.",
     "options": [
@@ -301412,15 +302070,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Compound Sentence",
       "Simple Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Not only…but also” joins two objects, not two clauses; the sentence is simple.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B63",
@@ -301428,8 +302088,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B63",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
     "question": "Owing to poverty she could not shine in life.",
     "options": [
@@ -301437,15 +302097,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Complex Sentence",
       "Compound Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Owing to poverty” is a phrase, and the sentence has one clause.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B64",
@@ -301453,8 +302115,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B64",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
     "question": "The news is so good that it cannot be true.",
     "options": [
@@ -301462,15 +302124,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Compound Sentence",
       "Complex Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“That it cannot be true” is a subordinate result clause; the sentence is complex.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B65",
@@ -301478,8 +302142,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B65",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "clauses",
+    "topicLabel": "Clauses",
     "difficulty": "medium",
     "question": "Let him enjoy his hard-earned money.",
     "options": [
@@ -301487,15 +302151,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "Compound Sentence",
       "Complex Sentence"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The imperative has one clause, so it is a simple sentence.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 57 – 65) : Analyse the given sentences and choose the correct option:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 57 – 65): Analyse the given sentences and choose the correct option:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B66",
@@ -301503,25 +302169,27 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B66",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
-    "question": "Then the mother rose and came into the kitchen. She looked at the two women, at her little son, and at the **hearth**, as if she were looking for something she had lost. Q.  In the above passage the word **hearth** means:",
+    "question": "Then the mother rose and came into the kitchen. She looked at the two women, at her little son, and at the __hearth__, as if she were looking for something she had lost. Q.  In the above passage the word __hearth__ means:",
     "options": [
       "floor",
       "brick",
       "fireplace",
       "stone"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "A hearth is the area or structure around a fireplace.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 66 – 70) : Use the content to help you choose the right answer:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 – 70): Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B67",
@@ -301529,25 +302197,27 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B67",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
-    "question": "The next point concerns the general **deportment** and conduct of the class. First the young ladies. They must show themselves both worthy and appreciative of the courtesies we men will show them. Q.  The word ‘deportment’ means:",
+    "question": "The next point concerns the general __deportment__ and conduct of the class. First the young ladies. They must show themselves both worthy and appreciative of the courtesies we men will show them. Q.  The word ‘deportment’ means:",
     "options": [
       "behaviour",
       "understanding",
       "motive",
       "idea"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Deportment” means behaviour or conduct.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 66 – 70) : Use the content to help you choose the right answer:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 – 70): Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B68",
@@ -301555,25 +302225,27 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B68",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
-    "question": "When they heard the good news about the court’s decision, the angry crowd cheered and then began to **disperse**. “It looks like everyone is going home,” one reporter stated. Q.  Which would be the opposite of ‘disperse’?",
+    "question": "When they heard the good news about the court’s decision, the angry crowd cheered and then began to __disperse__. “It looks like everyone is going home,” one reporter stated. Q.  Which would be the opposite of ‘disperse’?",
     "options": [
       "smile",
       "fly like a bird",
       "come together",
       "sing"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Disperse” means scatter; its opposite is come together.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 66 – 70) : Use the content to help you choose the right answer:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 – 70): Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B69",
@@ -301581,28 +302253,27 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B69",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
-    "question": "There are several words used to describe the act of speaking. For example, a **dialogue** is a talk between two people. When one person speaks for a long time we call his speech:",
+    "question": "There are several words used to describe the act of speaking. For example, a __dialogue__ is a talk between two people. When one person speaks for a long time we call his speech:",
     "options": [
       "conversation",
       "briefing",
       "chit-chat",
       "monologue"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A long speech by one person is a monologue.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 66 – 70) : Use the content to help you choose the right answer:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 – 70): Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B70",
@@ -301610,8 +302281,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B70",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "A wonderful 63 year old woman is working day and night to knit mufflers to send as gifts for the orphanage. What a selfless person she is! Q.  A selfless woman:",
     "options": [
@@ -301620,15 +302291,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "has no name",
       "likes to wear mufflers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "A selfless person gives greater concern to others than to herself.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 66 – 70) : Use the content to help you choose the right answer:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 66 – 70): Use the content to help you choose the right answer:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B71",
@@ -301636,8 +302309,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B71",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "I have always tried not to __________ in things that are not my business.",
     "options": [
@@ -301647,7 +302320,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "interpose"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “intervene in” and “interfere in” can mean getting involved in matters outside one’s business.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
@@ -301656,8 +302329,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71 – 75) : Choose the right alternative from the given options to fill in the gaps."
+    "sourceReviewed": true,
+    "sourceNote": "Both “intervene in” and “interfere in” can mean getting involved in matters outside one’s business.",
+    "direction": "Directions (Questions 71 – 75): Choose the right alternative from the given options to fill in the gaps."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B72",
@@ -301665,8 +302339,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B72",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "The traffic was __________ for a few minutes, then it began.",
     "options": [
@@ -301675,18 +302349,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "slow",
       "stationery"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Traffic can be stationary (not moving) before it begins moving.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71 – 75) : Choose the right alternative from the given options to fill in the gaps."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 – 75): Choose the right alternative from the given options to fill in the gaps."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B73",
@@ -301694,8 +302367,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B73",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "The __________ changed to green and the train moved away from the station.",
     "options": [
@@ -301704,18 +302377,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "colour",
       "signal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "A railway signal changes to green to indicate that a train may proceed.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71 – 75) : Choose the right alternative from the given options to fill in the gaps."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 – 75): Choose the right alternative from the given options to fill in the gaps."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B74",
@@ -301723,8 +302395,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B74",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "He was __________ complaining about something or the other.",
     "options": [
@@ -301733,18 +302405,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "continually",
       "happy"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Continually” means repeatedly, which fits complaining about one thing or another.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71 – 75) : Choose the right alternative from the given options to fill in the gaps."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 – 75): Choose the right alternative from the given options to fill in the gaps."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B75",
@@ -301752,8 +302423,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B75",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Who’s Mary fluttering her __________ at now?",
     "options": [
@@ -301762,18 +302433,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "tongue",
       "lips"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Fluttering one’s eyelashes at” someone is the conventional expression.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 71 – 75) : Choose the right alternative from the given options to fill in the gaps."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 71 – 75): Choose the right alternative from the given options to fill in the gaps."
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B76",
@@ -301781,8 +302451,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B76",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Mr. Parks’ lessons are really __________. I hate his lessons.",
     "options": [
@@ -301791,18 +302461,17 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "interesting",
       "thrilling"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The second sentence says the lessons are disliked; “boring” is the matching adjective.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76 – 80) : Fill in the blank with the appropriate form of the words given below:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 – 80): Fill in the blank with the appropriate form of the words given below:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B77",
@@ -301810,8 +302479,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B77",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Women wore these skirts __________.",
     "options": [
@@ -301821,7 +302490,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "traditionally"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “customarily” and “traditionally” are grammatical and close in meaning in this context.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=10",
@@ -301830,8 +302499,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76 – 80) : Fill in the blank with the appropriate form of the words given below:"
+    "sourceReviewed": true,
+    "sourceNote": "Both “customarily” and “traditionally” are grammatical and close in meaning in this context.",
+    "direction": "Directions (Questions 76 – 80): Fill in the blank with the appropriate form of the words given below:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B78",
@@ -301839,8 +302509,8 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "questionNumber": "B78",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "I want to see the National Theater’s __________ of Arthur Miller’s ‘The last Yankee’.",
     "options": [
@@ -301850,7 +302520,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
       "presenting"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “presentation” and “show” can refer to a theatre production of a play; the stem supplies no distinction.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=10",
@@ -301859,19 +302529,18 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76 – 80) : Fill in the blank with the appropriate form of the words given below:"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+    "sourceReviewed": true,
+    "sourceNote": "Both “presentation” and “show” can refer to a theatre production of a play; the stem supplies no distinction.",
+    "direction": "Directions (Questions 76 – 80): Fill in the blank with the appropriate form of the words given below:"
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B79",
     "paperId": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
     "questionNumber": "B79",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "Do you always behave __________ when your naughty nieces come to visit?",
     "options": [
@@ -301880,18 +302549,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "tolerantly",
       "tolerate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Behave” is modified by the adverb “tolerantly.”",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=10",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76 – 80) : Fill in the blank with the appropriate form of the words given below:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 – 80): Fill in the blank with the appropriate form of the words given below:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-B80",
@@ -301899,8 +302567,8 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "questionNumber": "B80",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
     "question": "There is a friendly __________ between the two teams.",
     "options": [
@@ -301909,18 +302577,17 @@ const groupBQuestionsPart36: BankQuestion[] = [
       "rivals",
       "grudge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Rivalry” is the noun for competition between teams.",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=10",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions 76 – 80) : Fill in the blank with the appropriate form of the words given below:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 76 – 80): Fill in the blank with the appropriate form of the words given below:"
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9-written-1",
@@ -301932,10 +302599,11 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "topic": "written",
     "topicLabel": "General English · written",
     "difficulty": "medium",
-    "question": "Write an essay on **any one** of the given topics in not more than 300 words:\na. Population Problem in India.\nb. The Development of Tourism in Mizoram.\nc. The Dignity of Labour.",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
+    "question": "Write an essay on __any one__ of the given topics in not more than 300 words:\n(a) Population Problem in India.\n(b) The Development of Tourism in Mizoram.\n(c) The Dignity of Labour.",
+    "explanation": "Choose one topic only and stay within the 300-word limit. State a clear main idea, support it with relevant points or examples, and finish with a concise conclusion; organize the paragraphs before drafting.",
+    "sourceReview": false,
+    "sourceReviewed": true,
+    "sourceNote": "",
     "source": "Middle School Teacher-2015 · 2015",
     "year": 2015,
     "sourceHref": "/papers/group-b/archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9.pdf#page=1"
@@ -309211,7 +309879,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions for the following 3 (three) passages: Read the following passages carefully and choose the"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B24",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -309809,9 +310479,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions ( Questions 41 – 48 ) : Fill in the blanks with correct prepositions :"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B47",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -317200,7 +317868,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q20",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -317821,9 +318491,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q43",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -325379,7 +326047,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q4",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -326008,9 +326678,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held: both “so pleased” and “very pleased” are grammatical in this sentence; the options provide no contextual distinction."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q27",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -333479,7 +334147,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9-Q33",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
@@ -334172,9 +334842,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9-Q60",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
@@ -342138,7 +342806,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 61 - 70) : Identify the correct kinds of clauses/phrases for the underlined group of words in the following sentences."
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc-Q71",
     "paperId": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc",
@@ -342781,9 +343451,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 91 - 100) : Identify and choose the correct one-word substitutes from the options provided for the following group of words."
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc-Q94",
     "paperId": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc",
@@ -350195,7 +350863,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q37",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -350885,9 +351555,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440-Q61",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -358418,7 +359086,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734-B64",
     "paperId": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734",
@@ -358998,9 +359668,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Question Nos. 13 - 27) : Choose the nearest in meaning for the following questions"
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c-Q25",
     "paperId": "mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c",
@@ -363492,30 +364160,811 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-i-2024-29fe8b7a.pdf#page=2"
   },
   {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q1",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "1",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "How __often__ does the postman deliver letters to your locality?",
+    "options": [
+      "Adverb",
+      "Adjective",
+      "Verb",
+      "Conjunction"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Often” modifies the verb phrase “does ... deliver” by telling how frequently the action occurs, so it is an adverb.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q2",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "2",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "He fought with great __courage__ but was ultimately defeated.",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Verb",
+      "Adverb"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Courage” names a quality or trait, so it is a noun.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q3",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "3",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "She is the __bravest__ woman that I know.",
+    "options": [
+      "Noun",
+      "Adverb",
+      "Adjective",
+      "Preposition"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Bravest” modifies the noun “woman” and is the superlative form of an adjective.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q4",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "4",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "We had a rousing discussion __about__ Football.",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Adverb",
+      "Preposition"
+    ],
+    "answerIndex": 3,
+    "explanation": "“About” links “discussion” to its object “Football,” so it is a preposition.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q5",
     "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
     "questionNumber": "5",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
     "difficulty": "medium",
-    "question": "He refused to acknowledge me whenI  saw him last night.",
+    "question": "He refused to __acknowledge__ me when I saw him last night.",
     "options": [
-      "Verb (c) Adverb",
-      "Noun (d) Conjunction",
+      "Verb",
       "Noun",
-      "Pronoun"
+      "Adverb",
+      "Conjunction"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Acknowledge” names the action refused, so it is a verb.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q6",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "6",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "I could not __face__ him after what I had done.",
+    "options": [
+      "Verb",
+      "Adjective",
+      "Noun",
+      "Pronoun"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Face” means confront and is the action verb after “could not.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q7",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "7",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "The burglar took slow, __careful__ steps into the dark and gloomy room.",
+    "options": [
+      "Adverb",
+      "Noun",
+      "Verb",
+      "Adjective"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Careful” describes the noun “steps,” so it is an adjective.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q8",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "8",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "The burglar exited the house __through__ the attic window.",
+    "options": [
+      "Adverb",
+      "Preposition",
+      "Adjective",
+      "Conjunction"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Through” relates the movement to the attic window, so it is a preposition.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q9",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "9",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "__Although__ the class started late, she was still late for it.",
+    "options": [
+      "Interjection",
+      "Preposition",
+      "Conjunction",
+      "Adjective"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Although” introduces a dependent concessive clause, so it is a subordinating conjunction.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q10",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "10",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "parts_of_speech",
+    "topicLabel": "Parts of Speech",
+    "difficulty": "medium",
+    "question": "__Alas!__ I have lost everything.",
+    "options": [
+      "Conjunction",
+      "Interjection",
+      "Preposition",
+      "Verb"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Alas!” expresses sorrow and is an interjection.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=1",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 1 - 10): Identify the Part of Speech of the underlined words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q11",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "11",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "I _____ (complete) the assignment I had been given.",
+    "options": [
+      "complete",
+      "had completed",
+      "was completing",
+      "completes"
+    ],
+    "answerIndex": -1,
+    "explanation": "The natural completion is “I completed the assignment I had been given,” but “completed” is not offered. The offered past-perfect “had completed” is possible only under a different unstated timeline, while “was completing” can also fit a different context; the item provides no time context that selects one.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 1 - 10) : Identify the Part of Speech of the underlined words."
+    "sourceReviewed": true,
+    "sourceNote": "The natural completion is “I completed the assignment I had been given,” but “completed” is not offered. The offered past-perfect “had completed” is possible only under a different unstated timeline, while “was completing” can also fit a different context; the item provides no time context that selects one.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q12",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "12",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "She _____ (go) to work with me every day.",
+    "options": [
+      "goes",
+      "go",
+      "went",
+      "has gone"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Every day” indicates a habitual action; with singular “she,” the simple present is “goes.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q13",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "13",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "He _____ (think) that he is so special, but he is not.",
+    "options": [
+      "think",
+      "thought",
+      "thinks",
+      "is thinking"
+    ],
+    "answerIndex": 2,
+    "explanation": "The subject “he” takes the third-person singular present “thinks.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q14",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "14",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "We _____ (contemplate) a trip to Delhi, but we had to cancel it.",
+    "options": [
+      "contemplated",
+      "had been contemplating",
+      "has contemplated",
+      "are contemplating"
+    ],
+    "answerIndex": -1,
+    "explanation": "Both “contemplated” and “had been contemplating” can fit a past plan later cancelled; the sentence gives no context that selects one tense uniquely.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceReviewed": true,
+    "sourceNote": "Both “contemplated” and “had been contemplating” can fit a past plan later cancelled; the sentence gives no context that selects one tense uniquely.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q15",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "15",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "I _____ (start) to think that you do not like me.",
+    "options": [
+      "started",
+      "start",
+      "starts",
+      "am starting"
+    ],
+    "answerIndex": -1,
+    "explanation": "Both “started” and “am starting” can be grammatical in different time contexts; no time cue makes one uniquely correct.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceReviewed": true,
+    "sourceNote": "Both “started” and “am starting” can be grammatical in different time contexts; no time cue makes one uniquely correct.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q16",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "16",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "She _____ (do) not think he deserves to be forgiven.",
+    "options": [
+      "do",
+      "does",
+      "did",
+      "done"
+    ],
+    "answerIndex": 1,
+    "explanation": "With third-person singular “she” in the simple present, the auxiliary is “does.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q17",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "17",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "Jane and Mary _____ (visit) the graveyard each Saturday.",
+    "options": [
+      "visits",
+      "visited",
+      "visit",
+      "visiting"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Jane and Mary” is plural and the habitual action takes “visit.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q18",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "18",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "I _____ (know) your father for a very long time, and he would have been proud of you.",
+    "options": [
+      "know",
+      "knows",
+      "knew",
+      "have known"
+    ],
+    "answerIndex": 3,
+    "explanation": "“For a very long time” calls for the present perfect “have known.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q19",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "19",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "Hurry up, the game _____ (start) now.",
+    "options": [
+      "starts",
+      "started",
+      "is starting",
+      "will start"
+    ],
+    "answerIndex": 2,
+    "explanation": "The present progressive “is starting” describes a game beginning now.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q20",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "20",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "verb_tenses",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "We should always _____ (abide) by the rules of the school.",
+    "options": [
+      "abide",
+      "abides",
+      "abided",
+      "abideth"
+    ],
+    "answerIndex": 0,
+    "explanation": "A modal verb (“should”) is followed by the base form “abide.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 11 - 20): Fill in the blanks with the correct form of the verbs given in brackets."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q21",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "21",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "She answered all of my questions _____.",
+    "options": [
+      "superly",
+      "superbedly",
+      "superbly",
+      "superily"
+    ],
+    "answerIndex": 2,
+    "explanation": "The adverb formed from “superb” is “superbly.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions Nos. 21 - 25): Fill in the blanks with the most appropriate adjective or adverb."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q22",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "22",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "She fell asleep in class because she was _____.",
+    "options": [
+      "broad",
+      "bored",
+      "board",
+      "brood"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Bored” describes a person experiencing boredom.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=2",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions Nos. 21 - 25): Fill in the blanks with the most appropriate adjective or adverb."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q23",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "23",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "I have _____ objection to their marriage.",
+    "options": [
+      "no",
+      "not",
+      "non",
+      "none"
+    ],
+    "answerIndex": 0,
+    "explanation": "The fixed expression is “have no objection.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions Nos. 21 - 25): Fill in the blanks with the most appropriate adjective or adverb."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q24",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "24",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "This dish is not _____.",
+    "options": [
+      "audible",
+      "legible",
+      "edible",
+      "delible"
+    ],
+    "answerIndex": 2,
+    "explanation": "Food can be “edible,” meaning fit to eat.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions Nos. 21 - 25): Fill in the blanks with the most appropriate adjective or adverb."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q25",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "25",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "He wishes _____ that he was still single.",
+    "options": [
+      "sometime",
+      "any time",
+      "sometimes",
+      "anytimes"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Sometimes” means on some occasions and fits the sentence.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions Nos. 21 - 25): Fill in the blanks with the most appropriate adjective or adverb."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q26",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "26",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "He lives in the flat _____ mine.",
+    "options": [
+      "above",
+      "atop",
+      "upon",
+      "over"
+    ],
+    "answerIndex": -1,
+    "explanation": "Both “above mine” and “over mine” can describe the vertical position of the flat; the sentence does not rule out either option, so no unique key is safe.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceReviewed": true,
+    "sourceNote": "Both “above mine” and “over mine” can describe the vertical position of the flat; the sentence does not rule out either option, so no unique key is safe.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q27",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "27",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "The police promised to look _____ the matter of the theft.",
+    "options": [
+      "at",
+      "for",
+      "into",
+      "onto"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Look into” means investigate.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q28",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "28",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "Walk fast, _____ you are late for school.",
+    "options": [
+      "hence",
+      "and",
+      "unless",
+      "lest"
+    ],
+    "answerIndex": -1,
+    "explanation": "The sentence and choices do not provide a sound unique completion. “Lest you are late” is nonstandard (normally “lest you be late”), while the other choices do not express the intended warning cleanly.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "sourceReview": true,
+    "paperExamExcluded": true,
+    "sourceReviewed": true,
+    "sourceNote": "The sentence and choices do not provide a sound unique completion. “Lest you are late” is nonstandard (normally “lest you be late”), while the other choices do not express the intended warning cleanly.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q29",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "29",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "He was lazy, _____ he failed to get a job.",
+    "options": [
+      "since",
+      "hereby",
+      "so long as",
+      "therefore"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Therefore” introduces the consequence of his laziness.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q30",
@@ -363523,25 +364972,167 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "30",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "He sat on the chair to mine.",
+    "question": "He sat on the chair _____ to mine.",
     "options": [
-      "beside (c) next",
-      "aside (d) besides",
-      "throughout",
-      "thorough"
+      "beside",
+      "aside",
+      "next",
+      "besides"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The fixed prepositional phrase is “next to mine.”",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q31",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "31",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "He struggled _____ the crowd to reach the exit.",
+    "options": [
+      "through",
+      "trough",
+      "throughout",
+      "thorough"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Struggled through the crowd” means pushed through it to get out.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q32",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "32",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "He succeeded _____ his unfortunate circumstances.",
+    "options": [
+      "in spite",
+      "aside",
+      "despite",
+      "beside"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Despite” is followed by a noun phrase and expresses success in spite of adverse circumstances.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q33",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "33",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "Tom leaned lazily _____ the wall.",
+    "options": [
+      "across",
+      "against",
+      "around",
+      "amongst"
+    ],
+    "answerIndex": 1,
+    "explanation": "The idiom is “lean against the wall.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q34",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "34",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "Theo is disappointed _____ Tom is delighted by the news of the holiday.",
+    "options": [
+      "whether",
+      "whereas",
+      "unless",
+      "wheras"
+    ],
+    "answerIndex": 1,
+    "explanation": "“Whereas” contrasts Theo’s and Tom’s reactions.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q35",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "35",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "The three friends divided their savings _____ themselves.",
+    "options": [
+      "among",
+      "within",
+      "between",
+      "along"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Among” is used for sharing or division involving more than two friends.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=3",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 26 - 35): Fill in the blanks with the appropriate conjunction or preposition."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q36",
@@ -363549,25 +365140,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "36",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "The rain stopped and the sun came out (To Complex)",
+    "question": "The rain stopped and the sun came out (To Complex).",
     "options": [
-      "After the rain stopped, the sun came out",
-      "Therain stopped. The sun came out",
-      "The rain stopped the sun coming out",
-      "The sun came out after the rain stopped"
+      "After the rain stopped, the sun came out.",
+      "The rain stopped. The sun came out.",
+      "The rain stopped the sun coming out.",
+      "The sun came out after the rain stopped."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both option A and option D are grammatical complex-sentence conversions with the same meaning; the item has duplicate valid answers.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "Both option A and option D are grammatical complex-sentence conversions with the same meaning; the item has duplicate valid answers.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q37",
@@ -363575,25 +365167,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "37",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Tom finished his homework and went to bed (To Simple)",
+    "question": "Tom finished his homework and went to bed (To Simple).",
     "options": [
-      "Tom finished his homework, and hence so forth went to bed",
-      "Finishing his homework, Tom went to bed .",
-      "Going to bed, Tom finished his homework",
-      "Tom finished his homework, and therefore, he went to bed"
+      "Tom finished his homework, and hence so forth went to bed.",
+      "Finishing his homework, Tom went to bed.",
+      "Going to bed, Tom finished his homework.",
+      "Tom finished his homework, and therefore, he went to bed."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "The participial clause “Finishing his homework” reduces the first clause to a non-finite construction while keeping Tom as its understood subject.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q38",
@@ -363601,25 +365195,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "38",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Despite being sick, he went to work (to Compound)",
+    "question": "Despite being sick, he went to work (to Compound).",
     "options": [
-      "Despite being sick; he went to work ~",
-      "He was sick. He went to work",
-      "He went to work sick",
-      "He was sick but he nevertheless went to work"
+      "Despite being sick; he went to work.",
+      "He was sick. He went to work.",
+      "He went to work sick.",
+      "He was sick but he nevertheless went to work."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D joins two independent clauses with coordinating “but,” producing a compound sentence and preserving the contrast.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q39",
@@ -363627,25 +365223,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "39",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "He has to eat healthier, or he will get sick (to Simple)",
+    "question": "He has to eat healthier, or he will get sick (to Simple).",
     "options": [
-      "He has to eat healthier to avoid getting sick",
-      "He has to eat healthier so that he will get sick",
-      "He will get sick if he does not eat healthier",
-      "He has to eat healthier so long as he does not want to get sick"
+      "He has to eat healthier to avoid getting sick.",
+      "He has to eat healthier so that he will get sick.",
+      "He will get sick if he does not eat healthier.",
+      "He has to eat healthier so long as he does not want to get sick."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“To avoid getting sick” reduces the consequence clause to an infinitive phrase.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q40",
@@ -363653,25 +365251,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "40",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Although the concert was loud, it was enjoyable (to Compound)",
+    "question": "Although the concert was loud, it was enjoyable (to Compound).",
     "options": [
-      "The concert was loud. It was enjoyable",
-      "The concert was loud, but it was also enjoyable",
-      "Being loud, the concert was enjoyable",
-      "The concert was loud and enjoyable"
+      "The concert was loud. It was enjoyable.",
+      "The concert was loud, but it was also enjoyable.",
+      "Being loud, the concert was enjoyable.",
+      "The concert was loud and enjoyable."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B joins two independent clauses with “but,” a coordinating conjunction expressing contrast.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q41",
@@ -363679,25 +365279,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "41",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Due to his illness, Nick did not go to work (to Complex)",
+    "question": "Due to his illness, Nick did not go to work (to Complex).",
     "options": [
-      "Nick did not go to work due to his illness °",
-      "Being ill, Nick did not go to work",
-      "Nick, owing to his illness, did not go to work",
-      "Nick did not go to work because he was ill"
+      "Nick did not go to work due to his illness.",
+      "Being ill, Nick did not go to work.",
+      "Nick, owing to his illness, did not go to work.",
+      "Nick did not go to work because he was ill."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Option D contains the subordinate reason clause “because he was ill,” making it complex.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q42",
@@ -363705,25 +365307,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "42",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "It was raining but we went out (to Complex)",
+    "question": "It was raining but we went out (to Complex).",
     "options": [
-      "Though it was raining, we went out",
-      "It was raining because we went out",
-      "We went out in the rain",
-      "_ It was raining and we went out"
+      "Though it was raining, we went out.",
+      "It was raining because we went out.",
+      "We went out in the rain.",
+      "It was raining and we went out."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "Option A uses a dependent “Though” clause and an independent clause.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q43",
@@ -363731,25 +365335,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "43",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Bill was so weak that he could not walk any further (to Simple)",
+    "question": "Bill was so weak that he could not walk any further (to Simple).",
     "options": [
-      "Bill cannot walk any further because he was so weak",
-      "Bill was too weak to walk any further",
-      "Ashe was so weak, Bill could not walk any further",
-      "Bill could not walk any further as a consequence of his weakness ——"
+      "Bill cannot walk any further because he was so weak.",
+      "Bill was too weak to walk any further.",
+      "As he was so weak, Bill could not walk any further.",
+      "Bill could not walk any further as a consequence of his weakness."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both option B (“too weak to walk”) and option D (“as a consequence of his weakness”) are simple sentences preserving the meaning. The question does not specify a more precise simple construction, so it has duplicate defensible answers.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=4",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "Both option B (“too weak to walk”) and option D (“as a consequence of his weakness”) are simple sentences preserving the meaning. The question does not specify a more precise simple construction, so it has duplicate defensible answers.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q44",
@@ -363757,25 +365362,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "44",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Itis so cold that I had to turn off the fan (to Compound)",
+    "question": "It is so cold that I had to turn off the fan (to Compound).",
     "options": [
-      "Being cold, I turned off the fan",
-      "I turned off the fan as it was cold",
-      "Itis very cold and so I turned off the fan",
-      "As it was cold, I turned off the fan"
+      "Being cold, I turned off the fan.",
+      "I turned off the fan as it was cold.",
+      "It is very cold and so I turned off the fan.",
+      "As it was cold, I turned off the fan."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The printed source says “It is so cold that I had to turn off the fan,” mixing present and past. The only candidate compound answer (C) repeats a present/past mismatch (“It is ... and so I turned off ...”). No offered option is a clean, meaning-preserving compound transformation.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceReviewed": true,
+    "sourceNote": "The printed source says “It is so cold that I had to turn off the fan,” mixing present and past. The only candidate compound answer (C) repeats a present/past mismatch (“It is ... and so I turned off ...”). No offered option is a clean, meaning-preserving compound transformation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q45",
@@ -363783,25 +365389,55 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "45",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Although Pansy is rich, she is not happy (to Simple)",
+    "question": "Although Pansy is rich, she is not happy (to Simple).",
     "options": [
-      "Despite being rich, Claire is not happy",
-      "Pansy is rich yet she is unhappy",
-      "Pansy is unhappy in spite of being rich",
-      "Although Pansy is rich, yet she is unhappy ,"
+      "Despite being rich, Claire is not happy.",
+      "Pansy is rich yet she is unhappy.",
+      "Pansy is unhappy in spite of being rich.",
+      "Although Pansy is rich, yet she is unhappy."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“In spite of being rich” turns the subordinate concessive clause into a prepositional phrase.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 36 - 45) : Convert the sentences as directed."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 36 - 45): Convert the sentences as directed."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q46",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "46",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "He performed in a confident manner (use a Noun).",
+    "options": [
+      "He performed confidently.",
+      "He performed with confidence.",
+      "His performance was confident.",
+      "He performed in a manner which was confident."
+    ],
+    "answerIndex": 1,
+    "explanation": "“Confidence” is the noun corresponding to the adjective “confident.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q47",
@@ -363809,25 +365445,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "47",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "It was so hot that we could not go out. (use ‘too’)",
+    "question": "It was so hot that we could not go out (use “too”).",
     "options": [
-      "It was too hot to go out",
-      "It was too hot that we could not go out",
-      "It was so hot that we could not go out too",
-      "It was hot too go out"
+      "It was too hot to go out.",
+      "It was too hot that we could not go out.",
+      "It was so hot that we could not go out too.",
+      "It was hot too go out."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“So ... that ... could not” changes to “too ... to” for the same inability.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q48",
@@ -363835,25 +365473,54 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "48",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Leais the greatest dancer amongst the troupe. (use Comparative Degree) .",
+    "question": "Lea is the greatest dancer amongst the troupe (use Comparative Degree).",
     "options": [
-      "Leais greater than the greatest dancer amongst the troupe",
-      "Lea is the greater dancer amongst the troupe",
-      "No other dancer amongst the troupe is greater than Lea",
-      "No other dancer is as great as Lea amongst the troupe (a) The garden was beautified by the presence of the fairies (b) The presence of the fairies made the garden beautiful (c) The garden was made beautifully by the presence of the fairies (d) The presence of the fairies gave the garden beauty"
+      "Lea is greater than the greatest dancer amongst the troupe.",
+      "Lea is the greater dancer amongst the troupe.",
+      "No other dancer amongst the troupe is greater than Lea.",
+      "No other dancer is as great as Lea amongst the troupe."
+    ],
+    "answerIndex": 2,
+    "explanation": "The comparative form is “No other dancer ... is greater than Lea.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q49",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "49",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "The garden was made beautiful by the presence of the fairies (use a Verb).",
+    "options": [
+      "The garden was beautified by the presence of the fairies.",
+      "The presence of the fairies made the garden beautiful.",
+      "The garden was made beautifully by the presence of the fairies.",
+      "The presence of the fairies gave the garden beauty."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Options A and B both use a verb and preserve the meaning: “was beautified” and “made ... beautiful” are valid transformations.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceReviewed": true,
+    "sourceNote": "Options A and B both use a verb and preserve the meaning: “was beautified” and “made ... beautiful” are valid transformations.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q50",
@@ -363861,25 +365528,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "50",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "He has not been seen by anyone (to Affirmative)",
+    "question": "He has not been seen by anyone (to Affirmative).",
     "options": [
-      "Anyone has not seen him",
-      "He has been seen by anyone",
-      "He has been seen by nobody",
-      "Anyone has seen him"
+      "Anyone has not seen him.",
+      "He has been seen by anyone.",
+      "He has been seen by nobody.",
+      "Anyone has seen him."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The requested affirmative transformation is defective: the negative meaning “not seen by anyone” cannot be expressed by any supplied affirmative option without changing the meaning.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceReviewed": true,
+    "sourceNote": "The requested affirmative transformation is defective: the negative meaning “not seen by anyone” cannot be expressed by any supplied affirmative option without changing the meaning.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q51",
@@ -363887,25 +365555,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "51",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "He smiled at the ladies with great charm (use Adjective)",
+    "question": "He smiled at the ladies with great charm (use Adjective).",
     "options": [
-      "He smiled at the ladies with great charmingly",
-      "He smiled at the ladies with charming",
-      "He smiled at the ladies charmingly",
-      "He smiled at the ladies in a charmful manner"
+      "He smiled at the ladies with great charmingly.",
+      "He smiled at the ladies with charming.",
+      "He smiled at the ladies charmingly.",
+      "He smiled at the ladies in a charmful manner."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "No option correctly uses an adjective while preserving the meaning. The expected wording would be something like “He gave the ladies a charming smile.”",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceReviewed": true,
+    "sourceNote": "No option correctly uses an adjective while preserving the meaning. The expected wording would be something like “He gave the ladies a charming smile.”",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q52",
@@ -363913,25 +365582,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "52",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "As soon as he arrived, he went to bed (use ‘No sooner...than’)",
+    "question": "As soon as he arrived, he went to bed (use “No sooner...than”).",
     "options": [
-      "No sooner had he arrived than he went to bed",
-      "No sooner than he arrived, he went to bed",
-      "No sooner as he arrived than he went to bed",
-      "No sooner did he arrived, then went to bed"
+      "No sooner had he arrived than he went to bed.",
+      "No sooner than he arrived, he went to bed.",
+      "No sooner as he arrived than he went to bed.",
+      "No sooner did he arrived, then went to bed."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "The correct correlative construction is “No sooner had ... than ...,” with inversion of subject and auxiliary.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q53",
@@ -363939,25 +365610,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "53",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "She was too ill-mannered to be tolerated (use ‘so... that)",
+    "question": "She was too ill-mannered to be tolerated (use “so...that”).",
     "options": [
-      "She was too ill-mannered so that I could not tolerate her",
-      "She was too ill-mannered so I cannot tolerate that",
-      "She was so ill-mannered that to be tolerated",
-      "She was so ill-mannered that I could not tolerate her :"
+      "She was too ill-mannered so that I could not tolerate her.",
+      "She was too ill-mannered so I cannot tolerate that.",
+      "She was so ill-mannered that to be tolerated.",
+      "She was so ill-mannered that I could not tolerate her."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“So ill-mannered that ... could not tolerate her” is the requested so-that construction; option D is the only grammatical offered form.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q54",
@@ -363965,25 +365638,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "54",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "She is a very proud person (to Negative)",
+    "question": "She is a very proud person (to Negative).",
     "options": [
-      "She is nota very proud person",
-      "She is a very humble person",
-      "She is nota very humble person /",
-      "She is not at all proud"
+      "She is not a very proud person.",
+      "She is a very humble person.",
+      "She is not a very humble person.",
+      "She is not at all proud."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The negative transformation uses the antonym while preserving the positive sense: “not very humble” means proud.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q55",
@@ -363991,25 +365666,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "55",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "No other girl is as accomplished a singer as Minny. (use Superlative)",
+    "question": "No other girl is as accomplished a singer as Minny (use Superlative).",
     "options": [
-      "Minny is the accomplishest singer among the girls",
-      "No other girl is more accomplished in singing than Minny",
-      "Minny is an accomplished singer among the girls",
-      "Minny is the most accomplished singer among the girls"
+      "Minny is the accomplishest singer among the girls.",
+      "No other girl is more accomplished in singing than Minny.",
+      "Minny is an accomplished singer among the girls.",
+      "Minny is the most accomplished singer among the girls."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "“Most accomplished” is the superlative form and option D states the comparison explicitly.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 46 - 55): Transform the sentences as directed without changing their meanings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q56",
@@ -364017,25 +365694,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "56",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Johnis a very eligible man. He is wealthy and generous, (use Noun phrase in apposition)",
+    "question": "John is a very eligible man. He is wealthy and generous (use Noun phrase in apposition).",
     "options": [
       "John, a wealthy and generous man, is very eligible.",
       "John is eligible as well as wealthy and generous.",
       "Being wealthy and generous, John is an eligible man.",
       "John is eligible, wealthy and generous."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“A wealthy and generous man” is a noun phrase in apposition to “John.”",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q57",
@@ -364043,25 +365722,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "57",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "He succeeded. It is due to his hard work. (use ‘by dint of’)",
+    "question": "He succeeded. It is due to his hard work (use “by dint of”).",
     "options": [
       "He succeeded by dint of due to his hard work.",
       "He succeeded by dint of his hard work.",
-      "Itis due to his hard work by dint of his success.",
+      "It is due to his hard work by dint of his success.",
       "He succeeded due to his hard work by dint of."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“By dint of” means by means of or because of; option B correctly replaces the original cause.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q58",
@@ -364069,25 +365750,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "58",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "I saw her loyalty. I was impressed. (use an Adjective)",
+    "question": "I saw her loyalty. I was impressed (use an Adjective).",
     "options": [
-      "I saw her loyalty and was impressed",
-      "Iwas impressed by her loyalty",
-      "Iwas impressed on seeing how loyal she was",
-      "Iwas impressed on seeing how loyally she was being"
+      "I saw her loyalty and was impressed.",
+      "I was impressed by her loyalty.",
+      "I was impressed on seeing how loyal she was.",
+      "I was impressed on seeing how loyally she was being."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Loyal” is the adjective corresponding to the noun “loyalty.”",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q59",
@@ -364095,25 +365778,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "59",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "The movie was too violent. I could not finish it. (use infinitive)",
+    "question": "The movie was too violent. I could not finish it (use infinitive).",
     "options": [
-      "The movie was so violent that I could not finish it",
-      "The movie was too violent that I could not finish it",
-      "The movie was too violent, hence I could not finish it",
-      "The movie was too violent to finish :"
+      "The movie was so violent that I could not finish it.",
+      "The movie was too violent that I could not finish it.",
+      "The movie was too violent, hence I could not finish it.",
+      "The movie was too violent to finish."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "The expected “too ... to” conversion would be “The movie was too violent for me to finish.” Option D omits “for me” and changes the understood subject; the other options do not use an infinitive construction. No offered answer fully preserves the meaning.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=6",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceReviewed": true,
+    "sourceNote": "The expected “too ... to” conversion would be “The movie was too violent for me to finish.” Option D omits “for me” and changes the understood subject; the other options do not use an infinitive construction. No offered answer fully preserves the meaning.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q60",
@@ -364121,25 +365805,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "60",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "He finished his work. He went home, (use a Participial Phrase)",
+    "question": "He finished his work. He went home (use a Participial Phrase).",
     "options": [
-      "He finished his work and went home",
-      "Finishing his work, he went home",
-      "As soonas he finished his work, he went home",
-      "He went home after finishing his work"
+      "He finished his work and went home.",
+      "Finishing his work, he went home.",
+      "As soon as he finished his work, he went home.",
+      "He went home after finishing his work."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both option B (“Finishing his work…”) and option D (“after finishing his work”) contain a participial construction and preserve the sequence; the item has more than one plausible answer.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceReviewed": true,
+    "sourceNote": "Both option B (“Finishing his work…”) and option D (“after finishing his work”) contain a participial construction and preserve the sequence; the item has more than one plausible answer.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q61",
@@ -364147,25 +365832,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "61",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "She was so beautiful. Other women became jealous. (use a Noun)",
+    "question": "She was so beautiful. Other women became jealous (use a Noun).",
     "options": [
-      "She was so beautiful that other women became jealous",
-      "Her beauty made other women become jealous",
-      "She was a beauty that other women were jealous :",
+      "She was so beautiful that other women became jealous.",
+      "Her beauty made other women become jealous.",
+      "She was a beauty that other women were jealous.",
       "Her beauty made other women became jealous."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "“Beauty” is the noun form of “beautiful,” and option B preserves the causal meaning.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q62",
@@ -364173,25 +365860,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "62",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "He sat on a bench. It had just been painted. (use Compound adjective)",
+    "question": "He sat on a bench. It had just been painted (use Compound adjective).",
     "options": [
-      "Hesat ona freshly-painted bench",
-      "He sat ona just-been-painted bench",
-      "He sat on a painted-bench",
-      "He sat on a bench that had just been-painted"
+      "He sat on a freshly-painted bench.",
+      "He sat on a just-been-painted bench.",
+      "He sat on a painted-bench.",
+      "He sat on a bench that had just been-painted."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "“Freshly-painted” is the compound modifier describing the bench.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q63",
@@ -364199,25 +365888,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "63",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "The Chairman promised to meet their demands. The workers were still angry. (use ‘Although’)",
+    "question": "The Chairman promised to meet their demands. The workers were still angry (use “Although”).",
     "options": [
-      "Although the Chairman promised to meet their demands, the workers were still angry",
-      "The chairman promised to meet their demands although the workers were still angry",
-      "Although the workers were still angry, the Chairman promised to meet their demands",
-      "The Chairman although promised to meet the demands of the angry workers"
+      "Although the Chairman promised to meet their demands, the workers were still angry.",
+      "The Chairman promised to meet their demands although the workers were still angry.",
+      "Although the workers were still angry, the Chairman promised to meet their demands.",
+      "The Chairman although promised to meet the demands of the angry workers."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both options A and C are grammatical “although” constructions expressing the same contrast between the promise and the workers’ continued anger. The changed clause order does not establish a unique answer.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceReviewed": true,
+    "sourceNote": "Both options A and C are grammatical “although” constructions expressing the same contrast between the promise and the workers’ continued anger. The changed clause order does not establish a unique answer.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q64",
@@ -364225,25 +365915,26 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "64",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "Kim did not forget the thief’s name. She also did not forget his face. (use ‘neither ’)",
+    "question": "Kim did not forget the thief’s name. She also did not forget his face (use “neither”).",
     "options": [
-      "Kim did not forget neither the thief’s name and face",
-      "Kim did not forget the thief’s name and face neither :",
-      "Kim did not forget neither the thief’s name or his face",
-      "Kim did not forget neither the thief’s name nor his face"
+      "Kim did not forget neither the thief’s name and face.",
+      "Kim did not forget the thief’s name and face neither.",
+      "Kim did not forget neither the thief’s name or his face.",
+      "Kim did not forget neither the thief’s name nor his face."
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "All four options misuse “neither” with an already negative clause. A correct form would be “Kim neither forgot the thief’s name nor his face.”",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceReviewed": true,
+    "sourceNote": "All four options misuse “neither” with an already negative clause. A correct form would be “Kim neither forgot the thief’s name nor his face.”",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q65",
@@ -364251,25 +365942,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "65",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "sentence_transformation",
+    "topicLabel": "Sentence Transformation",
     "difficulty": "medium",
-    "question": "This car is economical. It also feels good to drive (use ‘Not only... but also’)",
+    "question": "This car is economical. It also feels good to drive (use “Not only...but also”).",
     "options": [
-      "Not only does this car economical but also feels good to drive",
-      "This car not only is economical, but also feels good to drive",
-      "Not only this caris  economical, but also feels good to drive",
-      "This car not only feels good to drive, but also feels economical"
+      "Not only does this car economical but also feels good to drive.",
+      "This car not only is economical, but also feels good to drive.",
+      "Not only this car is economical, but also feels good to drive.",
+      "This car not only feels good to drive, but also feels economical."
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Option B coordinates the two predicates “is economical” and “feels good to drive” with “not only ... but also,” preserving both statements.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 56 - 65): Syrithesize the following sentences as directed without"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 56 - 65): Synthesize the following sentences as directed without changing their meaning."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q66",
@@ -364277,25 +365970,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "66",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To find your feet",
     "options": [
-      "To adjust to anew situation",
+      "To adjust to a new situation",
       "To become suddenly more energetic",
       "To want to travel",
       "To meet someone whom you instantly like"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "To find your feet is to become comfortable or capable in a new situation.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q67",
@@ -364303,25 +365998,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "67",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To spice things up",
     "options": [
       "To find a solution",
       "To give up a bad habit",
-      "To learn anew skill",
+      "To learn a new skill",
       "To make things more exciting"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "To spice things up is to make something more lively or exciting.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q68",
@@ -364329,25 +366026,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "68",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To be in hot water",
     "options": [
-      "To bein pleasant circumstances",
+      "To be in pleasant circumstances",
       "To be in serious trouble",
       "To make the correct choice",
-      "To investigate something further : -8-"
+      "To investigate something further"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Being in hot water means being in trouble.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q69",
@@ -364355,25 +366054,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "69",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To be under the weather",
     "options": [
       "To keep a secret",
       "To be intoxicated",
       "To feel unwell or sick",
-      "Tolack ambition"
+      "To lack ambition"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Under the weather means feeling ill.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q70",
@@ -364381,25 +366082,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "70",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "To make a mountain out ofa molehill",
+    "question": "To make a mountain out of a molehill",
     "options": [
       "To pretend to know something",
       "To try to appear as what one is not",
       "To make a small problem seem bigger than it actually is",
-      "to laugh at other people’s misfortune"
+      "To laugh at other people’s misfortune"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "The idiom means exaggerating a small problem.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q71",
@@ -364407,25 +366110,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "71",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "to tie the knot :",
+    "question": "To tie the knot",
     "options": [
-      "to get married",
-      "to agree with someone",
-      "to overthink a situation till you cannot do anything else",
-      "to complete a task in a careless manner :"
+      "To get married",
+      "To agree with someone",
+      "To overthink a situation till you cannot do anything else",
+      "To complete a task in a careless manner"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 0,
+    "explanation": "To tie the knot means to marry.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q72",
@@ -364433,25 +366138,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "72",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
-    "question": "from the horse’s mouth : :",
+    "question": "From the horse’s mouth",
     "options": [
-      "to be suspicious of one’s good fortune",
-      "to come into unexpected money or good luck",
-      "from someone with direct, personal knowledge",
-      "adaunting task"
+      "To be suspicious of one’s good fortune",
+      "To come into unexpected money or good luck",
+      "From someone with direct, personal knowledge",
+      "A daunting task"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "From the horse’s mouth means from a direct, reliable source with personal knowledge.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q73",
@@ -364459,25 +366166,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "73",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Sink or swim",
     "options": [
-      "tobe indecisive",
-      "fail or succeed",
-      "something of superior quality ‘",
-      "ruthlessly competitive"
+      "To be indecisive",
+      "Fail or succeed",
+      "Something of superior quality",
+      "Ruthlessly competitive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 1,
+    "explanation": "Sink or swim means either fail or succeed, often depending on one’s own effort.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q74",
@@ -364485,25 +366194,27 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "74",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To cost an arm and a leg",
     "options": [
       "The cause of someone’s misfortune",
-      "At little to no cost :",
+      "At little to no cost",
       "To postpone something",
       "Very expensive"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "To cost an arm and a leg means to be very expensive.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q75",
@@ -364511,25 +366222,111 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "75",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "To be pushing up daisies",
     "options": [
       "An eternally optimistic person",
-      "Achronic liar",
-      "To be dead and buried :",
+      "A chronic liar",
+      "To be dead and buried",
       "Someone who works hard, but can never become successful"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "Pushing up daisies is a humorous idiom meaning to be dead and buried.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 66 - 75): Choose the correct meaning of the following idioms and phrases."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q76",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "76",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "I shall _____ to your superior judgment in this matter.",
+    "options": [
+      "defer",
+      "infer",
+      "differ",
+      "infirm"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Defer to” means yield to or accept another person’s judgment.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q77",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "77",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "You will _____ all your credibility if you continue to drink like this.",
+    "options": [
+      "loose",
+      "loss",
+      "lost",
+      "lose"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Lose” is the base verb meaning to forfeit; “loose” is an adjective.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q78",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "78",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "The politician promised to _____ a large amount of funds to build a school.",
+    "options": [
+      "allot",
+      "ballot",
+      "elect",
+      "alot"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Allot” means assign or distribute a share of funds.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=8",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q79",
@@ -364537,25 +366334,83 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "79",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "The refugees were told to collect belongings.",
+    "question": "The refugees were told to collect _____ belongings.",
     "options": [
-      "there (c) their",
-      "they're (@) them",
-      "condiments",
-      "complements"
+      "there",
+      "they’re",
+      "their",
+      "them"
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 2,
+    "explanation": "“Their” is the possessive determiner modifying “belongings.”",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q80",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "80",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "The colour of her gown _____ her skin tone perfectly.",
+    "options": [
+      "compliments",
+      "conditions",
+      "condiments",
+      "complements"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Complements” means enhances or goes well with; “compliments” means praises.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q81",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "81",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "I am sure that _____ the right person for this job.",
+    "options": [
+      "you’re",
+      "youre",
+      "your",
+      "yourself"
+    ],
+    "answerIndex": 0,
+    "explanation": "“You’re” is the contraction of “you are,” completing “you are the right person.”",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q82",
@@ -364563,25 +366418,530 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "questionNumber": "82",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
     "difficulty": "medium",
-    "question": "We have taken steps to that your money is safe with us.",
+    "question": "We have taken steps to _____ that your money is safe with us.",
     "options": [
-      "insure (c) assure",
-      "ensue (d) ensure",
+      "insure",
+      "ensue",
+      "assure",
+      "ensure"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Ensure” means make certain that something is safe.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q83",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "83",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "We shall now _____ to the next room.",
+    "options": [
+      "precede",
+      "proceed",
       "procede",
       "preceed"
     ],
+    "answerIndex": 1,
+    "explanation": "“Proceed” means continue or go forward.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q84",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "84",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "I shall _____ the clients about your acceptance of their proposal.",
+    "options": [
+      "apprise",
+      "reprise",
+      "appraise",
+      "comprise"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Apprise” means inform.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q85",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "85",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "word_usage",
+    "topicLabel": "Word Usage & Fill in the Blanks",
+    "difficulty": "medium",
+    "question": "Everyone _____ to the Chairman’s suggestion to break for lunch.",
+    "options": [
+      "ascended",
+      "ascented",
+      "accented",
+      "assented"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Assented” means agreed to a proposal.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most appropriate word."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q86",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "86",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Zenith",
+    "options": [
+      "Bottom",
+      "Beauty",
+      "Ugliness",
+      "Height"
+    ],
+    "answerIndex": 0,
+    "explanation": "The zenith is the highest point; its opposite is the bottom.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 86 - 90): Give the Antonyms of the following words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q87",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "87",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Obvious",
+    "options": [
+      "Obstruse",
+      "Heavy",
+      "Subtle",
+      "Deep"
+    ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "Both “obstruse” (apparently intended as “obscure,” though misspelled in print) and “subtle” can mean not obvious; spelling/meaning makes the intended antonym unreliable.",
     "source": "Forest Ranger-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Question Nos. 76 - 85): Complete the following sentences by choosing the most"
+    "sourceReviewed": true,
+    "sourceNote": "Both “obstruse” (apparently intended as “obscure,” though misspelled in print) and “subtle” can mean not obvious; spelling/meaning makes the intended antonym unreliable.",
+    "direction": "Directions (Question Nos. 86 - 90): Give the Antonyms of the following words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q88",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "88",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Perpetual",
+    "options": [
+      "Permanent",
+      "Transparent",
+      "Temporary",
+      "Plain"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Temporary” is the opposite of “perpetual,” meaning lasting forever or continuously.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 86 - 90): Give the Antonyms of the following words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q89",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "89",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Benefit",
+    "options": [
+      "Advantage",
+      "Bereft",
+      "Charity",
+      "Detriment"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Detriment” is harm or disadvantage, opposite to benefit.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 86 - 90): Give the Antonyms of the following words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q90",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "90",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Anxious",
+    "options": [
+      "Pity",
+      "Careful",
+      "Concerned",
+      "Carefree"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Carefree” means free from worry, the opposite of anxious.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=9",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 86 - 90): Give the Antonyms of the following words."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q91",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "91",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Convivial",
+    "options": [
+      "Cheerful",
+      "Inspiring",
+      "Dour",
+      "Depressing"
+    ],
+    "answerIndex": 0,
+    "explanation": "“Convivial” describes a friendly, sociable, cheerful atmosphere.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 91 - 95): Give the Synonyms of the following."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q92",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "92",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Gargantuan",
+    "options": [
+      "Tiny",
+      "Weak",
+      "Enormous",
+      "Strong"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Gargantuan” means extremely large; “enormous” is the matching synonym.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 91 - 95): Give the Synonyms of the following."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q93",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "93",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Passive",
+    "options": [
+      "Calm",
+      "Messy",
+      "Tidy",
+      "Active"
+    ],
+    "answerIndex": 0,
+    "explanation": "Here “passive” is closest to quiet or inactive; “calm” is the only near-synonym offered. “Active” is its opposite.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 91 - 95): Give the Synonyms of the following."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q94",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "94",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Sensible",
+    "options": [
+      "Foolish",
+      "Safe",
+      "Dangerous",
+      "Clever"
+    ],
+    "answerIndex": 3,
+    "explanation": "“Sensible” means having or showing good judgment; “clever” is the closest offered synonym.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 91 - 95): Give the Synonyms of the following."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q95",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "95",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Conclusion",
+    "options": [
+      "Ending",
+      "Explanation",
+      "Beginning",
+      "Judging"
+    ],
+    "answerIndex": 0,
+    "explanation": "A conclusion is an ending or final part.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 91 - 95): Give the Synonyms of the following."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q96",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "96",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "The act of killing one’s father",
+    "options": [
+      "Regicide",
+      "Patricide",
+      "Matricide",
+      "Homicide"
+    ],
+    "answerIndex": 1,
+    "explanation": "Patricide is the killing of one’s father.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 96 - 100): Choose the word that stands for the definitions given below."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q97",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "97",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "A state under a cruel and oppressive government",
+    "options": [
+      "Tyranny",
+      "Republic",
+      "Apocalypse",
+      "Monarchy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tyranny is cruel and oppressive government or rule.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 96 - 100): Choose the word that stands for the definitions given below."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q98",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "98",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "A hater of women",
+    "options": [
+      "Philogynist",
+      "Monogamist",
+      "Bigamist",
+      "Misogynist"
+    ],
+    "answerIndex": 3,
+    "explanation": "A misogynist is a person who hates women.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 96 - 100): Choose the word that stands for the definitions given below."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q99",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "99",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "A book published after the author’s death",
+    "options": [
+      "Postmortem",
+      "Philanthropy",
+      "Posthumous",
+      "Philately"
+    ],
+    "answerIndex": 2,
+    "explanation": "“Posthumous” means occurring or published after the author’s death.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 96 - 100): Choose the word that stands for the definitions given below."
+  },
+  {
+    "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c-Q100",
+    "paperId": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
+    "questionNumber": "100",
+    "subject": "english",
+    "studySection": "english",
+    "topic": "one_word_substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "Favouring one’s relatives for a job",
+    "options": [
+      "Sinecure",
+      "Iconoclasm",
+      "Biased",
+      "Nepotism"
+    ],
+    "answerIndex": 3,
+    "explanation": "Nepotism is favoritism toward relatives, especially in appointments or jobs.",
+    "source": "Forest Ranger-2024 · 2024",
+    "year": 2024,
+    "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c.pdf#page=10",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Question Nos. 96 - 100): Choose the word that stands for the definitions given below."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-jr-grade-of-mes-combined-july-2024-jr-grade-of-mes-combined-july-2024-ge-dd26ea27-Q3",
@@ -364811,7 +367171,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "source": "Mizoram Health Services ( Combined)-2024 · 2024",
     "year": 2024,
     "sourceHref": "/papers/group-b/archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb-written-8",
     "paperId": "mpsc-group-b-archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb",
@@ -366862,9 +369224,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 1 - 10): Choose the prepositions from the choices provided to form correct"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff-B4",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
@@ -372649,7 +375009,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Direction (Question Nos. 16 - 25): Choose the correct option as instructed:"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc-B26",
     "paperId": "mpsc-group-b-archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc",
@@ -375028,9 +377390,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question Nos. 36 – 40): Choose the correct part of speech as directed of the underlined"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976-B37",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
@@ -380515,7 +382875,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a-Q56",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
@@ -383030,9 +385392,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q67",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -389977,7 +392337,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-0538ee53-Q14",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-0538ee53",
@@ -392601,9 +394963,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q26",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -399291,7 +401651,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos. 42 - 46) : Choose the correct option as directed in the bracket:"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82-B44",
     "paperId": "mpsc-group-b-archive-lang-2025-circle-education-november-2025-ceo-general-english-2025-2eebed82",
@@ -401964,9 +404326,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
     "answerConfidence": "high"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B56",
     "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
@@ -407863,7 +410223,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B15",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jao-2026-p2-Q16",
     "questionNumber": "B16",
@@ -409982,9 +412344,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B96",
     "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q97",
     "questionNumber": "B97",
@@ -415762,7 +418122,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B46",
     "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B47",
     "questionNumber": "B47",
@@ -417844,9 +420206,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B70",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B71",
     "questionNumber": "B71",
@@ -423628,7 +425988,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 13 – 28): Indicate the correct Idioms and Phrases given in the options:"
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mimer-labtech-2018-english-B22",
     "paperId": "mpsc-group-b-mimer-labtech-2018-english",
@@ -425862,9 +428224,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Direction (Question No. 21 - 23) :Choose the correct synonyms of the following words taken from",
     "passage": "Modern technology is increasingly dominating the world and the domination is likely to become more pronounced in future because of the fast developments tending to subdue, creating human thinking and expression. But the belief that literature would have no place in future life of man is equally erroneous. Technology has created robots, artificial intelligence in the shape of “thinking computers” which can read, translate, interpret and give decisions with amazing speed and compositions – poetry, prose, drama, novels and stories. As such, our actions are governed more and more by computer culture and electronic calculators of all types will destroy the talent of writers, authors, poets, biographers and artists. Rather it can generally promote the climate for expressions of talent in various channels by providing firstly enough leisure, as the technology is creating leisure by introducing labour saving and devices. The leisure thus created can be fruitfully put to literary pursuits. Literature, in reality is the product of thought of very sane and gifted people, who live in all ages and they need an environment of peace and tranquility and naturally the advancement of present day accompanied with the comforts of life provided by the modern technology can promote better literature and masterpieces in the arts. Scientists and technologists do not encroach upon the field of literature as it is the source of great peace and inspiration for materialistic related distractions of the mind. Literature is an essential part of culture and its values cherished by people since time immemorial and technological progress cannot afford to cause decay and neglect of nature and her processes. The machine must not enslave man completely as it is the human spirit which must be decisive especially regarding the right uses of technology. The latest drift to technology has to be adjusted and regulated so as not to let the latent aspects of culture fade away and make human being a machine. There are people who are of the opinion that science demolishes faith and tradition, it produces skepticism, anxiety and even tension as it doubts everything, even some of the cherished values. Technology has helped science to produce weapons of destruction and it has further deteriorated the areas of peace. Here the literature gets suppressed. The artists and poets who prepare the literary pieces get suppressed and the art suffers. Technology, as such, is not averse to literature, nor should it be. It is only when technology is not used in a worthwhile direction, when it is used to produce military hardware and things to terrorize mankind, that literature goes in the background. The pieces of art and literature, poetry, prose, drama, etc, are the source of sustenance of the soul of man. In todays ever-increasing tensions of day to day, good literature makes a lasting impact on the mind, it entertains, instructs and enobles the spirit of human beings. There is a strong reason for such impact of literary pieces on human spirit. The poets and artists have been souls gifted exclusively for the works created by them. No ordinary men could venture into the field of literature, so the pieces of literature produced by these genius of men and women had a strange power of giving solace to depressed souls."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B22",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -431795,7 +434155,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q60",
     "paperId": "mpsc-group-b-si-police-ub-2018-mathematics",
@@ -434113,9 +436475,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 35 - 40) : Identify the parts of speech of each underlined words :"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B41",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -440300,7 +442660,9 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-fcs-2018-gs2-Q23",
     "paperId": "mpsc-group-b-si-fcs-2018-gs2",
@@ -442537,9 +444899,7 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B29",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
@@ -448256,7 +450616,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p1-B23",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p1",
@@ -450411,9 +452773,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A27",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -456231,7 +458591,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "passage": "The first thing the children wanted to do at the zoo was to ride the elephant. They were frightened as they climbed the ladder to take their seats on the swaying back of the huge beast. Elephants seem awkward creatures as they move along heavily, their legs covered with loose folds of tough skin and their trunk swinging from side to side in search of food or drink. An elephant has great strength in its trunk, and can drag heavy loads with ropes, but it can also use its trunk to pick up small articles such as coins or nuts from the ground.\n\nAfter their ride on the elephant, the children went to see the lions and tigers. Crowds of people stood watching, protected from the cruel beasts by the strong metal bars of the cages.\n\nFrom there, they went to see the monkeys. Those merry creatures were jumping about the rocks, swinging on the wires of their cages, or begging for nuts from the passers-by. If anyone annoyed them, they would scold him angrily and beat their chests with their hands.\n\nIn the end, they saw some curious creatures like the giraffe with its long neck and the camel with its short beard."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach1-2019-english-Q8",
     "paperId": "mpsc-group-b-coach1-2019-english",
@@ -458409,9 +460771,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach3-2019-english-Q8",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -464445,7 +466805,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions No. 57 - 64) : Pick out the correct clause of the words underlined in the"
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-election-2019-english-B65",
     "paperId": "mpsc-group-b-co-election-2019-english",
@@ -466760,9 +469122,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 59 – 64) : Identify the correct notion expressed by each of the following sentences"
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-english-B65",
     "paperId": "mpsc-group-b-dso-2019-english",
@@ -472719,7 +475079,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-english-Q53",
     "paperId": "mpsc-group-b-do-mar-2019-english",
@@ -474889,9 +477251,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs1-Q53",
     "paperId": "mpsc-group-b-do-mar-2019-gs1",
@@ -480817,7 +483177,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-oct-2019-gs1-Q41",
     "paperId": "mpsc-group-b-do-oct-2019-gs1",
@@ -483006,9 +485368,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-gs2-Q47",
     "paperId": "mpsc-group-b-do-oct-2019-gs2",
@@ -488846,7 +491206,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs1-Q85",
     "paperId": "mpsc-group-b-eo-2019-gs1",
@@ -491034,9 +493396,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q66",
     "paperId": "mpsc-group-b-eo-2019-gs2",
@@ -496915,7 +499275,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-english-2-Q79",
     "paperId": "mpsc-group-b-fr-2019-english-2",
@@ -499101,9 +501463,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q60",
     "paperId": "mpsc-group-b-fr-2019-science-1",
@@ -505021,7 +507381,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Questions No. 76 - 79) : Find the wrong term in the given series:"
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-3-Q79",
     "paperId": "mpsc-group-b-fr-2019-science-3",
@@ -507072,9 +509434,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q43",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -512919,7 +515279,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs1-Q43",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs1",
@@ -515104,9 +517466,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q24",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -521107,7 +523467,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :"
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-phe-2019-english-B44",
     "paperId": "mpsc-group-b-je-phe-2019-english",
@@ -523210,9 +525572,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q30",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -529142,7 +531502,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-english-Q42",
     "paperId": "mpsc-group-b-jics-2019-english",
@@ -531352,9 +533714,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs1-Q42",
     "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -537263,7 +539623,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Question 41 – 48): Analyze the given sentences and choose the correct option:"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lib-lunglei-2019-english-B31",
     "paperId": "mpsc-group-b-lib-lunglei-2019-english",
@@ -539587,9 +541949,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions for Questions 29 - 36 : Identify the part of speech of the words underlined:"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-scr-2019-english-B31",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -545642,7 +548002,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Questions 1 - 8) : Choose the correct alternative closest in meaning to the underlined"
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-english-B5",
     "paperId": "mpsc-group-b-translator-2019-english",
@@ -547858,9 +550220,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q24",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -553424,7 +555784,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p1-B48",
     "paperId": "mpsc-group-b-udc-combined-2019-p1",
@@ -555599,9 +557961,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-A52",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -561518,7 +563878,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-agri-2019-p2-A94",
     "paperId": "mpsc-group-b-udc-agri-2019-p2",
@@ -563715,9 +566077,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p1-B50",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p1",
@@ -569623,7 +571983,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-A15",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -571813,9 +574175,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-B96",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -577727,7 +580087,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p1-B13",
     "paperId": "mpsc-group-b-udc-horti-2019-p1",
@@ -579917,9 +582279,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A17",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -585837,7 +588197,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-revenue-2019-p2-A59",
     "paperId": "mpsc-group-b-udc-revenue-2019-p2",
@@ -588033,9 +590395,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p1-B40",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p1",
@@ -593921,7 +596281,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-rd-2019-p2-A5",
     "paperId": "mpsc-group-b-udc-rd-2019-p2",
@@ -596108,9 +598470,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-rd-2019-p2-B86",
     "paperId": "mpsc-group-b-udc-rd-2019-p2",
@@ -601978,7 +604338,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Fill in the blanks with appropriate forms of verbs from the four alternatives given below."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p2-Q22",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p2",
@@ -604225,9 +606587,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q3",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -610143,7 +612503,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs3-Q22",
     "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -612316,9 +614678,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "source": "Assistant Engineer (Civil) under Tourism Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-english.pdf#page=1"
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-english-written-3",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-english",
@@ -618316,7 +620676,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-english-B33",
     "paperId": "mpsc-group-b-museum-guide-2020-english",
@@ -620538,9 +622900,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs1-Q63",
     "paperId": "mpsc-group-b-museum-guide-2020-gs1",
@@ -626460,7 +628820,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-arc-2020-p2-A56",
     "paperId": "mpsc-group-b-udc-arc-2020-p2",
@@ -628559,9 +630921,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-gs-Q27",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -634517,7 +636877,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q40",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -636577,9 +638939,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Choose the correct pronouns:"
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q15",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -638997,10 +641357,10 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q1",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "1",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "If a mineral deposits is found by initial exploration efforts it is called a",
     "options": [
@@ -639009,26 +641369,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "feasible",
       "foreseeable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "An initial exploration discovery is a prospect; further work determines whether it is an economically viable deposit.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q2",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "2",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Which one is odd in Mining stage operation",
     "options": [
@@ -639038,8 +641397,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Commercial production"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Ambiguous classification: both regional and detailed exploration are exploration-stage activities, while actual mining and commercial production are operational activities; no unique odd choice is evident.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
     "independentAnswerIndex": 1,
@@ -639047,16 +641406,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Ambiguous classification: both regional and detailed exploration are exploration-stage activities, while actual mining and commercial production are operational activities; no unique odd choice is evident."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q3",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "3",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Ore to separate and concentrate valuable minerals by the processed of milling and",
     "options": [
@@ -639065,26 +641425,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "smelting",
       "crushability"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Milling and flotation separate and concentrate valuable minerals from gangue.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q4",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "4",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "In India, 80 percent of mining is in",
     "options": [
@@ -639094,8 +641453,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Mica block"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "The printed statement “80 percent of mining is in” omits the denominator/measure and date; the intended statistic cannot be verified from the stem.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
     "independentAnswerIndex": 0,
@@ -639103,16 +641462,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The printed statement “80 percent of mining is in” omits the denominator/measure and date; the intended statistic cannot be verified from the stem."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q5",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "5",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Minor minerals are come under the purview of",
     "options": [
@@ -639121,26 +641481,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Both Central and State Government",
       "Autonomous council"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Under section 15 of the MMDR Act, State Governments make rules for concessions in minor minerals.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q6",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "6",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Which state is the largest producer of Petroleum in India",
     "options": [
@@ -639149,26 +641508,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Maharashtra",
       "Gujarat"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Among the listed states, Rajasthan was the largest crude-oil producer in the relevant period.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q7",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "7",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Which of the following states is India’s largest Bauxite producers?",
     "options": [
@@ -639177,26 +641535,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Jharkhand",
       "Karnataka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Odisha was India’s leading bauxite-producing state.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q8",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "8",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Which of the following states is India’s has the highest deposits of Monazite sands?",
     "options": [
@@ -639205,26 +641562,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Andhra Pradesh",
       "Maharashtra"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "AMD statewise monazite-resource figures list Andhra Pradesh at 3.72 Mt, higher than Tamil Nadu (2.46 Mt) and Odisha (2.41 Mt).",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q9",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "9",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "Which Indian state is the largest producer of Diamond?",
     "options": [
@@ -639233,26 +641589,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Madhya Pradesh",
       "Karnataka"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Madhya Pradesh is India’s principal diamond-producing state, notably at Panna.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q10",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "10",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mineral_resources",
+    "topicLabel": "Geology — Mineral Resources",
     "difficulty": "medium",
     "question": "UNFC consist of three dimensional system with the following axes : Geological assessment, Feasibility assessment and",
     "options": [
@@ -639261,26 +641616,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Mineral viability",
       "Economic viability"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "UNFC uses geological assessment, feasibility assessment and economic viability as its three dimensions.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=1",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q11",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "11",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Ore deposits which have formed at the same time as the rock in which they occur is called",
     "options": [
@@ -639289,26 +641643,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Epithermal deposits",
       "Sedimentary deposits"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Syngenetic deposits form at the same time as their host rocks; epigenetic deposits form later.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q12",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "12",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "The hydrothermal deposits are formed within a temperature range of",
     "options": [
@@ -639317,26 +641670,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "70 to 700°C",
       "90 to 900°C"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Hydrothermal ore-forming fluids span a broad temperature range, commonly summarized in introductory texts as about 50–500°C.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q13",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "13",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Skarns developed in the sedimentary rocks surrounding the thermal source (pluton) is called",
     "options": [
@@ -639345,26 +641697,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Calcic skarn",
       "Forsterite-diopside skarn"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Exoskarns develop in the country rocks outside the intrusive pluton; endoskarns develop within it.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q14",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "14",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Porphyry copper deposits form by magmatic concentration with hydrothermal alteration and replacement in magma intrusions into continental crust is related to",
     "options": [
@@ -639373,26 +641724,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Convergent plate margin",
       "Cratonic basins"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Porphyry copper systems are most commonly associated with convergent-margin magmatic arcs.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q15",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "15",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "A period of time in the geological past during which notable ore formation took place is called",
     "options": [
@@ -639401,26 +641751,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Metallogenic Affiliation",
       "Metallogenic Association"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "A metallogenic epoch is a time interval characterized by notable ore formation.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q16",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "16",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "At depths of a few tens of kilometres under continents and less than ten kilometres beneath the oceans seismic velocities",
     "options": [
@@ -639429,26 +641778,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Constant",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "The seismic low-velocity zone marks a sharp decrease in seismic velocities at shallow mantle depths.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q17",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "17",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Sea floor spreading is verify with the help of",
     "options": [
@@ -639457,26 +641805,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Electrical study",
       "Magnetic study"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Symmetric magnetic-reversal stripes on the ocean floor provide key evidence for seafloor spreading.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q18",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "18",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "The goal of gravity surveying is to locate and describe subsurface structures from the gravity effects caused by their anomalous",
     "options": [
@@ -639485,26 +641832,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "electric charges",
       "elevations"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Gravity anomalies reflect subsurface density contrasts.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q19",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "19",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "The magnitude of gravity depends on five factors: Topography, elevation, density, Earth tides and",
     "options": [
@@ -639513,26 +641859,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "latitude",
       "longtitude"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Gravity varies with latitude as well as topography, elevation, density and tidal effects.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q20",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "20",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "The temperature above which ferromagnetic materials lose their permanent magnetic field is called",
     "options": [
@@ -639541,26 +641886,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Absolute temperature",
       "Magnetic temperature"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Ferromagnetic materials lose spontaneous permanent magnetization above the Curie temperature.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q21",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "21",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "In seismic study, from a low velocity layer overlain by a high velocity layer - Refraction will",
     "options": [
@@ -639569,26 +641913,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "occur",
       "not occur"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "A low-velocity layer beneath a higher-velocity layer creates a velocity inversion, so the usual critically refracted head wave is not generated at that interface.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q22",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "22",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "When the velocity is higher in the underlying layer there is a particular angle of incidence, known as",
     "options": [
@@ -639597,26 +641940,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "critical angle",
       "adverse angle"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "The critical angle is the incidence angle at which the refracted ray travels along the boundary when the lower layer is faster.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q23",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "23",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Sources suitable for seismic surveying usually generate short-lived wave trains, known as",
     "options": [
@@ -639625,26 +641967,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Rayleigh waves",
       "Love waves"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "A short-lived seismic wave train is a pulse.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q24",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "24",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Devices used on land to detect seismic ground motions are known as",
     "options": [
@@ -639653,26 +641994,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "chirps",
       "pingers"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Geophones detect ground motion in land seismic surveys; hydrophones are used in water.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q25",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "25",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Vertical electrical sounding (VES), also known as ‘electrical drilling’ or ‘expanding probe’ is used mainly in the study of",
     "options": [
@@ -639681,26 +642021,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "water interfaces",
       "soil interface"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "VES expands electrode spacing to investigate vertical resistivity variation and chiefly delineate approximately horizontal subsurface layers/interfaces.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q26",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "26",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Natural electrical potential is measured with the help of",
     "options": [
@@ -639709,26 +642048,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "polarising electrodes",
       "nonpolarising electrodes"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Non-polarising electrodes minimize electrode polarization when measuring natural potentials.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q27",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "27",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "The instruments that measure voltage in DC and IP surveys are known as",
     "options": [
@@ -639737,26 +642075,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "wenner",
       "magnetometer"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Survey receivers measure the voltage response in DC and induced-polarization instruments.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q28",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "28",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "Porosity is the major control of the resistivity of rocks, and that resistivity generally increases as porosity",
     "options": [
@@ -639765,26 +642102,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "gain",
       "enlarge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "With other factors held comparable, lower porosity generally means less connected conductive pore fluid and higher bulk resistivity.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q29",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "29",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "A correction made to gravity anomaly for the attraction of the rock between the station and the datum elevation is called",
     "options": [
@@ -639793,26 +642129,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Bouguer correction",
       "enlarge"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "The Bouguer correction accounts for the gravitational attraction of material between the station and reference datum.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q30",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "30",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_ore_deposits",
+    "topicLabel": "Geology — Ore Deposits & Geophysics",
     "difficulty": "medium",
     "question": "The Interpretation of gravity anomalies an ambiguity arises because any given anomaly could be caused by an infinite number of",
     "options": [
@@ -639821,26 +642156,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "correction",
       "none of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Gravity inversion is non-unique: infinitely many source geometries can produce a given anomaly.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q31",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "31",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "Material that has been identified and can be extracted at a profit at the time of determination is called",
     "options": [
@@ -639849,26 +642183,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Deposits",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "A reserve is an identified mineral quantity that can be economically extracted under the conditions considered at the time of assessment.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q32",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "32",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "Choose the correct order of Stages in the life of a mine",
     "options": [
@@ -639877,26 +642210,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "prospecting, exploration, development, exploitation and reclamation.",
       "exploration, exploitation, development, prospecting and reclamation."
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "The usual mine-life sequence is prospecting, exploration, development, exploitation/production and reclamation.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q33",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "33",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "There are different kinds of geological map, by convention, large-scale refers to maps with a",
     "options": [
@@ -639905,26 +642237,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "small area ratio",
       "large area ratio"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "A large-scale map covers a relatively small area and has a small denominator (scale ratio).",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q34",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "34",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "Open-cut strip mining requires removing a series of horizontal slices through an ore body and adjacent waste rock – a process known as",
     "options": [
@@ -639933,26 +642264,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "strip mining",
       "flitch mining"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "The source names the horizontal-slice operation flitch mining; flitches are successive horizontal slices in open-cut mining.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q35",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "35",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "In mining exploration programmes where there are no pre-existing mines or prospects is called",
     "options": [
@@ -639961,26 +642291,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Redfield exploration",
       "Yellowfield exploration"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Greenfield exploration targets areas without established mines or prospects.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q36",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "36",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "The normal geothermal gradient is about ________ per 1km.",
     "options": [
@@ -639989,26 +642318,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "30°C",
       "40°C"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "A commonly quoted average geothermal gradient is about 30°C per kilometre.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q37",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "37",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "If the ore body is more disseminated (e.g., porphyry copper deposits) the most economical option for suitable mining is",
     "options": [
@@ -640017,26 +642345,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "strip mining",
       "none of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Large, low-grade disseminated porphyry deposits are commonly mined economically by open pit.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q38",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "38",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "The valueless mineral particles within an ore deposit that must be discarded is called",
     "options": [
@@ -640045,26 +642372,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Ore",
       "Gangue"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Gangue is the unwanted mineral material associated with the valuable ore.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q39",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "39",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "The imaginary line running along the centre of the cylindrical drill core is called",
     "options": [
@@ -640073,26 +642399,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Down Hole Survey",
       "Drill Hole"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "The core axis is the imaginary longitudinal line through the centre of a cylindrical drill core.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q40",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "40",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "Small rotary percussion drills using standard recovery of broken rock to the surface are usually known as",
     "options": [
@@ -640101,26 +642426,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Post-Hole Digger",
       "Hand Auger"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Rotary air-blast drilling is a small rotary-percussion method that returns broken rock samples to the surface.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q41",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "41",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "Electromagnetic surveys systems work best for ore bodies within ________ of the surface.",
     "options": [
@@ -640130,8 +642454,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "0 - 200 m"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Depth capability depends on survey system, target conductivity and geology; the stem gives no system or context to support a single universal depth range.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
     "independentAnswerIndex": 3,
@@ -640139,16 +642463,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Depth capability depends on survey system, target conductivity and geology; the stem gives no system or context to support a single universal depth range."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q42",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "42",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "________ is often mixed with water to drill through less competent rock and fault zones, this prevents loss of water pressure and lost core.",
     "options": [
@@ -640157,26 +642482,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Illite",
       "Chlorite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Bentonite slurry stabilizes weak/faulted ground and helps maintain drilling-fluid pressure and core recovery.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q43",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "43",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "Most of the hematite iron ore of the country (India) is on the basis of arbitrary cut off grade of ________ Fe.",
     "options": [
@@ -640186,8 +642510,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "65%"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "The arbitrary hematite cutoff grade varies by resource/grade convention and date; the paper gives no source for choosing one threshold.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
     "independentAnswerIndex": 2,
@@ -640195,16 +642519,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The arbitrary hematite cutoff grade varies by resource/grade convention and date; the paper gives no source for choosing one threshold."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q44",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "44",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_mining_methods",
+    "topicLabel": "Geology — Mining & Exploration",
     "difficulty": "medium",
     "question": "The identified or discovered mineral resources were categorised into",
     "options": [
@@ -640214,8 +642539,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "prognostic, proved and probable categories"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "The printed categories (proved/probable/possible) ordinarily describe reserves, while discovered resources are classified using a different resource scheme; the stem/options conflate categories, so no defensible unique answer.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=4",
     "independentAnswerIndex": 1,
@@ -640223,16 +642548,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The printed categories (proved/probable/possible) ordinarily describe reserves, while discovered resources are classified using a different resource scheme; the stem/options conflate categories, so no defensible unique answer."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q45",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "45",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "The generic geostatistical method of spatial interpolation is termed",
     "options": [
@@ -640241,26 +642567,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Markov",
       "Gaussian"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Kriging is the standard geostatistical spatial-interpolation method.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q46",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "46",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "The most favorable conditions for the formation of coal occurred in the world during",
     "options": [
@@ -640269,26 +642594,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Permian Period",
       "Tertiary Period"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "The Carboniferous is widely cited as a major period of extensive coal formation.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q47",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "47",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "The carbon content of anthracite coal is",
     "options": [
@@ -640297,26 +642621,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "80%",
       "90%"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Anthracite is the highest-rank coal and is commonly described as containing roughly 90% or more carbon.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q48",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "48",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "The geochemical process that transforms plant material into coal is called",
     "options": [
@@ -640326,22 +642649,23 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "maceral"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Defective options: the geochemical transformation of plant material into coal is coalification, which is not offered.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceReviewed": true,
+    "sourceNote": "Defective options: the geochemical transformation of plant material into coal is coalification, which is not offered."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q49",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "49",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "The maceral which shows shiny, glass like material that is considered to be composed of cellular plant is",
     "options": [
@@ -640350,26 +642674,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "inertinite",
       "exinite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Vitrinite derives from woody/cellular plant tissues and commonly has a bright, glassy appearance.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q50",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "50",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "In India, the gradation of coking coal is based on",
     "options": [
@@ -640378,26 +642701,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "ash content",
       "grade"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Indian coking-coal grades are classified principally by ash content.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q51",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "51",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "________ is recognized as fungal remains.",
     "options": [
@@ -640406,26 +642728,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Huminite",
       "Sclerotinite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Sclerotinite (modern term: funginite) represents fungal remains.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q52",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "52",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "In the petrographic analysis of coals, florescent light microscopy was used to identify and quantify",
     "options": [
@@ -640434,26 +642755,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "huminitic macerals",
       "exinitic macerals"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Liptinite macerals fluoresce strongly under ultraviolet/blue excitation and are assessed by fluorescence microscopy.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q53",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "53",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "Which state is the largest producer of Lignite Coal in India",
     "options": [
@@ -640462,26 +642782,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Rajasthan",
       "West Bengal"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Tamil Nadu has historically been India’s largest lignite producer, led by Neyveli.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q54",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "54",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "Which state is the largest producer of Coal in India",
     "options": [
@@ -640491,8 +642810,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Madhya Pradesh"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Year-sensitive and underspecified “largest producer”: state rankings change with year; no year is specified and historical figures place different states close to the lead.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
     "independentAnswerIndex": 1,
@@ -640500,16 +642819,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Year-sensitive and underspecified “largest producer”: state rankings change with year; no year is specified and historical figures place different states close to the lead."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q55",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "55",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "Source rock quality of Good in Total Organic Carbon (TOC) Weight percent is",
     "options": [
@@ -640518,26 +642838,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "2.0 - 4.0",
       "more than 4"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Standard source-rock screening ranges classify about 1–2 wt% TOC as good quality.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q56",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "56",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "What is intermediate product formed during diagenesis and is the principal source of hydrocarbon generation is",
     "options": [
@@ -640546,26 +642865,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "bitumen",
       "kerogen"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Kerogen is insoluble organic matter formed during diagenesis and is the principal precursor of petroleum hydrocarbons.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q57",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "57",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "The process in which hydrocarbons move along a porous and permeable layer to its final accumulation is called",
     "options": [
@@ -640574,26 +642892,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "oil phase migraion",
       "migration in solution"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Secondary migration is movement of hydrocarbons through permeable carrier beds toward a trap/accumulation.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q58",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "58",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "How many major sedimentary basins are there in India?",
     "options": [
@@ -640602,26 +642919,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "26",
       "28"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "DGH describes 26 sedimentary basins in India.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q59",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "59",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "An Instruments used for measuring beta particles is",
     "options": [
@@ -640631,8 +642947,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "radon emanometer"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Both scintillation counters and Geiger–Müller counters can detect beta radiation; the question does not specify the detector type/measurement context.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
     "independentAnswerIndex": 0,
@@ -640640,16 +642956,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Both scintillation counters and Geiger–Müller counters can detect beta radiation; the question does not specify the detector type/measurement context."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q60",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "60",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_energy_resources",
+    "topicLabel": "Geology — Coal & Petroleum",
     "difficulty": "medium",
     "question": "Natural Gamma ray logging is used to distinguish between",
     "options": [
@@ -640658,26 +642975,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "dolomite and limestone",
       "gypsum and salt"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Natural gamma-ray logs commonly distinguish shale-rich intervals from cleaner, non-shale rocks.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q61",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "61",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "In Rock Quality Designation (RQD) sound core having a minimum length of",
     "options": [
@@ -640686,26 +643002,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "100mm",
       "125mm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "RQD counts sound core pieces at least 100 mm long.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q62",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "62",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Engineering classification of rocks (UCS) medium strength is",
     "options": [
@@ -640714,26 +643029,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "1120-2240 kg/sqcm",
       "None of the above"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Medium-strength rock is about 25–50 MPa, approximately 255–510 kg/cm²; option A is the matching rounded range.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q63",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "63",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "A size of Fine aggregates is",
     "options": [
@@ -640742,26 +643056,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "10.5 to 16.5 mm",
       "bigger than 16.5 mm"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Fine aggregate is conventionally material passing the 4.75 mm sieve; option A is the closest printed threshold (4.5 mm).",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q64",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "64",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Opening in the dam near the base, provided to clear the silt accumulation in the reservoir is called",
     "options": [
@@ -640770,26 +643083,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Abutment",
       "Sluice way"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "A sluiceway/outlet near the base can be opened to flush sediment from a reservoir.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q65",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "65",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "In Engineering Properties of Rock study Rock Mass Rating (RMR) is proposed by",
     "options": [
@@ -640798,26 +643110,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Barton et al.",
       "Hoek & Brown"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Z. T. Bieniawski developed the Rock Mass Rating (RMR) classification.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q66",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "66",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Earthquake-Resistant Buildings Design method is called the strong-column and",
     "options": [
@@ -640826,26 +643137,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "resistivity-beam",
       "moderate-beam"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Ductile-frame earthquake design favors strong columns and weak beams so yielding occurs in beams rather than a storey mechanism.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q67",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "67",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "The Plasticity Index (PI) of soil is the difference between the plastic limit and",
     "options": [
@@ -640854,26 +643164,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "liquid limit",
       "flow limit"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Plasticity Index = Liquid Limit − Plastic Limit.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q68",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "68",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "An impermeable rock with static water held in poorly connected voids is called",
     "options": [
@@ -640882,26 +643191,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "aquifuge",
       "aquiclude"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "An aquiclude can contain water in its pores but transmits it negligibly; an aquifuge neither stores nor transmits groundwater.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q69",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "69",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Tunnel boring machine is now increasingly used, though often uneconomic in tunnels less than",
     "options": [
@@ -640911,8 +643219,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "5 km"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "The economic minimum length for TBM use depends on project geology, diameter, access and setup costs; the paper gives no basis for a single threshold.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=6",
     "independentAnswerIndex": 2,
@@ -640920,16 +643228,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "The economic minimum length for TBM use depends on project geology, diameter, access and setup costs; the paper gives no basis for a single threshold."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q70",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "70",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Name two types of construction are employed to build cut and cover tunnels",
     "options": [
@@ -640938,26 +643247,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "side-first and bottom-next",
       "bottom-first and side-next"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Cut-and-cover tunnels are built by bottom-up or top-down construction.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q71",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "71",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Poor geological conditions of dam foundation can be improved in 2 ways-improving load bearing properties and",
     "options": [
@@ -640966,26 +643274,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "reduce water level",
       "controlling seepage"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Foundation treatment can improve bearing capacity and control seepage.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q72",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "72",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "The space between the highest level of water in the reservoir and the top of the dam.",
     "options": [
@@ -640994,26 +643301,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Gallery",
       "parapet wall"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Freeboard is the vertical distance from the maximum reservoir water level to the dam crest.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q73",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "73",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "What is considered as intermediate earthquake focal depth",
     "options": [
@@ -641022,26 +643328,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "70 - 300 km",
       "90 - 400 km"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Intermediate-focus earthquakes conventionally have focal depths of about 70–300 km.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q74",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "74",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "If the Factor of safety of a slope is greater than 2 means",
     "options": [
@@ -641050,26 +643355,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "slope is quite stable",
       "slope is extremely stable"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "A factor of safety greater than 2 indicates a stable slope under the assumed analysis conditions.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q75",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "75",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "gk",
+    "studySection": "gk",
+    "topic": "geology_engineering",
+    "topicLabel": "Geology — Engineering & Hydrogeology",
     "difficulty": "medium",
     "question": "Which fault is considered as a plate boundary fault between India and Burma plates?",
     "options": [
@@ -641079,8 +643383,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Kabaw Fault"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Plate-boundary naming across the India–Burma/Indo-Burma boundary is not uniquely standardized among the listed local fault names; hold pending authoritative source-specific confirmation.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
     "independentAnswerIndex": 0,
@@ -641088,16 +643392,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+    "sourceReviewed": true,
+    "sourceNote": "Plate-boundary naming across the India–Burma/Indo-Burma boundary is not uniquely standardized among the listed local fault names; hold pending authoritative source-specific confirmation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q76",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "76",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "4, 8, 24, 96, ....?...., 2880",
     "options": [
@@ -641106,24 +643411,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "480",
       "556"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "The multipliers are ×2, ×3, ×4, ×5 and ×6; 96×5=480.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q77",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "77",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "0.5, 1.5, ....?...., 13.5, 40.5",
     "options": [
@@ -641132,24 +643438,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "8.5",
       "12.5"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Each term is multiplied by 3, so the missing term is 1.5×3=4.5.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q78",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "78",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "5, 9, 17, 29, 45, ....?......",
     "options": [
@@ -641158,24 +643465,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "56",
       "65"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "The increments are +4,+8,+12,+16,+20; the next term is 65.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q79",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "79",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "2, 5, 9, 14, .....?....., 27",
     "options": [
@@ -641184,24 +643492,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "20",
       "24"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "The increments rise by one: +3,+4,+5,+6,+7; the missing term is 20.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 76 - 79) : Find the missing number from the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q80",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "80",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "24, 27, 31, 33, 36, 39",
     "options": [
@@ -641210,24 +643519,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "33",
       "39"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "All listed terms except 31 are divisible by 3.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q81",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "81",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "196, 169, 144, 121, 80",
     "options": [
@@ -641236,24 +643546,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "169",
       "196"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "The sequence is descending squares 14²,13²,12²,11²,10²; the last should be 100, so 80 is the odd term.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=7",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q82",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "82",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "3, 10, 27, 4, 16, 64, 5, 25, 125",
     "options": [
@@ -641262,24 +643573,25 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "10",
       "27"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "The pattern is grouped as n,n²,n³: 3,9,27; 4,16,64; 5,25,125. The printed 10 is the outlier.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q83",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "83",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
     "question": "89, 78, 86, 80, 85, 82, 83",
     "options": [
@@ -641288,15 +643600,16 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "82",
       "86"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Odd positions should descend 89,87,85,83 and even positions ascend 78,80,82; 86 is the outlier.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=8",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 80 - 83) : Find the wrong term out of the given series:"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q84",
@@ -641304,8 +643617,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "84",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "He was so convinced that people were driven ________ motives that he could not believe that anyone could be unselfish.",
     "options": [
@@ -641314,18 +643627,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "intrinsic",
       "ulterior"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "“Ulterior motives” are hidden or self-serving motives, matching the contrast with unselfishness.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=8",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 84–87): Each sentence below has a blank, indicating that something has been omitted. Beneath each sentence are four words. Choose the word that best fits the sentence as a whole."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q85",
@@ -641333,8 +643645,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "85",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "His theories were so ________ that few could see what he was trying to establish",
     "options": [
@@ -641343,18 +643655,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "scholarly",
       "erudite"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Nebulous means vague or unclear, explaining why few could understand the theories.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=8",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 84–87): Each sentence below has a blank, indicating that something has been omitted. Beneath each sentence are four words. Choose the word that best fits the sentence as a whole."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q86",
@@ -641362,8 +643673,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "86",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "After several ________ attempts to send the missile into space, the spacecraft was finally launched successfully",
     "options": [
@@ -641372,18 +643683,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "abortive",
       "experimental"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 2,
+    "explanation": "Abortive attempts are unsuccessful attempts.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=8",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 84–87): Each sentence below has a blank, indicating that something has been omitted. Beneath each sentence are four words. Choose the word that best fits the sentence as a whole."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q87",
@@ -641391,8 +643701,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "87",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "His ________ remarks are often embarrassing because of their frankness",
     "options": [
@@ -641401,18 +643711,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "sarcastic",
       "urbane"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "Ingenuous means candid or innocently frank, fitting the sentence.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=8",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 84 - 87) : Each sentence below has a blank, indicating that something has"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 84–87): Each sentence below has a blank, indicating that something has been omitted. Beneath each sentence are four words. Choose the word that best fits the sentence as a whole."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q88",
@@ -641420,8 +643729,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "88",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The antonym for “synthetic” is",
     "options": [
@@ -641430,18 +643739,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "artificial",
       "imitate"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Synthetic means artificial or manufactured; real is the best available antonym.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 88 - 90) : Read the following passage carefully and choose the best"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 88–90): Read the following passage carefully and choose the best answer. Passage: Narcotics are drugs that increase relaxation and relieve pain and anxiety. Morphine and heroin are derived from the poppy seed pod. Morphine is used medically to control severe pain; heroin is illegal in the United States. Heroin users experience a rush followed by well-being and then anxiety and cravings; larger doses are needed for the same effect. This cycle creates dependence and the addict’s life revolves around heroin. Methadone can reduce psychological cravings, but it does not cure dependence: it replaces heroin dependence with physiological dependence on methadone."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q89",
@@ -641449,8 +643757,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "89",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The synonym for “drawback” is",
     "options": [
@@ -641459,18 +643767,17 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "importance",
       "snag"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "A snag is a problem or drawback.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 88 - 90) : Read the following passage carefully and choose the best"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 88–90): Read the following passage carefully and choose the best answer. Passage: Narcotics are drugs that increase relaxation and relieve pain and anxiety. Morphine and heroin are derived from the poppy seed pod. Morphine is used medically to control severe pain; heroin is illegal in the United States. Heroin users experience a rush followed by well-being and then anxiety and cravings; larger doses are needed for the same effect. This cycle creates dependence and the addict’s life revolves around heroin. Methadone can reduce psychological cravings, but it does not cure dependence: it replaces heroin dependence with physiological dependence on methadone."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q90",
@@ -641478,8 +643785,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "questionNumber": "90",
     "subject": "english",
     "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "topic": "comprehension",
+    "topicLabel": "Comprehension",
     "difficulty": "medium",
     "question": "The following are true of the passage, except",
     "options": [
@@ -641488,159 +643795,169 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Heroin is derived from a plant",
       "the life of an addict revolves around the drug"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 1,
+    "explanation": "The passage says methadone can relieve cravings but replaces heroin dependence with physiological dependence on methadone; it does not cure dependence.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 88 - 90) : Read the following passage carefully and choose the best"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 88–90): Read the following passage carefully and choose the best answer. Passage: Narcotics are drugs that increase relaxation and relieve pain and anxiety. Morphine and heroin are derived from the poppy seed pod. Morphine is used medically to control severe pain; heroin is illegal in the United States. Heroin users experience a rush followed by well-being and then anxiety and cravings; larger doses are needed for the same effect. This cycle creates dependence and the addict’s life revolves around heroin. Methadone can reduce psychological cravings, but it does not cure dependence: it replaces heroin dependence with physiological dependence on methadone."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q91",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "91",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
-    "question": "",
+    "question": "Select the best answer figure to continue/complete the printed figure pattern (see original scan page 9).",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Printed answer figure (a); see figureEvidence crop.",
+      "Printed answer figure (b); see figureEvidence crop.",
+      "Printed answer figure (c); see figureEvidence crop.",
+      "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
+    "imagePath": "/question-images/group-b/geologist-jun-2020-p3-q91.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
+    "sourceReviewed": true,
+    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q92",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "92",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
-    "question": "",
+    "question": "Select the best answer figure to continue/complete the printed figure pattern (see original scan page 9).",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Printed answer figure (a); see figureEvidence crop.",
+      "Printed answer figure (b); see figureEvidence crop.",
+      "Printed answer figure (c); see figureEvidence crop.",
+      "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
+    "imagePath": "/question-images/group-b/geologist-jun-2020-p3-q92.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
+    "sourceReviewed": true,
+    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q93",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "93",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
-    "question": "",
+    "question": "Select the best answer figure to continue/complete the printed figure pattern (see original scan page 9).",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Printed answer figure (a); see figureEvidence crop.",
+      "Printed answer figure (b); see figureEvidence crop.",
+      "Printed answer figure (c); see figureEvidence crop.",
+      "Printed answer figure (d); see figureEvidence crop."
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "The q counts decrease 7, 6, 5, 4, 3, so the next has 2; the o counts increase 2, 3, 4, 5, 6, so the next has 7. Option (a) has two q characters and seven o characters.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "imagePath": "/question-images/group-b/geologist-jun-2020-p3-q93.png",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q94",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "94",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
-    "question": "",
+    "question": "Select the best answer figure to continue/complete the printed figure pattern (see original scan page 10).",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Printed answer figure (a); see figureEvidence crop.",
+      "Printed answer figure (b); see figureEvidence crop.",
+      "Printed answer figure (c); see figureEvidence crop.",
+      "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
+    "imagePath": "/question-images/group-b/geologist-jun-2020-p3-q94.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
+    "sourceReviewed": true,
+    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q95",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "95",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
     "difficulty": "medium",
-    "question": "",
+    "question": "Select the best answer figure to continue/complete the printed figure pattern (see original scan page 10).",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "Printed answer figure (a); see figureEvidence crop.",
+      "Printed answer figure (b); see figureEvidence crop.",
+      "Printed answer figure (c); see figureEvidence crop.",
+      "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
+    "imagePath": "/question-images/group-b/geologist-jun-2020-p3-q95.png",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions No. 91 - 95) : Given below are problem figures. Choose the best alternative"
+    "sourceReviewed": true,
+    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q96",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "96",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "coding_decoding",
+    "topicLabel": "Coding & Decoding",
     "difficulty": "medium",
-    "question": "ROMAN  QMONA : : ITALIAN  ? →→",
+    "question": "ROMAN → QMONA :: ITALIAN → ?",
     "options": [
       "JUBMJBO",
       "HSZKHZM",
@@ -641648,8 +643965,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "HATILNA"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "The printed example ROMAN → QMONA does not follow the apparent one-letter-back rule that yields option B for ITALIAN; inconsistent example and answer choice, so hold.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
     "independentAnswerIndex": 3,
@@ -641657,77 +643974,76 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number"
+    "sourceReviewed": true,
+    "sourceNote": "The printed example ROMAN → QMONA does not follow the apparent one-letter-back rule that yields option B for ITALIAN; inconsistent example and answer choice, so hold.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q97",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "97",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "coding_decoding",
+    "topicLabel": "Coding & Decoding",
     "difficulty": "medium",
-    "question": "SECOND  RDBNMC : : FINISH  ? →→",
+    "question": "SECOND → RDBNMC :: FINISH → ?",
     "options": [
       "EHNJRG",
       "EHOJSG",
       "EHMJTI",
       "EHMHRG"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 3,
+    "explanation": "Each letter is shifted back one place: FINISH becomes EHMHRG, matching option D.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q98",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "98",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "coding_decoding",
+    "topicLabel": "Coding & Decoding",
     "difficulty": "medium",
-    "question": "BANDRA  40 : : DUMDUM  ? →→",
+    "question": "BANDRA → 40 :: DUMDUM → ?",
     "options": [
       "76",
       "40",
       "46",
       "60"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Add letter positions: BANDRA = 2+1+14+4+18+1=40; DUMDUM = 4+21+13+4+21+13=76.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q99",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "99",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "coding_decoding",
+    "topicLabel": "Coding & Decoding",
     "difficulty": "medium",
-    "question": "CONSUMER  365103459 : : PRODUCER  ? →→",
+    "question": "CONSUMER → 365103459 :: PRODUCER → ?",
     "options": [
       "1191223624229",
       "1618154213518",
@@ -641735,8 +644051,8 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "79643359"
     ],
     "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "explanation": "The printed example CONSUMER → 365103459 does not match the evident alphabet-position concatenation, although option B is the value for PRODUCER; inconsistent example, so hold.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
     "independentAnswerIndex": 1,
@@ -641744,37 +644060,37 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "answerConfidence": "low",
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number"
+    "sourceReviewed": true,
+    "sourceNote": "The printed example CONSUMER → 365103459 does not match the evident alphabet-position concatenation, although option B is the value for PRODUCER; inconsistent example, so hold.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q100",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p3",
     "questionNumber": "100",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "general",
-    "topicLabel": "General English Paper-III",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "coding_decoding",
+    "topicLabel": "Coding & Decoding",
     "difficulty": "medium",
-    "question": "SCIENCE  193951435 : : SOCIAL  ? →→",
+    "question": "SCIENCE → 193951435 :: SOCIAL → ?",
     "options": [
       "191539112",
       "191639113",
       "191539120",
       "191431912"
     ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Geologist Junior under Commerce & Industries Department · 2020",
+    "answerIndex": 0,
+    "explanation": "Replace each letter by its alphabet position and concatenate: SOCIAL = 19-15-3-9-1-12 → 191539112.",
+    "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "sourceReviewed": true,
     "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
-    "direction": "Directions (Questions No. 96 - 100) : The following questions involve letter coding, number"
+    "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
   },
   {
     "id": "mpsc-group-b-je-agri-2020-english-B1",
@@ -642726,7 +645042,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Directions (Questions No. 33 - 40) : Choose the correct option to complete the meaning of the"
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-je-agri-2020-english-B34",
     "paperId": "mpsc-group-b-je-agri-2020-english",
@@ -644866,9 +647184,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q27",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -650675,7 +652991,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q33",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -652875,9 +655193,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 1 - 10) : Name the Part of Speech of the Underlined Words in the following sentences:"
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q8",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -658929,7 +661245,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q21",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs1",
@@ -661119,9 +663437,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q2",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -667094,7 +669410,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q21",
     "paperId": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
@@ -669530,9 +671848,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q9",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -676110,7 +678426,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q63",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025",
@@ -678552,9 +680870,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q54",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -685129,7 +687445,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q95",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025",
@@ -687557,9 +689875,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q89",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025",
@@ -694125,7 +696441,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q75",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025",
@@ -696558,9 +698876,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025-Q81",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025",
@@ -703042,7 +705358,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q28",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -705114,9 +707432,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q16",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -711879,7 +714195,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q35",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -714334,9 +716652,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held: the listed assembly constituency choices do not match the 2023 election; the item appears to reuse a stale 2018 answer."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q7",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -720908,7 +723224,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q39",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -723342,9 +725660,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q23",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -729175,7 +731491,9 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q82",
     "paperId": "mpsc-group-b-archive2325-case-worker-2024-general-studies",
@@ -731639,9 +733957,7 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q65",
     "paperId": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",
@@ -737883,7 +740199,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/gb-gazetted-2024-gs-final-key.pdf",
     "sourceReviewed": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q34",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024",
@@ -740319,9 +742637,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q15",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -746707,7 +749023,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q34",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -748968,9 +751286,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Direction (Question Nos. 11 - 15): Choose the correct preposition from the options provided :"
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-general-english-B15",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-general-english",
@@ -754760,7 +757076,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Miss Universe 2013 Ms. Gabriela Isler belongs to",
-    "explanation": "",
+    "explanation": "Gabriela Isler represented Venezuela.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754770,13 +757086,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Ecuador",
       "Venezuela"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 3,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q011",
@@ -754788,7 +757104,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Who is the Australian Open Women's Tennis Champion of 2014?",
-    "explanation": "",
+    "explanation": "Li Na won the 2014 Australian Open women’s singles title.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754798,13 +757114,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Sarena Williams",
       "Victoria Azarenka"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q012",
@@ -754816,7 +757132,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Who is the new CEO of Microsoft?",
-    "explanation": "",
+    "explanation": "Satya Nadella became Microsoft CEO in 2014.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754826,13 +757142,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Mc. Yanykovych",
       "Bill Gates"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q013",
@@ -754857,7 +757173,9 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "answerIndex": -1,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring."
+    "sourceNote": "Held: the stem does not identify the award announcement or category wording precisely enough to distinguish the overlapping Northeast and special-category labels.",
+    "sourceReviewed": true,
+    "disputeNote": "Held: the stem does not identify the award announcement or category wording precisely enough to distinguish the overlapping Northeast and special-category labels."
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q014",
@@ -754869,7 +757187,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "As per the final figure of 2011 census, the literacy percentage of Mizoram is",
-    "explanation": "",
+    "explanation": "The final 2011 Census literacy figure for Mizoram is 91.33%.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754879,14 +757197,16 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "92.23%",
       "None of these"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
-  },
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
+  }
+];
+const groupBQuestionsPart91: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q015",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
@@ -754897,7 +757217,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Who was the chief guest of Republic Day Parade 2014 of India in New Delhi?",
-    "explanation": "",
+    "explanation": "Herman Van Rompuy, President of the European Council, was the 2014 Republic Day chief guest.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754907,13 +757227,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "French President",
       "Japanese Prime Minister"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q016",
@@ -754925,7 +757245,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Who is the newly elected Prime Minister of Bangladesh?",
-    "explanation": "",
+    "explanation": "Sheikh Hasina was newly elected Prime Minister of Bangladesh in January 2014.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754935,13 +757255,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Abdul Hamid",
       "Fakhrudin Ahmed"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q017",
@@ -754952,8 +757272,8 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topic": "general",
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
-    "question": "The Rs.3600 crore VVIP Chopper deal between India and AgustaWestland was cancelled in wake of",
-    "explanation": "",
+    "question": "The Rs.3600 crore VVIP Chopper deal between India and AgustaWestland was cancelled in wake of-",
+    "explanation": "The deal was cancelled following corruption allegations; the other listed reasons are not supported by the reported cancellation.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754963,13 +757283,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "The allegation of mechanical irregularities",
       "All of these"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q018",
@@ -754981,7 +757301,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Who won the FIFA Ballon d'or award for the year 2013?",
-    "explanation": "",
+    "explanation": "Cristiano Ronaldo won the 2013 FIFA Ballon d’Or.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -754991,13 +757311,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Cristiano Ronaldo",
       "Alan Shearer"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q019",
@@ -755009,7 +757329,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Union Government raised the quota of subsidised LPG cylinders per household in a year to",
-    "explanation": "",
+    "explanation": "The annual subsidised LPG quota was raised to 12 cylinders per household.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -755019,13 +757339,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "12 cylinders",
       "15 cylinders"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q020",
@@ -755037,7 +757357,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "The full form of EPABX is",
-    "explanation": "",
+    "explanation": "EPABX expands to Electronic Private Automatic Branch Exchange.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -755047,13 +757367,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Electrical Private Automated Branch Exchange",
       "Electrical Private Automatic Branch Exchanged"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q021",
@@ -755065,7 +757385,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "The currency (monetary unit) of Indonesia is",
-    "explanation": "",
+    "explanation": "Indonesia’s currency is the rupiah.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=4",
@@ -755075,13 +757395,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Kyat",
       "Ringgit"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q033",
@@ -755093,7 +757413,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Which one is not correct?",
-    "explanation": "",
+    "explanation": "CSIR expands to Council of Scientific and Industrial Research; “Centre” makes option C the incorrect expansion.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755103,10 +757423,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Centre for Scientific and Industrial Research (CSIR)",
       "National Centre for Antarctic & Ocean Research (NCAOR)"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring."
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q034",
@@ -755118,7 +757441,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "_____________________ received Nobel prize in physiology or medicine in 1968.",
-    "explanation": "",
+    "explanation": "Har Gobind Khorana shared the 1968 Nobel Prize in Physiology or Medicine.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755128,13 +757451,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Har Gobind Khorana",
       "M.Battacherjee"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q035",
@@ -755146,7 +757469,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Study of birds is called:",
-    "explanation": "",
+    "explanation": "Ornithology is the study of birds.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755156,13 +757479,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Ornithology",
       "Aerobiology"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q036",
@@ -755174,7 +757497,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "O.M.R. stands for:",
-    "explanation": "",
+    "explanation": "OMR means Optical Mark Reader in the terminology used by the paper.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755184,13 +757507,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Octal Machine Reader",
       "Octal Mark Reader"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q037",
@@ -755215,10 +757538,9 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "answerIndex": -1,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Held: the printed word is “evaluation”; the likely intended word is “evolution,” which would point to Chandrasekhar, but changing the printed stem would be editorial repair rather than source transcription.",
+    "sourceReviewed": true,
+    "disputeNote": "Held: the printed word is “evaluation”; the likely intended word is “evolution,” which would point to Chandrasekhar, but changing the printed stem would be editorial repair rather than source transcription."
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q038",
@@ -755230,7 +757552,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Pharmacology is the science that deals with",
-    "explanation": "",
+    "explanation": "Pharmacology studies drugs and their effects; option B is the closest printed description.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755240,13 +757562,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "The knowledge of physical operation to diseases",
       "The knowledge of blood typing, DNA technique and identification of narcotic etc."
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q039",
@@ -755258,7 +757580,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "The blood bank of our body is:",
-    "explanation": "",
+    "explanation": "The spleen serves as a reservoir for blood cells and is commonly called the body’s blood bank.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755268,13 +757590,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Heart",
       "Lungs"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q040",
@@ -755286,7 +757608,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Atom bomb is based on the principle of",
-    "explanation": "",
+    "explanation": "A conventional atomic bomb releases energy through nuclear fission.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755296,13 +757618,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "neither (a) nor (b)",
       "both (a) and (b)"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q041",
@@ -755314,7 +757636,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "Historians believed that the Mizos settled down in this place before entering Mizoram –",
-    "explanation": "",
+    "explanation": "The expected migration-history answer among these choices is Shan State.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755324,13 +757646,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Mongolia",
       "Mekong Valley"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q042",
@@ -755342,7 +757664,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "From the linguistic point of view, the Mizo language belongs to the –",
-    "explanation": "",
+    "explanation": "Mizo belongs to the Tibeto-Burman language family.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755352,13 +757674,13 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Dravidians family",
       "Aryan family"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q043",
@@ -755383,10 +757705,9 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "answerIndex": -1,
     "sourceReview": true,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Held: the 1871–72 expedition operated in separate columns, and the principal commanders are not listed; Tregear commanded a field-force column, so the singular wording and choices are insufficiently precise.",
+    "sourceReviewed": true,
+    "disputeNote": "Held: the 1871–72 expedition operated in separate columns, and the principal commanders are not listed; Tregear commanded a field-force column, so the singular wording and choices are insufficiently precise."
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q044",
@@ -755398,7 +757719,7 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "topicLabel": "General Studies Paper-II",
     "difficulty": "medium",
     "question": "The book entitled 'A Grammar and Dictionary of the Lushai Language' published in 1898 was written by –",
-    "explanation": "",
+    "explanation": "Option D names J. Herbert Lorrain (Pu Buanga), associated with the 1898 work; bibliographic records also credit F.W. Savidge as co-author, a qualification omitted by the choices.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=3",
@@ -755408,25 +757729,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "Zosapthara (Rev. Edwin Rowlands)",
       "Pu Buanga (J.H.Lorrain)"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 3,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q058",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "58",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "profit_loss",
+    "topicLabel": "Profit Loss",
     "difficulty": "medium",
     "question": "If the cost price of 6 mangoes is equal to the selling price of 5 mangoes, then the profit percent is",
-    "explanation": "",
+    "explanation": "Let CP per mango be c. SP per mango = 6c/5, so profit fraction = (6c/5−c)/c = 1/5 = 20%.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755436,53 +757757,53 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "10%",
       "30%"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q059",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "59",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "simple_compound_interest",
+    "topicLabel": "Simple Compound Interest",
     "difficulty": "medium",
     "question": "In what time a sum of money will double itself at a rate of simple interest of 8% per annum?",
-    "explanation": "",
+    "explanation": "At simple interest, doubling requires interest equal to principal: t=100/8=12.5 years, option B.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
     "options": [
       "11 1/2 years",
-      "12 years",
+      "12 1/2 years",
       "13 1/2 years",
-      "12 1/2 years"
+      "12 years"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q060",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "60",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "number_system",
+    "topicLabel": "Number System",
     "difficulty": "medium",
     "question": "The difference between a number and 1/5 th of it is equal to 20, then the number is",
-    "explanation": "",
+    "explanation": "Let the number be x: x−x/5=20, so 4x/5=20 and x=25.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755492,25 +757813,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "40",
       "25"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 3,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q061",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "61",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "speed_distance_time",
+    "topicLabel": "Speed Distance Time",
     "difficulty": "medium",
     "question": "If a motor car covers a distance of 250 metres in 25 seconds, then its speed in kilometer per hour is",
-    "explanation": "",
+    "explanation": "250 m/25 s=10 m/s; 10×3.6=36 km/h.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755520,25 +757841,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "36",
       "38"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q062",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "62",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "average",
+    "topicLabel": "Average",
     "difficulty": "medium",
     "question": "Average of 5 numbers is 20. If 8 is added to each of these numbers, then the average of the new numbers is",
-    "explanation": "",
+    "explanation": "Adding 8 to every value increases the mean by 8: 20+8=28.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755548,25 +757869,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "16",
       "24"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 0,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q063",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "63",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "data_interpretation",
+    "topicLabel": "Data Interpretation",
     "difficulty": "medium",
     "question": "The median of 10, 13, 22, 25, 8, 11, 19, 18, 31 and 16 is",
-    "explanation": "",
+    "explanation": "Ordered values are 8,10,11,13,16,18,19,22,25,31; median=(16+18)/2=17.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755576,25 +757897,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "16",
       "19.5"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q064",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "64",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "number_system",
+    "topicLabel": "Number System",
     "difficulty": "medium",
-    "question": "If 0.09/x = 0.01, then x =",
-    "explanation": "",
+    "question": "If 0.009 / x = 0.01, then x =",
+    "explanation": "0.009/x=0.01 gives 0.009=0.01x, hence x=0.9.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755604,25 +757925,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "0.09",
       "9"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q065",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "65",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "number_system",
+    "topicLabel": "Number System",
     "difficulty": "medium",
     "question": "The greatest four-digit perfect square number is",
-    "explanation": "",
+    "explanation": "The greatest four-digit square is 99²=9801; 100² has five digits.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755632,25 +757953,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "9801",
       "9981"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 2,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q066",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "66",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "number_series",
+    "topicLabel": "Number Series",
     "difficulty": "medium",
-    "question": "What will come in place of the question mark (?) in the following series of numbers? 1024, 256, 64, 16, ?",
-    "explanation": "",
+    "question": "What will come in place of the question mark (?) in the following series of numbers?\n1024, 256, 64, 16, ?",
+    "explanation": "Each term is divided by 4: 1024,256,64,16,4.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755660,25 +757981,25 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "9",
       "6"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 1,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p3-q067",
     "paperId": "mpsc-group-b-si-excise-2014-p3",
     "questionNumber": "67",
-    "subject": "gk",
-    "studySection": "gk",
-    "topic": "general",
-    "topicLabel": "General Studies Paper-II",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "number_series",
+    "topicLabel": "Number Series",
     "difficulty": "medium",
-    "question": "What will come in place of the question mark (?) in the following series of numbers? 21, 25, 33, 49, 81, ?",
-    "explanation": "",
+    "question": "What will come in place of the question mark (?) in the following series of numbers?\n21, 25, 33, 49, 81, ?",
+    "explanation": "The successive differences double: 4,8,16,32, then 64; 81+64=145.",
     "source": "Sub-Inspector Excise & Narcotics · March 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=2",
@@ -755688,16 +758009,132 @@ const groupBQuestionsPart90: BankQuestion[] = [
       "204",
       "145"
     ],
-    "answerIndex": -1,
-    "sourceReview": true,
+    "answerIndex": 3,
+    "sourceReview": false,
     "paperExamExcluded": true,
-    "sourceNote": "Imported from the available transcription; verify text and answer against the printed paper before scoring.",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low"
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2014-p3-q072",
+    "paperId": "mpsc-group-b-si-excise-2014-p3",
+    "questionNumber": "72",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "paper_folding",
+    "topicLabel": "Paper Folding",
+    "difficulty": "medium",
+    "question": "The patterns below can be folded into figures. For each pattern four figures are shown. Select which of these figures can be made from the pattern shown. The pattern always shows the outside of the figure.",
+    "explanation": "The net contains two window marks; option A is the only figure showing both visible wall faces with windows in the matching arrangement.",
+    "source": "Sub-Inspector Excise & Narcotics · March 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=1",
+    "imagePath": "/question-images/group-b/si-excise-2014-p3-q72.png",
+    "options": [
+      "Figure A (see source figure on PDF page 1)",
+      "Figure B (see source figure on PDF page 1)",
+      "Figure C (see source figure on PDF page 1)",
+      "Figure D (see source figure on PDF page 1)"
+    ],
+    "answerIndex": 0,
+    "sourceReview": false,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2014-p3-q073",
+    "paperId": "mpsc-group-b-si-excise-2014-p3",
+    "questionNumber": "73",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
+    "difficulty": "medium",
+    "question": "(Directions 73–75) The rows of designs or figures below have four problem figures which make a series. The fifth figure is missing. Choose the right figure from among the answer figures, which belongs next in the series. [Problem figures and answer figures are shown in the source image.]",
+    "explanation": "The sequence increases the polygon side count 3, 4, 5, 6; the next is a heptagon, option D.",
+    "source": "Sub-Inspector Excise & Narcotics · March 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=1",
+    "imagePath": "/question-images/group-b/si-excise-2014-p3-q73.png",
+    "options": [
+      "Figure A (see source figure on PDF page 1)",
+      "Figure B (see source figure on PDF page 1)",
+      "Figure C (see source figure on PDF page 1)",
+      "Figure D (see source figure on PDF page 1)"
+    ],
+    "answerIndex": 3,
+    "sourceReview": false,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2014-p3-q074",
+    "paperId": "mpsc-group-b-si-excise-2014-p3",
+    "questionNumber": "74",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
+    "difficulty": "medium",
+    "question": "(Directions 73–75) The rows of designs or figures below have four problem figures which make a series. The fifth figure is missing. Choose the right figure from among the answer figures, which belongs next in the series. [Problem figures and answer figures are shown in the source image.]",
+    "explanation": "The paired curved/angled forms alternate; after the second occurrence of the angled pair, the curved pair returns, option D.",
+    "source": "Sub-Inspector Excise & Narcotics · March 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=1",
+    "imagePath": "/question-images/group-b/si-excise-2014-p3-q74.png",
+    "options": [
+      "Figure A (see source figure on PDF page 1)",
+      "Figure B (see source figure on PDF page 1)",
+      "Figure C (see source figure on PDF page 1)",
+      "Figure D (see source figure on PDF page 1)"
+    ],
+    "answerIndex": 3,
+    "sourceReview": false,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
+  },
+  {
+    "id": "mpsc-group-b-si-excise-2014-p3-q075",
+    "paperId": "mpsc-group-b-si-excise-2014-p3",
+    "questionNumber": "75",
+    "subject": "reasoning",
+    "studySection": "reasoning",
+    "topic": "figure_series",
+    "topicLabel": "Figure Series",
+    "difficulty": "medium",
+    "question": "(Directions 73–75) The rows of designs or figures below have four problem figures which make a series. The fifth figure is missing. Choose the right figure from among the answer figures, which belongs next in the series. [Problem figures and answer figures are shown in the source image.]",
+    "explanation": "The number of horizontal rows increases 1,2,3,4; the next figure has five rows, option A.",
+    "source": "Sub-Inspector Excise & Narcotics · March 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/si-excise-2014-p3.pdf#page=1",
+    "imagePath": "/question-images/group-b/si-excise-2014-p3-q75.png",
+    "options": [
+      "Figure A (see source figure on PDF page 1)",
+      "Figure B (see source figure on PDF page 1)",
+      "Figure C (see source figure on PDF page 1)",
+      "Figure D (see source figure on PDF page 1)"
+    ],
+    "answerIndex": 0,
+    "sourceReview": false,
+    "paperExamExcluded": true,
+    "sourceNote": "Text and option order checked against the available scan; answer independently derived.",
+    "sourceReviewed": true,
+    "answerSource": "derived",
+    "answerConfidence": "high"
   }
 ];
-export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85,...groupBQuestionsPart86,...groupBQuestionsPart87,...groupBQuestionsPart88,...groupBQuestionsPart89,...groupBQuestionsPart90];
+export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85,...groupBQuestionsPart86,...groupBQuestionsPart87,...groupBQuestionsPart88,...groupBQuestionsPart89,...groupBQuestionsPart90,...groupBQuestionsPart91];
 export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
   "mpsc-group-b-inspector-stats-2026-p1": {
     "marksPerQuestion": 1,
@@ -755964,6 +758401,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-assistant-grade-2018-p2": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-acf-2018-english": {
     "marksPerQuestion": 1,
     "durationMinutes": 180,
     "negativeMarking": false,
@@ -757289,6 +759732,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "negativeMarking": false,
     "penaltyFraction": 0
   },
+  "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 180,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
   "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709": {
     "marksPerQuestion": 1,
     "durationMinutes": 120,
@@ -757392,6 +759841,12 @@ export const groupBPaperMeta: Record<string, UdcLdcPaperMeta> = {
     "penaltyFraction": 0
   },
   "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc": {
+    "marksPerQuestion": 1,
+    "durationMinutes": 120,
+    "negativeMarking": false,
+    "penaltyFraction": 0
+  },
+  "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c": {
     "marksPerQuestion": 1,
     "durationMinutes": 120,
     "negativeMarking": false,
@@ -757607,7 +760062,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-asi-home-2018-gk": 100,
   "mpsc-group-b-asi-home-2018-mathematics": 100,
   "mpsc-group-b-assistant-grade-2018-p2": 125,
-  "mpsc-group-b-acf-2018-english": 80,
+  "mpsc-group-b-acf-2018-english": 65,
   "mpsc-group-b-acf-2018-gk": 100,
   "mpsc-group-b-asce-2021-english-p2": 100,
   "mpsc-group-b-vety-mah-2021-english-p2": 100,
@@ -757874,7 +760329,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc": 100,
   "mpsc-group-b-archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f": 66,
   "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-i-2024-29fe8b7a": 6,
-  "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c": 82,
+  "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c": 100,
   "mpsc-group-b-archive-lang-2024-jr-grade-of-mes-combined-july-2024-jr-grade-of-mes-combined-july-2024-ge-dd26ea27": 8,
   "mpsc-group-b-archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb": 8,
   "mpsc-group-b-archive-lang-2024-group-b-gazetted-general-service-combined-july-2024-group-b-combined-gen-90a666fa": 10,

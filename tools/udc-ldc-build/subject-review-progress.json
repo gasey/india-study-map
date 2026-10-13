@@ -7,12 +7,12 @@
     "records": 26987,
     "mcq": 26046,
     "writtenRecords": 941,
-    "ready": 23539,
-    "readyOfficial": 8627,
-    "pendingMcq": 1287,
-    "heldReviewed": 1220,
-    "workedGuidesReviewed": 17801,
-    "pendingMcqGuides": 8245,
+    "ready": 23528,
+    "readyOfficial": 8616,
+    "pendingMcq": 1286,
+    "heldReviewed": 1232,
+    "workedGuidesReviewed": 18031,
+    "pendingMcqGuides": 8015,
     "keyOnlyFeedback": 6425,
     "writtenGuidesReviewed": 361,
     "pendingWrittenGuides": 580,
@@ -23,12 +23,12 @@
       "records": 10865,
       "mcq": 9924,
       "writtenRecords": 941,
-      "ready": 9162,
-      "readyOfficial": 1798,
-      "pendingMcq": 1,
-      "heldReviewed": 761,
-      "workedGuidesReviewed": 9100,
-      "pendingMcqGuides": 824,
+      "ready": 9151,
+      "readyOfficial": 1787,
+      "pendingMcq": 0,
+      "heldReviewed": 773,
+      "workedGuidesReviewed": 9330,
+      "pendingMcqGuides": 594,
       "keyOnlyFeedback": 534,
       "writtenGuidesReviewed": 361,
       "pendingWrittenGuides": 580
@@ -12544,12 +12544,12 @@
       "records": 69,
       "mcq": 62,
       "writtenRecords": 7,
-      "ready": 62,
-      "readyOfficial": 60,
+      "ready": 58,
+      "readyOfficial": 56,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 62,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 60,
+      "pendingMcqGuides": 2,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 7,
@@ -12558,18 +12558,43 @@
           "records": 69,
           "mcq": 62,
           "writtenRecords": 7,
-          "ready": 62,
-          "readyOfficial": 60,
+          "ready": 58,
+          "readyOfficial": 56,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 62,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 60,
+          "pendingMcqGuides": 2,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 7
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-co-2026-p1-B29",
+          "questionNumber": "B29",
+          "section": "english",
+          "reason": "The official key marks D (‘self-indulgent’), but A (‘greedy’) is also a defensible opposite of ‘abstemious’ in the stated food-and-drink context. The options do not distinguish the broad restraint sense from the eating-specific sense; retain D as key candidate but hold unscored."
+        },
+        {
+          "id": "mpsc-group-b-co-2026-p1-B47",
+          "questionNumber": "B47",
+          "section": "english",
+          "reason": "The official key marks D. C is the conventional full-shift reported form (‘this’→‘that’), while D may also be grammatical if ‘this work’ remains contextually proximate. The stem gives no reporting context to choose between these readings; preserve D as the key candidate and hold without assigning an independent answer."
+        },
+        {
+          "id": "mpsc-group-b-co-2026-p1-B53",
+          "questionNumber": "B53",
+          "section": "english",
+          "reason": "The official key marks C, which drops ‘hardly’ and changes the force of the sentence. Option A (‘Had he hardly finished…?’) is the direct interrogative form preserving the original near-completion meaning. Hold because the keyed answer is not meaning-preserving."
+        },
+        {
+          "id": "mpsc-group-b-co-2026-p1-B58",
+          "questionNumber": "B58",
+          "section": "english",
+          "reason": "The official key marks B, but both B (‘…, so …’) and D (‘… and …’) coordinate two independent clauses and therefore form compound sentences. Both meet the printed instruction; hold the item as having multiple correct options."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-co-2026-p2",
@@ -16599,12 +16624,12 @@
       "records": 70,
       "mcq": 65,
       "writtenRecords": 5,
-      "ready": 64,
-      "readyOfficial": 59,
-      "pendingMcq": 1,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 65,
+      "ready": 63,
+      "readyOfficial": 58,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 60,
+      "pendingMcqGuides": 5,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 5,
@@ -16613,18 +16638,31 @@
           "records": 70,
           "mcq": 65,
           "writtenRecords": 5,
-          "ready": 64,
-          "readyOfficial": 59,
-          "pendingMcq": 1,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 65,
+          "ready": 63,
+          "readyOfficial": 58,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 60,
+          "pendingMcqGuides": 5,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 5
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-jao-2026-p1-B33",
+          "questionNumber": "B33",
+          "section": "english",
+          "reason": "Held as ambiguous: ‘litter’ can describe dogs born together and ‘kennel’ can mean a pack of dogs. The stem gives no age or housing context to distinguish them; preserve official A as a key candidate."
+        },
+        {
+          "id": "mpsc-group-b-jao-2026-p1-B51",
+          "questionNumber": "B51",
+          "section": "english",
+          "reason": "The final answer key marks Paper-I Q51 “Compensated”; keep the question unscored despite the independently identifiable noun-clause answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-jao-2026-p2",
@@ -20564,12 +20602,12 @@
       "records": 68,
       "mcq": 60,
       "writtenRecords": 8,
-      "ready": 60,
-      "readyOfficial": 60,
+      "ready": 59,
+      "readyOfficial": 59,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 60,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 60,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 8,
@@ -20578,18 +20616,25 @@
           "records": 68,
           "mcq": 60,
           "writtenRecords": 8,
-          "ready": 60,
-          "readyOfficial": 60,
+          "ready": 59,
+          "readyOfficial": 59,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 60,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 60,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 8
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ri-2026-p1-B45",
+          "questionNumber": "B45",
+          "section": "english",
+          "reason": "The key marks A (“She requested to close the door”), but the reported imperative normally requires an addressee/object, e.g. “She requested them to close the door.” Without an object, A is clipped and does not clearly preserve who is to close the door; no listed choice gives a fully clear, unambiguous indirect request. Retain A as the official key candidate and hold unscored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ri-2026-p2",
@@ -22199,12 +22244,12 @@
       "records": 57,
       "mcq": 50,
       "writtenRecords": 7,
-      "ready": 50,
-      "readyOfficial": 50,
+      "ready": 45,
+      "readyOfficial": 45,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 50,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 50,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 7,
@@ -22213,18 +22258,49 @@
           "records": 57,
           "mcq": 50,
           "writtenRecords": 7,
-          "ready": 50,
-          "readyOfficial": 50,
+          "ready": 45,
+          "readyOfficial": 45,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 50,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 50,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 7
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B9",
+          "questionNumber": "B9",
+          "section": "english",
+          "reason": "The sentence permits two standard future-perfect forms with this duration phrase; no single answer is uniquely compelled."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B24",
+          "questionNumber": "B24",
+          "section": "english",
+          "reason": "Two options express the same transformation accurately."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B26",
+          "questionNumber": "B26",
+          "section": "english",
+          "reason": "Both B and C are valid direct-speech transformations."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B33",
+          "questionNumber": "B33",
+          "section": "english",
+          "reason": "The printed sentence is “Sawmi goes to school every day.” The key identifies every as an adverb, but it modifies the noun day and is a determiner. The only defensible independent choice is C; preserve official A as a key conflict and leave the item unscored."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B37",
+          "questionNumber": "B37",
+          "section": "english",
+          "reason": "No offered part-of-speech label accurately describes “this” as used before the noun."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-si-stats-2026-p2",

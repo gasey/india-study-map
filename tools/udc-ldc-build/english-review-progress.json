@@ -4,9 +4,9 @@
   "summary": {
     "papers": 260,
     "gazettedArchivePapers": 109,
-    "ready": 9162,
-    "pendingMcq": 1,
-    "heldReviewed": 761,
+    "ready": 9151,
+    "pendingMcq": 0,
+    "heldReviewed": 773,
     "pendingWritten": 553
   },
   "papers": [
@@ -5666,20 +5666,41 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/co-2026-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "content-ready",
+      "status": "ready-with-held-items",
       "mcq": 62,
-      "ready": 62,
-      "readyOfficial": 60,
-      "sourceReviewedMcq": 0,
+      "ready": 58,
+      "readyOfficial": 56,
+      "sourceReviewedMcq": 60,
       "pendingMcq": 0,
-      "heldReviewed": 0,
+      "heldReviewed": 4,
       "expectedMcq": 62,
       "missingMcq": 0,
       "writtenRecords": 7,
       "writtenGuides": 7,
       "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-co-2026-p1-B29",
+          "questionNumber": "B29",
+          "reason": "The official key marks D (‘self-indulgent’), but A (‘greedy’) is also a defensible opposite of ‘abstemious’ in the stated food-and-drink context. The options do not distinguish the broad restraint sense from the eating-specific sense; retain D as key candidate but hold unscored."
+        },
+        {
+          "id": "mpsc-group-b-co-2026-p1-B47",
+          "questionNumber": "B47",
+          "reason": "The official key marks D. C is the conventional full-shift reported form (‘this’→‘that’), while D may also be grammatical if ‘this work’ remains contextually proximate. The stem gives no reporting context to choose between these readings; preserve D as the key candidate and hold without assigning an independent answer."
+        },
+        {
+          "id": "mpsc-group-b-co-2026-p1-B53",
+          "questionNumber": "B53",
+          "reason": "The official key marks C, which drops ‘hardly’ and changes the force of the sentence. Option A (‘Had he hardly finished…?’) is the direct interrogative form preserving the original near-completion meaning. Hold because the keyed answer is not meaning-preserving."
+        },
+        {
+          "id": "mpsc-group-b-co-2026-p1-B58",
+          "questionNumber": "B58",
+          "reason": "The official key marks B, but both B (‘…, so …’) and D (‘… and …’) coordinate two independent clauses and therefore form compound sentences. Both meet the printed instruction; hold the item as having multiple correct options."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -7099,20 +7120,31 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/jao-2026-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 65,
-      "ready": 64,
-      "readyOfficial": 59,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 1,
-      "heldReviewed": 0,
+      "ready": 63,
+      "readyOfficial": 58,
+      "sourceReviewedMcq": 60,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
       "expectedMcq": 65,
       "missingMcq": 0,
       "writtenRecords": 5,
       "writtenGuides": 5,
       "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-jao-2026-p1-B33",
+          "questionNumber": "B33",
+          "reason": "Held as ambiguous: ‘litter’ can describe dogs born together and ‘kennel’ can mean a pack of dogs. The stem gives no age or housing context to distinguish them; preserve official A as a key candidate."
+        },
+        {
+          "id": "mpsc-group-b-jao-2026-p1-B51",
+          "questionNumber": "B51",
+          "reason": "The final answer key marks Paper-I Q51 “Compensated”; keep the question unscored despite the independently identifiable noun-clause answer."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-je-2016-english",
@@ -8339,20 +8371,26 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/ri-2026-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "content-ready",
+      "status": "ready-with-held-items",
       "mcq": 60,
-      "ready": 60,
-      "readyOfficial": 60,
-      "sourceReviewedMcq": 0,
+      "ready": 59,
+      "readyOfficial": 59,
+      "sourceReviewedMcq": 60,
       "pendingMcq": 0,
-      "heldReviewed": 0,
+      "heldReviewed": 1,
       "expectedMcq": 60,
       "missingMcq": 0,
       "writtenRecords": 8,
       "writtenGuides": 8,
       "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/ri-2026-final-key.pdf#page=1",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ri-2026-p1-B45",
+          "questionNumber": "B45",
+          "reason": "The key marks A (“She requested to close the door”), but the reported imperative normally requires an addressee/object, e.g. “She requested them to close the door.” Without an object, A is clipped and does not clearly preserve who is to close the door; no listed choice gives a fully clear, unambiguous indirect request. Retain A as the official key candidate and hold unscored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ri-2026-p2",
@@ -8971,20 +9009,46 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf",
       "archiveBatch": "earlier-import",
-      "status": "content-ready",
+      "status": "ready-with-held-items",
       "mcq": 50,
-      "ready": 50,
-      "readyOfficial": 50,
-      "sourceReviewedMcq": 0,
+      "ready": 45,
+      "readyOfficial": 45,
+      "sourceReviewedMcq": 50,
       "pendingMcq": 0,
-      "heldReviewed": 0,
+      "heldReviewed": 5,
       "expectedMcq": 50,
       "missingMcq": 0,
       "writtenRecords": 7,
       "writtenGuides": 7,
       "pendingWritten": 0,
       "keyHref": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B9",
+          "questionNumber": "B9",
+          "reason": "The sentence permits two standard future-perfect forms with this duration phrase; no single answer is uniquely compelled."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B24",
+          "questionNumber": "B24",
+          "reason": "Two options express the same transformation accurately."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B26",
+          "questionNumber": "B26",
+          "reason": "Both B and C are valid direct-speech transformations."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B33",
+          "questionNumber": "B33",
+          "reason": "The printed sentence is “Sawmi goes to school every day.” The key identifies every as an adverb, but it modifies the noun day and is a determiner. The only defensible independent choice is C; preserve official A as a key conflict and leave the item unscored."
+        },
+        {
+          "id": "mpsc-group-b-si-stats-2026-p1-B37",
+          "questionNumber": "B37",
+          "reason": "No offered part-of-speech label accurately describes “this” as used before the noun."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-staff-nurse-2019-english",

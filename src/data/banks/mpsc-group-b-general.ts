@@ -409905,14 +409905,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Demonstrative pronoun"
     ],
     "answerIndex": 2,
-    "explanation": "\"Hers\" stands alone as the complement of \"is\" and replaces a whole noun phrase (\"her gym\"), which is exactly what a possessive pronoun does. A possessive adjective such as \"her\" cannot stand alone - it must sit before a noun - so (a) is the trap here.",
+    "explanation": "“Hers” stands alone in place of a noun phrase (“her [one]”), so it is a possessive pronoun; a possessive adjective would precede a noun.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B1",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B2",
@@ -409931,14 +409937,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Softly"
     ],
     "answerIndex": 2,
-    "explanation": "\"They\" is a third-person plural personal pronoun, a word used in place of a noun. \"Alas!\" is an interjection, \"River\" a common noun and \"Softly\" an adverb.",
+    "explanation": "“They” can replace the name of people and is a personal pronoun. “Alas” is an interjection, “river” a noun, and “softly” an adverb.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B2",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B3",
@@ -409957,14 +409969,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 2,
-    "explanation": "That is the textbook definition of an adverb. An adjective modifies only a noun or pronoun, which is the distinction the question is testing.",
+    "explanation": "A word modifying a verb, adjective, or another adverb is an adverb.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B3",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B4",
@@ -409983,14 +410001,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "The teacher asked us to watch the experiment quietly."
     ],
     "answerIndex": 2,
-    "explanation": "In (c) \"watch\" is preceded by the possessive determiner \"His\" and is the subject of the verb \"stopped\" - it names a timepiece, so it is a noun. In the marked option (d) \"to watch\" is an infinitive verb governing the object \"the experiment\"; (a) and (b) are likewise finite and imperative verbs. The marked answer (d) is wrong.",
+    "explanation": "In “His watch stopped,” watch names an object and is the subject noun. In the other options, watch is an action verb.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B4",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B5",
@@ -410009,14 +410033,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Competition"
     ],
     "answerIndex": 2,
-    "explanation": "\"Several\" sits before the noun \"students\" and specifies quantity, which is the defining job of a determiner. \"Students\" and \"competition\" are nouns and \"participated\" is the verb.",
+    "explanation": "“Several” quantifies the noun “students” and functions as a determiner.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B5",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B6",
@@ -410035,14 +410065,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 1,
-    "explanation": "An adjective is by definition the part of speech that describes or qualifies a noun or pronoun. The marked answer (a) Verb is plainly wrong - a verb expresses action or state; a pronoun replaces a noun rather than describing it.",
+    "explanation": "An adjective describes or qualifies a noun.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B6",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B7",
@@ -410061,14 +410097,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Dr. Ravi"
     ],
     "answerIndex": 2,
-    "explanation": "\"Country\" names a class of things rather than one particular member of it, which is what makes it a common noun. \"India\", \"Monday\" and \"Dr. Ravi\" are all proper nouns naming specific entities.",
+    "explanation": "“Country” names a general class, so it is a common noun. India, Monday, and Dr. Ravi are proper names.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B7",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B8",
@@ -410087,14 +410129,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 2,
-    "explanation": "A pronoun is used in place of a noun, which is the standard definition. An adjective merely qualifies a noun; it does not stand in for one.",
+    "explanation": "A pronoun stands in for a noun or noun phrase.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B8",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B9",
@@ -410113,14 +410161,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Article"
     ],
     "answerIndex": 1,
-    "explanation": "The -ly ending marks \"eloquently\" as an adverb of manner, and an adverb of manner typically modifies a verb (\"she spoke eloquently\"). Adverbs never modify nouns, pronouns or articles, so (a), (c) and (d) are ruled out on principle.",
+    "explanation": "“Eloquently” is an adverb; adverbs commonly modify verbs, as in “spoke eloquently.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B9",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B10",
@@ -410139,14 +410193,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Auxiliary"
     ],
     "answerIndex": 1,
-    "explanation": "A gerund is the -ing form of a verb doing the work of a noun, as in \"Swimming is good exercise\". The present participle has the same -ing shape but works as an adjective or forms continuous tenses, which is why (a) is the standing trap in this pair.",
+    "explanation": "An -ing form functioning as a noun is a gerund; a participle instead functions adjectivally or as part of a verb phrase.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B10",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B11",
@@ -410165,7 +410225,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "\"Children\" names the people performing the action and is the subject of \"played\", preceded by the article \"The\" - both marks of a noun (here the irregular plural of \"child\").",
+    "explanation": "“Children” names people and is a plural noun.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410173,7 +410233,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B11",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B12",
@@ -410192,7 +410258,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Conjunction"
     ],
     "answerIndex": 1,
-    "explanation": "Here \"turquoise\" stands between the article and the noun and describes the colour of the dress, so it is an adjective. \"Turquoise\" can also be a noun (the gemstone or the colour itself), which is the trap in option (c), but in this position it qualifies \"dress\".",
+    "explanation": "“Turquoise” describes the colour of the noun “dress,” so it is an adjective here.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410200,7 +410266,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B12",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B13",
@@ -410219,7 +410291,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 1,
-    "explanation": "\"But\" here joins two complete independent clauses in a relation of contrast, which makes it a coordinating conjunction. Contrast this with Q16, where \"but\" means \"except\" and governs a noun phrase instead.",
+    "explanation": "“But” joins the two clauses (“Abigail wanted…” and “she stayed…”), so it is a conjunction.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410227,7 +410299,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B13",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B14",
@@ -410246,7 +410324,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Pronoun"
     ],
     "answerIndex": 1,
-    "explanation": "\"Across\" takes the noun \"the bridge\" as its object and shows the relation between that noun and the verb \"walked\", so it is a preposition. Had the sentence ended \"We walked across\" with no object following, it would have been an adverb - the same test that decides Q19 and Q20.",
+    "explanation": "“Across” links “walked” to its noun object “the bridge,” so it is a preposition.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410254,7 +410332,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B14",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B15",
@@ -410273,7 +410357,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 0,
-    "explanation": "\"Gosh!\" expresses sudden emotion, stands outside the grammar of the sentence and carries its own exclamation mark - the classic signature of an interjection.",
+    "explanation": "“Gosh!” is an exclamation expressing reaction, so it is an interjection.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410281,7 +410365,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B15",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B16",
@@ -410300,7 +410390,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 3,
-    "explanation": "In this proverb \"but\" means \"except\" and governs the noun phrase \"the brave\", so it is a preposition - Wren & Martin cite this very sentence as the standard example. \"But\" can also be an adverb meaning \"only\" (\"He is but a child\") or a relative pronoun (\"There is no one but knows it\"), but neither reading fits here, and \"conjunction\" is not even offered.",
+    "explanation": "Here “but” means “except” (“none except the brave”); in this construction it is a preposition.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410308,7 +410398,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B16",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B17",
@@ -410327,7 +410423,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Preposition"
     ],
     "answerIndex": 3,
-    "explanation": "\"Like\" here takes the noun phrase \"his father\" as its object and expresses resemblance, which makes it a preposition. It would be a conjunction only if a clause with its own verb followed (\"He talks like his father does\"), and prescriptive grammar prefers \"as\" in that case - but \"conjunction\" is not an option and no clause follows.",
+    "explanation": "“Like” takes the noun phrase “his father” as its complement to express comparison, so it is a preposition.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410335,7 +410431,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B17",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B18",
@@ -410354,7 +410456,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 0,
-    "explanation": "\"Round\" follows the linking verb \"is\" and describes the subject \"The earth\", so it is a predicative adjective. \"Round\" can elsewhere be a preposition (\"round the corner\"), an adverb (\"turn round\") or a noun (\"a round of applause\"), but after a copular verb describing the subject it can only be an adjective.",
+    "explanation": "“Round” describes the subject “earth” after the linking verb “is,” so it is a predicate adjective.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410362,7 +410464,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B18",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B19",
@@ -410381,7 +410489,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Noun"
     ],
     "answerIndex": 2,
-    "explanation": "\"After\" here sits between the article and the noun and qualifies \"effects\" - which effects? the after ones - so it is an attributive adjective, exactly as in \"in after years\". The marked answer (b) Adverb is wrong: there is no verb, adjective or adverb here for it to modify, and it is not a preposition either because it governs no object. Compare Q20, where the same word genuinely is an adverb.",
+    "explanation": "In “after effects,” “after” modifies the noun “effects” by indicating subsequent effects, so it functions adjectivally.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410389,7 +410497,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B19",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B20",
@@ -410408,7 +410522,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Adverb"
     ],
     "answerIndex": 3,
-    "explanation": "Nothing follows \"after\" - it has no object - so it cannot be a preposition; it stands at the end modifying the verb \"arrived\" in time, which makes it an adverb. The presence or absence of an object is the whole test that separates this from Q14.",
+    "explanation": "“After” has no noun object here and modifies “arrived” by telling when; it is an adverb.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410416,7 +410530,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 11 - 20) : Identify the part of speech of the underlined words:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B20",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B21",
@@ -410435,14 +410555,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Neither of the answers have correct."
     ],
     "answerIndex": 1,
-    "explanation": "\"Neither\" is the singular subject and takes the singular verb \"is\"; the plural \"answers\" inside the of-phrase is not the subject, which is the proximity trap that makes (a) sound acceptable in speech. Option (c) also mismatches \"the answer\" with \"were\", and (d) is simply ungrammatical.",
+    "explanation": "“Neither” is grammatically singular here, so it takes “is”: “Neither of the answers is correct.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B21",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B22",
@@ -410461,14 +410587,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "by"
     ],
     "answerIndex": 2,
-    "explanation": "\"2020\" is a point in time, and with the present perfect continuous a point of origin takes \"since\". \"For\" would need a duration (\"for five years\"), and \"from\" needs a matching end point (\"from 2020 to 2023\") and does not idiomatically pair with the present perfect.",
+    "explanation": "“Since” introduces the starting point of a period continuing to the present; “for” would introduce a duration.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B22",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B23",
@@ -410487,14 +410619,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "She spilled the beans about the surprise party."
     ],
     "answerIndex": 3,
-    "explanation": "\"Spill the beans\" means to reveal a secret, and revealing a surprise party is exactly that use. \"Kick the bucket\" means to die, so it cannot be done \"with anger\"; \"hit the books\" means to study hard, not something done on a playground; and \"break the ice\" means to ease initial awkwardness, not to slip over.",
+    "explanation": "“Spill the beans” means reveal a secret, which fits the surprise-party context.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B23",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B24",
@@ -410513,14 +410651,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "The furnitures is expensive."
     ],
     "answerIndex": 1,
-    "explanation": "\"Furniture\" is an uncountable noun: it has no plural form \"furnitures\" and takes a singular verb. That kills (c) and (d) outright and leaves (a) failing on agreement.",
+    "explanation": "“Furniture” is an uncountable singular noun, so the standard form is “The furniture is expensive.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B24",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B25",
@@ -410539,14 +410683,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Stretch"
     ],
     "answerIndex": 2,
-    "explanation": "To expand is to grow larger, so \"reduce\" - to make smaller - is the opposite. Increase, develop and stretch are all synonyms or near-synonyms of expand, which is why (c) is the only option pointing the other way.",
+    "explanation": "To expand is to increase in size; the opposite among the choices is reduce.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B25",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B26",
@@ -410565,14 +410715,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Each of the boys complete the task."
     ],
     "answerIndex": 1,
-    "explanation": "\"Each\" is a singular distributive pronoun and takes the singular verb \"has\", regardless of the plural \"boys\" that follows in the of-phrase. Option (c) additionally turns an active sentence into a nonsensical passive, and (d) uses the plural \"complete\".",
+    "explanation": "“Each” is singular, so the verb is “has”: “Each of the boys has completed…”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B26",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B27",
@@ -410591,14 +410747,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "wished"
     ],
     "answerIndex": 0,
-    "explanation": "The contrastive \"but I couldn't go against the wishes of my boyfriend\" requires a verb of aversion in the blank - the speaker did not want this but yielded anyway - and only \"dreaded\" supplies it. \"Wanted\" and \"wished\" destroy the contrast, and \"eagerly\" is an adverb, which is ungrammatical after \"I deeply\". (The paper prints \"fill in the bank\" for \"blank\"; the typo is retained verbatim.)",
+    "explanation": "“Dreaded getting pregnant” is the grammatical verb + gerund phrase that fits the contrast with not going against the boyfriend’s wishes; the other options do not fit this construction and meaning.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B27",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B28",
@@ -410617,14 +410779,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Sleeptalker"
     ],
     "answerIndex": 1,
-    "explanation": "Latin somnus (sleep) plus loqui (to speak) gives somniloquist, one who talks in his sleep. A somnambulist walks in his sleep (ambulare, to walk) and somniferous means sleep-inducing; \"sleeptalker\" is a plain descriptive compound, not the one-word substitution being tested.",
+    "explanation": "A somniloquist talks during sleep. A somnambulist walks while asleep; somniferous means sleep-inducing.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B28",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B29",
@@ -410643,14 +410811,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Is a popular figure of the history."
     ],
     "answerIndex": 0,
-    "explanation": "From Greek eikon (image) and klastes (breaker), an iconoclast is literally an image-breaker, and by extension one who attacks cherished beliefs. Option (b) does not even fit the frame \"one who...\", and (c) and (d) confuse iconoclast with \"icon\".",
+    "explanation": "An iconoclast attacks or destroys revered images or established beliefs; option A gives the literal image-destroying sense.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B29",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B30",
@@ -410669,14 +410843,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Numismatist"
     ],
     "answerIndex": 3,
-    "explanation": "Numismatics is the study and collection of coins and currency, so its practitioner is a numismatist. \"Collector\" is the generic word the question is asking you to replace; a narcissist is in love with himself and a calligrapher practises fine handwriting.",
+    "explanation": "A numismatist studies or collects coins; “collector” is too general for the specific term requested.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B30",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B31",
@@ -410695,14 +410875,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Oligarchy"
     ],
     "answerIndex": 2,
-    "explanation": "Greek demos (people) plus kratos (rule) gives democracy. Monarchy is rule by a single hereditary sovereign, dictatorship rule by an absolute ruler, and oligarchy rule by a small privileged group.",
+    "explanation": "Democracy is government in which political authority is held by the people.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B31",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B32",
@@ -410721,15 +410907,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "herd"
     ],
     "answerIndex": 0,
-    "explanation": "\"A band of pilgrims\" is the pairing that appears in the standard collective-noun lists these papers draw on, alongside \"a band of musicians\" and \"a band of robbers\". \"Bevy\" belongs to quails or ladies and \"herd\" to cattle, so both are clearly wrong; \"assembly\" is the real competitor, since an assembly is a gathering of people, but it is a generic word for any meeting rather than the fixed collective for pilgrims.",
-    "answerConfidence": "medium",
+    "explanation": "The conventional intended collective is “a band of pilgrims”: band can mean people joined for a shared purpose. “Bevy” and “herd” do not fit people here, and “assembly” normally suggests people gathered for a meeting.",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 0,
-    "sourceNote": "Two options are defensible: 'assembly' is ordinary English for a gathering of people and would not be wrong in isolation. 'Band' is the conventional textbook collective for pilgrims and is almost certainly the intended key.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B32",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B33",
@@ -410747,16 +410938,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "gaggle",
       "pride"
     ],
-    "answerIndex": 0,
-    "explanation": "\"Gaggle\" belongs to geese and \"pride\" to lions, so both are out; \"litter\" is used only of newborn puppies (or kittens or piglets), not of dogs generally. That leaves \"kennel\", which the traditional collective-noun lists do give for dogs, even though the word more naturally names the shelter than the group.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "‘Litter’ usually means offspring born together, such as puppies. ‘Kennel’ also has an established collective sense for a pack of dogs. Because the stem gives no age or housing context, both choices can fit; the official key marks A, but it does not make B uniquely wrong.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
-    "independentAnswerIndex": 1,
-    "disputeNote": "Independent solution gives B; MPSC final key gives A. The genuinely standard collective for dogs - 'a pack of dogs' - is not among the options. 'Kennel' is the best of what is offered and is listed in the usual exam tables, but it is a weak collective noun since it primarily denotes the shelter rather than the group.",
+    "independentAnswerIndex": -1,
+    "disputeNote": "Held as ambiguous: ‘litter’ can describe dogs born together and ‘kennel’ can mean a pack of dogs. The stem gives no age or housing context to distinguish them; preserve official A as a key candidate.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B33",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "Held as ambiguous: ‘litter’ can describe dogs born together and ‘kennel’ can mean a pack of dogs. The stem gives no age or housing context to distinguish them; preserve official A as a key candidate.",
+    "sourceReview": true
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B34",
@@ -410775,14 +410970,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "armada"
     ],
     "answerIndex": 3,
-    "explanation": "An armada is a fleet of warships, and the printed article \"An\" confirms it - it is the only option beginning with a vowel sound, so the sentence is grammatical with no other choice. \"Shoal\" is the trap for anyone thinking of the sea, but a shoal is of fish, not ships; \"pack\" belongs to wolves or hounds.",
+    "explanation": "An armada is a fleet of ships; the other collective nouns do not describe ships.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B34",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B35",
@@ -410801,14 +411002,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "complicates"
     ],
     "answerIndex": 2,
-    "explanation": "The definite article \"the\" before the blank signals the superlative degree, which for a long adjective is formed with \"most\". \"More complicated\" is the comparative and would need a \"than\" phrase, and \"complicates\" is a finite verb that cannot sit in an adjective slot.",
+    "explanation": "The phrase “the … one” calls for the superlative degree: “most complicated.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B35",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B36",
@@ -410827,14 +411034,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "She is more smarter than any other student in the class."
     ],
     "answerIndex": 1,
-    "explanation": "When a member of a group is compared with the rest of that group, the comparative needs \"any other\" to exclude the subject from the comparison. Option (a) illogically makes her smarter than herself, (c) mixes the superlative form with \"than\", and (d) is a double comparative.",
+    "explanation": "The comparison is between her and the other students, so “any other student” avoids comparing her with herself. “More smarter” also doubles the comparative.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B36",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B37",
@@ -410853,14 +411066,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "No sooner did he arrived than it started raining."
     ],
     "answerIndex": 0,
-    "explanation": "\"No sooner\" is a negative adverbial that forces subject-auxiliary inversion (\"had he arrived\") and correlates with \"than\", never \"when\". Option (b) uses the wrong correlative, (c) omits the required inversion, and (d) follows the auxiliary \"did\" with a past form instead of the bare infinitive \"arrive\".",
+    "explanation": "The fixed correlative construction is “No sooner had … than …”; it uses inversion after “no sooner.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B37",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B38",
@@ -410879,14 +411098,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "evident"
     ],
     "answerIndex": 1,
-    "explanation": "The result clause says nobody could understand her, so the blank needs a word meaning open to more than one interpretation - \"ambiguous\". Lucid, precise and evident all mean clear, which would contradict the second half of the sentence.",
+    "explanation": "If nobody can understand the explanation, it is ambiguous (unclear), not lucid, precise, or evident.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B38",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B39",
@@ -410905,14 +411130,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "obsolete"
     ],
     "answerIndex": 1,
-    "explanation": "Something that changes the course of an entire field is revolutionary. Trivial and ordinary say the opposite, and obsolete means out of date - impossible for a new discovery that is reshaping research.",
+    "explanation": "A discovery that changes the course of research is revolutionary; trivial, ordinary, and obsolete do not express that impact.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B39",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B40",
@@ -410931,14 +411162,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "careless"
     ],
     "answerIndex": 1,
-    "explanation": "\"Diligent\" means hard-working and conscientious, which is precisely what \"completed tasks without supervision\" describes and what a manager would appreciate. Lethargic, arrogant and careless are all negative traits and clash with \"appreciated\".",
+    "explanation": "Employees who complete work carefully without supervision are diligent.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B40",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B41",
@@ -410957,7 +411194,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "He was ill and so he could not attend the classes at school."
     ],
     "answerIndex": 1,
-    "explanation": "A complex sentence needs one main clause plus at least one subordinate clause with its own finite verb, and only (b) supplies one - the adverb clause of reason \"As he was ill\". Option (c) is the trap: \"because of his illness\" is a prepositional phrase, not a clause, so (c) is still a simple sentence; (a) is likewise simple and (d) is compound.",
+    "explanation": "“As he was ill” is a subordinate finite clause joined to the main clause, making the sentence complex; the other options are not the requested complex form.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410965,7 +411202,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B41",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B42",
@@ -410984,7 +411227,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Having finished his homework, he went out to play."
     ],
     "answerIndex": 3,
-    "explanation": "A simple sentence has exactly one finite verb, and (d) reduces the first clause to the participial phrase \"Having finished his homework\", leaving \"went\" as the only finite verb. Options (a), (b) and (c) all keep two finite verbs joined by a subordinating conjunction, so each is complex, not simple.",
+    "explanation": "“Having finished his homework” is a participial phrase, leaving one independent clause; that is a simple sentence.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -410992,7 +411235,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B42",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B43",
@@ -411011,7 +411260,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "You will fail unless you work hard."
     ],
     "answerIndex": 0,
-    "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction, and \"Work hard or you will fail\" does exactly that with \"or\" while preserving the original meaning. Options (b) and (d) use the subordinators \"since\" and \"unless\", making them complex, and (c) shifts to the past-free simple form with a phrase.",
+    "explanation": "“If you do not work hard, you will fail” is equivalent to “Work hard or you will fail.” The coordinated imperative and independent clause make option A compound.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411019,7 +411268,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B43",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B44",
@@ -411038,7 +411293,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Why such a letter written by your brother?"
     ],
     "answerIndex": 1,
-    "explanation": "The active is simple past, so the passive must be \"was/were + past participle\" with the interrogative order preserved: \"Why was such a letter written by your brother?\" Option (a) wrongly shifts to the past perfect, (c) is ungrammatical because \"did\" cannot be followed by \"be written\", and (d) has no auxiliary at all.",
+    "explanation": "The active question is simple past. Passive keeps that tense and uses “was + past participle”: “Why was such a letter written…?”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411046,7 +411301,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B44",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B45",
@@ -411065,7 +411326,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Smoke had filled the room."
     ],
     "answerIndex": 1,
-    "explanation": "The passive \"was filled\" is simple past, so the active must also be simple past with the agent \"smoke\" promoted to subject: \"Smoke filled the room.\" Options (a), (c) and (d) all change the tense to present perfect, simple present and past perfect respectively, which the instruction \"without changing the meaning\" forbids.",
+    "explanation": "“Was filled” is simple past passive; its active counterpart is simple past, “Smoke filled the room.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411073,7 +411334,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B45",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B46",
@@ -411092,7 +411359,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Everyone was not absent"
     ],
     "answerIndex": 1,
-    "explanation": "Removing the negative \"No one\" while keeping the sense requires replacing \"absent\" with its opposite: if nobody was absent, then everybody was present. Option (a) reverses the meaning, (c) weakens \"all\" to \"some\", and (d) keeps the negative word \"not\" and so is not affirmative at all.",
+    "explanation": "“No one was absent” means every person was present; option B is the affirmative equivalent.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411100,7 +411367,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B46",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B47",
@@ -411119,7 +411392,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "The proposal has approved the committee."
     ],
     "answerIndex": 1,
-    "explanation": "The object \"the proposal\" becomes the subject, the verb becomes \"was approved\", and the original subject becomes the agent after \"by\". Options (a), (c) and (d) all swap the roles the wrong way round, making the proposal the approver.",
+    "explanation": "In the passive, the object “the proposal” becomes the subject and takes “was approved”; the agent follows “by.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411127,7 +411400,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B47",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B48",
@@ -411146,7 +411425,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Skilled engineers are constructing the bridge"
     ],
     "answerIndex": 0,
-    "explanation": "The agent becomes the subject and \"was constructed\" becomes the simple past active \"constructed\". Options (b) and (d) change the aspect to past and present continuous, and (c) reverses the roles so that the bridge does the building.",
+    "explanation": "The active form makes the agent “skilled engineers” the subject and uses the simple-past verb “constructed.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411154,7 +411433,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B48",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B49",
@@ -411173,7 +411458,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Everyone did not admire his honesty."
     ],
     "answerIndex": 1,
-    "explanation": "The transformation must add a negative without reversing the sense, and only a double negative does that: no one failed to admire = everyone admired. Options (a) and (c) flip the meaning to nobody admiring him, and (d) is both ambiguous and, on its natural reading, a denial of the original.",
+    "explanation": "“Everyone admired his honesty” is equivalent to “No one failed to admire his honesty”; option B preserves the universal meaning while making the sentence negative.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411181,7 +411466,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B49",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B50",
@@ -411200,7 +411491,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "The night is beautiful indeed!"
     ],
     "answerIndex": 2,
-    "explanation": "The standard exclamatory pattern for an adjective is \"How + adjective + subject + verb!\", which (c) follows exactly while keeping the past tense. Option (a) negates the meaning, (b) is interrogative in form, and (d) is a plain assertion that also shifts to the present tense.",
+    "explanation": "The exclamatory pattern “How + adjective + subject + verb” gives “How beautiful the night was!”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411208,7 +411499,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 41 - 50) : Transform the following sentences as directed in the brackets without changing the meaning.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B50",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B51",
@@ -411227,16 +411524,21 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Principal clause"
     ],
     "answerIndex": -1,
-    "explanation": "The underlined clause is the object of the verb \"know\" - it answers \"I know what?\" - and a clause doing the work of a noun is a noun clause. It cannot be the principal clause, since \"I know\" is the main clause here.",
-    "answerConfidence": "high",
+    "explanation": "The underlined clause “he is honest” completes what is known and functions as a noun clause (the full content clause is introduced by “that”). The final key explicitly marks Q51 “Compensated,” so retain the independent explanation but leave the item unscored.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
-    "independentAnswerIndex": 2,
+    "independentAnswerIndex": -1,
     "compensated": true,
     "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B51",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "The final answer key marks Paper-I Q51 “Compensated”; keep the question unscored despite the independently identifiable noun-clause answer.",
+    "sourceReview": true,
+    "disputeNote": "The final answer key marks Paper-I Q51 “Compensated”; keep the question unscored despite the independently identifiable noun-clause answer."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B52",
@@ -411255,7 +411557,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Coordinate clause"
     ],
     "answerIndex": 1,
-    "explanation": "The relative clause introduced by \"who\" qualifies the noun \"boy\" - it tells us which boy - so it does an adjective's work and is an adjective (relative) clause.",
+    "explanation": "“Who won the prize” modifies “boy,” so it is an adjective/relative clause.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411263,7 +411565,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B52",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B53",
@@ -411282,7 +411590,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Coordinate clause"
     ],
     "answerIndex": 1,
-    "explanation": "The clause is introduced by the subordinating conjunction \"When\" and tells us when the children went outside, modifying the verb - an adverb clause of time. Note that \"when\" here is not a relative pronoun attached to a noun, which is what would have made it adjectival.",
+    "explanation": "“When the rain stopped” tells when the children went outside and modifies the main clause; it is an adverb clause of time.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411290,7 +411598,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B53",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B54",
@@ -411309,7 +411623,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "Main clause"
     ],
     "answerIndex": 2,
-    "explanation": "\"Where\" is functioning as a relative adverb attached to the noun \"house\" and the clause tells us which house, so it qualifies a noun and is an adjective (relative) clause. The trap is to see \"where\" and reach for \"adverb clause\": an adverb clause of place would modify a verb, as in \"I was born where the river bends\".",
+    "explanation": "“Where I was born” modifies “house” by identifying it, so it is an adjective (relative) clause.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411317,7 +411631,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 51 - 54) : Identify the type of clauses of the underlined words.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B54",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B55",
@@ -411336,7 +411656,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "by"
     ],
     "answerIndex": 0,
-    "explanation": "The fixed collocation is \"arrive at\" a decision, conclusion or agreement. \"Arrive in\" is used only of large places (arrive in Aizawl), and \"arrive on\" and \"arrive by\" take dates and modes of transport respectively.",
+    "explanation": "The fixed expression is “arrive at an agreement.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411344,7 +411664,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B55",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B56",
@@ -411363,7 +411689,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "with"
     ],
     "answerIndex": 1,
-    "explanation": "\"Absorbed in\" is the fixed collocation for being deeply engaged in an activity. \"Absorbed by\" exists but means taken up or swallowed by something, and \"with\" is not offered in that sense here.",
+    "explanation": "The idiom is “absorbed in” one’s work.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411371,7 +411697,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B56",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B57",
@@ -411390,7 +411722,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "on"
     ],
     "answerIndex": 2,
-    "explanation": "\"Engrossed in\" is the standard collocation, exactly parallel to \"absorbed in\" in the previous question. None of at, with or on collocates with \"engrossed\".",
+    "explanation": "The idiom is “engrossed in” one’s study.",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411398,7 +411730,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B57",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B58",
@@ -411417,7 +411755,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "about"
     ],
     "answerIndex": 0,
-    "explanation": "\"Relevant\" is always followed by \"to\" - relevant to the case, to the discussion, to the issue. \"Relevant for\" appears occasionally in loose usage but is not standard, and \"relevant with/about\" is simply wrong.",
+    "explanation": "The standard collocation is “relevant to the case.”",
     "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
@@ -411425,7 +411763,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B58",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B59",
@@ -411444,16 +411788,21 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "through"
     ],
     "answerIndex": 2,
-    "explanation": "\"Out of\" is the preposition English uses for motive - one acts out of pity, out of fear, out of conviction - and motive is what the sentence needs, since the contrast being drawn is between someone driven by career and someone driven by principle. \"With conviction\" is perfectly good English but describes manner, not motive: it would mean acting firmly or forcefully, which does not contrast with being a career politician at all.",
-    "answerConfidence": "medium",
+    "explanation": "“Out of conviction” means acting because of one’s firmly held belief; that is the idiomatic completion.",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
-    "sourceNote": "Two options are grammatically and idiomatically defensible. (a) 'with conviction' is standard English and a candidate choosing it is not making a collocation error; only the logic of the career-politician contrast, which requires a motive rather than a manner, settles the item in favour of (c).",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B59",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-B60",
@@ -411472,16 +411821,21 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "for"
     ],
     "answerIndex": 3,
-    "explanation": "\"A knack for doing something\" is the dominant modern collocation and is what the paper is testing; \"knack with\" and \"knack in\" are not idiomatic. The reservation is (a): \"a knack of doing something\" is also attested, particularly in older and British usage, and dictionaries list the headword as \"knack of/for\".",
-    "answerConfidence": "medium",
+    "explanation": "The standard collocation is “a knack for” doing something.",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 55 - 60) : Choose the correct prepositions to fill in the blanks:",
-    "sourceNote": "Two options are defensible: 'a knack of finding' is an attested (chiefly British and older) variant that dictionaries record alongside 'a knack for'. 'For' is the more common modern form and the evident intended key, but 'of' is not an outright error.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B60",
-    "sourceHref": "/papers/group-b/jao-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-jao-2026-p1-written-A1",
@@ -414565,7 +414919,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B1",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B2",
@@ -414592,7 +414952,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B2",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B3",
@@ -414619,7 +414985,13 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B3",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   }
 ];
 const groupBQuestionsPart49: BankQuestion[] = [
@@ -414648,7 +415020,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B4",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B5",
@@ -414675,7 +415053,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B5",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B6",
@@ -414702,7 +415086,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B6",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B7",
@@ -414729,7 +415119,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B7",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B8",
@@ -414756,7 +415152,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B8",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B9",
@@ -414783,7 +415185,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B9",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B10",
@@ -414810,7 +415218,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Identify the appropriate Parts of Speech for the words underlined",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B10",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B11",
@@ -414837,7 +415251,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B11",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B12",
@@ -414857,15 +415277,20 @@ const groupBQuestionsPart49: BankQuestion[] = [
     ],
     "answerIndex": 1,
     "explanation": "The idiom the setter is reaching for is 'to be lost to all sense of shame' — that is, to be dead to shame, past feeling it — so 'to' is the intended preposition. Confidence is only medium because the printed sentence is itself defective: the idiom requires the singular 'all sense of shame', not 'senses of shame', and with the plural and no 'all' the sentence is not idiomatic English whichever preposition you insert. Note that 'lost in' would mean absorbed in something, which reverses the meaning.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 1,
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
-    "sourceNote": "source sentence is ungrammatical — the idiom is 'lost to all sense of shame', but the paper prints 'lost ___ senses of shame'",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B12",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B13",
@@ -414892,7 +415317,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B13",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B14",
@@ -414919,7 +415350,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B14",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B15",
@@ -414946,7 +415383,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B15",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B16",
@@ -414973,7 +415416,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B16",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B17",
@@ -415000,7 +415449,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B17",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B18",
@@ -415027,7 +415482,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B18",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B19",
@@ -415054,7 +415515,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B19",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B20",
@@ -415081,7 +415548,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Fill in the blanks with suitable prepositions from the alternatives given under each sentence",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B20",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B21",
@@ -415108,7 +415581,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B21",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B22",
@@ -415135,7 +415614,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B22",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B23",
@@ -415162,7 +415647,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B23",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B24",
@@ -415189,7 +415680,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B24",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B25",
@@ -415216,7 +415713,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B25",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B26",
@@ -415243,7 +415746,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B26",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B27",
@@ -415268,10 +415777,15 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 0,
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
-    "sourceNote": "misprint in the source sentence: 'drawin by the speaker's authority' should read 'drawn by the speaker's authority'",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B27",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B28",
@@ -415296,10 +415810,15 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 1,
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
-    "sourceNote": "misspelling makes option (d) unreadable: 'exepeditions' is presumably intended as 'expeditious'",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B28",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B29",
@@ -415317,17 +415836,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "profligate",
       "self-indulgent"
     ],
-    "answerIndex": 3,
-    "explanation": "'Abstemious' means sparing and moderate specifically in food and drink, and the precise contrary of that restraint is 'self-indulgent'. Confidence is medium because the item offers more than one defensible antonym: 'greedy' opposes moderation in eating, and 'profligate' means recklessly dissolute or extravagant, so both point the same way — but 'self-indulgent' is the dictionary-standard antonym of abstemious and covers both eating and drinking, so it is the best answer. Note that (b) 'temperate' is a synonym, not an antonym.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "‘Abstemious’ means restrained in eating and drinking. The key’s ‘self-indulgent’ is a strong opposite, but ‘greedy’ also expresses excess in eating; since both fit the stem, the item lacks a unique answer.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 3,
+    "independentAnswerIndex": -1,
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
-    "sourceNote": "more than one defensible option — (a) greedy and (c) profligate are also broadly antonymous; (d) self-indulgent is the most precise",
+    "sourceNote": "The official key marks D (‘self-indulgent’), but A (‘greedy’) is also a defensible opposite of ‘abstemious’ in the stated food-and-drink context. The options do not distinguish the broad restraint sense from the eating-specific sense; retain D as key candidate but hold unscored.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B29",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The official key marks D (‘self-indulgent’), but A (‘greedy’) is also a defensible opposite of ‘abstemious’ in the stated food-and-drink context. The options do not distinguish the broad restraint sense from the eating-specific sense; retain D as key candidate but hold unscored."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B30",
@@ -415354,7 +415877,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the word opposite in meaning to the underlined word from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B30",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B31",
@@ -415374,14 +415903,20 @@ const groupBQuestionsPart49: BankQuestion[] = [
     ],
     "answerIndex": 0,
     "explanation": "'To go a-begging' is an idiom meaning to find no taker — a thing is available but nobody wants it, so the offer is wasted; of the four options only 'go in vain' captures that sense of coming to nothing. Confidence is medium because 'go in vain' is an approximation rather than a translation: the idiom's core sense is 'to be unwanted', which none of the options states exactly. Options (b), (c) and (d) all take 'begging' literally, which is precisely the trap.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 0,
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B31",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B32",
@@ -415408,7 +415943,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B32",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B33",
@@ -415435,7 +415976,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B33",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B34",
@@ -415462,7 +416009,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B34",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B35",
@@ -415489,7 +416042,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B35",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B36",
@@ -415516,7 +416075,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B36",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B37",
@@ -415543,7 +416108,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B37",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B38",
@@ -415570,7 +416141,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B38",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B39",
@@ -415597,7 +416174,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B39",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B40",
@@ -415624,7 +416207,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Out of the four alternatives, choose the one which can be substituted for the given words/phrase",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B40",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B41",
@@ -415651,7 +416240,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B41",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B42",
@@ -415678,7 +416273,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B42",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B43",
@@ -415705,7 +416306,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B43",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B44",
@@ -415732,7 +416339,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B44",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B45",
@@ -415759,7 +416372,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B45",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B46",
@@ -415786,7 +416405,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B46",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B47",
@@ -415804,17 +416429,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "He said that he could finish that work by that evening.",
       "He said that he could finish this work by that evening."
     ],
-    "answerIndex": 3,
-    "explanation": "Reporting in the past requires all three shifts: 'can' to 'could', the demonstrative 'this' to 'that', and 'evening' to 'that evening'. Only option (c) makes all three. The marked option (d) shifts the tense and the time expression but leaves 'this work' unchanged, and 'this' cannot survive into indirect speech when the reporting verb is past — so the marked answer is wrong here and (c) is correct. Option (a) backshifts 'this' but not the time reference, and (b) backshifts nothing.",
-    "answerConfidence": "high",
+    "answerIndex": -1,
+    "explanation": "In reported speech after ‘said’, can usually backshifts to could. Textbooks often also shift this→that and evening→that evening, producing C. But demonstratives can remain unchanged when the referent is still contextually near the speaker; D is therefore possible under a different reporting context. Since the question supplies no such context, the key’s D is retained only as a candidate and neither choice is independently scored.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 2,
+    "independentAnswerIndex": -1,
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
-    "disputeNote": "Independent solution gives C; MPSC final key gives D. ",
+    "disputeNote": "The official key marks D. C is the conventional full-shift reported form (‘this’→‘that’), while D may also be grammatical if ‘this work’ remains contextually proximate. The stem gives no reporting context to choose between these readings; preserve D as the key candidate and hold without assigning an independent answer.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B47",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "The official key marks D. C is the conventional full-shift reported form (‘this’→‘that’), while D may also be grammatical if ‘this work’ remains contextually proximate. The stem gives no reporting context to choose between these readings; preserve D as the key candidate and hold without assigning an independent answer.",
+    "sourceReview": true
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B48",
@@ -415841,7 +416470,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B48",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B49",
@@ -415868,7 +416503,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B49",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B50",
@@ -415895,7 +416536,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the most appropriate type of Clause/Speech from the alternatives given",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B50",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B51",
@@ -415922,7 +416569,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B51",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B52",
@@ -415949,7 +416602,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B52",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B53",
@@ -415967,17 +416626,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "Had he finished his work when the boss called him?",
       "Was the boss calling him while he finished?"
     ],
-    "answerIndex": 2,
-    "explanation": "The standard rule for turning a negative or quasi-negative statement into an interrogative is to drop the negative element and question the positive — as 'He is not a fool' becomes 'Is he a fool?' — which here gives 'Had he finished his work when the boss called him?'. Confidence is only medium because (a) is also arguable: it retains 'hardly' and so keeps the original's sense of immediacy, whereas (c) loses it, but 'Had he hardly finished...' is awkward English and is not the form these exercises expect. (b) changes the tense and (d) changes the subject and the aspect.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "To ask whether the original event occurred, preserve ‘hardly’ and invert the auxiliary: ‘Had he hardly finished his work when the boss called him again?’ Key C omits ‘hardly’, so it is not equivalent.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 2,
+    "independentAnswerIndex": -1,
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
-    "sourceNote": "two defensible options — (c) follows the drop-the-quasi-negative rule but loses the immediacy of 'hardly...when'; (a) keeps 'hardly' at the cost of awkward English",
+    "sourceNote": "The official key marks C, which drops ‘hardly’ and changes the force of the sentence. Option A (‘Had he hardly finished…?’) is the direct interrogative form preserving the original near-completion meaning. Hold because the keyed answer is not meaning-preserving.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B53",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The official key marks C, which drops ‘hardly’ and changes the force of the sentence. Option A (‘Had he hardly finished…?’) is the direct interrogative form preserving the original near-completion meaning. Hold because the keyed answer is not meaning-preserving."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B54",
@@ -416004,7 +416667,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B54",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B55",
@@ -416024,15 +416693,20 @@ const groupBQuestionsPart49: BankQuestion[] = [
     ],
     "answerIndex": 2,
     "explanation": "Among the options given, (c) is the only genuine negative transformation of the sentence as printed — insert 'does not' and return the verb to its base form. Confidence is medium because a proper affirmative-to-negative transformation should preserve meaning, and the textbook meaning-preserving answer, 'She never fails to speak the truth' (or 'She never tells a lie'), is not offered; (c) actually reverses the sense. (a), (b) and (d) go further still, asserting that she is untruthful, so they are worse.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 2,
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
-    "sourceNote": "no option preserves the meaning — the meaning-preserving negative is 'She never fails to speak the truth'; (c) is only the mechanical insertion of 'not', which reverses the sense",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B55",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B56",
@@ -416059,7 +416733,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B56",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B57",
@@ -416086,7 +416766,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B57",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B58",
@@ -416104,17 +416790,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "Although it rained heavily, the match was postponed.",
       "It rained heavily and the match was postponed."
     ],
-    "answerIndex": 1,
-    "explanation": "A compound sentence joins two main clauses with a coordinating conjunction, and 'so' is the coordinating conjunction of result, so (b) is compound and additionally preserves the cause-and-effect link between the two original sentences. Confidence is medium because (d), joining the same two main clauses with 'and', is also formally a compound sentence — the item therefore has two structurally correct options, and (b) wins only on meaning. (a) and (c) use subordinating conjunctions and are complex, not compound.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "A compound sentence joins independent clauses with a coordinator. ‘So’ in B and ‘and’ in D both coordinate ‘It rained heavily’ and ‘the match was postponed’; B adds the causal relation but D is also structurally compound.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 1,
+    "independentAnswerIndex": -1,
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
-    "sourceNote": "two defensible options — both (b) with 'so' and (d) with 'and' are formally compound sentences; (b) is preferred only because it keeps the cause-effect relation",
+    "sourceNote": "The official key marks B, but both B (‘…, so …’) and D (‘… and …’) coordinate two independent clauses and therefore form compound sentences. Both meet the printed instruction; hold the item as having multiple correct options.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B58",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The official key marks B, but both B (‘…, so …’) and D (‘… and …’) coordinate two independent clauses and therefore form compound sentences. Both meet the printed instruction; hold the item as having multiple correct options."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B59",
@@ -416141,7 +416831,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B59",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-B60",
@@ -416168,7 +416864,13 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "direction": "Choose the correct answer from the alternatives for the following questions as directed",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B60",
-    "sourceHref": "/papers/group-b/co-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-written-A1",
@@ -419232,12 +419934,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The action is happening at this very moment (\"I can't hear what you are saying\"), so the present continuous \"is talking\" is required. \"Talks\" is the trap: it agrees correctly with the singular \"everybody\", but simple present states a habit, not noise going on right now.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B1",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B2",
@@ -419259,12 +419967,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A longer background action interrupted by a sudden one takes the past continuous, so \"was watching\" is right when Damien \"called\". Simple past \"watched\" would wrongly mean the film finished before the call rather than being in progress during it.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B2",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B3",
@@ -419286,12 +420000,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"By this time next year\" sets a deadline in the future, and the future perfect \"will have completed\" marks an action finished before that point. It also matches the second verb \"and found a job\", which shares the same \"will have\" auxiliary; \"will complete\" or \"will be completing\" cannot carry that completed sense.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B3",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B4",
@@ -419313,12 +420033,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The not-seeing happened before the past event of running into the friend, so the earlier of two past actions takes the past perfect \"had not seen\". \"Have not seen\" is the trap — the present perfect would imply the gap continues up to now, but the meeting already ended that gap last week.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B4",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B5",
@@ -419340,12 +420066,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"While\" joins two actions running in parallel in the past, and the first clause is already past continuous (\"was reading\"), so the second must match with \"was sleeping\". Simple past \"slept\" would break the sense of simultaneous, ongoing action.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B5",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B6",
@@ -419367,12 +420099,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"By the end of this year\" points to a future moment and \"for twenty-five years\" measures a stretch of time continuing up to it — that is exactly the future perfect continuous, \"will have been working\". The present and past perfect options cannot be used with a future deadline at all.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B6",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B7",
@@ -419394,12 +420132,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The train's departure happened before the arrival at the station, so the earlier past action takes the past perfect \"had already left\". \"Has already left\" is wrong because the whole sentence is set in the past, not linked to the present moment.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B7",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B8",
@@ -419421,12 +420165,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The reporting verb \"said\" is past, so the future perfect \"will have finished\" is backshifted to \"would have finished\" in reported speech. \"Would finish\" loses the sense of completion before the arrival, and any \"will\" form clashes with the past reporting verb.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B8",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B9",
@@ -419444,17 +420194,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "will have served",
       "will have been serving"
     ],
-    "answerIndex": 3,
-    "explanation": "\"By next December ... for fifteen years\" measures an unbroken stretch of time running up to a future point, which is the standard use of the future perfect continuous \"will have been serving\". Be aware that the plain future perfect \"will have served\" (c) is also acceptable English here; the continuous is preferred only because it emphasises the duration the sentence is measuring.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "Both C (will have served) and D (will have been serving) are grammatical for a duration continuing up to a future point. The key selects D, but the wording does not exclude the future perfect simple.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 3,
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
-    "sourceNote": "Both (c) 'will have served' and (d) 'will have been serving' are grammatically defensible with 'for fifteen years'; the continuous is the better duration-emphasis answer but this is not a clean single-answer item.",
+    "sourceNote": "The sentence permits two standard future-perfect forms with this duration phrase; no single answer is uniquely compelled.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B9",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The sentence permits two standard future-perfect forms with this duration phrase; no single answer is uniquely compelled."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B10",
@@ -419476,12 +420230,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The change took place before the past moment of failing to recognise her, so the past perfect \"had changed\" is needed. \"Has changed\" would tie the change to the present, which contradicts the past-tense main clause \"I didn't recognize\".",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 1 - 10) : Fill in the blanks with the correct form of verbs given in the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B10",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B11",
@@ -419503,12 +420263,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The fixed legal collocation is \"acquitted of\" a charge — the verb always takes \"of\" for the offence a person is cleared of. \"Acquitted on all charges\" is heard loosely in journalism but is not the form tested in grammar papers.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B11",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B12",
@@ -419530,12 +420296,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Hint\" as a verb takes \"at\": to hint at something is to suggest it indirectly. \"Hint of\" exists only with the noun (\"a hint of sarcasm\"), so it does not fit after the verb \"hinted\".",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B12",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B13",
@@ -419557,12 +420329,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The set phrase expressing an unexpected discovery is \"to my surprise\", so \"to\" completes it. \"Beyond\" and \"above\" would need a measurable quantity to exceed, which \"surprise\" is not in this idiom.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B13",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B14",
@@ -419584,12 +420362,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Known for\" introduces the reason or achievement someone is famous on account of, so \"for the books he has written\" is right. \"Known by\" introduces a name or identifying label (\"known by the name Thanga\"), not an achievement.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B14",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B15",
@@ -419611,12 +420395,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Pursuant\" is invariably followed by \"to\" — \"pursuant to the recommendation\" means in accordance with it. No other preposition collocates with this formal legal adjective.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B15",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B16",
@@ -419638,12 +420428,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The adjective \"indifferent\" takes \"to\" when it means showing no interest in something. \"Indifferent about\" is occasionally heard in casual speech but \"indifferent to\" is the standard form tested here.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B16",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B17",
@@ -419665,12 +420461,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Skill at an activity is expressed with \"good at\" — good at painting, good at chess. \"Good in\" is used only of a field or subject in loose usage and is not accepted as the standard collocation for an activity.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B17",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B18",
@@ -419692,12 +420494,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Conversant\" collocates with \"with\": to be conversant with a subject is to be familiar with it. \"Conversant in\" is sometimes used of languages, but that option is not offered and \"of\"/\"at\"/\"on\" never follow this adjective.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B18",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B19",
@@ -419719,12 +420527,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Proficient\" takes \"in\" before a field or a language — proficient in three languages. \"Proficient with\" is used only of tools or instruments (proficient with a rifle), not of languages.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B19",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B20",
@@ -419746,12 +420560,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A matter that lies inside a court's authority \"falls under the jurisdiction\" of that court. \"Falls in\" is not idiomatic here, and \"over\" would reverse the relationship — it is the court that has jurisdiction over the matter, not the matter over the jurisdiction.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 11 - 20) : Insert correct prepositions to complete the sentences given below:",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B20",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B21",
@@ -419773,12 +420593,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A simple sentence has exactly one finite verb, so the first clause must become a participial phrase: 'Climbing up the tree, he plucked some mangoes.' Option (b) is the same structure but slips the tense to the present 'plucks', which the original does not license.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B21",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B22",
@@ -419800,12 +420626,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The active is simple present interrogative ('Does ... catch'), so the passive keeps simple present: 'Is the thief caught by the police officer?' Option (c) shifts to the present perfect and (b) to the past perfect, which changes the tense the question actually asked about.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B22",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B23",
@@ -419825,14 +420657,20 @@ const groupBQuestionsPart49: BankQuestion[] = [
     ],
     "answerIndex": 0,
     "explanation": "The finite verb being passivised is 'hopes', and with a that-clause object the passive takes the impersonal form 'It is hoped that he will win a prize.' Option (b) passivises only the infinitive and throws away 'hopes' altogether, and (c) is not a passive at all.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B23",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B24",
@@ -419850,16 +420688,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "Let the poor not be teased by people.",
       "Do not tease the poor people."
     ],
-    "answerIndex": 1,
-    "explanation": "'Let the poor not be teased' is the passive of a negative imperative, so the active is simply 'Do not tease the poor.' Option (c) is still passive (it just adds the agent) and (a) is ungrammatical — 'Let people not teased' has no infinitive.",
-    "answerConfidence": "high",
+    "answerIndex": -1,
+    "explanation": "Both B and D are grammatical active imperatives that preserve the passive instruction not to tease the poor. Adding “people” does not change the meaning.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 1,
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B24",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "Two options express the same transformation accurately.",
+    "sourceReview": true,
+    "disputeNote": "Two options express the same transformation accurately."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B25",
@@ -419881,12 +420724,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The reporting verb 'said' is past, so the reported simple past 'wrote' back-shifts one step to the past perfect: 'John had written the letter.' Option (c) keeps the present perfect 'has written', which fails the back-shift rule.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B25",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B26",
@@ -419904,16 +420753,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "I told Mala, “ I will see you tomorrow.”",
       "I said to Mala, “I would see you tomorrow.”"
     ],
-    "answerIndex": 1,
-    "explanation": "Going back to direct speech, 'would' returns to 'will', 'her' to 'you', and 'the following day' to 'tomorrow'. Option (c) has the right words but the wrong reporting verb: in direct speech the convention is 'said to Mala', since 'told' takes the listener as an object without a comma-quotation.",
-    "answerConfidence": "high",
+    "answerIndex": -1,
+    "explanation": "Both “I said to Mala, …” and “I told Mala, …” are accepted direct-speech reporting constructions here. The supplied wording does not distinguish them.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 1,
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B26",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "Both B and C are valid direct-speech transformations.",
+    "sourceReview": true,
+    "disputeNote": "Both B and C are valid direct-speech transformations."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B27",
@@ -419935,12 +420789,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "'too ... to' converts to the negative pattern 'so ... that ... not': 'He was so ill that he could not attend school yesterday.' Option (b) just inserts 'not' in front of 'too', which reverses the meaning — it says he was well enough to go.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B27",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B28",
@@ -419962,12 +420822,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "An exclamatory 'How + adverb' becomes an assertive statement with an intensifier: 'She sings very sweetly.' Option (d) changes the meaning (it praises the song, not the singing) and (a) also shifts the tense to the past.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B28",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B29",
@@ -419989,12 +420855,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A negative statement becomes a rhetorical question by dropping the negative word: 'never' turns into 'ever' — 'Can I ever forget your kindness?' Option (a) keeps 'never', which would make the question mean the opposite, and (c)/(d) are punctuated as statements.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B29",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B30",
@@ -420016,12 +420888,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "'Would that ...' is an optative formula meaning a wish, so the assertive form is 'I wish I were a king.' The subjunctive 'were' must survive; (d) replaces it with 'would be' and keeps the exclamation mark, so it is not assertive.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 21 - 30) : Change each of the following sentences as directed in the brackets.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B30",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B31",
@@ -420043,12 +420921,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Adjective. 'However tired he was' is a concessive clause built on 'he was tired': 'tired' is the subject complement after the linking verb 'was', describing 'he'. A word that describes a noun/pronoun after be/seem/become is an adjective, not an adverb. The tempting option is Adverb (c), because the whole phrase 'however tired he was' modifies the main clause adverbially — but the underline is on 'tired' alone, and the adverb in that phrase is 'however', which modifies 'tired'. Only an adverb can modify an adjective, which confirms 'tired' is the adjective. Agrees with the booklet's highlight.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B31",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B32",
@@ -420070,12 +420954,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Plural noun. 'Righteous' is an adjective by origin, but in the 'the + adjective' pattern it is substantivised — 'the righteous' means 'righteous people' and works as the subject of the sentence. The decisive proof is the verb: the sentence says 'emerge', not 'emerges', so the subject is plural. The tempting option is Adjective (a), the word's dictionary class, and Singular Noun (d) is wrong for the same reason 'emerge' is plural. Other members of this pattern behave identically: the poor, the blind, the elderly. Agrees with the booklet's highlight.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B32",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B33",
@@ -420093,17 +420983,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "Determiner",
       "Preposition"
     ],
-    "answerIndex": 0,
-    "explanation": "[adjudicated: derived] Sentence: \"Sawmi goes to school **every** day.\" The markup underlines only the single word *every* — and the direction itself says each sentence \"has a **word** underlined,\" singular, which rules out the two-word phrase *every day* being the target.\n\nWork it from first principles. Ask what *every* is doing in the sentence: it sits in front of the noun *day* and tells you which/how many days. That slot — before a noun, limiting or specifying it — is the determiner slot, the same slot filled by *the, this, some, each, my*. So *every* is a **Determiner (c)**.\n\nCheck the other three the same way:\n- **Adverb** — an adverb modifies a verb, adjective or another adverb. *Every* modifies the noun *day*, not the verb *goes*. Note the trap: the whole phrase *every day* does work adverbially (it answers \"how often does Sawmi go?\"). But that adverbial force belongs to the phrase as a unit, not to the word *every*. A determiner inside an adverbial phrase is still a determiner — exactly as *this* is still a determiner in *this morning*.\n- **Pronoun** — a pronoun stands in place of a noun, alone. *Every* can never stand alone; you cannot say \"Every came.\" English uses *everyone / everybody / everything* for that job. (Its cousins *each* and *all* can be pronouns — \"each of them\", \"all are here\" — which is probably why the option is here to tempt you. *Every* cannot.)\n- **Preposition** — a preposition shows a relation and takes an object (*to* school, *in* the morning). *Every* does neither.\n\nSo the highlighted answer in the booklet, (a) Adverb, is **wrong**, and you should not memorise it. It is the answer you get if you underline *every day* instead of *every* — a plausible typesetting slip in a booklet that already carries known errors, and MPSC published no official key for this sitting. Treat the highlight as a scan artefact, not as authority.\n\nOne older-textbook caveat that does not change the answer: some Indian grammars still label *every* an \"adjective of number/quantity.\" \"Adjective\" is not on the menu here; \"Determiner\" is the modern term for precisely that role, so (c) is the intended and the correct choice either way.\n\nTakeaway rule: for a part-of-speech question, test the *underlined word by itself*, never the phrase it happens to sit in.",
-    "answerConfidence": "high",
+    "answerIndex": -1,
+    "explanation": "“Every” is a determiner quantifying the noun “day”; the complete phrase “every day” functions adverbially, but the underlined word alone does not. Thus option C (determiner) fits, while the final key’s option A (adverb) does not. → (c) Determiner.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 2,
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
-    "disputeNote": "Independent solution gives C; MPSC final key gives A. Source highlight (a) contradicts the underline scope and is judged an error. The booklet's marked answer \"Adverb\" is only defensible if the underline spans \"every day\"; the markup and the direction's singular \"a word\" both say it spans only \"every\". No official MPSC key exists for this sitting, so the highlight carries no authority. Recommend storing as answerSource 'derived' with answer (c) and a note that the printed highlight disagrees. Worth checking whether sibling questions B31-B40 in the same 31-40 block show the same phrase-vs-word underline drift.",
+    "disputeNote": "The printed sentence is “Sawmi goes to school every day.” The key identifies every as an adverb, but it modifies the noun day and is a determiner. The only defensible independent choice is C; preserve official A as a key conflict and leave the item unscored.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B33",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "The printed sentence is “Sawmi goes to school every day.” The key identifies every as an adverb, but it modifies the noun day and is a determiner. The only defensible independent choice is C; preserve official A as a key conflict and leave the item unscored.",
+    "sourceReview": true
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B34",
@@ -420125,12 +421019,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Verb. 'Seems' is the finite verb of the sentence — it carries the tense and agrees with the singular subject 'He' (he seems / they seem). It is a linking (copular) verb, joining the subject to the complement 'very tired'. The tempting option is Adjective (c), because the thing being described is a state; but the adjective here is 'tired', not 'seems'. Test it by swapping in 'is': 'He is very tired' — the slot 'seems' fills is the verb slot. Agrees with the booklet's highlight.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B34",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B35",
@@ -420152,12 +421052,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Abstract noun. 'Happiness' is the subject of 'was' and names a quality/state that cannot be seen or touched, which is exactly the definition of an abstract noun; the -ness suffix builds abstract nouns from adjectives (happy → happiness, kind → kindness). The tempting option is Adjective (c), because the related word 'happy' is an adjective and the sentence is about a description — but the adjective in this sentence is 'obvious'. Agrees with the booklet's highlight.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B35",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B36",
@@ -420179,12 +421085,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Noun. 'Wonder' is the head of the noun phrase 'a natural wonder', the subject complement after 'is'; the article 'a' in front of it is proof it is a noun, since articles introduce nouns. The tempting option is Adjective (a), because 'wonder' sits at the end of a descriptive phrase — but the adjective there is 'natural', which modifies 'wonder'. Note 'wonder' can also be a verb ('I wonder why'); word class is decided by the job the word does in this sentence, and here it is named, counted and articled, so it is a noun. Agrees with the booklet's highlight.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B36",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B37",
@@ -420202,17 +421114,21 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "Pronoun",
       "Adverb"
     ],
-    "answerIndex": 2,
-    "explanation": "Defective item — no option is strictly correct. Because 'this' is immediately followed by the noun it points to ('this question'), it is functioning as a determiner (traditional grammar: demonstrative adjective), not as a pronoun. A demonstrative is a pronoun only when it stands alone in a noun's place — 'Can you answer this?' would be a pronoun. The option list here offers Preposition, Noun, Pronoun, Adverb, with no Determiner or Adjective, so the intended key (c) is only right under the loose school convention that calls this/that/these/those 'demonstrative pronouns' whatever their position. I match the booklet's highlight (c) as the closest available choice, but do not learn from this item: with a noun after it, 'this' is a determiner. That is also why Question 33 above answers 'Determiner'.",
+    "answerIndex": -1,
+    "explanation": "In “this question,” “this” modifies the noun “question,” so it is a demonstrative determiner. The options do not offer that category; calling it a pronoun is incorrect in this construction.",
     "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 2,
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
-    "sourceNote": "No correct option: underlined 'this' modifies the noun 'question', so it is a determiner / demonstrative adjective, but the options list only Preposition, Noun, Pronoun, Adverb. (c) is the least-wrong choice, not a right one.",
+    "sourceNote": "No offered part-of-speech label accurately describes “this” as used before the noun.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B37",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "No offered part-of-speech label accurately describes “this” as used before the noun."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B38",
@@ -420234,13 +421150,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "[adjudicated: derived] Answer: (a) Adjective. The booklet's highlighted (c) Verb is wrong.\n\nThe question is whether \"are pleased\" is a passive verb (making \"pleased\" a past participle) or a linking verb + adjective. Four standard tests all give the same answer:\n\n1. Degree word. Adjectives take a bare \"very\"; true passives need \"very much\". \"We are VERY pleased to come here\" is completely natural — \"very much pleased\" is stilted. Adjective.\n2. Linking-verb frame. Only adjectives can follow seem/look/feel: \"They SEEMED pleased,\" \"She LOOKED pleased.\" A genuine passive cannot (\"They seemed arrested\" is not English on the event reading). Adjective.\n3. Coordination. You can join it to an undisputed adjective: \"We are HAPPY AND pleased to come here.\" You can never coordinate an adjective with a passive participle.\n4. The \"to\"-phrase. \"pleased TO COME\" is the same pattern as glad to, eager to, sorry to, delighted to, happy to — an adjective pattern. Substitute the plainest adjective there is and nothing changes: \"We are GLAD to come here.\"\n\nAnd the meaning test: a real passive describes an action done to someone, and allows an agent (\"We were pleased BY the news\"). Here nobody performs any pleasing — the sentence describes our state of mind. It is a polite formula meaning \"we are glad.\"\n\nSo \"pleased\" is a participial adjective: a word born from a verb that has settled into the adjective class, exactly like tired, interested, surprised, worried, excited. \"I am tired\" is not passive voice, and neither is this.\n\nWhy the booklet marked Verb: whoever prepared the key saw \"are + past participle\" and reflexively called it passive voice. That shorthand works for \"The letter is written by him,\" but not for stative participles with a to-infinitive. The Wren & Martin tradition these papers are written from teaches the same thing — such participles after \"be\" are adjectives.\n\nExam rule of thumb: if the underlined -ed word can take \"very\" and can follow \"seem,\" it is an adjective, not part of the verb.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
-    "sourceNote": "Extracted `direction` text is truncated mid-sentence: \"...has a word underlined. Find\" — the rest of the instruction (presumably naming the part of speech of the underlined word) is missing from the JSON. Worth re-extracting the Q31-40 direction from the source PDF before this batch ships, since the task is only inferable from the options as it stands.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B38",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B39",
@@ -420262,12 +421183,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Adjective. Underlined 'still' sits before the noun 'water' and tells you what kind of water — motionless, not flowing — so it is an attributive adjective (the proverb is normally printed 'Still waters run deep'). The tempting option is Adverb (c), because 'still' is far more common as an adverb of time ('He is still here'); word class is decided by the job in this sentence, and here it modifies a noun, which adverbs never do. Note 'deep' at the end is also being used adjectivally as a complement, not as the adverb 'deeply'. Agrees with the booklet's highlight.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B39",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B40",
@@ -420289,12 +421216,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Conjunction. 'Or' joins the two nouns 'tea' and 'coffee' as alternatives inside one sentence, which is the defining job of a coordinating conjunction (the set is and, but, or, nor, for, yet, so). The tempting option is Interjection (b), which is an exclamation standing outside the sentence structure ('Oh!', 'Alas!') — 'or' is structurally essential here, remove it and the sentence breaks. Agrees with the booklet's highlight. ('cofee' is a printing typo for 'coffee'; it does not change the grammar being tested, so the item is still sound.)",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 31 - 40) : Each of the following sentences has a word underlined. Find",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B40",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B41",
@@ -420316,12 +421249,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"A bone of contention\" is the issue two parties keep fighting over — a subject of disagreement. Option (c) is a near-homophone trap: \"contention\" means dispute, while \"contentment\" means satisfaction, the opposite sense.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B41",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B42",
@@ -420343,12 +421282,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"To pay through the nose\" means to pay far more than a thing is worth — an excessive, painful price. Option (c) describes \"to pay the price\" / \"face the music\", a different idiom about consequences rather than cost.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B42",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B43",
@@ -420370,12 +421315,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"To see eye to eye with\" someone means to agree with them — to hold the same opinion. It has nothing to do with literal eyesight, so (b) and (c), which read the phrase word-for-word, are the traps.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B43",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B44",
@@ -420397,12 +421348,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Apprise\" means to inform or notify — you apprise someone of the facts. Option (a) defines \"appraise\" (to assess or value something); the two words differ by one letter and are the classic confusion pair being tested here.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B44",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B45",
@@ -420424,12 +421381,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"To officiate\" is to perform the duties of an office or preside over a ceremony — a priest officiates at a wedding, a referee officiates a match. Option (b) is \"to plead/litigate\", a lawyer's role, not an officiant's.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B45",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B46",
@@ -420451,12 +421414,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "An \"embargo\" is an official ban on trade with a country — a legal prohibition on commerce. Options (b) and (c) invert the meaning: an embargo blocks trade, it does not free or license it.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B46",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B47",
@@ -420478,12 +421447,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Expunge\" means to erase or strike out completely, usually from a record — remarks are expunged from the minutes. Option (a), \"destroy completely\", is the tempting near-miss: expunging removes an entry, it does not annihilate the thing itself.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B47",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B48",
@@ -420505,12 +421480,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Articulate\" as an adjective means able to express oneself fluently and clearly. Option (c) is baited by the look-alike \"artistic\"; \"articulate\" comes from articulus (joint/distinct utterance), not from art.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B48",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B49",
@@ -420532,12 +421513,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"A dime a dozen\" describes something so plentiful it is nearly worthless — common and cheap. Options (a) and (b) reverse it: a dime buying twelve of a thing is the whole point of the phrase's contempt.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B49",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B50",
@@ -420559,12 +421546,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"To pick holes (in)\" means to find fault with, i.e. to criticise. Option (a) is close but wrong in kind: picking holes is one-sided fault-finding and needs no quarrel or exchange of words to occur.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=1",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 41 - 50) :  Choose the correct meaning of the words given below from the",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B50",
-    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-written-A1",
@@ -423648,7 +424641,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B1",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B2",
@@ -423675,7 +424674,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B2",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B3",
@@ -423702,7 +424707,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B3",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B4",
@@ -423729,7 +424740,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B4",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B5",
@@ -423756,7 +424773,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B5",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B6",
@@ -423783,7 +424806,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B6",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B7",
@@ -423810,7 +424839,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B7",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B8",
@@ -423837,7 +424872,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B8",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B9",
@@ -423864,7 +424905,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B9",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B10",
@@ -423891,7 +424938,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B10",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B11",
@@ -423918,7 +424971,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B11",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B12",
@@ -423945,7 +425004,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B12",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B13",
@@ -423972,7 +425037,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B13",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B14",
@@ -423999,7 +425070,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B14",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B15",
@@ -424026,7 +425103,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B15",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B16",
@@ -424053,7 +425136,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B16",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B17",
@@ -424080,7 +425169,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B17",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B18",
@@ -424107,7 +425202,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B18",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B19",
@@ -424134,7 +425235,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B19",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B20",
@@ -424161,7 +425268,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B20",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B21",
@@ -424188,7 +425301,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B21",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B22",
@@ -424215,7 +425334,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B22",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B23",
@@ -424242,7 +425367,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B23",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B24",
@@ -424269,7 +425400,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B24",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B25",
@@ -424296,7 +425433,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B25",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B26",
@@ -424323,7 +425466,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B26",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B27",
@@ -424350,7 +425499,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B27",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B28",
@@ -424377,7 +425532,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B28",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B29",
@@ -424404,7 +425565,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B29",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B30",
@@ -424431,7 +425598,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B30",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B31",
@@ -424458,7 +425631,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B31",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B32",
@@ -424485,7 +425664,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B32",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B33",
@@ -424512,7 +425697,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B33",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B34",
@@ -424539,7 +425730,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B34",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B35",
@@ -424566,7 +425763,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B35",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B36",
@@ -424593,7 +425796,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B36",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B37",
@@ -424620,7 +425829,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B37",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B38",
@@ -424647,7 +425862,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B38",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B39",
@@ -424674,7 +425895,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B39",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B40",
@@ -424701,7 +425928,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B40",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B41",
@@ -424728,7 +425961,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B41",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B42",
@@ -424755,7 +425994,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B42",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B43",
@@ -424782,7 +426027,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B43",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B44",
@@ -424809,7 +426060,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B44",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B45",
@@ -424827,17 +426084,21 @@ const groupBQuestionsPart50: BankQuestion[] = [
       "She please asked to close the door.",
       "Close the door she requested."
     ],
-    "answerIndex": 0,
-    "explanation": "A 'please' imperative is reported with 'requested' plus a to-infinitive, and (a) is the only option built that way: (b) just repeats the imperative, (c) strands the word 'please', and (d) is not reported speech at all. Be aware that (a) is clipped — full English would name the listener, 'She requested them to close the door'.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "A polite imperative is commonly reported with request + object + to-infinitive. Thus “Please close the door” would normally become “She requested them/me to close the door.” Option A omits the requested person, and the other choices are also malformed or retain direct speech. The printed item has no fully satisfactory option, so it remains held.",
+    "answerConfidence": "low",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=1",
-    "independentAnswerIndex": 0,
+    "independentAnswerIndex": -1,
     "direction": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
-    "sourceNote": "Printed English of the intended answer (a) is defective: 'requested' is left without an object. The choice is still unambiguous, since no other option uses a reporting verb at all.",
+    "sourceNote": "The key marks A (“She requested to close the door”), but the reported imperative normally requires an addressee/object, e.g. “She requested them to close the door.” Without an object, A is clipped and does not clearly preserve who is to close the door; no listed choice gives a fully clear, unambiguous indirect request. Retain A as the official key candidate and hold unscored.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B45",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The key marks A (“She requested to close the door”), but the reported imperative normally requires an addressee/object, e.g. “She requested them to close the door.” Without an object, A is clipped and does not clearly preserve who is to close the door; no listed choice gives a fully clear, unambiguous indirect request. Retain A as the official key candidate and hold unscored."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B46",
@@ -424864,7 +426125,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B46",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B47",
@@ -424891,7 +426158,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B47",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B48",
@@ -424918,7 +426191,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B48",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B49",
@@ -424945,7 +426224,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B49",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B50",
@@ -424972,7 +426257,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B50",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B51",
@@ -424999,7 +426290,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B51",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B52",
@@ -425019,14 +426316,20 @@ const groupBQuestionsPart50: BankQuestion[] = [
     ],
     "answerIndex": 1,
     "explanation": "The sentence itself treats the committee as a single body — it says 'in its opinion' — so the verb must be singular: 'The Committee is divided in its opinion'. The textbook version that takes a plural verb reads 'The Committee are divided in their opinions', and that plural pronoun is not what is printed here; let the pronoun already on the page decide the number.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B52",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B53",
@@ -425053,7 +426356,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B53",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B54",
@@ -425080,7 +426389,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B54",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B55",
@@ -425107,7 +426422,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B55",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B56",
@@ -425134,7 +426455,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B56",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B57",
@@ -425161,7 +426488,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B57",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B58",
@@ -425188,7 +426521,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B58",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B59",
@@ -425215,7 +426554,13 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B59",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-B60",
@@ -425240,10 +426585,15 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=1",
     "independentAnswerIndex": 3,
     "direction": "Direction (Question No 51 – 60): Select the word that best completes the sentence:",
-    "sourceNote": "Extraction artifact: option (d) reads 'inconclusive * * * * * * *'. The asterisks are the end-of-paper decoration bleeding into the last option, not part of the word — strip them. The answer is unaffected.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B60",
-    "sourceHref": "/papers/group-b/ri-2026-p1.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p1.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-ri-2026-p1-written-A1",

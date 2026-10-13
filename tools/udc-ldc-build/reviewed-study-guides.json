@@ -5201,6 +5201,3123 @@
           "explanation": "sec²θ=1+(3/4)²=25/16, so secθ=±5/4. Option C (5/4) follows if θ is acute, but the printed question gives no angle/quadrant restriction; keep the keyed choice as conditional and hold the item."
         }
       }
+    },
+    {
+      "paperId": "mpsc-group-b-co-2026-p1",
+      "exam": "MPSC Group B · Circle Officer · General English",
+      "sourceHref": "/papers/group-b/co-2026-p1.pdf",
+      "sourceSha256": "d0d9342f6fa092d0cb063ea320d8d883d01fe1e561f8eea5d623dcf3cf584cdd",
+      "keyHref": "/papers/group-b/keys/co-2026-final-key.pdf#page=1",
+      "keySha256": "1e71baf350f5186fc852e54851540820c967b072e722c28780507747e7ad7fec",
+      "reviewedOn": "2026-10-14",
+      "evidence": "All objective stems/options and emphasis/cues checked visually against the printed Series-A scan, PDF pages 2–8. Paper-I Part-B Q1–60 checked against Series-A final-key page 1. Source SHA256 d0d9342f6fa092d0cb063ea320d8d883d01fe1e561f8eea5d623dcf3cf584cdd; final key SHA256 1e71baf350f5186fc852e54851540820c967b072e722c28780507747e7ad7fec. Written response items excluded.",
+      "questions": {
+        "mpsc-group-b-co-2026-p1-B1": {
+          "expectedQuestion": "**Still** waters run deep.",
+          "expectedOptions": [
+            "Noun",
+            "Adjective",
+            "Verb",
+            "Adverb"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Still' here qualifies the noun 'waters' (waters that are still, i.e. motionless), so it is an adjective. The trap is that 'still' is very often an adverb ('He is still here'), but an adverb cannot sit between nothing and a plural noun as its modifier."
+        },
+        "mpsc-group-b-co-2026-p1-B2": {
+          "expectedQuestion": "He knows **better** than to quarrel.",
+          "expectedOptions": [
+            "Adverb",
+            "Noun",
+            "Verb",
+            "Adjective"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Better' modifies the verb 'knows' (knows in a better way), so it is an adverb — the comparative of the adverb 'well'. It would be an adjective only if it qualified a noun, as in 'a better plan'."
+        },
+        "mpsc-group-b-co-2026-p1-B3": {
+          "expectedQuestion": "What **most** annoys me is his obstinacy.",
+          "expectedOptions": [
+            "Noun",
+            "Verb",
+            "Adjective",
+            "Adverb"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Most' modifies the verb 'annoys' (annoys to the greatest degree), so it is an adverb of degree. 'Most' would be an adjective in 'most people' and a noun in 'Most of them left', but neither applies here."
+        },
+        "mpsc-group-b-co-2026-p1-B4": {
+          "expectedQuestion": "**Right** the wrong.",
+          "expectedOptions": [
+            "Noun",
+            "Adverb",
+            "Verb",
+            "Adjective"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "This is an imperative sentence, so 'Right' is its verb, meaning 'to set right, to correct', and 'the wrong' is its object. The trap is that 'right' is far commoner as an adjective or adverb, but an imperative must open with a verb."
+        },
+        "mpsc-group-b-co-2026-p1-B5": {
+          "expectedQuestion": "**Since** you say so, I believe it.",
+          "expectedOptions": [
+            "Relative pronoun",
+            "Adverb",
+            "Verb",
+            "Conjunction"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Since' joins the subordinate clause 'you say so' to the main clause 'I believe it' in the sense of 'because', so it is a subordinating conjunction. It would be a preposition before a noun ('since Monday') and an adverb in 'I have not seen him since'."
+        },
+        "mpsc-group-b-co-2026-p1-B6": {
+          "expectedQuestion": "The **near** side of the moon is better known.",
+          "expectedOptions": [
+            "Adverb",
+            "Adjective",
+            "Preposition",
+            "Verb"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Near' stands between the article 'The' and the noun 'side' and tells us which side, so it is an adjective. 'Near' is a preposition when it governs a noun ('near the house') and an adverb in 'Come near'."
+        },
+        "mpsc-group-b-co-2026-p1-B7": {
+          "expectedQuestion": "He is **but** a child.",
+          "expectedOptions": [
+            "Conjunction",
+            "Relative Pronoun",
+            "Adverb",
+            "Preposition"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Here 'but' means 'only, merely' — 'He is only a child' — and a word meaning 'only' that limits the following complement is an adverb; this is the standard textbook example of adverbial 'but'. It is not a conjunction because it joins nothing, and it is not a preposition: prepositional 'but' means 'except' and needs something for the exception to be carved out of ('all but one', 'nothing but water'), which this sentence does not supply."
+        },
+        "mpsc-group-b-co-2026-p1-B8": {
+          "expectedQuestion": "He kept a **fast** for a week.",
+          "expectedOptions": [
+            "Adverb",
+            "Adjective",
+            "Noun",
+            "Verb"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'Fast' is preceded by the article 'a' and is the object of the verb 'kept', so it is a noun meaning a period of abstaining from food. The trap is the far commoner adjective/adverb 'fast' meaning quick or quickly, but neither can follow 'a'."
+        },
+        "mpsc-group-b-co-2026-p1-B9": {
+          "expectedQuestion": "The **heavens** declare the glory of God.",
+          "expectedOptions": [
+            "Collective Noun",
+            "Abstract Noun",
+            "Common Noun",
+            "Proper Noun"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'Heavens' is the plural of the ordinary countable noun 'heaven' (the sky), a name shared by things of the same class, which is exactly what a common noun is. It is not a collective noun: a collective noun is a singular word naming a group of individuals taken as one unit (crowd, jury, fleet), whereas 'heavens' is simply a plural. It is not abstract, since the sky is perceptible, and not proper, since it names no one particular individual."
+        },
+        "mpsc-group-b-co-2026-p1-B10": {
+          "expectedQuestion": "There is no excuse **for** such a behaviour.",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Pronoun",
+            "Preposition"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'For' governs the noun phrase 'such a behaviour' and links it to 'excuse', which is the defining job of a preposition. ('For' can be a conjunction meaning 'because', but that option is not offered and no clause follows here.)"
+        },
+        "mpsc-group-b-co-2026-p1-B11": {
+          "expectedQuestion": "The officials have the habit of fawning _______ ministers.",
+          "expectedOptions": [
+            "above",
+            "at",
+            "on",
+            "in"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The fixed collocation is 'to fawn on (or upon) someone', meaning to flatter servilely. 'Fawn at', 'fawn above' and 'fawn in' are not English."
+        },
+        "mpsc-group-b-co-2026-p1-B12": {
+          "expectedQuestion": "You cannot expect respect from him because he is lost _______ senses of shame.",
+          "expectedOptions": [
+            "in",
+            "to",
+            "into",
+            "of"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The idiom the setter is reaching for is 'to be lost to all sense of shame' — that is, to be dead to shame, past feeling it — so 'to' is the intended preposition. Confidence is only medium because the printed sentence is itself defective: the idiom requires the singular 'all sense of shame', not 'senses of shame', and with the plural and no 'all' the sentence is not idiomatic English whichever preposition you insert. Note that 'lost in' would mean absorbed in something, which reverses the meaning."
+        },
+        "mpsc-group-b-co-2026-p1-B13": {
+          "expectedQuestion": "You do not need to get up because the phone is lying _______ hand.",
+          "expectedOptions": [
+            "at",
+            "in",
+            "on",
+            "from"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'At hand' is the set phrase for 'within easy reach', which is exactly why the listener need not get up. 'In hand' means under control or in one's possession, and 'on hand' means available in stock — neither fits a phone lying within reach."
+        },
+        "mpsc-group-b-co-2026-p1-B14": {
+          "expectedQuestion": "There is no limit _______ the wants of man.",
+          "expectedOptions": [
+            "for",
+            "to",
+            "in",
+            "of"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The noun 'limit' takes 'to' when it means a boundary or ceiling on something: 'there is no limit to his ambition'. 'Limit of' is used for the extent of a thing itself ('the limits of the city'), which does not fit 'no limit ___ the wants of man'."
+        },
+        "mpsc-group-b-co-2026-p1-B15": {
+          "expectedQuestion": "The team was elated with joy _______ their victory.",
+          "expectedOptions": [
+            "of",
+            "to",
+            "from",
+            "over"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "One is elated over (or at) an event, so 'elated with joy over their victory' is the only idiomatic option. 'Of', 'to' and 'from' cannot introduce the cause of elation."
+        },
+        "mpsc-group-b-co-2026-p1-B16": {
+          "expectedQuestion": "He talks _______ his father.",
+          "expectedOptions": [
+            "like",
+            "as",
+            "from",
+            "at"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The blank is followed by the bare noun phrase 'his father', and it is 'like' that works as a preposition before a noun to express resemblance — 'He talks like his father'. 'As' introduces a clause with its own verb ('He talks as his father does') or states a role or capacity ('He spoke as chairman'); with a bare noun it would mean he talks in the capacity of his father, which is not the sense. This is also why the same sentence is a parts-of-speech question elsewhere: 'like' here is a preposition, not a conjunction."
+        },
+        "mpsc-group-b-co-2026-p1-B17": {
+          "expectedQuestion": "The seminar is _______ 20th January, 2022.",
+          "expectedOptions": [
+            "in",
+            "on",
+            "Above",
+            "at"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'On' is the preposition for a specific date or day. 'In' is for months, years and longer periods ('in January 2022') and 'at' is for clock times ('at 10 a.m.')."
+        },
+        "mpsc-group-b-co-2026-p1-B18": {
+          "expectedQuestion": "Can we expect the result of the examination _______ the end of June?",
+          "expectedOptions": [
+            "until",
+            "on",
+            "about",
+            "by"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'By' gives a deadline — not later than the end of June — which is what asking when a result can be expected requires. 'Until' would mean continuously up to that point, which makes no sense with a single event, and 'on the end of June' is not English."
+        },
+        "mpsc-group-b-co-2026-p1-B19": {
+          "expectedQuestion": "Abiding _______law is the culture of civilized nations.",
+          "expectedOptions": [
+            "of",
+            "to",
+            "by",
+            "for"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The phrasal verb is 'to abide by' a rule, law or decision, meaning to obey or comply with it. 'Abide in' exists only in the archaic sense of dwelling somewhere; 'abide of/to/for' do not exist."
+        },
+        "mpsc-group-b-co-2026-p1-B20": {
+          "expectedQuestion": "India is committed _______ a policy of peaceful existence.",
+          "expectedOptions": [
+            "of",
+            "to",
+            "with",
+            "for"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Committed to' is the fixed pattern for being pledged or dedicated to something. 'Committed with/of/for' are not idiomatic in this sense."
+        },
+        "mpsc-group-b-co-2026-p1-B21": {
+          "expectedQuestion": "He is showing signs of **senility**.",
+          "expectedOptions": [
+            "virility",
+            "laziness",
+            "maturity",
+            "exhaustion"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Senility' is the physical and mental decay of old age, so its opposite is 'virility', the vigour and strength of youthful manhood. 'Maturity' is the tempting distractor but it is not an opposite — maturity is a stage on the way to senility, not its reverse; 'laziness' and 'exhaustion' are unrelated to age."
+        },
+        "mpsc-group-b-co-2026-p1-B22": {
+          "expectedQuestion": "They approached the stranger **warily**.",
+          "expectedOptions": [
+            "suspiciously",
+            "cautiously",
+            "carefully",
+            "carelessly"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Warily' means with caution and watchfulness against danger, so its opposite is 'carelessly'. The item is a clean one because the other three options — suspiciously, cautiously, carefully — are all synonyms of 'warily', not antonyms, which leaves only (d)."
+        },
+        "mpsc-group-b-co-2026-p1-B23": {
+          "expectedQuestion": "The booking-clerk looked very **grumpy**.",
+          "expectedOptions": [
+            "surly",
+            "pleasant",
+            "efficient",
+            "honest"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Grumpy' means bad-tempered and sulky, whose opposite is 'pleasant', that is good-humoured and agreeable. 'Surly' is the trap: it is a near-synonym of grumpy, not its antonym, while 'efficient' and 'honest' describe unrelated qualities."
+        },
+        "mpsc-group-b-co-2026-p1-B24": {
+          "expectedQuestion": "He has given up his **vicious** habits.",
+          "expectedOptions": [
+            "godly",
+            "sublime",
+            "virtuous",
+            "friendly"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'Vicious' here carries its root sense of full of vice, depraved, so the exact opposite is 'virtuous' — vice against virtue. 'Godly' is only loosely opposed (it concerns piety rather than moral character), 'sublime' concerns grandeur, and 'friendly' opposes only the secondary sense of vicious meaning savage."
+        },
+        "mpsc-group-b-co-2026-p1-B25": {
+          "expectedQuestion": "There is not a trace of **vanity** in her behaviour.",
+          "expectedOptions": [
+            "modesty",
+            "selflessness",
+            "proudness",
+            "dignity"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Vanity' is excessive pride in oneself, and its standard antonym is 'modesty'. 'Proudness' is a synonym, 'selflessness' is the opposite of selfishness rather than of vanity, and 'dignity' is a proper self-respect that is compatible with modesty, not opposed to vanity."
+        },
+        "mpsc-group-b-co-2026-p1-B26": {
+          "expectedQuestion": "He is a **sturdy** youngman.",
+          "expectedOptions": [
+            "dynamic",
+            "weak",
+            "lively",
+            "strong"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Sturdy' means strongly and robustly built, so 'weak' is its opposite. 'Strong' is the deliberate trap — it is a synonym — and 'dynamic' and 'lively' describe energy rather than physical robustness. (The paper prints 'youngman' as one word.)"
+        },
+        "mpsc-group-b-co-2026-p1-B27": {
+          "expectedQuestion": "He listened **intently**, drawin by the speaker's authority.",
+          "expectedOptions": [
+            "casually",
+            "closely",
+            "lazily",
+            "diligently"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Intently' means with fixed and earnest attention, and its established antonym is 'casually', that is without attention or seriousness. 'Closely' and 'diligently' are synonyms; 'lazily' opposes effort rather than attention, so it is weaker than 'casually'. The sentence itself is misprinted — 'drawin' should be 'drawn' — but this does not affect the antonym."
+        },
+        "mpsc-group-b-co-2026-p1-B28": {
+          "expectedQuestion": "The **rapid** stream flowed gradually.",
+          "expectedOptions": [
+            "fast",
+            "sluggish",
+            "brisk",
+            "exepeditions"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Rapid' means moving swiftly, so 'sluggish' — slow-moving, inert — is the opposite, and it is the natural word for a slow stream. 'Fast' and 'brisk' are synonyms of rapid, and option (d) is printed as 'exepeditions', a misspelling of 'expeditious' (itself a synonym of rapid), so it could not be the answer even if spelled correctly."
+        },
+        "mpsc-group-b-co-2026-p1-B30": {
+          "expectedQuestion": "The antonym for **mendacious** is.",
+          "expectedOptions": [
+            "accurate",
+            "truthful",
+            "false",
+            "deceptive"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Mendacious' means lying or given to telling untruths, so its opposite is 'truthful'. 'False' and 'deceptive' are synonyms of mendacious, and 'accurate' is about factual correctness rather than the honesty of the speaker, which is what mendacious describes."
+        },
+        "mpsc-group-b-co-2026-p1-B31": {
+          "expectedQuestion": "Go abegging",
+          "expectedOptions": [
+            "go in vain",
+            "go for begging",
+            "beg for something",
+            "request for something"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'To go a-begging' is an idiom meaning to find no taker — a thing is available but nobody wants it, so the offer is wasted; of the four options only 'go in vain' captures that sense of coming to nothing. Confidence is medium because 'go in vain' is an approximation rather than a translation: the idiom's core sense is 'to be unwanted', which none of the options states exactly. Options (b), (c) and (d) all take 'begging' literally, which is precisely the trap."
+        },
+        "mpsc-group-b-co-2026-p1-B32": {
+          "expectedQuestion": "Tread on one's toe",
+          "expectedOptions": [
+            "walk on toes",
+            "tread with toes",
+            "flatter someone",
+            "to give offence"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'To tread on someone's toes' means to offend or hurt someone's feelings, often by encroaching on their sphere, so 'to give offence' is the substitute. (a) and (b) read the phrase literally and (c) reverses the sense."
+        },
+        "mpsc-group-b-co-2026-p1-B33": {
+          "expectedQuestion": "A damp squib",
+          "expectedOptions": [
+            "extremely exciting",
+            "full of action",
+            "a disappointing result",
+            "Fair result"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A squib is a small firework, and a damp one fails to go off — hence the idiom means something that turns out far less impressive than expected, a disappointment. (a) and (b) are the exact opposite, and a 'fair result' is a middling outcome rather than a failure."
+        },
+        "mpsc-group-b-co-2026-p1-B34": {
+          "expectedQuestion": "Bore the palm",
+          "expectedOptions": [
+            "played quite well",
+            "was victorious",
+            "was defeated",
+            "played a very boring match"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'To bear the palm' is to carry off the prize and so to win — from the Roman palm branch awarded to a victor; 'bore' is simply its past tense. Option (d) plays on the spelling of 'bore' as in tedious, which is the trap."
+        },
+        "mpsc-group-b-co-2026-p1-B35": {
+          "expectedQuestion": "A jack of all trades",
+          "expectedOptions": [
+            "someone who has hit a jackpot",
+            "A great businessman",
+            "someone who has many skills",
+            "A confident and not serious person"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'A jack of all trades' is a person able to turn a hand to many different kinds of work, that is someone with many skills (the full proverb adds 'and master of none'). 'Trades' here means crafts or occupations, not commerce, so (b) misreads the word and (a) merely echoes 'jack'."
+        },
+        "mpsc-group-b-co-2026-p1-B36": {
+          "expectedQuestion": "One who is always doubting",
+          "expectedOptions": [
+            "Deist",
+            "Rationalist",
+            "Sceptic",
+            "Positivist"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A 'sceptic' is by definition one who habitually doubts and questions accepted beliefs. A deist believes in a God known through reason but not revelation, a rationalist makes reason the test of truth, and a positivist admits only what science can verify — each holds a positive doctrine rather than doubting as such."
+        },
+        "mpsc-group-b-co-2026-p1-B37": {
+          "expectedQuestion": "Knowing everything",
+          "expectedOptions": [
+            "Omnigenous",
+            "Omnipotent",
+            "Omnipresent",
+            "Omniscient"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Omniscient' comes from omnis (all) plus scire (to know), so it means all-knowing. The distractors change the second root: omnipotent is all-powerful, omnipresent is present everywhere, and omnigenous means of all kinds."
+        },
+        "mpsc-group-b-co-2026-p1-B38": {
+          "expectedQuestion": "An inscription on a tomb",
+          "expectedOptions": [
+            "Epitaph",
+            "Espionage",
+            "Epilogue",
+            "Elegy"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "An 'epitaph' is precisely the writing carved on a tomb or gravestone. 'Elegy' is the near-miss: it is a mournful poem for the dead but is not inscribed on the tomb; an epilogue closes a book or play, and espionage is spying."
+        },
+        "mpsc-group-b-co-2026-p1-B39": {
+          "expectedQuestion": "An official pardon",
+          "expectedOptions": [
+            "redemption",
+            "amnesty",
+            "regicide",
+            "amnesia"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Amnesty' is a general pardon granted by an authority, typically to political offenders. 'Amnesia' is the loss of memory and is offered only as a look-alike trap; 'redemption' is deliverance or buying back, and 'regicide' is the killing of a king."
+        },
+        "mpsc-group-b-co-2026-p1-B40": {
+          "expectedQuestion": "A person who lives outside his native country",
+          "expectedOptions": [
+            "indigenous",
+            "expatriate",
+            "natal",
+            "intrinsic"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "An 'expatriate' — ex (out of) plus patria (native land) — is one who lives outside his own country. 'Indigenous' means native to a place, the opposite idea; 'natal' relates to birth; 'intrinsic' means belonging to the essential nature of a thing."
+        },
+        "mpsc-group-b-co-2026-p1-B41": {
+          "expectedQuestion": "The manager asked us **if we could finish the project by Monday**.",
+          "expectedOptions": [
+            "Adjective clause",
+            "Adverb clause",
+            "Noun clause",
+            "Conditional clause"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The underlined clause is the object of the verb 'asked' — it is the thing that was asked — and a clause doing the work of a noun is a noun clause. 'If' here means 'whether' and reports a question; it is not conditional, which is the trap the fourth option sets."
+        },
+        "mpsc-group-b-co-2026-p1-B42": {
+          "expectedQuestion": "We left the park early **because it started raining.**",
+          "expectedOptions": [
+            "Adjective clause",
+            "Adverb clause",
+            "Noun clause",
+            "Conditional clause"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Because it started raining' tells why we left, so it modifies the verb 'left' and is an adverb clause of reason. It qualifies no noun (so not adjective) and fills no noun slot (so not noun)."
+        },
+        "mpsc-group-b-co-2026-p1-B43": {
+          "expectedQuestion": "The painting **which was stolen yesterday** has been recovered.",
+          "expectedOptions": [
+            "Adjective clause",
+            "Adverb clause",
+            "Noun clause",
+            "Conditional clause"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The relative clause introduced by 'which' qualifies the noun 'painting', telling us which painting is meant, so it does the work of an adjective. A relative pronoun beginning the clause is the usual signal of an adjective (relative) clause."
+        },
+        "mpsc-group-b-co-2026-p1-B44": {
+          "expectedQuestion": "She was late **as she missed the bus**.",
+          "expectedOptions": [
+            "Adjective clause",
+            "Adverb clause",
+            "Noun clause",
+            "Conditional clause"
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'As' here means 'because' and the clause gives the reason for her being late, so it is an adverb clause of reason modifying the predicate 'was late'."
+        },
+        "mpsc-group-b-co-2026-p1-B45": {
+          "expectedQuestion": "I like the house **whose garden is full of flowers**.",
+          "expectedOptions": [
+            "Conditional clause",
+            "Adverb clause",
+            "Noun clause",
+            "Adjective clause"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Whose' is a relative pronoun and the clause it introduces describes the noun 'house', so the clause functions as an adjective. Note that the option order is shuffled in this item — the adjective-clause option is (d) here, not (a) as in Q41-Q44."
+        },
+        "mpsc-group-b-co-2026-p1-B46": {
+          "expectedQuestion": "\"We will help you tomorrow,\" they said.",
+          "expectedOptions": [
+            "They said that they will help me tomorrow.",
+            "They said that they would help me the next day.",
+            "They said that they would help you tomorrow.",
+            "They said that they help me tomorrow."
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The reporting verb 'said' is past, so three changes are required together: 'will' backshifts to 'would', the addressee 'you' becomes 'me' (the reporter was the person addressed), and 'tomorrow' becomes 'the next day'. Option (a) fails to backshift 'will', (c) leaves 'you' and 'tomorrow' unchanged, and (d) drops the future entirely."
+        },
+        "mpsc-group-b-co-2026-p1-B48": {
+          "expectedQuestion": "\"I shall never forget this day,\" she said.",
+          "expectedOptions": [
+            "She said that she shall never forget that day.",
+            "She said that she would never forget that day.",
+            "She said she will never forget this day.",
+            "She said that she would never forget this day."
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'Shall' backshifts to 'would' and 'this day' becomes 'that day', both of which only option (b) does. (a) leaves 'shall' unchanged, (c) leaves both 'will' and 'this day', and (d) — the near-miss — backshifts the verb but keeps the demonstrative 'this'."
+        },
+        "mpsc-group-b-co-2026-p1-B49": {
+          "expectedQuestion": "He said that he must submit the report the next day.",
+          "expectedOptions": [
+            "He said, \"I must submit the report tomorrow.\"",
+            "He said, \"I must submit the report the next day.\"",
+            "He said, \"I have to submit the report tomorrow.\"",
+            "He said, \"I should submit the report tomorrow.\""
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Converting back to direct speech reverses the usual changes: 'he' becomes 'I' and 'the next day' becomes 'tomorrow', while 'must' is unchanged because it has no separate past form and is normally retained. (b) keeps the indirect-speech time phrase inside the quotation, and (c) and (d) substitute 'have to' and 'should' for 'must', altering the speaker's actual words."
+        },
+        "mpsc-group-b-co-2026-p1-B50": {
+          "expectedQuestion": "He said that he would help me the next day.",
+          "expectedOptions": [
+            "He said, \"I will help you the next day.\"",
+            "He said, \"I would help you tomorrow.\"",
+            "He said, \"I will help you tomorrow.\"",
+            "He said, \"I would help you the next day.\""
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Going back to direct speech, 'would' returns to 'will', 'me' becomes 'you', and 'the next day' becomes 'tomorrow' — all three only in option (c). (a) and (d) keep 'the next day' inside the quotation, and (b) and (d) leave the backshifted 'would' in the speaker's own words."
+        },
+        "mpsc-group-b-co-2026-p1-B51": {
+          "expectedQuestion": "She sings very well. (Change into interrogative)",
+          "expectedOptions": [
+            "Does she sing very well?",
+            "How well does she sing?",
+            "She sings well?",
+            "She sings very well, right?"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The mechanical interrogative of a simple present statement adds the auxiliary 'do/does', inverts it with the subject and returns the verb to its base form: 'Does she sing very well?'. (b) is a wh-question that changes what is being asked, (c) is only a statement with a question mark, and (d) is a tag-like colloquialism, not a transformation."
+        },
+        "mpsc-group-b-co-2026-p1-B52": {
+          "expectedQuestion": "Hardly had he reached the station when the train left. (Change into affirmative)",
+          "expectedOptions": [
+            "He reached the station before the train left.",
+            "He had reached the station when the train left.",
+            "The train left after he reached the station.",
+            "He reached the station just as the train left."
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Hardly' is a quasi-negative, so the affirmative version must drop it while keeping its meaning — that the second event followed the first immediately, as in 'as soon as' or 'just as'. Only (d) preserves that immediacy. (a) and (c) state a bare sequence and lose the 'no sooner...than' force, and (b) keeps the past perfect and merely deletes 'hardly'."
+        },
+        "mpsc-group-b-co-2026-p1-B54": {
+          "expectedQuestion": "The exam was so tough that many students failed. (Change into exclamatory)",
+          "expectedOptions": [
+            "How tough the exam was!",
+            "Exam was tough!",
+            "Many students failed the exam!",
+            "The exam was tough!"
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "An exclamatory transformation of the 'so...that' pattern uses 'How + adjective + subject + verb!', giving 'How tough the exam was!'. (b), (c) and (d) are ordinary assertive sentences with an exclamation mark tacked on, and (b) is additionally faulty for dropping the article before 'Exam'."
+        },
+        "mpsc-group-b-co-2026-p1-B55": {
+          "expectedQuestion": "She always speaks the truth. (Change into negative)",
+          "expectedOptions": [
+            "She never speaks the truth.",
+            "She hardly ever speaks the truth.",
+            "She does not always speak the truth.",
+            "She rarely speaks the truth."
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Among the options given, (c) is the only genuine negative transformation of the sentence as printed — insert 'does not' and return the verb to its base form. Confidence is medium because a proper affirmative-to-negative transformation should preserve meaning, and the textbook meaning-preserving answer, 'She never fails to speak the truth' (or 'She never tells a lie'), is not offered; (c) actually reverses the sense. (a), (b) and (d) go further still, asserting that she is untruthful, so they are worse."
+        },
+        "mpsc-group-b-co-2026-p1-B56": {
+          "expectedQuestion": "The dog barked loudly, and the cat ran away. (Change into simple sentence)",
+          "expectedOptions": [
+            "Hearing the dog bark loudly, the cat ran away.",
+            "The dog barked loudly, so the cat ran away.",
+            "Although the dog barked loudly, the cat ran away.",
+            "The dog barked loudly; the cat ran away."
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "A simple sentence has exactly one finite verb, and only (a) achieves this by reducing the first clause to the participial phrase 'Hearing the dog bark loudly', leaving 'ran' as the sole finite verb. (b) and (d) remain compound (two main clauses, joined by 'so' and by a semicolon), and (c) is complex."
+        },
+        "mpsc-group-b-co-2026-p1-B57": {
+          "expectedQuestion": "I was hungry. I did not eat lunch. (Change into complex sentence)",
+          "expectedOptions": [
+            "I was hungry, and I did not eat lunch.",
+            "I was hungry, but I did not eat lunch.",
+            "I was hungry, so I did not eat lunch.",
+            "Although I was hungry, I did not eat lunch."
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A complex sentence needs a main clause plus a subordinate clause, and 'Although' is a subordinating conjunction, so (d) alone is complex — and 'although' correctly conveys the contrast between being hungry and not eating. (a), (b) and (c) use the coordinating conjunctions 'and', 'but' and 'so', which produce compound sentences."
+        },
+        "mpsc-group-b-co-2026-p1-B59": {
+          "expectedQuestion": "Me and my brother went to the market. (Correct the sentence)",
+          "expectedOptions": [
+            "Me and my brother went to the market.",
+            "My brother and me went to the market.",
+            "My brother and I went to the market.",
+            "I and my brother went to the market."
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The phrase is the subject of 'went', so it needs the subject form 'I', not the object form 'me' — which rules out (a) and (b). Between (c) and (d), convention places the first person last in a compound subject, so 'My brother and I' is correct and 'I and my brother' is faulty."
+        },
+        "mpsc-group-b-co-2026-p1-B60": {
+          "expectedQuestion": "\"I suggested him to apply for the job.\" (Correct the sentence)",
+          "expectedOptions": [
+            "I suggested him to apply for the job.",
+            "I suggested that he applies for the job.",
+            "I suggested that he apply for the job.",
+            "I suggested him applying for the job."
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'Suggest' does not take an indirect object followed by an infinitive — you cannot 'suggest someone to do' something — so (a), the uncorrected original, and (d) are both out. 'Suggest' takes a that-clause in the mandative subjunctive, where the verb stays in its base form regardless of the subject: 'I suggested that he apply for the job'. (b) is the trap, using the indicative 'applies' where the subjunctive 'apply' is required."
+        }
+      },
+      "heldQuestions": {
+        "mpsc-group-b-co-2026-p1-B29": {
+          "expectedQuestion": "He is **abstemious** in eating and drinking.",
+          "expectedOptions": [
+            "greedy",
+            "temperate",
+            "profligate",
+            "self-indulgent"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 3,
+          "holdReason": "The official key marks D (‘self-indulgent’), but A (‘greedy’) is also a defensible opposite of ‘abstemious’ in the stated food-and-drink context. The options do not distinguish the broad restraint sense from the eating-specific sense; retain D as key candidate but hold unscored.",
+          "explanation": "‘Abstemious’ means restrained in eating and drinking. The key’s ‘self-indulgent’ is a strong opposite, but ‘greedy’ also expresses excess in eating; since both fit the stem, the item lacks a unique answer."
+        },
+        "mpsc-group-b-co-2026-p1-B47": {
+          "expectedQuestion": "\"I can finish this work by evening,\" he said.",
+          "expectedOptions": [
+            "He said that he could finish that work by evening.",
+            "He said that he can finish this work by evening.",
+            "He said that he could finish that work by that evening.",
+            "He said that he could finish this work by that evening."
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 3,
+          "holdReason": "The official key marks D. C is the conventional full-shift reported form (‘this’→‘that’), while D may also be grammatical if ‘this work’ remains contextually proximate. The stem gives no reporting context to choose between these readings; preserve D as the key candidate and hold without assigning an independent answer.",
+          "explanation": "In reported speech after ‘said’, can usually backshifts to could. Textbooks often also shift this→that and evening→that evening, producing C. But demonstratives can remain unchanged when the referent is still contextually near the speaker; D is therefore possible under a different reporting context. Since the question supplies no such context, the key’s D is retained only as a candidate and neither choice is independently scored."
+        },
+        "mpsc-group-b-co-2026-p1-B53": {
+          "expectedQuestion": "Hardly had he finished his work when the boss called him again. (Change into interrogative)",
+          "expectedOptions": [
+            "Had he hardly finished his work when the boss called him?",
+            "Did he finish his work before the boss called?",
+            "Had he finished his work when the boss called him?",
+            "Was the boss calling him while he finished?"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 2,
+          "holdReason": "The official key marks C, which drops ‘hardly’ and changes the force of the sentence. Option A (‘Had he hardly finished…?’) is the direct interrogative form preserving the original near-completion meaning. Hold because the keyed answer is not meaning-preserving.",
+          "explanation": "To ask whether the original event occurred, preserve ‘hardly’ and invert the auxiliary: ‘Had he hardly finished his work when the boss called him again?’ Key C omits ‘hardly’, so it is not equivalent."
+        },
+        "mpsc-group-b-co-2026-p1-B58": {
+          "expectedQuestion": "It rained heavily. The match was postponed. (Change into compound sentence)",
+          "expectedOptions": [
+            "Because it rained heavily, the match was postponed.",
+            "It rained heavily, so the match was postponed.",
+            "Although it rained heavily, the match was postponed.",
+            "It rained heavily and the match was postponed."
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 1,
+          "holdReason": "The official key marks B, but both B (‘…, so …’) and D (‘… and …’) coordinate two independent clauses and therefore form compound sentences. Both meet the printed instruction; hold the item as having multiple correct options.",
+          "explanation": "A compound sentence joins independent clauses with a coordinator. ‘So’ in B and ‘and’ in D both coordinate ‘It rained heavily’ and ‘the match was postponed’; B adds the causal relation but D is also structurally compound."
+        }
+      }
+    },
+    {
+      "paperId": "mpsc-group-b-jao-2026-p1",
+      "exam": "Junior Accounts Officer (JAO), July 2026 · Paper-I General English · Series A",
+      "sourceHref": "/papers/group-b/jao-2026-p1.pdf",
+      "sourceSha256": "e867bbd5f765ebde1b3ba8326aa7c0e0da5849cca35abf4b8444d69de3146104",
+      "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=1",
+      "keySha256": "b2aac6de44595f141faf8d734c9eef624792ac505ca7cacebe95d87d07149558",
+      "reviewedOn": "2026-10-14",
+      "evidence": "Visually checked the printed Series-A booklet: passage and Part-A Q4–8 on printed pages 2–3; Part-B questions and option order on printed pages 3–8. Underlines/emphasis and blank locations were compared with the transcription, including Q11–20, Q51–54, and Q55–60. The printed Q27 wording “fill in the bank” is preserved verbatim. All 60 Part-B key cells on final key page 1 were read; Q11=B and Q41=B were confirmed, and Q51 is explicitly “Compensated.” Every scored answer below was derived from the grammar, idiom, vocabulary, or sentence-conversion rule and then compared with the key; two unscored categories are documented separately: Q51 compensated, and five Part-A comprehension MCQs absent from the final key table. Q33 is held despite key A because option B “kennel” also names a group of dogs when kept at a kennel, and the stem gives no age/housing clue.",
+      "questions": {
+        "mpsc-group-b-jao-2026-p1-B1": {
+          "expectedQuestion": "The famous gym in that area is hers. In the sentence, “hers” is a:",
+          "expectedOptions": [
+            "Possessive adjective",
+            "Reflexive pronoun",
+            "Possessive pronoun",
+            "Demonstrative pronoun"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Hers” stands alone in place of a noun phrase (“her [one]”), so it is a possessive pronoun; a possessive adjective would precede a noun.",
+          "page": 3
+        },
+        "mpsc-group-b-jao-2026-p1-B2": {
+          "expectedQuestion": "Which of the following is a pronoun?",
+          "expectedOptions": [
+            "Alas!",
+            "River",
+            "They",
+            "Softly"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“They” can replace the name of people and is a personal pronoun. “Alas” is an interjection, “river” a noun, and “softly” an adverb.",
+          "page": 3
+        },
+        "mpsc-group-b-jao-2026-p1-B3": {
+          "expectedQuestion": "A word that modifies a verb, an adjective, or another adverb is called:",
+          "expectedOptions": [
+            "Adjective",
+            "Preposition",
+            "Adverb",
+            "Conjunction"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A word modifying a verb, adjective, or another adverb is an adverb.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B4": {
+          "expectedQuestion": "Choose the sentence where “watch” is used as a noun.",
+          "expectedOptions": [
+            "They watch television every evening.",
+            "Please watch the road carefully.",
+            "His watch stopped working yesterday.",
+            "The teacher asked us to watch the experiment quietly."
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "In “His watch stopped,” watch names an object and is the subject noun. In the other options, watch is an action verb.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B5": {
+          "expectedQuestion": "Which of the following words functions as a **determiner** in the sentence 'Several students participated in the competition'?",
+          "expectedOptions": [
+            "Students",
+            "Participated",
+            "Several",
+            "Competition"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Several” quantifies the noun “students” and functions as a determiner.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B6": {
+          "expectedQuestion": "Which part of speech describes a noun?",
+          "expectedOptions": [
+            "Verb",
+            "Adjective",
+            "Pronoun",
+            "Conjunction"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "An adjective describes or qualifies a noun.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B7": {
+          "expectedQuestion": "Which of the following is a common noun?",
+          "expectedOptions": [
+            "India",
+            "Monday",
+            "Country",
+            "Dr. Ravi"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Country” names a general class, so it is a common noun. India, Monday, and Dr. Ravi are proper names.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B8": {
+          "expectedQuestion": "Which word replaces a noun?",
+          "expectedOptions": [
+            "Adjective",
+            "Verb",
+            "Pronoun",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "A pronoun stands in for a noun or noun phrase.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B9": {
+          "expectedQuestion": "The word “eloquently” modifies:",
+          "expectedOptions": [
+            "Noun",
+            "Verb",
+            "Pronoun",
+            "Article"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Eloquently” is an adverb; adverbs commonly modify verbs, as in “spoke eloquently.”",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B10": {
+          "expectedQuestion": "A non-finite verb ending in 'ing' that functions as a noun is called a:",
+          "expectedOptions": [
+            "Participle",
+            "Gerund",
+            "Infinitive",
+            "Auxiliary"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "An -ing form functioning as a noun is a gerund; a participle instead functions adjectivally or as part of a verb phrase.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B11": {
+          "expectedQuestion": "The **children** played happily.",
+          "expectedOptions": [
+            "Pronoun",
+            "Noun",
+            "Verb",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Children” names people and is a plural noun.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B12": {
+          "expectedQuestion": "She bought a **turquoise** dress",
+          "expectedOptions": [
+            "Verb",
+            "Adjective",
+            "Noun",
+            "Conjunction"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Turquoise” describes the colour of the noun “dress,” so it is an adjective here.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B13": {
+          "expectedQuestion": "Abigail wanted to go shopping, **but** she stayed home because of the rain.",
+          "expectedOptions": [
+            "Preposition",
+            "Conjunction",
+            "Interjection",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“But” joins the two clauses (“Abigail wanted…” and “she stayed…”), so it is a conjunction.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B14": {
+          "expectedQuestion": "We walked **across** the bridge.",
+          "expectedOptions": [
+            "Verb",
+            "Preposition",
+            "Adjective",
+            "Pronoun"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Across” links “walked” to its noun object “the bridge,” so it is a preposition.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B15": {
+          "expectedQuestion": "**Gosh!** I didn't expect to fail!",
+          "expectedOptions": [
+            "Interjection",
+            "Adverb",
+            "Conjunction",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Gosh!” is an exclamation expressing reaction, so it is an interjection.",
+          "page": 4
+        },
+        "mpsc-group-b-jao-2026-p1-B16": {
+          "expectedQuestion": "None **but** the brave deserve the fair.",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Pronoun",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Here “but” means “except” (“none except the brave”); in this construction it is a preposition.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B17": {
+          "expectedQuestion": "He talks **like** his father.",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Pronoun",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Like” takes the noun phrase “his father” as its complement to express comparison, so it is a preposition.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B18": {
+          "expectedQuestion": "The earth is **round.**",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Preposition",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Round” describes the subject “earth” after the linking verb “is,” so it is a predicate adjective.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B19": {
+          "expectedQuestion": "The **after** effects of the drug are dangerous.",
+          "expectedOptions": [
+            "Preposition",
+            "Adverb",
+            "Adjective",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "In “after effects,” “after” modifies the noun “effects” by indicating subsequent effects, so it functions adjectivally.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B20": {
+          "expectedQuestion": "They arrived soon **after**.",
+          "expectedOptions": [
+            "Preposition",
+            "Adjective",
+            "Conjunction",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“After” has no noun object here and modifies “arrived” by telling when; it is an adverb.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B21": {
+          "expectedQuestion": "Select the correct sentence.",
+          "expectedOptions": [
+            "Neither of the answers are correct.",
+            "Neither of the answers is correct.",
+            "Neither of the answer were correct.",
+            "Neither of the answers have correct."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Neither” is grammatically singular here, so it takes “is”: “Neither of the answers is correct.”",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B22": {
+          "expectedQuestion": "Choose the correct word to complete the sentence: He has been working here _________ 2020.",
+          "expectedOptions": [
+            "for",
+            "from",
+            "since",
+            "by"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Since” introduces the starting point of a period continuing to the present; “for” would introduce a duration.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B23": {
+          "expectedQuestion": "Identify the correctly used idiom.",
+          "expectedOptions": [
+            "He kicked the bucket with anger.",
+            "They hit the books on the playground.",
+            "He broke the ice by falling down.",
+            "She spilled the beans about the surprise party."
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Spill the beans” means reveal a secret, which fits the surprise-party context.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B24": {
+          "expectedQuestion": "Choose the correct sentence.",
+          "expectedOptions": [
+            "The furniture are expensive.",
+            "The furniture is expensive.",
+            "The furnitures are expensive.",
+            "The furnitures is expensive."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Furniture” is an uncountable singular noun, so the standard form is “The furniture is expensive.”",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B25": {
+          "expectedQuestion": "Choose the antonym of “expand.”",
+          "expectedOptions": [
+            "Increase",
+            "Develop",
+            "Reduce",
+            "Stretch"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "To expand is to increase in size; the opposite among the choices is reduce.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B26": {
+          "expectedQuestion": "Choose the correct sentence.",
+          "expectedOptions": [
+            "Each of the boys have completed the task.",
+            "Each of the boys has completed the task.",
+            "Each of the boys were completed the task.",
+            "Each of the boys complete the task."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Each” is singular, so the verb is “has”: “Each of the boys has completed…”",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B27": {
+          "expectedQuestion": "Choose the correct word to fill in the bank. I deeply _________ getting pregnant but I couldn't go against the wishes of my boyfriend.",
+          "expectedOptions": [
+            "dreaded",
+            "wanted",
+            "eagerly",
+            "wished"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“Dreaded getting pregnant” is the grammatical verb + gerund phrase that fits the contrast with not going against the boyfriend’s wishes; the other options do not fit this construction and meaning.",
+          "page": 5
+        },
+        "mpsc-group-b-jao-2026-p1-B28": {
+          "expectedQuestion": "One who talks while asleep is called:",
+          "expectedOptions": [
+            "Somnambulist",
+            "Somniloquist",
+            "Somniferous",
+            "Sleeptalker"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A somniloquist talks during sleep. A somnambulist walks while asleep; somniferous means sleep-inducing.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B29": {
+          "expectedQuestion": "Iconoclast is one who:",
+          "expectedOptions": [
+            "Destroys images.",
+            "A group of icons.",
+            "Is a popular figure of the society.",
+            "Is a popular figure of the history."
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "An iconoclast attacks or destroys revered images or established beliefs; option A gives the literal image-destroying sense.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B30": {
+          "expectedQuestion": "One who collects coins is:",
+          "expectedOptions": [
+            "Collector",
+            "Narcissist",
+            "Calligrapher",
+            "Numismatist"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A numismatist studies or collects coins; “collector” is too general for the specific term requested.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B31": {
+          "expectedQuestion": "A government ruled by the people is called:",
+          "expectedOptions": [
+            "Monarchy",
+            "Dictatorship",
+            "Democracy",
+            "Oligarchy"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Democracy is government in which political authority is held by the people.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B32": {
+          "expectedQuestion": "A ____________ of pilgrims entered the city.",
+          "expectedOptions": [
+            "band",
+            "bevy",
+            "assembly",
+            "herd"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The conventional intended collective is “a band of pilgrims”: band can mean people joined for a shared purpose. “Bevy” and “herd” do not fit people here, and “assembly” normally suggests people gathered for a meeting.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B34": {
+          "expectedQuestion": "An ____________ of ships approached the shore.",
+          "expectedOptions": [
+            "pack",
+            "band",
+            "shoal",
+            "armada"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "An armada is a fleet of ships; the other collective nouns do not describe ships.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B35": {
+          "expectedQuestion": "The new software update is the ____________ one we've had to install.",
+          "expectedOptions": [
+            "complicated",
+            "more complicated",
+            "most complicated",
+            "complicates"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The phrase “the … one” calls for the superlative degree: “most complicated.”",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B36": {
+          "expectedQuestion": "Which sentence uses the comparative degree correctly?",
+          "expectedOptions": [
+            "She is smarter than any student in the class.",
+            "She is smarter than any other student in the class.",
+            "She is smartest than any other student in the class.",
+            "She is more smarter than any other student in the class."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The comparison is between her and the other students, so “any other student” avoids comparing her with herself. “More smarter” also doubles the comparative.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B37": {
+          "expectedQuestion": "Choose the correct sentence.",
+          "expectedOptions": [
+            "No sooner had he arrived than it started raining.",
+            "No sooner had he arrived when it started raining.",
+            "No sooner he had arrived than it started raining.",
+            "No sooner did he arrived than it started raining."
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The fixed correlative construction is “No sooner had … than …”; it uses inversion after “no sooner.”",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B38": {
+          "expectedQuestion": "Her explanation was so ____________ that nobody could understand what she really meant.",
+          "expectedOptions": [
+            "lucid",
+            "ambiguous",
+            "precise",
+            "evident"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "If nobody can understand the explanation, it is ambiguous (unclear), not lucid, precise, or evident.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B39": {
+          "expectedQuestion": "The scientist's discovery was considered ____________ because it changed the course of medical research.",
+          "expectedOptions": [
+            "trivial",
+            "revolutionary",
+            "ordinary",
+            "obsolete"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A discovery that changes the course of research is revolutionary; trivial, ordinary, and obsolete do not express that impact.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B40": {
+          "expectedQuestion": "The manager appreciated employees who were ____________ and completed tasks without supervision.",
+          "expectedOptions": [
+            "lethargic",
+            "diligent",
+            "arrogant",
+            "careless"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Employees who complete work carefully without supervision are diligent.",
+          "page": 6
+        },
+        "mpsc-group-b-jao-2026-p1-B41": {
+          "expectedQuestion": "Being ill, he could not attend the classes at school. (Complex Sentence)",
+          "expectedOptions": [
+            "His illness prevented him from attending the classes at school.",
+            "As he was ill, he could not attend the classes at school.",
+            "He could not attend the classes at school because of his illness.",
+            "He was ill and so he could not attend the classes at school."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“As he was ill” is a subordinate finite clause joined to the main clause, making the sentence complex; the other options are not the requested complex form.",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B42": {
+          "expectedQuestion": "He finished his homework and went out to play. (Simple Sentence)",
+          "expectedOptions": [
+            "After he finished his homework, he went out to play.",
+            "He went out to play because he finished his homework.",
+            "He finished his homework so that he could go out to play.",
+            "Having finished his homework, he went out to play."
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "“Having finished his homework” is a participial phrase, leaving one independent clause; that is a simple sentence.",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B43": {
+          "expectedQuestion": "If you do not work hard, you will fail. (Compound Sentence)",
+          "expectedOptions": [
+            "Work hard or you will fail",
+            "Since you didn't work hard, you failed",
+            "By working hard, you can avoid failure.",
+            "You will fail unless you work hard."
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "“If you do not work hard, you will fail” is equivalent to “Work hard or you will fail.” The coordinated imperative and independent clause make option A compound.",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B44": {
+          "expectedQuestion": "Why did your brother write such a letter? (Passive Voice)",
+          "expectedOptions": [
+            "Why had such a letter been written by your brother?",
+            "Why was such a letter written by your brother?",
+            "Why did such a letter be written by your brother?",
+            "Why such a letter written by your brother?"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The active question is simple past. Passive keeps that tense and uses “was + past participle”: “Why was such a letter written…?”",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B45": {
+          "expectedQuestion": "The room was filled with smoke. (Active Voice)",
+          "expectedOptions": [
+            "Smoke has filled the room",
+            "Smoke filled the room.",
+            "Smoke fills the room.",
+            "Smoke had filled the room."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Was filled” is simple past passive; its active counterpart is simple past, “Smoke filled the room.”",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B46": {
+          "expectedQuestion": "No one was absent. (Affirmative Sentence)",
+          "expectedOptions": [
+            "All were absent.",
+            "Everyone was present.",
+            "Someone was present.",
+            "Everyone was not absent"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“No one was absent” means every person was present; option B is the affirmative equivalent.",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B47": {
+          "expectedQuestion": "The committee approved the proposal. (Passive Voice)",
+          "expectedOptions": [
+            "The proposal approves the committee.",
+            "The proposal was approved by the committee.",
+            "The committee was approved by the proposal.",
+            "The proposal has approved the committee."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "In the passive, the object “the proposal” becomes the subject and takes “was approved”; the agent follows “by.”",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B48": {
+          "expectedQuestion": "The bridge was constructed by skilled engineers. (Active Voice)",
+          "expectedOptions": [
+            "Skilled engineers constructed the bridge.",
+            "Skilled engineers were constructing the bridge.",
+            "The bridge constructed skilled engineers.",
+            "Skilled engineers are constructing the bridge"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The active form makes the agent “skilled engineers” the subject and uses the simple-past verb “constructed.”",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B49": {
+          "expectedQuestion": "Everyone admired his honesty. (Negative sentence)",
+          "expectedOptions": [
+            "Nobody admired his honesty.",
+            "No one failed to admire his honesty.",
+            "No one admired his honesty.",
+            "Everyone did not admire his honesty."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Everyone admired his honesty” is equivalent to “No one failed to admire his honesty”; option B preserves the universal meaning while making the sentence negative.",
+          "page": 7
+        },
+        "mpsc-group-b-jao-2026-p1-B50": {
+          "expectedQuestion": "The night was very beautiful. (Exclamatory sentence)",
+          "expectedOptions": [
+            "The night was not beautiful!",
+            "Was the night beautiful!",
+            "How beautiful the night was!",
+            "The night is beautiful indeed!"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The exclamatory pattern “How + adjective + subject + verb” gives “How beautiful the night was!”",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B52": {
+          "expectedQuestion": "The boy **who won the prize** is my cousin.",
+          "expectedOptions": [
+            "Noun clause",
+            "Adjective clause",
+            "Adverb clause",
+            "Coordinate clause"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“Who won the prize” modifies “boy,” so it is an adjective/relative clause.",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B53": {
+          "expectedQuestion": "**When the rain stopped**, the children went outside.",
+          "expectedOptions": [
+            "Noun clause",
+            "Adverb clause",
+            "Adjective clause",
+            "Coordinate clause"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "“When the rain stopped” tells when the children went outside and modifies the main clause; it is an adverb clause of time.",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B54": {
+          "expectedQuestion": "This is the house **where I was born**.",
+          "expectedOptions": [
+            "Noun clause",
+            "Adverb clause",
+            "Adjective clause",
+            "Main clause"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Where I was born” modifies “house” by identifying it, so it is an adjective (relative) clause.",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B55": {
+          "expectedQuestion": "The two parties have arrived _________ a mutual agreement.",
+          "expectedOptions": [
+            "at",
+            "in",
+            "on",
+            "by"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The fixed expression is “arrive at an agreement.”",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B56": {
+          "expectedQuestion": "Scientists are usually absorbed _________ their works, often forgetting to eat.",
+          "expectedOptions": [
+            "at",
+            "in",
+            "on",
+            "with"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The idiom is “absorbed in” one’s work.",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B57": {
+          "expectedQuestion": "He was so engrossed _________ his study for written exam that he didn't hear the alarm go off.",
+          "expectedOptions": [
+            "at",
+            "with",
+            "in",
+            "on"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The idiom is “engrossed in” one’s study.",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B58": {
+          "expectedQuestion": "The judge ruled that the evidence was not relevant _________ the case being tried.",
+          "expectedOptions": [
+            "to",
+            "with",
+            "for",
+            "about"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The standard collocation is “relevant to the case.”",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B59": {
+          "expectedQuestion": "It is difficult to distinguish between a career politician and one who acts __________ conviction.",
+          "expectedOptions": [
+            "with",
+            "by",
+            "out of",
+            "through"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "“Out of conviction” means acting because of one’s firmly held belief; that is the idiomatic completion.",
+          "page": 8
+        },
+        "mpsc-group-b-jao-2026-p1-B60": {
+          "expectedQuestion": "She has a remarkable knack _______ finding the best school in the city she visits.",
+          "expectedOptions": [
+            "of",
+            "in",
+            "with",
+            "for"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The standard collocation is “a knack for” doing something.",
+          "page": 8
+        }
+      },
+      "heldQuestions": {
+        "mpsc-group-b-jao-2026-p1-B51": {
+          "expectedQuestion": "I know that **he is honest**.",
+          "expectedOptions": [
+            "Adjective clause",
+            "Adverb clause",
+            "Noun clause",
+            "Principal clause"
+          ],
+          "page": 8,
+          "explanation": "The underlined clause “he is honest” completes what is known and functions as a noun clause (the full content clause is introduced by “that”). The final key explicitly marks Q51 “Compensated,” so retain the independent explanation but leave the item unscored.",
+          "holdReason": "The final answer key marks Paper-I Q51 “Compensated”; keep the question unscored despite the independently identifiable noun-clause answer.",
+          "expectedOfficialAnswerIndex": null,
+          "expectedCompensated": true
+        },
+        "mpsc-group-b-jao-2026-p1-B33": {
+          "expectedQuestion": "A ____________ of dogs was spotted nearby.",
+          "expectedOptions": [
+            "litter",
+            "kennel",
+            "gaggle",
+            "pride"
+          ],
+          "page": 6,
+          "explanation": "‘Litter’ usually means offspring born together, such as puppies. ‘Kennel’ also has an established collective sense for a pack of dogs. Because the stem gives no age or housing context, both choices can fit; the official key marks A, but it does not make B uniquely wrong.",
+          "holdReason": "Held as ambiguous: ‘litter’ can describe dogs born together and ‘kennel’ can mean a pack of dogs. The stem gives no age or housing context to distinguish them; preserve official A as a key candidate.",
+          "expectedOfficialAnswerIndex": 0
+        }
+      }
+    },
+    {
+      "paperId": "mpsc-group-b-ri-2026-p1",
+      "exam": "MPSC Group B · Research Investigator · General English",
+      "sourceHref": "/papers/group-b/ri-2026-p1.pdf",
+      "sourceSha256": "18c626b07951395d66c66bbf18516db99e804c2bac81e36a78fe054ca26b139b",
+      "keyHref": "/papers/group-b/keys/ri-2026-final-key.pdf#page=1",
+      "keySha256": "2e6923babf47a09b0a980853892c750b994445310fbc918467b66fac3555b3b0",
+      "reviewedOn": "2026-10-14",
+      "evidence": "All 60 Part-B stems, options, bolded words, and direction cues visually checked against printed Series-A scan pages 3–8. Official answers compared individually with final key, Paper-I Part-B Series-A page 1. Part-A conventional/written passage responses excluded. Source SHA256 18c626b07951395d66c66bbf18516db99e804c2bac81e36a78fe054ca26b139b; final key SHA256 2e6923babf47a09b0a980853892c750b994445310fbc918467b66fac3555b3b0.",
+      "questions": {
+        "mpsc-group-b-ri-2026-p1-B1": {
+          "expectedQuestion": "India is a country with diverse cultures and languages.",
+          "expectedOptions": [
+            "Adjective of Quality",
+            "Proper Noun",
+            "Adjective of Quantity",
+            "Common Noun"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The bolded word is \"country\" — a general name for any one of a class of things, so a common noun. \"Proper Noun\" is the trap: \"India\" in the same sentence is a proper noun, but it is not the bolded word.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B2": {
+          "expectedQuestion": "Honesty is the best policy.",
+          "expectedOptions": [
+            "Common Noun",
+            "Proper Noun",
+            "Abstract Noun",
+            "Collective Noun"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"Honesty\" names a quality you cannot see or touch, which is the definition of an abstract noun. \"Common Noun\" tempts because honesty is not the name of a particular person or place, but common nouns denote countable physical things (policy, book, man), not qualities.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B3": {
+          "expectedQuestion": "Mizoram is a beautiful state.",
+          "expectedOptions": [
+            "Adjective of Quality",
+            "Adjective of Quantity",
+            "Adjective of Number",
+            "Demonstrative Adjective"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"beautiful\" tells you what kind of state Mizoram is, so it is an adjective of quality. Adjectives of quantity (much, some) answer \"how much\" and adjectives of number (two, many) answer \"how many\" — neither applies here.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B4": {
+          "expectedQuestion": "Do not be such a coward.",
+          "expectedOptions": [
+            "Adjective of Quality",
+            "Adjective of Quantity",
+            "Adjective of Number",
+            "Demonstrative Adjective"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"such\" points out which sort of coward is meant, and is grouped with this, that, these, those and same as a demonstrative adjective. It is not an adjective of quality because it names no quality of its own — it only refers back to one already understood.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B5": {
+          "expectedQuestion": "Sanga is well mannered because he has a good upbringing.",
+          "expectedOptions": [
+            "Personal Pronoun",
+            "Demonstrative Pronoun",
+            "Relative Pronoun",
+            "Emphatic Pronoun"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"he\" stands for the third person, Sanga, so it is a personal pronoun. A relative pronoun (who, which, that) would have to join a clause to a noun before it; \"because\" is doing that joining job here, not \"he\".",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B6": {
+          "expectedQuestion": "I hurt myself during the match.",
+          "expectedOptions": [
+            "Personal Pronoun",
+            "Demonstrative Pronoun",
+            "Relative Pronoun",
+            "Reflexive Pronoun"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"myself\" is the object of \"hurt\" and turns the action back on the subject \"I\", which makes it reflexive. It would be emphatic only if it merely stressed a noun without being needed as an object, as in \"I myself saw it\".",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B7": {
+          "expectedQuestion": "Oranges from Mizoram are sweeter than those from the plains.",
+          "expectedOptions": [
+            "Personal Pronoun",
+            "Demonstrative Pronoun",
+            "Relative Pronoun",
+            "Reflexive Pronoun"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"those\" stands in place of the noun \"oranges\" to avoid repeating it, so it is a demonstrative pronoun. Had a noun followed it (\"those oranges\") it would instead be a demonstrative adjective; here it stands alone, so it is a pronoun.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B8": {
+          "expectedQuestion": "The milkman delivers milk daily.",
+          "expectedOptions": [
+            "Adverb of Place",
+            "Adverb of Time",
+            "Adverb of Manner",
+            "Adverb of Degree"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"daily\" answers \"when / how often\" the milk is delivered, which places it with adverbs of time. Adverbs of manner answer \"how\" (slowly, neatly) — \"daily\" says nothing about the way the delivery is done.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B9": {
+          "expectedQuestion": "They are fully prepared for the conference.",
+          "expectedOptions": [
+            "Adverb of Place",
+            "Adverb of Time",
+            "Adverb of Manner",
+            "Adverb of Degree"
+          ],
+          "page": 3,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"fully\" tells you to what extent they are prepared, so it is an adverb of degree. It looks like a manner adverb because of the -ly ending, but manner adverbs answer \"how the action was done\", and here \"fully\" is measuring the adjective \"prepared\".",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B10": {
+          "expectedQuestion": "Our home is humble, but it is filled with love.",
+          "expectedOptions": [
+            "Pronoun",
+            "Adjective",
+            "Conjunction",
+            "Adverb"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"but\" joins two independent clauses in contrast, which is the work of a coordinating conjunction. It is not an adverb: remove it and you are left with two complete sentences that needed a link, not a modified verb.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B11": {
+          "expectedQuestion": "The teacher praised the brilliant student.",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Noun",
+            "Conjunction"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"brilliant\" sits before the noun \"student\" and describes it, so it is an adjective. A describing word is an adverb only when it modifies a verb, adjective or another adverb — here it modifies a noun.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B12": {
+          "expectedQuestion": "The book is on the table.",
+          "expectedOptions": [
+            "Adverb",
+            "Conjunction",
+            "Noun",
+            "Adjective"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The bolded word is \"book\", the subject of the sentence and the name of a thing, so a noun. \"on\" in the same sentence is a preposition, but preposition is not even offered and \"on\" is not the bolded word.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B13": {
+          "expectedQuestion": "They went to the market after lunch.",
+          "expectedOptions": [
+            "Noun",
+            "Preposition",
+            "Conjunction",
+            "Adverb"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"after\" is followed by the noun \"lunch\", and a word governing a noun to show its relation to the rest of the sentence is a preposition. \"after\" can be a conjunction, but only when a full clause follows it (\"after they had eaten\") — here there is no verb after it.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B14": {
+          "expectedQuestion": "I like tea and coffee.",
+          "expectedOptions": [
+            "Noun",
+            "Adjective",
+            "Interjection",
+            "Conjunction"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"and\" links the two nouns \"tea\" and \"coffee\", so it is a conjunction. It is not a noun itself — the nouns are the two things being joined, and \"and\" only does the joining.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B15": {
+          "expectedQuestion": "He is a very intelligent boy.",
+          "expectedOptions": [
+            "Verb",
+            "Pronoun",
+            "Preposition",
+            "Adverb"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"very\" modifies the adjective \"intelligent\", and a word that modifies an adjective is an adverb. Students often call it an adjective because it stands next to one, but the test is what a word modifies, not what it stands beside.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B16": {
+          "expectedQuestion": "Please sit here.",
+          "expectedOptions": [
+            "Verb",
+            "Noun",
+            "Adjective",
+            "Adverb"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The bolded word is \"sit\", the action word and the imperative verb of the sentence. \"Adverb\" is the trap here: \"here\" is indeed an adverb of place, but it is not the word in bold.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B17": {
+          "expectedQuestion": "I have two books.",
+          "expectedOptions": [
+            "Noun",
+            "Verb",
+            "Adjective",
+            "Pronoun"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"two\" tells you how many books, so it modifies the noun and is an adjective (specifically an adjective of number). Every other option describes a different word in the sentence — \"I\" the pronoun, \"have\" the verb, \"books\" the noun — so identify the bolded word first.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B18": {
+          "expectedQuestion": "Oh! That hurts.",
+          "expectedOptions": [
+            "Preposition",
+            "Interjection",
+            "Verb",
+            "Adjective"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"Oh!\" expresses sudden feeling and is grammatically detached from the rest of the sentence, which makes it an interjection. The exclamation mark standing immediately after it is the giveaway: it belongs to no clause.",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B19": {
+          "expectedQuestion": "The old man walked slowly.",
+          "expectedOptions": [
+            "Conjunction",
+            "Noun",
+            "Adverb",
+            "Adjective"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The bolded word is \"old\", which describes the noun \"man\", so it is an adjective. \"Adverb\" is the tempting wrong answer because \"slowly\" later in the sentence is an adverb of manner — but the question asks about \"old\".",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B20": {
+          "expectedQuestion": "The birds are flying above the trees.",
+          "expectedOptions": [
+            "Preposition",
+            "Noun",
+            "Verb",
+            "Conjunction"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"above\" governs the noun \"the trees\" and shows the birds' position in relation to them, so it is a preposition. It would be an adverb only if no noun followed it, as in \"the birds are flying above\".",
+          "expectedDirection": "Direction (Question Nos. 1 - 20): Choose the correct Parts of Speech from the bolded words in the"
+        },
+        "mpsc-group-b-ri-2026-p1-B21": {
+          "expectedQuestion": "courteous",
+          "expectedOptions": [
+            "regal",
+            "orderly",
+            "official",
+            "polite"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Courteous means well-mannered and respectful towards others, i.e. polite. 'Regal' (kingly) and 'official' tempt because courtesy is associated with courts and formality, but they describe status or office, not manners.",
+          "expectedDirection": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+        },
+        "mpsc-group-b-ri-2026-p1-B22": {
+          "expectedQuestion": "despise",
+          "expectedOptions": [
+            "disdain",
+            "disagree",
+            "respect",
+            "wise"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "To despise is to regard with contempt, which is exactly what disdain means. 'Disagree' is far too weak — you can disagree with someone you like — and 'respect' is the antonym.",
+          "expectedDirection": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+        },
+        "mpsc-group-b-ri-2026-p1-B23": {
+          "expectedQuestion": "foe",
+          "expectedOptions": [
+            "duo",
+            "enemy",
+            "noble",
+            "rage"
+          ],
+          "page": 4,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A foe is an enemy or adversary; the word survives mainly in the pairing 'friend or foe'. 'Duo' is a lookalike trap chosen on spelling rather than meaning — it means a pair.",
+          "expectedDirection": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+        },
+        "mpsc-group-b-ri-2026-p1-B24": {
+          "expectedQuestion": "meticulous",
+          "expectedOptions": [
+            "strict",
+            "careful",
+            "blissful",
+            "careless"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Meticulous means showing great attention to detail, i.e. very careful. 'Strict' is the near-miss: strictness is about enforcing rules on others, whereas meticulousness is about the thoroughness of one's own work. 'Careless' is the direct opposite.",
+          "expectedDirection": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+        },
+        "mpsc-group-b-ri-2026-p1-B25": {
+          "expectedQuestion": "agony",
+          "expectedOptions": [
+            "pain",
+            "chance",
+            "desire",
+            "compel"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Agony is intense physical or mental suffering, so pain is the synonym. 'Desire' may be pulled in by phrases like 'agony of longing', but desire by itself carries no suffering.",
+          "expectedDirection": "Direction (Question Nos. 21 - 25): Choose the correct synonyms for the following words:"
+        },
+        "mpsc-group-b-ri-2026-p1-B26": {
+          "expectedQuestion": "A thing that remains fixed.",
+          "expectedOptions": [
+            "mobile",
+            "stationery",
+            "stationary",
+            "mettle"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Stationary, with an 'a', means not moving — fixed in place. The trap is its homophone 'stationery' with an 'e', which means writing materials; remember 'e' for envelope.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B27": {
+          "expectedQuestion": "Lacking in experience or informed judgement.",
+          "expectedOptions": [
+            "dewy eyed",
+            "seasoned",
+            "vain",
+            "sceptical"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Dewy-eyed describes someone naive and innocently trusting, hence lacking experience or informed judgement. 'Seasoned' is its exact opposite (experienced), and a sceptical person has judgement and is exercising it doubtfully.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B28": {
+          "expectedQuestion": "Known for bad things",
+          "expectedOptions": [
+            "incredible",
+            "gullible",
+            "expatriate",
+            "notorious"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Notorious means famous specifically for something bad, unlike plain 'famous', which is neutral. 'Incredible' only means hard to believe and carries no negative moral charge.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B29": {
+          "expectedQuestion": "Likely to attract attention",
+          "expectedOptions": [
+            "sombre",
+            "conspicuous",
+            "ostracize",
+            "mortify"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Conspicuous means standing out so as to be clearly visible, and therefore likely to attract attention. 'Sombre' (dark, gloomy) is the opposite in effect, and 'ostracize' and 'mortify' are verbs, not descriptions of appearance.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B30": {
+          "expectedQuestion": "To express scornfully one’s low opinion",
+          "expectedOptions": [
+            "tumultuous",
+            "denigrate",
+            "ferocious",
+            "proclaim"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "To denigrate is to disparage — to criticise unfairly and so express a scornfully low opinion. 'Proclaim' is simply to announce publicly with no scorn implied, and 'tumultuous' and 'ferocious' are adjectives about noise and violence.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B31": {
+          "expectedQuestion": "Fluent and clear in speech.",
+          "expectedOptions": [
+            "Emotional",
+            "Enthusiastic",
+            "Verbatim",
+            "Articulate"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Articulate means able to speak fluently and clearly. 'Verbatim' is the tempting speech-related option, but it means word-for-word repetition and says nothing about fluency.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B32": {
+          "expectedQuestion": "An inscription on a tomb.",
+          "expectedOptions": [
+            "Epitaph",
+            "Epilogue",
+            "Elegy",
+            "Eulogy"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "An epitaph is the inscription carved on a tombstone. Distinguish it from an 'elegy' (a mournful poem for the dead) and a 'eulogy' (a speech of praise, usually at a funeral) — only the epitaph is physically on the tomb.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B33": {
+          "expectedQuestion": "Opinion contrary to accepted doctrines.",
+          "expectedOptions": [
+            "Controversy",
+            "Convention",
+            "Advocacy",
+            "Heresy"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Heresy is a belief or opinion contrary to established or orthodox doctrine, especially religious doctrine. 'Controversy' merely means a public dispute and does not require any accepted doctrine to be contradicted; 'convention' is the accepted practice itself.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B34": {
+          "expectedQuestion": "Governed by a sense of duty.",
+          "expectedOptions": [
+            "Conscious",
+            "Conscientious",
+            "Intelligent",
+            "Sensible"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Conscientious means guided by conscience and a sense of duty, doing one's work carefully and thoroughly. The trap is the near-identical 'conscious', which only means awake or aware — one letter changes the meaning entirely.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B35": {
+          "expectedQuestion": "A written declaration made on oath in the presence of a magistrate.",
+          "expectedOptions": [
+            "Document",
+            "Affidavit",
+            "Dossier",
+            "Voucher"
+          ],
+          "page": 5,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "An affidavit is precisely a written statement confirmed by oath before a magistrate or other authorised officer. A 'dossier' is only a collection of documents about a person and involves no oath, so it lacks the defining legal element.",
+          "expectedDirection": "Direction (Question Nos. 26 - 35): Choose the correct words for the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B36": {
+          "expectedQuestion": "Sanga says, “Mawia is very intelligent.”",
+          "expectedOptions": [
+            "Sanga says that Mawia was very intelligent.",
+            "Sanga said that Mawia is very intelligent.",
+            "Sanga expressed that Mawia is very intelligent.",
+            "Sanga says that Mawia is very intelligent."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "When the reporting verb is present tense ('says'), there is no backshift, so 'is' stays 'is'. Option (a) wrongly backshifts to 'was' despite the present reporting verb, and (b) silently changes 'says' to 'said', which the question never licensed.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B37": {
+          "expectedQuestion": "The teacher said, “The students are crying.”",
+          "expectedOptions": [
+            "The teacher said that the students were crying.",
+            "The teacher has said that the students are crying.",
+            "The teacher says that the students were crying.",
+            "The teacher said that the students are crying."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The reporting verb 'said' is past, so the present continuous 'are crying' backshifts to the past continuous 'were crying'. Option (d) leaves the tense unchanged, breaking the sequence-of-tenses rule.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B38": {
+          "expectedQuestion": "Sarah said, “Jonathan will play basketball.”",
+          "expectedOptions": [
+            "Sarah said that Jonathan will be playing basketball.",
+            "Sarah said that Jonathan would play basketball.",
+            "Sarah said that Jonathan will play basketball.",
+            "Sarah said that Jonathan would have played basketball."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "After a past reporting verb, 'will' backshifts to 'would', giving 'would play'. Option (c) does not backshift at all, and (d) over-shifts to 'would have played', which wrongly implies the action never happened.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B39": {
+          "expectedQuestion": "She said, “I will cook dinner in the evening.”",
+          "expectedOptions": [
+            "She said that she would cook dinner in the evening.",
+            "She said that she will cook dinner in the evening.",
+            "She said that she will be cooking dinner in the evening.",
+            "She said that she shall cook dinner in the evening."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Said' is past, so 'I will cook' becomes 'she would cook' — the first-person pronoun shifts to third person and 'will' backshifts to 'would'. Option (d) is wrong because the backshifted form of 'will' is 'would', not 'shall'.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B40": {
+          "expectedQuestion": "He said to me, “I do not like your new purchase.”",
+          "expectedOptions": [
+            "He told me that he does not like my new purchase.",
+            "He told me that he did not like my new purchase.",
+            "He told me that he is disliking my new purchase.",
+            "He told me that he will not like my new purchase."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Two changes are required: 'do not like' backshifts to 'did not like' after the past reporting verb, and 'your' becomes 'my' because the listener is now the reporter. Option (a) makes the pronoun change but forgets the backshift.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B41": {
+          "expectedQuestion": "“I am going to the school tomorrow,” she said.",
+          "expectedOptions": [
+            "She said that she was going to the school the next day.",
+            "She said she will go to school the next day.",
+            "She said I will go to school tomorrow.",
+            "She said that I was going to the school the next day."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The reporting verb 'said' is past, so the present continuous 'am going' backshifts to 'was going' and 'tomorrow' becomes 'the next day'. (b) leaves 'will go' un-backshifted, and (c)/(d) keep the first-person 'I', which must become 'she' once someone else is reporting.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B42": {
+          "expectedQuestion": "“Where do you live?”,  he asked.",
+          "expectedOptions": [
+            "He asked where I live.",
+            "He asked where I lived.",
+            "He asked where do you live.",
+            "He asked where was I living."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A reported question takes statement word order and drops the auxiliary 'do', while 'live' backshifts to 'lived' after the past 'asked'. (c) keeps the interrogative order 'do you live', and (a) forgets the backshift.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B43": {
+          "expectedQuestion": "“Please sit down,” she said.",
+          "expectedOptions": [
+            "She told them to sit down, please.",
+            "She asked them to sit.",
+            "She requested them to sit down.",
+            "She says please, sit down."
+          ],
+          "page": 6,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'Please' marks a polite request, which is reported as 'requested' + object + to-infinitive, keeping the full action 'sit down'. (a) carries the word 'please' into indirect speech, which never happens, and (b) downgrades it to a neutral 'asked' and drops 'down'.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B44": {
+          "expectedQuestion": "They said, “we will arrive tomorrow”.",
+          "expectedOptions": [
+            "They said we will arrive the next day.",
+            "They said we will come tomorrow.",
+            "They said that they would arrive the next day.",
+            "They said that they will arrive the next day."
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "After the past reporting verb 'said', 'we' becomes 'they', 'will' becomes 'would', and 'tomorrow' becomes 'the next day'. (d) is the classic trap: it changes the pronoun and the time word but leaves 'will' unshifted.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B46": {
+          "expectedQuestion": "He was singing a beautiful song.",
+          "expectedOptions": [
+            "Past Indefinite Tense",
+            "Past Continuous Tense",
+            "Past Perfect Tense",
+            "Present Continuous Tense"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'was' + present participle 'singing' is the Past Continuous, an action in progress at some past moment. Past Indefinite would be plain 'sang', and Present Continuous would need 'is singing'.",
+          "expectedDirection": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B47": {
+          "expectedQuestion": "She has been attending classes all year round.",
+          "expectedOptions": [
+            "Present Continuous Tense",
+            "Past Continuous Tense",
+            "Present Perfect Continuous Tense",
+            "Present Perfect Tense"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'has been' + '-ing' is the Present Perfect Continuous — an action begun earlier and still running, which 'all year round' confirms. Present Perfect would be 'has attended'; it is the 'been ...-ing' that makes it continuous.",
+          "expectedDirection": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B48": {
+          "expectedQuestion": "I shall have been waiting for the next bus.",
+          "expectedOptions": [
+            "Future Continuous Tense",
+            "Past Perfect Continuous Tense",
+            "Future Perfect Continuous Tense",
+            "Present Perfect Tense"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'shall have been' + '-ing' is the Future Perfect Continuous, an action that will have been going on up to a future point. Future Continuous would be only 'shall be waiting' — the added 'have been' pushes it into the perfect continuous.",
+          "expectedDirection": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B49": {
+          "expectedQuestion": "She went to the hospital.",
+          "expectedOptions": [
+            "Present Indefinite Tense",
+            "Past Indefinite Tense",
+            "Past Perfect Tense",
+            "Past Continuous Tense"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A bare past form ('went') with no auxiliary is the Past Indefinite, or simple past — a completed action. Past Perfect would require 'had gone' and Past Continuous 'was going'.",
+          "expectedDirection": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B50": {
+          "expectedQuestion": "You will have had your lunch.",
+          "expectedOptions": [
+            "Future Perfect Tense",
+            "Past Indefinite Tense",
+            "Past Perfect Tense",
+            "Past Continuous Tense"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'will have' + past participle is the Future Perfect: something expected to be complete by a future time. Do not let the word 'had' mislead you — here it is the past participle of 'have', and 'will' fixes the sentence firmly in the future.",
+          "expectedDirection": "Direction (Question Nos. 46 - 50): Choose the correct tense of the following sentences:"
+        },
+        "mpsc-group-b-ri-2026-p1-B51": {
+          "expectedQuestion": "If I ______ rich, I would travel the world.",
+          "expectedOptions": [
+            "am",
+            "was",
+            "were",
+            "be"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "An imaginary or contrary-to-fact condition takes the subjunctive 'were' for every subject, and the 'would travel' in the main clause confirms the condition is unreal. 'was' is the trap: normal past tense, but not the subjunctive form formal grammar requires here.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B52": {
+          "expectedQuestion": "The Committee ______ divided in its opinion.",
+          "expectedOptions": [
+            "are",
+            "is",
+            "were",
+            "have"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The sentence itself treats the committee as a single body — it says 'in its opinion' — so the verb must be singular: 'The Committee is divided in its opinion'. The textbook version that takes a plural verb reads 'The Committee are divided in their opinions', and that plural pronoun is not what is printed here; let the pronoun already on the page decide the number.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B53": {
+          "expectedQuestion": "She is one of those writers who ______ always inspired me.",
+          "expectedOptions": [
+            "has",
+            "have",
+            "is",
+            "was"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "In 'one of those writers who...', the relative pronoun 'who' refers back to the plural 'writers', not to 'one', so the verb is plural: 'have always inspired me'. Matching the verb to 'one' and choosing 'has' is the standard trap.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B54": {
+          "expectedQuestion": "Each of the players ______ performed well.",
+          "expectedOptions": [
+            "have",
+            "had",
+            "are",
+            "has"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Each' is always singular and the phrase 'of the players' does not change the subject, so the verb is 'has performed'; the plural noun sitting right before the blank is the bait for 'have' and 'are'. 'had performed' is past perfect and would need an earlier past event to be measured against, which this stand-alone sentence never supplies.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B55": {
+          "expectedQuestion": "This book is ______ interesting than I expected.",
+          "expectedOptions": [
+            "very",
+            "far more",
+            "too",
+            "quite"
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "'than' demands a comparative, and 'far' is the usual intensifier for one: 'far more interesting than I expected'. 'very', 'too' and 'quite' modify the positive degree and cannot take a 'than' clause.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B56": {
+          "expectedQuestion": "His arguments were so ______ that even experts found them difficult to understand.",
+          "expectedOptions": [
+            "lucid",
+            "obscure",
+            "coherent",
+            "rational"
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "If even experts found the arguments hard to follow, the arguments were 'obscure' — unclear. 'lucid', 'coherent' and 'rational' all mean clear or well reasoned and so contradict the 'so ... that' result clause.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B57": {
+          "expectedQuestion": "The author’s writing style is known for its ______ descriptions and vivid imagery.",
+          "expectedOptions": [
+            "evocative",
+            "bland",
+            "dull",
+            "rigid"
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Evocative' means calling up strong images or feelings, which sits naturally alongside 'vivid imagery' as praise for a style. 'bland', 'dull' and 'rigid' are negative and clash with the admiring 'known for'.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B58": {
+          "expectedQuestion": "The system is designed to ______ errors before they occur.",
+          "expectedOptions": [
+            "amplify",
+            "ignore",
+            "escalate",
+            "mitigate"
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "'Mitigate' means to lessen the severity of something, the only option consistent with a system built to act on errors before they occur. 'amplify' and 'escalate' would make errors worse, and no system is deliberately designed to 'ignore' them.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B59": {
+          "expectedQuestion": "The manager took a ______ approach to employee complaints, addressing them immediately.",
+          "expectedOptions": [
+            "indifferent",
+            "dismissive",
+            "proactive",
+            "passive"
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "'Proactive' means acting in advance rather than merely reacting, which the clause 'addressing them immediately' spells out. 'indifferent', 'dismissive' and 'passive' all describe a manager who fails to act, contradicting the rest of the sentence.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        },
+        "mpsc-group-b-ri-2026-p1-B60": {
+          "expectedQuestion": "The results were so ______ that they required further verification.",
+          "expectedOptions": [
+            "reliable",
+            "definite",
+            "conclusive",
+            "inconclusive"
+          ],
+          "page": 8,
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Results that 'required further verification' cannot have settled the matter, so they were 'inconclusive'. 'reliable', 'definite' and 'conclusive' all mean the findings were already firm, which would remove any need for more checking.",
+          "expectedDirection": "Direction (Question No 51 – 60): Select the word that best completes the sentence:"
+        }
+      },
+      "heldQuestions": {
+        "mpsc-group-b-ri-2026-p1-B45": {
+          "expectedQuestion": "“Please close the door”, she said.",
+          "expectedOptions": [
+            "She requested to close the door.",
+            "She said close the door.",
+            "She please asked to close the door.",
+            "Close the door she requested."
+          ],
+          "page": 7,
+          "expectedOfficialAnswerIndex": 0,
+          "holdReason": "The key marks A (“She requested to close the door”), but the reported imperative normally requires an addressee/object, e.g. “She requested them to close the door.” Without an object, A is clipped and does not clearly preserve who is to close the door; no listed choice gives a fully clear, unambiguous indirect request. Retain A as the official key candidate and hold unscored.",
+          "explanation": "A polite imperative is commonly reported with request + object + to-infinitive. Thus “Please close the door” would normally become “She requested them/me to close the door.” Option A omits the requested person, and the other choices are also malformed or retain direct speech. The printed item has no fully satisfactory option, so it remains held.",
+          "expectedDirection": "Direction (Question Nos. 36 - 45 ): Choose the correct Indirect Speech of the given sentences:",
+          "officialKeyCandidate": {
+            "letter": "A",
+            "answerIndex": 0,
+            "text": "She requested to close the door."
+          },
+          "independentAnswerIndex": -1,
+          "independentResult": "No fully satisfactory option; intended rewrite requires an addressee/object (e.g. “She requested them to close the door”).",
+          "keyDispute": "Official key A is under-specified because “requested to close” omits who was asked. No independent option is endorsed; hold unscored."
+        }
+      }
+    },
+    {
+      "paperId": "mpsc-group-b-si-stats-2026-p1",
+      "exam": "Sub-Inspector of Statistics, January 2026 · Paper I · General English, Section B (50 MCQs)",
+      "sourceHref": "/papers/group-b/si-stats-2026-p1.pdf",
+      "sourceSha256": "7066340e9774e850fb993ccb36c7230e45f7fa6a968760b83b2f161b281de1ab",
+      "keyHref": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+      "keySha256": "b3a2f1e497da1d98e2c714ca9fe5868833065f072031cc8ff931a6b402554587",
+      "reviewedOn": "2026-10-14",
+      "evidence": "Printed Paper-I pages 2–6 checked against each generated MCQ stem, option order, fill-in blank and underlined target; the final answer-key PDF page 1, Paper-I Section-B rows 1–50, checked visually. All 50 MCQs independently solved and compared with the final key. Q9, Q24, Q26 and Q37 are held for non-unique/no-valid-option issues; Q33 is independently classified as determiner (C), while the key says adverb (A), so the adapter must preserve it as an unscored key disagreement. The 7 Section-A written/passage response records are excluded.",
+      "questions": {
+        "mpsc-group-b-si-stats-2026-p1-B1": {
+          "expectedQuestion": "I’m sorry I can’t hear what you are saying because everybody ________(talk) so loudly.",
+          "expectedOptions": [
+            "talks",
+            "is talking",
+            "has talked",
+            "was talking"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The action is happening at this very moment (\"I can't hear what you are saying\"), so the present continuous \"is talking\" is required. \"Talks\" is the trap: it agrees correctly with the singular \"everybody\", but simple present states a habit, not noise going on right now.",
+          "page": 2
+        },
+        "mpsc-group-b-si-stats-2026-p1-B2": {
+          "expectedQuestion": "When Damien called last night, I ________(watch) the Titanic Movie.",
+          "expectedOptions": [
+            "watched",
+            "am watching",
+            "has been watching",
+            "was watching"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A longer background action interrupted by a sudden one takes the past continuous, so \"was watching\" is right when Damien \"called\". Simple past \"watched\" would wrongly mean the film finished before the call rather than being in progress during it.",
+          "page": 2
+        },
+        "mpsc-group-b-si-stats-2026-p1-B3": {
+          "expectedQuestion": "By this time next year, you ________(complete) your studies and found a job.",
+          "expectedOptions": [
+            "will be completing",
+            "will have completed",
+            "will complete",
+            "will have been completing"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"By this time next year\" sets a deadline in the future, and the future perfect \"will have completed\" marks an action finished before that point. It also matches the second verb \"and found a job\", which shares the same \"will have\" auxiliary; \"will complete\" or \"will be completing\" cannot carry that completed sense.",
+          "page": 2
+        },
+        "mpsc-group-b-si-stats-2026-p1-B4": {
+          "expectedQuestion": "Last week, I ran into an old friend of mine. We________(see, not) each other in years and both of us had changed a great deal.",
+          "expectedOptions": [
+            "have not seen",
+            "did not see",
+            "had not seen",
+            "has not seen"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The not-seeing happened before the past event of running into the friend, so the earlier of two past actions takes the past perfect \"had not seen\". \"Have not seen\" is the trap — the present perfect would imply the gap continues up to now, but the meeting already ended that gap last week.",
+          "page": 2
+        },
+        "mpsc-group-b-si-stats-2026-p1-B5": {
+          "expectedQuestion": "Rama was reading a novel while his wife________(sleep).",
+          "expectedOptions": [
+            "sleeps",
+            "slept",
+            "has been sleeping",
+            "was sleeping"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"While\" joins two actions running in parallel in the past, and the first clause is already past continuous (\"was reading\"), so the second must match with \"was sleeping\". Simple past \"slept\" would break the sense of simultaneous, ongoing action.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B6": {
+          "expectedQuestion": "By the end of this year, she________(work) in this department for twenty-five years.",
+          "expectedOptions": [
+            "has worked",
+            "had worked",
+            "will have been working",
+            "is working"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"By the end of this year\" points to a future moment and \"for twenty-five years\" measures a stretch of time continuing up to it — that is exactly the future perfect continuous, \"will have been working\". The present and past perfect options cannot be used with a future deadline at all.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B7": {
+          "expectedQuestion": "When I reached the station, the train ________(leave).",
+          "expectedOptions": [
+            "already left",
+            "has already left",
+            "had already left",
+            "was already left"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The train's departure happened before the arrival at the station, so the earlier past action takes the past perfect \"had already left\". \"Has already left\" is wrong because the whole sentence is set in the past, not linked to the present moment.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B8": {
+          "expectedQuestion": "He said that by the time we arrived, they________(finish) everything.",
+          "expectedOptions": [
+            "will finish",
+            "would finish",
+            "would have finished",
+            "will have finished"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The reporting verb \"said\" is past, so the future perfect \"will have finished\" is backshifted to \"would have finished\" in reported speech. \"Would finish\" loses the sense of completion before the arrival, and any \"will\" form clashes with the past reporting verb.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B10": {
+          "expectedQuestion": "I didn’t recognize her at first because she ________ (change) so much.",
+          "expectedOptions": [
+            "changed",
+            "had changed",
+            "was changing",
+            "has changed"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "The change took place before the past moment of failing to recognise her, so the past perfect \"had changed\" is needed. \"Has changed\" would tie the change to the present, which contradicts the past-tense main clause \"I didn't recognize\".",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B11": {
+          "expectedQuestion": "The man was acquitted ________all charges.",
+          "expectedOptions": [
+            "of",
+            "on",
+            "in",
+            "at"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The fixed legal collocation is \"acquitted of\" a charge — the verb always takes \"of\" for the offence a person is cleared of. \"Acquitted on all charges\" is heard loosely in journalism but is not the form tested in grammar papers.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B12": {
+          "expectedQuestion": "He hinted ________some loss of treasure.",
+          "expectedOptions": [
+            "of",
+            "in",
+            "for",
+            "at"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"Hint\" as a verb takes \"at\": to hint at something is to suggest it indirectly. \"Hint of\" exists only with the noun (\"a hint of sarcasm\"), so it does not fit after the verb \"hinted\".",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B13": {
+          "expectedQuestion": "He is a great orator________my surprise.",
+          "expectedOptions": [
+            "beyond",
+            "upon",
+            "to",
+            "above"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "The set phrase expressing an unexpected discovery is \"to my surprise\", so \"to\" completes it. \"Beyond\" and \"above\" would need a measurable quantity to exceed, which \"surprise\" is not in this idiom.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B14": {
+          "expectedQuestion": "Thanga is well known in Mizoram________the books he has already written.",
+          "expectedOptions": [
+            "by",
+            "for",
+            "on",
+            "about"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"Known for\" introduces the reason or achievement someone is famous on account of, so \"for the books he has written\" is right. \"Known by\" introduces a name or identifying label (\"known by the name Thanga\"), not an achievement.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B15": {
+          "expectedQuestion": "He took action pursuant________the recommendation of the Board.",
+          "expectedOptions": [
+            "to",
+            "of",
+            "with",
+            "on"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"Pursuant\" is invariably followed by \"to\" — \"pursuant to the recommendation\" means in accordance with it. No other preposition collocates with this formal legal adjective.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B16": {
+          "expectedQuestion": "Mawia is indifferent ________ any request made by his students just yesterday.",
+          "expectedOptions": [
+            "about",
+            "on",
+            "at",
+            "to"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "The adjective \"indifferent\" takes \"to\" when it means showing no interest in something. \"Indifferent about\" is occasionally heard in casual speech but \"indifferent to\" is the standard form tested here.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B17": {
+          "expectedQuestion": "Liani is good ________ painting and playing Chess.",
+          "expectedOptions": [
+            "in",
+            "on",
+            "at",
+            "for"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Skill at an activity is expressed with \"good at\" — good at painting, good at chess. \"Good in\" is used only of a field or subject in loose usage and is not accepted as the standard collocation for an activity.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B18": {
+          "expectedQuestion": "Sanga is conversant________modern history.",
+          "expectedOptions": [
+            "of",
+            "at",
+            "on",
+            "with"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"Conversant\" collocates with \"with\": to be conversant with a subject is to be familiar with it. \"Conversant in\" is sometimes used of languages, but that option is not offered and \"of\"/\"at\"/\"on\" never follow this adjective.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B19": {
+          "expectedQuestion": "She is proficient ________three languages",
+          "expectedOptions": [
+            "on",
+            "of",
+            "with",
+            "in"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"Proficient\" takes \"in\" before a field or a language — proficient in three languages. \"Proficient with\" is used only of tools or instruments (proficient with a rifle), not of languages.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B20": {
+          "expectedQuestion": "The matter falls________the jurisdiction of the Supreme court.",
+          "expectedOptions": [
+            "on",
+            "under",
+            "over",
+            "in"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A matter that lies inside a court's authority \"falls under the jurisdiction\" of that court. \"Falls in\" is not idiomatic here, and \"over\" would reverse the relationship — it is the court that has jurisdiction over the matter, not the matter over the jurisdiction.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B21": {
+          "expectedQuestion": "He climbed up the tree and plucked some mangoes. (Change to a Simple sentence)",
+          "expectedOptions": [
+            "He climbed up the tree and plucked some mangoes.",
+            "Climbing up the tree, he plucks some mangoes.",
+            "He climbed up the tree so he plucked some mangoes.",
+            "Climbing up the tree, he plucked some mangoes."
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "A simple sentence has exactly one finite verb, so the first clause must become a participial phrase: 'Climbing up the tree, he plucked some mangoes.' Option (b) is the same structure but slips the tense to the present 'plucks', which the original does not license.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B22": {
+          "expectedQuestion": "Does the police officer catch the thief? (Change the Voice)",
+          "expectedOptions": [
+            "Is the thief caught by the police officer?",
+            "Had the thief been caught by the police officer?",
+            "Has the thief been caught by the police officer?",
+            "Is the thief been caught by the police officer?"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The active is simple present interrogative ('Does ... catch'), so the passive keeps simple present: 'Is the thief caught by the police officer?' Option (c) shifts to the present perfect and (b) to the past perfect, which changes the tense the question actually asked about.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B23": {
+          "expectedQuestion": "He hopes to win a prize. (Change the voice)",
+          "expectedOptions": [
+            "It is hoped that he will win a prize.",
+            "A prize is to be won by him.",
+            "He hopes that he wins the prize.",
+            "It is hoped to win a prize."
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The finite verb being passivised is 'hopes', and with a that-clause object the passive takes the impersonal form 'It is hoped that he will win a prize.' Option (b) passivises only the infinitive and throws away 'hopes' altogether, and (c) is not a passive at all.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B25": {
+          "expectedQuestion": "Mandy said, “John wrote the letter.” (Change the speech)",
+          "expectedOptions": [
+            "Mandy said that John had written the letter.",
+            "Mandy told that John was writing the letter.",
+            "Mandy said that John has written the letter.",
+            "Mandy says that John writes the letter."
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "The reporting verb 'said' is past, so the reported simple past 'wrote' back-shifts one step to the past perfect: 'John had written the letter.' Option (c) keeps the present perfect 'has written', which fails the back-shift rule.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B27": {
+          "expectedQuestion": "He was too ill to attend school yesterday. (Change to Negative)",
+          "expectedOptions": [
+            "He was so ill that he could not attend school yesterday.",
+            "He was not too ill to attend school yesterday.",
+            "He was too ill to not attend school yesterday.",
+            "He was not so ill to attend school yesterday."
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'too ... to' converts to the negative pattern 'so ... that ... not': 'He was so ill that he could not attend school yesterday.' Option (b) just inserts 'not' in front of 'too', which reverses the meaning — it says he was well enough to go.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B28": {
+          "expectedQuestion": "How sweetly she sings! (Change to Assertive)",
+          "expectedOptions": [
+            "She sang a song sweetly.",
+            "Oh! How sweetly her song is!",
+            "She sings very sweetly.",
+            "She sings a sweet song."
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "An exclamatory 'How + adverb' becomes an assertive statement with an intensifier: 'She sings very sweetly.' Option (d) changes the meaning (it praises the song, not the singing) and (a) also shifts the tense to the past.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B29": {
+          "expectedQuestion": "I can never forget your kindness. (Change to Interrogative)",
+          "expectedOptions": [
+            "Can I never forget your kindness?",
+            "Can I ever forget your kindness?",
+            "Can I never forget your kindness.",
+            "Can I ever forget your kindness."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "A negative statement becomes a rhetorical question by dropping the negative word: 'never' turns into 'ever' — 'Can I ever forget your kindness?' Option (a) keeps 'never', which would make the question mean the opposite, and (c)/(d) are punctuated as statements.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B30": {
+          "expectedQuestion": "Would that I were a king! (Change to Assertive)",
+          "expectedOptions": [
+            "I wish I were a king.",
+            "I would be a king.",
+            "Would I be a king?",
+            "I wish I would be a king!"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "'Would that ...' is an optative formula meaning a wish, so the assertive form is 'I wish I were a king.' The subjunctive 'were' must survive; (d) replaces it with 'would be' and keeps the exclamation mark, so it is not assertive.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B31": {
+          "expectedQuestion": "However **tired** he was, he finished the task.",
+          "expectedOptions": [
+            "Noun",
+            "Verb",
+            "Adverb",
+            "Adjective"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Adjective. 'However tired he was' is a concessive clause built on 'he was tired': 'tired' is the subject complement after the linking verb 'was', describing 'he'. A word that describes a noun/pronoun after be/seem/become is an adjective, not an adverb. The tempting option is Adverb (c), because the whole phrase 'however tired he was' modifies the main clause adverbially — but the underline is on 'tired' alone, and the adverb in that phrase is 'however', which modifies 'tired'. Only an adverb can modify an adjective, which confirms 'tired' is the adjective. Agrees with the booklet's highlight.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B32": {
+          "expectedQuestion": "The **righteous** always emerge victorious.",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Plural Noun",
+            "Singular Noun"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "Plural noun. 'Righteous' is an adjective by origin, but in the 'the + adjective' pattern it is substantivised — 'the righteous' means 'righteous people' and works as the subject of the sentence. The decisive proof is the verb: the sentence says 'emerge', not 'emerges', so the subject is plural. The tempting option is Adjective (a), the word's dictionary class, and Singular Noun (d) is wrong for the same reason 'emerge' is plural. Other members of this pattern behave identically: the poor, the blind, the elderly. Agrees with the booklet's highlight.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B34": {
+          "expectedQuestion": "He **seems** very tired after the long journey",
+          "expectedOptions": [
+            "Adverb",
+            "Determiner",
+            "Adjective",
+            "Verb"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Verb. 'Seems' is the finite verb of the sentence — it carries the tense and agrees with the singular subject 'He' (he seems / they seem). It is a linking (copular) verb, joining the subject to the complement 'very tired'. The tempting option is Adjective (c), because the thing being described is a state; but the adjective here is 'tired', not 'seems'. Test it by swapping in 'is': 'He is very tired' — the slot 'seems' fills is the verb slot. Agrees with the booklet's highlight.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B35": {
+          "expectedQuestion": "Her **happiness** was obvious.",
+          "expectedOptions": [
+            "Abstract noun",
+            "Adverb",
+            "Adjective",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Abstract noun. 'Happiness' is the subject of 'was' and names a quality/state that cannot be seen or touched, which is exactly the definition of an abstract noun; the -ness suffix builds abstract nouns from adjectives (happy → happiness, kind → kindness). The tempting option is Adjective (c), because the related word 'happy' is an adjective and the sentence is about a description — but the adjective in this sentence is 'obvious'. Agrees with the booklet's highlight.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B36": {
+          "expectedQuestion": "The Grand Canyon is a natural **wonder.**",
+          "expectedOptions": [
+            "Adjective",
+            "Adverb",
+            "Preposition",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "Noun. 'Wonder' is the head of the noun phrase 'a natural wonder', the subject complement after 'is'; the article 'a' in front of it is proof it is a noun, since articles introduce nouns. The tempting option is Adjective (a), because 'wonder' sits at the end of a descriptive phrase — but the adjective there is 'natural', which modifies 'wonder'. Note 'wonder' can also be a verb ('I wonder why'); word class is decided by the job the word does in this sentence, and here it is named, counted and articled, so it is a noun. Agrees with the booklet's highlight.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B38": {
+          "expectedQuestion": "We are **pleased** to come here.",
+          "expectedOptions": [
+            "Adjective",
+            "Pronoun",
+            "Verb",
+            "Noun"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "[adjudicated: derived] Answer: (a) Adjective. The booklet's highlighted (c) Verb is wrong.\n\nThe question is whether \"are pleased\" is a passive verb (making \"pleased\" a past participle) or a linking verb + adjective. Four standard tests all give the same answer:\n\n1. Degree word. Adjectives take a bare \"very\"; true passives need \"very much\". \"We are VERY pleased to come here\" is completely natural — \"very much pleased\" is stilted. Adjective.\n2. Linking-verb frame. Only adjectives can follow seem/look/feel: \"They SEEMED pleased,\" \"She LOOKED pleased.\" A genuine passive cannot (\"They seemed arrested\" is not English on the event reading). Adjective.\n3. Coordination. You can join it to an undisputed adjective: \"We are HAPPY AND pleased to come here.\" You can never coordinate an adjective with a passive participle.\n4. The \"to\"-phrase. \"pleased TO COME\" is the same pattern as glad to, eager to, sorry to, delighted to, happy to — an adjective pattern. Substitute the plainest adjective there is and nothing changes: \"We are GLAD to come here.\"\n\nAnd the meaning test: a real passive describes an action done to someone, and allows an agent (\"We were pleased BY the news\"). Here nobody performs any pleasing — the sentence describes our state of mind. It is a polite formula meaning \"we are glad.\"\n\nSo \"pleased\" is a participial adjective: a word born from a verb that has settled into the adjective class, exactly like tired, interested, surprised, worried, excited. \"I am tired\" is not passive voice, and neither is this.\n\nWhy the booklet marked Verb: whoever prepared the key saw \"are + past participle\" and reflexively called it passive voice. That shorthand works for \"The letter is written by him,\" but not for stative participles with a to-infinitive. The Wren & Martin tradition these papers are written from teaches the same thing — such participles after \"be\" are adjectives.\n\nExam rule of thumb: if the underlined -ed word can take \"very\" and can follow \"seem,\" it is an adjective, not part of the verb.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B39": {
+          "expectedQuestion": "**Still** water runs deep.",
+          "expectedOptions": [
+            "Noun",
+            "Adjective",
+            "Adverb",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "Adjective. Underlined 'still' sits before the noun 'water' and tells you what kind of water — motionless, not flowing — so it is an attributive adjective (the proverb is normally printed 'Still waters run deep'). The tempting option is Adverb (c), because 'still' is far more common as an adverb of time ('He is still here'); word class is decided by the job in this sentence, and here it modifies a noun, which adverbs never do. Note 'deep' at the end is also being used adjectivally as a complement, not as the adverb 'deeply'. Agrees with the booklet's highlight.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B40": {
+          "expectedQuestion": "Do you prefer tea **or** cofee?",
+          "expectedOptions": [
+            "Conjunction",
+            "Interjection",
+            "Adverb",
+            "Verb"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "Conjunction. 'Or' joins the two nouns 'tea' and 'coffee' as alternatives inside one sentence, which is the defining job of a coordinating conjunction (the set is and, but, or, nor, for, yet, so). The tempting option is Interjection (b), which is an exclamation standing outside the sentence structure ('Oh!', 'Alas!') — 'or' is structurally essential here, remove it and the sentence breaks. Agrees with the booklet's highlight. ('cofee' is a printing typo for 'coffee'; it does not change the grammar being tested, so the item is still sound.)",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B41": {
+          "expectedQuestion": "A bone of contention",
+          "expectedOptions": [
+            "A subject of disagreement",
+            "A dog’s favourite bone",
+            "A subject of contentment",
+            "A good thought or idea"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"A bone of contention\" is the issue two parties keep fighting over — a subject of disagreement. Option (c) is a near-homophone trap: \"contention\" means dispute, while \"contentment\" means satisfaction, the opposite sense.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B42": {
+          "expectedQuestion": "To pay through the nose",
+          "expectedOptions": [
+            "To pay less amount of money.",
+            "To pay far more money than something is worth.",
+            "To pay for one’s own actions.",
+            "To pay off a debt."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"To pay through the nose\" means to pay far more than a thing is worth — an excessive, painful price. Option (c) describes \"to pay the price\" / \"face the music\", a different idiom about consequences rather than cost.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B43": {
+          "expectedQuestion": "To see eye to eye with",
+          "expectedOptions": [
+            "To have the same opinion with someone about something.",
+            "To be able to see clearly",
+            "To look intensely, curiously or carefully",
+            "To remain calm and show no fear"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"To see eye to eye with\" someone means to agree with them — to hold the same opinion. It has nothing to do with literal eyesight, so (b) and (c), which read the phrase word-for-word, are the traps.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B44": {
+          "expectedQuestion": "Apprise",
+          "expectedOptions": [
+            "To examine and form an opinion about something",
+            "To inform about something",
+            "To approve formally",
+            "To criticize harshly"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "independentAnswerIndex": 1,
+          "explanation": "\"Apprise\" means to inform or notify — you apprise someone of the facts. Option (a) defines \"appraise\" (to assess or value something); the two words differ by one letter and are the classic confusion pair being tested here.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B45": {
+          "expectedQuestion": "Officiate",
+          "expectedOptions": [
+            "To perform a ceremony, function or duty",
+            "To argue a case in a law court",
+            "To delay or postpone an important matter",
+            "To decorate or make something look attractive"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "\"To officiate\" is to perform the duties of an office or preside over a ceremony — a priest officiates at a wedding, a referee officiates a match. Option (b) is \"to plead/litigate\", a lawyer's role, not an officiant's.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B46": {
+          "expectedQuestion": "Embargo",
+          "expectedOptions": [
+            "A legal prohibition on commerce",
+            "A formal agreement between two nations to increase free trade",
+            "An official permission granted to export special goods",
+            "A minor penalty given to government officials"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 0,
+          "explanation": "An \"embargo\" is an official ban on trade with a country — a legal prohibition on commerce. Options (b) and (c) invert the meaning: an embargo blocks trade, it does not free or license it.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B47": {
+          "expectedQuestion": "Expunge",
+          "expectedOptions": [
+            "To destroy completely",
+            "To praise enthusiastically",
+            "To remove completely",
+            "To recognise enthusiastically"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"Expunge\" means to erase or strike out completely, usually from a record — remarks are expunged from the minutes. Option (a), \"destroy completely\", is the tempting near-miss: expunging removes an entry, it does not annihilate the thing itself.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B48": {
+          "expectedQuestion": "Articulate",
+          "expectedOptions": [
+            "Having extensive knowledge",
+            "Skilled in practical task rather than theoretical knowledge",
+            "Fond of artistic activities",
+            "Able to express oneself effectively and clearly"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "independentAnswerIndex": 3,
+          "explanation": "\"Articulate\" as an adjective means able to express oneself fluently and clearly. Option (c) is baited by the look-alike \"artistic\"; \"articulate\" comes from articulus (joint/distinct utterance), not from art.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B49": {
+          "expectedQuestion": "A dime a dozen",
+          "expectedOptions": [
+            "Expensive",
+            "Valuable and rare",
+            "Common and Cheap",
+            "Unique"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"A dime a dozen\" describes something so plentiful it is nearly worthless — common and cheap. Options (a) and (b) reverse it: a dime buying twelve of a thing is the whole point of the phrase's contempt.",
+          "page": 6
+        },
+        "mpsc-group-b-si-stats-2026-p1-B50": {
+          "expectedQuestion": "To pick holes",
+          "expectedOptions": [
+            "To quarrel with someone",
+            "To cut holes in something",
+            "To criticise someone",
+            "To applaud someone"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "independentAnswerIndex": 2,
+          "explanation": "\"To pick holes (in)\" means to find fault with, i.e. to criticise. Option (a) is close but wrong in kind: picking holes is one-sided fault-finding and needs no quarrel or exchange of words to occur.",
+          "page": 6
+        }
+      },
+      "heldQuestions": {
+        "mpsc-group-b-si-stats-2026-p1-B9": {
+          "expectedQuestion": "By next December, he________ (serve) as the principal for fifteen years.",
+          "expectedOptions": [
+            "will serve",
+            "will be serving",
+            "will have served",
+            "will have been serving"
+          ],
+          "expectedOfficialAnswerIndex": 3,
+          "explanation": "Both C (will have served) and D (will have been serving) are grammatical for a duration continuing up to a future point. The key selects D, but the wording does not exclude the future perfect simple.",
+          "holdReason": "The sentence permits two standard future-perfect forms with this duration phrase; no single answer is uniquely compelled.",
+          "page": 3
+        },
+        "mpsc-group-b-si-stats-2026-p1-B24": {
+          "expectedQuestion": "Let the poor not be teased. (Change the voice)",
+          "expectedOptions": [
+            "Let people not teased the poor.",
+            "Do not tease the poor.",
+            "Let the poor not be teased by people.",
+            "Do not tease the poor people."
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "explanation": "Both B and D are grammatical active imperatives that preserve the passive instruction not to tease the poor. Adding “people” does not change the meaning.",
+          "holdReason": "Two options express the same transformation accurately.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B26": {
+          "expectedQuestion": "I told Mala that I would see her the following day. (Change the Speech)",
+          "expectedOptions": [
+            "I said to Mala, “I will see you the following day.”",
+            "I said to Mala, “I will see you tomorrow.”",
+            "I told Mala, “ I will see you tomorrow.”",
+            "I said to Mala, “I would see you tomorrow.”"
+          ],
+          "expectedOfficialAnswerIndex": 1,
+          "explanation": "Both “I said to Mala, …” and “I told Mala, …” are accepted direct-speech reporting constructions here. The supplied wording does not distinguish them.",
+          "holdReason": "Both B and C are valid direct-speech transformations.",
+          "page": 4
+        },
+        "mpsc-group-b-si-stats-2026-p1-B37": {
+          "expectedQuestion": "Can you answer **this** question?",
+          "expectedOptions": [
+            "Preposition",
+            "Noun",
+            "Pronoun",
+            "Adverb"
+          ],
+          "expectedOfficialAnswerIndex": 2,
+          "explanation": "In “this question,” “this” modifies the noun “question,” so it is a demonstrative determiner. The options do not offer that category; calling it a pronoun is incorrect in this construction.",
+          "holdReason": "No offered part-of-speech label accurately describes “this” as used before the noun.",
+          "page": 5
+        },
+        "mpsc-group-b-si-stats-2026-p1-B33": {
+          "expectedQuestion": "Sawmi goes to school **every** day.",
+          "expectedOptions": [
+            "Adverb",
+            "Pronoun",
+            "Determiner",
+            "Preposition"
+          ],
+          "expectedOfficialAnswerIndex": 0,
+          "independentAnswerIndex": 2,
+          "explanation": "“Every” is a determiner quantifying the noun “day”; the complete phrase “every day” functions adverbially, but the underlined word alone does not. Thus option C (determiner) fits, while the final key’s option A (adverb) does not. → (c) Determiner.",
+          "page": 5,
+          "holdReason": "The printed sentence is “Sawmi goes to school every day.” The key identifies every as an adverb, but it modifies the noun day and is a determiner. The only defensible independent choice is C; preserve official A as a key conflict and leave the item unscored.",
+          "keyDispute": "Official key selects A (adverb); independent grammar analysis selects C (determiner). The paper asks for the part of speech of the underlined word, not the function of the full phrase “every day”."
+        }
+      }
     }
   ]
 }

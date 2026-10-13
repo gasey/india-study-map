@@ -55,9 +55,10 @@
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q049",
-    "answerIndex": 3,
+    "answerIndex": -1,
     "confidence": "low",
-    "explanation": "Sources consistently date the first missionary-run school in Mizoram (by Lorrain and Savidge) to 1 April 1894, which does not match any option here (1890-1893). This looks like a flawed/printing-error question; 1893 (the closest year, and also cited as when early government Hindi-medium schools began) is picked as the nearest plausible option."
+    "explanation": "The wording is ambiguous. A Government school for military children existed in 1893, while the first school for Mizo pupils opened under missionaries in 1894. Since the stem does not specify which school and 1894 is absent from the options, this item is withheld from scored practice.",
+    "sourceDefect": "unresolved-source"
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q052",
@@ -164,8 +165,8 @@
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q073",
     "answerIndex": 2,
-    "confidence": "low",
-    "explanation": "One government RTI-manual source dates the Taxation Department's bifurcation from the Excise & Taxation Department to July 1988, which does not match any of the four options given (2010/1973/2006/2009); this looks like a genuinely broken question. 2006 is kept only as an unverified placeholder within the given choices."
+    "confidence": "medium",
+    "explanation": "The Mizoram Gazette order dated 24 August 2006 explicitly bifurcated the Excise and Taxation Department into separate Excise and Taxation departments, making 2006 the best answer to this wording. A later Taxation Department RTI manual separately says the department was bifurcated with effect from July 1988, so the administrative history is internally inconsistent; retain the answer with a source-conflict caution."
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q029",
@@ -211,9 +212,10 @@
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q058",
-    "answerIndex": 2,
+    "answerIndex": -1,
     "confidence": "low",
-    "explanation": "Historical accounts (including the Wikipedia entry on Herbert Richard Browne) name Khalkam (also Kalkhama) as the Lushai Sailo chief who broke his oath of fealty and orchestrated the September 1890 ambush that killed Capt. Browne near Changsil — a name that matches none of the four options (Bengkhuaia, Hausata, Zathawma, Ngura). This looks like a genuinely broken question with no correct option; 'Zathawma' is kept only as an unverified closest guess."
+    "explanation": "The printed options do not match the historical accounts consulted for the chief associated with the ambush that killed Capt. Browne. Since the item says “who killed” and neither the names nor the distinction between planner and direct attacker can be verified from the options, it is withheld from scored practice.",
+    "sourceDefect": "unresolved-source"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q059",
@@ -259,9 +261,10 @@
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q073",
-    "answerIndex": 1,
+    "answerIndex": -1,
     "confidence": "low",
-    "explanation": "Sources date the launch of the Lushai Hills District Council to 26 April 1952 (by Assam CM Bishnuram Medhi), with its inaugural session running 23 June-10 July 1952 — none of which lines up exactly with any of the four printed options. '25th July, 1952' is kept as the closest available option (matching month and year), but the exact-day discrepancy remains unresolved."
+    "explanation": "The printed dates do not match the available historical accounts: the District Council was inaugurated on 25 April 1952, while other sources describe a later inaugural session. “25 July 1952” is not supported as the inauguration date, so this item is withheld from scored practice pending an authoritative source.",
+    "sourceDefect": "unresolved-source"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q074",
@@ -271,9 +274,10 @@
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q067",
-    "answerIndex": 2,
+    "answerIndex": -1,
     "confidence": "low",
-    "explanation": "The Mizoram Peace Accord (Memorandum of Settlement between the Government of India and the MNF) was signed on 30 June 1986, confirmed by multiple sources including the government's own DIPR account; that exact date is not one of the four options. '25th June, 1986' is the closest option by month and year, but the day is off by five, so this remains unresolved."
+    "explanation": "The Mizo Peace Accord was signed on 30 June 1986. None of the printed options gives that date; 25 June was a separate Congress–MNF agreement. This item is withheld from scored practice as defective.",
+    "sourceDefect": "unresolved-source"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q073",

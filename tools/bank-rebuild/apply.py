@@ -93,6 +93,8 @@ def main():
         q["explanation"] = r["explanation"]
         q["answerSource"] = "derived"
         q["difficulty"] = CONF_TO_DIFFICULTY.get(r.get("confidence", "medium"), "medium")
+        if r.get("sourceDefect"):
+            q["sourceDefect"] = r["sourceDefect"]
         q.pop("needsSolving", None)
         q.pop("needsExplanation", None)
         n_solved += 1
@@ -185,7 +187,10 @@ def main():
         # print only Simple / Complex / Compound sentence.
         if len(opts) not in (3, 4):
             errs.append(f"{qid}: {len(opts)} options")
-        if not isinstance(ai, int) or not (0 <= ai < len(opts)):
+        if q.get("sourceDefect") == "unresolved-source":
+            if ai != -1:
+                errs.append(f"{qid}: unresolved source but answerIndex={ai}")
+        elif not isinstance(ai, int) or not (0 <= ai < len(opts)):
             errs.append(f"{qid}: answerIndex {ai} out of range")
         if any(not str(o).strip() for o in opts):
             errs.append(f"{qid}: blank option")

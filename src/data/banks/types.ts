@@ -185,7 +185,7 @@ interface BankQuestionBase {
    * states a wrong fact is worse than one admitting the item is broken.
    */
   sourceDefect?: 'duplicate-options' | 'hand-transcribed-matching-table'
-    | 'answer-not-among-options';
+    | 'answer-not-among-options' | 'unresolved-source';
   /**
    * For General Knowledge only: whether the answer is durable.
    *

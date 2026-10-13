@@ -153,6 +153,11 @@ function QuestionCard({
             ⚠ misprint in original paper
           </span>
         )}
+        {q.sourceDefect === 'unresolved-source' && (
+          <span className="sto-pill sto-conf-medium" title="The source or options do not support a defensible scored answer; this item is excluded from mock tests.">
+            ⚠ unresolved source · not scored
+          </span>
+        )}
         {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin{correction.updatedBy != null ? ` · user #${correction.updatedBy}` : ''}</span>}
         <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
           {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}

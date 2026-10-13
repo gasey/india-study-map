@@ -200,9 +200,9 @@ def run_bank():
                         q.get("figureBased", False))
         ai = q.get("answerIndex")
         if not q.get("figureBased"):
-            if q.get("compensated"):
+            if q.get("compensated") or q.get("sourceDefect") == "unresolved-source":
                 if ai != -1:
-                    probs.append(f"compensated but answerIndex={ai}")
+                    probs.append(f"unscored item but answerIndex={ai}")
             elif not isinstance(ai, int) or not (0 <= ai < len(q.get("options", []))):
                 probs.append(f"answerIndex {ai} out of range for {len(q.get('options', []))} options")
         if probs:

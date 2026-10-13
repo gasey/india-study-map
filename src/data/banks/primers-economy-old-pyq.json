@@ -1,0 +1,162 @@
+[
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "National income, GDP and growth-rate questions",
+    "priority": "critical",
+    "primer": "GDP is the market value of final goods and services produced within a country during a period. Distinguish domestic from national (production location vs resident ownership), gross from net (before vs after depreciation), and nominal from real (current vs constant prices). A growth rate compares like-for-like real output across periods. Per-capita income is an average, not a measure of how income is distributed. For old papers, treat reported growth estimates as a vintage-specific release, not a current fact.",
+    "analogy": "GDP is the value added inside the country’s boundary during a year; a resident’s overseas production belongs to national income but not domestic production.",
+    "traps": [
+      "Do not add intermediate goods again after their value is embedded in final goods.",
+      "A higher nominal GDP can reflect inflation rather than more real production.",
+      "Do not use an old quarter’s growth number as today’s rate."
+    ],
+    "formulae": [
+      "GDP = value of final domestic output (or sum of value added).",
+      "Real growth ≈ (real GDP this period − real GDP previous period) ÷ previous period × 100.",
+      "PYQ anchors: Taxes 2016 GS-I Q84; Excise 2019 GS-I Q82; Programme Coordinator 2021 GS-II Q46, Q72, Q75."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Fiscal policy, budgets and deficit measures",
+    "priority": "critical",
+    "primer": "Fiscal policy uses government taxation, spending and borrowing to influence aggregate demand, redistribution and public investment. Fiscal deficit is the government’s total borrowing requirement; revenue deficit compares revenue expenditure with revenue receipts. These are different measures and have different implications for debt and asset creation. A budget question may ask about a historical budget, interim budget or a constitutional budget document; identify the year and instrument before choosing.",
+    "analogy": "A household’s total cash shortfall (fiscal deficit) differs from the shortfall on recurring income and bills (revenue deficit). Borrowing for a productive asset also differs from borrowing to cover recurring consumption.",
+    "traps": [
+      "Fiscal deficit is not simply expenditure minus all receipts: borrowings are excluded from receipts in the standard measure.",
+      "Revenue deficit is not the same as fiscal deficit.",
+      "Interim budget and vote-on-account are related but not exact synonyms in every constitutional context."
+    ],
+    "formulae": [
+      "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts).",
+      "Revenue deficit = revenue expenditure − revenue receipts.",
+      "Primary deficit = fiscal deficit − interest payments.",
+      "PYQ anchors: Taxes 2016 GS-II Q56, Q63; Programme Coordinator 2021 GS-II Q43, Q57; Excise 2019 GS-II Q75."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "RBI monetary policy and liquidity tools",
+    "priority": "critical",
+    "primer": "The RBI influences liquidity and credit conditions through policy rates and operations such as open market operations (OMO). An OMO purchase of government securities injects liquidity into the banking system; a sale absorbs liquidity. The repo rate is the policy rate at which eligible banks borrow from the RBI against collateral under the applicable framework. “Bank rate,” repo, reverse repo and standing-facility rates are distinct terms; older exam questions may reflect an earlier operating framework.",
+    "analogy": "When the RBI buys securities, money flows from the central bank to sellers and the banking system gains liquidity; when it sells, money flows back to the RBI.",
+    "traps": [
+      "OMO is a monetary-policy instrument, not fiscal policy.",
+      "Do not confuse the rate banks pay when borrowing from RBI with the rate RBI pays on deposits.",
+      "For historical “current repo rate” questions, answer for the date named in the question."
+    ],
+    "formulae": [
+      "OMO purchase → liquidity injection; OMO sale → liquidity absorption (all else equal).",
+      "PYQ anchors: FCCAS 2019 GS-II Q54–55, Q69; Labour Officer 2021 GS-II Q50, Q64, Q67."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Banking, credit and financial regulators",
+    "priority": "high",
+    "primer": "Know the role before memorizing institutional facts: RBI is India’s central bank and monetary authority; SEBI regulates securities markets and mutual funds; NABARD supports agriculture and rural development; commercial banks intermediate deposits and loans; NBFCs provide specified financial services but are not banks. Credit-market questions may distinguish short-term working-capital credit from long-term investment finance, and money-market instruments from capital-market securities.",
+    "analogy": "Think of the financial system as specialized desks: RBI manages system-wide money conditions, SEBI supervises securities markets, NABARD focuses on rural/agricultural finance, and banks lend to households and firms.",
+    "traps": [
+      "A regulator is not necessarily the provider of the loan.",
+      "Do not call every institution that lends money a bank.",
+      "“Short-term credit” can refer to the loan tenor or a particular market segment; read the stem carefully."
+    ],
+    "formulae": [
+      "PYQ anchors: Excise 2019 GS-II Q42, Q59; Excise 2021 GS-II Q51, Q60–61, Q67, Q72; Programme Coordinator 2021 GS-II Q50, Q67, Q74."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Balance of payments, trade and foreign-exchange reserves",
+    "priority": "high",
+    "primer": "The balance of payments records transactions between residents and the rest of the world. The current account covers goods, services, primary income and transfers; the capital/financial account records financing flows and changes in financial assets and liabilities (older textbooks/exam papers may use “capital account” more broadly). The visible or trade balance compares merchandise exports and imports. India’s foreign-exchange reserves include foreign-currency assets, gold, special drawing rights and the reserve position in the IMF.",
+    "analogy": "Current-account entries describe cross-border earning and spending; financial-account entries describe how those flows are financed or invested.",
+    "traps": [
+      "The merchandise trade balance is only one part of the current account.",
+      "Do not classify every foreign investment as a goods export.",
+      "Older questions may use a narrower or older definition of “capital account”; match the syllabus convention and wording."
+    ],
+    "formulae": [
+      "Merchandise trade balance = goods exports − goods imports.",
+      "PYQ anchors: Excise 2019 GS-II Q68; Excise 2021 GS-II Q64, Q68; Labour Officer 2021 GS-II Q45, Q56; Programme Coordinator 2021 GS-II Q69."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Five-Year Plans, planning models and policy chronology",
+    "priority": "high",
+    "primer": "The First Five-Year Plan (1951–56) prioritized agriculture, irrigation and rehabilitation, reflecting post-Partition needs and food shortages. The Second Plan (1956–61) is associated with the Mahalanobis strategy and rapid heavy-industrial development. The Planning Commission era ended when NITI Aayog was established in 2015. Questions about poverty-removal slogans and plan objectives need exact wording: “Garibi Hatao” is strongly associated with the Fifth Plan, while a question may list another plan and ask a narrower objective.",
+    "analogy": "The plans changed emphasis over time: first stabilize food and infrastructure; then build heavy industry and capital goods.",
+    "traps": [
+      "Do not swap the First Plan’s agricultural focus with the Second Plan’s heavy-industry strategy.",
+      "Do not assume a loosely paraphrased plan objective is a unique official slogan.",
+      "The 1991 reforms and the 2015 replacement of the Planning Commission are separate milestones."
+    ],
+    "formulae": [
+      "First Plan: 1951–56, agriculture/water priority.",
+      "Second Plan: 1956–61, Mahalanobis/heavy industry.",
+      "PYQ anchors: Excise 2019 GS-II Q61–64, Q70; Excise 2021 GS-II Q42–43, Q50; FCCAS 2019 GS-II Q58; Labour Officer 2021 GS-II Q52, Q55, Q66, Q71."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Agriculture, MSP, crops and rural development",
+    "priority": "high",
+    "primer": "MSP is an announced support price intended to provide a floor for selected crops; the Commission for Agricultural Costs and Prices (CACP) recommends MSPs, and the government takes the final decision. Identify crops by season: rabi crops are generally sown in winter and harvested in spring; kharif crops are associated with the monsoon. Rural-development questions also cover employment guarantees and institutional agricultural credit.",
+    "analogy": "MSP is a price floor: it can reduce downside price risk, but the announcement alone does not guarantee every farmer sells every crop at that price.",
+    "traps": [
+      "CACP recommends; the Union Government decides.",
+      "Do not treat MSP as a universal procurement guarantee.",
+      "Crop seasons vary by region and crop; use the standard exam classification but check the specific crop."
+    ],
+    "formulae": [
+      "PYQ anchors: Taxes 2016 GS-II Q73; Excise 2019 GS-II Q47–48; Programme Coordinator 2021 GS-II Q49; Labour Officer 2021 GS-II Q9."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Poverty, inequality and economic development measures",
+    "priority": "high",
+    "primer": "Absolute poverty compares resources or consumption with a defined minimum threshold; relative poverty compares living standards within a society. Per-capita income is average income per person and can rise while inequality remains high. Economic development is broader than output growth: it includes changes in health, education, capabilities, employment and distribution. Poverty estimates depend on the methodology, prices, survey and reference period, so historical poverty-line questions must be dated.",
+    "analogy": "Average income is like the average temperature of a city: it does not tell you whether some neighborhoods are much poorer than others.",
+    "traps": [
+      "Growth is a change in output; development includes broader social outcomes.",
+      "Do not confuse an absolute threshold with a comparison to the median or general living standard.",
+      "Old survey agencies and poverty-estimation methods may differ from current arrangements."
+    ],
+    "formulae": [
+      "Per-capita income = aggregate income ÷ population.",
+      "PYQ anchors: FCCAS 2019 GS-II Q41; Programme Coordinator 2021 GS-II Q47, Q51, Q75; Labour Officer 2021 GS-II Q47, Q73."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Taxes, public finance and intergovernmental transfers",
+    "priority": "medium",
+    "primer": "Classify a tax by who bears its burden (direct/indirect), who levies it (Union/State/local), and the tax base. The Finance Commission recommends how the divisible pool of Union taxes is shared between the Union and States; a particular Finance Commission’s percentage is a time-bound recommendation. GST is a destination-based indirect tax administered through a constitutional and intergovernmental framework.",
+    "analogy": "Tax classification uses three separate questions: who pays, what is taxed, and which level of government imposes it.",
+    "traps": [
+      "Do not classify by the department that collects the tax alone.",
+      "A Finance Commission recommendation is not a permanent constitutional percentage.",
+      "Use the question’s year for tax-sharing and budget allocations."
+    ],
+    "formulae": [
+      "PYQ anchors: Taxes 2016 GS-I Q58; FCCAS 2019 GS-II Q45, Q50; Programme Coordinator 2021 GS-II Q58."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "How to handle dated economics current-affairs questions",
+    "priority": "medium",
+    "primer": "Older Economics papers mix concepts with date-bound facts: GDP estimates, repo rates, budget amounts, officeholders, report rankings and award winners. Learn the underlying concept, but label each answer with its reference year and original reporting institution. Never carry a 2018 or 2021 ranking or rate forward as current. A paper’s source/wording can also be faulty; preserve a caution when the answer is not supported by the listed choices.",
+    "analogy": "A newspaper headline has a timestamp. An old price or officeholder remains historically true, but it is not today’s answer.",
+    "traps": [
+      "Do not present old growth rates, rates, rankings or budgets as current facts.",
+      "Do not infer an exact answer solely from a familiar name when the stem cites a specific report or release.",
+      "Keep “historical answer” distinct from “current value.”"
+    ],
+    "formulae": [
+      "PYQ anchors: Taxes 2016 GS-I Q84; Excise 2019 GS-I Q82, GS-II Q74; FCCAS 2019 GS-I Q65–68, Q96; Labour/Programme Coordinator 2021 current-affairs items."
+    ]
+  }
+]

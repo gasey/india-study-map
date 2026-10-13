@@ -51,9 +51,20 @@ export const COMPUTER_TOPICS = [
   ['mixed', 'Mixed / needs topic review'],
 ] as const;
 
-export type StudyTopicId = MathTopicId | typeof COMPUTER_TOPICS[number][0];
-export function studyTopicOf(q: BankQuestion, subject: 'arithmetic' | 'computer'): StudyTopicId {
+export const ENGLISH_TOPICS = [
+  ['idioms_phrases', 'Idioms & Phrases'],
+  ['vocabulary_synonym', 'Synonyms'],
+  ['vocabulary_antonym', 'Antonyms'],
+  ['english_other', 'Other English'],
+] as const;
+
+export type EnglishTopicId = typeof ENGLISH_TOPICS[number][0];
+export type StudyTopicId = MathTopicId | typeof COMPUTER_TOPICS[number][0] | EnglishTopicId;
+export function studyTopicOf(q: BankQuestion, subject: 'arithmetic' | 'computer' | 'english'): StudyTopicId {
   if (subject === 'arithmetic') return mathTopicOf(q);
+  if (subject === 'english') {
+    return ENGLISH_TOPICS.some(([id]) => id === q.topic) ? q.topic as EnglishTopicId : 'english_other';
+  }
   const topic = (tags[q.id] ?? q.topic).replace(/-/g, '_');
   return COMPUTER_TOPICS.some(([id]) => id === topic) ? topic as StudyTopicId : 'mixed';
 }

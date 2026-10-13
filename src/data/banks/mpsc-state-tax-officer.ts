@@ -125,8 +125,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q001",
     "subject": "english",
-    "topic": "eng_vocab",
-    "topicLabel": "Idiom meaning (bite the bullet)",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Select the alternative which best expresses the meaning of the idiom/phrase: Bite the bullet",
     "options": [
@@ -145,8 +145,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q002",
     "subject": "english",
-    "topic": "eng_vocab",
-    "topicLabel": "Idiom meaning (hand over fist)",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Select the alternative which best expresses the meaning of the idiom/phrase: Hand over fist",
     "options": [
@@ -165,8 +165,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q003",
     "subject": "english",
-    "topic": "eng_vocab",
-    "topicLabel": "Idiom meaning (no avail)",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "Select the alternative which best expresses the meaning of the idiom/phrase: No avail",
     "options": [
@@ -305,8 +305,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q010",
     "subject": "english",
-    "topic": "eng_vocab",
-    "topicLabel": "Idiom/phrase inference (root out)",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "What can you infer from the phrase 'root out'?",
     "options": [
@@ -345,8 +345,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-i-q001",
     "subject": "english",
-    "topic": "eng_grammar",
-    "topicLabel": "English-I",
+    "topic": "idioms_phrases",
+    "topicLabel": "Idioms & Phrases",
     "difficulty": "medium",
     "question": "MIZORAM PUBLIC SERVICE COMMISSION GENERAL COMPETITIVE EXAMINATIONS FOR RECRUITMENT TO THE POST OF INSPECTOR UNDER EXCISE & NARCOTICS DEPARTMENT GOVERNMENT OF MIZORAM. FEBRUARY, 2021 GENERAL ENGLISH PAPER - I Time Allowed : 3 hours Full Marks : 100 Marks for each question is indicated against it. Attempt all questions. 1. Write an essay on any one of the following topics: - Role of youth in nation building - Combating the menace of addiction - Ability is nothing without opportunity - Sustainable Development – Reduce, Reuse and Recycle (25) 2. Write a précis of the given passage: (15) The contention that the spirit of adventure no longer has any scope for its enterprise seems, at first glance, depressingly true. The highest mountains have been scaled; the deepest seas plumbed. Maps today no longer contain huge blanks marked ‘Unknown Territory,’ nor do they make random guesses at the shapes of distant land-masses. All major journeys of exploration to determine the true shape and nature of the globe were made in the past. It was left to us to fill in the details with expeditions which once would have been considered impossible. The gaps have been filled. What next? The obvious answer, of course, is that man is now looking upwards into space. Discoveries are being made at such a tremendous rate that even writers of science-fiction are finding it difficult to keep abreast with them and have to tax their imaginations to invent bigger and better spacecraft. Satellites sending signals as they swing round our globe have become commonplace. Astronauts have successfully landed on the moon and its entire surface has been photographed. The information that satellites may provide fuelling stations for manned rockets no longer strikes us as preposterous. If, twenty years ago, a scientist had urged that we send messages into outer space in the hope of receiving an answer, or that radio-telescopes should ‘listen in’ to other worlds, he would have been regarded as either irresponsible or mad. Now, anything seems feasible. From dreams like these, we return to earth with a bump. Trips into space are all very well, but they are not for us: we must content ourselves with our own, much-travelled world. The earth itself is the training ground for adventurous spirits. For ‘adventure’ need not mean the seeking out of something new. A person can be called adventurous when he finds out something for himself; and it does not matter how many times the discovery has been made before. No one would say that men who set out now to cross the forbidding Antartic are less enterprising than their predecessors who tried to do the same thing. The little boy who climbs the small hill that overlooks his town, or even he who tries to climb it and fails, has precisely the same spirit that led Hillary to climb Everest. For the bold spirit and inquiring mind, there are inexhaustible possibilities. So long as there are people willing to re-discover places that are well-known, there will be those who will, one day, set foot on remote and trackless shores. -23. Draft an Office Order granting earned leave to Shri ABC (15) OR Draft a Notification on the appointment of Shri ABC to officiate as Superintendent in the Excise & Narcotics Department. (15) 4. Construct sentences with any seven of the following idioms and phrases to highlight their meanings (7×2=14)",
     "options": [
@@ -4906,8 +4906,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q029",
     "subject": "english",
-    "topic": "eng_sentence",
-    "topicLabel": "Sentence Correction & Usage",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
     "difficulty": "medium",
     "question": "Which of the following words is closest in meaning to ‘precarious’?",
     "options": [
@@ -4998,8 +4998,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q033",
     "subject": "english",
-    "topic": "eng_sentence",
-    "topicLabel": "Sentence Correction & Usage",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
     "difficulty": "medium",
     "question": "What is the antonym of ‘consensus’ in the context of group decisions?",
     "options": [
@@ -5044,8 +5044,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q035",
     "subject": "english",
-    "topic": "eng_sentence",
-    "topicLabel": "Sentence Correction & Usage",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
     "difficulty": "medium",
     "question": "‘Dissent’ is most opposite in meaning to:",
     "options": [
@@ -32062,8 +32062,8 @@ const questions7: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-iii",
-    "topic": "eng_vocab",
-    "topicLabel": "English Vocabulary",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
     "subject": "english",
     "answerSource": "derived",
     "answerIndex": 0,
@@ -42940,8 +42940,8 @@ const questions9: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii",
-    "topic": "eng_vocab",
-    "topicLabel": "English Vocabulary",
+    "topic": "vocabulary_synonym",
+    "topicLabel": "Synonyms",
     "subject": "english",
     "answerSource": "derived",
     "answerIndex": 1,
@@ -42982,8 +42982,8 @@ const questions9: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii",
-    "topic": "eng_vocab",
-    "topicLabel": "English Vocabulary",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
     "subject": "english",
     "answerSource": "derived",
     "answerIndex": 0,
@@ -66070,8 +66070,8 @@ const questions15: BankQuestion[] = [
     "year": 2021,
     "paperId": "mpsc-labour-officer-2021-gs-iii",
     "passage": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease.",
-    "topic": "eng_vocab",
-    "topicLabel": "English Vocabulary",
+    "topic": "vocabulary_antonym",
+    "topicLabel": "Antonyms",
     "subject": "english",
     "answerSource": "derived",
     "answerIndex": 2,

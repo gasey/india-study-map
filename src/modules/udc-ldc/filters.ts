@@ -152,6 +152,9 @@ const TOPIC_SECTION: Record<string, SectionId> = {
   // clerical bank
   gk_general: 'gk',
   eng_general: 'english',
+  idioms_phrases: 'english',
+  vocabulary_synonym: 'english',
+  vocabulary_antonym: 'english',
   simple_arithmetic: 'arithmetic',
   computer_knowledge: 'computer',
   intelligence_reasoning: 'reasoning',

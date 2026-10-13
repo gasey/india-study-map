@@ -1,6 +1,6 @@
 import { isScorableMcq, type BankQuestion } from '@/data/banks/types';
 import { sectionOf, SECTION_LABEL, GK_TOPIC_LABEL } from './filters';
-import { COMPUTER_TOPICS, MATH_TOPICS, studyTopicOf } from './studyTopics';
+import { COMPUTER_TOPICS, ENGLISH_TOPICS, MATH_TOPICS, studyTopicOf } from './studyTopics';
 import type { LearningArea, LearningDashboardModel, LearningState, QuestionLearning } from '@/lib/learning/types';
 export type { LearningDashboardModel, LearningArea } from '@/lib/learning/types';
 
@@ -11,6 +11,10 @@ export function learningTopicOf(q: BankQuestion): { id: string; label: string } 
     const id = studyTopicOf(q, subject);
     const choices = subject === 'arithmetic' ? MATH_TOPICS : COMPUTER_TOPICS;
     return { id: `${subject}:${id}`, label: choices.find(([key]) => key === id)?.[1] ?? 'Mixed / needs topic review' };
+  }
+  if (subject === 'english') {
+    const id = studyTopicOf(q, subject);
+    return { id: `english:${id}`, label: ENGLISH_TOPICS.find(([key]) => key === id)?.[1] ?? 'Other English' };
   }
   if (subject === 'gk') {
     const id = q.gkTopic ?? 'general';

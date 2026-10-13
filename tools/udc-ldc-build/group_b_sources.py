@@ -13,6 +13,7 @@ import hashlib
 from pathlib import Path
 from mimer_sources import build_computer_paper
 from si_excise_2014 import build_si_excise_2014
+from english_topic_tags import classify_english_topic
 
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE = ROOT.parent / 'mpsc-question-bank' / 'pdfs' / 'Old_Questions'
@@ -1528,6 +1529,12 @@ def build_additional():
                     topic_label = manual_solution.get('topicLabel', topic_label)
             if slug == 'inspector-stats-2026-p2' and q['n'] > 50:
                 section = 'arithmetic'
+            if section == 'english':
+                focused_topic = classify_english_topic(
+                    q.get('direction'), q.get('q'), topic_label)
+                if focused_topic:
+                    topic_id = focused_topic
+                    topic_label = taxonomy.resolve(topic_id)[1]
             questions.append({'id': paper_id + '-' + (q.get('part') or 'Q') + str(q['n']), 'paperId': paper_id,
                               'questionNumber': (q.get('part') or '') + str(q['n']), 'subject': section,
                               'studySection': section, 'topic': topic_id, 'topicLabel': topic_label, 'difficulty': 'medium',

@@ -11,6 +11,9 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 import sys
 
+sys.path.insert(0, os.path.join(HERE, "..", "udc-ldc-build"))
+from english_topic_tags import classify_english_topic, TOPIC_LABELS
+
 SCRATCH = HERE
 TARGET = os.path.join(HERE, "..", "..", "src", "data", "banks", "mpsc-state-tax-officer.ts")
 
@@ -125,6 +128,15 @@ def main():
                 "diagrams, so they cannot be reproduced as text here." + letter +
                 " Work it from the original paper."
             )
+
+    for q in bank["questions"]:
+        if q.get("subject") != "english" or q.get("type") == "descriptive":
+            continue
+        focused_topic = classify_english_topic(
+            q.get("direction"), q.get("question"), q.get("topicLabel"))
+        if focused_topic:
+            q["topic"] = focused_topic
+            q["topicLabel"] = TOPIC_LABELS[focused_topic]
 
     # ---- strip internal bookkeeping fields before shipping ----
     for q in bank["questions"]:

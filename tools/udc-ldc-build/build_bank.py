@@ -26,6 +26,7 @@ import json
 import os
 import re
 from collections import Counter
+from english_topic_tags import classify_english_topic, TOPIC_LABELS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
@@ -1579,6 +1580,12 @@ def main():
                     "so verify the latest status before treating it as current."
                     % CURRENT_AFFAIRS_REVIEW_DATE
                 )
+            if sec == "english" and rec.get("type") != "descriptive":
+                focused_topic = classify_english_topic(
+                    rec.get("direction"), rec.get("question"), rec.get("topicLabel"))
+                if focused_topic:
+                    rec["topic"] = focused_topic
+                    rec["topicLabel"] = TOPIC_LABELS[focused_topic]
             rec["_penalised"] = penalised
             questions.append(rec)
             stats["total"] += 1

@@ -33,6 +33,7 @@ def english_review_progress(library, questions, archive_sources, additional_sour
         output.append({
             'paperId': paper['id'], 'exam': paper['exam'], 'sitting': paper['sitting'],
             'subject': paper['subject'], 'sourceHref': paper['sourceHref'],
+            **{field: paper[field] for field in ('duplicateOf', 'sourceOmittedNumbers', 'sourceGapNote', 'sourceCaution') if paper.get(field)},
             **({target: source[key] for key, target in [('url', 'sourceUrl'), ('sourceSha256', 'sourceSha256'), ('archivePage', 'archivePage')]
                 if source.get(key)} if source else {}),
             'archiveBatch': ('gazetted-english' if slug in archive else 'ng-leso-2026' if slug == 'ng-april-2026-assistant-leso-general-english' else 'earlier-import'),
@@ -50,7 +51,7 @@ def english_review_progress(library, questions, archive_sources, additional_sour
     output.sort(key=lambda row: row['paperId'])
     return {
         'generatedBy': 'tools/udc-ldc-build/build_group_b.py',
-        'scope': 'All English-bearing library papers, including mixed papers. Counts are English records only. Null expected/missing totals mean unknown, not zero. Written records may group subparts; guide counts are not exam scores.',
+        'scope': 'All English-bearing archive registrations, including mixed papers and retained duplicate aliases. The study module excludes duplicateOf aliases and specialty technical papers. Counts are English records only. Null expected/missing totals mean unknown, not zero. Written records may group subparts; guide counts are not exam scores.',
         'summary': {'papers': len(output), 'gazettedArchivePapers': len(archive),
                     'ready': sum(p['ready'] for p in output),
                     'pendingMcq': sum(p['pendingMcq'] for p in output),

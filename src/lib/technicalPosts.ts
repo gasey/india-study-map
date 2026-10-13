@@ -55,7 +55,7 @@ export function isPostTechnicalLoose(post: string | null | undefined): boolean {
 // DEVLOG entry for why this exists separately from the post-based one) ----
 
 const GENERAL_SUBJECT_RE = /\b(gk|general knowledge|gs|general studies|general english|english|comprehension|aptitude|reasoning|mathematics|maths|precis|pr[ée]cis|essay|current affairs)\b/i;
-const TECHNICAL_SUBJECT_RE = /\b(engineering|engineer|technical|veterinary|animal husbandry|horticulture|sericulture|agriculture|fisheries|ophthalmology|obstetrics|gynaecology|gynecology|surgery|medicine|dialysis|radiotherapy|pharmacy|nursing|social work|psychology|home science|sociology|law\b|legal|rules|act\b|manual)\b/i;
+const TECHNICAL_SUBJECT_RE = /\b(engineering|engineer|technical|geology|geologist|veterinary|animal husbandry|horticulture|sericulture|agriculture|fisheries|ophthalmology|obstetrics|gynaecology|gynecology|surgery|medicine|dialysis|radiotherapy|pharmacy|nursing|social work|psychology|home science|sociology|law\b|legal|rules|act\b|manual)\b/i;
 
 export function isPaperSubjectTechnical(subject: string | null | undefined): boolean {
   if (!subject) return false;

@@ -8,6 +8,10 @@ interface LibraryPaper {
   id: string; exam: string; sitting: string; subject: string; sourceHref: string;
   keyHref: string | null; correctionHref?: string; expectedMcq?: number; imported: boolean;
   sharedPosts?: string[];
+  sourceOmittedNumbers?: number[];
+  sourceGapNote?: string;
+  sourceCaution?: string;
+  duplicateOf?: string;
 }
 const library: LibraryPaper[] = archive;
 
@@ -18,7 +22,7 @@ export function GroupBPaperLibrary({ questions, excludedPaperIds, onBrowse }: {
 }) {
   const [search, setSearch] = useState('');
   const visibleLibrary = useMemo(() => library.filter((paper) =>
-    !excludedPaperIds.has(paper.id) && !isGeneralStudyPaperSubjectTechnical(paper.subject)), [excludedPaperIds]);
+    !paper.duplicateOf && !excludedPaperIds.has(paper.id) && !isGeneralStudyPaperSubjectTechnical(paper.subject)), [excludedPaperIds]);
   const progress = useMemo(() => {
     const ids = new Set(visibleLibrary.map((p) => p.id));
     const items = questions.filter((q) => q.paperId && ids.has(q.paperId));
@@ -67,7 +71,11 @@ export function GroupBPaperLibrary({ questions, excludedPaperIds, onBrowse }: {
         const missing = Math.max(0, (p.expectedMcq ?? 0) - mcq);
         const correctionHref = p.correctionHref;
         return <div className="udc-library-paper" key={p.id}>
-          <div><strong>{p.subject}</strong><p>{qs.length ? `${mcq}${p.expectedMcq ? `/${p.expectedMcq}` : ''} MCQs extracted · ${qs.length - mcq} written prompts · ${ready} ready to practise · ${official} official answers${candidates ? ` · ${candidates} unscored key candidates` : ''}${review ? ` · ${review} need source review` : ''}${held ? ` · ${held} checked, held unscored` : ''}${missing ? ` · ${missing} not recovered from source` : ''}` : 'Source PDF available · question transcription and solutions awaiting review'}</p></div>
+          <div><strong>{p.subject}</strong><p>{qs.length ? `${mcq}${p.expectedMcq ? `/${p.expectedMcq}` : ''} MCQs extracted · ${qs.length - mcq} written prompts · ${ready} ready to practise · ${official} official answers${candidates ? ` · ${candidates} unscored key candidates` : ''}${review ? ` · ${review} need source review` : ''}${held ? ` · ${held} checked, held unscored` : ''}${missing ? ` · ${missing} not recovered from source` : ''}` : 'Source PDF available · question transcription and solutions awaiting review'}</p>
+            {p.sourceOmittedNumbers?.length ? <p>The printed source skips {p.sourceOmittedNumbers.map((n) => `Q${n}`).join(', ')}.</p> : null}
+            {p.sourceGapNote && <p>{p.sourceGapNote}</p>}
+            {p.sourceCaution && <p>{p.sourceCaution}</p>}
+          </div>
           <div className="udc-library-links">
             {qs.length > 0 && <button type="button" onClick={() => onBrowse(p.id)}>Browse questions</button>}
             <a href={p.sourceHref} target="_blank" rel="noreferrer">Printed paper ↗</a>

@@ -13,6 +13,7 @@ from english_review_progress import english_review_progress
 from subject_review_progress import load_study_taxonomy, subject_review_progress
 from reviewed_study_guides import apply_reviewed_study_guides
 from fix_emphasis_markers import patch as restore_emphasis
+from essay_archive import essay_archive
 
 ROOT = Path(__file__).resolve().parents[2]
 UPSTREAM = ROOT.parent / "mpsc-question-bank"
@@ -213,6 +214,8 @@ def build():
                            'expectedMcq': 75 if p['id'].endswith('-1-a') else 100})
     papers.extend(extra_papers)
     questions.extend(extra_questions)
+    (ROOT / 'src/data/banks/mpsc-essay-topics.json').write_text(
+        json.dumps(essay_archive(library, questions, Path(__file__).parent), ensure_ascii=False, indent=2) + '\n')
     apply_reviewed_study_guides(ROOT, questions, json.loads((Path(__file__).parent / 'reviewed-study-guides.json').read_text()))
     assert len({q['id'] for q in questions}) == len(questions)
     assert all(q['paperId'] in {p['id'] for p in papers} for q in questions)

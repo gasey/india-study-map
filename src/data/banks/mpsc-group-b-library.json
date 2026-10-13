@@ -667,7 +667,8 @@
     "sourceHref": "/papers/group-b/ato-2017-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 80
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p1",
@@ -676,8 +677,7 @@
     "subject": "General English Paper-I",
     "sourceHref": "/papers/group-b/feo-2017-english-p1.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true
+    "imported": false
   },
   {
     "id": "mpsc-group-b-feo-2017-english-p2",
@@ -696,8 +696,7 @@
     "subject": "General English Paper-I",
     "sourceHref": "/papers/group-b/mhs-grade-v-2017-english-p1.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true
+    "imported": false
   },
   {
     "id": "mpsc-group-b-mhs-grade-v-2017-english-p2",
@@ -717,7 +716,8 @@
     "sourceHref": "/papers/group-b/labtech-hfw-2017-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-mcon-lecturer-2017-english-p1",
@@ -726,8 +726,7 @@
     "subject": "General English Paper-I",
     "sourceHref": "/papers/group-b/mcon-lecturer-2017-english-p1.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true
+    "imported": false
   },
   {
     "id": "mpsc-group-b-assistant-prof-geography-2017-english",
@@ -737,7 +736,8 @@
     "sourceHref": "/papers/group-b/assistant-prof-geography-2017-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 65
   },
   {
     "id": "mpsc-group-b-ada-2014-english",
@@ -778,7 +778,8 @@
     "sourceHref": "/papers/group-b/mes-phe-2014-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-gs",
@@ -797,8 +798,7 @@
     "subject": "General English Paper-I",
     "sourceHref": "/papers/group-b/mes-pe-2012-english-p1.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true
+    "imported": false
   },
   {
     "id": "mpsc-group-b-mes-pe-2012-english-p2",
@@ -808,7 +808,8 @@
     "sourceHref": "/papers/group-b/mes-pe-2012-english-p2.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-mes-pe-2012-aptitude",
@@ -1889,7 +1890,8 @@
     "sourceHref": "/papers/group-b/iof-2019-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 14
   },
   {
     "id": "mpsc-group-b-iof-2019-gs",
@@ -1965,7 +1967,10 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 80
+    "expectedMcq": 79,
+    "sourceOmittedNumbers": [
+      26
+    ]
   },
   {
     "id": "mpsc-group-b-vo-2019-english-p1",
@@ -1996,7 +2001,8 @@
     "sourceHref": "/papers/group-b/mes-phe-2019-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 10
   },
   {
     "id": "mpsc-group-b-mes-phe-2019-gs",
@@ -2094,7 +2100,8 @@
     "sourceHref": "/papers/group-b/sub-div-lib-2019-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-surveyor-2019-english",
@@ -2148,7 +2155,8 @@
     "sourceHref": "/papers/group-b/tutor-mcon-2019-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 10
   },
   {
     "id": "mpsc-group-b-udc-combined-2019-p1",
@@ -2432,7 +2440,8 @@
     "sourceHref": "/papers/group-b/ae-civil-tourism-2020-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 3
   },
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -2519,7 +2528,8 @@
     "sourceHref": "/papers/group-b/aap-2020-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-aap-2020-gs",
@@ -2557,7 +2567,7 @@
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
     "exam": "Geologist Junior under Commerce & Industries Department (November)",
     "sitting": "November 2020",
-    "subject": "General English Paper-III",
+    "subject": "Geology Paper III",
     "sourceHref": "/papers/group-b/geologist-jun-nov-2020-english-p3.pdf",
     "keyHref": null,
     "imported": true,
@@ -2615,7 +2625,8 @@
     "sourceHref": "/papers/group-b/mes-pwd-2020-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs",
@@ -2636,7 +2647,8 @@
     "sourceHref": "/papers/group-b/mpe-ss-2020-english.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-mpe-ss-2020-gk",
@@ -3212,7 +3224,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 9
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-ae-civil-2016-contract-under-trade-commerce-deptt-4-ae-civil-under-trade-6a39cadd",
@@ -3223,7 +3235,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 7
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-computer-operator-contract-under-mizoram-information-commission-deptt-1-ca5e09e5",
@@ -3254,9 +3266,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2016-cdpo-under-social-welfare-deptt-1-cdpo-under-social-welfare-department-2-fc4e1911.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-cdpo-under-social-welfare-deptt-2-cdpo-under-social-welfare-department-2-9dcf334d",
@@ -3271,8 +3281,8 @@
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63",
-    "exam": "Steno Grade-II, 2015 (Contract) under DP&AR (SSW) Steno Grade-III, 2015 (Contract) under DP&AR (SSW",
-    "sitting": "2015",
+    "exam": "Stenographer Grade-III (Contract) under DP&AR (SSW)",
+    "sitting": "May 2015",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63.pdf",
     "keyHref": null,
@@ -3289,7 +3299,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 4
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2014-grade-v-of-mizoram-horticulture-service-2014-2-grade-v-of-mhs-2014-gener-5c41ce89",
@@ -3300,7 +3310,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 12
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178",
@@ -3309,9 +3319,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-1-inspector-of-taxes-2016-g-9dbc9178.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-inspector-of-taxes-2016-under-taxation-deptt-2-inspector-of-taxes-2016-g-c1b48eb5",
@@ -3344,7 +3352,8 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 4
+    "expectedMcq": 8,
+    "sourceGapNote": "The available one-page paper stops after Question 4, although the directions cover Questions 1–8. Questions 5–8 are unavailable. Questions 1 and 2 are held because none of the printed options clearly matches the idiom."
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-jag-of-mizoram-legal-service-2016-sr-grade-of-mizoram-legal-service-2016-f9937612",
@@ -3355,7 +3364,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 9
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-jr-grade-of-mizoram-engineering-service-2015-under-phe-and-p-e-deptt-2-j-b7d6b507",
@@ -3366,7 +3375,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 7
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-mcs-combined-preliminary-main-2015-general-english-15-bd5631e1",
@@ -3377,7 +3386,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-mcs-main-2016-21-general-english-039e02b6",
@@ -3388,7 +3397,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 9
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994",
@@ -3425,7 +3434,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 9
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6",
@@ -3435,7 +3444,8 @@
     "sourceHref": "/papers/group-b/archive-lang-2009-assistant-conservator-of-forest-acf-2009-6-general-english-b1da9fb6.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 5
   },
   {
     "id": "mpsc-group-b-archive-lang-2016-research-investigator-archaeology-contract-2016-under-art-culture-deptt-78abaa32",
@@ -3466,9 +3476,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2010-inspector-of-legal-metrology-2010-under-food-civil-supplies-consumer-aff-942fb6d6.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 9
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9",
@@ -3488,9 +3496,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2012-tourist-officer-2012-1-general-english-i-1634c81f.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2012-tourist-officer-2012-2-general-english-ii-447195cf",
@@ -3501,7 +3507,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 12
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683",
@@ -3512,12 +3518,12 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
     "exam": "Librarian under H&FW Dept..",
-    "sitting": "2018",
+    "sitting": "2014",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c.pdf",
     "keyHref": null,
@@ -3532,9 +3538,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2018-inspector-of-taxes-2018-1-general-english-i-dc48cf67.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2018-inspector-of-taxes-2018-2-general-english-ii-b4a19709",
@@ -3556,7 +3560,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2018-middle-school-teacher-under-school-education-deptt-2018-1-general-englis-b2c9c0dc",
@@ -3589,7 +3593,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 11
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-4839ecad",
@@ -3600,7 +3604,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 6
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2020-informatics-officer-under-information-communication-technology-departmen-6bd580d0",
@@ -3620,9 +3624,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-22b342ff.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 5
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2020-inspector-under-excise-department-inspector-of-excise-general-english-pa-554361d1",
@@ -3644,7 +3646,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 8
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-29b4f771",
@@ -3653,9 +3655,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-29b4f771.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -3675,9 +3675,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-2185593a.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2021-labour-officer-under-labour-employment-skill-development-entrepreneurshi-1abb4045",
@@ -3697,9 +3695,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-68c2e8c5.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2021-programme-co-ordinator-under-art-culture-department-programme-co-ordinat-0e81565e",
@@ -3721,7 +3717,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-8e5445d6",
@@ -3730,9 +3726,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-8e5445d6.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -3754,7 +3748,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 7
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-i-cao-pdf-80d325dd",
@@ -3765,7 +3759,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 20
+    "expectedMcq": 14
   },
   {
     "id": "mpsc-group-b-archive-lang-2022-cao-question-paper-2022-general-english-paper-ii-cao-pdf-06085848",
@@ -3787,7 +3781,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 34
+    "expectedMcq": 30
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-technical-officer-scert-under-school-education-deptt-technical-officer-s-f6c1513d",
@@ -3798,13 +3792,13 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 19
+    "expectedMcq": 20
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series A)",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9.pdf",
     "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=1",
     "imported": true,
@@ -3814,8 +3808,8 @@
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series B)",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1.pdf",
     "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=2",
     "imported": true,
@@ -3825,8 +3819,8 @@
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series C)",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281.pdf",
     "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=3",
     "imported": true,
@@ -3836,8 +3830,8 @@
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series D)",
     "sourceHref": "/papers/group-b/archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237.pdf",
     "keyHref": "/papers/group-b/keys/lecturer-vse-2025-final-key.pdf#page=4",
     "imported": true,
@@ -3853,7 +3847,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 11
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-i-2024-e2c96667",
@@ -3864,7 +3858,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 6
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-informatics-officer-informatics-officer-general-english-paper-ii-2024-ab2030dc",
@@ -3886,7 +3880,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 9
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-i-oct-2024-e15bf650",
@@ -3918,7 +3912,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 7
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-vety-assistant-surgeon-augusr-2024-vety-assistant-surgeon-general-englis-949896e8",
@@ -3940,7 +3934,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 9
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mes-p-e-cadre-electrical-wing-under-p-e-deptt-jr-grade-of-me-e5466701",
@@ -3949,9 +3943,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2023-jr-grade-of-mes-p-e-cadre-electrical-wing-under-p-e-deptt-jr-grade-of-me-e5466701.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-forest-service-acf-under-ef-cc-deptt-acf-2023-genera-0baa87f8",
@@ -3962,7 +3954,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 7
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-i-70e1b634",
@@ -3973,7 +3965,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 7
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-legal-metrology-legal-metrology-general-english-paper-ii-16ff5440",
@@ -3984,7 +3976,8 @@
     "keyHref": "/papers/group-b/keys/inspector-of-legal-metrology-final-key.pdf",
     "imported": true,
     "expectedMcq": 100,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "sourceCaution": "The printed paper cover says November 2023, while the final key and a March 2024 screening notice say the written exam was held 4–6 October 2023. The post, paper subject and question numbering match; the date discrepancy is retained."
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -3995,7 +3988,8 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "sourceGapNote": "The published PDF is missing printed page 6, which contains Questions 37–46. The answer key cannot supply their question text, so these ten items remain unavailable and unscored."
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-i-aa983a08",
@@ -4004,9 +3998,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-i-aa983a08.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-principal-iti-lesde-january-2024-principal-iti-general-english-paper-ii-ef2ae924",
@@ -4028,7 +4020,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 26
+    "expectedMcq": 20
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734",
@@ -4036,10 +4028,10 @@
     "sitting": "2023",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2023-inspector-of-supplies-2023-inpector-of-supplies-2023-general-english-5516e734.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/inspector-of-supplies-2023-final-key.pdf#page=1",
     "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-grade-iii-of-mhs-2023-grade-iii-of-mhs-2023-general-english-8994f24c",
@@ -4050,7 +4042,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 27
+    "expectedMcq": 20
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-9a7d0791",
@@ -4061,7 +4053,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 6
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -4080,14 +4072,14 @@
     "sitting": "2024",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2024-psychologist-case-worker-january-2024-psychologist-case-worker-2024-gene-6749607f.pdf",
-    "keyHref": null,
+    "keyHref": "/papers/group-b/keys/psychologist-case-worker-2024-final-key.pdf#page=1",
     "imported": true,
     "sharedPosts": [
       "Psychologist&Case Worker-January-2024",
       "Case Worker-February-2024"
     ],
-    "reviewRequired": true,
-    "expectedMcq": 66
+    "expectedMcq": 66,
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-i-2024-29fe8b7a",
@@ -4096,9 +4088,7 @@
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-i-2024-29fe8b7a.pdf",
     "keyHref": null,
-    "imported": true,
-    "reviewRequired": true,
-    "expectedMcq": 6
+    "imported": false
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-forest-ranger-2024-forest-ranger-general-english-ii-2024-8d9ebe7c",
@@ -4120,7 +4110,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 8
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-mizoram-health-services-combined-2024-mhs-combined-2024-general-english-a88ba4eb",
@@ -4131,7 +4121,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 8
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2024-group-b-gazetted-general-service-combined-july-2024-group-b-combined-gen-90a666fa",
@@ -4142,13 +4132,13 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
     "exam": "Group ‘B’ (Gazetted) General Services (Combined) Examination-2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "September 2026",
+    "subject": "General English (Booklet Series A)",
     "sourceHref": "/papers/group-b/archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a.pdf",
     "keyHref": null,
     "imported": true,
@@ -4158,8 +4148,8 @@
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
     "exam": "Group ‘B’ (Gazetted) General Services (Combined) Examination-2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "September 2026",
+    "subject": "General English (Booklet Series B)",
     "sourceHref": "/papers/group-b/archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff.pdf",
     "keyHref": null,
     "imported": true,
@@ -4169,8 +4159,8 @@
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
     "exam": "Staff Nurse August 2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "August 2026",
+    "subject": "General English (Booklet Series B)",
     "sourceHref": "/papers/group-b/archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48.pdf",
     "keyHref": null,
     "imported": true,
@@ -4180,8 +4170,8 @@
   {
     "id": "mpsc-group-b-archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
     "exam": "Staff Nurse August 2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "August 2026",
+    "subject": "General English (Booklet Series A)",
     "sourceHref": "/papers/group-b/archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495.pdf",
     "keyHref": null,
     "imported": true,
@@ -4202,7 +4192,7 @@
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
     "exam": "Jr Grade oh MHS (GDMO & DENTAL SURGEON)",
-    "sitting": "2025",
+    "sitting": "July 2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976.pdf",
     "keyHref": null,
@@ -4218,12 +4208,13 @@
     "sourceHref": "/papers/group-b/archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 66
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
     "exam": "Tourist Officer",
-    "sitting": "2025",
+    "sitting": "July 2026",
     "subject": "General English",
     "sourceHref": "/papers/group-b/archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d.pdf",
     "keyHref": null,
@@ -4240,7 +4231,7 @@
     "keyHref": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=2",
     "imported": true,
     "expectedMcq": 60,
-    "reviewRequired": false
+    "reviewRequired": true
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -4328,7 +4319,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 11
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-agriculture-allied-services-november-2025-agri-allied-general-english-20-6dc78487",
@@ -4376,7 +4367,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-of-mes-combined-october-2025-jr-grade-of-mes-combined-2025-gene-702051c6",
@@ -4387,7 +4378,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5",
@@ -4397,6 +4388,7 @@
     "sourceHref": "/papers/group-b/archive-lang-2025-2-general-english-jr-of-mhs-2025-6bc2b6d5.pdf",
     "keyHref": null,
     "imported": true,
+    "duplicateOf": "mpsc-group-b-mhs-2025-ge-secb",
     "reviewRequired": true,
     "expectedMcq": 40
   },
@@ -4409,7 +4401,7 @@
     "keyHref": null,
     "imported": true,
     "reviewRequired": true,
-    "expectedMcq": 10
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-inspector-of-excise-under-excise-narcotics-dept-august-2025-general-engl-029fa88a",
@@ -4522,7 +4514,8 @@
     "sourceHref": "/papers/group-b/si-excise-2014-p1.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 0
   },
   {
     "id": "mpsc-group-b-si-excise-2014-p2",

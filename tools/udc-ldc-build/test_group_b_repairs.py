@@ -10,6 +10,46 @@ HERE = Path(__file__).parent
 
 
 class ReviewedRepairTests(unittest.TestCase):
+    def test_mixed_written_and_mcq_numbering_preserves_printed_ids(self):
+        extracted = {'sourceSha256': 'checked', 'questions': []}
+        repair = {'sourceSha256': 'checked', 'expectedMcq': 2,
+                  'expectedQuestionNumbers': [4, 6],
+                  'reviewedOn': '2026-10-13', 'evidence': 'Only printed Q4 and Q6 are MCQs.',
+                  'questions': {str(n): {'n': n, 'page': 1, 'q': f'Question {n}',
+                                'opts': {'a': 'First', 'b': 'Second'}} for n in [4, 6]}}
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual([q['n'] for q in result['questions']], [4, 6])
+        self.assertEqual(reviewed, {4, 6})
+        repair['expectedQuestionNumbers'] = [4, 4]
+        with self.assertRaisesRegex(AssertionError, 'count disagrees'):
+            reviewed_extraction(extracted, repair)
+
+    def test_verified_source_gap_keeps_original_numbering(self):
+        extracted = {'sourceSha256': 'checked', 'questions': []}
+        row = lambda n: {'n': n, 'page': 1, 'q': f'Question {n}', 'opts': {'a': 'First', 'b': 'Second'}}
+        repair = {'sourceSha256': 'checked', 'expectedMcq': 3,
+                  'reviewedOn': '2026-10-13', 'evidence': 'Printed source skips Q2.',
+                  'sourceOmittedNumbers': [2], 'questions': {'1': row(1), '3': row(3)}}
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual([q['n'] for q in result['questions']], [1, 3])
+        self.assertEqual(reviewed, {1, 3})
+        repair['questions']['2'] = row(2)
+        with self.assertRaisesRegex(AssertionError, 'contradicts recovered question'):
+            reviewed_extraction(extracted, repair)
+
+    def test_partial_review_without_known_total_keeps_selected_source_numbers(self):
+        extracted = {'sourceSha256': 'checked', 'questions': []}
+        repair = {'sourceSha256': 'checked', 'partialReview': True,
+                  'reviewedOn': '2026-10-13', 'evidence': 'Selected source items checked.',
+                  'questions': {
+                      str(n): {'n': n, 'page': 1, 'q': f'Question {n}',
+                               'opts': {'a': 'First', 'b': 'Second'}}
+                      for n in (2, 5, 8)
+                  }}
+        result, reviewed = reviewed_extraction(extracted, repair)
+        self.assertEqual([q['n'] for q in result['questions']], [2, 5, 8])
+        self.assertEqual(reviewed, {2, 5, 8})
+
     def setUp(self):
         self.extracted = json.loads((HERE / 'extracted/aao-2024-gk.json').read_text())
         self.repair = json.loads((HERE / 'group-b-text-repairs.json').read_text())['papers']['aao-2024-gk']
@@ -323,9 +363,10 @@ class ReviewedRepairTests(unittest.TestCase):
         self.assertEqual(len(si_english), 9)
         self.assertTrue(all(q.get('type') == 'descriptive' and q.get('sourceReview') for q in si_english))
         self.assertEqual(len(si_gs1), 75)
-        self.assertEqual(len(si_gs2), 34)
-        self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1
-                            for q in si_gs1 + si_gs2))
+        self.assertEqual(len(si_gs2), 38)
+        self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1 for q in si_gs1))
+        self.assertTrue(all(q.get('sourceReviewed') for q in si_gs2))
+        self.assertTrue(all(q['answerIndex'] == -1 for q in si_gs2 if q.get('sourceReview')))
         self.assertEqual({p['expectedMcq'] for p in library if p['id'] == 'mpsc-group-b-si-excise-2014-p3'}, {75})
         recovered_2018 = {
             'si-police-ub-2018-english': (80, 1),
@@ -352,8 +393,12 @@ class ReviewedRepairTests(unittest.TestCase):
             if slug in ('station-officer-2018-gk', 'si-police-ub-2018-gk'):
                 # These papers were reviewed on 2026-10-12 and now have derived answers
                 self.assertTrue(all(q.get('sourceReviewed') for q in mcq))
-            else:
-                self.assertTrue(all(q.get('sourceReview') and q['answerIndex'] == -1 for q in mcq))
+            for q in mcq:
+                if q.get('sourceReview'):
+                    self.assertEqual(q['answerIndex'], -1, q['id'])
+                else:
+                    self.assertGreaterEqual(q['answerIndex'], 0, q['id'])
+                    self.assertTrue(q.get('explanation'), q['id'])
             self.assertTrue(all((root / 'public' / q['imagePath'].lstrip('/')).is_file()
                                 for q in part if q.get('imagePath')))
             if slug == 'programmer-phe-2018-english-p1':
@@ -362,8 +407,9 @@ class ReviewedRepairTests(unittest.TestCase):
             if slug == 'sericulture-seo-2018-english-p1':
                 self.assertTrue(all(q.get('passage') for q in mcq if 17 <= int(q['questionNumber'].lstrip('B')) <= 32))
             if slug == 'sericulture-seo-2018-english-p2':
-                self.assertTrue(next(q for q in mcq if q['questionNumber'] == '58').get('sourceReview'))
-                self.assertEqual(next(q for q in mcq if q['questionNumber'] == '58')['answerIndex'], -1)
+                infinitive = next(q for q in mcq if q['questionNumber'] == '58')
+                self.assertTrue(infinitive.get('sourceReviewed'))
+                self.assertEqual(infinitive['options'][infinitive['answerIndex']], 'I have some duties to perform.')
             if slug == 'station-officer-2018-english':
                 self.assertTrue(all(q.get('passage') for q in mcq if 1 <= int(q['questionNumber'].lstrip('B')) <= 12))
             if slug.endswith('-english'):
@@ -448,6 +494,7 @@ class ReviewedRepairTests(unittest.TestCase):
     def test_rejects_missing_option(self):
         del self.repair['questions']['4']['opts']['d']
         del self.repair['questions']['4']['opts']['c']
+        del self.repair['questions']['4']['opts']['b']
         with self.assertRaisesRegex(AssertionError, 'options'):
             reviewed_extraction(self.extracted, self.repair)
 

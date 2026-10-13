@@ -109,8 +109,8 @@
   },
   {
     "slug": "archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63",
-    "exam": "Steno Grade-II, 2015 (Contract) under DP&AR (SSW) Steno Grade-III, 2015 (Contract) under DP&AR (SSW",
-    "sitting": "2015",
+    "exam": "Stenographer Grade-III (Contract) under DP&AR (SSW)",
+    "sitting": "May 2015",
     "subject": "General English",
     "filename": "archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/8732af6399c4fba373508606d6a0ea19/steno-grade-iii-contract-2015-under-dparssw-general-english.pdf",
@@ -123,7 +123,8 @@
         "title": "2.Steno Grade-III (Contract) 2015 Under DP&AR(SSW) General English",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22"
       }
-    ]
+    ],
+    "identityReview": "Printed cover gives Grade-III (Contract), May-2015; checked on 2026-10-13. Stable IDs retained."
   },
   {
     "slug": "archive-lang-2014-grade-v-of-mizoram-horticulture-service-2014-1-grade-v-of-mhs-2014-gener-7a67fcb3",
@@ -511,7 +512,7 @@
   {
     "slug": "archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
     "exam": "Librarian under H&FW Dept..",
-    "sitting": "2018",
+    "sitting": "2014",
     "subject": "General English",
     "filename": "archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/609e428c7fdfd1e14bb6b643f9475984/general-english-under-hfw-deptt.pdf",
@@ -524,7 +525,8 @@
         "title": "1.General English",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22"
       }
-    ]
+    ],
+    "identityReview": "Printed Librarian H&FW cover gives 2014, not the archive-inferred 2018; checked on 2026-10-13. Stable IDs retained."
   },
   {
     "slug": "archive-lang-2018-inspector-of-taxes-2018-1-general-english-i-dc48cf67",
@@ -979,8 +981,8 @@
   {
     "slug": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series A)",
     "filename": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-7e2875f9.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/7e2875f94f0bc74d5c046570d2ca00fc/lecturer-vse-general-english-a-2025.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
@@ -992,13 +994,15 @@
         "title": "Lecturer (VSE) General English A-2025.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024"
       }
-    ]
+    ],
+    "bookletSeries": "A",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series B)",
     "filename": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/57916eb13cf63aade97d4ed2c85887be/lecturer-vse-general-english-b-2025.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
@@ -1010,13 +1014,15 @@
         "title": "Lecturer (VSE) General English B-2025.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024"
       }
-    ]
+    ],
+    "bookletSeries": "B",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series C)",
     "filename": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-95d9a281.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/95d9a281f38fd7909af2afd53111b0b4/lecturer-vse-general-english-c-2025.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
@@ -1028,13 +1034,15 @@
         "title": "Lecturer (VSE) General English C-2025.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024"
       }
-    ]
+    ],
+    "bookletSeries": "C",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237",
     "exam": "Lecturer (VSE) and Vocational Guidance Officer-2025",
-    "sitting": "2025",
-    "subject": "General English",
+    "sitting": "February 2025",
+    "subject": "General English (Booklet Series D)",
     "filename": "archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-a1074237.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/a1074237034676fd14ab42319da2104c/lecturer-vse-general-english-d-2025.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024",
@@ -1046,7 +1054,9 @@
         "title": "Lecturer (VSE) General English D-2025.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-2023-2024"
       }
-    ]
+    ],
+    "bookletSeries": "D",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2024-agriculture-allied-service-combined-technical-2024-agriculture-allied-se-a57acf49",
@@ -1545,8 +1555,8 @@
   {
     "slug": "archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
     "exam": "Group ‘B’ (Gazetted) General Services (Combined) Examination-2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "September 2026",
+    "subject": "General English (Booklet Series A)",
     "filename": "archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/09/ddc6a97a1fcbe1c9df49713c5ebdd3ee/general-english-series-a.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027",
@@ -1558,13 +1568,15 @@
         "title": "General English-SERIES -A.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "bookletSeries": "A",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff",
     "exam": "Group ‘B’ (Gazetted) General Services (Combined) Examination-2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "September 2026",
+    "subject": "General English (Booklet Series B)",
     "filename": "archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/09/b5123dff485d4a87732b0dc4a3db739f/general-english-series-b.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027",
@@ -1576,13 +1588,15 @@
         "title": "General English-SERIES -B.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "bookletSeries": "B",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48",
     "exam": "Staff Nurse August 2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "August 2026",
+    "subject": "General English (Booklet Series B)",
     "filename": "archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/08/a17a8c4897a91ef1ef9a6d12ef3ea877/staff-nurse-august-2026-paper-i-general-english-series-b.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027",
@@ -1594,13 +1608,15 @@
         "title": "Staff Nurse August 2026 Paper-I (General English) - Series-B.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "bookletSeries": "B",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495",
     "exam": "Staff Nurse August 2026",
-    "sitting": "2026",
-    "subject": "General English",
+    "sitting": "August 2026",
+    "subject": "General English (Booklet Series A)",
     "filename": "archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/08/833ab495485a8ba7c54a7eed44438e88/staff-nurse-august-2026-paper-i-general-english-series-a.pdf",
     "archivePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027",
@@ -1612,7 +1628,9 @@
         "title": "Staff Nurse August 2026 Paper-I (General English) - Series-A.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "bookletSeries": "A",
+    "identityReview": "Booklet letter checked against the printed cover on 2026-10-13; stable IDs retained."
   },
   {
     "slug": "archive-lang-2026-assistant-controller-of-mines-august-2026-assistant-controller-of-mines-cd36d7cc",
@@ -1635,7 +1653,7 @@
   {
     "slug": "archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
     "exam": "Jr Grade oh MHS (GDMO & DENTAL SURGEON)",
-    "sitting": "2025",
+    "sitting": "July 2026",
     "subject": "General English",
     "filename": "archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/07/fb1b897690c9400a4903dd1558bfca6b/gdmo-dental-surgeon-general-english.pdf",
@@ -1648,7 +1666,8 @@
         "title": "GDMO & Dental Surgeon- General English",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "identityReview": "Printed cover July-2026 checked on 2026-10-13; stable archive slug retained."
   },
   {
     "slug": "archive-lang-2026-librarian-july-2026-libranian-july-2026-general-english-560ed630",
@@ -1671,7 +1690,7 @@
   {
     "slug": "archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d",
     "exam": "Tourist Officer",
-    "sitting": "2025",
+    "sitting": "July 2026",
     "subject": "General English",
     "filename": "archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d.pdf",
     "url": "https://mpsc.mizoram.gov.in/uploads/attachments/2026/07/e4a6e30d2551f276b341bd9c587443cd/tourist-officer-general-english.pdf",
@@ -1684,7 +1703,8 @@
         "title": "Tourist Officer General English.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "identityReview": "Printed cover visually checked on 2026-10-13: July-2026, not the archive’s inferred 2025. Stable slug and question IDs retained."
   },
   {
     "slug": "archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-i-general-english-series-b-f162a11a",
@@ -1962,7 +1982,9 @@
         "title": "General English - Jr. of MHS, 2025.",
         "sourcePage": "https://mpsc.mizoram.gov.in/page/old-question-g-2025-2027"
       }
-    ]
+    ],
+    "duplicateOf": "mpsc-group-b-mhs-2025-ge-secb",
+    "duplicateEvidence": "Exact PDF byte duplicate verified on 2026-10-13: SHA256 e506b03f45c1244c7c8dec1e6c264552e5a330cf101383af0c5ded6e3b04e514. Archive registration and raw question IDs retained; canonical paper used in the study module."
   },
   {
     "slug": "archive-lang-2025-sericulture-extension-officer-under-sericulture-deptt-august-2025-genera-77753b18",

@@ -5,6 +5,16 @@ import { mizoramStatHandbook2024 } from './mizoram-statistical-handbook-2024';
 import { assistantControllerOfMines2026 } from './assistant-controller-of-mines-2026';
 import { mpscUdcLdc } from './mpsc-udc-ldc';
 import { groupBGeneralPapers, groupBGeneralQuestions } from './mpsc-group-b-general';
+import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
+
+// Keep specialty records and duplicate sources in their generated bank, while registering
+// only the general-study pool for the UDC/LDC module and its catalog counts.
+const excludedStudyPaperIds = new Set(groupBGeneralPapers
+  .filter((paper) => paper.duplicateOf || isGeneralStudyPaperSubjectTechnical(paper.paperSubject))
+  .map((paper) => paper.id));
+const groupBStudyPapers = groupBGeneralPapers.filter((paper) => !excludedStudyPaperIds.has(paper.id));
+const groupBStudyQuestions = groupBGeneralQuestions.filter((question) =>
+  !question.paperId || !excludedStudyPaperIds.has(question.paperId));
 
 // Register banks here — same pattern as chapters.
 // Future: upsc-prelims-pyq.ts, current-affairs-2026.ts …
@@ -21,9 +31,9 @@ export const banks: QuestionBank[] = [
   {
     ...mpscUdcLdc,
     title: 'UDC / LDC / Group B',
-    description: `${mpscUdcLdc.description} Plus ${groupBGeneralQuestions.length} general-subject questions from non-gazetted Group B papers.`,
-    questions: [...mpscUdcLdc.questions, ...groupBGeneralQuestions],
-    papers: [...(mpscUdcLdc.papers ?? []), ...groupBGeneralPapers],
+    description: `${mpscUdcLdc.description} Plus ${groupBStudyQuestions.length.toLocaleString()} general and computer-knowledge question rows from the Group B archive.`,
+    questions: [...mpscUdcLdc.questions, ...groupBStudyQuestions],
+    papers: [...(mpscUdcLdc.papers ?? []), ...groupBStudyPapers],
   },
 ];
 

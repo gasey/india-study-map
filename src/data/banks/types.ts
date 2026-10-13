@@ -44,6 +44,8 @@ export interface DescriptiveSubpart {
 export interface ExamPaper {
   /** Stable slug, e.g. 'mpsc-direct-2019-general-studies-do-paper-2'. */
   id: string;
+  /** Exact duplicate source retained in the archive, excluded from study counts. */
+  duplicateOf?: string;
   /** Recruitment mode, e.g. 'Departmental', 'Direct', 'Direct_NG', 'LDE'. */
   examType: string;
   /** The exam/recruitment name, e.g. 'Combined Competitive Examination'. */

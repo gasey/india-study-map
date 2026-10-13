@@ -27,6 +27,7 @@ import os
 import re
 from collections import Counter
 from english_topic_tags import classify_english_topic, TOPIC_LABELS
+from clerical_written_reviews import apply_clerical_written_reviews
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(os.path.dirname(HERE))
@@ -1524,7 +1525,14 @@ def main():
             odef = option_defects.get((name, q["qnum"]))
             if odef:
                 rec["sourceDefect"] = "answer-not-among-options"
-                rec["disputeNote"] = odef
+                # A withdrawn answer must not inherit the older wording that
+                # says a nearest option is shown as an answer.
+                if rec['answerIndex'] >= 0:
+                    rec["disputeNote"] = odef
+                elif not rec.get('disputeNote'):
+                    rec["disputeNote"] = odef.replace(
+                        'The answer shown is the nearest of the four.',
+                        'No printed option matches; this item is held unscored.')
                 stats["sourceDefect"] += 1
             if q.get("printedOptionLabels"):
                 rec["sourceDefect"] = "duplicate-options"
@@ -1642,6 +1650,11 @@ def main():
                 apply_gk_topic(drec, drec["id"])
             questions.append(drec)
             stats["descriptive"] += 1
+
+    written_review_file = os.path.join(HERE, 'clerical-written-reviews.json')
+    if os.path.exists(written_review_file):
+        apply_clerical_written_reviews(questions, papers,
+            json.load(open(written_review_file, encoding='utf-8')), REPO, BANK_REPO)
 
     lines = ["import type { BankQuestion, ExamPaper, QuestionBank } from './types';", "",
              "// " + "=" * 58,

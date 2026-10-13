@@ -322,7 +322,8 @@ GENERAL_PAPERS_2019 = [
  ('aap-2020-gs', 'Assistant Public Prosecutor under Lokayukta, Vigilance Department', '2020', 'General Studies', 'AAP General Studies.pdf'),
  ('geologist-jun-nov-2020-english-p1', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-I', 'Geologist Junior General Englsih Paper-I Nov.pdf'),
  ('geologist-jun-nov-2020-english-p2', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-II', 'Geologist Junior General Englsih Paper-II Nov.pdf'),
- ('geologist-jun-nov-2020-english-p3', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'General English Paper-III', 'Geologist Junior General Englsih Paper-III Nov.pdf'),
+ # Printed cover checked 2026-10-13: Geology III, despite the archive filename.
+ ('geologist-jun-nov-2020-english-p3', 'Geologist Junior under Commerce & Industries Department (November)', 'November 2020', 'Geology Paper III', 'Geologist Junior General Englsih Paper-III Nov.pdf'),
  ('geologist-jun-2020-english-p1', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-I', 'Geologist Junior General English Paper-I.pdf'),
  ('geologist-jun-2020-english-p2', 'Geologist Junior under Commerce & Industries Department', '2020', 'General English Paper-II', 'Geologist Junior General English Paper-II.pdf'),
  ('geologist-jun-2020-english-p3', 'Geologist Junior under Commerce & Industries Department', 'January 2020', 'Geology Paper III', 'Geologist Junior General English Paper-III.pdf'),
@@ -586,6 +587,22 @@ def reviewed_extraction(extracted, repair):
     assert repair['sourceSha256'] == extracted['sourceSha256'], 'Stale source-reviewed repairs'
     assert repair.get('evidence') and repair.get('reviewedOn'), 'Missing review evidence'
     rows = {}
+    expected_numbers = repair.get('expectedQuestionNumbers')
+    if expected_numbers is None:
+        if repair.get('expectedMcq') is None and repair.get('partialReview'):
+            # A focused source review may cover selected objective items from a
+            # paper whose full MCQ count is not established. Keep original
+            # numbering without treating the reviewed subset as the total.
+            expected_numbers = sorted(
+                {question['n'] for question in extracted['questions']}
+                | {int(number) for number in repair.get('questions', {})}
+            )
+        else:
+            expected_numbers = list(range(1, repair['expectedMcq'] + 1))
+    else:
+        assert all(type(n) is int and n > 0 for n in expected_numbers), 'Invalid expected question numbers'
+        assert len(expected_numbers) == len(set(expected_numbers)) == repair['expectedMcq'], 'Expected MCQ count disagrees with numbering'
+    expected = set(expected_numbers)
     duplicate_numbers = set()
     for question in extracted['questions']:
         if question['n'] in rows:
@@ -604,7 +621,7 @@ def reviewed_extraction(extracted, repair):
     reviewed = set()
     for number, q in repair['questions'].items():
         n = int(number)
-        assert q['n'] == n and 1 <= n <= repair['expectedMcq'], 'Invalid repaired number'
+        assert q['n'] == n and n in expected, f'Invalid repaired number {number} (n={q.get("n")}, expected={sorted(expected)})'
         assert q['q'].strip() and q['page'] > 0, 'Missing repaired text or source page'
         assert tuple(q['opts']) in (tuple('ab'), tuple('abc'), tuple('abcd')) and all(v.strip() for v in q['opts'].values()), 'Invalid repaired options'
         assert not q.get('explanation') or q['explanation'].strip(), 'Invalid reviewed explanation'
@@ -617,7 +634,10 @@ def reviewed_extraction(extracted, repair):
         n = int(number)
         assert n in reviewed and 0 <= solved.get('answerIndex', -1) < len(rows[n]['opts']), 'Derived answer needs a reviewed question and valid option'
         assert solved.get('explanation', '').strip(), 'Derived answer needs a worked explanation'
-    expected = set(range(1, repair['expectedMcq'] + 1))
+    omitted = repair.get('sourceOmittedNumbers', [])
+    assert all(type(n) is int for n in omitted) and len(omitted) == len(set(omitted)), 'Invalid source omissions'
+    assert set(omitted) <= expected and not set(omitted) & set(rows), 'Source omission contradicts recovered question'
+    expected -= set(omitted)
     if repair.get('partialReview'):
         assert set(rows) <= expected, 'Partial repair has extra questions'
     else:
@@ -637,6 +657,8 @@ def build_additional():
     jao_by_question = {normalized(q['q']): q for q in jao_2026['questions']}
     assert set(repairs) <= {row[0] for row in ALL_GENERAL_PAPERS}, 'Orphan source-reviewed repair paper'
     papers, questions, meta, library = [], [], {}, []
+    source_specs = {row[0]: row for row in ALL_GENERAL_PAPERS}
+    language_catalog = {row['slug']: row for row in MPSC_LANGUAGE_ARCHIVE}
     legacy = legacy_answers()
     for slug, exam, sitting, subject, file in ALL_GENERAL_PAPERS:
         # These recovered 2014 papers are imported below with their source
@@ -646,6 +668,13 @@ def build_additional():
         href = copy_pdf(source_path(slug, file), slug)
         entry = {'id': 'mpsc-group-b-' + slug, 'exam': exam, 'sitting': sitting,
                  'subject': subject, 'sourceHref': href, 'keyHref': None, 'imported': False}
+        duplicate_of = language_catalog.get(slug, {}).get('duplicateOf')
+        if duplicate_of:
+            canonical_slug = duplicate_of.removeprefix('mpsc-group-b-')
+            assert canonical_slug in source_specs and canonical_slug != slug, 'Unknown duplicate source'
+            canonical_file = source_path(canonical_slug, source_specs[canonical_slug][4])
+            assert hashlib.sha256(source_path(slug, file).read_bytes()).digest() == hashlib.sha256(canonical_file.read_bytes()).digest(), 'Duplicate source hash changed'
+            entry['duplicateOf'] = duplicate_of
         if slug in SHARED_POSTS:
             entry['sharedPosts'] = SHARED_POSTS[slug]
         elif slug in LANGUAGE_SHARED_POSTS:
@@ -761,7 +790,9 @@ def build_additional():
                 assert row['n'] > 0 and row.get('q', '').strip() and row.get('page', 0) > 0, 'Invalid manual written prompt'
         extracted, reviewed_numbers = reviewed_extraction(extracted, repairs.get(slug))
         reviewed_written = repairs.get(slug, {}).get('written') or {}
-        language_written_numbers = {q['n'] for q in extracted['questions'] if language_written_prompt(slug, q)}
+        explicit_mcq_numbers = set(repairs.get(slug, {}).get('expectedQuestionNumbers', []))
+        language_written_numbers = {q['n'] for q in extracted['questions']
+                                    if q['n'] not in explicit_mcq_numbers and language_written_prompt(slug, q)}
         manual_language_rows = manual_language.get('questions', []) if manual_language else []
         has_written_section = bool(reviewed_written or extracted['written'] or language_written_numbers or manual_language_rows)
         if not extracted['questions'] and not extracted['written'] and not reviewed_written and not manual_language_rows:
@@ -769,6 +800,11 @@ def build_additional():
         paper_id = entry['id']
         key = verified.get(slug)
         if key:
+            if key.get('sourceSha256'):
+                assert key['sourceSha256'] == extracted['sourceSha256'], 'Verified key source hash changed'
+            if key.get('keySha256'):
+                key_file = ROOT / 'public' / key['href'].split('#', 1)[0].lstrip('/')
+                assert hashlib.sha256(key_file.read_bytes()).hexdigest() == key['keySha256'], 'Verified key PDF hash changed'
             entry['keyHref'] = key['href']
             entry['expectedMcq'] = len(key['answers'])
             if slug == 'archive2325-group-b-combined-general-studies-paper-iii-july-2024':
@@ -1052,6 +1088,8 @@ def build_additional():
                        'paperNumber': 'Paper-I' if slug.endswith('-p1') else 'Paper-II' if slug.endswith('-p2') else 'Paper-III' if slug.endswith('-p3') else subject,
                        'paperSubject': subject, 'year': int(sitting[-4:]), 'sourceFile': href})
         part_questions = [q for q in extracted['questions'] if not ('English' in subject and q.get('part') == 'A')]
+        if duplicate_of:
+            papers[-1]['duplicateOf'] = duplicate_of
         if slug in DIRECT_2019_SLUGS:
             # These unscored 2019-2020 papers are not keyed, but their printed
             # covers state the marking scheme. Register it so the library can
@@ -1292,6 +1330,44 @@ def build_additional():
         if complete_native and slug.startswith(('radio-', 'si-police-')):
             meta[paper_id] = {'marksPerQuestion': 2 if slug == 'si-police-2026-p2' else 1,
                              'durationMinutes': 180 if 'English' in subject else 120, 'negativeMarking': True, 'penaltyFraction': 1/3}
+        # Covers checked during the October 2026 English completion review.
+        checked_english_covers = {
+            'ato-2017-english': (80, 1, 180, 0),
+            'assistant-prof-geography-2017-english': (65, 2, 180, 0),
+            'archive-lang-2015-jr-grade-of-mes-civil-contract-under-dm-rd-2015-general-english-be3fa4bc': (40, 2, 180, 0),
+            'archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63': (40, 2, 180, 0),
+            'archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c': (40, 2, 180, 0),
+            'archive-lang-2025-tourist-officer-tourist-officer-general-english-e4a6e30d': (76, 1, 180, 1 / 3),
+            'archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-b5123dff': (66, 1, 180, 1 / 3),
+            'archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a': (66, 1, 180, 1 / 3),
+            'archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-833ab495': (60, 1, 180, 0.33),
+            'archive-lang-2026-staff-nurse-august-2026-staff-nurse-august-2026-paper-i-general-english-a17a8c48': (60, 1, 180, 0.33),
+        }
+        if slug in checked_english_covers and repairs.get(slug, {}).get('derivedAnswers'):
+            count, marks, minutes, penalty = checked_english_covers[slug]
+            entry['expectedMcq'] = count
+            meta[paper_id] = {'marksPerQuestion': marks, 'durationMinutes': minutes,
+                             'negativeMarking': bool(penalty), 'penaltyFraction': penalty}
+        if 'lecturer-vse-general-e-' in slug and repairs.get(slug, {}).get('written'):
+            meta[paper_id] = {'marksPerQuestion': 1, 'durationMinutes': 180,
+                             'negativeMarking': False, 'penaltyFraction': 0}
+        source_omissions = repairs.get(slug, {}).get('sourceOmittedNumbers', [])
+        if repairs.get(slug, {}).get('expectedQuestionNumbers') is not None:
+            entry['expectedMcq'] = repairs[slug]['expectedMcq']
+        if source_omissions:
+            # Highest numbering is not a count when the printed PDF skips an
+            # item. Preserve question numbers and report the checked source gap.
+            assert entry.get('expectedMcq') == repairs[slug]['expectedMcq'], 'Source omission needs matching coverage total'
+            entry['expectedMcq'] -= len(source_omissions)
+            entry['sourceOmittedNumbers'] = source_omissions
+        source_gap_note = repairs.get(slug, {}).get('sourceGapNote')
+        if source_gap_note:
+            assert source_gap_note.strip() and repairs[slug].get('partialReview'), 'Source gap note needs a partial source review'
+            entry['sourceGapNote'] = source_gap_note
+        source_caution = repairs.get(slug, {}).get('sourceCaution')
+        if source_caution:
+            assert source_caution.strip(), 'Empty source caution'
+            entry['sourceCaution'] = source_caution
         for q in extracted['questions']:
             if q['n'] in language_written_numbers:
                 prompt = q['q'] + ('\n' + '\n'.join(f"{k}. {v}" for k, v in q['opts'].items()) if q.get('opts') else '')
@@ -1302,7 +1378,7 @@ def build_additional():
                                   'sourceNote': 'Written response prompt. Check punctuation, emphasis, blanks and subpart boundaries against the official PDF.',
                                   'source': exam + ' · ' + sitting, 'year': int(sitting[-4:]), 'sourceHref': href + '#page=' + str(q['page'])})
                 continue
-            if 'English' in subject and q.get('part') == 'A' and slug != 'hfw-2026-p1':
+            if 'English' in subject and q.get('part') == 'A' and q['n'] not in explicit_mcq_numbers and slug != 'hfw-2026-p1':
                 questions.append({'id': paper_id + '-conventional-' + str(q['n']), 'paperId': paper_id, 'type': 'descriptive',
                                   'questionNumber': 'A' + str(q['n']), 'subject': 'english', 'studySection': 'english', 'topic': 'written',
                                   'topicLabel': 'General English · written', 'difficulty': 'medium', 'question': q['q'] + '\n' + '\n'.join(f"{k}. {v}" for k,v in q['opts'].items()),
@@ -1314,8 +1390,9 @@ def build_additional():
             matching = [i for i, option in enumerate(opts) if normalized(option) in candidates]
             independent = matching[0] if len(matching) == 1 and not q.get('unscored') else -1
             conventional = ('English' in subject and q.get('part') == 'A'
+                            and q['n'] not in explicit_mcq_numbers
                             and slug != 'hfw-2026-p1')
-            language_written = language_written_prompt(slug, q)
+            language_written = q['n'] not in explicit_mcq_numbers and language_written_prompt(slug, q)
             if language_written:
                 prompt = q['q'] + ('\n' + '\n'.join(f"{k}. {v}" for k, v in q['opts'].items()) if q.get('opts') else '')
                 questions.append({'id': paper_id + '-written-' + str(q['n']), 'paperId': paper_id, 'type': 'descriptive',
@@ -1569,7 +1646,8 @@ def build_additional():
                 if not written_review:
                     continue
             if written_review:
-                assert written_review.get('q', '').strip() and written_review.get('explanation', '').strip() and written_review.get('page', q.get('page', 0)) > 0
+                assert written_review.get('q', '').strip() and written_review.get('page', q.get('page', 0)) > 0
+                assert written_review.get('archiveOnly') or written_review.get('explanation', '').strip(), 'Written guide needs an explanation unless archive-only'
             prompt = written_review['q'] if written_review else q['text'] + ('\n' + '\n'.join(f"{k}. {v}" for k,v in q['subparts'].items()) if q.get('subparts') else '')
             n = q.get('n') or i+1
             questions.append({'id': paper_id + '-written-' + str(n), 'paperId': paper_id, 'type': 'descriptive',

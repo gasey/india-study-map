@@ -23,11 +23,12 @@ import { FilterRail } from './FilterRail';
 import { PracticeView } from './PracticeView';
 import { ExamView } from './ExamView';
 import { GroupBPaperLibrary } from './GroupBPaperLibrary';
+import { EssayTopicArchive } from './EssayTopicArchive';
 import { AnswerSources } from './AnswerSources';
 import { SubjectStudyView } from './SubjectStudyView';
 import { LearningDashboard } from './LearningDashboard';
 import { buildLearningDashboard } from './learningModel';
-import { groupBGeneralQuestions, groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
+import { groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
 import './udc-ldc.css';
 
@@ -48,7 +49,7 @@ import './udc-ldc.css';
 // ============================================
 
 
-type Tab = 'learning' | 'progress' | 'papers' | 'maths' | 'english' | 'computer' | 'browse' | 'practice' | 'exam';
+type Tab = 'learning' | 'progress' | 'papers' | 'maths' | 'english' | 'computer' | 'essays' | 'browse' | 'practice' | 'exam';
 const paperNegativeMarking = {
   ...mpscUdcLdcNegativeMarking,
   ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
@@ -98,8 +99,8 @@ function useStats() {
         written: questions.length - mcq.length,
         answered: mcq.filter(isAnswerable).length,
         official: mcq.filter((q) => q.answerSource === 'official' && isAnswerable(q)).length,
-        derived: mcq.filter((q) => q.answerSource === 'derived').length,
-        transcribed: mcq.filter((q) => q.answerSource === 'transcribed').length,
+        derived: mcq.filter((q) => q.answerSource === 'derived' && isAnswerable(q)).length,
+        transcribed: mcq.filter((q) => q.answerSource === 'transcribed' && isAnswerable(q)).length,
         lowConf: mcq.filter((q) => q.answerSource === 'derived'
           && (q.answerConfidence === 'low' || q.answerConfidence === 'medium')).length,
         unanswerable: mcq.filter((q) => q.figureBased).length,
@@ -170,6 +171,7 @@ function Provenance({ q }: { q: BankQuestion }) {
   if (q.figureBased && !q.imagePath) return <Pill tone="warn">figure lost — unanswerable</Pill>;
   if (q.figureBased) return <Pill tone="muted">options printed as figures</Pill>;
   if (q.answerSource === 'official') return <Pill tone="info">official key</Pill>;
+  if (q.answerIndex < 0 && q.disputeNote) return <Pill tone="warn">held unscored</Pill>;
   if (q.answerIndex < 0) return <Pill tone="muted">no answer yet</Pill>;
   if (q.answerSource === 'transcribed') {
     // A transcription of the printed paper with the answer marked. Not the
@@ -571,9 +573,9 @@ function BrowseView({
           const j = Math.floor(rnd() * (i + 1));
           [qs[i], qs[j]] = [qs[j], qs[i]];
         }
-        return [{ paper: { id: '__flat__', examName: 'All questions', paperNumber: '', post: '', year: 0 }, questions: qs, total: qs.length, mcqTotal: mcq, written, answered, unanswerable, official: 0, derived: 0, transcribed: 0, lowConf: 0, defects: 0 }];
+        return [{ paper: { id: '__flat__', examName: 'All questions', paperNumber: '', post: '', year: 0 }, questions: qs, total: qs.length, mcqTotal: mcq, keyCandidates: qs.filter(q => q.officialAnswerCandidates?.length).length, written, answered, unanswerable, official: 0, derived: 0, transcribed: 0, lowConf: 0, defects: 0 }];
       }
-      return [{ paper: { id: '__flat__', examName: 'All questions', paperNumber: '', post: '', year: 0 }, questions: allQs, total: allQs.length, mcqTotal: mcq, written, answered, unanswerable, official: 0, derived: 0, transcribed: 0, lowConf: 0, defects: 0 }];
+      return [{ paper: { id: '__flat__', examName: 'All questions', paperNumber: '', post: '', year: 0 }, questions: allQs, total: allQs.length, mcqTotal: mcq, keyCandidates: allQs.filter(q => q.officialAnswerCandidates?.length).length, written, answered, unanswerable, official: 0, derived: 0, transcribed: 0, lowConf: 0, defects: 0 }];
     }
 
     if (!shuffle) return grouped;
@@ -666,7 +668,11 @@ function BrowseView({
         const note = r.mcqTotal === 0
           ? 'Written throughout — no multiple choice in this paper'
           : r.answered === 0
-            ? 'No answers yet — MPSC published no key for this sitting'
+            ? r.keyCandidates > 0
+              ? 'Official key available — questions await source review'
+              : r.questions.some((q) => q.sourceReviewed)
+                ? 'Checked questions are held unscored — see the individual cautions'
+                : 'Questions await source review and worked answers'
             : paperNegativeMarking[r.paper.id]
               ? 'Sat under −⅓ negative marking'
               : r.unanswerable > 0
@@ -733,7 +739,7 @@ function BrowseView({
 
             {isOpen && (
               <div style={{ borderTop: '1px solid var(--border, #eee)', padding: '4px 14px 14px' }}>
-                {'sourceFile' in r.paper && r.paper.sourceFile?.startsWith('/papers/group-b/') && (
+                {'sourceFile' in r.paper && r.paper.sourceFile?.startsWith('/papers/') && (
                   <p style={{ fontSize: 12.5, margin: '8px 0' }}>
                     <a href={r.paper.sourceFile} target="_blank" rel="noreferrer">Open printed paper ↗</a>
                   </p>
@@ -910,7 +916,7 @@ function BrowseView({
                               onClick={() => setWriteReveal((p) => ({ ...p, [q.id]: !p[q.id] }))}
                               style={{ ...toolBtn, padding: '4px 10px', fontSize: 12 }}
                             >
-                              {writeReveal[q.id] ? 'Hide model answer' : 'Reveal model answer'}
+                              {writeReveal[q.id] ? 'Hide study guide' : 'Reveal study guide'}
                             </button>
                             {writeReveal[q.id] && (
                               <div style={{ fontSize: 13, opacity: 0.9, marginTop: 6, whiteSpace: 'pre-wrap' }}>
@@ -956,7 +962,7 @@ function BrowseView({
                           options={isMcqQuestion(q) ? q.options : undefined}
                           compact
                         />
-                        {isMcqQuestion(q) && shown.has(q.id) && q.disputeNote && (
+                        {isMcqQuestion(q) && (shown.has(q.id) || !isAnswerable(q)) && q.disputeNote && (
                           <div style={{ fontSize: 12, marginTop: 6, color: 'var(--bad, #c4462f)' }}>
                             {q.disputeNote}
                           </div>
@@ -1093,14 +1099,14 @@ export default function UdcLdcPage() {
         Subject-specific technical papers are excluded, with Computer Knowledge retained for study.
       </p>
       <p style={{ margin: '8px 0 0', fontSize: 12 }}>
-        {groupBGeneralQuestions.length} Group B questions and written prompts are available.
+        {moduleQuestions.length.toLocaleString()} questions and written prompts are available in this module.
         Compare independent solutions with matched MPSC final keys, or use “Answers differ”
         to review disagreements. Open Group B papers for the full general-paper archive and coverage.
       </p>
       </div>
 
       <div className="udc-tabs" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 18 }}>
-        {(['learning', 'progress', 'papers', 'maths', 'english', 'computer', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
+        {(['learning', 'progress', 'papers', 'maths', 'english', 'computer', 'essays', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             className={`udc-tab ${tab === t ? 'is-active' : ''}`}
@@ -1115,7 +1121,7 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t}
+            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
           </button>
         ))}
       </div>
@@ -1158,6 +1164,7 @@ export default function UdcLdcPage() {
         setFiltersOpen(false);
         setTab('browse');
       }} />}
+      {tab === 'essays' && <EssayTopicArchive questions={moduleQuestions} excludedPaperIds={technicalPaperIds} />}
 
       {(tab === 'browse' || tab === 'practice') && (() => {
         // The rail is eight rows of chips and pushes the first question below

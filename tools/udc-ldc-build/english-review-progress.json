@@ -4,10 +4,10 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 6804,
-    "pendingMcq": 2856,
-    "heldReviewed": 348,
-    "pendingWritten": 872
+    "ready": 6969,
+    "pendingMcq": 2676,
+    "heldReviewed": 363,
+    "pendingWritten": 871
   },
   "papers": [
     {
@@ -4549,20 +4549,56 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/chemist2-2020-english.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 80,
-      "ready": 0,
+      "ready": 73,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 7,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenGuides": 1,
+      "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B36",
+          "questionNumber": "B36",
+          "reason": "Held: the underlined word “sounded” is a linking verb, but none of the choices identifies a linking verb; it is not a noun, pronoun, or adverb."
+        },
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B40",
+          "questionNumber": "B40",
+          "reason": "Held: “same” is a demonstrative/pronominal adjective and also falls under the broader limiting-adjective class; options (b) and (d) overlap, so no unique classification is justified."
+        },
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B44",
+          "questionNumber": "B44",
+          "reason": "Held: “worked” is both a principal (lexical) verb and intransitive in this sentence. Options (b) and (c) classify different grammatical properties and are both true."
+        },
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B46",
+          "questionNumber": "B46",
+          "reason": "Held: the scan underlines “guilty,” which is an adjective/object complement, while every choice asks for a kind of verb. If “found” were intended, “incomplete verb” could fit, but that is not the underlined word."
+        },
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B57",
+          "questionNumber": "B57",
+          "reason": "Held: the sentence is assertive and affirmative, and “statement” is also a common label for an assertive sentence; the listed categories overlap."
+        },
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B73",
+          "questionNumber": "B73",
+          "reason": "Held: apathy means lack of interest or feeling; none of the listed options is a synonym (empathy, sympathy, affection, and passion are distinct or contrasting concepts)."
+        },
+        {
+          "id": "mpsc-group-b-chemist2-2020-english-B77",
+          "questionNumber": "B77",
+          "reason": "Held: as printed, “A ______ singers” lacks the required “of,” and both “a group of singers” and “a band of singers” are natural completions if “of” is supplied. The item does not yield one exact answer as printed."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-co-2026-p1",
@@ -5290,20 +5326,61 @@
       "subject": "General English Paper-II",
       "sourceHref": "/papers/group-b/geologist-jun-nov-2020-english-p2.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 100,
-      "ready": 0,
+      "ready": 92,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 100,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 100,
+      "pendingMcq": 0,
+      "heldReviewed": 8,
       "expectedMcq": 100,
       "missingMcq": 0,
       "writtenRecords": 0,
       "writtenGuides": 0,
       "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q14",
+          "questionNumber": "14",
+          "reason": "Both “was waiting” and “had been waiting” can fit “When I arrived, mother ___ for me”; the scan provides no duration or context to distinguish them."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q19",
+          "questionNumber": "19",
+          "reason": "Options (a)/(b) are spelling variants of the same simple-past form (British “practised,” US “practiced”); (c)/(d) likewise duplicate past-perfect variants. No unique answer."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q33",
+          "questionNumber": "33",
+          "reason": "Both “Have you been asked for your opinion by anyone?” and “Have you been asked your opinion by anyone?” are grammatical passive transformations."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q38",
+          "questionNumber": "38",
+          "reason": "The indirect report “asked her to go with him” can be rendered as “Go with me” or “Come with me” depending on the original speaker’s deixis; context is absent."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q54",
+          "questionNumber": "54",
+          "reason": "Both “Show me the place where you put it” and “Show me where you put it” are grammatical combinations of the source sentences."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q67",
+          "questionNumber": "67",
+          "reason": "No option is an exact equivalent of “Do it to the best of your ability.” Option (c) is idiomatic but changes the wording/degree; hold because the question asks for meaning-preserving substitution."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q86",
+          "questionNumber": "86",
+          "reason": "“Ran” can describe the completed past event; “was running” can describe an action in progress when seen. The source gives no context that selects one."
+        },
+        {
+          "id": "mpsc-group-b-geologist-jun-nov-2020-english-p2-Q88",
+          "questionNumber": "88",
+          "reason": "“Place” is grammatical in the printed sentence; “room” is idiomatic for available space, but “no improvement” is also defensible without more context."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",

@@ -307143,6 +307143,3088 @@
           "explanation": "Here “passive” is closest to quiet or inactive; “calm” is the only near-synonym offered. “Active” is its opposite."
         }
       }
+    },
+    "chemist2-2020-english": {
+      "sourceSha256": "9630966b6f6b4b48f00491bad4dea70f9097eb935e54ff1d6b9c9a3273b665ce",
+      "expectedMcq": 80,
+      "reviewedOn": "2026-10-13",
+      "evidence": "Visually checked all eight PDF pages against the extracted 80 MCQs; verified cover (Chemist-II (Archives), February 2020, General English, 3 hours, 100 marks, Section A essay 20 marks, Section B 80 one-mark MCQs). Restored complete directions, source italics/underlining and blank lines, corrected text-layer spacing while preserving printed wording, including apparent source typos where they are not OCR errors. No official MPSC answer key was found for this sitting. Derived answer choices independently from the passage and standard English grammar/usage. Held seven items with missing options, overlapping categories, or a mismatch between the underlined target and choices; no answer is forced for held items.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 2,
+          "part": "B",
+          "q": "The passage is about:",
+          "opts": {
+            "a": "how to practice walking",
+            "b": "walking everyday",
+            "c": "what to learn from the routines of geniuses",
+            "d": "the life of a genius"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "2": {
+          "n": 2,
+          "page": 2,
+          "part": "B",
+          "q": "The writers in the past:",
+          "opts": {
+            "a": "followed a perfect daily routine",
+            "b": "can teach us a lot",
+            "c": "enjoyed the difficulties of life",
+            "d": "wrote a lot in books"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "3": {
+          "n": 3,
+          "page": 2,
+          "part": "B",
+          "q": "In their daily routines:",
+          "opts": {
+            "a": "they read books and enjoyed them",
+            "b": "they had unique life styles",
+            "c": "they did not get any privacy",
+            "d": "they did not mind visitors"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "4": {
+          "n": 4,
+          "page": 2,
+          "part": "B",
+          "q": "Some artists resorted to walking as it was:",
+          "opts": {
+            "a": "helpful in interaction with others",
+            "b": "an exercise",
+            "c": "essential for improving their health",
+            "d": "a creative inspiration"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "5": {
+          "n": 5,
+          "page": 2,
+          "part": "B",
+          "q": "What did Jane Austen like?",
+          "opts": {
+            "a": "squeaky hinge as a warning",
+            "b": "squeaky hinge to be oiled",
+            "c": "to be disturbed",
+            "d": "a visitor while writing"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": "B",
+          "q": "What was the rumoured about Erik Satie’s productivity?",
+          "opts": {
+            "a": "his idea declined if street lamps were off",
+            "b": "couldn’t write without lamps",
+            "c": "his idea declined if lamps were on",
+            "d": "none of these"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "part": "B",
+          "q": "Why do you think Graham Greene hired a secret office?",
+          "opts": {
+            "a": "he needs a workplace",
+            "b": "he need a private space",
+            "c": "he wanted to work uninterrupted",
+            "d": "all of these"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": "B",
+          "q": "How did her limited social life affect Simone de Beauvoir?",
+          "opts": {
+            "a": "she felt very lonely",
+            "b": "she led a simple life",
+            "c": "she could devoted more time on her work",
+            "d": "she led a cluttered life"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": "B",
+          "q": "In what way did T. S. Eliot’s day job help him to write?",
+          "opts": {
+            "a": "found harder to write",
+            "b": "found much easier to write",
+            "c": "it help him write faster",
+            "d": "it help him write accurately"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "10": {
+          "n": 10,
+          "page": 3,
+          "part": "B",
+          "q": "What makes it easier for one to stay on the path?",
+          "opts": {
+            "a": "following a great men’s routine",
+            "b": "limiting one’s social life",
+            "c": "to take an easy path",
+            "d": "taking a lengthy strolls"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "11": {
+          "n": 11,
+          "page": 3,
+          "part": "B",
+          "q": "Find words from the passage which have the same meaning as ‘not filled or covered with unnecessary things’",
+          "opts": {
+            "a": "humble",
+            "b": "uncluttered",
+            "c": "uninterruptedly",
+            "d": "none of these"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "12": {
+          "n": 12,
+          "page": 3,
+          "part": "B",
+          "q": "Find the synonymous word for “excursion” from the passage.",
+          "opts": {
+            "a": "journey",
+            "b": "strolls",
+            "c": "jaunt",
+            "d": "hikes"
+          },
+          "direction": "Read the following passage carefully and answer the questions by choosing the most appropriate option:"
+        },
+        "13": {
+          "n": 13,
+          "page": 3,
+          "part": "B",
+          "q": "I shall *go into* the matter next week.",
+          "opts": {
+            "a": "inquire",
+            "b": "consider",
+            "c": "examine",
+            "d": "take care"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "14": {
+          "n": 14,
+          "page": 3,
+          "part": "B",
+          "q": "It is proper to *keep one’s own counsel* among fools.",
+          "opts": {
+            "a": "pretend",
+            "b": "keep silent",
+            "c": "keep aloof",
+            "d": "to look confused"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "15": {
+          "n": 15,
+          "page": 3,
+          "part": "B",
+          "q": "The man *made a clean breast* of the whole case.",
+          "opts": {
+            "a": "confessed",
+            "b": "keep away himself",
+            "c": "falsifies",
+            "d": "look confused"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "16": {
+          "n": 16,
+          "page": 3,
+          "part": "B",
+          "q": "She *turned a deaf ear* to all my requests.",
+          "opts": {
+            "a": "made false promises",
+            "b": "fulfilled",
+            "c": "act foolishly",
+            "d": "disregarded"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "part": "B",
+          "q": "Whatever you say about this, I *agree to differ* from you.",
+          "opts": {
+            "a": "bid farewell",
+            "b": "disinterested",
+            "c": "be unconvinced",
+            "d": "do not agree"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "part": "B",
+          "q": "The meeting *ended in fiasco*.",
+          "opts": {
+            "a": "came to nothing",
+            "b": "ended in confusion",
+            "c": "was successful",
+            "d": "ended with consensus"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "part": "B",
+          "q": "We don’t like their *hole and corner* methods.",
+          "opts": {
+            "a": "familiar",
+            "b": "spoiled",
+            "c": "secret",
+            "d": "fickle-minded"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "part": "B",
+          "q": "I am sadly lacking in the *gift of the gab*.",
+          "opts": {
+            "a": "an important person",
+            "b": "fluency of speech",
+            "c": "consanguineous brothers",
+            "d": "none of these"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": "B",
+          "q": "When all was lost, the piece of bread in my pocket served as a *shot in the locker*.",
+          "opts": {
+            "a": "main resource",
+            "b": "the last reserve",
+            "c": "sapping life",
+            "d": "all of these"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "22": {
+          "n": 22,
+          "page": 4,
+          "part": "B",
+          "q": "He had to leave his country *bag and baggage*.",
+          "opts": {
+            "a": "with all belongings",
+            "b": "with some properties",
+            "c": "with few belongings",
+            "d": "with many properties"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "part": "B",
+          "q": "The rescue team searched *high and low* for any earthquake survival, but could find no sign of life.",
+          "opts": {
+            "a": "few and far between",
+            "b": "as fast as they could",
+            "c": "with difficulties",
+            "d": "everywhere"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "part": "B",
+          "q": "I have *not known from Adam* — your friend Mr. Robert.",
+          "opts": {
+            "a": "have never heard of",
+            "b": "known from the earliest time",
+            "c": "have no knowledge of",
+            "d": "both (a) & (c)"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": "B",
+          "q": "His bad habits have *upset the apple cart* of his life’s ambition.",
+          "opts": {
+            "a": "cause to quarrel",
+            "b": "to spoil one’s plans",
+            "c": "interlinked",
+            "d": "actively engaged in rebellion"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "part": "B",
+          "q": "The thief was *at large* when police made its vain efforts to catch him.",
+          "opts": {
+            "a": "unrestrained",
+            "b": "without any further movement",
+            "c": "ceased hostile",
+            "d": "not keep up with"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "part": "B",
+          "q": "Who will *bell the cat*?",
+          "opts": {
+            "a": "take the lead with strong determination",
+            "b": "find the cat",
+            "c": "take the lead in a dangerous work",
+            "d": "destroy an illusion"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "part": "B",
+          "q": "Money was the *bone of contention* between the two men.",
+          "opts": {
+            "a": "cause of fear",
+            "b": "cause of weakness",
+            "c": "cause of excitement",
+            "d": "cause of dispute"
+          },
+          "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in italics in the sentences:"
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "part": "B",
+          "q": "Copy this word __________ word.",
+          "opts": {
+            "a": "by",
+            "b": "for",
+            "c": "upon",
+            "d": "against"
+          },
+          "direction": "Fill up the blanks with suitable prepositions from the alternatives given under each sentence:"
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "part": "B",
+          "q": "He enquired __________ her where she lived.",
+          "opts": {
+            "a": "with",
+            "b": "from",
+            "c": "of",
+            "d": "to"
+          },
+          "direction": "Fill up the blanks with suitable prepositions from the alternatives given under each sentence:"
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "part": "B",
+          "q": "The First World War was fought __________ 1914 - 1918",
+          "opts": {
+            "a": "during",
+            "b": "between",
+            "c": "on",
+            "d": "from"
+          },
+          "direction": "Fill up the blanks with suitable prepositions from the alternatives given under each sentence:"
+        },
+        "32": {
+          "n": 32,
+          "page": 4,
+          "part": "B",
+          "q": "“I have no appetite __________ any food just now.”",
+          "opts": {
+            "a": "for",
+            "b": "to",
+            "c": "on",
+            "d": "with"
+          },
+          "direction": "Fill up the blanks with suitable prepositions from the alternatives given under each sentence:"
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": "B",
+          "q": "__target__Honesty__target__ is the best policy.",
+          "opts": {
+            "a": "proper noun",
+            "b": "emphatic pronoun",
+            "c": "abstract noun",
+            "d": "common noun"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "part": "B",
+          "q": "The __target__Red Fort__target__ is made of red stone.",
+          "opts": {
+            "a": "proper noun",
+            "b": "adjective",
+            "c": "adverb",
+            "d": "material noun"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "part": "B",
+          "q": "The __target__jury__target__ consists of nine persons.",
+          "opts": {
+            "a": "demonstrative pronoun",
+            "b": "reciprocal pronoun",
+            "c": "common noun",
+            "d": "collective noun"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "part": "B",
+          "q": "His voice __target__sounded__target__ very hoarse.",
+          "opts": {
+            "a": "abstract noun",
+            "b": "common noun",
+            "c": "emphatic pronoun",
+            "d": "adverb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:",
+          "unscored": true,
+          "explanation": "Held: the underlined word “sounded” is a linking verb, but none of the choices identifies a linking verb; it is not a noun, pronoun, or adverb.",
+          "reviewNote": "Held: the underlined word “sounded” is a linking verb, but none of the choices identifies a linking verb; it is not a noun, pronoun, or adverb."
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "part": "B",
+          "q": "__target__Everyone__target__ answered all the questions.",
+          "opts": {
+            "a": "relative pronoun",
+            "b": "reciprocal pronoun",
+            "c": "distributive pronoun",
+            "d": "none of these"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": "B",
+          "q": "This is the boy __target__whose__target__ pocket was picked.",
+          "opts": {
+            "a": "relative pronoun",
+            "b": "reciprocal pronoun",
+            "c": "distributive pronoun",
+            "d": "interrogative pronoun"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": "B",
+          "q": "The two sons quarrelled with __target__each other__target__.",
+          "opts": {
+            "a": "relative pronoun",
+            "b": "reciprocal pronoun",
+            "c": "distributive pronoun",
+            "d": "verb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": "B",
+          "q": "They go to the __target__same__target__ school.",
+          "opts": {
+            "a": "descriptive adjective",
+            "b": "limiting adjective",
+            "c": "distributive pronoun",
+            "d": "pronominal adjective"
+          },
+          "direction": "Identify the parts of speech of each underlined words:",
+          "unscored": true,
+          "explanation": "Held: “same” is a demonstrative/pronominal adjective and also falls under the broader limiting-adjective class; options (b) and (d) overlap, so no unique classification is justified.",
+          "reviewNote": "Held: “same” is a demonstrative/pronominal adjective and also falls under the broader limiting-adjective class; options (b) and (d) overlap, so no unique classification is justified."
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": "B",
+          "q": "Phawngpui is the __target__highest__target__ mountain in Mizoram.",
+          "opts": {
+            "a": "comparative degree",
+            "b": "positive degree",
+            "c": "superlative degree",
+            "d": "negative degree"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": "B",
+          "q": "I am leaving for Kolkata __target__tomorrow__target__.",
+          "opts": {
+            "a": "adjective",
+            "b": "verb",
+            "c": "emphatic pronoun",
+            "d": "adverb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": "B",
+          "q": "The zoo has got some new animals __target__and__target__ birds.",
+          "opts": {
+            "a": "adjective",
+            "b": "verb",
+            "c": "conjunction",
+            "d": "adverb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": "B",
+          "q": "John __target__worked__target__ hard.",
+          "opts": {
+            "a": "auxiliary verb",
+            "b": "intransitive verb",
+            "c": "principal verb",
+            "d": "strong verb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:",
+          "unscored": true,
+          "explanation": "Held: “worked” is both a principal (lexical) verb and intransitive in this sentence. Options (b) and (c) classify different grammatical properties and are both true.",
+          "reviewNote": "Held: “worked” is both a principal (lexical) verb and intransitive in this sentence. Options (b) and (c) classify different grammatical properties and are both true."
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": "B",
+          "q": "__target__May__target__ God help us.",
+          "opts": {
+            "a": "auxiliary verb",
+            "b": "weak verb",
+            "c": "principal verb",
+            "d": "strong verb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": "B",
+          "q": "The judge found him __target__guilty__target__.",
+          "opts": {
+            "a": "auxiliary verb",
+            "b": "intransitive verb",
+            "c": "defective verb",
+            "d": "incomplete verb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:",
+          "unscored": true,
+          "explanation": "Held: the scan underlines “guilty,” which is an adjective/object complement, while every choice asks for a kind of verb. If “found” were intended, “incomplete verb” could fit, but that is not the underlined word.",
+          "reviewNote": "Held: the scan underlines “guilty,” which is an adjective/object complement, while every choice asks for a kind of verb. If “found” were intended, “incomplete verb” could fit, but that is not the underlined word."
+        },
+        "47": {
+          "n": 47,
+          "page": 6,
+          "part": "B",
+          "q": "The Chief Minister __target__hoisted__target__ the flag.",
+          "opts": {
+            "a": "incomplete verb",
+            "b": "intransitive verb",
+            "c": "principal verb",
+            "d": "transitive verb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "48": {
+          "n": 48,
+          "page": 6,
+          "part": "B",
+          "q": "The earth __target__rotates__target__ on its own axis.",
+          "opts": {
+            "a": "intransitive verb",
+            "b": "defective verb",
+            "c": "transitive verb",
+            "d": "strong verb"
+          },
+          "direction": "Identify the parts of speech of each underlined words:"
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "part": "B",
+          "q": "He not only educated me, but also got me a good job.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence",
+            "d": "None of these"
+          },
+          "direction": "Analyse the given sentences and choose the correct option:"
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "part": "B",
+          "q": "The team that wins the toss usually chooses to bat.",
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "None of these"
+          },
+          "direction": "Analyse the given sentences and choose the correct option:"
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "part": "B",
+          "q": "Let’s take the taxi, for it’s already late.",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence",
+            "d": "None of these"
+          },
+          "direction": "Analyse the given sentences and choose the correct option:"
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "part": "B",
+          "q": "I want to join the medical course.",
+          "opts": {
+            "a": "Complex sentence",
+            "b": "Compound sentence",
+            "c": "Simple sentence",
+            "d": "None of these"
+          },
+          "direction": "Analyse the given sentences and choose the correct option:"
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "part": "B",
+          "q": "This is the boy __target__who broke the window-pane__target__.",
+          "opts": {
+            "a": "Adverbial Clause",
+            "b": "Adjectival Clause",
+            "c": "Noun Clause",
+            "d": "Co-ordinate Clause"
+          },
+          "direction": "Pick the correct clause of the words underlined in the given sentences:"
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "part": "B",
+          "q": "He is so old __target__that he cannot walk even__target__.",
+          "opts": {
+            "a": "Adverb clause of effect",
+            "b": "Adverbial clause of purpose",
+            "c": "Adverbial clause of condition",
+            "d": "Adverbial clause of reason"
+          },
+          "direction": "Pick the correct clause of the words underlined in the given sentences:"
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": "B",
+          "q": "He has been employed on condition __target__that he will stick to this post for at least five years__target__.",
+          "opts": {
+            "a": "Adverb clause of result",
+            "b": "Adverbial clause of purpose",
+            "c": "Adverbial clause of condition",
+            "d": "Adverbial clause of place"
+          },
+          "direction": "Pick the correct clause of the words underlined in the given sentences:"
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": "B",
+          "q": "No one was more worthy of praise than he.",
+          "opts": {
+            "a": "Affirmative",
+            "b": "Statement",
+            "c": "Assertive",
+            "d": "Negative"
+          },
+          "direction": "Identify the concept expressed by each of the sentences by choosing one of the alternatives given below:"
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": "B",
+          "q": "Everybody must admit that he was a great man.",
+          "opts": {
+            "a": "Assertive",
+            "b": "Affirmative",
+            "c": "Exclamatory",
+            "d": "Statement"
+          },
+          "direction": "Identify the concept expressed by each of the sentences by choosing one of the alternatives given below:",
+          "unscored": true,
+          "explanation": "Held: the sentence is assertive and affirmative, and “statement” is also a common label for an assertive sentence; the listed categories overlap.",
+          "reviewNote": "Held: the sentence is assertive and affirmative, and “statement” is also a common label for an assertive sentence; the listed categories overlap."
+        },
+        "58": {
+          "n": 58,
+          "page": 7,
+          "part": "B",
+          "q": "There is nothing wrong with me.",
+          "opts": {
+            "a": "Assertive",
+            "b": "Affirmative",
+            "c": "Negative",
+            "d": "Exclamation"
+          },
+          "direction": "Identify the concept expressed by each of the sentences by choosing one of the alternatives given below:"
+        },
+        "59": {
+          "n": 59,
+          "page": 7,
+          "part": "B",
+          "q": "They laughed at him.",
+          "opts": {
+            "a": "Passive",
+            "b": "Active",
+            "c": "Negative",
+            "d": "Positive"
+          },
+          "direction": "Identify the concept expressed by each of the sentences by choosing one of the alternatives given below:"
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "part": "B",
+          "q": "No other flower is as lovely as the rose.",
+          "opts": {
+            "a": "Superlative",
+            "b": "Comperative",
+            "c": "Negative",
+            "d": "Positive"
+          },
+          "direction": "Identify the concept expressed by each of the sentences by choosing one of the alternatives given below:"
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "part": "B",
+          "q": "We were startled when we heard the explosion.",
+          "opts": {
+            "a": "subordinating conjunction",
+            "b": "correlative conjunction",
+            "c": "coordinating conjunction",
+            "d": "adversative conjunction"
+          },
+          "direction": "Identify the sentence combinations of the following and classify them by using the different methods of synthesis of sentences given in the options:"
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "part": "B",
+          "q": "Though he was poor, yet he was happy.",
+          "opts": {
+            "a": "subordinating conjunction",
+            "b": "cumulative conjunction",
+            "c": "coordinating conjunction",
+            "d": "correlative conjunction"
+          },
+          "direction": "Identify the sentence combinations of the following and classify them by using the different methods of synthesis of sentences given in the options:"
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "part": "B",
+          "q": "The good are blessed while the bad have to suffer.",
+          "opts": {
+            "a": "adversative conjunction",
+            "b": "cumulative conjunction",
+            "c": "illative conjunction",
+            "d": "alternative conjunction"
+          },
+          "direction": "Identify the sentence combinations of the following and classify them by using the different methods of synthesis of sentences given in the options:"
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": "B",
+          "q": "He plays football as well as basketball.",
+          "opts": {
+            "a": "adversative conjunction",
+            "b": "cumulative conjunction",
+            "c": "illative conjunction",
+            "d": "alternative conjunction"
+          },
+          "direction": "Identify the sentence combinations of the following and classify them by using the different methods of synthesis of sentences given in the options:"
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": "B",
+          "q": "Stealing from another man’s writing.",
+          "opts": {
+            "a": "Calligraphy",
+            "b": "Plagiarism",
+            "c": "Piracy",
+            "d": "Expurgate"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": "B",
+          "q": "A place where government records are kept.",
+          "opts": {
+            "a": "Archives",
+            "b": "Museum",
+            "c": "State Library",
+            "d": "Not of these"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": "B",
+          "q": "A statement opens to more than one interpretation.",
+          "opts": {
+            "a": "Ambidextrous",
+            "b": "Anonymous",
+            "c": "Ambiguous",
+            "d": "Platitude"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": "B",
+          "q": "One who retires from society to live a solitary life.",
+          "opts": {
+            "a": "Peddler",
+            "b": "Gypsy",
+            "c": "Miser",
+            "d": "Recluse"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": "B",
+          "q": "Confinement to one place to avoid spread of infection.",
+          "opts": {
+            "a": "Solitary confinement",
+            "b": "Quarantine",
+            "c": "Hermit",
+            "d": "All of these"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "70": {
+          "n": 70,
+          "page": 8,
+          "part": "B",
+          "q": "A work whose writer in unknown.",
+          "opts": {
+            "a": "Posthumous",
+            "b": "Philology",
+            "c": "Ambiguous",
+            "d": "Anonymous"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "part": "B",
+          "q": "Speaking aloud to oneself.",
+          "opts": {
+            "a": "Soliloquy",
+            "b": "Chorus",
+            "c": "Monologue",
+            "d": "None of these"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "part": "B",
+          "q": "The act of killing a human being.",
+          "opts": {
+            "a": "Matricide",
+            "b": "Patricide",
+            "c": "Homicide",
+            "d": "Parricide"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "part": "B",
+          "q": "The synonym of Apathy",
+          "opts": {
+            "a": "Empathy",
+            "b": "Sympathy",
+            "c": "Affection",
+            "d": "Passionate"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:",
+          "unscored": true,
+          "explanation": "Held: apathy means lack of interest or feeling; none of the listed options is a synonym (empathy, sympathy, affection, and passion are distinct or contrasting concepts).",
+          "reviewNote": "Held: apathy means lack of interest or feeling; none of the listed options is a synonym (empathy, sympathy, affection, and passion are distinct or contrasting concepts)."
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "part": "B",
+          "q": "The synonym of Sagacity",
+          "opts": {
+            "a": "Wisdom",
+            "b": "Insight",
+            "c": "Discernment",
+            "d": "All of these"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": "B",
+          "q": "The antonym of Tranquil",
+          "opts": {
+            "a": "Calm",
+            "b": "Quiet",
+            "c": "peaceful",
+            "d": "None of these"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": "B",
+          "q": "The antonym of Ameliorate",
+          "opts": {
+            "a": "Worsen",
+            "b": "Improve",
+            "c": "Advance",
+            "d": "Amend"
+          },
+          "direction": "Choose the correct answer from the four alternatives given in the following:"
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": "B",
+          "q": "A __________ singers.",
+          "opts": {
+            "a": "group",
+            "b": "crowd",
+            "c": "band",
+            "d": "troop"
+          },
+          "direction": "Fill in the blanks with the correct answers from the alternatives given under each sentence:",
+          "unscored": true,
+          "explanation": "Held: as printed, “A ______ singers” lacks the required “of,” and both “a group of singers” and “a band of singers” are natural completions if “of” is supplied. The item does not yield one exact answer as printed.",
+          "reviewNote": "Held: as printed, “A ______ singers” lacks the required “of,” and both “a group of singers” and “a band of singers” are natural completions if “of” is supplied. The item does not yield one exact answer as printed."
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": "B",
+          "q": "A __________ of bees, ants, flies.",
+          "opts": {
+            "a": "swarm",
+            "b": "cluster",
+            "c": "flock",
+            "d": "bevy"
+          },
+          "direction": "Fill in the blanks with the correct answers from the alternatives given under each sentence:"
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": "B",
+          "q": "Horse __________",
+          "opts": {
+            "a": "fawn",
+            "b": "foal",
+            "c": "kid",
+            "d": "leveret"
+          },
+          "direction": "Fill in the blanks with the correct young ones:"
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": "B",
+          "q": "Elephant __________",
+          "opts": {
+            "a": "cub",
+            "b": "colt",
+            "c": "whelp",
+            "d": "calf"
+          },
+          "direction": "Fill in the blanks with the correct young ones:"
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 2,
+          "explanation": "The passage explains what we can learn from the daily routines and habits of great writers and thinkers."
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "The passage says we can learn a lot about living by looking at the lives and practices of people from the past."
+        },
+        "3": {
+          "answerIndex": 1,
+          "explanation": "The passage states that the great people had different, sometimes unique, lifestyles."
+        },
+        "4": {
+          "answerIndex": 3,
+          "explanation": "The passage directly calls walking a source of creative inspiration for many artists."
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "Austen kept a squeaky hinge unoiled so its sound would warn her that someone was approaching."
+        },
+        "6": {
+          "answerIndex": 0,
+          "explanation": "The passage reports a rumour that Satie’s music declined when the street lamps he used for jotting ideas were turned off."
+        },
+        "7": {
+          "answerIndex": 3,
+          "explanation": "Greene rented a secret office to have a private workplace where he could work uninterruptedly; all three reasons fit."
+        },
+        "8": {
+          "answerIndex": 2,
+          "explanation": "The passage says Beauvoir’s deliberately uncluttered, limited social life left room for her work."
+        },
+        "9": {
+          "answerIndex": 1,
+          "explanation": "The passage explicitly says Eliot found writing much easier after taking a bank job."
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "The closing lines say following someone else’s routine may help one stay on the path; among the choices, following great people’s routines is the closest match."
+        },
+        "11": {
+          "answerIndex": 1,
+          "explanation": "“Uncluttered” means free from unnecessary things."
+        },
+        "12": {
+          "answerIndex": 2,
+          "explanation": "A “jaunt” is a short excursion or journey."
+        },
+        "13": {
+          "answerIndex": 2,
+          "explanation": "“Go into a matter” means examine or investigate it."
+        },
+        "14": {
+          "answerIndex": 1,
+          "explanation": "To keep one’s own counsel is to keep one’s thoughts to oneself, especially to remain silent."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "To make a clean breast of something is to confess it fully."
+        },
+        "16": {
+          "answerIndex": 3,
+          "explanation": "To turn a deaf ear is to ignore or disregard a request."
+        },
+        "17": {
+          "answerIndex": 3,
+          "explanation": "“Agree to differ” means accept that one disagrees; option D is the closest printed paraphrase."
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "A fiasco is a complete failure; “came to nothing” is the closest option."
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "“Hole-and-corner” describes secret or underhand methods."
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "The “gift of the gab” means fluency or ease in speaking."
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "A “shot in the locker” is a final reserve or resource kept in readiness."
+        },
+        "22": {
+          "answerIndex": 0,
+          "explanation": "“Bag and baggage” means with all one’s belongings."
+        },
+        "23": {
+          "answerIndex": 3,
+          "explanation": "“High and low” means everywhere or in every possible place."
+        },
+        "24": {
+          "answerIndex": 3,
+          "explanation": "“Not know someone from Adam” means not know them at all; both A and C express that idea."
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "To upset the apple cart is to spoil or disrupt someone’s plans."
+        },
+        "26": {
+          "answerIndex": 0,
+          "explanation": "“At large” means free, not captured or confined."
+        },
+        "27": {
+          "answerIndex": 2,
+          "explanation": "To bell the cat is to undertake a risky task that others avoid."
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "A bone of contention is a cause of disagreement."
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "The fixed expression is “word by word.”"
+        },
+        "30": {
+          "answerIndex": 2,
+          "explanation": "The standard construction is “enquire of someone.”"
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "“During 1914–1918” is the grammatical option for locating the war within that period."
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "The standard collocation is “appetite for” something."
+        },
+        "33": {
+          "answerIndex": 2,
+          "explanation": "“Honesty” names an abstract quality, so it is an abstract noun."
+        },
+        "34": {
+          "answerIndex": 0,
+          "explanation": "“Red Fort” is the proper name of a particular fort."
+        },
+        "35": {
+          "answerIndex": 3,
+          "explanation": "“Jury” names a group considered as a unit, so it is a collective noun."
+        },
+        "37": {
+          "answerIndex": 2,
+          "explanation": "“Everyone” refers distributively to each person in a group; it is an indefinite/distributive pronoun in the given classification."
+        },
+        "38": {
+          "answerIndex": 0,
+          "explanation": "“Whose” introduces the relative clause and refers back to “the boy.”"
+        },
+        "39": {
+          "answerIndex": 1,
+          "explanation": "“Each other” expresses reciprocal action between the two sons."
+        },
+        "41": {
+          "answerIndex": 2,
+          "explanation": "“Highest” is the superlative form of the adjective “high.”"
+        },
+        "42": {
+          "answerIndex": 3,
+          "explanation": "“Tomorrow” modifies the time of leaving, so it functions as an adverb."
+        },
+        "43": {
+          "answerIndex": 2,
+          "explanation": "“And” joins the nouns “animals” and “birds,” so it is a conjunction."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "“May” is a modal auxiliary verb expressing a wish or prayer."
+        },
+        "47": {
+          "answerIndex": 3,
+          "explanation": "“Hoisted” has the direct object “the flag,” making it transitive."
+        },
+        "48": {
+          "answerIndex": 0,
+          "explanation": "“Rotates” has no direct object here, so it is intransitive."
+        },
+        "49": {
+          "answerIndex": 2,
+          "explanation": "The sentence has one independent clause with a compound predicate (“educated” and “got”); it is simple, not compound."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "The relative clause “that wins the toss” depends on the main clause, so the sentence is complex."
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "“For” joins two independent clauses, so the sentence is compound."
+        },
+        "52": {
+          "answerIndex": 2,
+          "explanation": "There is one independent clause and no finite subordinate clause, so it is simple."
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "“Who broke the window-pane” modifies “boy,” so it is an adjectival (relative) clause."
+        },
+        "54": {
+          "answerIndex": 0,
+          "explanation": "The “so … that” construction gives the result/effect: he is so old that he cannot walk."
+        },
+        "55": {
+          "answerIndex": 2,
+          "explanation": "The clause introduced by “on condition that” states the condition of employment."
+        },
+        "56": {
+          "answerIndex": 3,
+          "explanation": "“No one” makes the statement grammatically negative, despite its comparative sense."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "“Nothing” makes the statement negative."
+        },
+        "59": {
+          "answerIndex": 1,
+          "explanation": "The subject “They” performs the action, so the sentence is active."
+        },
+        "60": {
+          "answerIndex": 3,
+          "explanation": "“As lovely as” is the positive-degree comparison pattern."
+        },
+        "61": {
+          "answerIndex": 0,
+          "explanation": "“When” introduces a dependent time clause, so it is a subordinating conjunction."
+        },
+        "62": {
+          "answerIndex": 3,
+          "explanation": "“Though … yet” is presented as a correlative pair in the listed classification."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "“While” contrasts the good with the bad, giving an adversative relation."
+        },
+        "64": {
+          "answerIndex": 1,
+          "explanation": "“As well as” adds a second activity, so it is cumulative."
+        },
+        "65": {
+          "answerIndex": 1,
+          "explanation": "Using another writer’s words or ideas as one’s own is plagiarism."
+        },
+        "66": {
+          "answerIndex": 0,
+          "explanation": "An archive is a place or collection where historical and government records are preserved."
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "A statement that permits more than one interpretation is ambiguous."
+        },
+        "68": {
+          "answerIndex": 3,
+          "explanation": "A recluse withdraws from society and lives in solitude."
+        },
+        "69": {
+          "answerIndex": 1,
+          "explanation": "Quarantine separates people or animals to prevent an infectious disease from spreading."
+        },
+        "70": {
+          "answerIndex": 3,
+          "explanation": "A work with an unknown writer is anonymous."
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "A soliloquy is speech spoken aloud by a person alone, often expressing their thoughts."
+        },
+        "72": {
+          "answerIndex": 2,
+          "explanation": "Homicide is the killing of one human being by another."
+        },
+        "74": {
+          "answerIndex": 3,
+          "explanation": "Sagacity means sound judgment or wisdom; insight and discernment are also close synonyms, so “all of these” fits."
+        },
+        "75": {
+          "answerIndex": 3,
+          "explanation": "“Tranquil” means calm, quiet, or peaceful; all listed substantive choices are synonyms, so none is its antonym."
+        },
+        "76": {
+          "answerIndex": 0,
+          "explanation": "To ameliorate is to improve; to worsen is the opposite."
+        },
+        "78": {
+          "answerIndex": 0,
+          "explanation": "A group of bees is called a swarm; “swarm” also fits ants and flies."
+        },
+        "79": {
+          "answerIndex": 1,
+          "explanation": "A young horse is a foal."
+        },
+        "80": {
+          "answerIndex": 3,
+          "explanation": "A young elephant is a calf."
+        }
+      },
+      "officialKey": "none found",
+      "written": {
+        "1": {
+          "page": 1,
+          "questionNumber": "A",
+          "q": "Write an essay on “The effects of plastic bags on the environment” airing your views on the initiative taken by the Aizawl Municipal Corporation (AMC) in making Aizawl a plastic free City in about 300 words. (20)",
+          "explanation": "A complete response should explain how plastic bags persist in the environment, harm animals and waterways, and contribute to pollution. It should discuss the Aizawl Municipal Corporation initiative, give a clear view on its benefits and practical challenges, and use a coherent essay structure of about 300 words."
+        }
+      }
+    },
+    "geologist-jun-nov-2020-english-p2": {
+      "sourceSha256": "22cfe81d805b8ba6306fbeefd815623c024bb4bd545206b389a42ee7932fd0d2",
+      "expectedMcq": 100,
+      "reviewedOn": "2026-10-13",
+      "evidence": "All 100 MCQs were compared against the 9-page source PDF (cover states General English Paper-II, 2 hours, 100 marks, equal 1 mark each). Corrected the extracted cloze passage stems for Q91–100 from the printed passage. Source emphasis and answer blanks use __target__ markers. Items with duplicate valid forms or insufficient context are held explicitly. No official answer key was located for comparison.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "helped her",
+            "b": "bothered her",
+            "c": "avoided her",
+            "d": "shook her hands"
+          },
+          "q": "If you __gave__ your neighbour __a hand__ with her groceries, you __target__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "loaned it to his friends",
+            "b": "kept it for the future",
+            "c": "acquired it for keepsake",
+            "d": "no longer has it"
+          },
+          "q": "If your father __got rid of__ his old hat, he __target__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "disliked hard work",
+            "b": "was lethargic",
+            "c": "worked hard",
+            "d": "was a"
+          },
+          "q": "Alice __target__. She __burned herself out__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "is modern",
+            "b": "is archaic",
+            "c": "is old",
+            "d": "is used"
+          },
+          "q": "Everything in this house __is up to date.__",
+          "topic": "Vocabulary and idioms"
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "demonstrate",
+            "b": "negotiate aggressively",
+            "c": "treat others badly",
+            "d": "sell automobile"
+          },
+          "q": "To settle the matter you must __wheel and deal__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "6": {
+          "n": 6,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "apologized for not being able to sky dive",
+            "b": "decided not to sky dive because he is afraid",
+            "c": "refused to sky dive",
+            "d": "agreed to sky dive"
+          },
+          "q": "He __chickened out__ of sky diving.",
+          "topic": "Vocabulary and idioms"
+        },
+        "7": {
+          "n": 7,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "get angry with",
+            "b": "try to injure",
+            "c": "try to get money out of",
+            "d": "be upset with"
+          },
+          "q": "Don’t __put the bite on__ him. He has no money at all.",
+          "topic": "Vocabulary and idioms"
+        },
+        "8": {
+          "n": 8,
+          "page": 1,
+          "part": null,
+          "opts": {
+            "a": "be anxious and worried",
+            "b": "be very vengeful",
+            "c": "be nonchalant",
+            "d": "be infuriated"
+          },
+          "q": "My parents will __have kittens__ if I am not home before curfew.",
+          "topic": "Vocabulary and idioms"
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "withdraw to",
+            "b": "advancing from",
+            "c": "going away from",
+            "d": "travelling to"
+          },
+          "q": "We are __leaving for__ Paris next week.",
+          "topic": "Vocabulary and idioms"
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "is excited about her work",
+            "b": "has done her work",
+            "c": "does not have much to do",
+            "d": "has a lot to do"
+          },
+          "q": "She is __up to her ears__ with work. She __target__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "has gone.",
+            "b": "is going",
+            "c": "goes",
+            "d": "was going"
+          },
+          "q": "He __target__ to the gym every week.",
+          "topic": "Grammar and usage"
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "am",
+            "b": "do",
+            "c": "have",
+            "d": "may"
+          },
+          "q": "Who speaks French in your family? – I __target__.",
+          "topic": "Grammar and usage"
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "do … learned",
+            "b": "have … learn",
+            "c": "have … learning",
+            "d": "have … been learning"
+          },
+          "q": "How long __target__ you __target__ Spanish?",
+          "topic": "Grammar and usage"
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "was waiting",
+            "b": "is waiting",
+            "c": "had waited",
+            "d": "had been waiting"
+          },
+          "q": "When I arrived, mother __target__ for me.",
+          "topic": "Grammar and usage",
+          "holdReason": "Both “was waiting” and “had been waiting” can fit “When I arrived, mother ___ for me”; the scan provides no duration or context to distinguish them.",
+          "unscored": true,
+          "reviewNote": "Both “was waiting” and “had been waiting” can fit “When I arrived, mother ___ for me”; the scan provides no duration or context to distinguish them.",
+          "explanation": "Both “was waiting” and “had been waiting” can fit “When I arrived, mother ___ for me”; the scan provides no duration or context to distinguish them."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "is",
+            "b": "have",
+            "c": "are",
+            "d": "was"
+          },
+          "q": "The number of car accidents __target__ increasing every year.",
+          "topic": "Grammar and usage"
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "are not",
+            "b": "is not",
+            "c": "have not",
+            "d": "has not"
+          },
+          "q": "Can I borrow your scissors? Mine __target__ sharp enough.",
+          "topic": "Grammar and usage"
+        },
+        "17": {
+          "n": 17,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "drive",
+            "b": "driving",
+            "c": "to driving",
+            "d": "go drive"
+          },
+          "q": "Do you like __target__?",
+          "topic": "Grammar and usage"
+        },
+        "18": {
+          "n": 18,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "should",
+            "b": "will",
+            "c": "shall",
+            "d": "would"
+          },
+          "q": "He __target__ go to school daily by bus in his school days.",
+          "topic": "Grammar and usage"
+        },
+        "19": {
+          "n": 19,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "practised",
+            "b": "practiced",
+            "c": "had practised",
+            "d": "had practiced"
+          },
+          "q": "After she __target__ dancing, she went to bed.",
+          "topic": "Grammar and usage",
+          "holdReason": "Options (a)/(b) are spelling variants of the same simple-past form (British “practised,” US “practiced”); (c)/(d) likewise duplicate past-perfect variants. No unique answer.",
+          "unscored": true,
+          "reviewNote": "Options (a)/(b) are spelling variants of the same simple-past form (British “practised,” US “practiced”); (c)/(d) likewise duplicate past-perfect variants. No unique answer.",
+          "explanation": "Options (a)/(b) are spelling variants of the same simple-past form (British “practised,” US “practiced”); (c)/(d) likewise duplicate past-perfect variants. No unique answer."
+        },
+        "20": {
+          "n": 20,
+          "page": 2,
+          "part": null,
+          "opts": {
+            "a": "was",
+            "b": "were",
+            "c": "have been",
+            "d": "had been"
+          },
+          "q": "If I __target__ you I would buy the house.",
+          "topic": "Grammar and usage"
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "because",
+            "b": "because of",
+            "c": "for",
+            "d": "toward"
+          },
+          "q": "I did not buy it __target__ the price.",
+          "topic": "Grammar and usage"
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "so",
+            "b": "such",
+            "c": "such a",
+            "d": "much"
+          },
+          "q": "She always looks good. She wears __target__ nice clothes.",
+          "topic": "Grammar and usage"
+        },
+        "23": {
+          "n": 23,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "either … or",
+            "b": "neither … nor",
+            "c": "whether … or",
+            "d": "neither … or"
+          },
+          "q": "Some people can __target__ speak __target__ write accurately.",
+          "topic": "Grammar and usage"
+        },
+        "24": {
+          "n": 24,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "as if",
+            "b": "unless",
+            "c": "until",
+            "d": "although"
+          },
+          "q": "It looked dark and heavy __target__ it was going to rain.",
+          "topic": "Grammar and usage"
+        },
+        "25": {
+          "n": 25,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "in case",
+            "b": "since",
+            "c": "now that",
+            "d": "so that"
+          },
+          "q": "He turned off the radio __target__ he could study.",
+          "topic": "Grammar and usage"
+        },
+        "26": {
+          "n": 26,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "to",
+            "b": "for",
+            "c": "from",
+            "d": "at"
+          },
+          "q": "I cannot distinguish one twin __target__ the other.",
+          "topic": "Grammar and usage"
+        },
+        "27": {
+          "n": 27,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "to",
+            "b": "on",
+            "c": "by",
+            "d": "at"
+          },
+          "q": "What he said is contrary __target__ common sense.",
+          "topic": "Grammar and usage"
+        },
+        "28": {
+          "n": 28,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "in",
+            "b": "on",
+            "c": "at",
+            "d": "of"
+          },
+          "q": "The accused woman was innocent __target__ the crime with which she was charged.",
+          "topic": "Grammar and usage"
+        },
+        "29": {
+          "n": 29,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "like",
+            "b": "as",
+            "c": "at",
+            "d": "in"
+          },
+          "q": "Did you notice that the son walks __target__ his father?",
+          "topic": "Grammar and usage"
+        },
+        "30": {
+          "n": 30,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "in",
+            "b": "of",
+            "c": "on",
+            "d": "by"
+          },
+          "q": "The albatross is the largest __target__ the web-footed birds.",
+          "topic": "Grammar and usage"
+        },
+        "31": {
+          "n": 31,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "That play had been written by him",
+            "b": "That play was written by him",
+            "c": "That play is written by him",
+            "d": "That play has been written by him"
+          },
+          "q": "He wrote that play.",
+          "topic": "Grammar and usage"
+        },
+        "32": {
+          "n": 32,
+          "page": 3,
+          "part": null,
+          "opts": {
+            "a": "The door will have been opened by her",
+            "b": "The door will have been open by her",
+            "c": "The door will be open by her",
+            "d": "The door will be opened by her"
+          },
+          "q": "She will open the door.",
+          "topic": "Grammar and usage"
+        },
+        "33": {
+          "n": 33,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "Had you been asked for your opinion ever?",
+            "b": "Have you been asked for your opinion by anyone?",
+            "c": "Have your opinion been asked by anyone?",
+            "d": "Have you been asked your opinion by anyone?"
+          },
+          "q": "Has anyone ever asked you for your opinion?",
+          "topic": "Grammar and usage",
+          "holdReason": "Both “Have you been asked for your opinion by anyone?” and “Have you been asked your opinion by anyone?” are grammatical passive transformations.",
+          "unscored": true,
+          "reviewNote": "Both “Have you been asked for your opinion by anyone?” and “Have you been asked your opinion by anyone?” are grammatical passive transformations.",
+          "explanation": "Both “Have you been asked for your opinion by anyone?” and “Have you been asked your opinion by anyone?” are grammatical passive transformations."
+        },
+        "34": {
+          "n": 34,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "Identity badges must be worne by all visitors",
+            "b": "Identity badges must be worned by all visitors",
+            "c": "Identity badges must be worn by all visitors",
+            "d": "Identity badges must be wear by all visitors"
+          },
+          "q": "All visitors must wear identity badges.",
+          "topic": "Grammar and usage"
+        },
+        "35": {
+          "n": 35,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "A computer is used to do that job nowadays",
+            "b": "A computer was used to do that job nowadays",
+            "c": "Nowadays a computer has been used to do that job",
+            "d": "Nowadays a computer is being used to do that job"
+          },
+          "q": "They use a computer to do that job nowadays.",
+          "topic": "Grammar and usage"
+        },
+        "36": {
+          "n": 36,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "She proposed that they should wait for the Chief Guest",
+            "b": "She addressed that they should wait for the Chief Guest",
+            "c": "She asked that they should wait for the Chief Guest",
+            "d": "She requested that they should wait for the Chief Guest"
+          },
+          "q": "She said, “Let us wait for the Chief Guest.”",
+          "topic": "Grammar and usage"
+        },
+        "37": {
+          "n": 37,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "The father asked his son to take off his cap",
+            "b": "The father ordered the son to take off his cap",
+            "c": "The father proposed the son take off his cap",
+            "d": "The father inquired the son to take off his cap"
+          },
+          "q": "“Take off your cap,” the father said to the son.",
+          "topic": "Grammar and usage"
+        },
+        "38": {
+          "n": 38,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "He said to her, “Go with me.”",
+            "b": "He said to her, “Come to me.”",
+            "c": "He said to her, “Come along.”",
+            "d": "He said to her, “Come with me.”"
+          },
+          "q": "He asked her to go with him.",
+          "topic": "Grammar and usage",
+          "holdReason": "The indirect report “asked her to go with him” can be rendered as “Go with me” or “Come with me” depending on the original speaker’s deixis; context is absent.",
+          "unscored": true,
+          "reviewNote": "The indirect report “asked her to go with him” can be rendered as “Go with me” or “Come with me” depending on the original speaker’s deixis; context is absent.",
+          "explanation": "The indirect report “asked her to go with him” can be rendered as “Go with me” or “Come with me” depending on the original speaker’s deixis; context is absent."
+        },
+        "39": {
+          "n": 39,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "He asked if his name is John",
+            "b": "He asked John what his name was",
+            "c": "He inquired whether his name was not John",
+            "d": "He demanded of John what his name was"
+          },
+          "q": "He said to him, “Is not your name John?”",
+          "topic": "Grammar and usage"
+        },
+        "40": {
+          "n": 40,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "He told her that it was a beautiful day",
+            "b": "He exclaimed that it was a beautiful day",
+            "c": "He happily said that it was a beautiful day",
+            "d": "He suggested that it was a beautiful day"
+          },
+          "q": "He said to her, “What a beautiful day!”",
+          "topic": "Grammar and usage"
+        },
+        "41": {
+          "n": 41,
+          "page": 4,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "What is true cannot perish.",
+          "topic": "Grammar and usage"
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "Do not desire without deserving.",
+          "topic": "Grammar and usage"
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "He was not only fined but also sent to prison.",
+          "topic": "Grammar and usage"
+        },
+        "44": {
+          "n": 44,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "He agreed that he would teach her.",
+          "topic": "Grammar and usage"
+        },
+        "45": {
+          "n": 45,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "I have no friend to talk to.",
+          "topic": "Grammar and usage"
+        },
+        "46": {
+          "n": 46,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "You must work hard or you will not succeed.",
+          "topic": "Grammar and usage"
+        },
+        "47": {
+          "n": 47,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "If you do not hurry you will miss the programme.",
+          "topic": "Grammar and usage"
+        },
+        "48": {
+          "n": 48,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "We desire to reap, therefore we sow.",
+          "topic": "Grammar and usage"
+        },
+        "49": {
+          "n": 49,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "Come when you like.",
+          "topic": "Grammar and usage"
+        },
+        "50": {
+          "n": 50,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Simple sentence",
+            "b": "Complex sentence",
+            "c": "Compound sentence",
+            "d": "Compound-complex sentence"
+          },
+          "q": "I knew where I could find him.",
+          "topic": "Grammar and usage"
+        },
+        "51": {
+          "n": 51,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "I am sure that she is correct",
+            "b": "I am sure of it that she is correct",
+            "c": "I am sure if she is correct",
+            "d": "I am sure so she is correct"
+          },
+          "q": "She is correct. I am sure of it.",
+          "topic": "Grammar and usage"
+        },
+        "52": {
+          "n": 52,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "He came late without the reason",
+            "b": "He came late telling no reason",
+            "c": "I cannot tell reason why he came late",
+            "d": "I cannot tell why he came late"
+          },
+          "q": "He came late. I cannot tell the reason.",
+          "topic": "Grammar and usage"
+        },
+        "53": {
+          "n": 53,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "He is slow to be sure",
+            "b": "He is slow so he is sure",
+            "c": "He is slow but he is sure",
+            "d": "He is slow if sure"
+          },
+          "q": "He is slow. He is sure.",
+          "topic": "Grammar and usage"
+        },
+        "54": {
+          "n": 54,
+          "page": 5,
+          "part": null,
+          "opts": {
+            "a": "Show me somewhere you put it",
+            "b": "Show me the place where you put it",
+            "c": "Show the place where you put it",
+            "d": "Show me where you put it"
+          },
+          "q": "You put it somewhere. Show me the place.",
+          "topic": "Grammar and usage",
+          "holdReason": "Both “Show me the place where you put it” and “Show me where you put it” are grammatical combinations of the source sentences.",
+          "unscored": true,
+          "reviewNote": "Both “Show me the place where you put it” and “Show me where you put it” are grammatical combinations of the source sentences.",
+          "explanation": "Both “Show me the place where you put it” and “Show me where you put it” are grammatical combinations of the source sentences."
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "I am as strong as you are",
+            "b": "I am strong like you",
+            "c": "I am equally strong to you",
+            "d": "I am strong as you are"
+          },
+          "q": "You are strong. I am equally strong.",
+          "topic": "Grammar and usage"
+        },
+        "56": {
+          "n": 56,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "Tell me what have you done",
+            "b": "Tell me what you have done",
+            "c": "Tell me you have done what",
+            "d": "Tell what you have done"
+          },
+          "q": "What have you done? Tell me.",
+          "topic": "Grammar and usage"
+        },
+        "57": {
+          "n": 57,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "We rang the bell we heard no answer again",
+            "b": "We rang the bell again we heard no answer",
+            "c": "Hearing no answer again the bell we rang",
+            "d": "Hearing no answer we rang the bell again"
+          },
+          "q": "We heard no answer. We rang the bell again.",
+          "topic": "Grammar and usage"
+        },
+        "58": {
+          "n": 58,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "She is beautiful but smart also",
+            "b": "She is beautiful so also she is smart",
+            "c": "She is not only beautiful but also smart",
+            "d": "She is not beautiful only but smart also"
+          },
+          "q": "She is beautiful. She is smart also.",
+          "topic": "Grammar and usage"
+        },
+        "59": {
+          "n": 59,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "He is very sick to work",
+            "b": "He is so sick to work",
+            "c": "He is too sick to work",
+            "d": "He is much sick to work"
+          },
+          "q": "He is very sick. He cannot work.",
+          "topic": "Grammar and usage"
+        },
+        "60": {
+          "n": 60,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "The good deeds in life live after men they do them",
+            "b": "The good deeds done in life by them live after men",
+            "c": "The good deeds live after them who do them in life",
+            "d": "The good deeds done by men in life live after them"
+          },
+          "q": "The good deeds live after men. They do them in life.",
+          "topic": "Grammar and usage"
+        },
+        "61": {
+          "n": 61,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "Our camping is in this place",
+            "b": "Place of our camping is here",
+            "c": "This is the place where we camp",
+            "d": "This is the place of our camping"
+          },
+          "q": "This is our camping place.",
+          "topic": "Grammar and usage"
+        },
+        "62": {
+          "n": 62,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "He said of his innocence",
+            "b": "He declared that he was innocent",
+            "c": "He declared that he is innocent",
+            "d": "He declares of his innocent"
+          },
+          "q": "He said that he was innocent.",
+          "topic": "Grammar and usage"
+        },
+        "63": {
+          "n": 63,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "Tell what is true",
+            "b": "Tell only true",
+            "c": "Truth stands",
+            "d": "Truth is important to tell"
+          },
+          "q": "Tell the truth",
+          "topic": "Grammar and usage"
+        },
+        "64": {
+          "n": 64,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "He was the first who arrived",
+            "b": "He arrived the first",
+            "c": "His arrival was the first",
+            "d": "The first arrival was he"
+          },
+          "q": "He was the first to arrive.",
+          "topic": "Grammar and usage"
+        },
+        "65": {
+          "n": 65,
+          "page": 6,
+          "part": null,
+          "opts": {
+            "a": "We should be dead if we did not win",
+            "b": "We must won or died",
+            "c": "We shall win if not to die",
+            "d": "We will win or die"
+          },
+          "q": "If we do not win, we shall die.",
+          "topic": "Grammar and usage"
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "Iron is useful more than all metals",
+            "b": "Iron is the most useful of all metals",
+            "c": "Iron is the more useful of all metals",
+            "d": "Iron is most useful than any other metal"
+          },
+          "q": "No other metal is as useful as iron.",
+          "topic": "Grammar and usage"
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "Do it the best as you can",
+            "b": "Do it best as that you can",
+            "c": "Do it as best as you can",
+            "d": "Do it as best that you can"
+          },
+          "q": "Do it to the best of your ability.",
+          "topic": "Grammar and usage",
+          "holdReason": "No option is an exact equivalent of “Do it to the best of your ability.” Option (c) is idiomatic but changes the wording/degree; hold because the question asks for meaning-preserving substitution.",
+          "unscored": true,
+          "reviewNote": "No option is an exact equivalent of “Do it to the best of your ability.” Option (c) is idiomatic but changes the wording/degree; hold because the question asks for meaning-preserving substitution.",
+          "explanation": "No option is an exact equivalent of “Do it to the best of your ability.” Option (c) is idiomatic but changes the wording/degree; hold because the question asks for meaning-preserving substitution."
+        },
+        "68": {
+          "n": 68,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "He paused and saw the danger",
+            "b": "When he saw the danger he paused",
+            "c": "The danger he saw makes him paused",
+            "d": "He paused to see the danger"
+          },
+          "q": "He saw the danger and paused.",
+          "topic": "Grammar and usage"
+        },
+        "69": {
+          "n": 69,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "He was offered a chair",
+            "b": "A chair is offered him",
+            "c": "He had been offered a chair",
+            "d": "A chair will be offered him"
+          },
+          "q": "I offered him a chair.",
+          "topic": "Grammar and usage"
+        },
+        "70": {
+          "n": 70,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "I am being known to them",
+            "b": "I was known to them",
+            "c": "I am known to them",
+            "d": "I have known to them"
+          },
+          "q": "They know me.",
+          "topic": "Grammar and usage"
+        },
+        "71": {
+          "n": 71,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "moderation",
+            "b": "indulgence",
+            "c": "extravagance",
+            "d": "appeasement"
+          },
+          "q": "__Temperance__ in eating is conducive to health.",
+          "topic": "Vocabulary and idioms"
+        },
+        "72": {
+          "n": 72,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "theoretically",
+            "b": "intuitively",
+            "c": "conjecturally",
+            "d": "verifiably"
+          },
+          "q": "A scientist generally carries out his investigation __empirically__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "73": {
+          "n": 73,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "hate for mankind",
+            "b": "love for mankind",
+            "c": "love for womankind",
+            "d": "hate for womankind"
+          },
+          "q": "He is known for his __misogynism__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "74": {
+          "n": 74,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "tendency",
+            "b": "tangency",
+            "c": "antipathy",
+            "d": "aversion"
+          },
+          "q": "He has a __propensity__ for getting into debt.",
+          "topic": "Vocabulary and idioms"
+        },
+        "75": {
+          "n": 75,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "quarrelsome",
+            "b": "foolish",
+            "c": "talkative",
+            "d": "domineering"
+          },
+          "q": "No one will invite her to a tea party because she is so __garrulous__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "76": {
+          "n": 76,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "sustain",
+            "b": "uphold",
+            "c": "devise",
+            "d": "wreck"
+          },
+          "q": "Raise is to lift as __raze__ is to __target__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "77": {
+          "n": 77,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "conspiracy",
+            "b": "candor",
+            "c": "conceited",
+            "d": "fealty"
+          },
+          "q": "Collision is to crash as __collusion__ is to __target__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "78": {
+          "n": 78,
+          "page": 7,
+          "part": null,
+          "opts": {
+            "a": "thesis",
+            "b": "poem",
+            "c": "cavort",
+            "d": "theme"
+          },
+          "q": "__Ballad__ is to __target__ as ballet is to dance.",
+          "topic": "Vocabulary and idioms"
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "rancor",
+            "b": "animus",
+            "c": "friendship",
+            "d": "melee"
+          },
+          "q": "__Amity__ is to __target__ as enmity is to hostility",
+          "topic": "Vocabulary and idioms"
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "assign",
+            "b": "quash",
+            "c": "retract",
+            "d": "abrogate"
+          },
+          "q": "A lot is to quantity as __allot__ is to __target__.",
+          "topic": "Vocabulary and idioms"
+        },
+        "81": {
+          "n": 81,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "ride to walk",
+            "b": "riding than walking",
+            "c": "riding to walking",
+            "d": "no improvement"
+          },
+          "q": "I prefer __to ride than to walk__.",
+          "topic": "Sentence correction"
+        },
+        "82": {
+          "n": 82,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "work hard",
+            "b": "work hardly",
+            "c": "hard working",
+            "d": "no improvement"
+          },
+          "q": "He is used __to hard work__.",
+          "topic": "Sentence correction"
+        },
+        "83": {
+          "n": 83,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "Hardly had he entered",
+            "b": "Hardly he entered",
+            "c": "He hardly had entered",
+            "d": "no improvement"
+          },
+          "q": "__Hardly he had entered__ the station, when the train whistled.",
+          "topic": "Sentence correction"
+        },
+        "84": {
+          "n": 84,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "is cooler to",
+            "b": "is cooler than",
+            "c": "is cooler than that of",
+            "d": "no improvement"
+          },
+          "q": "The climate of Meghalaya __is cooler than__ Haryana.",
+          "topic": "Sentence correction"
+        },
+        "85": {
+          "n": 85,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "cope up to",
+            "b": "cope by",
+            "c": "cope with",
+            "d": "no improvement"
+          },
+          "q": "She could not __cope up with__ the heavy rush.",
+          "topic": "Sentence correction"
+        },
+        "86": {
+          "n": 86,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "has run",
+            "b": "had run",
+            "c": "was running",
+            "d": "no improvement"
+          },
+          "q": "When we saw him last, he __ran__ to catch a bus.",
+          "topic": "Sentence correction",
+          "holdReason": "“Ran” can describe the completed past event; “was running” can describe an action in progress when seen. The source gives no context that selects one.",
+          "unscored": true,
+          "reviewNote": "“Ran” can describe the completed past event; “was running” can describe an action in progress when seen. The source gives no context that selects one.",
+          "explanation": "“Ran” can describe the completed past event; “was running” can describe an action in progress when seen. The source gives no context that selects one."
+        },
+        "87": {
+          "n": 87,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "advice",
+            "b": "advise",
+            "c": "advises",
+            "d": "no improvement"
+          },
+          "q": "The leader gave his followers some __advices__.",
+          "topic": "Sentence correction"
+        },
+        "88": {
+          "n": 88,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "area",
+            "b": "space",
+            "c": "room",
+            "d": "no improvement"
+          },
+          "q": "Is there any __place__ for me to sit?",
+          "topic": "Sentence correction",
+          "holdReason": "“Place” is grammatical in the printed sentence; “room” is idiomatic for available space, but “no improvement” is also defensible without more context.",
+          "unscored": true,
+          "reviewNote": "“Place” is grammatical in the printed sentence; “room” is idiomatic for available space, but “no improvement” is also defensible without more context.",
+          "explanation": "“Place” is grammatical in the printed sentence; “room” is idiomatic for available space, but “no improvement” is also defensible without more context."
+        },
+        "89": {
+          "n": 89,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "preserved",
+            "b": "pulled down",
+            "c": "overhauled",
+            "d": "no improvement"
+          },
+          "q": "They __knocked down__ seven houses when they built the new road.",
+          "topic": "Sentence correction"
+        },
+        "90": {
+          "n": 90,
+          "page": 8,
+          "part": null,
+          "opts": {
+            "a": "at a cross-purpose",
+            "b": "at cross-purposes",
+            "c": "in cross-purposes",
+            "d": "no improvement"
+          },
+          "q": "I fear you two are __at cross purpose__.",
+          "topic": "Sentence correction"
+        },
+        "91": {
+          "n": 91,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "outgoing",
+            "b": "impetuous",
+            "c": "formidable",
+            "d": "watchful"
+          },
+          "q": "For the curious and the __target__, the sea still presents the challenge of the unknown.",
+          "topic": "Cloze passage"
+        },
+        "92": {
+          "n": 92,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "normal",
+            "b": "remarkable",
+            "c": "average",
+            "d": "critical"
+          },
+          "q": "Ignorance is still the __target__ characteristic of men’s relation to the sea.",
+          "topic": "Cloze passage"
+        },
+        "93": {
+          "n": 93,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "projects",
+            "b": "deterrents",
+            "c": "goads",
+            "d": "hitches"
+          },
+          "q": "Necessity __target__ us onward in our exploration of the sea.",
+          "topic": "Cloze passage"
+        },
+        "94": {
+          "n": 94,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "provocative",
+            "b": "turbulent",
+            "c": "steady",
+            "d": "vulnerable"
+          },
+          "q": "We now have submarines capable of __target__ submergence for many months.",
+          "topic": "Cloze passage"
+        },
+        "95": {
+          "n": 95,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "guiding",
+            "b": "subjecting",
+            "c": "providing",
+            "d": "holding"
+          },
+          "q": "We now have submarines capable of steady submergence for many months __target__ missiles capable of destruction many times greater than that witnessed by World War II.",
+          "topic": "Cloze passage"
+        },
+        "96": {
+          "n": 96,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "expansion",
+            "b": "destruction",
+            "c": "projection",
+            "d": "creation"
+          },
+          "q": "We now have missiles capable of __target__ many times greater than the destruction witnessed by World War II.",
+          "topic": "Cloze passage"
+        },
+        "97": {
+          "n": 97,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "forced",
+            "b": "witnessed",
+            "c": "experienced",
+            "d": "conceived"
+          },
+          "q": "The destruction was many times greater than that __target__ by World War II.",
+          "topic": "Cloze passage"
+        },
+        "98": {
+          "n": 98,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "traditional",
+            "b": "academic",
+            "c": "deliberate",
+            "d": "strategic"
+          },
+          "q": "For __target__ reasons, therefore, we need to learn more about the sea.",
+          "topic": "Cloze passage"
+        },
+        "99": {
+          "n": 99,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "urgently",
+            "b": "drastically",
+            "c": "judiciously",
+            "d": "cautiously"
+          },
+          "q": "For strategic reasons, we need __target__ to learn more about the sea.",
+          "topic": "Cloze passage"
+        },
+        "100": {
+          "n": 100,
+          "page": 9,
+          "part": null,
+          "opts": {
+            "a": "tenacity",
+            "b": "azure",
+            "c": "topography",
+            "d": "vault"
+          },
+          "q": "We need to learn more about the __target__ of the ocean bottom.",
+          "topic": "Cloze passage"
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "To give someone a hand is to help them."
+        },
+        "2": {
+          "answerIndex": 3,
+          "explanation": "To get rid of something is to dispose of it; the father no longer has the hat."
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "To burn oneself out means to exhaust oneself through hard work."
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "Up to date means current or modern."
+        },
+        "5": {
+          "answerIndex": 1,
+          "explanation": "To wheel and deal is to bargain or negotiate, often shrewdly."
+        },
+        "6": {
+          "answerIndex": 1,
+          "explanation": "To chicken out means to withdraw from something through fear."
+        },
+        "7": {
+          "answerIndex": 2,
+          "explanation": "To put the bite on someone is to ask or pressure them for money."
+        },
+        "8": {
+          "answerIndex": 0,
+          "explanation": "To have kittens means to become very upset or anxious."
+        },
+        "9": {
+          "answerIndex": 3,
+          "explanation": "To leave for Paris means to travel to Paris."
+        },
+        "10": {
+          "answerIndex": 3,
+          "explanation": "Up to one’s ears in work means having a great deal of work."
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "The habitual action “every week” takes the simple present; “he goes.”"
+        },
+        "12": {
+          "answerIndex": 1,
+          "explanation": "The auxiliary “do” substitutes for the verb phrase “speaks French.”"
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "“How long” asks about an action continuing to the present; use present perfect continuous."
+        },
+        "15": {
+          "answerIndex": 0,
+          "explanation": "“The number” is singular, so it takes “is.”"
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "Scissors is plural, so “mine” (my scissors) takes “are not.”"
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "“Like” may be followed by a gerund; “driving” is the matching option."
+        },
+        "18": {
+          "answerIndex": 3,
+          "explanation": "“Would” describes a repeated past habit in “his school days.”"
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "The unreal conditional uses subjunctive “were”: “If I were you.”"
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "“Because of” is followed by the noun phrase “the price.”"
+        },
+        "22": {
+          "answerIndex": 1,
+          "explanation": "“Such” modifies the plural noun phrase “nice clothes.”"
+        },
+        "23": {
+          "answerIndex": 1,
+          "explanation": "“Neither … nor” means not one and not the other."
+        },
+        "24": {
+          "answerIndex": 0,
+          "explanation": "“As if” introduces the appearance that rain was imminent."
+        },
+        "25": {
+          "answerIndex": 3,
+          "explanation": "“So that” expresses the purpose of turning off the radio."
+        },
+        "26": {
+          "answerIndex": 2,
+          "explanation": "The expression is “distinguish one from the other.”"
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "The fixed expression is “contrary to.”"
+        },
+        "28": {
+          "answerIndex": 3,
+          "explanation": "The fixed expression is “innocent of a crime.”"
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "“Like” means similar to and is followed by the noun phrase “his father.”"
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "“The largest of” compares a member against a group."
+        },
+        "31": {
+          "answerIndex": 1,
+          "explanation": "Simple past active “wrote” becomes simple past passive “was written.”"
+        },
+        "32": {
+          "answerIndex": 3,
+          "explanation": "Simple future passive is “will be opened.”"
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "The past participle of “wear” is “worn.”"
+        },
+        "35": {
+          "answerIndex": 0,
+          "explanation": "The simple present “use” becomes “is used”; the sentence describes a general current practice."
+        },
+        "36": {
+          "answerIndex": 0,
+          "explanation": "“Let us” as a suggestion is reported with “proposed that … should.”"
+        },
+        "37": {
+          "answerIndex": 1,
+          "explanation": "The imperative is reported as an order here: “ordered … to take off.”"
+        },
+        "39": {
+          "answerIndex": 2,
+          "explanation": "The negative yes/no question is reported using “whether” and backshifted “was.”"
+        },
+        "40": {
+          "answerIndex": 1,
+          "explanation": "An exclamation is reported with “exclaimed.”"
+        },
+        "41": {
+          "answerIndex": 1,
+          "explanation": "“What is true” is a subordinate clause functioning as subject; with the main clause it forms a complex sentence."
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "The sentence has one finite verb (“desire”); “without deserving” is a phrase, so it is simple."
+        },
+        "43": {
+          "answerIndex": 0,
+          "explanation": "“Was fined” and “sent” form a compound predicate with one subject; this is simple."
+        },
+        "44": {
+          "answerIndex": 1,
+          "explanation": "“That he would teach her” is a subordinate noun clause, making the sentence complex."
+        },
+        "45": {
+          "answerIndex": 0,
+          "explanation": "“To talk to” is an infinitive phrase; there is one finite clause, so the sentence is simple."
+        },
+        "46": {
+          "answerIndex": 2,
+          "explanation": "Two independent clauses are joined by “or,” so the sentence is compound."
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "An “if” subordinate clause accompanies the main clause, so it is complex."
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "Two independent clauses are joined by the conjunctive adverb “therefore”; the intended classification is compound."
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "“When you like” is a subordinate adverbial clause, so the sentence is complex."
+        },
+        "50": {
+          "answerIndex": 1,
+          "explanation": "“Where I could find him” is a subordinate noun clause, so the sentence is complex."
+        },
+        "51": {
+          "answerIndex": 0,
+          "explanation": "“I am sure that she is correct” combines the statements using a noun clause."
+        },
+        "52": {
+          "answerIndex": 3,
+          "explanation": "“I cannot tell why he came late” correctly makes the reason an embedded question."
+        },
+        "53": {
+          "answerIndex": 2,
+          "explanation": "“But” expresses contrast between being slow and being sure."
+        },
+        "55": {
+          "answerIndex": 0,
+          "explanation": "The equality comparison is “as strong as you are.”"
+        },
+        "56": {
+          "answerIndex": 1,
+          "explanation": "An embedded question uses statement word order: “what you have done.”"
+        },
+        "57": {
+          "answerIndex": 3,
+          "explanation": "The participial clause “Hearing no answer” gives the reason for ringing again."
+        },
+        "58": {
+          "answerIndex": 2,
+          "explanation": "“Not only … but also” joins the two qualities in parallel."
+        },
+        "59": {
+          "answerIndex": 2,
+          "explanation": "The result construction is “too sick to work.”"
+        },
+        "60": {
+          "answerIndex": 3,
+          "explanation": "The relative clause is reduced to “done by men”; the deeds live after them."
+        },
+        "61": {
+          "answerIndex": 2,
+          "explanation": "“The place where we camp” preserves the intended meaning."
+        },
+        "62": {
+          "answerIndex": 1,
+          "explanation": "“Declared that he was innocent” preserves the reported assertion."
+        },
+        "63": {
+          "answerIndex": 0,
+          "explanation": "“Tell what is true” restates the imperative “Tell the truth.”"
+        },
+        "64": {
+          "answerIndex": 0,
+          "explanation": "“The first who arrived” restates “the first to arrive.”"
+        },
+        "65": {
+          "answerIndex": 3,
+          "explanation": "“We will win or die” retains the stated either/or consequence."
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "The superlative equivalent is “Iron is the most useful of all metals.”"
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "The subordinate time clause “When he saw the danger” explains when he paused."
+        },
+        "69": {
+          "answerIndex": 0,
+          "explanation": "The indirect object becomes the passive subject: “He was offered a chair.”"
+        },
+        "70": {
+          "answerIndex": 2,
+          "explanation": "Simple present passive is “I am known to them.”"
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "Temperance means moderation or self-restraint."
+        },
+        "72": {
+          "answerIndex": 3,
+          "explanation": "Empirically means through observation or experience; “verifiably” is the closest offered alternative."
+        },
+        "73": {
+          "answerIndex": 3,
+          "explanation": "Misogynism means hatred of women."
+        },
+        "74": {
+          "answerIndex": 0,
+          "explanation": "A propensity is a tendency or inclination."
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "Garrulous means excessively talkative."
+        },
+        "76": {
+          "answerIndex": 3,
+          "explanation": "Raze means to destroy or demolish."
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "Collusion is a secret agreement or conspiracy."
+        },
+        "78": {
+          "answerIndex": 1,
+          "explanation": "A ballad is a narrative poem, just as ballet is a form of dance."
+        },
+        "79": {
+          "answerIndex": 2,
+          "explanation": "Amity means friendship, the opposite of enmity."
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "To allot is to assign or distribute."
+        },
+        "81": {
+          "answerIndex": 2,
+          "explanation": "“Prefer” takes parallel forms with “to”: “prefer riding to walking.”"
+        },
+        "82": {
+          "answerIndex": 3,
+          "explanation": "“Be used to” is followed by a noun phrase; “to hard work” is correct as printed."
+        },
+        "83": {
+          "answerIndex": 0,
+          "explanation": "After “Hardly” at the start, subject–auxiliary inversion is required: “Hardly had he entered …”"
+        },
+        "84": {
+          "answerIndex": 2,
+          "explanation": "Compare climate with climate: “than that of Haryana.”"
+        },
+        "85": {
+          "answerIndex": 2,
+          "explanation": "The correct verb phrase is “cope with.”"
+        },
+        "87": {
+          "answerIndex": 0,
+          "explanation": "“Advice” is an uncountable noun and has no plural “advices.”"
+        },
+        "89": {
+          "answerIndex": 1,
+          "explanation": "“Knock down” means demolish; “pull down” is its closest offered replacement."
+        },
+        "90": {
+          "answerIndex": 1,
+          "explanation": "The idiom is “at cross-purposes.”"
+        },
+        "91": {
+          "answerIndex": 3,
+          "explanation": "“The curious and the watchful” forms the most natural parallel description among the choices."
+        },
+        "92": {
+          "answerIndex": 0,
+          "explanation": "“Normal characteristic” is the most natural fit for the passage’s claim about ignorance."
+        },
+        "93": {
+          "answerIndex": 2,
+          "explanation": "Necessity “goads” (urges) exploration onward."
+        },
+        "94": {
+          "answerIndex": 2,
+          "explanation": "“Steady submergence” is the only choice that conveys sustained duration."
+        },
+        "95": {
+          "answerIndex": 3,
+          "explanation": "Submarines can remain submerged and carry (“hold”) missiles; “holding missiles” is the grammatical continuation of the sentence."
+        },
+        "96": {
+          "answerIndex": 1,
+          "explanation": "“Destruction” is the intended noun for the missiles’ capacity."
+        },
+        "97": {
+          "answerIndex": 1,
+          "explanation": "The passage compares this with destruction “witnessed” in World War II."
+        },
+        "98": {
+          "answerIndex": 3,
+          "explanation": "“For strategic reasons” expresses the practical motive for learning more."
+        },
+        "99": {
+          "answerIndex": 0,
+          "explanation": "The sentence says that we need urgently to learn more."
+        },
+        "100": {
+          "answerIndex": 2,
+          "explanation": "The topography of the ocean bottom means its physical features and relief."
+        }
+      }
     }
   }
 }

@@ -1410,6 +1410,23 @@ def build_additional():
                 else:
                     topic_id = 'clauses'
                 topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'chemist2-2020-english':
+                n = q['n']
+                topic_id = ('comprehension' if n <= 12 else
+                            'idioms_phrases' if n <= 28 else
+                            'prepositions' if n <= 32 else
+                            'parts_of_speech' if n <= 48 else
+                            'sentence_types' if n <= 52 else
+                            'clauses' if n <= 55 else
+                            'sentence_types' if n <= 64 else
+                            'word_usage' if n <= 78 else 'vocabulary_synonym')
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'geologist-jun-nov-2020-english-p2':
+                topic_id = {'Vocabulary and idioms': 'idioms_phrases',
+                            'Grammar and usage': 'word_usage',
+                            'Sentence correction': 'sentence_transformation',
+                            'Cloze passage': 'comprehension'}.get(q.get('topic'), 'general')
+                topic_label = taxonomy.resolve(topic_id)[1]
             if slug == 'acf-2018-english':
                 n = q['n']
                 topic_id = ('verb_tenses' if n <= 10 else 'parts_of_speech' if n <= 20 else

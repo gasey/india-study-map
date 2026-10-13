@@ -158,5 +158,186 @@
     "formulae": [
       "PYQ anchors: Taxes 2016 GS-I Q84; Excise 2019 GS-I Q82, GS-II Q74; FCCAS 2019 GS-I Q65–68, Q96; Labour/Programme Coordinator 2021 current-affairs items."
     ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "GDP, GNP, NDP and national-income identities",
+    "priority": "critical",
+    "primer": "Start with two independent distinctions. Domestic versus national asks where production occurs versus who earns the factor income: GNP = GDP + net factor income from abroad (NFIA). Gross versus net asks whether depreciation is included: NDP = GDP − depreciation; NNP = GNP − depreciation. At market prices versus factor cost asks whether net indirect taxes are included: factor-cost value = market-price value − indirect taxes + subsidies, under the conventional exam identity. Do not mix these axes. In expenditure accounting, GDP = C + I + G + (X − M); imports are subtracted because imported output is already included in spending but was not produced domestically.",
+    "analogy": "Domestic/national is a location-versus-residency question; gross/net is a before-versus-after depreciation question.",
+    "traps": [
+      "GDP is about production inside the economic territory, not the nationality of the producer.",
+      "Depreciation is consumption of fixed capital; subtract it to move from gross to net.",
+      "Imports are subtracted in the expenditure identity to remove foreign production, not because imports are inherently harmful."
+    ],
+    "formulae": [
+      "GNP = GDP + NFIA; NDP = GDP − depreciation; NNP = GNP − depreciation.",
+      "GDP (expenditure) = C + I + G + (X − M).",
+      "Related bank questions: JAO Paper-II GK/Arithmetic/Reasoning Q63; verify any duplicate sitting before treating repeats as separate coverage."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Economic growth, development, HDI and demographic measures",
+    "priority": "high",
+    "primer": "Economic growth is an increase in measured real output; development is broader and includes health, education, living standards, opportunity and distribution. The UNDP Human Development Index combines normalized measures of health (life expectancy), education (schooling indicators) and standard of living (GNI per capita, adjusted for purchasing power). It is a composite index, not a direct poverty or inequality measure. Dependency ratio compares the population conventionally treated as dependent with the working-age population; age cutoffs and definitions should follow the cited source. A high ratio can mean greater support burdens, but the ratio alone does not establish actual employment or economic dependence.",
+    "analogy": "GDP growth measures how large the economic pie becomes; development indicators ask who can live healthier, more educated lives and share in that progress.",
+    "traps": [
+      "Per-capita income is an average and can conceal unequal distribution.",
+      "HDI is not calculated from GDP growth alone.",
+      "Always check the age bands used for a dependency-ratio question."
+    ],
+    "formulae": [
+      "Dependency ratio = (dependent-age population ÷ working-age population) × 100, using the stated age bands.",
+      "HDI dimensions: health + education + standard of living.",
+      "Related bank questions: JAO Paper-II Q64 (HDI) and Q88 (dependency ratio)."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Inflation, price indices and real purchasing power",
+    "priority": "critical",
+    "primer": "Inflation is a sustained rise in the general price level; it reduces the purchasing power of money. A rise in one product’s price is a relative-price change, not by itself economy-wide inflation. CPI tracks prices faced by consumers using a defined basket; WPI tracks prices at the wholesale/producer end using its own basket and weights. Demand-pull pressure comes from aggregate demand outrunning supply; cost-push pressure comes from higher input costs or supply disruption. Deflation is a sustained fall in the general price level; disinflation means inflation is still positive but slowing. The RBI may respond to inflation through monetary tightening, but supply shocks and lags limit what interest rates can fix quickly.",
+    "analogy": "If inflation falls from 7% to 4%, prices are still generally rising—just more slowly; that is disinflation, not deflation.",
+    "traps": [
+      "Inflation rate declining does not mean the price level has returned to its old level.",
+      "CPI and WPI are not interchangeable; identify whose prices and which index the question names.",
+      "A rate increase can cool demand but cannot immediately produce missing food or fuel."
+    ],
+    "formulae": [
+      "Inflation rate = ((price index this period − index previous period) ÷ index previous period) × 100.",
+      "Real value ≈ nominal value ÷ (price index / 100), when the index base is 100.",
+      "Related bank questions: UDC/LDC Paper-I economics-tagged inflation items; use the examination year and index wording printed in each stem."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Revenue and capital receipts and expenditure",
+    "priority": "critical",
+    "primer": "Classify budget items by whether they create a liability/change an asset and whether they are recurring. Revenue receipts do not create a liability or reduce an asset (tax and non-tax revenue). Capital receipts either create liabilities (borrowing) or reduce assets (disinvestment, loan recovery). Revenue expenditure generally meets recurring operating obligations and does not directly create a productive asset, though it can build human capability. Capital expenditure creates assets or reduces liabilities; examples include infrastructure investment and repayment of loan principal. Classify from the transaction, not from the ministry or the word “development.”",
+    "analogy": "Tax revenue is recurring income; borrowing is a capital receipt because it creates a repayment liability. Building a road is capital expenditure; paying its routine maintenance is revenue expenditure.",
+    "traps": [
+      "Interest payment is revenue expenditure; repayment of loan principal is capital expenditure.",
+      "A capital receipt need not be a cash inflow from selling a new asset; borrowing also qualifies.",
+      "Not every spending item called “investment” in ordinary speech is budgetary capital expenditure."
+    ],
+    "formulae": [
+      "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts).",
+      "Revenue deficit = revenue expenditure − revenue receipts.",
+      "Related bank questions: LDC Paper-I Q43 and Q32 (capital expenditure classification); verify the year-specific printed wording."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Direct and indirect taxes, GST and customs duties",
+    "priority": "high",
+    "primer": "A direct tax is imposed on a person/entity and its statutory burden is not ordinarily shifted (income tax is the standard example). An indirect tax is collected on transactions or goods/services and can be passed through prices (GST and customs duties are examples). GST is a destination-based, multi-stage value-added tax with input-tax credit, subject to the constitutional design and exemptions. Customs duty is imposed on goods crossing the customs frontier; import duties are common, while export duties apply to specified goods and should not be generalized. For tax questions, distinguish the tax base, the legal incidence and who ultimately bears the economic burden.",
+    "analogy": "The seller may remit an indirect tax to government, while the consumer bears some or all of it through the price; the remitter and economic bearer need not be the same.",
+    "traps": [
+      "“Who deposits the tax?” and “who bears its cost?” are different questions.",
+      "GST’s destination principle concerns where consumption occurs, not where a company is headquartered.",
+      "Do not claim every export is taxed with customs duty; the applicable schedule and date matter."
+    ],
+    "formulae": [
+      "Tax revenue classification: direct/indirect (burden), Union/State/local (levying authority), and income/consumption/property (base) are separate axes.",
+      "Related bank questions: LDC Paper-I Q8 and UDC Paper-I Q8 on customs/import-export tax terminology."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "RBI repo corridor, CRR, SLR and monetary transmission",
+    "priority": "high",
+    "primer": "The repo rate is the rate charged when eligible banks borrow from RBI under the applicable collateralized facility. A reverse-repo transaction is the opposite direction: RBI borrows funds from banks against securities; the operating framework has evolved, so modern standing-facility names and older exam terminology must be read in context. CRR is the share of a bank’s net demand and time liabilities held as cash balance with RBI. SLR is the prescribed share maintained in liquid assets such as cash, gold or eligible securities. Raising reserve requirements can constrain lendable resources; policy-rate changes influence borrowing costs through transmission, which is neither immediate nor perfectly uniform.",
+    "analogy": "Repo changes the marginal price of borrowing from the central bank; CRR and SLR set reserve/liquid-asset constraints on banks.",
+    "traps": [
+      "Repo: bank borrows from RBI; reverse repo: RBI borrows from bank (under the textbook transaction).",
+      "CRR is a cash balance with RBI; SLR is maintained by the bank in prescribed liquid assets.",
+      "When asked for a current rate, answer only with a date-stamped source; rates change."
+    ],
+    "formulae": [
+      "CRR = required cash reserve ÷ NDTL × 100.",
+      "Policy transmission chain: RBI policy conditions → market/bank funding costs → lending/deposit rates → demand and inflation, with lags.",
+      "Related bank question: UDC Paper-I Q9 asks the direction of the repo/reverse-repo transaction; retain the paper’s historical terminology."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Self-help groups, financial inclusion and rural credit",
+    "priority": "high",
+    "primer": "A self-help group (SHG) is typically a small, member-based group that pools savings and may access bank linkage for credit. SHGs can widen access to formal finance, especially for people underserved by conventional collateral-based lending; they are not themselves a central bank or a government bank. Financial inclusion means affordable access to suitable financial services—accounts, payments, savings, credit and insurance—not merely opening an account. NABARD supports rural development and agricultural finance through refinance, institutional development and related programmes; commercial banks and regional rural banks provide direct services under their mandates.",
+    "analogy": "Regular group savings and repayment history can help a bank assess a group whose individual members may lack conventional collateral.",
+    "traps": [
+      "SHGs are member groups; distinguish them from the bank that lends to them.",
+      "An account alone does not guarantee meaningful financial inclusion or active use.",
+      "NABARD’s developmental/refinance role is distinct from ordinary retail banking."
+    ],
+    "formulae": [
+      "Financial inclusion checklist: access + affordability + appropriate use + reliability of services.",
+      "Related bank questions: JAO Paper-II Q87 and other SHG/financial-inclusion tagged questions; verify each stem’s scheme and date."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "WTO agriculture support: Amber, Green and Blue Boxes",
+    "priority": "high",
+    "primer": "In WTO Agreement on Agriculture terminology, the Amber Box covers domestic support considered trade-distorting and generally subject to reduction commitments, subject to de-minimis and other rules. The Green Box covers support meeting specified criteria, including minimal or no trade distortion, and is exempt from reduction commitments. The Blue Box refers to certain production-limiting direct payments linked to programmes that limit production. These are WTO categories for domestic support; they are unrelated to India’s “Green Revolution” and are not simply labels for farm products.",
+    "analogy": "Amber is the support most constrained; Green is qualifying minimally distorting support; Blue is a narrower category of payments tied to production-limiting conditions.",
+    "traps": [
+      "Do not equate WTO Green Box with the Green Revolution.",
+      "Not every subsidy is automatically Amber; category depends on design and applicable rules.",
+      "Blue Box is not merely another name for all direct payments."
+    ],
+    "formulae": [
+      "Amber: trade-distorting support, generally disciplined/reduced; Green: criteria-based minimally distorting support, exempt; Blue: certain direct payments with production limits.",
+      "Related bank question: JAO Paper-II Q65 / Q15 on WTO agriculture support categories; compare the exact sitting and answer options."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Rostow stages and the idea of economic take-off",
+    "priority": "medium",
+    "primer": "Rostow’s modernization model describes five stages: traditional society; preconditions for take-off; take-off; drive to maturity; and age of high mass consumption. “Take-off” is the stage where investment and growth become sustained and self-reinforcing, supported by expanding leading sectors and institutions. This is a theoretical framework used in some exam questions, not a universal law or an uncontested description of every country’s development. If a question asks for a stage, match the named feature to the model’s sequence rather than treating the sequence as an empirical rule.",
+    "analogy": "In the model, take-off is when growth stops being an occasional spurt and begins to sustain itself through investment and structural change.",
+    "traps": [
+      "Preconditions come before take-off; maturity comes after it.",
+      "Do not confuse Rostow’s stages with Five-Year Plan chronology.",
+      "Present the theory as a model, not as a fact that all economies must follow identically."
+    ],
+    "formulae": [
+      "Sequence: traditional → preconditions → take-off → drive to maturity → high mass consumption.",
+      "Related bank question: UDC/LDC Paper-I Q13 on the take-off stage; verify the original options before relying on a derived answer."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "India’s planning models and economic systems",
+    "priority": "medium",
+    "primer": "The First Five-Year Plan (1951–56) emphasized agriculture, irrigation and rehabilitation. The Second Plan (1956–61), associated with P. C. Mahalanobis, emphasized heavy industry and capital-goods capacity. A mixed economy combines public and private ownership/decision-making; the balance changes over time and does not mean every sector is split equally. The Planning Commission was replaced by NITI Aayog in 2015. For plan questions, memorize the objective with the plan number and period, but be cautious when an item paraphrases an objective as though it were a unique official slogan.",
+    "analogy": "The first plan prioritized food and basic stability; the second prioritized building the industrial machinery for future production.",
+    "traps": [
+      "Agricultural emphasis is the standard First Plan association; heavy-industry/Mahalanobis is the Second Plan association.",
+      "A mixed economy permits both public and private sectors; it does not require equal shares.",
+      "Planning Commission and NITI Aayog belong to different institutional periods."
+    ],
+    "formulae": [
+      "First Plan: 1951–56; Second Plan: 1956–61.",
+      "Related bank questions: LDC Paper-I Q13 (mixed economy), Q33 (First Plan), Q35 (Second Plan); use the printed paper’s phrasing."
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY-PYQ",
+    "subtopic": "Economic revolutions and coloured-revolution terminology",
+    "priority": "medium",
+    "primer": "Questions may match a coloured revolution with a production area, but terminology is less standardized than core national-income or budget definitions. Common exam associations include Blue Revolution with fisheries/aquaculture and Green Revolution with food-grain productivity. Other labels (such as Pink, Grey and Black) can vary by source and may refer to different products or sectors. Solve matching questions by checking the exact wording and source convention; do not memorize an uncertain one-to-one mapping as a universal definition. If options mix well-established and contested associations, flag the item for source review rather than force certainty.",
+    "analogy": "Treat colour labels as a textbook vocabulary list: confirm the source’s definition before using a disputed match.",
+    "traps": [
+      "Blue Revolution is commonly associated with fisheries, but a compound phrase may narrow it to a specific sector.",
+      "Do not assume the same colour has one universally accepted meaning across every source.",
+      "A question with no defensible option should be marked ambiguous/source-review, not assigned a confident guess."
+    ],
+    "formulae": [
+      "Reliable high-frequency anchor: Green Revolution → increased agricultural/food-grain productivity; Blue Revolution → fisheries/aquaculture.",
+      "Related bank items on coloured revolutions should preserve the source text and show a caution whenever terminology is disputed."
+    ]
   }
 ]

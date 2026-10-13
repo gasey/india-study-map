@@ -1151,7 +1151,7 @@ export default function UdcLdcPage() {
       </>}
 
       {tab === 'progress' && <ProgressView rows={visibleRows} />}
-      {tab === 'guides' && <QuestionStudyGuides />}
+      {tab === 'guides' && <QuestionStudyGuides questions={moduleQuestions} />}
       {(tab === 'maths' || tab === 'english' || tab === 'computer') && <SubjectStudyView
         key={tab}
         subject={tab === 'maths' ? 'arithmetic' : tab === 'computer' ? 'computer' : 'english'}

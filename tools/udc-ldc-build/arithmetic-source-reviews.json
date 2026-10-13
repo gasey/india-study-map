@@ -1,0 +1,2757 @@
+{
+  "note": "Source-checked repair batches for arithmetic and mathematics MCQs. Derived answers are independent solutions; do not describe them as official keys. Held items have no scored answer.",
+  "batches": [
+    {
+      "paperId": "mpsc-group-b-ada-2014-arithmetic",
+      "expectedMcq": 20,
+      "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+      "sourceSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+      "reviewedOn": "2026-10-13",
+      "evidence": "Original printed Section 1, Question 1, subparts (i)–(xx), covering printed pages 1–3 (PDF pages 1–3). Stems and all four options were transcribed from the PDF and checked against page renders; source option order is preserved.",
+      "scopeNote": "This repairs only the twenty four-choice MCQ subparts. The subsequent 15×2 conventional questions are written-response material and are not included.",
+      "questions": [
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(i)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(i)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The sum of place and face values of 8 in 46891 is",
+          "options": [
+            {
+              "label": "a",
+              "text": "88"
+            },
+            {
+              "label": "b",
+              "text": "888"
+            },
+            {
+              "label": "c",
+              "text": "800"
+            },
+            {
+              "label": "d",
+              "text": "808"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "The 8 is in the hundreds place: place value 800 and face value 8; sum=808.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (i)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(ii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(ii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "In a school, 5/8 of the students are boys. If there are 240 girls, then the number of boys in the school is-",
+          "options": [
+            {
+              "label": "a",
+              "text": "300"
+            },
+            {
+              "label": "b",
+              "text": "400"
+            },
+            {
+              "label": "c",
+              "text": "450"
+            },
+            {
+              "label": "d",
+              "text": "350"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Girls are 3/8 of the students, so total=240×8/3=640. Boys=5/8×640=400.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (ii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(iii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(iii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "What will be the HCF of (3 × 4 × 9 × 11), (3 × 4 × 11 × 13), (3 × 4 × 5 × 11) and (3 × 4 × 5 × 9) ?",
+          "options": [
+            {
+              "label": "a",
+              "text": "3 × 4 × 5"
+            },
+            {
+              "label": "b",
+              "text": "3 × 4 × 5 × 11"
+            },
+            {
+              "label": "c",
+              "text": "3 × 4"
+            },
+            {
+              "label": "d",
+              "text": "3 × 11"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "The common factors present in all four products are 3 and 4; their product, 12, is the HCF.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (iii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(iv)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(iv)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The vulgar fraction of 0.36̅ is",
+          "options": [
+            {
+              "label": "a",
+              "text": "9/25"
+            },
+            {
+              "label": "b",
+              "text": "2/5"
+            },
+            {
+              "label": "c",
+              "text": "11/30"
+            },
+            {
+              "label": "d",
+              "text": "1/15"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "The printed bar is over the 6: 0.3666… = 0.3 + 0.0666… = 11/30.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (iv)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(v)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(v)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "783 ÷ 9 ÷ 0.75 = ?",
+          "options": [
+            {
+              "label": "a",
+              "text": "116"
+            },
+            {
+              "label": "b",
+              "text": "118"
+            },
+            {
+              "label": "c",
+              "text": "124"
+            },
+            {
+              "label": "d",
+              "text": "134"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Evaluate left to right: 783÷9=87; 87÷0.75=87×4/3=116.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (v)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(vi)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(vi)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "√(15⁴) = ?",
+          "options": [
+            {
+              "label": "a",
+              "text": "235"
+            },
+            {
+              "label": "b",
+              "text": "225"
+            },
+            {
+              "label": "c",
+              "text": "265"
+            },
+            {
+              "label": "d",
+              "text": "285"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "√(15⁴)=15²=225.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (vi)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(vii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(vii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The average of first 5 odd numbers is",
+          "options": [
+            {
+              "label": "a",
+              "text": "25"
+            },
+            {
+              "label": "b",
+              "text": "10"
+            },
+            {
+              "label": "c",
+              "text": "15"
+            },
+            {
+              "label": "d",
+              "text": "5"
+            }
+          ],
+          "printedPage": 1,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "The first five odd numbers are 1, 3, 5, 7, 9; their sum is 25 and mean is 25/5=5.",
+          "sourceEvidence": {
+            "pdfPage": 1,
+            "printedItem": "Question 1, subpart (vii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(viii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(viii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The mean proportional between 8 and 50 is",
+          "options": [
+            {
+              "label": "a",
+              "text": "10"
+            },
+            {
+              "label": "b",
+              "text": "200"
+            },
+            {
+              "label": "c",
+              "text": "100"
+            },
+            {
+              "label": "d",
+              "text": "20"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "The mean proportional is the geometric mean: √(8×50)=√400=20.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (viii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(ix)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(ix)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "In an auditorium, the number of rows is equal to the number of chairs in each row. If the capacity of the auditorium is 2025, then the number of chairs in each row is",
+          "options": [
+            {
+              "label": "a",
+              "text": "35"
+            },
+            {
+              "label": "b",
+              "text": "40"
+            },
+            {
+              "label": "c",
+              "text": "45"
+            },
+            {
+              "label": "d",
+              "text": "55"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "If each count is n, total chairs=n²=2025, hence n=45.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (ix)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(x)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(x)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The multiplicative inverse of √3/2 is",
+          "options": [
+            {
+              "label": "a",
+              "text": "√2/√3"
+            },
+            {
+              "label": "b",
+              "text": "2/3"
+            },
+            {
+              "label": "c",
+              "text": "2/√3"
+            },
+            {
+              "label": "d",
+              "text": "√2/3"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "The reciprocal of √3/2 is 2/√3 (equivalently 2√3/3).",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (x)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xi)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xi)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "By what number should −33/8 be divided to get −11/2 ?",
+          "options": [
+            {
+              "label": "a",
+              "text": "−3/4"
+            },
+            {
+              "label": "b",
+              "text": "3/4"
+            },
+            {
+              "label": "c",
+              "text": "8/11"
+            },
+            {
+              "label": "d",
+              "text": "−8/11"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Let x be the divisor: (−33/8)÷x=−11/2. Thus x=(−33/8)/(−11/2)=3/4.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (xi)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "If cost of 15 books be Rs.105, calculate the cost of 3 dozens of books.",
+          "options": [
+            {
+              "label": "a",
+              "text": "Rs.315"
+            },
+            {
+              "label": "b",
+              "text": "Rs.525"
+            },
+            {
+              "label": "c",
+              "text": "Rs.252"
+            },
+            {
+              "label": "d",
+              "text": "Rs.540"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Cost per book=105/15=Rs.7. Three dozen is 36 books, costing 36×7=Rs.252.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (xii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xiii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xiii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A die is thrown once, the probability of getting an even number is",
+          "options": [
+            {
+              "label": "a",
+              "text": "1/2"
+            },
+            {
+              "label": "b",
+              "text": "1/6"
+            },
+            {
+              "label": "c",
+              "text": "1/4"
+            },
+            {
+              "label": "d",
+              "text": "1/3"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "A fair die has three even outcomes (2, 4, 6) out of six, so probability=3/6=1/2.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (xiii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xiv)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xiv)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A speed of 40 m/s is same as",
+          "options": [
+            {
+              "label": "a",
+              "text": "200 km/h"
+            },
+            {
+              "label": "b",
+              "text": "144 km/h"
+            },
+            {
+              "label": "c",
+              "text": "240 km/h"
+            },
+            {
+              "label": "d",
+              "text": "360 km/h"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Convert m/s to km/h by multiplying by 3.6: 40×3.6=144 km/h.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (xiv)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xv)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xv)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days then the fraction of the work that is left is",
+          "options": [
+            {
+              "label": "a",
+              "text": "1/4"
+            },
+            {
+              "label": "b",
+              "text": "8/15"
+            },
+            {
+              "label": "c",
+              "text": "7/15"
+            },
+            {
+              "label": "d",
+              "text": "1/10"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Their combined daily rate is 1/15+1/20=7/60. In four days they do 7/15, leaving 1−7/15=8/15.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (xv)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xvi)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xvi)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The area of a rectangular plot is 462m² and its length is 28m. The breadth of the plot is",
+          "options": [
+            {
+              "label": "a",
+              "text": "15cm"
+            },
+            {
+              "label": "b",
+              "text": "16cm"
+            },
+            {
+              "label": "c",
+              "text": "16.5cm"
+            },
+            {
+              "label": "d",
+              "text": "17cm"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": null,
+          "answerLetter": null,
+          "scored": false,
+          "workedExplanation": "Breadth=area/length=462 m²/28 m=16.5 m. The printed choices all say cm, so option (c) has the right numeral but wrong unit; keep unscored.",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedItem": "Question 1, subpart (xvi)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": "The source prints the answer choices in cm although area divided by length gives 16.5 m; no option is dimensionally correct."
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xvii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xvii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A gun is fired at a distance of 1.34 km from Zovi and she hears the sound after 4 seconds. The speed of the sound is-",
+          "options": [
+            {
+              "label": "a",
+              "text": "330 m/sec"
+            },
+            {
+              "label": "b",
+              "text": "332 m/sec"
+            },
+            {
+              "label": "c",
+              "text": "334 m/sec"
+            },
+            {
+              "label": "d",
+              "text": "335 m/sec"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "1.34 km=1,340 m. Speed=distance/time=1,340/4=335 m/sec.",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedItem": "Question 1, subpart (xvii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xviii)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xviii)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "What percent is 875g of 10 Kg?",
+          "options": [
+            {
+              "label": "a",
+              "text": "87.5%"
+            },
+            {
+              "label": "b",
+              "text": "8.75%"
+            },
+            {
+              "label": "c",
+              "text": "85.7%"
+            },
+            {
+              "label": "d",
+              "text": "8.57%"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "10 kg=10,000 g. The fraction is 875/10,000, so percent=8.75%.",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedItem": "Question 1, subpart (xviii)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xix)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xix)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The digit at the ten’s place in the square root of 15876 is equal to",
+          "options": [
+            {
+              "label": "a",
+              "text": "6"
+            },
+            {
+              "label": "b",
+              "text": "4"
+            },
+            {
+              "label": "c",
+              "text": "3"
+            },
+            {
+              "label": "d",
+              "text": "2"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "√15,876=126 because 126²=15,876; the tens digit is 2.",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedItem": "Question 1, subpart (xix)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xx)",
+          "paperId": "mpsc-group-b-ada-2014-arithmetic",
+          "questionNumber": "1(xx)",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A cube of side 6cm is cut into a number of cubes each of side 2cm. The number of cubes formed is",
+          "options": [
+            {
+              "label": "a",
+              "text": "6"
+            },
+            {
+              "label": "b",
+              "text": "9"
+            },
+            {
+              "label": "c",
+              "text": "12"
+            },
+            {
+              "label": "d",
+              "text": "27"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-2014-arithmetic.pdf",
+          "sourcePdfSha256": "225158f85ab7992b85d5b2e4513a95839d847c9a7b2d68d0e9ad1a648903aae7",
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Each edge fits 6/2=3 small cubes, giving 3³=27 cubes.",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedItem": "Question 1, subpart (xx)",
+            "transcriptionCheckedAgainst": "Original source PDF page render and searchable PDF text; option order retained as printed."
+          },
+          "holdReason": null
+        }
+      ]
+    },
+    {
+      "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+      "year": 2019,
+      "expectedMcq": 50,
+      "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+      "sourceSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+      "reviewedOn": "2026-10-13",
+      "evidence": "Printed paper pages 2–8 visually reviewed by the source reviewer; question stems, option order, and chart data transcribed. No official key located.",
+      "questions": [
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B1",
+          "questionNumber": "B1",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Which of the following is the correct way of writing 15thousandths?",
+          "options": [
+            {
+              "label": "a",
+              "text": "15th1000s"
+            },
+            {
+              "label": "b",
+              "text": "1/15,000th"
+            },
+            {
+              "label": "c",
+              "text": "15¹⁰⁰⁰"
+            },
+            {
+              "label": "d",
+              "text": "0.015"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedQuestion": "B1",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "15 thousandths = 15/1000 = 0.015.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B2",
+          "questionNumber": "B2",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Arrange the following decimals is descending order : 1.111; 0.342; 0.098; 1.021; 0.109.",
+          "options": [
+            {
+              "label": "a",
+              "text": "1.111 > 0.342 > 0.098 > 1.021 > 0.109"
+            },
+            {
+              "label": "b",
+              "text": "0.098 < 0.109 < 0.342 < 1.021 < 1.111"
+            },
+            {
+              "label": "c",
+              "text": "1.111 > 1.021 > 0.342 > 0.109 > 0.098"
+            },
+            {
+              "label": "d",
+              "text": "1.111 < 1.021 < 0.342 < 0.098 < 0.109"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedQuestion": "B2",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Compare place values: 1.111 > 1.021 > 0.342 > 0.109 > 0.098.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B3",
+          "questionNumber": "B3",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The value of 4 2/3 ÷ 1 2/9 of 1/4 (10 + 3/(1 − 1/5)) =",
+          "options": [
+            {
+              "label": "a",
+              "text": "15"
+            },
+            {
+              "label": "b",
+              "text": "16"
+            },
+            {
+              "label": "c",
+              "text": "17"
+            },
+            {
+              "label": "d",
+              "text": "18"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedQuestion": "B3",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": null,
+          "answerLetter": null,
+          "scored": false,
+          "workedExplanation": "The printed expression gives no listed result under the conventional readings of “of” and left-to-right division/multiplication. The expression should remain held; do not guess an intended answer.",
+          "holdReason": "The printed expression gives no listed result under the conventional readings of “of” and left-to-right division/multiplication. The expression should remain held; do not guess an intended answer."
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B4",
+          "questionNumber": "B4",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The HCF of two numbers is 24 and their LCM is 1271. If one of the numbers is 246, the other number is:",
+          "options": [
+            {
+              "label": "a",
+              "text": "1295"
+            },
+            {
+              "label": "b",
+              "text": "84"
+            },
+            {
+              "label": "c",
+              "text": "11664"
+            },
+            {
+              "label": "d",
+              "text": "124"
+            }
+          ],
+          "printedPage": 2,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 2,
+            "printedQuestion": "B4",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": null,
+          "answerLetter": null,
+          "scored": false,
+          "workedExplanation": "These data are mutually inconsistent. For two integers, HCF×LCM must equal their product; the implied other number is 24×1271/246=124, but gcd(246,124)=2 (not 24), and 1271 is not a multiple of 24.",
+          "holdReason": "These data are mutually inconsistent. For two integers, HCF×LCM must equal their product; the implied other number is 24×1271/246=124, but gcd(246,124)=2 (not 24), and 1271 is not a multiple of 24."
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B5",
+          "questionNumber": "B5",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The value of x in the following equation is: 1/2 ÷ 2/10 × 3.5/7 of 8/20 (0.08)x = 1 3/5",
+          "options": [
+            {
+              "label": "a",
+              "text": "20"
+            },
+            {
+              "label": "b",
+              "text": "40"
+            },
+            {
+              "label": "c",
+              "text": "25"
+            },
+            {
+              "label": "d",
+              "text": "35"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B5",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Using “of” as multiplication: (1/2÷2/10)=2.5; (3.5/7 of 8/20)=0.2. Thus 2.5×0.2×0.08x=1.6, so 0.04x=1.6 and x=40.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B6",
+          "questionNumber": "B6",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A’s salary is 20% below B’s salary. By how much percent is B’s salary above A’s?",
+          "options": [
+            {
+              "label": "a",
+              "text": "16 2/3"
+            },
+            {
+              "label": "b",
+              "text": "20"
+            },
+            {
+              "label": "c",
+              "text": "25"
+            },
+            {
+              "label": "d",
+              "text": "33 1/3"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B6",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Take B=100, so A=80. B exceeds A by 20 on a base of 80: (20/80)×100=25%.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B7",
+          "questionNumber": "B7",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "In an examination, 80% of the students passed. The number of students failed was 16. Find the total number of students.",
+          "options": [
+            {
+              "label": "a",
+              "text": "80"
+            },
+            {
+              "label": "b",
+              "text": "20"
+            },
+            {
+              "label": "c",
+              "text": "84"
+            },
+            {
+              "label": "d",
+              "text": "96"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B7",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Failure is 20% of the class. Total=16/0.20=80 students.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B8",
+          "questionNumber": "B8",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "By selling 44 articles, a shopkeeper gains the selling price of 11 articles. His gain percent is –",
+          "options": [
+            {
+              "label": "a",
+              "text": "33 1/3%"
+            },
+            {
+              "label": "b",
+              "text": "75%"
+            },
+            {
+              "label": "c",
+              "text": "25%"
+            },
+            {
+              "label": "d",
+              "text": "66 2/3%"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B8",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Let SP per article=s and CP=c. 44(s−c)=11s, so 33s=44c; profit/cost=1/3=33⅓%.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B9",
+          "questionNumber": "B9",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "There are 40 students in Class X and 50 students in Class IX. The average age of students is 8 years in each class (i.e., 8 yrs for Class X and 8 yrs for Class IX). The average age of students in both the classes taken together is –",
+          "options": [
+            {
+              "label": "a",
+              "text": "8 years"
+            },
+            {
+              "label": "b",
+              "text": "9 years"
+            },
+            {
+              "label": "c",
+              "text": "10 years"
+            },
+            {
+              "label": "d",
+              "text": "11 years"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B9",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Each group has mean age 8, so their combined weighted mean is also 8 years.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B10",
+          "questionNumber": "B10",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Thanga borrowed ₹2,500 from SBI on 8th June, 2017 and returned it on 31st October, 2017 along with simple interest at 7% per annum. The total amount returned by Thanga is –",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹2,510"
+            },
+            {
+              "label": "b",
+              "text": "₹2,550"
+            },
+            {
+              "label": "c",
+              "text": "₹2,570"
+            },
+            {
+              "label": "d",
+              "text": "₹3,000"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B10",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "For 145 elapsed days, SI=2500×0.07×145/365≈₹69.52. Total≈₹2,569.52, which rounds to ₹2,570.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B11",
+          "questionNumber": "B11",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "60 students failed in Mathematics and 50 failed in Science in a class test. Out of these, 30 students failed in both Mathematics and Science. If the total number of students in that class is 80, the number of students passed in both the subjects is",
+          "options": [
+            {
+              "label": "a",
+              "text": "20"
+            },
+            {
+              "label": "b",
+              "text": "0"
+            },
+            {
+              "label": "c",
+              "text": "20"
+            },
+            {
+              "label": "d",
+              "text": "50"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B11",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Failed in at least one subject=60+50−30=80. All students therefore failed at least one; 0 passed both. The source prints 20 as two separate distractor options.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B12",
+          "questionNumber": "B12",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Rova receives a bonus from his boss. He uses 10% to buy a sweater and then donates ₹500 towards charity fund and then he uses 10% of the remaining to buy a drink. If he has ₹1,170 left, then the amount of the bonus received is",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹1,750"
+            },
+            {
+              "label": "b",
+              "text": "₹800"
+            },
+            {
+              "label": "c",
+              "text": "₹900"
+            },
+            {
+              "label": "d",
+              "text": "₹2,000"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B12",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "If bonus is B, then after the sweater 0.9B remains. After donating 500 and spending 10%, 0.9(0.9B−500)=1170. Hence 0.9B−500=1300 and B=₹2,000.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B13",
+          "questionNumber": "B13",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A and B can do a piece of work in 18 days, B and C in 24 days and C and A in 36 days. If A, B and C work together, they can complete that piece of work in –",
+          "options": [
+            {
+              "label": "a",
+              "text": "4 days"
+            },
+            {
+              "label": "b",
+              "text": "8 days"
+            },
+            {
+              "label": "c",
+              "text": "16 days"
+            },
+            {
+              "label": "d",
+              "text": "32 days"
+            }
+          ],
+          "printedPage": 3,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 3,
+            "printedQuestion": "B13",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "A+B+C rate=½[(A+B)+(B+C)+(C+A)]=½(1/18+1/24+1/36)=1/16 job/day; time=16 days.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B14",
+          "questionNumber": "B14",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Two numbers are in the ratio 3:5. If 18 be added to the first number and subtracted from the second, their ratio becomes 5:3. Then the numbers are –",
+          "options": [
+            {
+              "label": "a",
+              "text": "24 and 40"
+            },
+            {
+              "label": "b",
+              "text": "27 and 45"
+            },
+            {
+              "label": "c",
+              "text": "21 and 23"
+            },
+            {
+              "label": "d",
+              "text": "45 and 27"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B14",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Let the numbers be 3x and 5x. (3x+18)/(5x−18)=5/3 gives x=9, so the numbers are 27 and 45.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B15",
+          "questionNumber": "B15",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "In the mixture of milk and water, the quantity of milk is 15 litres more than that of water. Then 6 litres of water is added to it. What would be the ratio of milk to water in the mixture if the quantity of the original mixture is 75 litres?",
+          "options": [
+            {
+              "label": "a",
+              "text": "1:5"
+            },
+            {
+              "label": "b",
+              "text": "4:5"
+            },
+            {
+              "label": "c",
+              "text": "5:4"
+            },
+            {
+              "label": "d",
+              "text": "5:1"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B15",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Milk+water=75 and milk−water=15 give 45 L milk and 30 L water. After adding 6 L water, ratio=45:36=5:4.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B16",
+          "questionNumber": "B16",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The present age of the father and the son are together 46 years. 5 years ago, the father was 11 times as old as his son. The age of the son after 5 years will be –",
+          "options": [
+            {
+              "label": "a",
+              "text": "12 years"
+            },
+            {
+              "label": "b",
+              "text": "13 years"
+            },
+            {
+              "label": "c",
+              "text": "14 years"
+            },
+            {
+              "label": "d",
+              "text": "15 years"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B16",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Let the son’s present age be s; father=46−s. Five years ago: 41−s=11(s−5), so s=8. After five years, the son is 13.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B17",
+          "questionNumber": "B17",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The length of a bridge is 0.5 km. If a train moving at a speed of 150 kmph crosses that bridge in 18 seconds, then the length of the train is –",
+          "options": [
+            {
+              "label": "a",
+              "text": "400 m"
+            },
+            {
+              "label": "b",
+              "text": "350 m"
+            },
+            {
+              "label": "c",
+              "text": "300 m"
+            },
+            {
+              "label": "d",
+              "text": "250 m"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B17",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "150 km/h=41⅔ m/s; in 18 s train+bridge length=750 m. Subtract the 500 m bridge: train=250 m.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B18",
+          "questionNumber": "B18",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Agriculture Department is going to auction a vehicle purchased three years ago at ₹4,56,000/-. The Department reserved the depreciated value of that vehicle which is calculated at a rate of 15% per annum. The reserved price (rounded-off to the nearest 1000) of that vehicle would be –",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹68,000/-"
+            },
+            {
+              "label": "b",
+              "text": "₹3,87,000/-"
+            },
+            {
+              "label": "c",
+              "text": "₹3,00,000/-"
+            },
+            {
+              "label": "d",
+              "text": "₹2,80,000/-"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B18",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Reducing-balance value=456000×0.85³=₹280,041; rounded to nearest ₹1,000 gives ₹2,80,000.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B19",
+          "questionNumber": "B19",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "If a:b = 3:5 and b:c = 7:8, then 2a:3b:7c is equal to",
+          "options": [
+            {
+              "label": "a",
+              "text": "21:35:40"
+            },
+            {
+              "label": "b",
+              "text": "15:21:35"
+            },
+            {
+              "label": "c",
+              "text": "6:15:40"
+            },
+            {
+              "label": "d",
+              "text": "30:21:350"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B19",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Align b at 35: then a:b:c=21:35:40. Thus 2a:3b:7c=42:105:280; divide by 7 to get 6:15:40.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B20",
+          "questionNumber": "B20",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The flight from Delhi to Mumbai and Delhi to Kolkata takes 1 3/4 hrs and 2 hrs respectively. If the air flight distance from Delhi to Mumbai is 1225 km and from Delhi to Kolkata is 1300 km, the ratio of the average speeds of two flights is",
+          "options": [
+            {
+              "label": "a",
+              "text": "14:13"
+            },
+            {
+              "label": "b",
+              "text": "13:12"
+            },
+            {
+              "label": "c",
+              "text": "12:11"
+            },
+            {
+              "label": "d",
+              "text": "13:12"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B20",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Speeds are 1225/1.75=700 and 1300/2=650 km/h; ratio=700:650=14:13. The source repeats 13:12 for options (b) and (d).",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B21",
+          "questionNumber": "B21",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Mawii sold a coat for ₹2,700/- thereby losing 10%. At what price should she sell to earn a profit of 10%?",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹6,600"
+            },
+            {
+              "label": "b",
+              "text": "₹3,300"
+            },
+            {
+              "label": "c",
+              "text": "₹3,000"
+            },
+            {
+              "label": "d",
+              "text": "₹6,900"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B21",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "₹2,700 is 90% of cost, so CP=₹3,000; a 10% profit requires SP=₹3,300.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B22",
+          "questionNumber": "B22",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "At what rate percent per annum will ₹64 amount to ₹125 in 3 years at compound interest being compounded annually?",
+          "options": [
+            {
+              "label": "a",
+              "text": "25%"
+            },
+            {
+              "label": "b",
+              "text": "30%"
+            },
+            {
+              "label": "c",
+              "text": "40%"
+            },
+            {
+              "label": "d",
+              "text": "50%"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B22",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "125/64=(5/4)³, so the annual factor is 5/4 and the annual rate is 25%.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B23",
+          "questionNumber": "B23",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "What is the smallest number by which 72000 must be divided so that the quotient is a perfect cube?",
+          "options": [
+            {
+              "label": "a",
+              "text": "2"
+            },
+            {
+              "label": "b",
+              "text": "5"
+            },
+            {
+              "label": "c",
+              "text": "8"
+            },
+            {
+              "label": "d",
+              "text": "9"
+            }
+          ],
+          "printedPage": 4,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 4,
+            "printedQuestion": "B23",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "72000=2⁶×3²×5³. Divide by 3²=9, leaving 2⁶×5³, a perfect cube.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B24",
+          "questionNumber": "B24",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The volume of a cube is 2197 cm³. Find the total surface area of that cube.",
+          "options": [
+            {
+              "label": "a",
+              "text": "169 cm²"
+            },
+            {
+              "label": "b",
+              "text": "1014 cm²"
+            },
+            {
+              "label": "c",
+              "text": "78 cm²"
+            },
+            {
+              "label": "d",
+              "text": "676 cm²"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B24",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Side=∛2197=13 cm; total surface area=6×13²=1,014 cm².",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B25",
+          "questionNumber": "B25",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Rema starts from A to B at a speed of 4 kmph. Meanwhile, Thanga starts from B to A at the same hour and meets Rema after 6 hrs. If the distance between A and B is 42 km, the speed of Thanga is–",
+          "options": [
+            {
+              "label": "a",
+              "text": "3 kmph"
+            },
+            {
+              "label": "b",
+              "text": "6 kmph"
+            },
+            {
+              "label": "c",
+              "text": "7 kmph"
+            },
+            {
+              "label": "d",
+              "text": "8 kmph"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B25",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Their combined speed=42/6=7 km/h; Thanga’s speed=7−4=3 km/h.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B26",
+          "questionNumber": "B26",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "3.123 × 10⁵ equals",
+          "options": [
+            {
+              "label": "a",
+              "text": "0.3123"
+            },
+            {
+              "label": "b",
+              "text": "3123"
+            },
+            {
+              "label": "c",
+              "text": "31230"
+            },
+            {
+              "label": "d",
+              "text": "312300"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B26",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Multiplying 3.123 by 10⁵ shifts the decimal five places right: 312,300.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B27",
+          "questionNumber": "B27",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A dining table is marked at ₹1,500 with 10% and 20% off. An additional discount of 3% is allowed for cash payment. Calculate the SP for cash payment.",
+          "options": [
+            {
+              "label": "a",
+              "text": "1047.60"
+            },
+            {
+              "label": "b",
+              "text": "104.76"
+            },
+            {
+              "label": "c",
+              "text": "10476"
+            },
+            {
+              "label": "d",
+              "text": "10.476"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B27",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Apply successive discounts: 1500×0.90×0.80×0.97=₹1,047.60.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B28",
+          "questionNumber": "B28",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The diameter of a wheel is 1.26 m. How far it will travel in 500 revolutions?",
+          "options": [
+            {
+              "label": "a",
+              "text": "3.96 m"
+            },
+            {
+              "label": "b",
+              "text": "1.980 km"
+            },
+            {
+              "label": "c",
+              "text": "19.8 km"
+            },
+            {
+              "label": "d",
+              "text": "198 km"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B28",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Distance=500×π×1.26 m≈1,979 m≈1.980 km at the precision of the options.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B29",
+          "questionNumber": "B29",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Fela said to Rama, “If you give me ₹5, I shall have five times the amount of money as you have.” But Rama said to Fela, “That’s not fair. Give me ₹5 so that we can have equal amount of money.” From this conversation, it is clear that Rama has –",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹10"
+            },
+            {
+              "label": "b",
+              "text": "₹20"
+            },
+            {
+              "label": "c",
+              "text": "₹30"
+            },
+            {
+              "label": "d",
+              "text": "₹40"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B29",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Let Rama have R and Fela F. Equalisation when Rama gives ₹5 implies F=R+10. Fela’s condition gives F+5=5(R−5); solving yields R=₹10.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B30",
+          "questionNumber": "B30",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A, B, C and D engaged in a business with a joint capital of ₹160000/-. At the end of the year, A receives ₹21000, B ₹45000, C ₹12000 and D ₹18000. How much capital did C put in?",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹12000"
+            },
+            {
+              "label": "b",
+              "text": "₹18000"
+            },
+            {
+              "label": "c",
+              "text": "₹20000"
+            },
+            {
+              "label": "d",
+              "text": "₹31000"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B30",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Total profit=₹96,000; C’s share is 12,000/96,000=1/8. C’s capital=1/8×₹160,000=₹20,000.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B31",
+          "questionNumber": "B31",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The diameter of a sphere is 48 cm. It is melted and drawn into a cylindrical wire of 16 mm diameter. The length of the wire is–",
+          "options": [
+            {
+              "label": "a",
+              "text": "244 m"
+            },
+            {
+              "label": "b",
+              "text": "2.8 m"
+            },
+            {
+              "label": "c",
+              "text": "24 m"
+            },
+            {
+              "label": "d",
+              "text": "288 m"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B31",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Volume is conserved. With sphere radius 24 cm and wire radius 0.8 cm, L=(4/3π·24³)/(π·0.8²)=28,800 cm=288 m.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B32",
+          "questionNumber": "B32",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A bag contains 5 white balls, 7 red balls, 4 black balls and 2 blue balls. One ball is drawn at random from the bag. What is the probability that the ball drawn is neither white nor black?",
+          "options": [
+            {
+              "label": "a",
+              "text": "7/18"
+            },
+            {
+              "label": "b",
+              "text": "11/18"
+            },
+            {
+              "label": "c",
+              "text": "13/18"
+            },
+            {
+              "label": "d",
+              "text": "1/2"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B32",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Neither white nor black means red or blue: (7+2)/(5+7+4+2)=9/18=1/2.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B33",
+          "questionNumber": "B33",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The smallest number that must be subtracted from 438867 to get a perfect square is–",
+          "options": [
+            {
+              "label": "a",
+              "text": "600"
+            },
+            {
+              "label": "b",
+              "text": "623"
+            },
+            {
+              "label": "c",
+              "text": "665"
+            },
+            {
+              "label": "d",
+              "text": "633"
+            }
+          ],
+          "printedPage": 5,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 5,
+            "printedQuestion": "B33",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "The greatest square below 438,867 is 662²=438,244; the difference is 623.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B34",
+          "questionNumber": "B34",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "(√98 − √72 + √50)/√18 equals –",
+          "options": [
+            {
+              "label": "a",
+              "text": "6"
+            },
+            {
+              "label": "b",
+              "text": "√38/3"
+            },
+            {
+              "label": "c",
+              "text": "−4/3"
+            },
+            {
+              "label": "d",
+              "text": "2"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B34",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Numerator=(7−6+5)√2=6√2; denominator=3√2. The quotient is 2.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B35",
+          "questionNumber": "B35",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A solid hemisphere of base radius r is melted and recast into a solid cone of same radius, the height of that cone is equal to",
+          "options": [
+            {
+              "label": "a",
+              "text": "2r²"
+            },
+            {
+              "label": "b",
+              "text": "2πr"
+            },
+            {
+              "label": "c",
+              "text": "2r"
+            },
+            {
+              "label": "d",
+              "text": "r³"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B35",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Equate volumes: hemisphere=(2/3)πr³ and cone=(1/3)πr²h. Therefore h=2r.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B36",
+          "questionNumber": "B36",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "From the given field measurement below, AB is drawn as the base, BCD forms a quadrant of a circle with D as a centre, EF and BG are drawn perpendicular to the base, then AB=100 m, BE=50 m, DE=20 m, BG=60 m, EF=70 m, the area of ACBGF is",
+          "options": [
+            {
+              "label": "a",
+              "text": "10000 m²"
+            },
+            {
+              "label": "b",
+              "text": "9900 m²"
+            },
+            {
+              "label": "c",
+              "text": "9000 m²"
+            },
+            {
+              "label": "d",
+              "text": "8000 m²"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B36",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "DB=DE+EB=70 m and AD=AB−DB=30 m. Area is triangle ACD (1,050)+quadrant CDB (1,225π)+triangle AEF (1,750)+trapezoid EBGF (3,250)≈9,898 m²; nearest choice is 9,900 m².",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B37",
+          "questionNumber": "B37",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A rectangular field 40 m × 30 m is surrounded by a uniform path of 2 m. The coast of laying bricks at a rate of ₹5 per square metre along the path is",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹1320"
+            },
+            {
+              "label": "b",
+              "text": "₹1480"
+            },
+            {
+              "label": "c",
+              "text": "₹1520"
+            },
+            {
+              "label": "d",
+              "text": "₹2300"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B37",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Outer dimensions are 44×34; path area=44×34−40×30=296 m². Cost=296×₹5=₹1,480.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B38",
+          "questionNumber": "B38",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "A cistern can be filled by the tap A in 40 minutes and by the tap B in 30 minutes. The tap C can empty it in 20 minutes. If all the three taps are opened and the cistern is empty, how long will they take to fill it?",
+          "options": [
+            {
+              "label": "a",
+              "text": "60 minutes"
+            },
+            {
+              "label": "b",
+              "text": "120 minutes"
+            },
+            {
+              "label": "c",
+              "text": "1 hr 20 minutes"
+            },
+            {
+              "label": "d",
+              "text": "3 hrs"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B38",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Net rate=1/40+1/30−1/20=1/120 tank per minute; fill time=120 minutes.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B39",
+          "questionNumber": "B39",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The mean, median and mode of group of 75 observations are 27, 29 and 34 respectively. Later, it was found that one observation was misread as 43 instead of the correct one of 63. Then what are the values of the mean, median and mode after correction?",
+          "options": [
+            {
+              "label": "a",
+              "text": "27.26, 29.51 and 34"
+            },
+            {
+              "label": "b",
+              "text": "27, 34 and 32.84"
+            },
+            {
+              "label": "c",
+              "text": "27, 34 and 36.17"
+            },
+            {
+              "label": "d",
+              "text": "27, 34 and 29.51"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B39",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": null,
+          "answerLetter": null,
+          "scored": false,
+          "workedExplanation": "The corrected mean can be computed (27+(63−43)/75≈27.27), but the revised median and mode cannot be inferred from only the original mean, median, mode, and one changed observation without the raw data. No listed triple is justified; hold.",
+          "holdReason": "The corrected mean can be computed (27+(63−43)/75≈27.27), but the revised median and mode cannot be inferred from only the original mean, median, mode, and one changed observation without the raw data. No listed triple is justified; hold."
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B40",
+          "questionNumber": "B40",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Mode of 1,5,2,4,6,4,5,7,4,3,4,5,5,3,5,,6,7,6,5,4,3,4,5,6,7,8,5,4,3 is",
+          "options": [
+            {
+              "label": "a",
+              "text": "1"
+            },
+            {
+              "label": "b",
+              "text": "2"
+            },
+            {
+              "label": "c",
+              "text": "4"
+            },
+            {
+              "label": "d",
+              "text": "5"
+            }
+          ],
+          "printedPage": 6,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 6,
+            "printedQuestion": "B40",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Counting the printed list, 5 occurs most often, so the mode is 5.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B41",
+          "questionNumber": "B41",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The car consumes 5 litres of petrol to travel a distance of 70 km. How far it will travel using 28 litres of petrol.",
+          "options": [
+            {
+              "label": "a",
+              "text": "392 km"
+            },
+            {
+              "label": "b",
+              "text": "120 km"
+            },
+            {
+              "label": "c",
+              "text": "300 km"
+            },
+            {
+              "label": "d",
+              "text": "980 km"
+            }
+          ],
+          "printedPage": 7,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 7,
+            "printedQuestion": "B41",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Mileage=70/5=14 km/L; with 28 L, distance=14×28=392 km.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B42",
+          "questionNumber": "B42",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The sum of the production of food grains in the year 2000 and 2001 is equal to that in the year –",
+          "options": [
+            {
+              "label": "a",
+              "text": "2002"
+            },
+            {
+              "label": "b",
+              "text": "2003"
+            },
+            {
+              "label": "c",
+              "text": "2004"
+            },
+            {
+              "label": "d",
+              "text": "2005"
+            }
+          ],
+          "printedPage": 7,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 7,
+            "printedQuestion": "B42",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "The graph shows 2000=15 thousand tonnes and 2001=35 thousand; sum=50 thousand, equal to 2004.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B43",
+          "questionNumber": "B43",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The difference of the production of food grains for the year 2005 and 2003 is",
+          "options": [
+            {
+              "label": "a",
+              "text": "5000 tonnes"
+            },
+            {
+              "label": "b",
+              "text": "3500 tonnes"
+            },
+            {
+              "label": "c",
+              "text": "5500 tonnes"
+            },
+            {
+              "label": "d",
+              "text": "6000 tonnes"
+            }
+          ],
+          "printedPage": 7,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 7,
+            "printedQuestion": "B43",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "From the graph, 2005=45 thousand and 2003=40 thousand tonnes; difference=5,000 tonnes.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B44",
+          "questionNumber": "B44",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The percentage increase in production form 2003 to 2004 was",
+          "options": [
+            {
+              "label": "a",
+              "text": "20%"
+            },
+            {
+              "label": "b",
+              "text": "25%"
+            },
+            {
+              "label": "c",
+              "text": "30%"
+            },
+            {
+              "label": "d",
+              "text": "40%"
+            }
+          ],
+          "printedPage": 7,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 7,
+            "printedQuestion": "B44",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 1,
+          "answerLetter": "B",
+          "scored": true,
+          "workedExplanation": "Production rises from 40 to 50 thousand: (10/40)×100=25%.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B45",
+          "questionNumber": "B45",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The ratio of Production in 2002 to that of 2003 is –",
+          "options": [
+            {
+              "label": "a",
+              "text": "3:7"
+            },
+            {
+              "label": "b",
+              "text": "7:5"
+            },
+            {
+              "label": "c",
+              "text": "5:8"
+            },
+            {
+              "label": "d",
+              "text": "1:2"
+            }
+          ],
+          "printedPage": 7,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 7,
+            "printedQuestion": "B45",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Graph values are 25 thousand and 40 thousand; 25:40 simplifies to 5:8.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B46",
+          "questionNumber": "B46",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The average yearly production during 2000 to 2005 was",
+          "options": [
+            {
+              "label": "a",
+              "text": "35000 tonnes"
+            },
+            {
+              "label": "b",
+              "text": "40000 tonnes"
+            },
+            {
+              "label": "c",
+              "text": "50000 tonnes"
+            },
+            {
+              "label": "d",
+              "text": "60000 tonnes"
+            }
+          ],
+          "printedPage": 7,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 7,
+            "printedQuestion": "B46",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Graph values sum to (15+35+25+40+50+45)=210 thousand tonnes. Divide by six years: 35,000 tonnes.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B47",
+          "questionNumber": "B47",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The total amount of expenditure on Food and clothing taken together is",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹20000"
+            },
+            {
+              "label": "b",
+              "text": "₹32000"
+            },
+            {
+              "label": "c",
+              "text": "₹23000"
+            },
+            {
+              "label": "d",
+              "text": "₹29000"
+            }
+          ],
+          "printedPage": 8,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 8,
+            "printedQuestion": "B47",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "Shared pie chart: total income ₹72,000; Food=90° and Clothing=55°. Amount=72,000×145/360=₹29,000.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B48",
+          "questionNumber": "B48",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The expenditure on Education exceeds the expenditure on Clothing by",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹5000"
+            },
+            {
+              "label": "b",
+              "text": "₹6000"
+            },
+            {
+              "label": "c",
+              "text": "₹2300"
+            },
+            {
+              "label": "d",
+              "text": "₹2000"
+            }
+          ],
+          "printedPage": 8,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 8,
+            "printedQuestion": "B48",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 0,
+          "answerLetter": "A",
+          "scored": true,
+          "workedExplanation": "Shared pie chart: Education=80°, Clothing=55°; difference 25°. Amount=72,000×25/360=₹5,000.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B49",
+          "questionNumber": "B49",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "Amount of Expenditure on Miscellaneous head is –",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹10000"
+            },
+            {
+              "label": "b",
+              "text": "₹12000"
+            },
+            {
+              "label": "c",
+              "text": "₹13000"
+            },
+            {
+              "label": "d",
+              "text": "₹14000"
+            }
+          ],
+          "printedPage": 8,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 8,
+            "printedQuestion": "B49",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 2,
+          "answerLetter": "C",
+          "scored": true,
+          "workedExplanation": "Shared pie chart: Miscellaneous=65°. Amount=72,000×65/360=₹13,000.",
+          "holdReason": null
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B50",
+          "questionNumber": "B50",
+          "type": "mcq",
+          "section": "arithmetic",
+          "stem": "The monthly savings of the family is",
+          "options": [
+            {
+              "label": "a",
+              "text": "₹10000"
+            },
+            {
+              "label": "b",
+              "text": "₹12000"
+            },
+            {
+              "label": "c",
+              "text": "₹13000"
+            },
+            {
+              "label": "d",
+              "text": "₹14000"
+            }
+          ],
+          "printedPage": 8,
+          "sourcePdfHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
+          "sourcePdfSha256": "cc5fbb2e46228b2451671d75413f55f4b399170ba01e6077bacb76ed51eb2c2f",
+          "sourceEvidence": {
+            "pdfPage": 8,
+            "printedQuestion": "B50",
+            "verification": "Compared with searchable source PDF transcription; page render visually inspected for the section/question and option lettering. Figure-dependent data was visually read from the printed graph/chart on page 7 (Q42–46) and page 8 (Q47–50).",
+            "optionOrder": "Transcribed in printed (a)–(d) order."
+          },
+          "answerIndex": 3,
+          "answerLetter": "D",
+          "scored": true,
+          "workedExplanation": "The other pie angles total 55°+65°+80°+90°=290°, leaving 70° for savings. Amount=72,000×70/360=₹14,000.",
+          "holdReason": null
+        }
+      ]
+    }
+  ]
+}

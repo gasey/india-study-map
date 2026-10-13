@@ -2,12 +2,12 @@
   "generatedBy": "tools/udc-ldc-build/build_group_b.py",
   "scope": "All English-bearing archive registrations, including mixed papers and retained duplicate aliases. The study module excludes duplicateOf aliases and specialty technical papers. Counts are English records only. Null expected/missing totals mean unknown, not zero. Written records may group subparts; guide counts are not exam scores.",
   "summary": {
-    "papers": 261,
+    "papers": 260,
     "gazettedArchivePapers": 109,
     "ready": 9162,
     "pendingMcq": 1,
     "heldReviewed": 761,
-    "pendingWritten": 566
+    "pendingWritten": 553
   },
   "papers": [
     {
@@ -250,28 +250,6 @@
       "writtenRecords": 11,
       "writtenGuides": 11,
       "pendingWritten": 0,
-      "keyHref": null,
-      "heldItems": []
-    },
-    {
-      "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-      "exam": "ADA, ATA & Assistant Auditor under Finance Department",
-      "sitting": "2019",
-      "subject": "Arithmetic",
-      "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf",
-      "archiveBatch": "earlier-import",
-      "status": "needs-review",
-      "mcq": 0,
-      "ready": 0,
-      "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 0,
-      "heldReviewed": 0,
-      "expectedMcq": null,
-      "missingMcq": null,
-      "writtenRecords": 13,
-      "writtenGuides": 0,
-      "pendingWritten": 13,
       "keyHref": null,
       "heldItems": []
     },

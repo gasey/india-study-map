@@ -4,25 +4,25 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 26981,
-    "mcq": 26027,
-    "writtenRecords": 954,
-    "ready": 23480,
-    "readyOfficial": 8634,
-    "pendingMcq": 1340,
-    "heldReviewed": 1207,
-    "workedGuidesReviewed": 17475,
-    "pendingMcqGuides": 8552,
-    "keyOnlyFeedback": 6463,
+    "records": 26987,
+    "mcq": 26046,
+    "writtenRecords": 941,
+    "ready": 23539,
+    "readyOfficial": 8627,
+    "pendingMcq": 1287,
+    "heldReviewed": 1220,
+    "workedGuidesReviewed": 17801,
+    "pendingMcqGuides": 8245,
+    "keyOnlyFeedback": 6425,
     "writtenGuidesReviewed": 361,
-    "pendingWrittenGuides": 593,
+    "pendingWrittenGuides": 580,
     "missingMcq": 312
   },
   "sections": {
     "english": {
-      "records": 10878,
+      "records": 10865,
       "mcq": 9924,
-      "writtenRecords": 954,
+      "writtenRecords": 941,
       "ready": 9162,
       "readyOfficial": 1798,
       "pendingMcq": 1,
@@ -31,22 +31,22 @@
       "pendingMcqGuides": 824,
       "keyOnlyFeedback": 534,
       "writtenGuidesReviewed": 361,
-      "pendingWrittenGuides": 593
+      "pendingWrittenGuides": 580
     },
     "arithmetic": {
-      "records": 715,
-      "mcq": 715,
+      "records": 734,
+      "mcq": 734,
       "writtenRecords": 0,
-      "ready": 648,
-      "readyOfficial": 293,
-      "pendingMcq": 61,
-      "heldReviewed": 6,
-      "workedGuidesReviewed": 497,
-      "pendingMcqGuides": 218,
-      "keyOnlyFeedback": 19,
+      "ready": 709,
+      "readyOfficial": 288,
+      "pendingMcq": 9,
+      "heldReviewed": 16,
+      "workedGuidesReviewed": 725,
+      "pendingMcqGuides": 9,
+      "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
-      "mixedTopicRecords": 13
+      "mixedTopicRecords": 32
     },
     "computer": {
       "records": 110,
@@ -81,13 +81,13 @@
       "records": 141,
       "mcq": 141,
       "writtenRecords": 0,
-      "ready": 132,
-      "readyOfficial": 114,
-      "pendingMcq": 1,
-      "heldReviewed": 8,
-      "workedGuidesReviewed": 43,
-      "pendingMcqGuides": 98,
-      "keyOnlyFeedback": 19,
+      "ready": 130,
+      "readyOfficial": 112,
+      "pendingMcq": 0,
+      "heldReviewed": 11,
+      "workedGuidesReviewed": 141,
+      "pendingMcqGuides": 0,
+      "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
     }
@@ -837,38 +837,45 @@
       "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf",
       "keyHref": null,
       "imported": true,
-      "expectedMcq": null,
-      "missingMcq": null,
-      "records": 1,
-      "mcq": 1,
+      "expectedMcq": 20,
+      "missingMcq": 0,
+      "records": 20,
+      "mcq": 20,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 19,
       "readyOfficial": 0,
-      "pendingMcq": 1,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 1,
+      "pendingMcq": 0,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 20,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
         "arithmetic": {
-          "records": 1,
-          "mcq": 1,
+          "records": 20,
+          "mcq": 20,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 19,
           "readyOfficial": 0,
-          "pendingMcq": 1,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 1,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 20,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
-          "mixedTopicRecords": 1
+          "mixedTopicRecords": 20
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ada-2014-arithmetic-1(xvi)",
+          "questionNumber": "1(xvi)",
+          "section": "arithmetic",
+          "reason": "The source prints the answer choices in cm although area divided by length gives 16.5 m; no option is dimensionally correct."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ada-2014-english",
@@ -967,50 +974,55 @@
       "imported": true,
       "expectedMcq": 50,
       "missingMcq": 0,
-      "records": 63,
+      "records": 50,
       "mcq": 50,
-      "writtenRecords": 13,
-      "ready": 0,
+      "writtenRecords": 0,
+      "ready": 47,
       "readyOfficial": 0,
-      "pendingMcq": 50,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 50,
+      "pendingMcq": 0,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 50,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
-      "pendingWrittenGuides": 13,
+      "pendingWrittenGuides": 0,
       "sections": {
         "arithmetic": {
           "records": 50,
           "mcq": 50,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 47,
           "readyOfficial": 0,
-          "pendingMcq": 50,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 50,
+          "pendingMcq": 0,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 50,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
           "mixedTopicRecords": 0
-        },
-        "english": {
-          "records": 13,
-          "mcq": 0,
-          "writtenRecords": 13,
-          "ready": 0,
-          "readyOfficial": 0,
-          "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 0,
-          "keyOnlyFeedback": 0,
-          "writtenGuidesReviewed": 0,
-          "pendingWrittenGuides": 13
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B3",
+          "questionNumber": "B3",
+          "section": "arithmetic",
+          "reason": "The printed expression gives no listed result under the conventional readings of “of” and left-to-right division/multiplication. The expression should remain held; do not guess an intended answer."
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B4",
+          "questionNumber": "B4",
+          "section": "arithmetic",
+          "reason": "These data are mutually inconsistent. For two integers, HCF×LCM must equal their product; the implied other number is 24×1271/246=124, but gcd(246,124)=2 (not 24), and 1271 is not a multiple of 24."
+        },
+        {
+          "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B39",
+          "questionNumber": "B39",
+          "section": "arithmetic",
+          "reason": "The corrected mean can be computed (27+(63−43)/75≈27.27), but the revised median and mode cannot be inferred from only the original mean, median, mode, and one changed observation without the raw data. No listed triple is justified; hold."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -7454,13 +7466,13 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 96,
-      "readyOfficial": 95,
+      "ready": 97,
+      "readyOfficial": 96,
       "pendingMcq": 0,
-      "heldReviewed": 4,
-      "workedGuidesReviewed": 99,
-      "pendingMcqGuides": 1,
-      "keyOnlyFeedback": 1,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
+      "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -7497,13 +7509,13 @@
           "records": 20,
           "mcq": 20,
           "writtenRecords": 0,
-          "ready": 18,
-          "readyOfficial": 18,
+          "ready": 19,
+          "readyOfficial": 19,
           "pendingMcq": 0,
-          "heldReviewed": 2,
-          "workedGuidesReviewed": 19,
-          "pendingMcqGuides": 1,
-          "keyOnlyFeedback": 1,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 20,
+          "pendingMcqGuides": 0,
+          "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -7516,16 +7528,10 @@
           "reason": "The stated data gives (6×56 + 4×59) ÷ 10 = 57.2 kg. None of the printed choices is 57.2 kg, so this item has no exact correct option and is held unscored."
         },
         {
-          "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q41",
-          "questionNumber": "41",
-          "section": "reasoning",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-        },
-        {
           "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q43",
           "questionNumber": "43",
           "section": "reasoning",
-          "reason": "This item is held out because the printed question or options do not support a unique answer."
+          "reason": "Held: the pronoun “his” does not clearly identify whose left side is meant, so the direction puzzle admits competing readings."
         },
         {
           "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q100",
@@ -12578,12 +12584,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 100,
-      "readyOfficial": 100,
+      "ready": 99,
+      "readyOfficial": 99,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 50,
+      "pendingMcqGuides": 50,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -12592,12 +12598,12 @@
           "records": 30,
           "mcq": 30,
           "writtenRecords": 0,
-          "ready": 30,
-          "readyOfficial": 30,
+          "ready": 29,
+          "readyOfficial": 29,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 30,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 30,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
@@ -12625,14 +12631,21 @@
           "readyOfficial": 20,
           "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 20,
+          "workedGuidesReviewed": 20,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-co-2026-p2-Q75",
+          "questionNumber": "B75",
+          "section": "arithmetic",
+          "reason": "The printed scan literally says “A persons”; no starting number is supplied. Official key marks B (₹2,000), which would follow only if the missing count were 15: 900×(20/15)×(10/6)=2,000. The answer cannot be uniquely derived from the printed stem, so retain as a source ambiguity."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-co-ahvety-2019-english",
@@ -14930,37 +14943,37 @@
           "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q91",
           "questionNumber": "91",
           "section": "reasoning",
-          "reason": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9."
+          "reason": "Held: figure-dependent item; no independently verified unique option."
         },
         {
           "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q92",
           "questionNumber": "92",
           "section": "reasoning",
-          "reason": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9."
+          "reason": "Held: figure-dependent item; no independently verified unique option."
         },
         {
           "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q94",
           "questionNumber": "94",
           "section": "reasoning",
-          "reason": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10."
+          "reason": "Held: figure-dependent item; no independently verified unique option."
         },
         {
           "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q95",
           "questionNumber": "95",
           "section": "reasoning",
-          "reason": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10."
+          "reason": "Held: figure-dependent item; no independently verified unique option."
         },
         {
           "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q96",
           "questionNumber": "96",
           "section": "reasoning",
-          "reason": "The printed example ROMAN → QMONA does not follow the apparent one-letter-back rule that yields option B for ITALIAN; inconsistent example and answer choice, so hold."
+          "reason": "Held: the example CONSUMER → 365103459 conflicts with the apparent alphabet-position concatenation; do not score."
         },
         {
           "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q99",
           "questionNumber": "99",
           "section": "reasoning",
-          "reason": "The printed example CONSUMER → 365103459 does not match the evident alphabet-position concatenation, although option B is the value for PRODUCER; inconsistent example, so hold."
+          "reason": "Held: the example is inconsistent with the apparent rule, even though option B fits PRODUCER under that rule."
         }
       ]
     },
@@ -16626,12 +16639,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 99,
-      "readyOfficial": 99,
-      "pendingMcq": 1,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "ready": 98,
+      "readyOfficial": 98,
+      "pendingMcq": 0,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 50,
+      "pendingMcqGuides": 50,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -16640,12 +16653,12 @@
           "records": 28,
           "mcq": 28,
           "writtenRecords": 0,
-          "ready": 28,
-          "readyOfficial": 28,
+          "ready": 27,
+          "readyOfficial": 27,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 28,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 28,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
@@ -16671,16 +16684,29 @@
           "writtenRecords": 0,
           "ready": 21,
           "readyOfficial": 21,
-          "pendingMcq": 1,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 22,
+          "pendingMcq": 0,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 22,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-jao-2026-p2-Q57",
+          "questionNumber": "B57",
+          "section": "arithmetic",
+          "reason": "The weighted mean is (6×56+4×59)/10=57.2 kg, but the printed options are 54, 55, 56, 57 kg. The official key marks D/57 kg, which is not the exact mean; hold unscored rather than accept the nearest option."
+        },
+        {
+          "id": "mpsc-group-b-jao-2026-p2-Q80",
+          "questionNumber": "B80",
+          "section": "reasoning",
+          "reason": "Defective/voided: correct time is about 11:45:07 AM; no option matches, and the final key marks it Compensated."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-je-2016-english",
@@ -19910,13 +19936,13 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 99,
-      "readyOfficial": 99,
-      "pendingMcq": 1,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 19,
-      "pendingMcqGuides": 81,
-      "keyOnlyFeedback": 64,
+      "ready": 95,
+      "readyOfficial": 95,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 73,
+      "pendingMcqGuides": 27,
+      "keyOnlyFeedback": 27,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -19924,13 +19950,13 @@
           "records": 30,
           "mcq": 30,
           "writtenRecords": 0,
-          "ready": 29,
-          "readyOfficial": 29,
-          "pendingMcq": 1,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 11,
-          "pendingMcqGuides": 19,
-          "keyOnlyFeedback": 19,
+          "ready": 28,
+          "readyOfficial": 28,
+          "pendingMcq": 0,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 30,
+          "pendingMcqGuides": 0,
+          "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
           "mixedTopicRecords": 0
@@ -19954,18 +19980,49 @@
           "records": 35,
           "mcq": 35,
           "writtenRecords": 0,
-          "ready": 35,
-          "readyOfficial": 35,
+          "ready": 32,
+          "readyOfficial": 32,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 35,
-          "keyOnlyFeedback": 18,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 35,
+          "pendingMcqGuides": 0,
+          "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ng-2024-paper-2-a-q064",
+          "questionNumber": "64",
+          "section": "arithmetic",
+          "reason": "The question is ambiguous between exactly one head and at least one head; official key compensates it. Do not assign a single answer."
+        },
+        {
+          "id": "mpsc-group-b-ng-2024-paper-2-a-q065",
+          "questionNumber": "65",
+          "section": "arithmetic",
+          "reason": "Official key is D/10%, but the stem never says all people like tea or coffee; overlap can range from 10% to 46%. Hold pending resolution of the missing union assumption."
+        },
+        {
+          "id": "mpsc-group-b-ng-2024-paper-2-a-q073",
+          "questionNumber": "73",
+          "section": "reasoning",
+          "reason": "Held: the printed constraints admit multiple valid house arrangements; the listed statements vary across them, so the “not correct” item has no unique answer even though the official key marks C."
+        },
+        {
+          "id": "mpsc-group-b-ng-2024-paper-2-a-q097",
+          "questionNumber": "97",
+          "section": "reasoning",
+          "reason": "Held: the printed direction puzzle does not specify relative distances. P can be southwest, due south, or southeast of X while satisfying the text; the key’s C requires an unstated equal-distance assumption."
+        },
+        {
+          "id": "mpsc-group-b-ng-2024-paper-2-a-q099",
+          "questionNumber": "99",
+          "section": "reasoning",
+          "reason": "Independent reasoning gives B, while the official final key gives C. The key’s C says the reason is false, although Earth does absorb solar radiation; hold the scoring dispute."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-general-english",
@@ -20547,12 +20604,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 100,
-      "readyOfficial": 100,
+      "ready": 99,
+      "readyOfficial": 99,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 49,
+      "pendingMcqGuides": 51,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -20561,12 +20618,12 @@
           "records": 29,
           "mcq": 29,
           "writtenRecords": 0,
-          "ready": 29,
-          "readyOfficial": 29,
+          "ready": 28,
+          "readyOfficial": 28,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 29,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 29,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
@@ -20608,14 +20665,21 @@
           "readyOfficial": 20,
           "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 20,
+          "workedGuidesReviewed": 20,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-ri-2026-p2-B80",
+          "questionNumber": "B80",
+          "section": "arithmetic",
+          "reason": "The stated HCF 15 cannot divide the stated LCM 35, so no pair of integers has these values. The official key marks B/525 using HCF×LCM, but the premises are impossible; retain B only as a key candidate and hold unscored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-scr-2019-english",
@@ -22085,8 +22149,8 @@
       "readyOfficial": 0,
       "pendingMcq": 0,
       "heldReviewed": 2,
-      "workedGuidesReviewed": 98,
-      "pendingMcqGuides": 2,
+      "workedGuidesReviewed": 100,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -22099,8 +22163,8 @@
           "readyOfficial": 0,
           "pendingMcq": 0,
           "heldReviewed": 2,
-          "workedGuidesReviewed": 98,
-          "pendingMcqGuides": 2,
+          "workedGuidesReviewed": 100,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
@@ -22112,13 +22176,13 @@
           "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q72",
           "questionNumber": "72",
           "section": "arithmetic",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Printed scan verified: options (a) and (c) are both 24π cm, the correct circumference. Keep held; do not unhold."
         },
         {
           "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q92",
           "questionNumber": "92",
           "section": "arithmetic",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "Printed scan verified: options (b) and (d) are both 16√3 cm², the correct area. Keep held; do not unhold."
         }
       ]
     },
@@ -22175,12 +22239,12 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 100,
-      "readyOfficial": 100,
+      "ready": 99,
+      "readyOfficial": 99,
       "pendingMcq": 0,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 50,
+      "pendingMcqGuides": 50,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -22189,12 +22253,12 @@
           "records": 50,
           "mcq": 50,
           "writtenRecords": 0,
-          "ready": 50,
-          "readyOfficial": 50,
+          "ready": 49,
+          "readyOfficial": 49,
           "pendingMcq": 0,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 50,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 50,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
@@ -22215,7 +22279,14 @@
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-si-stats-2026-p2-A8",
+          "questionNumber": "A8",
+          "section": "arithmetic",
+          "reason": "The printed stem gives tanθ=3/4 without restricting θ to an acute angle or quadrant. Since sec²θ=1+tan²θ=25/16, secθ may be +5/4 or −5/4. The key marks C/5/4, which assumes an acute angle; hold unless that assumption is stated."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-staff-nurse-2019-english",

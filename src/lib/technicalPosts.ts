@@ -66,7 +66,18 @@ export function isPaperSubjectTechnical(subject: string | null | undefined): boo
 // UDC/LDC study includes computer knowledge even when the source paper's
 // subject also carries a technical-paper label. Other technical subjects stay
 // outside that general-study module.
-export function isGeneralStudyPaperSubjectTechnical(subject: string | null | undefined): boolean {
+// Specialty ACF Mathematics is a technical recruitment paper even though its
+// catalog subject is simply "Mathematics". Keep the source in the archive,
+// but omit it from the general-study module alongside other specialty papers.
+const GENERAL_STUDY_EXCLUDED_PAPER_IDS = new Set([
+  'mpsc-group-b-archive2325-acf-2023-mathematics',
+]);
+
+export function isGeneralStudyPaperSubjectTechnical(
+  subject: string | null | undefined,
+  paperId?: string | null,
+): boolean {
+  if (paperId && GENERAL_STUDY_EXCLUDED_PAPER_IDS.has(paperId)) return true;
   if (/\bcomputer\s+knowledge\b/i.test(subject ?? '')) return false;
   return isPaperSubjectTechnical(subject);
 }

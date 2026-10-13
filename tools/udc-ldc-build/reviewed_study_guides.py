@@ -14,7 +14,8 @@ def apply_reviewed_study_guides(root, questions, manifest):
     for batch in manifest['batches']:
         assert batch.get('reviewedOn') and batch.get('evidence'), 'Guide needs source-review evidence'
         checked_pdf(root, batch['sourceHref'], batch['sourceSha256'])
-        checked_pdf(root, batch['keyHref'], batch['keySha256'])
+        if batch.get('keyHref'):
+            checked_pdf(root, batch['keyHref'], batch['keySha256'])
         for identifier, guide in batch['questions'].items():
             q = by_id[identifier]
             assert q['paperId'] == batch['paperId'], 'Wrong guide paper'
@@ -35,4 +36,36 @@ def apply_reviewed_study_guides(root, questions, manifest):
             if independent != official:
                 q.update({'sourceReview': True, 'answerIndex': -1,
                           'disputeNote': f"Independent solution gives {'ABCD'[independent]}; official key gives {'ABCD'[official]}. Held unscored until resolved."})
-            # Existing sourceReview/compensated/figure gates are never cleared.
+            # A hold can be cleared only by an explicit item-level resolution
+            # whose independently solved answer agrees with the official key.
+            if guide.get('resolveSourceReview'):
+                assert identifier == 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q41', 'Unexpected source-review resolution'
+                assert q.get('sourceReview') and independent == official and not q.get('compensated'), 'Source-review resolution lacks matching source/key evidence'
+                q.update({'answerIndex': official, 'sourceReview': False})
+                q.pop('disputeNote', None)
+            # Otherwise existing sourceReview/compensated/figure gates are never cleared.
+        # Source-checked questions that cannot receive one unique answer have
+        # reviewed explanations too. Keep them outside the scored question
+        # adapter so the review can never clear their hold gate.
+        for identifier, guide in batch.get('heldQuestions', {}).items():
+            q = by_id[identifier]
+            assert q['paperId'] == batch['paperId'], 'Wrong held guide paper'
+            assert q['question'] == guide['expectedQuestion'] and q['options'] == guide['expectedOptions'], 'Stale held guide stem/options'
+            if batch.get('keyHref'):
+                assert q.get('answerSource') == 'official' and q.get('answerKeyRef', '').split('#')[0] == batch['keyHref'].split('#')[0], 'Wrong held guide key'
+            else:
+                assert guide.get('expectedNoOfficialKey') is True and not q.get('answerSource') and q.get('answerIndex', -1) < 0, 'Unexpected official key on held-only guide'
+            assert guide.get('holdReason','').strip() and guide.get('explanation','').strip() and guide.get('page',0)>0, 'Invalid held guide'
+            official = guide.get('expectedOfficialAnswerIndex')
+            candidates = q.get('officialAnswerCandidates') or ([q['answerIndex']] if q['answerIndex'] >= 0 else [])
+            if official is None:
+                assert ((guide.get('expectedCompensated') is True and q.get('compensated') is True and not candidates)
+                        or (guide.get('expectedNoOfficialKey') is True and not candidates)), 'Expected a compensated or unkeyed held item'
+            else:
+                assert candidates == [official], 'Held guide official key changed'
+            q.update({'explanation': guide['explanation'], 'sourceReviewed': True,
+                      'independentAnswerIndex': -1, 'independentAnswerSource': 'ambiguous',
+                      'answerConfidence': 'low', **({'answerKeyRef': batch['keyHref']} if batch.get('keyHref') else {}),
+                      'sourceHref': batch['sourceHref'] + '#page=' + str(guide['page']),
+                      'sourceNote': guide['holdReason'], 'sourceReview': True,
+                      'answerIndex': -1, 'disputeNote': guide['holdReason']})

@@ -25,6 +25,60 @@ def normalized(text):
     return re.sub(r'[^a-z0-9]', '', (text or '').lower())
 
 
+def apply_arithmetic_source_reviews(root, papers, questions, library):
+    """Replace merged arithmetic OCR rows with source-checked MCQ subparts."""
+    manifest_path = HERE / 'arithmetic-source-reviews.json'
+    if not manifest_path.exists():
+        return
+    manifest = json.loads(manifest_path.read_text())
+    paper_by_id = {paper['id']: paper for paper in papers}
+    library_by_id = {paper['id']: paper for paper in library}
+    for batch in manifest.get('batches', []):
+        assert batch.get('reviewedOn') and batch.get('evidence'), 'Arithmetic source repair needs review evidence'
+        source_href = batch['sourceHref']
+        source_path = (root / 'public' / source_href.lstrip('/')).resolve()
+        public = (root / 'public').resolve()
+        assert source_path.is_relative_to(public) and source_path.suffix.lower() == '.pdf' and source_path.is_file(), 'Invalid arithmetic source PDF'
+        assert hashlib.sha256(source_path.read_bytes()).hexdigest() == batch['sourceSha256'], 'Stale arithmetic source review'
+        paper_id = batch['paperId']
+        assert paper_id in paper_by_id and paper_id in library_by_id, 'Arithmetic source review references an unknown paper'
+        items = batch.get('questions', [])
+        assert len(items) == batch['expectedMcq'] and len({item['id'] for item in items}) == len(items), 'Arithmetic source review has incomplete or duplicate coverage'
+        old = [question for question in questions if question['paperId'] == paper_id]
+        assert old and all(question.get('sourceReview') for question in old), 'Expected the merged extraction row to remain held before replacement'
+        reviewed_items = []
+        for item in items:
+            idx = item.get('answerIndex')
+            options = item.get('options', [])
+            page = item.get('printedPage')
+            assert item.get('type') == 'mcq' and item.get('section') == 'arithmetic', 'Invalid reviewed arithmetic item type'
+            assert item.get('sourcePdfHref') == source_href and item.get('sourcePdfSha256') == batch['sourceSha256'], 'Arithmetic item source does not match its batch'
+            assert item.get('sourceEvidence', {}).get('pdfPage') == page and page > 0, 'Arithmetic item needs printed page evidence'
+            assert len(options) == 4 and [option.get('label') for option in options] == list('abcd') and all(option.get('text', '').strip() for option in options), 'Arithmetic item needs four ordered options'
+            scored = item.get('scored') is True
+            assert (type(idx) is int and 0 <= idx < 4) if scored else idx is None and bool(item.get('holdReason')), 'Invalid scored/held arithmetic answer'
+            assert item.get('workedExplanation', '').strip(), 'Arithmetic item needs a worked explanation'
+            if scored:
+                assert item.get('answerLetter') == 'ABCD'[idx], 'Arithmetic answer letter/index mismatch'
+            q = {
+                'id': item['id'], 'questionNumber': item['questionNumber'], 'paperId': paper_id,
+                'subject': 'arithmetic', 'studySection': 'arithmetic', 'topic': 'general',
+                'topicLabel': 'Arithmetic', 'difficulty': 'medium', 'question': item['stem'],
+                'options': [option['text'] for option in options], 'answerIndex': idx if scored else -1,
+                'explanation': item['workedExplanation'], 'source': paper_by_id[paper_id]['examName'] + ' · ' + str(batch.get('year', 2014)),
+                'year': batch.get('year', 2014), 'sourceHref': source_href + '#page=' + str(page),
+                'sourceReviewed': True, 'paperExamExcluded': True,
+                'sourceNote': item['holdReason'] if not scored else 'Stem and option order checked against the printed scan; independently solved. No official key was located.',
+            }
+            if scored:
+                q.update({'answerSource': 'derived', 'answerConfidence': 'high', 'independentAnswerSource': 'solved'})
+            else:
+                q.update({'sourceReview': True})
+            reviewed_items.append(q)
+        questions[:] = [question for question in questions if question['paperId'] != paper_id] + reviewed_items
+        library_by_id[paper_id]['expectedMcq'] = batch['expectedMcq']
+
+
 def legacy_answers():
     result = defaultdict(set)
     for file in ['mpsc_bank_converted.json', 'mpsc_bank_v2.json']:
@@ -1738,6 +1792,7 @@ def build_additional():
     appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS_2019)
     appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS_2023_2025)
     appended_ids.update('mpsc-group-b-' + row[0] for row in GENERAL_PAPERS_NG_2024_2027)
+    apply_arithmetic_source_reviews(ROOT, papers, questions, library)
     papers.sort(key=lambda paper: paper['id'] in appended_ids)
     questions.sort(key=lambda question: question['paperId'] in appended_ids)
     by_id = {question['id']: question for question in questions}

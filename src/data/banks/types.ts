@@ -136,7 +136,7 @@ interface BankQuestionBase {
   answerKeyRef?: string;
   /** Independent solved transcription, retained beside an official answer for comparison. */
   independentAnswerIndex?: number;
-  independentAnswerSource?: 'solved' | 'transcribed' | 'legacy-inferred';
+  independentAnswerSource?: 'solved' | 'transcribed' | 'legacy-inferred' | 'ambiguous';
   /**
    * The printed options are IMAGES (picture-sequence / figure-matrix items in
    * the non-verbal reasoning sections), so there is no option text to store and

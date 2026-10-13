@@ -768,7 +768,8 @@
     "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf",
     "keyHref": null,
     "imported": true,
-    "reviewRequired": true
+    "reviewRequired": true,
+    "expectedMcq": 20
   },
   {
     "id": "mpsc-group-b-mes-phe-2014-english",

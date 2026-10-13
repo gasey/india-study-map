@@ -1034,7 +1034,7 @@ export default function UdcLdcPage() {
   // while limiting this study module to general papers plus Computer Knowledge.
   const technicalPaperIds = useMemo(() => new Set(
     (data?.bank.papers ?? [])
-      .filter((paper) => isGeneralStudyPaperSubjectTechnical(paper.paperSubject))
+      .filter((paper) => isGeneralStudyPaperSubjectTechnical(paper.paperSubject, paper.id))
       .map((paper) => paper.id),
   ), [data]);
   const visibleRows = useMemo(() => data?.rows.filter((row) => !technicalPaperIds.has(row.paper.id)) ?? [],

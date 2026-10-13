@@ -22,7 +22,7 @@ export function GroupBPaperLibrary({ questions, excludedPaperIds, onBrowse }: {
 }) {
   const [search, setSearch] = useState('');
   const visibleLibrary = useMemo(() => library.filter((paper) =>
-    !paper.duplicateOf && !excludedPaperIds.has(paper.id) && !isGeneralStudyPaperSubjectTechnical(paper.subject)), [excludedPaperIds]);
+    !paper.duplicateOf && !excludedPaperIds.has(paper.id) && !isGeneralStudyPaperSubjectTechnical(paper.subject, paper.id)), [excludedPaperIds]);
   const progress = useMemo(() => {
     const ids = new Set(visibleLibrary.map((p) => p.id));
     const items = questions.filter((q) => q.paperId && ids.has(q.paperId));

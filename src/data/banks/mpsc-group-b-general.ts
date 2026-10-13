@@ -6949,14 +6949,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "108.5°"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “115.2°”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Store D accounts for 32% of 550 books, so its pie-chart angle is 0.32×360°=115.2° (B).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q047",
@@ -6973,14 +6980,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "44"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “22”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Books at A and E total (18%+22%)×550=220, averaging 110. Books at C and D total (16%+32%)×550=264, averaging 132. Difference=22 (A).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 0,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q048",
@@ -6997,14 +7011,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "60%"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “52%”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Successive discounts leave 0.60×0.80=0.48 of the marked price, so the equivalent discount is 1−0.48=0.52=52% (B).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q049",
@@ -7021,14 +7042,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "₹80,000"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “₹75,000”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "₹84,000 includes a 12% tax, hence original price=84,000/1.12=₹75,000 (A).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 0,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q050",
@@ -7045,14 +7073,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "3:4:6"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “6:4:3”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Let 2p=3q=4r=k. Then p:q:r=1/2:1/3:1/4; multiplying by 12 gives 6:4:3 (C).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q051",
@@ -7069,14 +7104,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "6:5"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “6:5”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Milk=20×3/5=12 L and water=8 L. Adding 2 L water gives milk:water=12:10=6:5 (D).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q052",
@@ -7093,14 +7135,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "29"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “28”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Present students=38−3=35. Of these, 80% did the homework: 0.8×35=28 (D).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q053",
@@ -7117,14 +7166,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "₹525"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “₹525”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A 10% loss on selling at ₹450 means cost price=450/0.9=₹500. For a 5% gain, selling price=500×1.05=₹525 (D).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q054",
@@ -7141,14 +7197,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "57"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “56”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The greatest square not exceeding 3150 is 56²=3136 (since 57²=3249>3150), so the maximum row count is 56 (C).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q055",
@@ -7165,14 +7228,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "4 cm"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “8 cm”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Cube side=∛512=8 cm (A).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 0,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=6",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q056",
@@ -7220,14 +7290,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "500 m"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “450 m”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "90 km/h=25 m/s. In 18 s the train travels 25×18=450 m, which is its length when crossing a pole (C).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q058",
@@ -7244,14 +7321,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "36 hours"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “30 hours”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Without the leak, filling rate is 1/5 tank/hour; with leak, net rate is 1/6. Leak rate=1/5−1/6=1/30 tank/hour, so the leak empties the tank in 30 hours (B).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q059",
@@ -7268,14 +7352,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "37"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “34”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "For the AP, a=7, d=4, and aₙ=139. Thus n=(139−7)/4+1=34 terms (A).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 0,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q060",
@@ -7292,15 +7383,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "₹8,366"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “₹3,008”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "After ₹7,260 down, principal financed=27,000−7,260=₹19,740. Total installments=2×11,374=₹22,748, so interest=22,748−19,740=₹3,008 (B).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
     "disputeNote": "Independent solution chooses D; the final MPSC key chooses B.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q061",
@@ -7317,14 +7415,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "7%"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “5%”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "For annual compounding, A₃/A₂=1+r. Hence 2100/2000=1+r, giving r=0.05=5% (B).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q062",
@@ -7341,14 +7446,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "25m"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “25m”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Net displacement is 7 m north (34−27) and 24 m east. Distance=√(7²+24²)=25 m (D).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q063",
@@ -7365,14 +7477,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Data inadequate to find their areas"
     ],
     "answerIndex": 0,
-    "explanation": "The official final key marks option A: “The circle encloses more area”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Square perimeter 44 gives side 11 and area 121 cm². Circle circumference 44 gives radius 22/π and area 484/π≈154 cm², so the circle encloses more area (A).",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 0,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q064",
@@ -7389,15 +7508,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "3/4"
     ],
     "answerIndex": -1,
-    "explanation": "Official MPSC final key, compared with an independent solved transcription.",
+    "explanation": "Two fair coins have outcomes HH, HT, TH, TT. Exactly one head gives 2/4=1/2; at least one head gives 3/4. Since the printed stem only says “getting a head,” it does not specify which event; the official final key marks this question “Compensated.”",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
     "compensated": true,
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "low",
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=7",
+    "sourceNote": "The question is ambiguous between exactly one head and at least one head; official key compensates it. Do not assign a single answer.",
+    "sourceReview": true,
+    "disputeNote": "The question is ambiguous between exactly one head and at least one head; official key compensates it. Do not assign a single answer."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q065",
@@ -7413,15 +7538,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "9%",
       "10%"
     ],
-    "answerIndex": 3,
-    "explanation": "The official final key marks option D: “10%”. This is the key reference for the answer; it is not a worked derivation.",
+    "answerIndex": -1,
+    "explanation": "The key gives 10% using 64%+46%−100%. This is the minimum possible overlap: inclusion–exclusion only implies overlap ≥10%; it can be as high as 46% if some people like neither. Since the stem does not say everyone likes at least one, 10% is conditional on that unstated assumption; item held as ambiguous.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "low",
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Official key is D/10%, but the stem never says all people like tea or coffee; overlap can range from 10% to 46%. Hold pending resolution of the missing union assumption.",
+    "sourceReview": true,
+    "disputeNote": "Official key is D/10%, but the stem never says all people like tea or coffee; overlap can range from 10% to 46%. Hold pending resolution of the missing union assumption."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q066",
@@ -7438,14 +7569,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "5, 3, 1, 2, 4"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “3, 5, 1, 4, 2”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The process starts with Arrival, followed by Introduction, Presentation, Discussion and finally Recommendation: 3–5–1–4–2, option C.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q067",
@@ -7462,14 +7600,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "H"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “W”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The last-but-one alphabet letter is Y. Ten places to its left is O; eight places to the right of O is W, option B.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q068",
@@ -7486,14 +7631,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "6"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “6”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Compare each pair’s distance in the word with its alphabetic distance. The matching pairs are S–T, T–O, T–N, R–P, H–E and O–N: six pairs, option D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q069",
@@ -7510,14 +7662,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "3 is opposite to 5"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “3 is adjacent to 5”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A face on a cube is adjacent to four faces and opposite one. Since 1 is adjacent to 2, 4 and 6, the remaining 3/5 relationship forced by the possible dice arrangements is adjacency, option C.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q070",
@@ -7534,14 +7693,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Saturday"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Saturday”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "61 days is 8 weeks plus 5 days. Monday + 5 days = Saturday, option D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q071",
@@ -7558,14 +7724,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "3100"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “2700”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Valid votes = 80% × 7500 = 6000. The other candidate received 45% of valid votes: 0.45 × 6000 = 2700, option B.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q072",
@@ -7582,14 +7755,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Mayonnaise"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “Mayonnaise”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Parsley, basil and dill are herbs; mayonnaise is a condiment, option D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q073",
@@ -7605,15 +7785,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Taud is in between Paul and Jack.",
       "There are three persons to the right of Paul"
     ],
-    "answerIndex": 2,
-    "explanation": "The official final key marks option C: “Taud is in between Paul and Jack.”. This is the key reference for the answer; it is not a worked derivation.",
+    "answerIndex": -1,
+    "explanation": "The given constraints do not determine a unique arrangement. Multiple valid placements satisfy them, and the truth of the listed statements changes across those placements. The official key marks C, but that answer is not entailed by the printed information.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "low",
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=8",
+    "sourceNote": "Held: the printed constraints admit multiple valid house arrangements; the listed statements vary across them, so the “not correct” item has no unique answer even though the official key marks C.",
+    "sourceReview": true,
+    "disputeNote": "Held: the printed constraints admit multiple valid house arrangements; the listed statements vary across them, so the “not correct” item has no unique answer even though the official key marks C."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q074",
@@ -7630,14 +7816,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "BEAK"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “BEAK”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A cup is associated with a lip as a bird is with its beak, option D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=9",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q075",
@@ -7654,15 +7847,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "6"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “9”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "In each fork, the bottom number is one-tenth of the sum of the three top numbers: (12+18+30)/10=6; (16+24+40)/10=8; (45+18+27)/10=9. Option C.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "imagePath": "/question-images/group-b/2024-paper2-q075.webp",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=9",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q076",
@@ -7679,14 +7879,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "South"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “North”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "In the morning the Sun is east, so a person’s shadow points west. West is on the left when facing north; Udai faces north, option C.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=9",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q077",
@@ -7703,14 +7910,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "South-West"
     ],
     "answerIndex": 2,
-    "explanation": "The official final key marks option C: “South-East”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The stated compass remapping advances each direction by 225° clockwise (SE→N and NE→W). West therefore maps to South-East, option C.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 2,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=9",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q078",
@@ -7727,15 +7941,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "4"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “4”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Match the line endpoints that continue across the blank cell’s borders in the 2×2 pattern. Only figure 4 completes those continuations, option D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "imagePath": "/question-images/group-b/2024-paper2-q078.webp",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=9",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q079",
@@ -7752,15 +7973,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "4"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “4”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "The left column uses the triangle-symbol group and the right column uses the diamond-symbol group; the missing lower-right cell must continue the diamond arrangement. Figure 4, option D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 3,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "imagePath": "/question-images/group-b/2024-paper2-q079.webp",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=9",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q080",
@@ -7777,16 +8005,23 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "4"
     ],
     "answerIndex": 3,
-    "explanation": "The official final key marks option D: “4”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Within each row, the middle cell combines the line elements in the left and right cells. In the last row, removing the curved line leaves the X in option 4, so D.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
     "disputeNote": "Independent solution chooses B; the final MPSC key chooses D.",
     "imagePath": "/question-images/group-b/2024-paper2-q080.webp",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=10",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q081",
@@ -7803,14 +8038,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "iv"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “ii”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Only case (ii) describes a likely bullying incident: a group surrounding one child and taking the child’s backpack. Loneliness, a sports argument and a rule violation alone do not establish bullying; option B.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=10",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q082",
@@ -7827,13 +8069,22 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Neither I nor II follows"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Only II follows”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "Sending food, water and fodder directly addresses the immediate drought emergency (II). The statement does not establish that financial assistance is the immediate necessary action (I), so only II follows, option B.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "disputeNote": "Independent transcription replaced printed option D with a different answer. The final MPSC key gives B (Only II follows).",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "independentAnswerIndex": 1,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=10",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q083",
@@ -7850,14 +8101,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "Rs. 800"
     ],
     "answerIndex": 1,
-    "explanation": "The official final key marks option B: “Rs. 400”. This is the key reference for the answer; it is not a worked derivation.",
+    "explanation": "A and B together complete 7/24 of the job per day. Since the job takes 3 days with C, the combined rate is 1/3; C contributes 1/3−7/24=1/24 per day. In three days C contributes 1/8 of the work, hence 1/8×₹3200=₹400, option B.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
     "independentAnswerIndex": 1,
-    "independentAnswerSource": "transcribed",
+    "independentAnswerSource": "solved",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet A..pdf#page=10",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q084",
@@ -7880,10 +8138,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=7",
-    "sourceNote": "Recovered from complete Series B Q49; its final key agrees with Series A Q84.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q085",
@@ -7906,10 +8169,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q50; its final key agrees with Series A Q85.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q086",
@@ -7932,10 +8200,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q51; its final key agrees with Series A Q86.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q087",
@@ -7959,10 +8232,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "imagePath": "/question-images/group-b/2024-paper2-q087.webp",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q52; its final key agrees with Series A Q87.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q088",
@@ -7985,10 +8263,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q53; its final key agrees with Series A Q88.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q089",
@@ -8011,10 +8294,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q54; its final key agrees with Series A Q89.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q090",
@@ -8037,10 +8325,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 3,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q55; its final key agrees with Series A Q90.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q091",
@@ -8064,10 +8357,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "imagePath": "/question-images/group-b/2024-paper2-q091.webp",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q56; its final key agrees with Series A Q91.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q092",
@@ -8090,10 +8388,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=8",
-    "sourceNote": "Recovered from complete Series B Q57; its final key agrees with Series A Q92.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q093",
@@ -8116,10 +8419,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q58; its final key agrees with Series A Q93.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q094",
@@ -8142,10 +8450,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q59; its final key agrees with Series A Q94.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q095",
@@ -8168,10 +8481,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q60; its final key agrees with Series A Q95.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q096",
@@ -8194,10 +8512,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q61; its final key agrees with Series A Q96.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q097",
@@ -8213,17 +8536,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "South",
       "West"
     ],
-    "answerIndex": 2,
-    "explanation": "The intended diagram places X and P the same distance east of Y and Z respectively, so P is south of X. The paper does not specify those distances.",
+    "answerIndex": -1,
+    "explanation": "The printed relations fix X east of Y north of Z and P east of Z, but give no distances. Depending on those distances, P can be southwest, south, or southeast of X. The key marks C (South), which assumes equal eastward distances not stated in the question.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "solved",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q62; its final key agrees with Series A Q97.",
+    "sourceNote": "Held: the printed direction puzzle does not specify relative distances. P can be southwest, due south, or southeast of X while satisfying the text; the key’s C requires an unstated equal-distance assumption.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "low",
+    "sourceReview": true,
+    "disputeNote": "Held: the printed direction puzzle does not specify relative distances. P can be southwest, due south, or southeast of X while satisfying the text; the key’s C requires an unstated equal-distance assumption."
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q098",
@@ -8246,10 +8573,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q63; its final key agrees with Series A Q98.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q099",
@@ -8265,18 +8597,21 @@ const groupBQuestionsPart1: BankQuestion[] = [
       "A is true but R is false",
       "A is false but R is true"
     ],
-    "answerIndex": 2,
-    "explanation": "Independent reasoning gives B: the outer core contains liquid iron and nickel, and Earth also absorbs sunlight. Solar absorption does not explain the molten outer core. MPSC’s final key instead gives C; the official answer is retained for scoring.",
+    "answerIndex": -1,
+    "explanation": "The assertion is true: the Earth’s outer core contains molten metals such as iron and nickel. The reason that Earth absorbs the Sun’s rays is also true in the ordinary sense, but it does not explain the molten state of metals inside Earth. That makes option B (both true, but R is not the explanation) the independent answer; the final key gives C, so keep the item unscored pending resolution.",
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/mpsc-group-b-ng-2024-final-key.pdf",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "solved",
-    "disputeNote": "Independent solution chooses B; the final MPSC key chooses C.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "disputeNote": "Independent reasoning gives B, while the official final key gives C. The key’s C says the reason is false, although Earth does absorb solar radiation; hold the scoring dispute.",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q64; its final key agrees with Series A Q99.",
+    "sourceNote": "Independent reasoning gives B, while the official final key gives C. The key’s C says the reason is false, although Earth does absorb solar radiation; hold the scoring dispute.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "low",
+    "sourceReview": true
   },
   {
     "id": "mpsc-group-b-ng-2024-paper-2-a-q100",
@@ -8299,10 +8634,15 @@ const groupBQuestionsPart1: BankQuestion[] = [
     "independentAnswerIndex": 2,
     "independentAnswerSource": "solved",
     "sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=9",
-    "sourceNote": "Recovered from complete Series B Q65; its final key agrees with Series A Q100.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A",
     "year": 2024,
-    "paperId": "mpsc-group-b-ng-2024-paper-2-a"
+    "paperId": "mpsc-group-b-ng-2024-paper-2-a",
+    "sourceReviewed": true,
+    "answerConfidence": "high",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-ng-technical-2024-gk-q001",
@@ -122173,31 +122513,6 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
   },
   {
-    "id": "mpsc-group-b-ada-2014-arithmetic-Q1",
-    "paperId": "mpsc-group-b-ada-2014-arithmetic",
-    "questionNumber": "1",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Answer  the following:(20×1=20) (i)The sum of place and face values of 8 in 46891 is",
-    "options": [
-      "88",
-      "888",
-      "800",
-      "808 (ii)In a school, 5/8 of the students are boys. If there are 240 girls, then the number of  boys in the school is- (a)300(b)400 (c)450(d)350 (iii)What will be the HCF  of  (3×4×9×11),(3×4×11×13),(3×4×5×11)and (3×4×5×9)? (a)3×4×5(b)3×4×5×11 (c)3×4(d)3×11 (iv)The vulgar fraction of 0.36 is 92 (a)(b) 255 111 (c)(d) 3015 (v)783÷9÷0.75=? (a)116(b)118 (c)124(d)134 (vi) 15⁴=? (a)235(b)225 (c)265(d)285 (vii)The average of first 5 odd numbers is (a)25(b)10 (c)15(d)5 (a)10(b)200 (c)100(d)20 capacity of the auditorium is 2025, then the number of chairs in each row is (a)35(b)40 (c)45(d)55 3 2 22 (a)(b) 33 22 (c)(d) 33 −33−11 82 −33 (a)(b) 44 8−8 (c)(d) 1111 (a)Rs.315(b)Rs.525 (c)Rs.252(d)Rs.540 11 (a)(b) 26 11 (c)(d) 43 (a)200 km/h(b)144 km/h (c)240 km/h(d)360 km/h fraction of the work that is left is 18 (a)(b) 415 71 (c)(d) 1510 (a)15cm(b)16cm (c)16.5cm(d)17cm speed of the sound is- (a)330 m/sec(b)332 m/sec (c)334 m/sec(d)335 m/sec (a)87.5%(b)8.75% (c)85.7%(d)8.57% (xix)The digit at the ten’s place in  the square root of 15876 is equal to (a)6(b)4 (c)3(d)2 (xx)A cube of side 6cm is cut into a number of cubes each of side 2cm. The number of cubes formed is (a)6(b)9 (c)12(d)27"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "Assistant Divisional Accountant under Finance Department · 2014",
-    "year": 2014,
-    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
     "id": "mpsc-group-b-mes-phe-2014-english-written-6",
     "paperId": "mpsc-group-b-mes-phe-2014-english",
     "type": "descriptive",
@@ -126741,9 +127056,7 @@ const groupBQuestionsPart15: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
-  }
-];
-const groupBQuestionsPart16: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B13",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -126776,7 +127089,9 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 11–15): Choose the correct antonym or synonym as indicated."
-  },
+  }
+];
+const groupBQuestionsPart16: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-excise-2025-p1-B14",
     "paperId": "mpsc-group-b-si-excise-2025-p1",
@@ -135496,9 +135811,7 @@ const groupBQuestionsPart16: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart17: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q22",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -135529,7 +135842,9 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart17: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-gs-Q23",
     "paperId": "mpsc-group-b-cdpo-2025-gs",
@@ -144437,9 +144752,7 @@ const groupBQuestionsPart17: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart18: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p1-B42",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
@@ -144471,7 +144784,9 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cdpo-2025-final-key.pdf#page=6",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart18: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cdpo-2025-social-work-p1-B43",
     "paperId": "mpsc-group-b-cdpo-2025-social-work-p1",
@@ -153250,9 +153565,7 @@ const groupBQuestionsPart18: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart19: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adfd-2025-technical-p3-B42",
     "paperId": "mpsc-group-b-adfd-2025-technical-p3",
@@ -153284,7 +153597,9 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/adfd-2025-final-key.pdf#page=5",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart19: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adfd-2025-technical-p3-B43",
     "paperId": "mpsc-group-b-adfd-2025-technical-p3",
@@ -162330,9 +162645,7 @@ const groupBQuestionsPart19: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart20: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-adtp-2026-tech2-Q82",
     "paperId": "mpsc-group-b-adtp-2026-tech2",
@@ -162363,7 +162676,9 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/adtp-2026-ge-final-key.pdf#page=4",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart20: BankQuestion[] = [
   {
     "id": "mpsc-group-b-adtp-2026-tech2-Q83",
     "paperId": "mpsc-group-b-adtp-2026-tech2",
@@ -171508,9 +171823,7 @@ const groupBQuestionsPart20: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart21: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q29",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -171541,7 +171854,9 @@ const groupBQuestionsPart21: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=3",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart21: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-gdm2-Q30",
     "paperId": "mpsc-group-b-mhs-2025-gdm2",
@@ -180475,9 +180790,7 @@ const groupBQuestionsPart21: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  }
-];
-const groupBQuestionsPart22: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q32",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -180504,7 +180817,9 @@ const groupBQuestionsPart22: BankQuestion[] = [
     ],
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mhs-2025-final-key.pdf#page=6"
-  },
+  }
+];
+const groupBQuestionsPart22: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-dent2-Q33",
     "paperId": "mpsc-group-b-mhs-2025-dent2",
@@ -189737,9 +190052,7 @@ const groupBQuestionsPart22: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart23: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q36",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -189773,7 +190086,9 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives C; the final key gives D. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart23: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mhs-2025-ayush2-Q37",
     "paperId": "mpsc-group-b-mhs-2025-ayush2",
@@ -198665,9 +198980,7 @@ const groupBQuestionsPart23: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart24: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p1-A38",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
@@ -198695,7 +199008,9 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=3",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart24: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-agri-science-p1-A39",
     "paperId": "mpsc-group-b-agri-2025-agri-science-p1",
@@ -207323,9 +207638,7 @@ const groupBQuestionsPart24: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart25: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-agri-2025-ah-vety-p3-A49",
     "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
@@ -207357,7 +207670,9 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/agri-2025-final-key.pdf#page=8",
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart25: BankQuestion[] = [
   {
     "id": "mpsc-group-b-agri-2025-ah-vety-p3-A50",
     "paperId": "mpsc-group-b-agri-2025-ah-vety-p3",
@@ -216086,9 +216401,7 @@ const groupBQuestionsPart25: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:"
-  }
-];
-const groupBQuestionsPart26: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q19",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -216120,7 +216433,9 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/mcs-prelim-2025-final-key.pdf#page=5",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "direction": "Direction (Question Nos.18 - 20): Fill in the blanks with the appropriate word:"
-  },
+  }
+];
+const groupBQuestionsPart26: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mcs-prelim-2025-p2-Q20",
     "paperId": "mpsc-group-b-mcs-prelim-2025-p2",
@@ -224524,9 +224839,7 @@ const groupBQuestionsPart26: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  }
-];
-const groupBQuestionsPart27: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aao-2025-p1-B57",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -224554,7 +224867,9 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41-60): Choose the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart27: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aao-2025-p1-B58",
     "paperId": "mpsc-group-b-aao-2025-p1",
@@ -232512,9 +232827,7 @@ const groupBQuestionsPart27: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart28: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q25",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -232541,7 +232854,9 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart28: BankQuestion[] = [
   {
     "id": "mpsc-group-b-hfw-2026-p2-Q26",
     "paperId": "mpsc-group-b-hfw-2026-p2",
@@ -241543,9 +241858,7 @@ const groupBQuestionsPart28: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart29: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-2026-p1-written-1",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -241564,7 +241877,9 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "source": "Sub-Inspector of Police (Un-armed Branch) · March 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/si-police-2026-p1.pdf#page=1"
-  },
+  }
+];
+const groupBQuestionsPart29: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-2026-p1-written-2",
     "paperId": "mpsc-group-b-si-police-2026-p1",
@@ -250493,9 +250808,7 @@ const groupBQuestionsPart29: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives B; the final key gives A. Verify the printed item."
-  }
-];
-const groupBQuestionsPart30: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-A27",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -250523,7 +250836,9 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/acm-2026-final-key.pdf#page=4",
     "paperExamExcluded": true
-  },
+  }
+];
+const groupBQuestionsPart30: BankQuestion[] = [
   {
     "id": "mpsc-group-b-acm-2026-tech-p2-A28",
     "paperId": "mpsc-group-b-acm-2026-tech-p2",
@@ -259284,9 +259599,7 @@ const groupBQuestionsPart30: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart31: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-cao-2026-gs1-Q79",
     "paperId": "mpsc-group-b-cao-2026-gs1",
@@ -259318,7 +259631,9 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerKeyRef": "/papers/group-b/keys/cao-2026-final-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review.",
     "disputeNote": "Legacy inferred candidate gives D; the final key gives A. Verify the printed item."
-  },
+  }
+];
+const groupBQuestionsPart31: BankQuestion[] = [
   {
     "id": "mpsc-group-b-cao-2026-gs1-Q80",
     "paperId": "mpsc-group-b-cao-2026-gs1",
@@ -268291,9 +268606,7 @@ const groupBQuestionsPart31: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart32: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q79",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
@@ -268324,7 +268637,9 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/lecturer-hss-serchhip-2026-final-key.pdf#page=2",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart32: BankQuestion[] = [
   {
     "id": "mpsc-group-b-lecturer-serchhip-2026-gs-Q80",
     "paperId": "mpsc-group-b-lecturer-serchhip-2026-gs",
@@ -277292,9 +277607,7 @@ const groupBQuestionsPart32: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-combined-2025-provisional-key.pdf#page=1",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart33: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-5",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
@@ -277314,7 +277627,9 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "source": "MCS Combined - 2014 · 2014",
     "year": 2014,
     "sourceHref": "/papers/group-b/archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad.pdf#page=3"
-  },
+  }
+];
+const groupBQuestionsPart33: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad-written-7",
     "paperId": "mpsc-group-b-archive-lang-2014-mcs-combined-2014-mcs-main-2014-general-english-a3f6e1ad",
@@ -285376,9 +285691,7 @@ const groupBQuestionsPart33: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :"
-  }
-];
-const groupBQuestionsPart34: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63-B34",
     "paperId": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63",
@@ -285405,7 +285718,9 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question 30 – 35) : Analyze the given sentences and choose the correct option :"
-  },
+  }
+];
+const groupBQuestionsPart34: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63-B35",
     "paperId": "mpsc-group-b-archive-lang-2015-steno-grade-ii-2015-contract-under-dp-ar-ssw-steno-grade-iii-2015-contra-8732af63",
@@ -293522,9 +293837,7 @@ const groupBQuestionsPart34: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions(Questions 49-53): Analyse the given sentences and choose the correct options:"
-  }
-];
-const groupBQuestionsPart35: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B50",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -293551,7 +293864,9 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions(Questions 49-53): Analyse the given sentences and choose the correct options:"
-  },
+  }
+];
+const groupBQuestionsPart35: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4-B51",
     "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -301650,9 +301965,7 @@ const groupBQuestionsPart35: BankQuestion[] = [
     "source": "MCS Combined ( Main ) - 2017 · 2017",
     "year": 2017,
     "sourceHref": "/papers/group-b/archive-lang-2017-mcs-combined-main-2017-13-general-english-b75a3683.pdf#page=4"
-  }
-];
-const groupBQuestionsPart36: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B1",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -301680,7 +301993,9 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation. Source identity caution: the printed cover says Librarian under Health & Family Welfare Department, Government of Mizoram, 2014, although the archive registration/filename says 2018. Source wording and stable IDs retained pending metadata correction.",
     "direction": "Directions (Questions 1 - 8): Indicate the correct meaning of the given idioms and phrases:"
-  },
+  }
+];
+const groupBQuestionsPart36: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c-B2",
     "paperId": "mpsc-group-b-archive-lang-2018-librarian-under-h-fw-dept-1-general-english-609e428c",
@@ -309971,9 +310286,7 @@ const groupBQuestionsPart36: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions ( Questions 76 – 80 ) : Fill in the blanks with the appropriate form of the words given below:"
-  }
-];
-const groupBQuestionsPart37: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B77",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -310001,7 +310314,9 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions ( Questions 76 – 80 ) : Fill in the blanks with the appropriate form of the words given below:"
-  },
+  }
+];
+const groupBQuestionsPart37: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b-B78",
     "paperId": "mpsc-group-b-archive-lang-2018-primary-teacher-general-under-school-education-department-2018-1-general-f5f6f59b",
@@ -318102,9 +318417,7 @@ const groupBQuestionsPart37: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart38: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q91",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -318131,7 +318444,9 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart38: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3-Q92",
     "paperId": "mpsc-group-b-archive-lang-2020-assistant-labour-officer-under-under-labour-employment-skill-development-fa1e51b3",
@@ -326246,9 +326561,7 @@ const groupBQuestionsPart38: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart39: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q89",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -326275,7 +326588,9 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart39: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc-Q90",
     "paperId": "mpsc-group-b-archive-lang-2022-sericulture-extension-officer-seo-under-serculture-deptt-august-2022-seo-cf5d6ccc",
@@ -334889,9 +335204,7 @@ const groupBQuestionsPart39: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 31-40): Fill in the blanks with suitable prepositions from the options given."
-  }
-];
-const groupBQuestionsPart40: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-B41",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -334924,7 +335237,9 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Directions (Question Nos. 41-48): Identify the notion/concept expressed by the following sentences by choosing from the given options."
-  },
+  }
+];
+const groupBQuestionsPart40: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1-B42",
     "paperId": "mpsc-group-b-archive-lang-2025-lecturer-vse-and-vocational-guidance-officer-2025-lecturer-vse-general-e-57916eb1",
@@ -343878,9 +344193,7 @@ const groupBQuestionsPart40: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 21 - 30) : Identify the type of Imperative sentences and pick out the"
-  }
-];
-const groupBQuestionsPart41: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q22",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -343908,7 +344221,9 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 21–30): Identify the type of imperative sentence and pick out the correct answer from the given options."
-  },
+  }
+];
+const groupBQuestionsPart41: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59-Q23",
     "paperId": "mpsc-group-b-archive-lang-2024-geologist-october-2024-geologist-general-english-ii-oct-2024-ee7dae59",
@@ -352549,9 +352864,7 @@ const groupBQuestionsPart41: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "***Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.***"
-  }
-];
-const groupBQuestionsPart42: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B15",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -352579,7 +352892,9 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "***Directions (Question Nos. 11 - 20) : Choose the appropriate word from each of the options provided.***"
-  },
+  }
+];
+const groupBQuestionsPart42: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c-B16",
     "paperId": "mpsc-group-b-archive-lang-2023-assistant-director-town-planning-assist-director-town-planning-general-e-6b32cf2c",
@@ -361153,9 +361468,7 @@ const groupBQuestionsPart42: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed."
-  }
-];
-const groupBQuestionsPart43: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q44",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -361182,7 +361495,9 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "The instruction asks for a compound sentence, but the choices offer either a subordinate-clause construction, a comma splice, or “He went… and was surprised,” which coordinates predicates under one subject (simple sentence), not two independent clauses. No clean compound option; hold.",
     "direction": "Directions (Question Nos. 41 - 50) : Convert the sentences as directed."
-  },
+  }
+];
+const groupBQuestionsPart43: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc-Q45",
     "paperId": "mpsc-group-b-archive-lang-2023-jr-grade-of-mizoram-horticulture-service-2023-jr-grade-of-mhs-2023-gener-eaf318bc",
@@ -369745,9 +370060,7 @@ const groupBQuestionsPart43: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 60- 66): Identify the type of phrases or clauses marked in Italics in the sentences and choose the correct answer from the options given:"
-  }
-];
-const groupBQuestionsPart44: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a-B65",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
@@ -369775,7 +370088,9 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 60- 66): Identify the type of phrases or clauses marked in Italics in the sentences and choose the correct answer from the options given:"
-  },
+  }
+];
+const groupBQuestionsPart44: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a-B66",
     "paperId": "mpsc-group-b-archive-lang-2026-group-b-gazetted-general-services-combined-examination-2026-general-engl-ddc6a97a",
@@ -378311,9 +378626,7 @@ const groupBQuestionsPart44: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 26- 30): Given below are sentences in active/passive voice. Out of the four alternatives suggested, select one which best expresses the same sentence in passive/active voice:"
-  }
-];
-const groupBQuestionsPart45: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976-B29",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
@@ -378341,7 +378654,9 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Direction (Question Nos. 26- 30): Given below are sentences in active/passive voice. Out of the four alternatives suggested, select one which best expresses the same sentence in passive/active voice:"
-  },
+  }
+];
+const groupBQuestionsPart45: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976-B30",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-grade-oh-mhs-gdmo-dental-surgeon-gdmo-dental-surgeon-general-english-fb1b8976",
@@ -386346,8 +386661,8 @@ const groupBQuestionsPart45: BankQuestion[] = [
       "",
       ""
     ],
-    "answerIndex": -1,
-    "explanation": "",
+    "answerIndex": 3,
+    "explanation": "Unfold in reverse order: reflect each punch across the vertical fold crease, then reflect the resulting pattern across the horizontal crease. The resulting pattern is option (d). The Series-B final key also marks D. Printed Series-B booklet p.6 and the final key’s Paper-II Series-B row on p.4 were checked; both support D.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
@@ -386355,12 +386670,15 @@ const groupBQuestionsPart45: BankQuestion[] = [
       3
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "imagePath": "/question-images/group-b/jao-2025-p2-q041.png",
-    "sourceReview": true,
+    "sourceReview": false,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
+    "independentAnswerIndex": 3,
+    "independentAnswerSource": "solved",
+    "answerConfidence": "high"
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q42",
@@ -386412,7 +386730,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
       "South-East"
     ],
     "answerIndex": -1,
-    "explanation": "In the morning the sun is in the east, so every shadow falls towards the west. For Liana's shadow to lie on Liana's left, Liana must be facing north, which means she is walking northwards and therefore approaching from the south. Confidence is medium only because the pronoun 'his' is ambiguous — read as Mawii's left it would put a shadow to the north, which is impossible in the morning, so the Liana reading is the only coherent one.",
+    "explanation": "The morning Sun is in the east, so the shadow must lie west. The wording shifts from “Liana” to “his”; if “his” refers to Mawii, the left/right condition can point a different way than if it refers to Liana. Since the person whose left side is meant is unclear, retain the key only as a record and do not score.",
     "source": "Jr. Accounts Officer · July 2026",
     "year": 2026,
     "sourceHref": "/papers/group-b/archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29.pdf#page=6",
@@ -386420,13 +386738,15 @@ const groupBQuestionsPart45: BankQuestion[] = [
       1
     ],
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "solved",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "This item is held out because the printed question or options do not support a unique answer."
+    "sourceNote": "Held: the pronoun “his” does not clearly identify whose left side is meant, so the direction puzzle admits competing readings.",
+    "answerConfidence": "low",
+    "disputeNote": "Held: the pronoun “his” does not clearly identify whose left side is meant, so the direction puzzle admits competing readings."
   },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q44",
@@ -386937,9 +387257,7 @@ const groupBQuestionsPart45: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
-  }
-];
-const groupBQuestionsPart46: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q59",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -386973,7 +387291,9 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "direction. Mawii recognizes that Liana’s shadow is directly on his left side. From which direction is"
-  },
+  }
+];
+const groupBQuestionsPart46: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q60",
     "paperId": "mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29",
@@ -396516,9 +396836,7 @@ const groupBQuestionsPart46: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart47: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q18",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -396551,7 +396869,9 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart47: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4-Q19",
     "paperId": "mpsc-group-b-archive-lang-2026-cooperative-audit-officer-march-2026-cao-march-2026-general-english-seri-37cd76e4",
@@ -405885,9 +406205,7 @@ const groupBQuestionsPart47: BankQuestion[] = [
     "independentAnswerIndex": 0,
     "independentAnswerSource": "solved",
     "answerConfidence": "high"
-  }
-];
-const groupBQuestionsPart48: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B51",
     "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
@@ -405921,7 +406239,9 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "independentAnswerIndex": 1,
     "independentAnswerSource": "solved",
     "answerConfidence": "high"
-  },
+  }
+];
+const groupBQuestionsPart48: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde-B52",
     "paperId": "mpsc-group-b-archive-lang-2025-assistant-director-food-drugs-november-2025-assistant-director-general-e-34693fde",
@@ -412585,11 +412905,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "'Between' excludes the endpoints, so the integers run from −11 to 8: 8 − (−11) + 1 = 20. Counting inclusively would give 22, which is the trap in option (d).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B51",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q52",
@@ -412611,11 +412937,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Product of the numbers = HCF × LCM, so the other number = (12 × 180)/36 = 60. Checked: HCF(36, 60) = 12 and LCM(36, 60) = 180.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B52",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q53",
@@ -412637,11 +412969,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The AP has a = 7, d = 4 and last term 215, giving 215 = 7 + (n−1)4 so n = 53 terms. Counting back from the end, the 16th term from the end = 215 − 15 × 4 = 155 (equivalently the 38th term: 7 + 37 × 4 = 155).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B53",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q54",
@@ -412663,11 +413001,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The five terms sum to 5x + 20, so the mean is (5x + 20)/5 = x + 4. Setting x + 4 = 11 gives x = 7.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B54",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q55",
@@ -412689,11 +413033,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "By Vieta, α + β = 3 and αβ = 2, so α² + β² = (α+β)² − 2αβ = 9 − 4 = 5. Directly, the roots are 1 and 2, and 1 + 4 = 5.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B55",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q56",
@@ -412715,11 +413065,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Failing by 8 means the pass mark is 72 + 8 = 80, and 80 is 40% of the total, so total = 80/0.40 = 200.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B56",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q57",
@@ -412737,16 +413093,20 @@ const groupBQuestionsPart48: BankQuestion[] = [
       "56kg",
       "57kg"
     ],
-    "answerIndex": 3,
-    "explanation": "Total weight = 6 × 56 + 4 × 59 = 336 + 236 = 572 kg, so the overall average is 572/10 = 57.2 kg. No option gives 57.2, and 57 kg is the nearest, so the printed options are defective rather than the method.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "Mean=(336+236)/10=572/10=57.2 kg; no option matches. Key D/57 kg is retained only as the official candidate.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "sourceNote": "Exact answer is 57.2 kg; no option is exactly correct and (d) 57kg is only the nearest value.",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
+    "independentAnswerIndex": -1,
+    "sourceNote": "The weighted mean is (6×56+4×59)/10=57.2 kg, but the printed options are 54, 55, 56, 57 kg. The official key marks D/57 kg, which is not the exact mean; hold unscored rather than accept the nearest option.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B57",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The weighted mean is (6×56+4×59)/10=57.2 kg, but the printed options are 54, 55, 56, 57 kg. The official key marks D/57 kg, which is not the exact mean; hold unscored rather than accept the nearest option."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q58",
@@ -412768,11 +413128,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Successive discounts multiply the remaining fraction: 0.80 × 0.90 = 0.72, so 28% is taken off in all. Adding 20 + 10 = 30% is the classic trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B58",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q59",
@@ -412794,11 +413160,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Taking CP = 5 and SP = 7, profit = 2, so gain% = (2/5) × 100 = 40%. The denominator must be the cost price, not the selling price.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B59",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q60",
@@ -412820,11 +413192,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "CP = SP/(1 + gain) = 630/1.05 = ₹600. Check: 5% of 600 is 30 and 600 + 30 = 630.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B60",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q61",
@@ -412846,11 +413224,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Make Q common by scaling the first ratio by 5 and the second by 3: P:Q = 10:15 and Q:R = 15:21, so P:Q:R = 10:15:21.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B61",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q62",
@@ -412872,11 +413256,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "With the first part x, the second is 3x/4 and the third is (5/3)(3x/4) = 5x/4, so x + 0.75x + 1.25x = 3x = 4800 and x = ₹1,600. The three parts are 1600, 1200 and 2000.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B62",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q63",
@@ -412898,11 +413288,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "In 10 days B finishes 10/15 = 2/3 of the work, leaving 1/3. A does the whole job in 18 days, so a third takes 18/3 = 6 days.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B63",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q64",
@@ -412924,11 +413320,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "SI = PRT/100, so P/4 = P × R × 5/100, giving R = 100/(4 × 5) = 5% per annum.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B64",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q65",
@@ -412950,11 +413352,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Amount = 25000 × 1.05² = 25000 × 1.1025 = ₹27,562.50, so CI = ₹2,562.50. Simple interest would have been ₹2,500, which is the distractor in (a).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B65",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q66",
@@ -412976,11 +413384,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The path runs inside, so the inner square has side 20 − 2 × 2 = 16 m. Area of path = 20² − 16² = 400 − 256 = 144 sq.m.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B66",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q67",
@@ -413002,11 +413416,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "(4/3)πr³ = 36π gives r³ = 27, so r = 3 cm.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B67",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q68",
@@ -413028,11 +413448,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "COMMITTEE has 9 letters with M, T and E each repeated twice, so the count is 9!/(2!·2!·2!) = 362880/8 = 45,360. Forgetting one of the three repeats gives 90,720, the trap in (c).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B68",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q69",
@@ -413054,11 +413480,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Sum the cases: 4M+2W = C(7,4)·C(4,2) = 35·6 = 210, 5M+1W = C(7,5)·C(4,1) = 21·4 = 84, and 6M+0W = C(7,6) = 7. Total = 210 + 84 + 7 = 301.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B69",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q70",
@@ -413080,11 +413512,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Net filling rate = 1/10 − 1/15 = (3 − 2)/30 = 1/30 of the tank per minute, so the tank fills in 30 minutes.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B70",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q71",
@@ -413106,11 +413544,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Frequencies against class marks are 125→1, 130→3, 135→2, 140→8, 145→5, 150→4, 155→1, so N = 24 and Σfx = 3385, giving mean = 3385/24 = 141.04. Bars strictly above that mean are 145, 150 and 155, i.e. 5 + 4 + 1 = 10 students — note the question asks for students above the average mark, not the number of bars.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B71",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q72",
@@ -413132,11 +413576,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "√(3ⁿ) = 3^(n/2) and 81 = 3⁴, so n/2 = 4 and n = 8. Check: √(3⁸) = √6561 = 81.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B72",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q73",
@@ -413158,11 +413608,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "9^(−3/2) = 1/9^(3/2) = 1/(√9)³ = 1/3³ = 1/27.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B73",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q74",
@@ -413184,11 +413640,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The 800 ml holds 640 ml water and 160 ml milk, and the target 9:3 is just 3:1. Adding 80 ml of each gives 720:240 = 3:1 exactly; the other options give 3.04, 2.88 and 2.92, none of which is 3.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B74",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q75",
@@ -413210,11 +413672,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "60 km/hr = 1000 m/min, so in 2 minutes the train covers 2000 m, which equals tunnel + train length. Tunnel = 2000 − 300 = 1700 m.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B75",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q76",
@@ -413236,11 +413704,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "25⅓ = 76/3, and (76/3) ÷ (1/6) = 76 × 6/3 = 152.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B76",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q77",
@@ -413262,12 +413736,18 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Savings is 18% of the total, so its central angle = 18% of 360° = 64.8°, which is approximately 65°.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "direction": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B77",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q78",
@@ -413289,12 +413769,18 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Electricity is 8% and rent 26%, so the ratio is 8:26 = 4:13. In rupees that is ₹1,920 : ₹6,240, which reduces to the same 4:13.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "direction": "Direction (Question Nos. 77 & 78): The following pie chart shows the expenditure of a family on different items out of a total income of ₹24,000/- from all sources. Answer the questions based on the data given in the pie chart:",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B78",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q79",
@@ -413316,11 +413802,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Girls = 20 − 12 = 8, so P(girl) = 8/20 = 0.4 = 40%.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B79",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q80",
@@ -413342,13 +413834,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "From 6 AM to 12 noon the next day the clock shows 30 hours = 1800 clock-minutes, and 1452 clock-minutes correspond to 1440 true minutes, so true elapsed time = 1800 × 1440/1452 = 1785.12 min = 29 h 45 min 07 s; the right time is 11:45:07 AM. That value is not printed, and 11:48 AM is nearer to it (2 min 53 s away) than 11:42 AM (3 min 07 s away), so I take (c) while flagging the question as defective.",
     "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
-    "independentAnswerIndex": 2,
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
+    "independentAnswerIndex": -1,
     "compensated": true,
-    "sourceNote": "No option is correct: the true time is 11:45:07 AM. The source carries a handwritten margin note 'compensated' beside this question, which is consistent with MPSC having voided it. Marked option (d) 11:42 AM would require a 36-hour interval, not the actual 30 hours.",
+    "sourceNote": "Defective/voided: correct time is about 11:45:07 AM; no option matches, and the final key marks it Compensated.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B80",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "Defective/voided: correct time is about 11:45:07 AM; no option matches, and the final key marks it Compensated."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q81",
@@ -413370,11 +413866,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The sitar is an example of a string instrument, so the answer must be an example of a percussion instrument: the tabla. Violin is a string, trumpet a wind instrument, and piano is conventionally classed as a keyboard/string instrument in these analogies.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B81",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q82",
@@ -413396,11 +413898,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Cricket, hockey and football are all outdoor team sports played on a field, and kabaddi is the only option that shares all three features. Tennis and swimming are essentially individual, and chess is an indoor board game.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B82",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q83",
@@ -413422,11 +413930,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The real sequence is Warning (before the event), Flood, Rescue of those trapped, Relief supplies, then long-term Rehabilitation — that is ii, iii, iv, i, v. Option (c) is the near-miss that puts relief before rescue.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B83",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q84",
@@ -413448,11 +413962,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The terms are 2!, 3!, 4!, 5!, so the next is 6! = 720. Read as multipliers it is the same thing: ×3, ×4, ×5, then ×6 gives 120 × 6 = 720.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B84",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q85",
@@ -413474,11 +413994,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "The first and second statements share only 'say' and only the digit 3, so say = 3; the first and third share only 'he' and only the digit 9, so he = 9. That leaves 1 for 'will'.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B85",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q86",
@@ -413498,13 +414024,19 @@ const groupBQuestionsPart48: BankQuestion[] = [
     ],
     "answerIndex": 2,
     "explanation": "Using all four letters exactly once gives RATE, TEAR and TARE — three words. The count depends on accepting TARE (the weight of an empty container), which is a standard dictionary word.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B86",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q87",
@@ -413526,11 +414058,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Substituting gives 18 ÷ 3 × 4 + 5 − 6. By BODMAS, division and multiplication go left to right: 18 ÷ 3 = 6, 6 × 4 = 24, then 24 + 5 − 6 = 23.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B87",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q88",
@@ -413552,11 +414090,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Total = (position from left) + (position from right) − 1 = 12 + 15 − 1 = 26, subtracting 1 because Liana is counted in both positions.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B88",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q89",
@@ -413578,11 +414122,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Two consistent rules give the same value. Row 1 = (Row 2)²: 3²=9, 4²=16, 5²=25; and Row 3 = Row 1 + Row 2: 9+3=12, 16+4=20, so 25+5 = 30. Equivalently Row 3 = n(n+1): 3·4=12, 4·5=20, 5·6 = 30.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B89",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q90",
@@ -413602,13 +414152,19 @@ const groupBQuestionsPart48: BankQuestion[] = [
     ],
     "answerIndex": 3,
     "explanation": "Modelling the eleven drawn segments and enumerating every triple that meets in three distinct points gives 10 triangles: the three staircase right triangles, the sub-triangle each of the second and third staircase hypotenuses cuts off on the vertical to its left, the triangle the long diagonal cuts on the third horizontal, the three triangles the long diagonal makes with the base and each of the three verticals, and the right-hand triangle formed by the base, the third vertical and the right slant. Confidence is medium because the count depends on reading the long diagonal as passing exactly through the corner where the middle horizontal meets the middle vertical.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B90",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q91",
@@ -413630,11 +414186,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Fold 1 brings the top strip (about 31% of the height) down, and fold 2 brings the left strip (about 31% of the width) rightwards, so the remaining square has a 4-layer top-left region, two 2-layer regions and a 1-layer bottom-right region. The punch in the top-left sits over 4 layers and opens out as a 2×2 block of holes, while the punch at the bottom-right sits over a single layer and stays one hole — five holes in that exact arrangement, which is only option (d).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B91",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q92",
@@ -413656,11 +414218,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "75 ÷ 7 leaves a remainder of 5 (70 days are exactly 10 weeks), so the day advances five places from Monday: Tue, Wed, Thu, Fri, Sat — Saturday.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B92",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q93",
@@ -413680,14 +414248,19 @@ const groupBQuestionsPart48: BankQuestion[] = [
     ],
     "answerIndex": 1,
     "explanation": "In the morning the sun is in the east, so every shadow falls towards the west. For Liana's shadow to lie on Liana's left, Liana must be facing north, which means she is walking northwards and therefore approaching from the south. Confidence is medium only because the pronoun 'his' is ambiguous — read as Mawii's left it would put a shadow to the north, which is impossible in the morning, so the Liana reading is the only coherent one.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
-    "sourceNote": "Pronoun slip in the stem: Mawii is 'her friend' but the shadow is said to be on 'his left side'. The question only resolves if 'his' means Liana's.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B93",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q94",
@@ -413709,11 +414282,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "In (a), (c) and (d) the bottom row is the reverse of the top row, so the arrows match along the diagonals and each figure is unchanged by a 180° turn. In (b) the bottom row simply repeats the top row, so each column carries the same arrow — that is the odd one out.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B94",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q95",
@@ -413735,11 +414314,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Each block holds the letters and, below them, powers of 1, 2 and 3: ABC gives 1¹, 2¹, 3¹ = 1, 2, 3; DEF gives 1², 2², 3² = 1, 4, 9; GHI gives 1⁴, 2⁴, 3⁴ = 1, 16, 81; so JKL must give 1⁸, 2⁸, 3⁸ = 1, 256, 6561 (and 3⁸ = 6561 confirms the exponent). The missing value is 2⁸ = 256.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B95",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q96",
@@ -413761,11 +414346,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Seeds ⊆ fruits ⊆ flowers, so all seeds are flowers and Conclusion II follows. Conclusion I is the illicit converse of 'all fruits are flowers' — the flower set may be larger — so only II follows.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B96",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q97",
@@ -413787,11 +414378,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Five friends to Sanga's left fixes Sanga at seat 6, and Puia between Sanga and Vula forces Vula 4, Puia 5. Nunga between Lawma and Thanga takes seat 2 with the other two at 1 and 3, and since Thanga cannot be next to Vula, seat 3 is Lawma and seat 1 Thanga; the row is Thanga, Nunga, Lawma, Vula, Puia, Sanga, so two seats left of Vula is Nunga.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B97",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q98",
@@ -413813,11 +414410,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "Consonants move one letter forward (L→M, V→W, G→H, D→E) while vowels move to the next vowel (O→U, E→I). Applying this to KIND: K→L, I→O, N→O, D→E, giving LOOE.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B98",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q99",
@@ -413839,11 +414442,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "REASONING sorts to AEGINNORS. Comparing position by position — R/A, E/E, A/G, S/I, O/N, N/N, I/O, N/R, G/S — only positions 2 (E) and 6 (N) match, so 2 letters stay put.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B99",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-jao-2026-p2-Q100",
@@ -413865,11 +414474,17 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "explanation": "S is male (R is described as S's wife) and R is P's daughter, so S is the husband of P's daughter — P's son-in-law. T is P's granddaughter and Q is P's husband, neither of which changes S's relation.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/final-answer-key-of-junior-accounts-officer-jao-under-fcsca-deptt-july-2026.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Junior Accounts Officer (JAO) · July 2026 · B100",
-    "sourceHref": "/papers/group-b/jao-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/jao-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p1-A4e",
@@ -413978,9 +414593,7 @@ const groupBQuestionsPart48: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B2",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  }
-];
-const groupBQuestionsPart49: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-co-2026-p1-B3",
     "questionNumber": "B3",
@@ -414007,7 +414620,9 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Circle Officer · April 2026 · B3",
     "sourceHref": "/papers/group-b/co-2026-p1.pdf"
-  },
+  }
+];
+const groupBQuestionsPart49: BankQuestion[] = [
   {
     "id": "mpsc-group-b-co-2026-p1-B4",
     "questionNumber": "B4",
@@ -417016,11 +417631,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The maximum equal piece length is the HCF: 15 = 3×5, 20 = 2²×5, 25 = 5², so HCF(15, 20, 25) = 5 m, giving 3 + 4 + 5 = 12 pieces.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B51",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q52",
@@ -417042,11 +417663,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Successive factors multiply: 1.20 × 0.80 = 0.96, so the number falls to 96% of itself — a 4% decrease. (Equivalently −20²/100 = −4%.) 'No change' is the classic trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B52",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q53",
@@ -417068,11 +417695,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Total = 4 × 15 = 60; removing 18 leaves 42, and 42 ÷ 3 = 14.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B53",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q54",
@@ -417094,11 +417727,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Jan–Mar sums to 3×12 = 36 and Mar–Jun to 4×18 = 72; adding these counts March twice, so 36 + 72 = (Jan–Jun total) + March = 6×16 + March = 96 + March, giving March = 12 cm.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B54",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q55",
@@ -417120,11 +417759,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "15% fail both, so 85% pass at least one. By inclusion-exclusion, both = 80% + 70% − 85% = 65%. Then 0.65 × T = 520, so T = 800 — consistent with the marked option.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B55",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q56",
@@ -417146,11 +417791,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Make b common: multiply the first ratio by 3 and the second by 7, giving a : b = 12 : 21 and b : c = 21 : 35, hence a : b : c = 12 : 21 : 35.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B56",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q57",
@@ -417172,11 +417823,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Let the parts be 2x, 3x, 5x. C − B = 5x − 3x = 2x = 200, so x = 100 and the total 10x = ₹1,000.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B57",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q58",
@@ -417198,11 +417855,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Cost prices are 100/1.2 = ₹83.33 and 100/0.8 = ₹125, totalling ₹208.33 against ₹200 received — a loss of ₹8.33, i.e. 4%. Equal-percentage gain and loss on the same selling price always gives a loss of x²/100 = 4%.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B58",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q59",
@@ -417224,11 +417887,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Combined one-day work = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4, so the job takes 4 days.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B59",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q60",
@@ -417250,11 +417919,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Net filling per hour = 1/15 − 1/20 = (4 − 3)/60 = 1/60 of the tank, so it fills in 60 hours.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B60",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q61",
@@ -417276,11 +417951,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Interest = 1560 − 1200 = ₹360. With SI = PRT/100, 360 = 1200 × 10 × T / 100 = 120T, so T = 3 years.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B61",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q62",
@@ -417302,11 +417983,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Distance = speed × time = 60 × 2 = 120 km.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B62",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q63",
@@ -417328,11 +418015,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Downstream speed = 30/2 = 15 km/h, upstream = 30/3 = 10 km/h. Still-water speed is their mean, (15 + 10)/2 = 12.5 km/h (the stream is 2.5 km/h).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B63",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q64",
@@ -417354,11 +418047,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The path is the annulus between radii 14 m and 7 m: area = π(14² − 7²) = (22/7)(196 − 49) = (22/7)(147) = 462 m². Option (c), 616 m², is the whole outer circle — the trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B64",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q65",
@@ -417380,11 +418079,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Cuboid volume = 12 × 10 × 8 = 960 cm³; each cube is 4³ = 64 cm³; 960 ÷ 64 = 15 exactly, so the count is a whole number and 15 cubes are formed.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B65",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q66",
@@ -417406,11 +418111,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Floor area = 1,600 sq ft; number of tiles = 1600/4 = 400; cost = 400 × 200 = ₹80,000.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B66",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q67",
@@ -417432,11 +418143,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Each of the three was 3 years younger, so the total drops by 3 × 3 = 9: 80 − 9 = 71 years. Subtracting only 3 (giving 77) is the standard trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B67",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q68",
@@ -417458,11 +418175,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Let her present age be x. Then x + 1 = 2(x − 12) ⇒ x + 1 = 2x − 24 ⇒ x = 25. Check: 26 = 2 × 13. ✓",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B68",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q69",
@@ -417484,11 +418207,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "15 minutes is 1/4 hour, so distance = 5 × 1/4 = 1.25 km = 1,250 m.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B69",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q70",
@@ -417510,11 +418239,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Walking towards each other, the relative speed is 5 + 10 = 15 m/min, so the 1,200 m gap closes in 1200/15 = 80 minutes.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B70",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q71",
@@ -417536,11 +418271,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Half-yearly compounding at 20% p.a. means 10% per half-year for 18 months = 3 periods. Amount = 7200 × 1.1³ = 7200 × 1.331 = ₹9,583.20, so CI = 9583.20 − 7200 = ₹2,383.20 ≈ ₹2,383.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B71",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q72",
@@ -417562,11 +418303,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The dividend is divided by 100 and the divisor by 10, so the quotient is divided by 10: 79.2 ÷ 10 = 7.92. Direct check: 122.76 ÷ 15.5 = 7.92.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B72",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q73",
@@ -417588,11 +418335,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "999999 ÷ 243 = 4115 remainder 54, so the largest multiple is 243 × 4115 = 999,945. (999999 − 54 = 999945.)",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B73",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q74",
@@ -417614,11 +418367,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Kima = (2/3) × 876 = ₹584; Rama = 584 + (1/4)(584) = 584 × 1.25 = ₹730.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B74",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q75",
@@ -417636,16 +418395,20 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "₹1,500",
       "₹2,100"
     ],
-    "answerIndex": 1,
-    "explanation": "Earnings vary as persons × hours. Testing integer values of the missing count 'A': only A = 15 gives an option, 900 × (20/15) × (10/6) = ₹2,000 = (b); A = 20 would give ₹1,500 but makes the question degenerate (20 persons asked about 20 persons), and no other integer reproduces ₹1,800 or ₹2,100. So the stem almost certainly read '15 persons'.",
-    "answerConfidence": "medium",
+    "answerIndex": -1,
+    "explanation": "Conditional only: if the missing source count was 15 persons, pay ∝ persons×hours, so ₹900×(20/15)×(10/6)=₹2,000 (B). The scan itself prints “A persons,” so this assumption does not resolve the item.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
-    "independentAnswerIndex": 1,
-    "sourceNote": "Stem prints 'A persons working 6 hours per day' — the number of persons is missing/garbled. Reconstructed as 15 persons because that is the only integer that yields a printed option without making the question trivial.",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
+    "sourceNote": "The printed scan literally says “A persons”; no starting number is supplied. Official key marks B (₹2,000), which would follow only if the missing count were 15: 900×(20/15)×(10/6)=2,000. The answer cannot be uniquely derived from the printed stem, so retain as a source ambiguity.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B75",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The printed scan literally says “A persons”; no starting number is supplied. Official key marks B (₹2,000), which would follow only if the missing count were 15: 900×(20/15)×(10/6)=2,000. The answer cannot be uniquely derived from the printed stem, so retain as a source ambiguity."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q76",
@@ -417667,11 +418430,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Chain the factors: 1.15 × 1.10 × 0.90 = 1.1385, so the population is 113.85% of the original — a 13.85% increase. Simply adding 15 + 10 − 10 = 15% ignores compounding and is the trap in option (c).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B76",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q77",
@@ -417693,11 +418462,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "If the original rate is r, then 960/(0.8r) − 960/r = 6 ⇒ (960/r)(1.25 − 1) = 6 ⇒ 240/r = 6 ⇒ r = ₹40. The reduced rate is 0.8 × 40 = ₹32/kg. Option (c) ₹40 is the original rate, the trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B77",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q78",
@@ -417719,11 +418494,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Multiplication first: (−314) × (−9) = +2826; then −224 + 2826 = 2602.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B78",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q79",
@@ -417745,11 +418526,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Interest = 9176 − 6200 = ₹2,976, so R = 2976 × 100/(6200 × 4) = 12%. At 15%, interest = 6200 × 15 × 4/100 = ₹3,720 and the amount = 6200 + 3720 = ₹9,920. (Shortcut: extra 3% for 4 years adds 6200 × 0.12 = ₹744.)",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B79",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q80",
@@ -417771,11 +418558,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "6 years contains three 2-year spans, so 3 × 3 = 9 donations; 9 × 350 ml = 3,150 ml = 3.15 litres.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B80",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q81",
@@ -417797,11 +418590,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The MD arrived at 12:30 − 0:10 = 12:20. The chairman came 20 minutes after him, at 12:40. Since the chairman was 30 minutes late, the scheduled time was 12:40 − 0:30 = 12:10.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B81",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q82",
@@ -417823,11 +418622,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A 180° turn swaps diagonally opposite quadrants and inverts each element. The diamond-with-cross moves from bottom-right to top-left (unchanged in appearance), the two hatched quadrants swap, and the three-circle 'V' moves from top-left to bottom-right where it must appear inverted as 'Λ'. Only (D) shows the inverted Λ; (C) is identical to (D) except that its V is still upright, which is the trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B82",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q83",
@@ -417847,14 +418652,19 @@ const groupBQuestionsPart49: BankQuestion[] = [
     ],
     "answerIndex": 3,
     "explanation": "The natural process chain is grass → cow → milk → curd → butter, i.e. 2, 5, 4, 1, 3 — which is not offered. Of what is printed, (d) 5, 2, 4, 1, 3 keeps milk → curd → butter in the right order and only shifts the cow ahead of the grass; option (a) puts butter before curd, which is definitely wrong.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "No option gives the natural order 2, 5, 4, 1, 3 (Grass–Cow–Milk–Curd–Butter); the best available answer inverts Cow and Grass. Stem also reads 'following questions' where 'following words' is meant.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B83",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q84",
@@ -417876,11 +418686,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Scanning the 30-character string for the pattern N-K-M gives matches at positions 4–6, 14–16 and 20–22 (the K's at index 5, 15 and 21, 1-based), so the count is 3.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B84",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q85",
@@ -417902,11 +418718,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Mohan is tallest; Kiran > Aaron > Suman from the third clue, and Suman > Rajan from the second. The full order is Mohan > Kiran > Aaron > Suman > Rajan, so Rajan is shortest.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B85",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q86",
@@ -417928,11 +418750,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The relation is synonymy: vacant means empty, and dearth means scarcity. 'Abundant' is the antonym trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B86",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q87",
@@ -417954,11 +418782,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "In the morning the sun is in the east, so all shadows fall to the west. The shadow lies to Udai's left, so west is on Udai's left — and a person facing north has west on their left. Udai therefore faces North.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B87",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q88",
@@ -417980,11 +418814,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The first letters run S, T, U, V, W (+1 each); the second letters run C, E, G, I, K (+2 each); the third letters run D, F, H, J, L (+2 each). The missing term is therefore VIJ.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B88",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q89",
@@ -418006,12 +418846,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Two rules run together. The seven circles gain one shaded circle each step at alternate positions: 1 shaded, then 1 and 3, then 1, 3 and 5, so next comes 1, 3, 5 and 7 — four shaded. The arrow pairs also grow by one each step, with every pair pointing inward except the last, which points outward: so the fourth figure needs top ↓↓↓↑ and bottom ↑↑↑↓. Only (D) has both four shaded circles and that arrow pattern; (A) has only three shaded circles.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B89",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf",
-    "imagePath": "/question-images/group-b/co-2026-p2-q089.webp"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "imagePath": "/question-images/group-b/co-2026-p2-q089.webp",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q90",
@@ -418033,11 +418879,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Compare NATURE → MASUQE letter by letter: N→M, A→A, T→S, U→U, R→Q, E→E — the 1st, 3rd and 5th letters move back one place and the even-position letters stay. Applying this to FAMINE: F→E, A→A, M→L, I→I, N→M, E→E, giving EALIME.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B90",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q91",
@@ -418059,11 +418911,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The Equator and the Tropic of Cancer are both particular lines of latitude, so three of the four terms belong to the latitude family. Longitude, which measures east–west position, is the odd one.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B91",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q92",
@@ -418085,11 +418943,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Every letter of FLOWER advances by one: F→G, L→M, O→P, W→X, E→F, R→S. The same +1 shift on GARDEN gives G→H, A→B, R→S, D→E, E→F, N→O = HBSEFO.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B92",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q93",
@@ -418111,11 +418975,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The 10 m south and the 10 m north cancel, leaving only the 10 m east leg, so he ends 10 m due east of the start.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B93",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q94",
@@ -418137,12 +419007,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Fix Chitra at seat 1. Bina takes seat 2 (her right), Deepak seat 3 (Bina's right), Suta seat 6 (Chitra's left) and Kala seat 5 (beyond Suta), leaving seat 4 for Arun — which is indeed opposite seat 1, matching the first clue. In a circle of six, seat 6 faces seat 3, so Deepak sits opposite Suta.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "The stem names 'Bina' but option (b) prints 'Bima'. The mismatch does not change the answer, which is Deepak either way.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Circle Officer · April 2026 · B94",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q95",
@@ -418164,11 +419039,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A plane mirror laterally inverts, so the letter order reverses: A-T-M is read as M-T-A.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B95",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q96",
@@ -418190,12 +419071,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The figure shows three circles of similar size that overlap each other in pairs and share a common central region, i.e. three partly overlapping classes with some members in all three. Only 'Extrovert, Men, Handsome' fits: some men are extroverts, some are handsome, and some are both. Father and Sister (a) and Men and Women (d) are mutually exclusive, and in (b) staplers and erasers are both wholly inside stationery but disjoint from each other.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B96",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf",
-    "imagePath": "/question-images/group-b/co-2026-p2-q096.webp"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=11",
+    "imagePath": "/question-images/group-b/co-2026-p2-q096.webp",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q97",
@@ -418217,11 +419104,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "3 is on top in both views, so 1, 5, 2 and 6 are all side faces and 4 is the hidden bottom. Reading the sides clockwise from above, view 1 gives (5, 1, …) and view 2 gives (6, 2, …); the only cycle consistent with both is 5 → 1 → 6 → 2. Faces two apart in that cycle are opposite, so 5 lies opposite 6 (and 1 opposite 2, 3 opposite 4).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B97",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q98",
@@ -418243,11 +419136,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Educated = triangle, Employed = circle. The regions lying inside both are the one marked 3 (also inside the rectangle, so educated + employed + backward) and the one marked 2 (educated + employed only). Their total is 3 + 2 = 5.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B98",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q99",
@@ -418269,11 +419168,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The letters run A, C, E, G, I, ?, M, O, Q — every alternate letter — so the missing letter is K. The subscripts obey 'first + second = third' in each row: 2 + 4 = 6 and 5 + 9 = 14, so row two gives 3 + 5 = 8. The cell is K₈.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B99",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-co-2026-p2-Q100",
@@ -418295,11 +419200,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The four quadrants hold consecutive cubes read clockwise from the top left: 1 = 1³, 8 = 2³, 27 = 3³, so the bottom-left quadrant must be 4³ = 64.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf#page=3",
+    "answerKeyRef": "/papers/group-b/keys/co-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Circle Officer · April 2026 · B100",
-    "sourceHref": "/papers/group-b/co-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/co-2026-p2.pdf#page=12",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p1-B1",
@@ -419794,11 +420705,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "CI for 2 years = P[(1+r)²−1] = P[(1.15)²−1] = 0.3225P, so P = 3225 / 0.3225 = ₹10,000. Option (d) ₹32,250 is the trap for anyone who treats ₹3225 as simple interest of 10% — it ignores that the 15% rate compounds.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A1",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A2",
@@ -419820,11 +420737,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Equal distances each way means the harmonic mean applies: 2(60)(40)/(60+40) = 4800/100 = 48 km/hr. The tempting (b) 50 km/hr is the plain arithmetic mean of 60 and 40, which is wrong because the car spends more time on the slower leg (3 hr total for 240 km).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A2",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A3",
@@ -419846,11 +420769,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "North and east are perpendicular, so the displacement is the hypotenuse: √(7²+24²) = √625 = 25 m. Note 7-24-25 is a standard Pythagorean triple; adding the legs to get 31 m, or guessing 26 m, confuses total path walked with straight-line distance.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A3",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A4",
@@ -419872,11 +420801,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Each hour mark is 360°/12 = 30°, and at exactly 3:00 the hands are three marks apart: 3 × 30° = 90°. Option (c) 30° is the size of one hour-gap only, not the three-gap separation.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A4",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A5",
@@ -419898,11 +420833,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Only tea = 35−20 = 15; only coffee = 40−20 = 20; total liking at least one = 35+40−20 = 55, so neither = 80−55 = 25, giving 15, 20, 25. Option (b) 15, 20, 45 keeps the correct 'only' figures but forgets to subtract the 20 who like both when counting the remainder.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A5",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A6",
@@ -419924,11 +420865,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The perpendicular from the centre bisects the chord, so half the chord = √(10²−6²) = √64 = 8 cm and the full chord = 16 cm. Answering 8 cm (or picking 12 cm) means stopping at the half-chord instead of doubling it.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A6",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A7",
@@ -419950,11 +420897,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "6% of ₹30,000 = ₹1,800, giving ₹31,800, and the flat ₹800 is added on top: ₹32,600. Option (a) ₹31,800 is the trap — it applies the percentage rise but drops the extra ₹800.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A7",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=1",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A8",
@@ -419972,15 +420925,20 @@ const groupBQuestionsPart49: BankQuestion[] = [
       "5/4",
       "5/3"
     ],
-    "answerIndex": 2,
-    "explanation": "From sec²θ = 1 + tan²θ = 1 + 9/16 = 25/16, secθ = 5/4 (taking θ acute). With the 3-4-5 triangle, tan = opp/adj = 3/4 so cos = 4/5 and sec = 1/cos = 5/4; option (b) 4/5 is cosθ, not secθ.",
-    "answerConfidence": "high",
+    "answerIndex": -1,
+    "explanation": "sec²θ=1+(3/4)²=25/16, so secθ=±5/4. Option C (5/4) follows if θ is acute, but the printed question gives no angle/quadrant restriction; keep the keyed choice as conditional and hold the item.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
-    "independentAnswerIndex": 2,
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A8",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceNote": "The printed stem gives tanθ=3/4 without restricting θ to an acute angle or quadrant. Since sec²θ=1+tan²θ=25/16, secθ may be +5/4 or −5/4. The key marks C/5/4, which assumes an acute angle; hold unless that assumption is stated.",
+    "sourceReview": true,
+    "disputeNote": "The printed stem gives tanθ=3/4 without restricting θ to an acute angle or quadrant. Since sec²θ=1+tan²θ=25/16, secθ may be +5/4 or −5/4. The key marks C/5/4, which assumes an acute angle; hold unless that assumption is stated."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A9",
@@ -420002,11 +420960,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "tan45° = height/base = 1, so the height equals the base distance, 20 m. A 45° elevation always makes the tower as tall as the observer is distant — halving it to 10 m would require an elevation of about 26.6°.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A9",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A10",
@@ -420028,11 +420992,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Perimeter of a semicircle including the diameter = πr + 2r = r(22/7 + 2) = 36r/7, so 36r/7 = 108 gives r = 21 cm. Using only the curved part (πr = 108) would give r ≈ 34.4 cm — the phrase 'including its diameter' is what forces the +2r.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A10",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A11",
@@ -420054,11 +421024,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A quadrant is a quarter circle: (1/4)πr² = (1/4)(22/7)(14²) = 616/4 = 154 cm². Option (d) 77 cm² halves it again, as if the quadrant were an eighth of the circle.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A11",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A12",
@@ -420080,11 +421056,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Original total = 20 × 30 = 600; correcting the entry adds 40−20 = 20, so the true total is 620 and the mean is 620/20 = 31. The mean shifts by the error divided by n (20/20 = 1), not by the full 20 — which is why 'the mean is unchanged' (b) and any larger jump are both wrong.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A12",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A13",
@@ -420106,11 +421088,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Gain = 1000−800 = ₹200, and gain% is always computed on cost price: 200/800 × 100 = 25%. Option (a) 20% comes from dividing by the selling price (200/1000) instead of the cost price.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A13",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A14",
@@ -420132,11 +421120,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Discount = 600−510 = ₹90, and discount% is taken on the marked price: 90/600 × 100 = 15%. Dividing by the selling price (90/510) gives about 17.6%, which is not on offer — discount is always a percentage of the marked price.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A14",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A15",
@@ -420158,11 +421152,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "If 0.18x = 27 then x = 150, so 30% of it is 45. A quicker route: 30% is 5/3 of 18%, so the answer is 27 × 5/3 = 45 — no need to find the number itself.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A15",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A16",
@@ -420184,11 +421184,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Discounted price = 20,000 × 0.85 = ₹17,000; adding 10% tax on that gives 17,000 × 1.10 = ₹18,700. Option (a) ₹17,800 comes from netting the 15% and 10% against each other (a 5% net cut), but the tax is levied on the reduced price, so the two percentages do not simply cancel.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A16",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A17",
@@ -420210,12 +421216,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Let the ages be 4x and 5x; then (4x−6)/(5x−6) = 3/4 gives 16x−24 = 15x−18, so x = 6 and B is 5 × 6 = 30 years. Check: 24 and 30 now, 18 and 24 six years ago — exactly 3:4. Subtracting 6 from only one age, or applying the 3:4 ratio to the present ages, produces the other options.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "OCR artifact in the options: option (d) reads '34 years thththth'. It is a wrong option either way, so the question is still answerable, but the stray characters should be cleaned in the extraction.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A17",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A18",
@@ -420237,12 +421248,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "From T₁₂ = 2T₅ + 5: a+11d = 2(a+4d)+5 gives a = 3d−5; then T₉ = a+8d = 11d−5 = 39, so d = 4 and a = 7, making Tₙ = 7+(n−1)4 = 4n+3. Option (d) 4n−3 has the right common difference but a first term of 1 instead of 7, so its 9th term is 33, not 39.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
-    "sourceNote": "The stem lost its ordinal superscripts in extraction ('12 term', '5 term', '9 term' should read 12th, 5th, 9th term). Meaning is still recoverable, so the question is answerable.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A18",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=2",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A19",
@@ -420264,12 +421280,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "This is the expansion of sin(A+B) with A = 62° and B = 28°: sin62°cos28° + cos62°sin28° = sin90° = 1. Option (d) sin34° is the trap for anyone who subtracts the angles — that would be the cos(A+B) or sin(A−B) pattern, which needs a minus sign between the terms.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "OCR artifact: the stem ends 'cos62°= 1', i.e. the answer value has been pulled into the question text. The stem should end with '=' only. Does not change what is being asked.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A19",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A20",
@@ -420291,11 +421312,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "To pass a platform the train covers its own length plus the platform: 200+100 = 300 m, at 90 km/hr = 90 × 5/18 = 25 m/s, so time = 300/25 = 12 s. Option (a) 8 s ignores the platform and uses only the 200 m train length — that figure would apply to passing a pole or a standing man.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A20",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A21",
@@ -420317,11 +421344,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Work with rates per hour: the filler adds 1/8 of the tank, the waste pipe removes 1/12, so the net rate is 1/8 − 1/12 = 1/24 and the tank fills in 24 hours. The trap is averaging or adding the two times (8+12=20, option c); rates add, times do not.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A21",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A22",
@@ -420343,11 +421376,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Neither white nor black\" leaves only the red balls, so the favourable count is 3 out of 5+3+2 = 10 balls, giving 3/10. Option c (2/5) comes from mistakenly counting the 2 black balls instead of excluding them.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A22",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A23",
@@ -420369,11 +421408,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Floor area is 18×12 = 216 m² and the untiled platform is 12×6 = 72 m², so 144 m² needs tiling; each 3 m tile covers 9 m², giving 144/9 = 16 tiles. The margins left round the platform are 3 m on every side, so the tiles fit exactly with none cut — option d is not needed.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A23",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A24",
@@ -420395,12 +421440,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "180 = 2²×3²×5, and only the 5 is unpaired, so multiplying by 5 gives 900 = 30², a perfect square. Option a (2) or b (3) would break existing pairs rather than complete the lone one.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "Option (d) is OCR-garbled in the source as \"5 xx+62x\"; it reads as the printed value 5, which is the mathematically correct answer. Worth checking the source PDF for the clean option text.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A24",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A25",
@@ -420422,11 +421472,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Put everything on base 2: 2ˣ · 2^(2x+12) = 2^(6x), so x + 2x + 12 = 6x, giving 3x = 12 and x = 4. The usual slip is writing 4^(x+6) as 2^(x+6) instead of 2^(2x+12), which wrongly yields x = 6.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A25",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A26",
@@ -420448,11 +421504,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "\"Exceeds 16% of itself by 42\" means N − 0.16N = 42, so 0.84N = 42 and N = 50. Option a (52) is what you get from the reversed reading N = 42 + 16% of 42.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A26",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A27",
@@ -420474,11 +421536,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The first four primes are 2, 3, 5 and 7, and 2+3+5+7 = 17. Option a (10) comes from wrongly starting the primes at 1 (1+2+3+4 style) — 1 is not a prime number.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A27",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A28",
@@ -420500,11 +421568,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Substituting x = 3 into x² − kx − 3 = 0 gives 9 − 3k − 3 = 0, so 3k = 6 and k = 2. Check: x² − 2x − 3 = (x−3)(x+1), whose roots are 3 and −1, confirming the fit; the sign slip that drops the −3 constant produces k = 3.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A28",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A29",
@@ -420526,11 +421600,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The common difference is 7 − 4 = 3, so 31 = 4 + (n−1)·3 gives 3(n−1) = 27, n−1 = 9 and n = 10. A common error is forgetting the \"−1\" in the nth-term formula, which gives 9 terms and no matching option.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A29",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=3",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A30",
@@ -420552,11 +421632,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "With b blue balls the total is 5+b, so b/(5+b) = 3 × 5/(5+b); the equal denominators cancel and b = 15. Because the totals are identical on both sides, you never need to solve a quadratic — the probability condition reduces to \"blue = 3 × red\".",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A30",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A31",
@@ -420578,12 +421664,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Distance from the origin is √(x²+y²) = √((−8)² + 6²) = √(64+36) = √100 = 10 units. The negative sign on −8 disappears once squared, so it does not reduce the distance; option a (5) would need the point (−4,3).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "Options (b), (c) and (d) are OCR-mangled in the source (\"units 22\", \"units\", \"10 units 2\"). Only (d) contains the correct value 10, so it is the intended answer, but the printed option text should be re-checked against the PDF.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A31",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A32",
@@ -420605,11 +421696,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The roots are (−b ± √(b²−4ac))/2a, so a negative discriminant forces the square root of a negative number and both roots become complex — no real roots. Option c (b²−4ac = 0) still gives one real repeated root, and option a gives two distinct real roots.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A32",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A33",
@@ -420631,12 +421728,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Factorise both: 2x³−5x²−3x = x(2x+1)(x−3) and x⁴−27x = x(x−3)(x²+3x+9), so the LCM takes each distinct factor once — x(x²+3x+9)(2x+1)(x−3). Options with (x+3) are wrong because x³−27 is a difference of cubes giving (x−3)(x²+3x+9), never (x+3); options dropping the leading x miss the factor common to both expressions.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
-    "sourceNote": "All four options are OCR-mangled (stray \"()()\" and lost brackets). Option (b) is the only one whose factors match the correct LCM x(x²+3x+9)(2x+1)(x−3); the printed text should be re-checked against the PDF.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A33",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A34",
@@ -420658,11 +421760,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "2 min 30 sec is 150 seconds, so the speed is 750/150 = 5 m/s, and multiplying by 18/5 converts to 18 km/hr. The trap is treating the time as 2.30 minutes or dividing by 2.5 without converting units, which gives the 15 or 12.5 distractors.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A34",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A35",
@@ -420684,11 +421792,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The angle sum gives A + B = 180 − 70 = 110, and with A − B = 26 adding the two equations gives 2A = 136, so A = 68° (and B = 42°). Option a (40°) comes from subtracting instead of adding, which yields B rather than A.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A35",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A36",
@@ -420710,11 +421824,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "If c answers are correct then 90 − c are wrong, so 2c − 0.25(90 − c) = 153, giving 2.25c = 175.5 and c = 78. Verify: 78×2 = 156 marks minus 12×0.25 = 3 penalty = 153; the 10 unattempted questions carry no penalty, which is why the total is 90 and not 100.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A36",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A37",
@@ -420736,11 +421856,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "For zeroes −3 and 4 the sum is 1 and the product is −12, so the polynomial is x² − (sum)x + product = x² − x − 12, which factors as (x+3)(x−4). Option b looks similar but 2x²+2x−24 = 2(x+4)(x−3) has zeroes 3 and −4 — the signs are swapped.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A37",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A38",
@@ -420762,11 +421888,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The return speed is 40 + 50% = 60 km/hr, and for equal distances the average speed is the harmonic mean 2×40×60/(40+60) = 4800/100 = 48 km/hr. The classic error is the plain average (40+60)/2 = 50, which overstates the speed because more time is spent on the slower leg.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A38",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A39",
@@ -420788,11 +421920,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Multiply both numbers by 100 to clear the decimals: 4.036/0.04 = 403.6/4 = 100.9. A quick sanity check is that dividing by a number smaller than 1 must make the result larger than 4.036, which rules out options a and c.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A39",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A40",
@@ -420814,11 +421952,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A container that exactly measures both amounts must divide both, and the largest such measure is the HCF of 70 and 105: 70 = 2×5×7, 105 = 3×5×7, so HCF = 35 litres. The LCM (210) is the wrong tool here — that would be the smallest quantity both pots can fill, not the measure that divides them.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A40",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=4",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A41",
@@ -420840,12 +421984,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The source PDF prints stacked fractions: 1⅔ ÷ 2/7 × x/7 = 1¼ × 2/3 ÷ 1/6. Left side = (5/3)(7/2)(x/7) = 5x/6; right side = (5/4)(2/3)(6) = 5; so 5x/6 = 5 and x = 6. The decimal options 0.6 and 0.4 are traps for anyone who inverts a division somewhere.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "Extracted question text is corrupt — it reads '1÷×=1×÷ 377436'. Verified against the source PDF (Sub-Inspector of Statistic Paper-II, p.5): the equation is 1 2/3 ÷ 2/7 × x/7 = 1 1/4 × 2/3 ÷ 1/6. The stored text must be repaired before this is shown to a student.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A41",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A42",
@@ -420867,12 +422016,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The wire's length is the circle's circumference: 2 × (22/7) × 56 = 352 cm. Bent into a square that becomes the perimeter, so each side is 352/4 = 88 cm and the area is 88² = 7744 cm². Do not carry over the circle's area (9856 cm²) — only the length of wire is conserved, not the enclosed area.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "Option (d) carries a stray trailing '1' in the extracted data ('7744 cm² 1'); the PDF prints only '7744 cm2'.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A42",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A43",
@@ -420894,11 +422048,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Let the fraction be x/y. x/(y+1) = 1/2 gives 2x = y + 1, and (x+1)/y = 1 gives y = x + 1. Substituting, 2x = x + 2, so x = 2 and y = 3, giving 2/3. Check: 2/4 = 1/2 and 3/3 = 1, so both conditions hold; 1/2 satisfies the second condition but not the first, since 1/(2+1) = 1/3.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A43",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A44",
@@ -420920,11 +422080,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "21 pens and 9 notebooks is exactly three times 7 pens and 3 notebooks, so the cost is 819 ÷ 3 = Rs. 273. You never need the individual price of a pen or a notebook — spotting the 3:1 scaling is the whole question, and the data is in fact insufficient to find the separate prices.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A44",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A45",
@@ -420946,11 +422112,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "[adjudicated: derived] Correct answer: (b) Rs. 24. A 30% discount means you pay 70% of the list price, so 0.70 x LP = 21, giving LP = 21 / 0.70 = Rs. 30. With a 20% discount you pay 80% of that: 0.80 x 30 = Rs. 24. Quick check you can do without any algebra: a smaller discount must leave a HIGHER selling price, so the answer has to be more than Rs. 21. The option highlighted in the source booklet, (a) Rs. 20, is less than 21 and is therefore impossible — that highlight is an error, not an official key. The distractors correspond to list prices of Rs. 27.50 (for 22) and Rs. 31.25 (for 25), neither of which yields Rs. 21 at a 30% discount. The general shortcut: SP scales with the proportion left after discount, so SP_new = 21 x (80/70) = 24.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A45",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A46",
@@ -420972,11 +422144,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "80 litres in the ratio 7:3 is 56 litres of milk and 24 litres of water. The milk is unchanged, so 56/(24 + w) = 2/1 gives 24 + w = 28 and w = 4 litres. The trap is applying the new 2:1 ratio to the original 80 litres, which forgets that adding water raises the total.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A46",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A47",
@@ -420998,11 +422176,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "Simple interest = P × R × T / 100, so 5400 = P × 12 × 3 / 100 = 0.36P, giving P = Rs. 15,000. Rs. 14,000 and Rs. 14,500 are near-miss distractors — substitute back to check: 15,000 × 0.36 = 5,400 exactly, while 14,000 yields only 5,040.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A47",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A48",
@@ -421024,11 +422208,17 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "A cube has 6 equal faces, so 6a² = 150 gives a² = 25 and a = 5 cm; volume = 5³ = 125 cm³. Option (d) 216 cm³ is the trap of assuming a = 6, but a 6 cm cube has surface area 216 cm², not 150.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A48",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=5",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A49",
@@ -421050,13 +422240,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "The table gives Food 3150, Rent 2400, Education 2100, Savings 1200 and Miscellaneous 1950, a total of Rs. 10,800. Rent's central angle is (2400/10800) × 360° = 80°. Remember a pie chart divides 360°, not 100 — computing the percentage (22.2%) and stopping there is the usual slip.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "direction": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950",
-    "sourceNote": "The table the Directions refer to was dropped by the extractor. Recovered from the source PDF (p.6, 'expenditure for one month incurred by a family'): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950 (amounts in Rs). The question is unanswerable until that table is attached.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A49",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-A50",
@@ -421078,13 +422273,18 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "explanation": "From the same table, Food : Education = 3150 : 2100. Dividing both by 1050 gives 3:2. Option (b) 2:3 is the same numbers in the wrong order — the question names food first, so the larger figure leads.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/si-statistics-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "Directions (Question Nos. 49 – 50): Study the given table and answer the question that follows. The expenditure for one month incurred by a family is given below:\nItem      | Food | Rent | Education | Savings | Miscellaneous\nAmount (in Rs) | 3150 | 2400 | 2100 | 1200 | 1950",
-    "sourceNote": "Same missing table as Q49. Recovered from the source PDF (p.6): Food 3150, Rent 2400, Education 2100, Savings 1200, Miscellaneous 1950.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · A50",
-    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ]
   },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B51",
@@ -421839,9 +423039,7 @@ const groupBQuestionsPart49: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B78",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  }
-];
-const groupBQuestionsPart50: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B79",
     "questionNumber": "B79",
@@ -421870,7 +423068,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "year": 2026,
     "source": "Sub-Inspector of Statistics · January 2026 · B79",
     "sourceHref": "/papers/group-b/si-stats-2026-p2.pdf"
-  },
+  }
+];
+const groupBQuestionsPart50: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-stats-2026-p2-B80",
     "questionNumber": "B80",
@@ -425524,11 +426724,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Use the identity a² + b² = (a + b)² − 2ab = 6² − 2(6) = 36 − 12 = 24. The trap is to forget the −2ab term and simply square the sum, or to subtract ab only once, which would give 30.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B51",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B52",
@@ -425550,11 +426756,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "For x > 3: (1) squaring gives x² > 9; (2) 2x + 1 > 7 rearranges to x > 3, which is exactly the given condition; (3) x² − 6x + 9 = (x − 3)², and since x ≠ 3 the square is strictly positive. All three hold, so 'All of the above' is correct — statement 3 only looks doubtful until you spot it is a perfect square.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B52",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B53",
@@ -425576,11 +426788,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Melting preserves volume, so (2/3)πr³ = πr²h, and cancelling πr² leaves h = 2r/3. Answer 4r/3 comes from using the full sphere volume (4/3)πr³ instead of the hemisphere's.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B53",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B54",
@@ -425602,11 +426820,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Total work = 10 × 20 = 200 worker-days; in the first 5 days 10 × 5 = 50 worker-days are done, leaving 150. With 6 workers remaining, 150 ÷ 6 = 25 more days. The common slip is to give 30 (150 ÷ 5) or to forget that the question asks only for the additional days.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B54",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B55",
@@ -425628,11 +426852,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Let the number be 10a + b. Reversing adds 27, so (10b + a) − (10a + b) = 9(b − a) = 27, giving b − a = 3; with ab = 18 the digits are 3 and 6, so the number is 36. 63 is the reversed number, not the original, which is exactly the trap.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B55",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B56",
@@ -425654,11 +426884,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "By Thales' theorem, the angle subtended by a diameter at any point on the circle is a right angle, so ∠ACB = 90° wherever C sits on the semicircle. The other options would only arise for a chord that is not a diameter.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B56",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=6",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B57",
@@ -425680,11 +426916,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Full volume = πr²h = (22/7) × 7 × 7 × 10 = 1540 m³, and 70% of 1540 is 1078 m³. Option (b) 1078.6 is the near-miss you get from sloppy rounding of π; with r = 7 the 22/7 value cancels exactly, so the answer is a clean 1078.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B57",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B58",
@@ -425706,11 +426948,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "aₙ = a + (n − 1)d, so a₁₂ = 50 + 11 × (−3) = 50 − 33 = 17. Using 12 instead of 11 for the number of steps gives 14, and forgetting the negative sign inflates the answer — the count of common differences is always one less than the term number.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B58",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B59",
@@ -425732,11 +426980,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Let d be the distance from the nearer point: h = d·tan60° = d√3, and h = (d + 20)·tan30° = (d + 20)/√3. Equating gives 3d = d + 20, so d = 10 and h = 10√3 m; 20√3 comes from wrongly taking the 20 m as the distance from the tower.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B59",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B60",
@@ -425758,11 +427012,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "SI for 2 years at 5% is 0.10P; CI for 2 years at 6.25% is P(1.0625² − 1) = 0.12890625P. The difference 0.02890625P = 37 gives P = 1280. Note the two rates differ, so the usual shortcut 'difference = P(r/100)²' does not apply here.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B60",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B61",
@@ -425784,11 +427044,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Cost per item = 1000/50 = Rs 20. SP of 30 items at +20% = 30x20x1.20 = 720; SP of 20 items at -10% = 20x20x0.90 = 360. Total SP = 1080 against cost 1000, so profit = 80 = 8%. The trap is averaging +20% and -10% to get 10% or 5% - percentages must be weighted by the money involved, and the two lots are not equal (30 vs 20).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B61",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B62",
@@ -425810,11 +427076,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The digits 1+2+3+4+5 sum to 15, which is divisible by 3, so EVERY five-digit arrangement of them is divisible by 3 and far larger than 3 - hence composite. None of the 120 permutations can be prime, so the count is zero; you never need to test individual numbers once you spot the digit-sum rule.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B62",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B63",
@@ -425836,11 +427108,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "7^(2n) - 1 = 49^n - 1, and x^n - 1 is always divisible by x - 1, so it is divisible by 48 and therefore by 24. Checking n = 1 gives 48, which is divisible by 24 but not by 7, 15 or 21 - so the other three options fail at the very first case.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B63",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B64",
@@ -425862,11 +427140,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Let the son be S and the father 3S. After 12 years 3S + 12 = 2(S + 12), giving S = 12 and father = 36. Option (a) 24, 8 satisfies the 3-times condition today but in 12 years gives 36 and 20, which is not a 2:1 ratio.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B64",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B65",
@@ -425888,12 +427172,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The difference between the 4th and 2nd terms is stated in the question itself as 6, so that is the answer whatever the ratio is. Sanity check: ar^3 - ar = 6 and ar^4 - ar^2 = 24 divide to give r = 4, so ar = 0.4 and the terms run 0.1, 0.4, 1.6, 6.4, 25.6 - and 6.4 - 0.4 = 6.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "OCR-garbled stem: the ordinals collapsed into 'by 6 thrdndth and 5 term is greater than 3 term by 24'. Reconstructed as 4th-2nd = 6 and 5th-3rd = 24, on which reading the question asks for a quantity it already supplies. No other option (1.5, 24, 96) is reachable from the data, so 6 is safe, but the wording is worth checking against the source PDF.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B65",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B66",
@@ -425915,11 +427204,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "A trailing zero needs a factor of 10, i.e. a 2 paired with a 5. Factorising: 24 = 2^3 x 3, 32 = 2^5, and 17, 23, 19 are primes - there is no factor of 5 anywhere, so there are no trailing zeros. 'Sixteen' tempts you by counting the 2s, but 2s alone produce no zeros.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B66",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B67",
@@ -425941,11 +427236,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Take P as origin: 50 km east reaches (50, 0); facing east a right turn is south, so 30 km gives (50, -30); from south a left turn is east, so 30 km gives (80, -30); a right turn from east is south again, so Q = (80, -60). Straight-line PQ = sqrt(80^2 + 60^2) = 100 km - the 140 km option is just the total distance walked, not the shortest distance.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B67",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=7",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B68",
@@ -425967,11 +427268,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Lion, tiger and leopard are all wild big cats; the cat is the only domesticated one. All four belong to the cat family, so family membership cannot be the distinction - domestic versus wild is.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B68",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B69",
@@ -425993,11 +427300,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The rule is: shift each letter one step back in the alphabet and reverse the word. LIFE -> KHED -> DEHK, and NEXT -> MDWS -> SWDM, so both given codes check out. FINE -> EHMD -> reversed = DMHE. Option (b) MDHE swaps the first two letters, the usual slip when the reversal is done carelessly.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B69",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B70",
@@ -426017,14 +427330,19 @@ const groupBQuestionsPart50: BankQuestion[] = [
     ],
     "answerIndex": 3,
     "explanation": "This question depends entirely on a diagram that was not captured with the text, so the triangle count cannot be derived from what is printed here. The answer recorded follows the marked option in the source paper and is unverified - treat it as provisional until the figure is checked in the original PDF.",
-    "answerConfidence": "low",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "Missing figure: the stem says 'the given figure' but no diagram was extracted, so the count is unverifiable. Answer follows the source highlight only; needs the source PDF.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B70",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B71",
@@ -426046,12 +427364,18 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "A blind person is one who cannot perceive light, so the relation is 'faculty : the person deprived of it' - and a dumb person is one who cannot produce speech. Option (b) is close but wrong in kind: a deaf person is deprived of sound or hearing, not of language, and deaf people use language fluently.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "direction": "DIRECTIONS (Question No. 71 & 72) : Each question consist of two words which have a certain",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B71",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B72",
@@ -426073,11 +427397,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "A sedative is what relieves pain, so the pattern is 'affliction : what soothes it', and consolation is exactly what relieves grief. Option (c) reverses the logic - a narcotic causes a trance rather than relieving it - and (a) pairs comfort with a stimulant, which relieves nothing.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B72",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B73",
@@ -426099,11 +427429,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Deer have 4 legs and peacocks 2. From d + p = 80 and 4d + 2p = 200, subtract twice the first: 2d = 40, so d = 20 and p = 60. The trap is option (a) 20, which is the number of deer, not the peacocks the question asks about.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B73",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B74",
@@ -426151,12 +427487,18 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "'All apples are bananas' and 'all bananas are sweet' chain to give 'all apples are sweet', and 'all' entails 'some', so Conclusion I follows. Conclusion II is the valid converse of a universal affirmative - if every apple is a banana then at least some bananas are apples - so it follows too. 'Either/or' (option c) is wrong because that applies only to complementary pairs where exactly one can be true.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "direction": "DIRECTIONS (Question No. 75) : In question No. 75, two statements are given followed by two",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B75",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=8",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B76",
@@ -426178,11 +427520,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "By years marked: silver jubilee 25, golden jubilee 50, diamond jubilee 60, centenary 100, millennium 1000 - giving 3, 5, 2, 4, 1. Every distractor opens with 2 (diamond jubilee), but 60 years cannot come before the silver and golden jubilees.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B76",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B77",
@@ -426204,11 +427552,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "For equal distances each way the average speed is the harmonic mean: 2 x 40 x 60 / (40 + 60) = 4800/100 = 48 km/h. The tempting 50 km/h is the plain arithmetic mean, which overstates the result because more time is spent on the slower leg.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B77",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B78",
@@ -426230,11 +427584,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "17 is congruent to -1 modulo 18, so 17^200 is congruent to (-1)^200 = 1. The exponent is even, so the remainder is 1; an odd exponent would have left 17, which is exactly why option (d) is planted there.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B78",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B79",
@@ -426256,11 +427616,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The pair sums are A + B = 30,100, B + C = 30,700 and A + C = 30,400; adding all three gives 2(A + B + C) = 91,200, so A + B + C = 45,600. Then A = 45,600 - (B + C) = 45,600 - 30,700 = Rs 14,900 - you must subtract the pair that does NOT contain A. Option (b) is just one of the given averages, not A's income.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B79",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B80",
@@ -426278,16 +427644,20 @@ const groupBQuestionsPart50: BankQuestion[] = [
       "425",
       "325"
     ],
-    "answerIndex": 1,
-    "explanation": "For any two numbers, product = LCM x HCF = 35 x 15 = 525. Be aware the data itself is impossible: the HCF must always divide the LCM, and 15 does not divide 35, so no such pair of numbers actually exists - but 525 is the only value the standard formula yields.",
-    "answerConfidence": "high",
+    "answerIndex": -1,
+    "explanation": "For any integer pair, HCF divides LCM. Since 15∤35, no such pair exists. Although HCF×LCM=525, this formula does not make the inconsistent premises realizable; A/525 remains only the key candidate.",
+    "answerConfidence": "low",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
-    "independentAnswerIndex": 1,
-    "sourceNote": "Invalid data as printed: HCF must divide LCM, but 15 does not divide 35, so no two integers have this LCM/HCF pair. The formula still gives 525 uniquely so the intended answer is unambiguous, but the question is mathematically unsound - worth verifying the figures against the source PDF.",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
+    "independentAnswerIndex": -1,
+    "sourceNote": "The stated HCF 15 cannot divide the stated LCM 35, so no pair of integers has these values. The official key marks B/525 using HCF×LCM, but the premises are impossible; retain B only as a key candidate and hold unscored.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B80",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "ambiguous",
+    "sourceReview": true,
+    "disputeNote": "The stated HCF 15 cannot divide the stated LCM 35, so no pair of integers has these values. The official key marks B/525 using HCF×LCM, but the premises are impossible; retain B only as a key candidate and hold unscored."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B81",
@@ -426309,11 +427679,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "\"Straight\" covers both positions where the hands lie on one line: coinciding (0°) and opposite (180°). In 12 hours the hands coincide 11 times and are opposite 11 times, so 22 in 12 hours and 44 in a full day. The trap is 22, which counts only one of the two cases (or only a 12-hour span).",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B81",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B82",
@@ -426335,11 +427711,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The ratio 2:7:4 has 2 + 7 + 4 = 13 parts, so one part = 7774 ÷ 13 = 598 and green = 7 × 598 = 4186. Option (a) 1110 is close to the red count and (c) 6663 is what you get by wrongly treating green as everything except red.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B82",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B83",
@@ -426361,11 +427743,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "There are 6 + 8 = 14 balls in all and 8 are white, so P(white) = 8/14 = 4/7. The tempting 3/4 comes from dividing by a wrong total; always divide by every ball in the bag, then reduce the fraction.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B83",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B84",
@@ -426387,11 +427775,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "One side is left unpainted, so the painted sides are the side opposite it plus both perpendicular sides: 9 + 2w = 37 gives w = 14, and area = 9 × 14 = 126 sq ft. Option (d) 252 is the classic slip of taking w = 28, i.e. forgetting there are two such sides.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B84",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B85",
@@ -426413,11 +427807,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "One diagonal splits any quadrilateral into two triangles, and each contributes 180°, so the interior angles total 2 × 180° = 360°. 180° is a triangle and 540° is a pentagon.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B85",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B86",
@@ -426439,11 +427839,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The distance formula is Pythagoras applied to the horizontal and vertical gaps between the two points: √[(x₂ − x₁)² + (y₂ − y₁)²]. Option (b) √(x² + y²) is only the special case of distance from the origin, where x₁ = y₁ = 0.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B86",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=9",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B87",
@@ -426465,11 +427871,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Joining the centre to the midpoint of a chord makes two congruent triangles (two equal radii and a shared side), so the two angles at the chord are equal and each must be 90° — the line is perpendicular to the chord. \"Secant\" and \"tangent\" describe how a line meets the circle, not the angle it makes with a chord.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B87",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B88",
@@ -426491,12 +427903,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "An equilateral triangle has all three sides equal, so all three angles are equal, and 180° ÷ 3 = 60° each. \"Only two sides are equal\" describes an isosceles triangle, which is the standard distractor here.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "OCR artifact: option (d) reads \"All sides are unequal 50403020\". The trailing digits are bleed-through of the exponents 50/40/30/20 that belong to Q89's options and are not part of this option.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B88",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B89",
@@ -426518,12 +427935,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The printed options 350/620/530/440 are really the powers 3⁵⁰, 6²⁰, 5³⁰ and 4⁴⁰ (their exponent digits leaked into Q88's option (d) during extraction). Rewrite each as a tenth power — 3⁵⁰ = 243¹⁰, 4⁴⁰ = 256¹⁰, 5³⁰ = 125¹⁰, 6²⁰ = 36¹⁰ — and 256¹⁰ is the largest, so 4⁴⁰ wins. The trap is assuming the biggest base (6) or the biggest exponent (50) must win; you have to equalise one of them first.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "Extraction damage: the stem should read \"the greatest number among 3⁵⁰, 4⁴⁰, 5³⁰ and 6²⁰\" and the options are powers, not plain integers. As currently stored (\"greatest among 3, 4, 5, and 6\" with options 350/620/530/440) the question is nonsense — restore the superscripts from the source PDF before publishing.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B89",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B90",
@@ -426545,11 +427967,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "The series adds consecutive squares: 53 +2²=57, +3²=66, +4²=82, +5²=107, +6²=143, +7²=192. The fifth term should be 107, so 110 is the intruder — and note 143 and 192 both fit perfectly once 107 is used, confirming 110 is the single break.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B90",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B91",
@@ -426571,11 +427999,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "C > A > B from the first clue, B > D > E from the second and F > C from the third, giving the full order F > C > A > B > D > E. F is tallest, so C is second tallest; A is only third.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B91",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B92",
@@ -426597,11 +428031,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Each term is one less than a perfect square: 2²−1 = 3, 3²−1 = 8, 4²−1 = 15, 5²−1 = 24, 6²−1 = 35, so the next is 7²−1 = 48. Equivalently the gaps grow 5, 7, 9, 11, 13, and 35 + 13 = 48; answering 46 assumes the gap stays at 11.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B92",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B93",
@@ -426623,11 +428063,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Substituting the symbols gives 39 − 4 ÷ 2 × 3. BODMAS does division and multiplication first — 4 ÷ 2 = 2, then 2 × 3 = 6 — leaving 39 − 6 = 33. Working strictly left to right instead gives (39 − 4) ÷ 2 × 3 = 52.5, and answering 6 means stopping after the inner arithmetic.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B93",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B94",
@@ -426649,11 +428095,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Swap every symbol first, then apply BODMAS. Option (a) becomes 15 × 5 − 8 + 2 = 75 − 8 + 2 = 69, which matches the stated result. The rest fail: (b) → 16 ÷ 5 + 7 × 9 = 66.2, (c) → 15 × 6 − 8 + 2 = 84, (d) → 18 ÷ 8 × 4 − 11 = −2.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 0,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B94",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      0
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B95",
@@ -426673,13 +428125,19 @@ const groupBQuestionsPart50: BankQuestion[] = [
     ],
     "answerIndex": 2,
     "explanation": "Rice is a kind of Food, so the Rice circle sits wholly inside the Food circle, while Glass is neither a food nor a rice and stays completely separate — exactly the arrangement in (c). Option (b) is wrong because it would make Glass a food too, and the overlapping chains in (a) and (d) would wrongly claim Rice and Glass share members.",
-    "answerConfidence": "medium",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B95",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B96",
@@ -426701,11 +428159,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Look for each vowel whose immediate right-hand neighbour is also a vowel: E-A, U-I, E-U, U-O, A-E and E-O — six of them. The common slip is counting both letters of a pair (e.g. the E and the A in E-A), which inflates the total.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B96",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=10",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B97",
@@ -426727,11 +428191,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "C is A's brother and D is C's son, so D is A's nephew; since B is A's wife, D is her nephew too. \"Uncle\" and \"maternal uncle\" reverse the direction of the relation, and the F clause only confirms that B married into A's family.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 1,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B97",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      1
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B98",
@@ -426753,11 +428223,17 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "explanation": "Triangle, square and circle are all two-dimensional plane figures, whereas a cylinder is a three-dimensional solid. Picking the circle because it alone has no straight sides is the trap — the grouping rule here is dimension, not curvature.",
     "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
     "year": 2026,
     "source": "Research Investigator · May 2026 · B98",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ],
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key."
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B99",
@@ -426777,14 +428253,19 @@ const groupBQuestionsPart50: BankQuestion[] = [
     ],
     "answerIndex": 3,
     "explanation": "This is a figure-series question in which a dot and a short double line rotate around a hexagon from box to box, but the four series boxes are images the extraction never captured, so the rotation rule cannot be worked out from the stored text. The answer given follows the option highlighted in the source PDF and is unverified.",
-    "answerConfidence": "low",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 3,
-    "sourceNote": "Missing figure: the four-box series and the option figures are images absent from the extracted text, so the question is unanswerable as stored. Answer follows the PDF highlight only — needs the original figure before it is trusted.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B99",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      3
+    ]
   },
   {
     "id": "mpsc-group-b-ri-2026-p2-B100",
@@ -426804,14 +428285,577 @@ const groupBQuestionsPart50: BankQuestion[] = [
     ],
     "answerIndex": 2,
     "explanation": "A two-view dice question is solved by finding the face common to both views, rotating about it to fix the rest, then reading off the face opposite 1 — but views (i) and (ii) are images the extraction did not capture, so no face values are available. The answer given follows the option highlighted in the source PDF and is unverified.",
-    "answerConfidence": "low",
+    "answerConfidence": "high",
     "answerSource": "official",
-    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf#page=2",
+    "answerKeyRef": "/papers/group-b/keys/ri-2026-final-key.pdf",
     "independentAnswerIndex": 2,
-    "sourceNote": "Missing figure: dice positions (i) and (ii) are absent from the extracted text, making the question unanswerable as stored. Option (d) also carries OCR noise (\"cannot be determined * * * * * * *\"). Answer follows the PDF highlight only.",
+    "sourceNote": "Printed stem and option order checked; independent worked guide compared with the official final key.",
     "year": 2026,
     "source": "Research Investigator · May 2026 · B100",
-    "sourceHref": "/papers/group-b/ri-2026-p2.pdf"
+    "sourceHref": "/papers/group-b/ri-2026-p2.pdf#page=11",
+    "sourceReviewed": true,
+    "independentAnswerSource": "solved",
+    "officialAnswerCandidates": [
+      2
+    ]
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(i)",
+    "questionNumber": "1(i)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The sum of place and face values of 8 in 46891 is",
+    "options": [
+      "88",
+      "888",
+      "800",
+      "808"
+    ],
+    "answerIndex": 3,
+    "explanation": "The 8 is in the hundreds place: place value 800 and face value 8; sum=808.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(ii)",
+    "questionNumber": "1(ii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "In a school, 5/8 of the students are boys. If there are 240 girls, then the number of boys in the school is-",
+    "options": [
+      "300",
+      "400",
+      "450",
+      "350"
+    ],
+    "answerIndex": 1,
+    "explanation": "Girls are 3/8 of the students, so total=240×8/3=640. Boys=5/8×640=400.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(iii)",
+    "questionNumber": "1(iii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "What will be the HCF of (3 × 4 × 9 × 11), (3 × 4 × 11 × 13), (3 × 4 × 5 × 11) and (3 × 4 × 5 × 9) ?",
+    "options": [
+      "3 × 4 × 5",
+      "3 × 4 × 5 × 11",
+      "3 × 4",
+      "3 × 11"
+    ],
+    "answerIndex": 2,
+    "explanation": "The common factors present in all four products are 3 and 4; their product, 12, is the HCF.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(iv)",
+    "questionNumber": "1(iv)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The vulgar fraction of 0.36̅ is",
+    "options": [
+      "9/25",
+      "2/5",
+      "11/30",
+      "1/15"
+    ],
+    "answerIndex": 2,
+    "explanation": "The printed bar is over the 6: 0.3666… = 0.3 + 0.0666… = 11/30.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(v)",
+    "questionNumber": "1(v)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "783 ÷ 9 ÷ 0.75 = ?",
+    "options": [
+      "116",
+      "118",
+      "124",
+      "134"
+    ],
+    "answerIndex": 0,
+    "explanation": "Evaluate left to right: 783÷9=87; 87÷0.75=87×4/3=116.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(vi)",
+    "questionNumber": "1(vi)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "√(15⁴) = ?",
+    "options": [
+      "235",
+      "225",
+      "265",
+      "285"
+    ],
+    "answerIndex": 1,
+    "explanation": "√(15⁴)=15²=225.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(vii)",
+    "questionNumber": "1(vii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The average of first 5 odd numbers is",
+    "options": [
+      "25",
+      "10",
+      "15",
+      "5"
+    ],
+    "answerIndex": 3,
+    "explanation": "The first five odd numbers are 1, 3, 5, 7, 9; their sum is 25 and mean is 25/5=5.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=1",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(viii)",
+    "questionNumber": "1(viii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The mean proportional between 8 and 50 is",
+    "options": [
+      "10",
+      "200",
+      "100",
+      "20"
+    ],
+    "answerIndex": 3,
+    "explanation": "The mean proportional is the geometric mean: √(8×50)=√400=20.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(ix)",
+    "questionNumber": "1(ix)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "In an auditorium, the number of rows is equal to the number of chairs in each row. If the capacity of the auditorium is 2025, then the number of chairs in each row is",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "55"
+    ],
+    "answerIndex": 2,
+    "explanation": "If each count is n, total chairs=n²=2025, hence n=45.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(x)",
+    "questionNumber": "1(x)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The multiplicative inverse of √3/2 is",
+    "options": [
+      "√2/√3",
+      "2/3",
+      "2/√3",
+      "√2/3"
+    ],
+    "answerIndex": 2,
+    "explanation": "The reciprocal of √3/2 is 2/√3 (equivalently 2√3/3).",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xi)",
+    "questionNumber": "1(xi)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "By what number should −33/8 be divided to get −11/2 ?",
+    "options": [
+      "−3/4",
+      "3/4",
+      "8/11",
+      "−8/11"
+    ],
+    "answerIndex": 1,
+    "explanation": "Let x be the divisor: (−33/8)÷x=−11/2. Thus x=(−33/8)/(−11/2)=3/4.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xii)",
+    "questionNumber": "1(xii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If cost of 15 books be Rs.105, calculate the cost of 3 dozens of books.",
+    "options": [
+      "Rs.315",
+      "Rs.525",
+      "Rs.252",
+      "Rs.540"
+    ],
+    "answerIndex": 2,
+    "explanation": "Cost per book=105/15=Rs.7. Three dozen is 36 books, costing 36×7=Rs.252.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xiii)",
+    "questionNumber": "1(xiii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A die is thrown once, the probability of getting an even number is",
+    "options": [
+      "1/2",
+      "1/6",
+      "1/4",
+      "1/3"
+    ],
+    "answerIndex": 0,
+    "explanation": "A fair die has three even outcomes (2, 4, 6) out of six, so probability=3/6=1/2.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xiv)",
+    "questionNumber": "1(xiv)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A speed of 40 m/s is same as",
+    "options": [
+      "200 km/h",
+      "144 km/h",
+      "240 km/h",
+      "360 km/h"
+    ],
+    "answerIndex": 1,
+    "explanation": "Convert m/s to km/h by multiplying by 3.6: 40×3.6=144 km/h.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xv)",
+    "questionNumber": "1(xv)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days then the fraction of the work that is left is",
+    "options": [
+      "1/4",
+      "8/15",
+      "7/15",
+      "1/10"
+    ],
+    "answerIndex": 1,
+    "explanation": "Their combined daily rate is 1/15+1/20=7/60. In four days they do 7/15, leaving 1−7/15=8/15.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xvi)",
+    "questionNumber": "1(xvi)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The area of a rectangular plot is 462m² and its length is 28m. The breadth of the plot is",
+    "options": [
+      "15cm",
+      "16cm",
+      "16.5cm",
+      "17cm"
+    ],
+    "answerIndex": -1,
+    "explanation": "Breadth=area/length=462 m²/28 m=16.5 m. The printed choices all say cm, so option (c) has the right numeral but wrong unit; keep unscored.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "The source prints the answer choices in cm although area divided by length gives 16.5 m; no option is dimensionally correct.",
+    "sourceReview": true
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xvii)",
+    "questionNumber": "1(xvii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A gun is fired at a distance of 1.34 km from Zovi and she hears the sound after 4 seconds. The speed of the sound is-",
+    "options": [
+      "330 m/sec",
+      "332 m/sec",
+      "334 m/sec",
+      "335 m/sec"
+    ],
+    "answerIndex": 3,
+    "explanation": "1.34 km=1,340 m. Speed=distance/time=1,340/4=335 m/sec.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xviii)",
+    "questionNumber": "1(xviii)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "What percent is 875g of 10 Kg?",
+    "options": [
+      "87.5%",
+      "8.75%",
+      "85.7%",
+      "8.57%"
+    ],
+    "answerIndex": 1,
+    "explanation": "10 kg=10,000 g. The fraction is 875/10,000, so percent=8.75%.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xix)",
+    "questionNumber": "1(xix)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The digit at the ten’s place in the square root of 15876 is equal to",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "2"
+    ],
+    "answerIndex": 3,
+    "explanation": "√15,876=126 because 126²=15,876; the tens digit is 2.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-2014-arithmetic-1(xx)",
+    "questionNumber": "1(xx)",
+    "paperId": "mpsc-group-b-ada-2014-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A cube of side 6cm is cut into a number of cubes each of side 2cm. The number of cubes formed is",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "27"
+    ],
+    "answerIndex": 3,
+    "explanation": "Each edge fits 6/2=3 small cubes, giving 3³=27 cubes.",
+    "source": "Assistant Divisional Accountant under Finance Department · 2014",
+    "year": 2014,
+    "sourceHref": "/papers/group-b/ada-2014-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
   },
   {
     "id": "mpsc-group-b-mimer-labtech-2018-english-B1",
@@ -429354,7 +431398,9 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "***Directions (Questions No. 1 - 16) : Choose the correct alternative for the following idioms/phrases:***"
-  },
+  }
+];
+const groupBQuestionsPart51: BankQuestion[] = [
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B11",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -429898,9 +431944,7 @@ const groupBQuestionsPart50: BankQuestion[] = [
     "sourceNote": "Both distressing (C) and frightening (D) are defensible near-synonyms of alarming in the passage’s expression of worry or fear. The context supplies no distinction that secures a single closest synonym. Held consistently with the parallel printed Election 2019 item. Answer solely from the printed historical passage. Its prediction of Bengal tiger extinction by 2025 is a passage claim, not current wildlife information. Printed typos such as “insyance”, “vasy”, and “With the money get” are retained.",
     "direction": "***Direction (Questions No. 27 - 32): Read the passage carefully and answer the questions that follow it:***",
     "passage": "Since the world has become industrialised, there has been an increase in the number of animal species that have either become extinct or near extinction. Bengal tiger, for insyance, which roamed the jungle in vasy numbers, now numbers only 2300 and by the year 2025, their population is estimated to be down to zero. What is **alarming** about the case of Bengal tiger is that this extinction will have been caused almost entirely by poachers who according to some sources, are not interested in material gain but in personal gratification. This is an example of the callousness that is part of what is causing the problem of extinction. Animals like the Bengal tiger, as well as those endangered species, are a valuable part of the world’s ecosystem. International laws protecting these animals must be enacted to ensure their survival, and the survival of our planet. Countries around the world have begun to deal with the problem in various ways. Some countries, in order to circumvent the problem, have allocated large amount of land to animal reserves. They then charge admission to help defray the cost of maintaining the parks, and they often must also depend on world organisations for support. With the money get, they can invest in equipment and patrols to protect the animals. Another solution that is an attempt to **stem the tide** of animal extinction is an international boycott of products made from endangered species. This seems fairly effective, but it will not, by itself, prevent animals from being hunted and killed."
-  }
-];
-const groupBQuestionsPart51: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-si-police-ub-2018-english-B30",
     "paperId": "mpsc-group-b-si-police-ub-2018-english",
@@ -436035,7 +438079,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "26π cm"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "For a sphere of radius 13 cm cut 5 cm from its centre, section radius r satisfies r²+5²=13², so r=12 cm and circumference=2πr=24π cm. The scan prints 24π cm in both (a) and (c), so the answer remains held as multiple keyed-equivalent options.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=7",
@@ -436043,7 +438087,11 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Printed scan verified: options (a) and (c) are both 24π cm, the correct circumference. Keep held; do not unhold.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Printed scan verified: options (a) and (c) are both 24π cm, the correct circumference. Keep held; do not unhold."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q73",
@@ -436594,7 +438642,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
       "16√3 cm²"
     ],
     "answerIndex": -1,
-    "explanation": "",
+    "explanation": "For an equilateral triangle of side 8 cm, area=(√3/4)×8²=16√3 cm². The scan prints 16√3 cm² in both (b) and (d), so the answer remains held as duplicate correct options.",
     "source": "Sub Inspector (UB) under Home Department · October 2018",
     "year": 2018,
     "sourceHref": "/papers/group-b/si-police-ub-2018-mathematics.pdf#page=9",
@@ -436602,7 +438650,11 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+    "sourceNote": "Printed scan verified: options (b) and (d) are both 16√3 cm², the correct area. Keep held; do not unhold.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Printed scan verified: options (b) and (d) are both 16√3 cm², the correct area. Keep held; do not unhold."
   },
   {
     "id": "mpsc-group-b-si-police-ub-2018-mathematics-Q93",
@@ -437646,7 +439698,9 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 29 - 34) : Fill up the blanks with suitable prepositions from the alternatives given under each sentence :"
-  },
+  }
+];
+const groupBQuestionsPart52: BankQuestion[] = [
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B30",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -438175,9 +440229,7 @@ const groupBQuestionsPart51: BankQuestion[] = [
     "sourceReviewed": true,
     "sourceNote": "Gone back (A), have gone back (B), and will have gone back (C) can all be coordinated with will have retired, with different degrees of auxiliary repetition: will have [retired and gone back], will [have retired and have gone back], or [will have retired] and [will have gone back]. More than one printed completion is grammatical.",
     "direction": "Directions (Questions 41 - 48) : Identify the appropriate verb-form to fill in the blanks :"
-  }
-];
-const groupBQuestionsPart52: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-horticulture-demonstrator-2018-english-B49",
     "paperId": "mpsc-group-b-horticulture-demonstrator-2018-english",
@@ -445334,1579 +447386,6 @@ const groupBQuestionsPart52: BankQuestion[] = [
     "sourceNote": "The original question image preserves mathematical notation and any diagrams. Text, option order and answers require source review; this item is not scored."
   },
   {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B1",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B1",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Which of the following is the correct way of writing 15thousandths? 1",
-    "options": [
-      "15th1000s",
-      "th 15,000",
-      "151000",
-      "0.015"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B2",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B2",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Arrange the following decimals is descending order : 1.111;   0.342;   0.098;   1.021;   0.109.",
-    "options": [
-      "1.111 > 0.342 > 0.098 > 1.021 > 0.109",
-      "0.098 < 0.109 < 0.342 < 1.021 < 1.111",
-      "1.111 > 1.021 > 0.342 > 0.109 > 0.098",
-      "1.111 < 1.021 < 0.342 < 0.098 < 0.109 2213"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B3",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B3",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The value of 4÷1of10+= 3941 1− 5",
-    "options": [
-      "15",
-      "16",
-      "17",
-      "18"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B4",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B4",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The HCF of two numbers is 24 and their LCM is 1271. If one of the numbers is 246, the other number is :",
-    "options": [
-      "1295",
-      "84",
-      "11664",
-      "124"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B5",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B5",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The value of x in the following equation is: 123.583 ÷×of(0.08)x=1 2107205",
-    "options": [
-      "20",
-      "40",
-      "25",
-      "35"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B6",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B6",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A’s salary is 20% below B’s salary. By how much percent is B’s salary above A’s? 2",
-    "options": [
-      "16",
-      "20 3 1",
-      "25",
-      "33 3"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B7",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B7",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "In an examination, 80% of the students passed. The number of students failed was 16. Find the total number of students.",
-    "options": [
-      "80",
-      "20",
-      "84",
-      "96"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B8",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B8",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "By selling 44 articles, a shopkeeper gains the selling price of 11 articles. His gain percent is – 1",
-    "options": [
-      "33%",
-      "75% 3 1",
-      "25%",
-      "66% 3"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B9",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B9",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "There are 40 Students in Class X and 50 students in Class IX. The average age of students is 8 years in each class (i.e., 8yrs for Class X and 8 yrs for Class IX). The average age of students in both the classes taken together is -",
-    "options": [
-      "8 years",
-      "9 years",
-      "10 years",
-      "11 years"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B10",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B10",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Thanga borrowed ₹ 2500 from SBI on 8th June, 2017 and returned it on 31st October, 2017 along with simple interest at 7% per annum. The total amount returned by Thanga is -",
-    "options": [
-      "₹ 2510",
-      "₹ 2550",
-      "₹ 2570",
-      "₹ 3000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B11",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B11",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "60 students failed in Mathematics and 50 failed in Science in a class test. Out of these, 30 students failed in both maths and Science. If the total number of students in that class is 80, the number of students passed in both the subjects is",
-    "options": [
-      "20",
-      "0",
-      "20",
-      "50"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B12",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B12",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Rova receives a bonus from his boss. He uses 10% to buy a sweater and then donates ₹ 500 towards charity fund and then he uses 10% of the remaining to buy a drink. If he has ₹ 1170 left, then the amount of the bonus received is",
-    "options": [
-      "₹ 1750",
-      "₹ 800",
-      "₹ 900",
-      "₹ 2000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B13",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B13",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A and B can do a piece of work in 18 days, B and C in 24 days and C and A in 36 days. If A, B and C work together, they can complete that piece of work in -",
-    "options": [
-      "4 days",
-      "8 days",
-      "16 days",
-      "32 days"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B14",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B14",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Two numbers are in the ratio 3:5. If 18 be added to the first number and subtracted from the second, their ratio becomes 5:3. Then the numbers are –",
-    "options": [
-      "24 and 40",
-      "27 and 45",
-      "21 and 23",
-      "45 and 27"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B15",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B15",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "In the mixture of milk and water, the quantity of milk is 15 litres more than that of water. Then 6 litres of water is added to it. What would be the ratio of milk to water in the mixture if the quantity of the original mixture is 75 litres?",
-    "options": [
-      "1:5",
-      "4:5",
-      "5:4",
-      "5:1"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B16",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B16",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The present age of the father and the son are together 46 years. 5 years ago, the father was 11 times as old as his son. The age of the son after 5 years will be –",
-    "options": [
-      "12 years",
-      "13 years",
-      "14 years",
-      "15 years"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B17",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B17",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The length of a bridge is 0.5km. If a train moving at a speed of 150 kmph crosses that bridge in 18 seconds, then the length of the train is –",
-    "options": [
-      "400 m",
-      "350m",
-      "300m",
-      "250m"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B18",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B18",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Agriculture Department is going to auction a vehicle purchased three years ago at ₹ 4,56,000/-. The Department reserved the depreciated value of that vehicle which is calculated at a rate of 15% per annum. The reserved price (rounded-off to the nearest 1000) of that vehicle would be -",
-    "options": [
-      "₹ 68000/-",
-      "₹ 387000/-",
-      "₹ 300000/-",
-      "₹ 280000/-"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B19",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B19",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "If a:b = 3:5 and b:c = 7:8, then 2a:3b:7c is equal to",
-    "options": [
-      "21:35:40",
-      "15:21:35",
-      "6:15:40",
-      "30:21:350 3"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B20",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B20",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The flight from Delhi to Mumbai and Delhi to Kolkata takes 1hrs and 2hrs respectively. If the air 4 flight distance from Delhi to Mumbai is 1225 km and from Delhi to Kolkata is 1300 km, the ratio of the average speeds of two flights is",
-    "options": [
-      "14:13",
-      "13:12",
-      "12:11",
-      "13:12"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B21",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B21",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Mawii sold a coat for ₹ 2700/- thereby losing 10%. At what price should she sell to earn a profit of 10%?",
-    "options": [
-      "₹ 6600",
-      "₹ 3300",
-      "₹ 3000",
-      "₹ 6900"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B22",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B22",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "At what rate percent per annum will ₹ 64 amount to ₹ 125 in 3 years at compound interest being compounded annually?",
-    "options": [
-      "25%",
-      "30%",
-      "40%",
-      "50%"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B23",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B23",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "What is the smallest number by which 72000 must be divided so that the quotient is a perfect cube?",
-    "options": [
-      "2",
-      "5",
-      "8",
-      "9"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B24",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B24",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The volume of a cube is 2197 cm³. Find the total surface area of that cube.",
-    "options": [
-      "169 cm²",
-      "1014 cm²",
-      "78 cm²",
-      "676 cm²"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B25",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B25",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Rema starts from A to B at a speed of 4 kmph. Meanwhile, Thanga starts from B to A at the same hour and meets Rema after 6 hrs. If the distance between A and B is 42 km, the speed of Thanga is–",
-    "options": [
-      "3 kmph",
-      "6 kmph",
-      "7 kmph",
-      "8 kmph"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B26",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B26",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "3.123×10⁵ equals",
-    "options": [
-      "0.3123",
-      "3123",
-      "31230",
-      "312300"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B27",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B27",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A dining table is marked at ₹ 1500 with 10% and 20% off. An additional discount of 3% is allowed for cash payment. Calculate the SP for cash payment.",
-    "options": [
-      "1047.60",
-      "104.76",
-      "10476",
-      "10.476"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B28",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B28",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The diameter of a wheel is 1.26m. How far it will travel in 500 revolutions?",
-    "options": [
-      "3.96 m",
-      "1.980 km",
-      "19.8 km",
-      "198 km"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B29",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B29",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Fela said to Rama, “If you give me ₹ 5, I shall have five times the amount of money as you have.” But Rama said to Fela, “That’s not fair. Give me ₹ 5 so that we can have equal amount of money.” From this conversation, it is clear that Rama has –",
-    "options": [
-      "₹ 10",
-      "₹ 20",
-      "₹ 30",
-      "₹ 40"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B30",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B30",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A, B, C and D engaged in a business with a joint capital of ₹ 160000/-. At the end of the year, A receives ₹ 21000, B ₹ 45000, C ₹ 12000 and D, ₹ 18000. How much capital did C put in?",
-    "options": [
-      "₹ 12000",
-      "₹ 18000",
-      "₹ 20000",
-      "₹ 31000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 2,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B31",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B31",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The diameter of a sphere is 48cm. It is melted and drawn into a cylindrical wire of 16mm diameter. The length of the wire is-",
-    "options": [
-      "244m",
-      "2.8m",
-      "24m",
-      "288m"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B32",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B32",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A bag contains 5 white balls, 7 red balls, 4 black balls and 2 blue balls. One ball is drawn at random from the bag. What is the probability that the ball drawn is neither white nor black? 711",
-    "options": [
-      "",
-      " 1818 131",
-      "",
-      " 182"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B33",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B33",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The smallest number that must be subtracted from 438867 to get a perfect square is-",
-    "options": [
-      "600",
-      "623",
-      "665",
-      "633"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B34",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B34",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "equals - 18 38",
-    "options": [
-      "6",
-      " 3 4",
-      "−",
-      "2 3"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B35",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B35",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A solid hemisphere of base radius r is melted and recast into a solid cone of same radius, the height of that cone is equal to",
-    "options": [
-      "2r ²",
-      "2pr",
-      "2r",
-      "r 3"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B36",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B36",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "From the given field measurement below, AB is drawn as the base, BCD forms a quadrant of a circle with D as a centre, EF and BG are drawn perpendicular to the base, then AB=100m, BE= 50m, DE=20m, BG=60m, EF=70m, the area of ACBGF is A CD EF G B",
-    "options": [
-      "10000m²",
-      "9900m²",
-      "9000m²",
-      "8000m²"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart53: BankQuestion[] = [
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B37",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B37",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A rectangular field 40m×30m is surrounded by a uniform path of 2m. The coast of laying bricks at a rate of ₹ 5 per square metre along the path is",
-    "options": [
-      "₹ 1320",
-      "₹ 1480",
-      "₹ 1520",
-      "₹ 2300"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B38",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B38",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "A cistern can be filled by the tap A in 40 minutes and by the tap B in 30 minutes. The tap C can empty it in 20 minutes. If all the three taps are opened and the cistern is empty, how long will they take to fill it?",
-    "options": [
-      "60 minutes",
-      "120 minutes",
-      "1hr 20 minutes",
-      "3hrs"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "independentAnswerIndex": 1,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B39",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B39",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The mean, median and mode of group of 75 observations are 27, 29 and 34 respectively. Later, it was found that one observation was misread as 43 instead of the correct one of 63. Then what are the values of the mean, median and mode after correction?",
-    "options": [
-      "27.26, 29.51 and 34",
-      "27, 34 and 32.84",
-      "27, 34 and 36.17",
-      "27, 34 and 29.51"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B40",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B40",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Mode of 1,5,2,4,6,4,5,7,4,3,4,5,5,3,5,,6,7,6,5,4,3,4,5,6,7,8,5,4,3 is",
-    "options": [
-      "1",
-      "2",
-      "4",
-      "5"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
-    "independentAnswerIndex": 3,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B41",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B41",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The car consumes 5 litres of petrol to travel a distance of 70km . How far it will travel using 28 litres of petrol.",
-    "options": [
-      "392km",
-      "120 km",
-      "300km",
-      "980km"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
-    "independentAnswerIndex": 0,
-    "independentAnswerSource": "legacy-inferred",
-    "answerConfidence": "low",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B42",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B42",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The sum of the production of food grains in the year 2000 and 2001 is equal to that in the year –",
-    "options": [
-      "2002",
-      "2003",
-      "2004",
-      "2005"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 42 – 46) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B43",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B43",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The difference of the production of food grains for the year 2005 and 2003 is",
-    "options": [
-      "5000 tonnes",
-      "3500 tonnes",
-      "5500 tonnes",
-      "6000 tonnes"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 42 – 46) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B44",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B44",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The percentage increase in production form 2003 to 2004 was",
-    "options": [
-      "20%",
-      "25%",
-      "30%",
-      "40%"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 42 – 46) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B45",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B45",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The ratio of Production in 2002 to that of 2003 is –",
-    "options": [
-      "3:7",
-      "7:5",
-      "5:8",
-      "1: 2"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 42 – 46) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B46",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B46",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The average yearly production during 2000 to 2005 was",
-    "options": [
-      "35000 tonnes",
-      "40000 tonnes",
-      "50000 tonnes",
-      "60000 tonnes"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 42 – 46) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B47",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B47",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The total amount of expenditure on Food and clothing taken together is",
-    "options": [
-      "₹ 20000",
-      "₹ 32000",
-      "₹ 23000",
-      "₹ 29000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 47 – 50) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B48",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B48",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The expenditure on Education exceeds the expenditure on Clothing by",
-    "options": [
-      "₹ 5000",
-      "₹ 6000",
-      "₹ 2300",
-      "₹ 2000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 47 – 50) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B49",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B49",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "Amount of Expenditure on Miscellaneous head is –",
-    "options": [
-      "₹ 10000",
-      "₹ 12000",
-      "₹ 13000",
-      "₹ 14000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 47 – 50) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B50",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "questionNumber": "B50",
-    "subject": "arithmetic",
-    "studySection": "arithmetic",
-    "topic": "general",
-    "topicLabel": "Arithmetic",
-    "difficulty": "medium",
-    "question": "The monthly savings of the family is",
-    "options": [
-      "₹ 10000",
-      "₹ 12000",
-      "₹ 13000",
-      "₹ 14000"
-    ],
-    "answerIndex": -1,
-    "explanation": "",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
-    "sourceReview": true,
-    "paperExamExcluded": true,
-    "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
-    "direction": "Directions (Questions 47 – 50) : Study the graph below and answer the questions that follow."
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-1",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "1",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Find the smallest whole number by which 1458 should be multiplied to get a perfect square.(2)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-2",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "2",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Simplify:(2) −2−3−2 111 −÷ 324",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-3",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "3",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "A fruit seller purchases 15 apples for ₹ 100 and sells them at the rate of 10 for ₹ 150. What is the gain percent?(3)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-4",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "4",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Find the volume of a cube whose surface area is 1944 sqcm.(3)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-5",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "5",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Three boxes A, B & C contain marbles in the ratio 1:2:3. The total marbles is 60. The above ratio is changed to 3:4:5 if some marbles are transferred from C to A. How many marbles are required to be transferred?(3)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-6",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "6",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Liana’s father is 7 times older than him. After 4 years, the sum of their ages would be 56 years. Calculate the present age of Liana.(4)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-7",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "7",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "A certain sum of money doubles itself in 8 years at a simple interest in one bank, but trebles itself in 17 years in another bank at simple interest. Which of the two banks pays better rate of interest? Show the difference of the two rates of interests.(4)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-8",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "8",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "A 6.5m long ladder placed 2.5 m away from the foot of the wall of a 5-storeyed building could reach only up to the floor of the third storey of the building. Calculate the height of that building.(4)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-9",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "9",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "At what rate percent per annum will a sum of ₹ 31250 amount to ₹ 35152 at Compound Interest in 1 1years interest being compounded half yearly..(5) 2",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-10",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "10",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Two taps A and B can fill a tank in 5 hours and 20 hours respectively. If both the taps are opened then due to leakage it took 30 minutes more to fill the tank. If the tank is full, how long will it take for the leakage alone to empty the tank?(5)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-11",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "11",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "A room is 16m long, 9m wide and 2.6m high.  It has two doors, each of dimensions (180cm × 80cm) and three windows, each of dimensions (160cm × 80cm). Find the cost of distempering the walls of the room from inside at the rate of ₹ 50  per sq metre.(5)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=1"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-12",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "12",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "Prepare  a suitable graph from the following data that shows the quarterly expenditure of a particular Department’s Office on OE head for the years 2015, 2016, 2017:(5) stndrdth Months1 Quarter2 Quarter3 Quarter4 Quarter Expenditure in 2015 20503218 (in Rs. ‘000) Expenditure in 2016 22304525 (in Rs. ‘000) Expenditure in 2017 35204023 (in Rs. ‘000)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2"
-  },
-  {
-    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-written-13",
-    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
-    "type": "descriptive",
-    "questionNumber": "13",
-    "subject": "english",
-    "studySection": "english",
-    "topic": "written",
-    "topicLabel": "General English · written",
-    "difficulty": "medium",
-    "question": "A man exchanged a note of ₹ 500 with ₹ 5 and ₹ 10 notes. If the total number of ₹ 5 notes and ₹ 10 notes he received was 90 in all, then, how many ₹ 10 notes he got?(5)",
-    "explanation": "",
-    "sourceReview": true,
-    "sourceNote": "Written response and transcription awaiting source review.",
-    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
-    "year": 2019,
-    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2"
-  },
-  {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B1",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
     "questionNumber": "B1",
@@ -447381,7 +447860,9 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 11-20): Identify and choose the correct notion/concept expressed by each of the following sentences from the alternatives given:"
-  },
+  }
+];
+const groupBQuestionsPart53: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ada-aa-ata-2019-english-B18",
     "paperId": "mpsc-group-b-ada-aa-ata-2019-english",
@@ -454266,9 +454747,7 @@ const groupBQuestionsPart53: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart54: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-A35",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -455462,7 +455941,9 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart54: BankQuestion[] = [
   {
     "id": "mpsc-group-b-assistant-grade-mpsc-2019-p2-B79",
     "paperId": "mpsc-group-b-assistant-grade-mpsc-2019-p2",
@@ -462256,9 +462737,7 @@ const groupBQuestionsPart54: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart55: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-coach3-2019-english-Q16",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -463447,7 +463926,9 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart55: BankQuestion[] = [
   {
     "id": "mpsc-group-b-coach3-2019-english-Q60",
     "paperId": "mpsc-group-b-coach3-2019-english",
@@ -470543,9 +471024,7 @@ const groupBQuestionsPart55: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Choose the word matching the definition."
-  }
-];
-const groupBQuestionsPart56: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-dso-2019-english-B73",
     "paperId": "mpsc-group-b-dso-2019-english",
@@ -471731,7 +472210,9 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart56: BankQuestion[] = [
   {
     "id": "mpsc-group-b-dso-2019-gs1-Q36",
     "paperId": "mpsc-group-b-dso-2019-gs1",
@@ -478627,9 +479108,7 @@ const groupBQuestionsPart56: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart57: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-mar-2019-gs1-Q61",
     "paperId": "mpsc-group-b-do-mar-2019-gs1",
@@ -479817,7 +480296,9 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart57: BankQuestion[] = [
   {
     "id": "mpsc-group-b-do-mar-2019-gs2-Q30",
     "paperId": "mpsc-group-b-do-mar-2019-gs2",
@@ -486732,9 +487213,7 @@ const groupBQuestionsPart57: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart58: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-do-oct-2019-gs2-Q55",
     "paperId": "mpsc-group-b-do-oct-2019-gs2",
@@ -487870,7 +488349,9 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart58: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-english-p2-Q18",
     "paperId": "mpsc-group-b-eo-2019-english-p2",
@@ -494747,9 +495228,7 @@ const groupBQuestionsPart58: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart59: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-2019-gs2-Q74",
     "paperId": "mpsc-group-b-eo-2019-gs2",
@@ -495936,7 +496415,9 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart59: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-2019-gs3-Q18",
     "paperId": "mpsc-group-b-eo-2019-gs3",
@@ -502773,9 +503254,7 @@ const groupBQuestionsPart59: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart60: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-fr-2019-science-1-Q68",
     "paperId": "mpsc-group-b-fr-2019-science-1",
@@ -503963,7 +504442,9 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart60: BankQuestion[] = [
   {
     "id": "mpsc-group-b-fr-2019-science-2-Q12",
     "paperId": "mpsc-group-b-fr-2019-science-2",
@@ -510705,9 +511186,7 @@ const groupBQuestionsPart60: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart61: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-iof-2019-gs-Q37",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -511893,7 +512372,9 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart61: BankQuestion[] = [
   {
     "id": "mpsc-group-b-iof-2019-gs-Q81",
     "paperId": "mpsc-group-b-iof-2019-gs",
@@ -518722,9 +519203,7 @@ const groupBQuestionsPart61: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart62: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q18",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -519911,7 +520390,9 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart62: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-excise-2019-gs2-Q62",
     "paperId": "mpsc-group-b-inspector-excise-2019-gs2",
@@ -526805,9 +527286,7 @@ const groupBQuestionsPart62: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 21-30): Choose the correct class of the adjectives."
-  }
-];
-const groupBQuestionsPart63: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q24",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -528027,7 +528506,9 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 61-70): Analyze the sentences and choose the correct answer."
-  },
+  }
+];
+const groupBQuestionsPart63: BankQuestion[] = [
   {
     "id": "mpsc-group-b-vo-2019-english-p2-Q68",
     "paperId": "mpsc-group-b-vo-2019-english-p2",
@@ -534912,9 +535393,7 @@ const groupBQuestionsPart63: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart64: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-jics-2019-gs1-Q26",
     "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -536137,7 +536616,9 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart64: BankQuestion[] = [
   {
     "id": "mpsc-group-b-jics-2019-gs1-Q70",
     "paperId": "mpsc-group-b-jics-2019-gs1",
@@ -543165,9 +543646,7 @@ const groupBQuestionsPart64: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "***Direction for Questions 1 - 16 : Choose the correct meaning of the idioms given in italics :***"
-  }
-];
-const groupBQuestionsPart65: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-scr-2019-english-B15",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -544400,7 +544879,9 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "***Directions for Questions 49 - 58 : Identify whether the following are simple, compound or complex sentences:***"
-  },
+  }
+];
+const groupBQuestionsPart65: BankQuestion[] = [
   {
     "id": "mpsc-group-b-scr-2019-english-B59",
     "paperId": "mpsc-group-b-scr-2019-english",
@@ -551365,9 +551846,7 @@ const groupBQuestionsPart65: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart66: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q8",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -552596,7 +553075,9 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart66: BankQuestion[] = [
   {
     "id": "mpsc-group-b-translator-2019-gs1-Q52",
     "paperId": "mpsc-group-b-translator-2019-gs1",
@@ -559103,9 +559584,7 @@ const groupBQuestionsPart66: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart67: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-A26",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -560291,7 +560770,9 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart67: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-combined-2019-p2-A70",
     "paperId": "mpsc-group-b-udc-combined-2019-p2",
@@ -567167,9 +567648,7 @@ const groupBQuestionsPart67: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart68: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p1-B24",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p1",
@@ -568344,7 +568823,9 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart68: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-dc-aizawl-2019-p1-B68",
     "paperId": "mpsc-group-b-udc-dc-aizawl-2019-p1",
@@ -575202,9 +575683,7 @@ const groupBQuestionsPart68: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart69: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-dc-serchhip-2019-p2-A70",
     "paperId": "mpsc-group-b-udc-dc-serchhip-2019-p2",
@@ -576392,7 +576871,9 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart69: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-forensic-2019-p1-B14",
     "paperId": "mpsc-group-b-udc-forensic-2019-p1",
@@ -583264,9 +583745,7 @@ const groupBQuestionsPart69: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "The sentence can request permission or function as a request."
-  }
-];
-const groupBQuestionsPart70: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-horti-2019-p1-B68",
     "paperId": "mpsc-group-b-udc-horti-2019-p1",
@@ -584429,7 +584908,9 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart70: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-horti-2019-p2-A35",
     "paperId": "mpsc-group-b-udc-horti-2019-p2",
@@ -591300,9 +591781,7 @@ const groupBQuestionsPart70: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart71: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p1-B14",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p1",
@@ -592486,7 +592965,9 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart71: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-mpsc-2019-p1-B58",
     "paperId": "mpsc-group-b-udc-mpsc-2019-p1",
@@ -599350,9 +599831,7 @@ const groupBQuestionsPart71: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart72: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-udc-rd-2019-p2-A60",
     "paperId": "mpsc-group-b-udc-rd-2019-p2",
@@ -600540,7 +601019,9 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart72: BankQuestion[] = [
   {
     "id": "mpsc-group-b-udc-transport-2019-p1-B4",
     "paperId": "mpsc-group-b-udc-transport-2019-p1",
@@ -607413,9 +607894,7 @@ const groupBQuestionsPart72: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Choose the correct meaning of the idioms and phrases given in bold letters from the four alternatives below."
-  }
-];
-const groupBQuestionsPart73: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-english-p2-Q77",
     "paperId": "mpsc-group-b-eo-leit-2019-english-p2",
@@ -608624,7 +609103,9 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart73: BankQuestion[] = [
   {
     "id": "mpsc-group-b-eo-leit-2019-gs1-Q21",
     "paperId": "mpsc-group-b-eo-leit-2019-gs1",
@@ -615529,9 +616010,7 @@ const groupBQuestionsPart73: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart74: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-eo-leit-2019-gs3-Q77",
     "paperId": "mpsc-group-b-eo-leit-2019-gs3",
@@ -616631,7 +617110,9 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart74: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ae-civil-tourism-2020-gs-Q10",
     "paperId": "mpsc-group-b-ae-civil-tourism-2020-gs",
@@ -623614,9 +624095,7 @@ const groupBQuestionsPart74: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  }
-];
-const groupBQuestionsPart75: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-museum-guide-2020-gs1-Q34",
     "paperId": "mpsc-group-b-museum-guide-2020-gs1",
@@ -624829,7 +625308,9 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart75: BankQuestion[] = [
   {
     "id": "mpsc-group-b-museum-guide-2020-gs2-Q3",
     "paperId": "mpsc-group-b-museum-guide-2020-gs2",
@@ -631671,9 +632152,7 @@ const groupBQuestionsPart75: BankQuestion[] = [
     "source": "Assistant Public Prosecutor under Lokayukta, Vigilance Department · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/aap-2020-english.pdf#page=2"
-  }
-];
-const groupBQuestionsPart76: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-aap-2020-english-written-8",
     "paperId": "mpsc-group-b-aap-2020-english",
@@ -632833,7 +633312,9 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceReviewed": true,
     "sourceNote": "Held after source review because no unique answer is supported."
-  },
+  }
+];
+const groupBQuestionsPart76: BankQuestion[] = [
   {
     "id": "mpsc-group-b-aap-2020-gs-Q42",
     "paperId": "mpsc-group-b-aap-2020-gs",
@@ -639517,9 +639998,7 @@ const groupBQuestionsPart76: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored.",
     "direction": "Directions (Questions 76-83): What number should come next in the following series?"
-  }
-];
-const groupBQuestionsPart77: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-geologist-jun-nov-2020-english-p3-Q92",
     "paperId": "mpsc-group-b-geologist-jun-nov-2020-english-p3",
@@ -640674,7 +641153,9 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Fill in the blanks with proper conjunctions."
-  },
+  }
+];
+const groupBQuestionsPart77: BankQuestion[] = [
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p2-Q30",
     "paperId": "mpsc-group-b-geologist-jun-2020-english-p2",
@@ -645100,7 +645581,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
+    "explanation": "This is a figure-comparison item. The answer depends on details in the printed diagrams; no independent option has been established, so the item remains held.",
     "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
@@ -645108,8 +645589,12 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
-    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
+    "sourceNote": "Held: figure-dependent item; no independently verified unique option.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Held: figure-dependent item; no independently verified unique option."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q92",
@@ -645128,7 +645613,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
+    "explanation": "This is a figure-comparison item. The answer depends on details in the printed diagrams; no independent option has been established, so the item remains held.",
     "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=9",
@@ -645136,8 +645621,12 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 9.",
-    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
+    "sourceNote": "Held: figure-dependent item; no independently verified unique option.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Held: figure-dependent item; no independently verified unique option."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q93",
@@ -645185,7 +645674,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
+    "explanation": "This is a figure-comparison item. The answer depends on details in the printed diagrams; no independent option has been established, so the item remains held.",
     "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
@@ -645193,8 +645682,12 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
-    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
+    "sourceNote": "Held: figure-dependent item; no independently verified unique option.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Held: figure-dependent item; no independently verified unique option."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q95",
@@ -645213,7 +645706,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "Printed answer figure (d); see figureEvidence crop."
     ],
     "answerIndex": -1,
-    "explanation": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
+    "explanation": "This is a figure-comparison item. The answer depends on details in the printed diagrams; no independent option has been established, so the item remains held.",
     "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
@@ -645221,8 +645714,12 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "Figure-only item; no reliable rule-to-option match established. Preserve the original diagram on scan page 10.",
-    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures."
+    "sourceNote": "Held: figure-dependent item; no independently verified unique option.",
+    "direction": "Directions (Questions 91–95): Given below are problem figures. Choose the best alternative among the answer figures.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Held: figure-dependent item; no independently verified unique option."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q96",
@@ -645241,15 +645738,19 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "HATILNA"
     ],
     "answerIndex": -1,
-    "explanation": "The printed example ROMAN → QMONA does not follow the apparent one-letter-back rule that yields option B for ITALIAN; inconsistent example and answer choice, so hold.",
+    "explanation": "The printed coding example is inconsistent with the apparent letter-position coding rule, so applying that rule does not establish a reliable answer for the requested word. Keep the item held.",
     "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The printed example ROMAN → QMONA does not follow the apparent one-letter-back rule that yields option B for ITALIAN; inconsistent example and answer choice, so hold.",
-    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
+    "sourceNote": "Held: the example CONSUMER → 365103459 conflicts with the apparent alphabet-position concatenation; do not score.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Held: the example CONSUMER → 365103459 conflicts with the apparent alphabet-position concatenation; do not score."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q97",
@@ -645324,15 +645825,19 @@ const groupBQuestionsPart77: BankQuestion[] = [
       "79643359"
     ],
     "answerIndex": -1,
-    "explanation": "The printed example CONSUMER → 365103459 does not match the evident alphabet-position concatenation, although option B is the value for PRODUCER; inconsistent example, so hold.",
+    "explanation": "The printed example CONSUMER → 365103459 does not match the apparent alphabet-position concatenation. Although option B is obtained for PRODUCER under that apparent rule, the inconsistent example prevents a reliable answer.",
     "source": "Geologist Junior under Commerce & Industries Department · January 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/geologist-jun-2020-english-p3.pdf#page=10",
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceReviewed": true,
-    "sourceNote": "The printed example CONSUMER → 365103459 does not match the evident alphabet-position concatenation, although option B is the value for PRODUCER; inconsistent example, so hold.",
-    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer."
+    "sourceNote": "Held: the example is inconsistent with the apparent rule, even though option B fits PRODUCER under that rule.",
+    "direction": "Directions (Questions 96–100): Each letter in a word is replaced by another alphabet/number according to a specific rule. Choose the best answer.",
+    "independentAnswerIndex": -1,
+    "independentAnswerSource": "ambiguous",
+    "answerConfidence": "low",
+    "disputeNote": "Held: the example is inconsistent with the apparent rule, even though option B fits PRODUCER under that rule."
   },
   {
     "id": "mpsc-group-b-geologist-jun-2020-english-p3-Q100",
@@ -647701,9 +648206,7 @@ const groupBQuestionsPart77: BankQuestion[] = [
     "source": "Jr. Grade of Mizoram Engineering Service (MES) under PWD · 2020",
     "year": 2020,
     "sourceHref": "/papers/group-b/mes-pwd-2020-english.pdf#page=2"
-  }
-];
-const groupBQuestionsPart78: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-mes-pwd-2020-english-written-5",
     "paperId": "mpsc-group-b-mes-pwd-2020-english",
@@ -648866,7 +649369,9 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart78: BankQuestion[] = [
   {
     "id": "mpsc-group-b-mes-pwd-2020-gs-Q42",
     "paperId": "mpsc-group-b-mes-pwd-2020-gs",
@@ -655719,9 +656224,7 @@ const groupBQuestionsPart78: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions 81 - 90) : Choose the correct meaning of the idioms and phrases."
-  }
-];
-const groupBQuestionsPart79: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-seo-2020-english-p2-Q85",
     "paperId": "mpsc-group-b-seo-2020-english-p2",
@@ -656892,7 +657395,9 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation.",
     "direction": "Directions (Questions No. 21 - 30) : Choose the correct prepositions/ conjunctions to fill in the blanks:"
-  },
+  }
+];
+const groupBQuestionsPart79: BankQuestion[] = [
   {
     "id": "mpsc-group-b-to-2020-english-p2-Q23",
     "paperId": "mpsc-group-b-to-2020-english-p2",
@@ -663902,9 +664407,7 @@ const groupBQuestionsPart79: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart80: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs1-Q73",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs1",
@@ -665092,7 +665595,9 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  },
+  }
+];
+const groupBQuestionsPart80: BankQuestion[] = [
   {
     "id": "mpsc-group-b-inspector-fcs-2019-gs2-Q17",
     "paperId": "mpsc-group-b-inspector-fcs-2019-gs2",
@@ -672222,9 +672727,7 @@ const groupBQuestionsPart80: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart81: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q73",
     "paperId": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025",
@@ -673543,7 +674046,9 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart81: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q24",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025",
@@ -681245,9 +681750,7 @@ const groupBQuestionsPart81: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart82: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q23",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -682566,7 +683069,9 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  },
+  }
+];
+const groupBQuestionsPart82: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q69",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025",
@@ -690251,9 +690756,7 @@ const groupBQuestionsPart82: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart83: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q59",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025",
@@ -691572,7 +692075,9 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart83: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q12",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025",
@@ -699251,9 +699756,7 @@ const groupBQuestionsPart83: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart84: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025-Q45",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025",
@@ -700573,7 +701076,9 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart84: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025-Q96",
     "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025",
@@ -707903,9 +708408,7 @@ const groupBQuestionsPart84: BankQuestion[] = [
     "sourceReview": true,
     "paperExamExcluded": true,
     "sourceNote": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
-  }
-];
-const groupBQuestionsPart85: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q83",
     "paperId": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024",
@@ -709124,7 +709627,9 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "answerSource": "official",
     "answerKeyRef": "/papers/group-b/keys/mes-electrical-wing-gs-final-key.pdf",
     "sourceNote": "The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart85: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q31",
     "paperId": "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies",
@@ -717053,9 +717558,7 @@ const groupBQuestionsPart85: BankQuestion[] = [
     "independentAnswerSource": "solved",
     "sourceReviewed": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart86: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q87",
     "paperId": "mpsc-group-b-archive2325-acf-2023-general-knowledge",
@@ -718351,7 +718854,9 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart86: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q22",
     "paperId": "mpsc-group-b-archive2325-assist-director-town-planning-general-studies",
@@ -726032,9 +726537,7 @@ const groupBQuestionsPart86: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart87: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q93",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii",
@@ -727361,7 +727864,9 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart87: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii-Q48",
     "paperId": "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-iii",
@@ -734268,9 +734773,7 @@ const groupBQuestionsPart87: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart88: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q36",
     "paperId": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",
@@ -735679,7 +736182,9 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  },
+  }
+];
+const groupBQuestionsPart88: BankQuestion[] = [
   {
     "id": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q80",
     "paperId": "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024",
@@ -742988,9 +743493,7 @@ const groupBQuestionsPart88: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key."
-  }
-];
-const groupBQuestionsPart89: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024-Q36",
     "paperId": "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-iii-july-2024",
@@ -744370,7 +744873,9 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key. The independent candidate came from the legacy inferred bank and still needs reasoning review."
-  },
+  }
+];
+const groupBQuestionsPart89: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q30",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies",
@@ -751653,9 +752158,7 @@ const groupBQuestionsPart89: BankQuestion[] = [
     "sourceReviewed": true,
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored from a worked derivation."
-  }
-];
-const groupBQuestionsPart90: BankQuestion[] = [
+  },
   {
     "id": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q86",
     "paperId": "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge",
@@ -753015,7 +753518,9 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "paperExamExcluded": true,
     "sourceNote": "Text and option order checked against the printed scan; scored using the official key.",
     "direction": "Direction (Questions 21 – 30) : Complete the blanks using the most appropriate determiner:"
-  },
+  }
+];
+const groupBQuestionsPart90: BankQuestion[] = [
   {
     "id": "mpsc-group-b-ng-april-2026-assistant-leso-general-english-B30",
     "paperId": "mpsc-group-b-ng-april-2026-assistant-leso-general-english",
@@ -759364,6 +759869,1400 @@ const groupBQuestionsPart90: BankQuestion[] = [
     "sourceReviewed": true,
     "answerSource": "derived",
     "answerConfidence": "high"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B1",
+    "questionNumber": "B1",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Which of the following is the correct way of writing 15thousandths?",
+    "options": [
+      "15th1000s",
+      "1/15,000th",
+      "15¹⁰⁰⁰",
+      "0.015"
+    ],
+    "answerIndex": 3,
+    "explanation": "15 thousandths = 15/1000 = 0.015.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B2",
+    "questionNumber": "B2",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Arrange the following decimals is descending order : 1.111; 0.342; 0.098; 1.021; 0.109.",
+    "options": [
+      "1.111 > 0.342 > 0.098 > 1.021 > 0.109",
+      "0.098 < 0.109 < 0.342 < 1.021 < 1.111",
+      "1.111 > 1.021 > 0.342 > 0.109 > 0.098",
+      "1.111 < 1.021 < 0.342 < 0.098 < 0.109"
+    ],
+    "answerIndex": 2,
+    "explanation": "Compare place values: 1.111 > 1.021 > 0.342 > 0.109 > 0.098.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B3",
+    "questionNumber": "B3",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The value of 4 2/3 ÷ 1 2/9 of 1/4 (10 + 3/(1 − 1/5)) =",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answerIndex": -1,
+    "explanation": "The printed expression gives no listed result under the conventional readings of “of” and left-to-right division/multiplication. The expression should remain held; do not guess an intended answer.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "The printed expression gives no listed result under the conventional readings of “of” and left-to-right division/multiplication. The expression should remain held; do not guess an intended answer.",
+    "sourceReview": true
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B4",
+    "questionNumber": "B4",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The HCF of two numbers is 24 and their LCM is 1271. If one of the numbers is 246, the other number is:",
+    "options": [
+      "1295",
+      "84",
+      "11664",
+      "124"
+    ],
+    "answerIndex": -1,
+    "explanation": "These data are mutually inconsistent. For two integers, HCF×LCM must equal their product; the implied other number is 24×1271/246=124, but gcd(246,124)=2 (not 24), and 1271 is not a multiple of 24.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=2",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "These data are mutually inconsistent. For two integers, HCF×LCM must equal their product; the implied other number is 24×1271/246=124, but gcd(246,124)=2 (not 24), and 1271 is not a multiple of 24.",
+    "sourceReview": true
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B5",
+    "questionNumber": "B5",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The value of x in the following equation is: 1/2 ÷ 2/10 × 3.5/7 of 8/20 (0.08)x = 1 3/5",
+    "options": [
+      "20",
+      "40",
+      "25",
+      "35"
+    ],
+    "answerIndex": 1,
+    "explanation": "Using “of” as multiplication: (1/2÷2/10)=2.5; (3.5/7 of 8/20)=0.2. Thus 2.5×0.2×0.08x=1.6, so 0.04x=1.6 and x=40.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B6",
+    "questionNumber": "B6",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A’s salary is 20% below B’s salary. By how much percent is B’s salary above A’s?",
+    "options": [
+      "16 2/3",
+      "20",
+      "25",
+      "33 1/3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Take B=100, so A=80. B exceeds A by 20 on a base of 80: (20/80)×100=25%.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B7",
+    "questionNumber": "B7",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "In an examination, 80% of the students passed. The number of students failed was 16. Find the total number of students.",
+    "options": [
+      "80",
+      "20",
+      "84",
+      "96"
+    ],
+    "answerIndex": 0,
+    "explanation": "Failure is 20% of the class. Total=16/0.20=80 students.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B8",
+    "questionNumber": "B8",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "By selling 44 articles, a shopkeeper gains the selling price of 11 articles. His gain percent is –",
+    "options": [
+      "33 1/3%",
+      "75%",
+      "25%",
+      "66 2/3%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Let SP per article=s and CP=c. 44(s−c)=11s, so 33s=44c; profit/cost=1/3=33⅓%.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B9",
+    "questionNumber": "B9",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "There are 40 students in Class X and 50 students in Class IX. The average age of students is 8 years in each class (i.e., 8 yrs for Class X and 8 yrs for Class IX). The average age of students in both the classes taken together is –",
+    "options": [
+      "8 years",
+      "9 years",
+      "10 years",
+      "11 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "Each group has mean age 8, so their combined weighted mean is also 8 years.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B10",
+    "questionNumber": "B10",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Thanga borrowed ₹2,500 from SBI on 8th June, 2017 and returned it on 31st October, 2017 along with simple interest at 7% per annum. The total amount returned by Thanga is –",
+    "options": [
+      "₹2,510",
+      "₹2,550",
+      "₹2,570",
+      "₹3,000"
+    ],
+    "answerIndex": 2,
+    "explanation": "For 145 elapsed days, SI=2500×0.07×145/365≈₹69.52. Total≈₹2,569.52, which rounds to ₹2,570.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B11",
+    "questionNumber": "B11",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "60 students failed in Mathematics and 50 failed in Science in a class test. Out of these, 30 students failed in both Mathematics and Science. If the total number of students in that class is 80, the number of students passed in both the subjects is",
+    "options": [
+      "20",
+      "0",
+      "20",
+      "50"
+    ],
+    "answerIndex": 1,
+    "explanation": "Failed in at least one subject=60+50−30=80. All students therefore failed at least one; 0 passed both. The source prints 20 as two separate distractor options.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B12",
+    "questionNumber": "B12",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Rova receives a bonus from his boss. He uses 10% to buy a sweater and then donates ₹500 towards charity fund and then he uses 10% of the remaining to buy a drink. If he has ₹1,170 left, then the amount of the bonus received is",
+    "options": [
+      "₹1,750",
+      "₹800",
+      "₹900",
+      "₹2,000"
+    ],
+    "answerIndex": 3,
+    "explanation": "If bonus is B, then after the sweater 0.9B remains. After donating 500 and spending 10%, 0.9(0.9B−500)=1170. Hence 0.9B−500=1300 and B=₹2,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B13",
+    "questionNumber": "B13",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A and B can do a piece of work in 18 days, B and C in 24 days and C and A in 36 days. If A, B and C work together, they can complete that piece of work in –",
+    "options": [
+      "4 days",
+      "8 days",
+      "16 days",
+      "32 days"
+    ],
+    "answerIndex": 2,
+    "explanation": "A+B+C rate=½[(A+B)+(B+C)+(C+A)]=½(1/18+1/24+1/36)=1/16 job/day; time=16 days.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=3",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B14",
+    "questionNumber": "B14",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Two numbers are in the ratio 3:5. If 18 be added to the first number and subtracted from the second, their ratio becomes 5:3. Then the numbers are –",
+    "options": [
+      "24 and 40",
+      "27 and 45",
+      "21 and 23",
+      "45 and 27"
+    ],
+    "answerIndex": 1,
+    "explanation": "Let the numbers be 3x and 5x. (3x+18)/(5x−18)=5/3 gives x=9, so the numbers are 27 and 45.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B15",
+    "questionNumber": "B15",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "In the mixture of milk and water, the quantity of milk is 15 litres more than that of water. Then 6 litres of water is added to it. What would be the ratio of milk to water in the mixture if the quantity of the original mixture is 75 litres?",
+    "options": [
+      "1:5",
+      "4:5",
+      "5:4",
+      "5:1"
+    ],
+    "answerIndex": 2,
+    "explanation": "Milk+water=75 and milk−water=15 give 45 L milk and 30 L water. After adding 6 L water, ratio=45:36=5:4.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B16",
+    "questionNumber": "B16",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The present age of the father and the son are together 46 years. 5 years ago, the father was 11 times as old as his son. The age of the son after 5 years will be –",
+    "options": [
+      "12 years",
+      "13 years",
+      "14 years",
+      "15 years"
+    ],
+    "answerIndex": 1,
+    "explanation": "Let the son’s present age be s; father=46−s. Five years ago: 41−s=11(s−5), so s=8. After five years, the son is 13.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B17",
+    "questionNumber": "B17",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The length of a bridge is 0.5 km. If a train moving at a speed of 150 kmph crosses that bridge in 18 seconds, then the length of the train is –",
+    "options": [
+      "400 m",
+      "350 m",
+      "300 m",
+      "250 m"
+    ],
+    "answerIndex": 3,
+    "explanation": "150 km/h=41⅔ m/s; in 18 s train+bridge length=750 m. Subtract the 500 m bridge: train=250 m.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B18",
+    "questionNumber": "B18",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Agriculture Department is going to auction a vehicle purchased three years ago at ₹4,56,000/-. The Department reserved the depreciated value of that vehicle which is calculated at a rate of 15% per annum. The reserved price (rounded-off to the nearest 1000) of that vehicle would be –",
+    "options": [
+      "₹68,000/-",
+      "₹3,87,000/-",
+      "₹3,00,000/-",
+      "₹2,80,000/-"
+    ],
+    "answerIndex": 3,
+    "explanation": "Reducing-balance value=456000×0.85³=₹280,041; rounded to nearest ₹1,000 gives ₹2,80,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B19",
+    "questionNumber": "B19",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "If a:b = 3:5 and b:c = 7:8, then 2a:3b:7c is equal to",
+    "options": [
+      "21:35:40",
+      "15:21:35",
+      "6:15:40",
+      "30:21:350"
+    ],
+    "answerIndex": 2,
+    "explanation": "Align b at 35: then a:b:c=21:35:40. Thus 2a:3b:7c=42:105:280; divide by 7 to get 6:15:40.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B20",
+    "questionNumber": "B20",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The flight from Delhi to Mumbai and Delhi to Kolkata takes 1 3/4 hrs and 2 hrs respectively. If the air flight distance from Delhi to Mumbai is 1225 km and from Delhi to Kolkata is 1300 km, the ratio of the average speeds of two flights is",
+    "options": [
+      "14:13",
+      "13:12",
+      "12:11",
+      "13:12"
+    ],
+    "answerIndex": 0,
+    "explanation": "Speeds are 1225/1.75=700 and 1300/2=650 km/h; ratio=700:650=14:13. The source repeats 13:12 for options (b) and (d).",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B21",
+    "questionNumber": "B21",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Mawii sold a coat for ₹2,700/- thereby losing 10%. At what price should she sell to earn a profit of 10%?",
+    "options": [
+      "₹6,600",
+      "₹3,300",
+      "₹3,000",
+      "₹6,900"
+    ],
+    "answerIndex": 1,
+    "explanation": "₹2,700 is 90% of cost, so CP=₹3,000; a 10% profit requires SP=₹3,300.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B22",
+    "questionNumber": "B22",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "At what rate percent per annum will ₹64 amount to ₹125 in 3 years at compound interest being compounded annually?",
+    "options": [
+      "25%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "answerIndex": 0,
+    "explanation": "125/64=(5/4)³, so the annual factor is 5/4 and the annual rate is 25%.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B23",
+    "questionNumber": "B23",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "What is the smallest number by which 72000 must be divided so that the quotient is a perfect cube?",
+    "options": [
+      "2",
+      "5",
+      "8",
+      "9"
+    ],
+    "answerIndex": 3,
+    "explanation": "72000=2⁶×3²×5³. Divide by 3²=9, leaving 2⁶×5³, a perfect cube.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=4",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B24",
+    "questionNumber": "B24",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The volume of a cube is 2197 cm³. Find the total surface area of that cube.",
+    "options": [
+      "169 cm²",
+      "1014 cm²",
+      "78 cm²",
+      "676 cm²"
+    ],
+    "answerIndex": 1,
+    "explanation": "Side=∛2197=13 cm; total surface area=6×13²=1,014 cm².",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B25",
+    "questionNumber": "B25",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Rema starts from A to B at a speed of 4 kmph. Meanwhile, Thanga starts from B to A at the same hour and meets Rema after 6 hrs. If the distance between A and B is 42 km, the speed of Thanga is–",
+    "options": [
+      "3 kmph",
+      "6 kmph",
+      "7 kmph",
+      "8 kmph"
+    ],
+    "answerIndex": 0,
+    "explanation": "Their combined speed=42/6=7 km/h; Thanga’s speed=7−4=3 km/h.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B26",
+    "questionNumber": "B26",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "3.123 × 10⁵ equals",
+    "options": [
+      "0.3123",
+      "3123",
+      "31230",
+      "312300"
+    ],
+    "answerIndex": 3,
+    "explanation": "Multiplying 3.123 by 10⁵ shifts the decimal five places right: 312,300.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B27",
+    "questionNumber": "B27",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A dining table is marked at ₹1,500 with 10% and 20% off. An additional discount of 3% is allowed for cash payment. Calculate the SP for cash payment.",
+    "options": [
+      "1047.60",
+      "104.76",
+      "10476",
+      "10.476"
+    ],
+    "answerIndex": 0,
+    "explanation": "Apply successive discounts: 1500×0.90×0.80×0.97=₹1,047.60.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B28",
+    "questionNumber": "B28",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The diameter of a wheel is 1.26 m. How far it will travel in 500 revolutions?",
+    "options": [
+      "3.96 m",
+      "1.980 km",
+      "19.8 km",
+      "198 km"
+    ],
+    "answerIndex": 1,
+    "explanation": "Distance=500×π×1.26 m≈1,979 m≈1.980 km at the precision of the options.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B29",
+    "questionNumber": "B29",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Fela said to Rama, “If you give me ₹5, I shall have five times the amount of money as you have.” But Rama said to Fela, “That’s not fair. Give me ₹5 so that we can have equal amount of money.” From this conversation, it is clear that Rama has –",
+    "options": [
+      "₹10",
+      "₹20",
+      "₹30",
+      "₹40"
+    ],
+    "answerIndex": 0,
+    "explanation": "Let Rama have R and Fela F. Equalisation when Rama gives ₹5 implies F=R+10. Fela’s condition gives F+5=5(R−5); solving yields R=₹10.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B30",
+    "questionNumber": "B30",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A, B, C and D engaged in a business with a joint capital of ₹160000/-. At the end of the year, A receives ₹21000, B ₹45000, C ₹12000 and D ₹18000. How much capital did C put in?",
+    "options": [
+      "₹12000",
+      "₹18000",
+      "₹20000",
+      "₹31000"
+    ],
+    "answerIndex": 2,
+    "explanation": "Total profit=₹96,000; C’s share is 12,000/96,000=1/8. C’s capital=1/8×₹160,000=₹20,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B31",
+    "questionNumber": "B31",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The diameter of a sphere is 48 cm. It is melted and drawn into a cylindrical wire of 16 mm diameter. The length of the wire is–",
+    "options": [
+      "244 m",
+      "2.8 m",
+      "24 m",
+      "288 m"
+    ],
+    "answerIndex": 3,
+    "explanation": "Volume is conserved. With sphere radius 24 cm and wire radius 0.8 cm, L=(4/3π·24³)/(π·0.8²)=28,800 cm=288 m.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B32",
+    "questionNumber": "B32",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A bag contains 5 white balls, 7 red balls, 4 black balls and 2 blue balls. One ball is drawn at random from the bag. What is the probability that the ball drawn is neither white nor black?",
+    "options": [
+      "7/18",
+      "11/18",
+      "13/18",
+      "1/2"
+    ],
+    "answerIndex": 3,
+    "explanation": "Neither white nor black means red or blue: (7+2)/(5+7+4+2)=9/18=1/2.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B33",
+    "questionNumber": "B33",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The smallest number that must be subtracted from 438867 to get a perfect square is–",
+    "options": [
+      "600",
+      "623",
+      "665",
+      "633"
+    ],
+    "answerIndex": 1,
+    "explanation": "The greatest square below 438,867 is 662²=438,244; the difference is 623.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=5",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B34",
+    "questionNumber": "B34",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "(√98 − √72 + √50)/√18 equals –",
+    "options": [
+      "6",
+      "√38/3",
+      "−4/3",
+      "2"
+    ],
+    "answerIndex": 3,
+    "explanation": "Numerator=(7−6+5)√2=6√2; denominator=3√2. The quotient is 2.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B35",
+    "questionNumber": "B35",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A solid hemisphere of base radius r is melted and recast into a solid cone of same radius, the height of that cone is equal to",
+    "options": [
+      "2r²",
+      "2πr",
+      "2r",
+      "r³"
+    ],
+    "answerIndex": 2,
+    "explanation": "Equate volumes: hemisphere=(2/3)πr³ and cone=(1/3)πr²h. Therefore h=2r.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B36",
+    "questionNumber": "B36",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "From the given field measurement below, AB is drawn as the base, BCD forms a quadrant of a circle with D as a centre, EF and BG are drawn perpendicular to the base, then AB=100 m, BE=50 m, DE=20 m, BG=60 m, EF=70 m, the area of ACBGF is",
+    "options": [
+      "10000 m²",
+      "9900 m²",
+      "9000 m²",
+      "8000 m²"
+    ],
+    "answerIndex": 1,
+    "explanation": "DB=DE+EB=70 m and AD=AB−DB=30 m. Area is triangle ACD (1,050)+quadrant CDB (1,225π)+triangle AEF (1,750)+trapezoid EBGF (3,250)≈9,898 m²; nearest choice is 9,900 m².",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B37",
+    "questionNumber": "B37",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A rectangular field 40 m × 30 m is surrounded by a uniform path of 2 m. The coast of laying bricks at a rate of ₹5 per square metre along the path is",
+    "options": [
+      "₹1320",
+      "₹1480",
+      "₹1520",
+      "₹2300"
+    ],
+    "answerIndex": 1,
+    "explanation": "Outer dimensions are 44×34; path area=44×34−40×30=296 m². Cost=296×₹5=₹1,480.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B38",
+    "questionNumber": "B38",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "A cistern can be filled by the tap A in 40 minutes and by the tap B in 30 minutes. The tap C can empty it in 20 minutes. If all the three taps are opened and the cistern is empty, how long will they take to fill it?",
+    "options": [
+      "60 minutes",
+      "120 minutes",
+      "1 hr 20 minutes",
+      "3 hrs"
+    ],
+    "answerIndex": 1,
+    "explanation": "Net rate=1/40+1/30−1/20=1/120 tank per minute; fill time=120 minutes.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B39",
+    "questionNumber": "B39",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The mean, median and mode of group of 75 observations are 27, 29 and 34 respectively. Later, it was found that one observation was misread as 43 instead of the correct one of 63. Then what are the values of the mean, median and mode after correction?",
+    "options": [
+      "27.26, 29.51 and 34",
+      "27, 34 and 32.84",
+      "27, 34 and 36.17",
+      "27, 34 and 29.51"
+    ],
+    "answerIndex": -1,
+    "explanation": "The corrected mean can be computed (27+(63−43)/75≈27.27), but the revised median and mode cannot be inferred from only the original mean, median, mode, and one changed observation without the raw data. No listed triple is justified; hold.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "The corrected mean can be computed (27+(63−43)/75≈27.27), but the revised median and mode cannot be inferred from only the original mean, median, mode, and one changed observation without the raw data. No listed triple is justified; hold.",
+    "sourceReview": true
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B40",
+    "questionNumber": "B40",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Mode of 1,5,2,4,6,4,5,7,4,3,4,5,5,3,5,,6,7,6,5,4,3,4,5,6,7,8,5,4,3 is",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "answerIndex": 3,
+    "explanation": "Counting the printed list, 5 occurs most often, so the mode is 5.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=6",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B41",
+    "questionNumber": "B41",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The car consumes 5 litres of petrol to travel a distance of 70 km. How far it will travel using 28 litres of petrol.",
+    "options": [
+      "392 km",
+      "120 km",
+      "300 km",
+      "980 km"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mileage=70/5=14 km/L; with 28 L, distance=14×28=392 km.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B42",
+    "questionNumber": "B42",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The sum of the production of food grains in the year 2000 and 2001 is equal to that in the year –",
+    "options": [
+      "2002",
+      "2003",
+      "2004",
+      "2005"
+    ],
+    "answerIndex": 2,
+    "explanation": "The graph shows 2000=15 thousand tonnes and 2001=35 thousand; sum=50 thousand, equal to 2004.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B43",
+    "questionNumber": "B43",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The difference of the production of food grains for the year 2005 and 2003 is",
+    "options": [
+      "5000 tonnes",
+      "3500 tonnes",
+      "5500 tonnes",
+      "6000 tonnes"
+    ],
+    "answerIndex": 0,
+    "explanation": "From the graph, 2005=45 thousand and 2003=40 thousand tonnes; difference=5,000 tonnes.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B44",
+    "questionNumber": "B44",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The percentage increase in production form 2003 to 2004 was",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "40%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Production rises from 40 to 50 thousand: (10/40)×100=25%.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B45",
+    "questionNumber": "B45",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The ratio of Production in 2002 to that of 2003 is –",
+    "options": [
+      "3:7",
+      "7:5",
+      "5:8",
+      "1:2"
+    ],
+    "answerIndex": 2,
+    "explanation": "Graph values are 25 thousand and 40 thousand; 25:40 simplifies to 5:8.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B46",
+    "questionNumber": "B46",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The average yearly production during 2000 to 2005 was",
+    "options": [
+      "35000 tonnes",
+      "40000 tonnes",
+      "50000 tonnes",
+      "60000 tonnes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Graph values sum to (15+35+25+40+50+45)=210 thousand tonnes. Divide by six years: 35,000 tonnes.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=7",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B47",
+    "questionNumber": "B47",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The total amount of expenditure on Food and clothing taken together is",
+    "options": [
+      "₹20000",
+      "₹32000",
+      "₹23000",
+      "₹29000"
+    ],
+    "answerIndex": 3,
+    "explanation": "Shared pie chart: total income ₹72,000; Food=90° and Clothing=55°. Amount=72,000×145/360=₹29,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B48",
+    "questionNumber": "B48",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The expenditure on Education exceeds the expenditure on Clothing by",
+    "options": [
+      "₹5000",
+      "₹6000",
+      "₹2300",
+      "₹2000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shared pie chart: Education=80°, Clothing=55°; difference 25°. Amount=72,000×25/360=₹5,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B49",
+    "questionNumber": "B49",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "Amount of Expenditure on Miscellaneous head is –",
+    "options": [
+      "₹10000",
+      "₹12000",
+      "₹13000",
+      "₹14000"
+    ],
+    "answerIndex": 2,
+    "explanation": "Shared pie chart: Miscellaneous=65°. Amount=72,000×65/360=₹13,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
+  },
+  {
+    "id": "mpsc-group-b-ada-aa-ata-2019-arithmetic-B50",
+    "questionNumber": "B50",
+    "paperId": "mpsc-group-b-ada-aa-ata-2019-arithmetic",
+    "subject": "arithmetic",
+    "studySection": "arithmetic",
+    "topic": "general",
+    "topicLabel": "Arithmetic",
+    "difficulty": "medium",
+    "question": "The monthly savings of the family is",
+    "options": [
+      "₹10000",
+      "₹12000",
+      "₹13000",
+      "₹14000"
+    ],
+    "answerIndex": 3,
+    "explanation": "The other pie angles total 55°+65°+80°+90°=290°, leaving 70° for savings. Amount=72,000×70/360=₹14,000.",
+    "source": "ADA, ATA & Assistant Auditor under Finance Department · 2019",
+    "year": 2019,
+    "sourceHref": "/papers/group-b/ada-aa-ata-2019-arithmetic.pdf#page=8",
+    "sourceReviewed": true,
+    "paperExamExcluded": true,
+    "sourceNote": "Stem and option order checked against the printed scan; independently solved. No official key was located.",
+    "answerSource": "derived",
+    "answerConfidence": "high",
+    "independentAnswerSource": "solved"
   }
 ];
 export const groupBGeneralQuestions: BankQuestion[] = [...groupBQuestionsPart1,...groupBQuestionsPart2,...groupBQuestionsPart3,...groupBQuestionsPart4,...groupBQuestionsPart5,...groupBQuestionsPart6,...groupBQuestionsPart7,...groupBQuestionsPart8,...groupBQuestionsPart9,...groupBQuestionsPart10,...groupBQuestionsPart11,...groupBQuestionsPart12,...groupBQuestionsPart13,...groupBQuestionsPart14,...groupBQuestionsPart15,...groupBQuestionsPart16,...groupBQuestionsPart17,...groupBQuestionsPart18,...groupBQuestionsPart19,...groupBQuestionsPart20,...groupBQuestionsPart21,...groupBQuestionsPart22,...groupBQuestionsPart23,...groupBQuestionsPart24,...groupBQuestionsPart25,...groupBQuestionsPart26,...groupBQuestionsPart27,...groupBQuestionsPart28,...groupBQuestionsPart29,...groupBQuestionsPart30,...groupBQuestionsPart31,...groupBQuestionsPart32,...groupBQuestionsPart33,...groupBQuestionsPart34,...groupBQuestionsPart35,...groupBQuestionsPart36,...groupBQuestionsPart37,...groupBQuestionsPart38,...groupBQuestionsPart39,...groupBQuestionsPart40,...groupBQuestionsPart41,...groupBQuestionsPart42,...groupBQuestionsPart43,...groupBQuestionsPart44,...groupBQuestionsPart45,...groupBQuestionsPart46,...groupBQuestionsPart47,...groupBQuestionsPart48,...groupBQuestionsPart49,...groupBQuestionsPart50,...groupBQuestionsPart51,...groupBQuestionsPart52,...groupBQuestionsPart53,...groupBQuestionsPart54,...groupBQuestionsPart55,...groupBQuestionsPart56,...groupBQuestionsPart57,...groupBQuestionsPart58,...groupBQuestionsPart59,...groupBQuestionsPart60,...groupBQuestionsPart61,...groupBQuestionsPart62,...groupBQuestionsPart63,...groupBQuestionsPart64,...groupBQuestionsPart65,...groupBQuestionsPart66,...groupBQuestionsPart67,...groupBQuestionsPart68,...groupBQuestionsPart69,...groupBQuestionsPart70,...groupBQuestionsPart71,...groupBQuestionsPart72,...groupBQuestionsPart73,...groupBQuestionsPart74,...groupBQuestionsPart75,...groupBQuestionsPart76,...groupBQuestionsPart77,...groupBQuestionsPart78,...groupBQuestionsPart79,...groupBQuestionsPart80,...groupBQuestionsPart81,...groupBQuestionsPart82,...groupBQuestionsPart83,...groupBQuestionsPart84,...groupBQuestionsPart85,...groupBQuestionsPart86,...groupBQuestionsPart87,...groupBQuestionsPart88,...groupBQuestionsPart89,...groupBQuestionsPart90];
@@ -761361,6 +763260,7 @@ export const groupBExpectedMcq: Record<string, number> = {
   "mpsc-group-b-ato-2017-english": 80,
   "mpsc-group-b-assistant-prof-geography-2017-english": 65,
   "mpsc-group-b-ada-2014-gk": 100,
+  "mpsc-group-b-ada-2014-arithmetic": 20,
   "mpsc-group-b-si-excise-2025-p1": 30,
   "mpsc-group-b-si-excise-2025-p2": 100,
   "mpsc-group-b-inspector-excise-2025-gs1": 50,

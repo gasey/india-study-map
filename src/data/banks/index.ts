@@ -10,7 +10,7 @@ import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
 // Keep specialty records and duplicate sources in their generated bank, while registering
 // only the general-study pool for the UDC/LDC module and its catalog counts.
 const excludedStudyPaperIds = new Set(groupBGeneralPapers
-  .filter((paper) => paper.duplicateOf || isGeneralStudyPaperSubjectTechnical(paper.paperSubject))
+  .filter((paper) => paper.duplicateOf || isGeneralStudyPaperSubjectTechnical(paper.paperSubject, paper.id))
   .map((paper) => paper.id));
 const groupBStudyPapers = groupBGeneralPapers.filter((paper) => !excludedStudyPaperIds.has(paper.id));
 const groupBStudyQuestions = groupBGeneralQuestions.filter((question) =>

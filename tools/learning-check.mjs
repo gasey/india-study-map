@@ -155,6 +155,43 @@ try {
   await recovered.record('safe', true, { eventId: 'safe-event' });
   check('corrupt original is preserved before fallback storage is replaced', () => { assert.equal(corrupt.getItem(`${recovered.key}.recovery`), '{broken'); assert.equal(recovered.getSnapshot().storageStatus.kind, 'recovered'); });
   recovered.dispose();
+  const full = new MemoryStorage();
+  const savedState = e.applyAttempts(e.emptyLearningState('full-startup'), [{ questionId: 'saved', correct: true, at, eventId: 'saved-event' }], 'saved-browser', at);
+  full.setItem('jabreeze.learning.full-startup.v1', JSON.stringify(e.compactLearningState(savedState)));
+  const originalSaved = full.getItem('jabreeze.learning.full-startup.v1');
+  full.blocked = true;
+  const fullStartup = new e.LearningStore({ moduleId: 'full-startup', storage: full, disableIndexedDb: true });
+  await fullStartup.recordMany([]);
+  check('full storage during startup still restores history before attempting new writes', () => {
+    assert.equal(fullStartup.getSnapshot().ready, true);
+    assert.equal(fullStartup.getSnapshot().learning.questions.saved.attempts, 1);
+    assert.equal(full.getItem('jabreeze.learning.full-startup.v1'), originalSaved);
+  });
+  fullStartup.dispose();
+  let opening;
+  globalThis.indexedDB = { open: () => (opening = {}) };
+  const stalled = new e.LearningStore({ moduleId: 'stalled-open', storage: new MemoryStorage(), storageTimeoutMs: 20 });
+  await stalled.record('usable', true, { eventId: 'stalled-event' });
+  check('an IndexedDB open that never responds stops loading and supports fallback progress', () => {
+    assert.equal(stalled.getSnapshot().ready, true);
+    assert.equal(stalled.getSnapshot().storageStatus.kind, 'recovered');
+    assert.equal(stalled.getSnapshot().learning.questions.usable.attempts, 1);
+  });
+  let lateClosed = false;
+  opening.result = { close: () => { lateClosed = true; } };
+  opening.onsuccess();
+  check('a database opening after its timeout is closed instead of replacing fallback history', () => {
+    assert.equal(lateClosed, true);
+    assert.equal(stalled.getSnapshot().learning.questions.usable.attempts, 1);
+  });
+  stalled.dispose();
+  let aborted = false;
+  const stalledTransaction = {
+    objectStore: () => ({ get: () => ({ transaction: stalledTransaction }) }),
+    abort: () => { aborted = true; stalledTransaction.onabort?.(); },
+  };
+  await assert.rejects(e.readLearningDatabase({ transaction: () => stalledTransaction }, 'stalled-read', undefined, 20), /timed out/);
+  check('a read request that never responds aborts instead of hanging history loading', () => assert.equal(aborted, true));
   // Exercise the real IndexedDB transaction code using an in-memory IDB implementation.
   globalThis.indexedDB = new IDBFactory();
   globalThis.IDBKeyRange = IDBKeyRange;

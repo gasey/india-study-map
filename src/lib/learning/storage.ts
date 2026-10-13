@@ -3,7 +3,7 @@ import { compactLearningState, openLearningDatabase, readLearningDatabase, updat
 import type { AttemptInput, AttemptMetadata, LearningState, StorageStatus } from './types';
 
 export interface LearningSnapshot { learning: LearningState; ready: boolean; storageStatus: StorageStatus }
-export interface LearningStoreOptions { moduleId: string; legacyKey?: string; storage?: Storage; disableIndexedDb?: boolean }
+export interface LearningStoreOptions { moduleId: string; legacyKey?: string; storage?: Storage; disableIndexedDb?: boolean; storageTimeoutMs?: number }
 /** IndexedDB is primary and updates questions independently in one transaction.
  * localStorage remains a migration path and fallback. Its cross-tab consistency
  * is best effort where Web Locks is unavailable. */
@@ -27,9 +27,10 @@ export class LearningStore {
       this.storage = options.storage ?? (typeof window !== 'undefined' ? window.localStorage : undefined);
       if (!this.storage) throw new Error('Browser storage unavailable');
       const source = this.storage.getItem(`${this.key}.source`);
-      if (safeId(source)) this.sourceId = source;
-      else this.storage.setItem(`${this.key}.source`, this.sourceId);
       this.snapshot.learning = this.readLocal();
+      if (safeId(source)) this.sourceId = source;
+      else try { this.storage.setItem(`${this.key}.source`, this.sourceId); }
+      catch { this.snapshot.storageStatus = { kind: 'memory', message: 'Browser storage cannot accept new data. Saved history is retained; new progress may use temporary storage.' }; }
     } catch {
       this.snapshot.storageStatus = { kind: 'memory', message: 'Browser storage is unavailable. Progress is kept for this open page; export a backup before leaving.' };
     }
@@ -44,14 +45,23 @@ export class LearningStore {
   private async initialize(): Promise<void> {
     try {
       if (this.options.disableIndexedDb) throw new Error('Database disabled');
-      this.database = await openLearningDatabase();
+      this.database = await openLearningDatabase(this.options.storageTimeoutMs);
       if (this.disposed) { this.database.close(); return; }
-      const learning = await updateLearningDatabase(this.database, this.snapshot.learning, mergeLearningStates, state => state);
+      const saved = await readLearningDatabase(this.database, this.options.moduleId, undefined, this.options.storageTimeoutMs);
+      if (this.disposed) { this.database.close(); return; }
+      const loaded = saved ? mergeLearningStates(this.snapshot.learning, saved) : this.snapshot.learning;
+      // Show restored history as soon as it is read; a slow migration write
+      // must not keep the dashboard behind its loading screen.
+      this.publish(loaded);
+      const learning = await updateLearningDatabase(this.database, loaded, mergeLearningStates, state => state, this.options.storageTimeoutMs);
       this.persisted = true;
       this.publish(learning, this.statusAfterSave());
-    } catch {
+    } catch (error) {
       if (this.database) {
         this.recoveryNotice = 'The saved learning database could not be read. Its data is preserved; this page is using fallback storage. Export a backup before leaving.';
+        this.snapshot.storageStatus = { kind: 'recovered', message: this.recoveryNotice };
+      } else if (error instanceof Error && (error.name === 'LearningStorageTimeoutError' || error.message.includes('blocked by another tab'))) {
+        this.recoveryNotice = 'Saved history is taking too long to open. Its data is preserved; this page is using fallback storage. Reload to retry loading the saved history.';
         this.snapshot.storageStatus = { kind: 'recovered', message: this.recoveryNotice };
       }
       this.database?.close(); this.database = undefined;

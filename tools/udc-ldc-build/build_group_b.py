@@ -177,6 +177,7 @@ def build():
             keyed = part in ("Paper-I", "Paper-II")
             official = "ABCD".index(key_letter) if key_letter else -1
             figure = part == "Paper-II" and n in (75, 78, 79, 80, 87, 91)
+            recovered_chart = part == "Paper-II" and n in (46, 47)
             answer = -1 if keyed and key_letter is None else official if keyed else independent
             topic, label = section(part, n)
             questions.append({
@@ -185,7 +186,8 @@ def build():
                 "question": PAPER_TWO_REPAIRS[n]["question"] if part == "Paper-II" and n in PAPER_TWO_REPAIRS else q["question"].strip(),
                 "options": PAPER_TWO_REPAIRS[n]["options"] if part == "Paper-II" and n in PAPER_TWO_REPAIRS else q["options"],
                 "answerIndex": answer,
-                **({'direction': q['direction']} if q.get('direction') else {}),
+                **({'direction': "Directions (Questions 46 & 47): The pie chart shows the percentage distribution of a book 'XYZ' published in five stores. Total number of books = 550."}
+                   if recovered_chart else {'direction': q['direction']} if q.get('direction') else {}),
                 **({'answerConfidence': q['answerConfidence']} if q.get('answerConfidence') else {}),
                 "explanation": q.get("explanation") or ("Official MPSC final key, compared with an independent solved transcription." if keyed else "Independent study transcription; official key not yet matched."),
                 **({"answerSource": "official", "answerKeyRef": FINAL_KEY_HREF} if keyed else {}),
@@ -197,6 +199,7 @@ def build():
                 **({"disputeNote": "Independent transcription replaced printed option D with a different answer. The final MPSC key gives B (Only II follows)."} if part == "Paper-II" and n == 82 else {}),
                 **({"compensated": True} if keyed and key_letter is None else {}),
                 **({"imagePath": f"/question-images/group-b/2024-paper2-q{n:03d}.webp"} if figure else {}),
+                **({"imagePath": "/question-images/group-b/recovered-context/ng-2024-p2-q046-chart.png"} if recovered_chart else {}),
                 **({"sourceHref": "/papers/group-b/Combined Group B (NG) Paper-II December-2024 Booklet B..pdf#page=" + str(q["sourcePage"]),
                     "sourceNote": f"Recovered from complete Series B Q{n-35}; its final key agrees with Series A Q{n}."} if part == "Paper-II" and n >= 84 else {}),
                 "source": "MPSC Group B (non-gazetted), 2024 · Booklet Series A" if keyed else "MPSC Group B (non-gazetted) technical, 2024 · general paper",
@@ -217,6 +220,22 @@ def build():
     (ROOT / 'src/data/banks/mpsc-essay-topics.json').write_text(
         json.dumps(essay_archive(library, questions, Path(__file__).parent), ensure_ascii=False, indent=2) + '\n')
     apply_reviewed_study_guides(ROOT, questions, json.loads((Path(__file__).parent / 'reviewed-study-guides.json').read_text()))
+    topic_overrides = json.loads((Path(__file__).parent / 'mizo-economy-topic-overrides.json').read_text())
+    mizo_ids = set(topic_overrides['mizoram'])
+    economy_ids = set(topic_overrides['economy'])
+    by_id = {q['id']: q for q in questions}
+    group_b_ids = {qid for qid in mizo_ids | economy_ids if qid.startswith('mpsc-group-b-')}
+    unknown_topic_ids = group_b_ids - by_id.keys()
+    assert not unknown_topic_ids, f'Stale Mizo/Economics topic IDs: {sorted(unknown_topic_ids)[:10]}'
+    for qid in group_b_ids:
+        q = by_id[qid]
+        assert q.get('studySection') == 'gk' or q.get('subject') == 'gk', qid
+        is_mizo = qid in mizo_ids
+        q['topic'] = 'mizoram_gk' if is_mizo else 'economy'
+        q['topicLabel'] = 'Mizoram — General' if is_mizo else 'Economy'
+        q['tags'] = list(dict.fromkeys(q.get('tags', [])
+            + (['mizoram'] if is_mizo else [])
+            + (['economy'] if qid in economy_ids else [])))
     assert len({q['id'] for q in questions}) == len(questions)
     assert all(q['paperId'] in {p['id'] for p in papers} for q in questions)
     # Keep answer feedback useful and honest when the source provides only a

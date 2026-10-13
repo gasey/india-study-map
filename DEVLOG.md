@@ -1,3 +1,25 @@
+## 14 October 2026 — Recover Mizo and Economics topic tags in general papers
+
+A stem audit of the UDC/LDC and Group B general-paper records found 940
+Mizoram/Mizo and 391 Economics GK questions outside the two compilations.
+Most Group B archive imports carried only a broad “General” topic; the older
+clerical classifier also placed 11 explicit local/economic items elsewhere.
+The durable `mizo-economy-topic-overrides.json` records their stable IDs. Nine
+questions qualify for both subjects and appear in both compilations. The module
+now shows 1,107 Mizo and 508 Economics question rows. Matching used explicit
+subject terms in question stems, with a review of candidate examples; mention
+in an answer option alone was insufficient. Four incidental Economics mentions
+were excluded. This is topic routing only: answer choices, source review gates,
+confidence and explanations are unchanged. Other implicit questions may still
+require a future source-led topic audit.
+
+The module applies the overlay immediately; both bank builders read it for future
+regeneration and reject stale Group B IDs. The generated banks were not rebuilt
+here because other work already has uncommitted edits in those files. Validation:
+all 1,331 new category assignments resolve to GK records, Python builders
+compile, TypeScript typecheck passes, and browser verification displays the two
+new counts without console errors.
+
 ## 14 October 2026 — Smooth flat browsing and subject practice compilations
 
 Flat Browse previously mounted the complete filtered question list, including

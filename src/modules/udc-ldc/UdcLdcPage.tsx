@@ -29,6 +29,7 @@ import { SubjectStudyView } from './SubjectStudyView';
 import { LearningDashboard } from './LearningDashboard';
 import { QuestionStudyGuides } from './QuestionStudyGuides';
 import { WindowedQuestionList } from './WindowedQuestionList';
+import { withTopicOverride } from './topicOverrides';
 import { buildLearningDashboard } from './learningModel';
 import { groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
@@ -1045,7 +1046,7 @@ export default function UdcLdcPage() {
   const visibleRows = useMemo(() => data?.rows.filter((row) => !technicalPaperIds.has(row.paper.id)) ?? [],
     [data, technicalPaperIds]);
   const moduleQuestions = useMemo(() => correctedQuestions.filter((q) =>
-    !q.paperId || !technicalPaperIds.has(q.paperId)), [correctedQuestions, technicalPaperIds]);
+    !q.paperId || !technicalPaperIds.has(q.paperId)).map(withTopicOverride), [correctedQuestions, technicalPaperIds]);
 
   const filtered = useMemo(() => {
     if (!data) return [];

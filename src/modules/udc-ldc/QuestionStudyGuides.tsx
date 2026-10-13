@@ -4,15 +4,10 @@ import type { BankQuestion } from '@/data/banks/types';
 import type { Primer } from '@/data/banks/all-primers';
 import mizoramPyq from '@/data/banks/primers-mizoram-pyq.json';
 import economyPyq from '@/data/banks/primers-economy-old-pyq.json';
+import { hasTopic } from './topicOverrides';
 
 const mizoGuides = mizoramPyq as Primer[];
 const economyGuides = economyPyq as Primer[];
-
-function questionSubject(q: BankQuestion): 'Mizoram' | 'Economics' | null {
-  if (('gkTopic' in q && q.gkTopic === 'mizoram') || q.topic.startsWith('mizoram_') || q.topicLabel.startsWith('Mizoram —')) return 'Mizoram';
-  if (('gkTopic' in q && q.gkTopic === 'economy') || q.topic === 'economy' || q.topicLabel === 'Economy') return 'Economics';
-  return null;
-}
 
 const conceptPatterns: Array<[string, RegExp]> = [
   ['National income', /\bGDP\b|\bGNP\b|national income|growth rate|per.capita/i],
@@ -91,8 +86,8 @@ function GuideList({ rows, questions = [], onPractice }: {
 export function QuestionStudyGuides({ questions, renderQuestions }: {
   questions: BankQuestion[]; renderQuestions: (questions: BankQuestion[]) => ReactNode;
 }) {
-  const mizoram = questions.filter(q => questionSubject(q) === 'Mizoram');
-  const economy = questions.filter(q => questionSubject(q) === 'Economics');
+  const mizoram = questions.filter(q => hasTopic(q, 'mizoram'));
+  const economy = questions.filter(q => hasTopic(q, 'economy'));
   const [selectedConcept, setSelectedConcept] = useState<{ title: string; questions: BankQuestion[] } | null>(null);
   const jump = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   return <section className="udc-subject-compilations" aria-label="Mizo and Economics question compilations">

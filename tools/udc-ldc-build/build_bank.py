@@ -1250,6 +1250,14 @@ def main():
         for qid, t in json.load(open(SUBTOPICS, encoding="utf-8")).items():
             if not qid.startswith("_"):
                 subtopics[qid] = t
+    # These stem-checked corrections supplement the older keyword classifier.
+    # Keep both labels in `tags` when a local-economy question belongs to both.
+    topic_overrides = json.load(open(os.path.join(HERE, 'mizo-economy-topic-overrides.json'), encoding='utf-8'))
+    mizo_ids = set(topic_overrides['mizoram'])
+    economy_ids = set(topic_overrides['economy'])
+    for qid in mizo_ids | economy_ids:
+        if not qid.startswith('mpsc-group-b-'):
+            subtopics[qid] = 'mizoram' if qid in mizo_ids else 'economy'
 
     def apply_gk_topic(rec, qid):
         # Finer still: which GK sub-topic. Content-classified (the
@@ -1262,6 +1270,10 @@ def main():
         if qid in subtopics:
             rec["gkTopic"] = subtopics[qid]
             stats["gk_topic"] += 1
+        if qid in mizo_ids or qid in economy_ids:
+            rec['tags'] = list(dict.fromkeys(rec.get('tags', [])
+                + (['mizoram'] if qid in mizo_ids else [])
+                + (['economy'] if qid in economy_ids else [])))
 
     disputes = load_disputes(staged_index)
     option_defects = load_option_defects(staged_index)

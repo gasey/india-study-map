@@ -49,6 +49,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   const [picked, setPicked] = useState<number | null>(null);
   const [session, setSession] = useState({ done: 0, right: 0 });
   const [heldQuestion, setHeldQuestion] = useState<BankQuestion | null>(null);
+  const [submitted, setSubmitted] = useState(false);
   const [confidence, setConfidence] = useState<'sure' | 'unsure' | 'guess' | ''>('');
   const [mistakeReason, setMistakeReason] = useState('');
   const answerEvent = useRef<string | null>(null);
@@ -106,21 +107,26 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   if (!isMcqQuestion(q)) return null;
   const accent = SECTION_COLOUR[sectionOf(q)];
   const mode = textMode(q);
-  const answered = picked !== null;
-  const correct = answered && picked === q.answerIndex;
+  const hasPick = picked !== null;
+  const correct = submitted && picked === q.answerIndex;
   const prior = progress[q.id];
   const groupBPaper = groupBGeneralPapers.find((paper) => paper.id === q.paperId);
 
   const choose = (idx: number) => {
-    if (answered || answerEvent.current) return;
+    if (submitted) return;
+    setPicked(idx);
+  };
+
+  const submitAnswer = () => {
+    if (picked === null || submitted || answerEvent.current) return;
     const eventId = `practice:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`;
     answerEvent.current = eventId;
     setHeldQuestion(q);
-    setPicked(idx);
-    const ok = idx === q.answerIndex;
+    setSubmitted(true);
+    const ok = picked === q.answerIndex;
     setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
     onAnswer(q.id, ok, {
-      eventId, selectedIndex: idx,
+      eventId, selectedIndex: picked,
       durationMs: Math.max(0, visibleMs.current + (document.hidden ? 0 : Date.now() - activeSince.current)),
       ...(confidence ? { confidence } : {}), source: onFinish ? 'review' : 'practice',
     });
@@ -130,6 +136,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
     if (onFinish && i >= pool.length - 1) { onFinish(); return; }
     const currentIndex = pool.findIndex(item => item.id === q.id);
     setPicked(null);
+    setSubmitted(false);
     setHeldQuestion(null);
     answerEvent.current = null;
     setConfidence('');
@@ -211,16 +218,6 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
         <div className={`udc-question-stem ${mode.stem}`} style={{ fontSize: 15.5, marginBottom: 14, lineHeight: 1.5 }}><QuestionText text={q.question} plain={mode.plain} /></div>
         <QuestionImage path={q.imagePath} />
 
-        {!answered && <label className="udc-recall-confidence">
-          How confident are you? <span>(optional)</span>{' '}
-          <select value={confidence} onChange={e => setConfidence(e.target.value as typeof confidence)}>
-            <option value="">Choose confidence</option>
-            <option value="sure">I know this</option>
-            <option value="unsure">Not quite sure</option>
-            <option value="guess">Guessing</option>
-          </select>
-        </label>}
-
         <div style={{ display: 'grid', gap: 8 }}>
           {q.options.map((o, idx) => {
             const isAnswer = idx === q.answerIndex;
@@ -234,10 +231,10 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
             // Keep neutral options white; green is reserved for the confirmed
             // answer so the click result is immediately legible.
             let bg = 'var(--bg-panel, #fff)';
-            if (answered && isAnswer) {
+            if (submitted && isAnswer) {
               border = 'var(--ok, #2e9e5b)';
               bg = 'color-mix(in srgb, var(--ok, #2e9e5b) 12%, transparent)';
-            } else if (answered && isPick) {
+            } else if (submitted && isPick) {
               border = 'var(--bad, #c4462f)';
               bg = 'color-mix(in srgb, var(--bad, #c4462f) 12%, transparent)';
             }
@@ -246,11 +243,13 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 key={idx}
                 type="button"
                 onClick={() => choose(idx)}
-                disabled={answered}
+                disabled={submitted}
+                aria-pressed={isPick}
                 style={{
                   textAlign: 'left', font: 'inherit', fontSize: 14.5, padding: '12px 13px',
                   borderRadius: 11, border: `1.5px solid ${border}`, background: bg,
-                  color: 'inherit', cursor: answered ? 'default' : 'pointer',
+                  color: 'inherit', cursor: submitted ? 'default' : 'pointer',
+                  outline: isPick && !submitted ? `3px solid color-mix(in srgb, ${accent} 28%, transparent)` : undefined,
                   display: 'flex', gap: 11, alignItems: 'flex-start', lineHeight: 1.4,
                   transition: 'border-color .15s, background .15s',
                 }}
@@ -261,10 +260,10 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 <span
                   style={{
                     flex: 'none', width: 24, height: 24, borderRadius: '50%',
-                    border: `1.5px solid ${answered && (isAnswer || isPick) ? border : accent}`,
-                    background: answered && isAnswer ? 'var(--ok, #2e9e5b)'
-                      : answered && isPick ? 'var(--bad, #c4462f)' : 'transparent',
-                    color: answered && (isAnswer || isPick) ? '#fff' : accent,
+                    border: `1.5px solid ${submitted && (isAnswer || isPick) ? border : accent}`,
+                    background: submitted && isAnswer ? 'var(--ok, #2e9e5b)'
+                      : submitted && isPick ? 'var(--bad, #c4462f)' : 'transparent',
+                    color: submitted && (isAnswer || isPick) ? '#fff' : accent,
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
                     fontSize: 11.5, fontWeight: 700, marginTop: 1, textTransform: 'uppercase',
                   }}
@@ -277,7 +276,41 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
           })}
         </div>
 
-        {answered && (
+        {!submitted && hasPick && (
+          <p aria-live="polite" style={{ margin: '10px 0 0', fontSize: 12.5, opacity: 0.75 }}>
+            {optionLetter(picked!)} selected. You can change it before confirming.
+          </p>
+        )}
+
+        {!submitted && <details style={{ marginTop: 10 }}>
+          <summary style={{ cursor: 'pointer', fontSize: 12.5, color: 'var(--text-secondary)' }}>Confidence (optional)</summary>
+          <label className="udc-recall-confidence">
+            How confident are you?{' '}
+            <select value={confidence} onChange={e => setConfidence(e.target.value as typeof confidence)}>
+              <option value="">Skip</option>
+              <option value="sure">I know this</option>
+              <option value="unsure">Not quite sure</option>
+              <option value="guess">Guessing</option>
+            </select>
+          </label>
+        </details>}
+
+        {!submitted && <button
+          type="button"
+          onClick={submitAnswer}
+          disabled={!hasPick}
+          style={{
+            marginTop: 12, font: 'inherit', fontSize: 14, fontWeight: 700,
+            padding: '10px 18px', minHeight: 44, borderRadius: 9,
+            cursor: hasPick ? 'pointer' : 'default', border: 0,
+            background: hasPick ? 'var(--info, #3b7dd8)' : 'var(--bg-panel-elev, #eee)',
+            color: hasPick ? '#fff' : 'var(--text-secondary)',
+          }}
+        >
+          Confirm answer
+        </button>}
+
+        {submitted && (
           <div style={{ marginTop: 14 }}>
             {q.paperId?.startsWith('mpsc-group-b-') && <AnswerSources q={q} />}
             <div style={{ fontWeight: 700, color: correct ? 'var(--ok, #2e9e5b)' : 'var(--bad, #c4462f)' }}>

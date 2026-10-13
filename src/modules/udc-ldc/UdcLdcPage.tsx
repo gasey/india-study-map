@@ -28,6 +28,7 @@ import { SubjectStudyView } from './SubjectStudyView';
 import { LearningDashboard } from './LearningDashboard';
 import { buildLearningDashboard } from './learningModel';
 import { groupBGeneralQuestions, groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
+import { isPaperSubjectTechnical } from '@/lib/technicalPosts';
 import './udc-ldc.css';
 
 // ============================================
@@ -1023,21 +1024,33 @@ export default function UdcLdcPage() {
     });
   }, [data, corrections]);
 
+  // Keep every imported record in the bank for provenance and future use,
+  // while limiting this study module to general/non-technical papers.
+  const technicalPaperIds = useMemo(() => new Set(
+    (data?.bank.papers ?? [])
+      .filter((paper) => isPaperSubjectTechnical(paper.paperSubject))
+      .map((paper) => paper.id),
+  ), [data]);
+  const visibleRows = useMemo(() => data?.rows.filter((row) => !technicalPaperIds.has(row.paper.id)) ?? [],
+    [data, technicalPaperIds]);
+  const moduleQuestions = useMemo(() => correctedQuestions.filter((q) =>
+    !q.paperId || !technicalPaperIds.has(q.paperId)), [correctedQuestions, technicalPaperIds]);
+
   const filtered = useMemo(() => {
     if (!data) return [];
-    return applyFilters(correctedQuestions, data.bank.papers ?? [], filters, progress, flags);
-  }, [data, correctedQuestions, filters, progress, flags]);
+    return applyFilters(moduleQuestions, data.bank.papers ?? [], filters, progress, flags);
+  }, [data, moduleQuestions, filters, progress, flags]);
 
-  const learningModel = useMemo(() => buildLearningDashboard(correctedQuestions, tracker.learning, learningClock),
-    [correctedQuestions, tracker.learning, learningClock]);
+  const learningModel = useMemo(() => buildLearningDashboard(moduleQuestions, tracker.learning, learningClock),
+    [moduleQuestions, tracker.learning, learningClock]);
   const learningQuestions = useMemo(() => {
     if (!learningSession) return [];
-    const byId = new Map(correctedQuestions.map(q => [q.id, q]));
+    const byId = new Map(moduleQuestions.map(q => [q.id, q]));
     return learningSession.ids.map(id => byId.get(id)).filter((q): q is BankQuestion => !!q
       && (learningSession.mode === 'read' || isAnswerable(q)));
-  }, [correctedQuestions, learningSession]);
+  }, [moduleQuestions, learningSession]);
   const openLearning = (ids: string[], label: string, mode: 'practice' | 'read') => {
-    const eligible = new Set(correctedQuestions.filter(q => mode === 'read' || isAnswerable(q)).map(q => q.id));
+    const eligible = new Set(moduleQuestions.filter(q => mode === 'read' || isAnswerable(q)).map(q => q.id));
     const selected = [...new Set(ids)].filter(id => eligible.has(id)).slice(0, 20);
     if (!selected.length) { setLearningMessage('No available questions in this selection yet.'); return; }
     setLearningMessage('');
@@ -1121,7 +1134,7 @@ export default function UdcLdcPage() {
           {learningSession.mode === 'practice' ? <PracticeView key={learningSession.id}
             questions={learningQuestions} progress={progress} onAnswer={record} onMistakeReason={tagMistake}
             onFinish={() => { setLearningSession(null); setLearningMessage('Session complete. Your learning progress and review queue are updated.'); }} />
-            : <BrowseView key={learningSession.id} rows={data.rows} questions={learningQuestions} progress={progress} flags={flags}
+            : <BrowseView key={learningSession.id} rows={visibleRows} questions={learningQuestions} progress={progress} flags={flags}
               onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
         </section> : <LearningDashboard model={learningModel} storageStatus={tracker.storageStatus}
           onStart={(ids, label) => openLearning(ids, label, 'practice')}
@@ -1129,18 +1142,18 @@ export default function UdcLdcPage() {
           onExport={exportLearning} onImport={importLearning} />}
       </>}
 
-      {tab === 'progress' && <ProgressView rows={data.rows} />}
+      {tab === 'progress' && <ProgressView rows={visibleRows} />}
       {(tab === 'maths' || tab === 'english' || tab === 'computer') && <SubjectStudyView
         key={tab}
         subject={tab === 'maths' ? 'arithmetic' : tab === 'computer' ? 'computer' : 'english'}
-        questions={correctedQuestions}
+        questions={moduleQuestions}
         progress={progress}
         onAnswer={record}
         onMistakeReason={tagMistake}
-        renderBrowse={(questions) => <BrowseView rows={data.rows} questions={questions} progress={progress} flags={flags}
+        renderBrowse={(questions) => <BrowseView rows={visibleRows} questions={questions} progress={progress} flags={flags}
           onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
       />}
-      {tab === 'papers' && <GroupBPaperLibrary questions={correctedQuestions} onBrowse={(id) => {
+      {tab === 'papers' && <GroupBPaperLibrary questions={moduleQuestions} excludedPaperIds={technicalPaperIds} onBrowse={(id) => {
         setFilters({ ...EMPTY_FILTERS, paperIds: [id] });
         setFiltersOpen(false);
         setTab('browse');
@@ -1189,8 +1202,8 @@ export default function UdcLdcPage() {
       })()}
       {(tab === 'browse' || tab === 'practice') && filtersOpen && (
         <FilterRail
-          papers={data.bank.papers ?? []}
-          all={correctedQuestions}
+          papers={(data.bank.papers ?? []).filter((paper) => !technicalPaperIds.has(paper.id))}
+          all={moduleQuestions}
           filters={filters}
           onChange={setFilters}
           matched={filtered.length}
@@ -1201,7 +1214,7 @@ export default function UdcLdcPage() {
         />
       )}
 
-      {tab === 'browse' && <BrowseView key={JSON.stringify(filters)} rows={data.rows} questions={filtered} progress={progress} flags={flags}
+      {tab === 'browse' && <BrowseView key={JSON.stringify(filters)} rows={visibleRows} questions={filtered} progress={progress} flags={flags}
         onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
       {tab === 'practice' && (
         <PracticeView key={JSON.stringify(filters)} questions={filtered} progress={progress} onAnswer={record} onMistakeReason={tagMistake} />
@@ -1209,7 +1222,7 @@ export default function UdcLdcPage() {
       {/* The exam view deliberately ignores the filter rail: you sit the whole
           paper as printed, or it is not an exam. */}
       {tab === 'exam' && (
-        <ExamView papers={(data.bank.papers ?? []).filter((paper) => correctedQuestions.some((q) => q.paperId === paper.id && isAnswerable(q) && !q.paperExamExcluded))} questions={correctedQuestions} onRecordAttempts={tracker.recordMany} />
+        <ExamView papers={(data.bank.papers ?? []).filter((paper) => !technicalPaperIds.has(paper.id) && moduleQuestions.some((q) => q.paperId === paper.id && isAnswerable(q) && !q.paperExamExcluded))} questions={moduleQuestions} onRecordAttempts={tracker.recordMany} />
       )}
       </div>
     </div>

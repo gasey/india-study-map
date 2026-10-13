@@ -4,34 +4,34 @@
   "summary": {
     "librarySources": 420,
     "questionBearingPapers": 420,
-    "records": 27033,
-    "mcq": 26011,
+    "records": 27034,
+    "mcq": 26012,
     "writtenRecords": 1022,
-    "ready": 21357,
+    "ready": 21422,
     "readyOfficial": 8518,
-    "pendingMcq": 3835,
-    "heldReviewed": 819,
-    "workedGuidesReviewed": 14619,
-    "pendingMcqGuides": 11392,
+    "pendingMcq": 3766,
+    "heldReviewed": 824,
+    "workedGuidesReviewed": 14689,
+    "pendingMcqGuides": 11323,
     "keyOnlyFeedback": 6838,
-    "writtenGuidesReviewed": 125,
-    "pendingWrittenGuides": 897,
-    "missingMcq": 606
+    "writtenGuidesReviewed": 126,
+    "pendingWrittenGuides": 896,
+    "missingMcq": 605
   },
   "sections": {
     "english": {
-      "records": 11030,
-      "mcq": 10008,
+      "records": 11031,
+      "mcq": 10009,
       "writtenRecords": 1022,
-      "ready": 7039,
+      "ready": 7104,
       "readyOfficial": 1682,
-      "pendingMcq": 2596,
-      "heldReviewed": 373,
-      "workedGuidesReviewed": 6244,
-      "pendingMcqGuides": 3764,
+      "pendingMcq": 2527,
+      "heldReviewed": 378,
+      "workedGuidesReviewed": 6314,
+      "pendingMcqGuides": 3695,
       "keyOnlyFeedback": 909,
-      "writtenGuidesReviewed": 125,
-      "pendingWrittenGuides": 897
+      "writtenGuidesReviewed": 126,
+      "pendingWrittenGuides": 896
     },
     "arithmetic": {
       "records": 715,
@@ -3308,36 +3308,67 @@
       "archivePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22",
       "imported": true,
       "expectedMcq": 80,
-      "missingMcq": 1,
-      "records": 80,
-      "mcq": 79,
+      "missingMcq": 0,
+      "records": 81,
+      "mcq": 80,
       "writtenRecords": 1,
-      "ready": 10,
+      "ready": 75,
       "readyOfficial": 0,
-      "pendingMcq": 69,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 10,
-      "pendingMcqGuides": 69,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
-      "writtenGuidesReviewed": 0,
-      "pendingWrittenGuides": 1,
+      "writtenGuidesReviewed": 1,
+      "pendingWrittenGuides": 0,
       "sections": {
         "english": {
-          "records": 80,
-          "mcq": 79,
+          "records": 81,
+          "mcq": 80,
           "writtenRecords": 1,
-          "ready": 10,
+          "ready": 75,
           "readyOfficial": 0,
-          "pendingMcq": 69,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 10,
-          "pendingMcqGuides": 69,
+          "pendingMcq": 0,
+          "heldReviewed": 5,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
-          "writtenGuidesReviewed": 0,
-          "pendingWrittenGuides": 1
+          "writtenGuidesReviewed": 1,
+          "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q7",
+          "questionNumber": "7",
+          "section": "english",
+          "reason": "Both “immediately” and “in the blink of an eye” fit the sentence’s meaning. Since the item asks for an idiom, C may be intended, but the wording does not make the single answer secure; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q52",
+          "questionNumber": "52",
+          "section": "english",
+          "reason": "“In case of emergencies” is a prepositional phrase, not a clause, so none of the listed clause types is correct; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q64",
+          "questionNumber": "64",
+          "section": "english",
+          "reason": "The sentence is both a negative imperative and an imperative. The choices separate these overlapping labels, so it has no unique answer; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q74",
+          "questionNumber": "74",
+          "section": "english",
+          "reason": "Both “development” and “progress” are valid opposites of “retrogression.” The options do not provide a unique answer; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q77",
+          "questionNumber": "77",
+          "section": "english",
+          "reason": "Both “unavoidable” and “inevitable” mean something that cannot be avoided. The item has two correct choices; held unscored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",
@@ -8530,7 +8561,7 @@
           "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q82",
           "questionNumber": "82",
           "section": "gk",
-          "reason": "Legacy inferred candidate gives C; the final key gives B. Verify the printed item."
+          "reason": "The official final key selects B (10), but the printed conditions give x²=36 and y²=24, so the positive numbers sum to 6 + 2√6 ≈ 10.90. None of the printed options matches; the official key answer is retained as a candidate and this defective item remains unscored."
         },
         {
           "id": "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q92",
@@ -14289,7 +14320,7 @@
           "id": "mpsc-group-b-inspector-excise-2025-gs3-Q9",
           "questionNumber": "9",
           "section": "gk",
-          "reason": "Legacy inferred candidate gives C; the final key gives A. Verify the printed item."
+          "reason": "The official key selects A, but DigiLocker is a consent-based document wallet and verification ecosystem; the claimed underlying framework does not match the named Aadhaar e-Sign or National e-Authentication Framework choices. The premise and options do not establish a unique answer."
         },
         {
           "id": "mpsc-group-b-inspector-excise-2025-gs3-Q26",
@@ -14307,7 +14338,7 @@
           "id": "mpsc-group-b-inspector-excise-2025-gs3-Q34",
           "questionNumber": "34",
           "section": "gk",
-          "reason": "Legacy inferred candidate gives A; the final key gives B. Verify the printed item."
+          "reason": "The key selects B, but none of the printed descriptions of Bawi and Sal appears fully accurate against the available scholarly account. Held because the keyed distinction is not supported by the source wording."
         },
         {
           "id": "mpsc-group-b-inspector-excise-2025-gs3-Q38",
@@ -19802,7 +19833,7 @@
           "id": "mpsc-group-b-si-police-2026-p2-Q83",
           "questionNumber": "83",
           "section": "gk",
-          "reason": "Legacy inferred candidate gives A; the final key gives C. Verify the printed item."
+          "reason": "The printed sequence and options do not support a defensible unique rule or continuation."
         },
         {
           "id": "mpsc-group-b-si-police-2026-p2-Q96",

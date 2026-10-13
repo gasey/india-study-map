@@ -4,10 +4,10 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 7039,
-    "pendingMcq": 2596,
-    "heldReviewed": 373,
-    "pendingWritten": 870
+    "ready": 7104,
+    "pendingMcq": 2527,
+    "heldReviewed": 378,
+    "pendingWritten": 869
   },
   "papers": [
     {
@@ -1335,20 +1335,46 @@
       "sourceSha256": "4cfb27b08fcd62e6f37f34c4f1560a182b023880ec3325f790657a920b904776",
       "archivePage": "https://mpsc.mizoram.gov.in/page/Old%20Question%20Paper-17-08-21-17-08-22",
       "archiveBatch": "gazetted-english",
-      "status": "needs-review",
-      "mcq": 79,
-      "ready": 10,
+      "status": "ready-with-held-items",
+      "mcq": 80,
+      "ready": 75,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 10,
-      "pendingMcq": 69,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 5,
       "expectedMcq": 80,
-      "missingMcq": 1,
+      "missingMcq": 0,
       "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenGuides": 1,
+      "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q7",
+          "questionNumber": "7",
+          "reason": "Both “immediately” and “in the blink of an eye” fit the sentence’s meaning. Since the item asks for an idiom, C may be intended, but the wording does not make the single answer secure; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q52",
+          "questionNumber": "52",
+          "reason": "“In case of emergencies” is a prepositional phrase, not a clause, so none of the listed clause types is correct; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q64",
+          "questionNumber": "64",
+          "reason": "The sentence is both a negative imperative and an imperative. The choices separate these overlapping labels, so it has no unique answer; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q74",
+          "questionNumber": "74",
+          "reason": "Both “development” and “progress” are valid opposites of “retrogression.” The options do not provide a unique answer; held unscored."
+        },
+        {
+          "id": "mpsc-group-b-archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994-Q77",
+          "questionNumber": "77",
+          "reason": "Both “unavoidable” and “inevitable” mean something that cannot be avoided. The item has two correct choices; held unscored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive-lang-2016-junior-engineer-je-2016-contract-under-rural-development-deptt-9-general-7a19cac4",

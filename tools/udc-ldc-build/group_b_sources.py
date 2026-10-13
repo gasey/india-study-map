@@ -1311,7 +1311,7 @@ def build_additional():
             opts = [q['opts'][x] for x in 'abcd' if x in q['opts']]
             candidates = legacy.get(normalized(q['q']), set())
             matching = [i for i, option in enumerate(opts) if normalized(option) in candidates]
-            independent = matching[0] if len(matching) == 1 else -1
+            independent = matching[0] if len(matching) == 1 and not q.get('unscored') else -1
             conventional = ('English' in subject and q.get('part') == 'A'
                             and slug != 'hfw-2026-p1')
             language_written = language_written_prompt(slug, q)
@@ -1388,6 +1388,34 @@ def build_additional():
                             'idioms_phrases' if 71 <= q['n'] <= 80 else
                             'word_usage' if 81 <= q['n'] <= 90 else
                             'one_word_substitution')
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'archive-lang-2016-je-contract-under-phe-department-2016-3-general-english-19bd7994':
+                n = q['n']
+                topic_id = ('idioms_phrases' if n <= 16 else
+                            'comprehension' if n <= 28 else
+                            'word_usage' if n <= 42 else
+                            'parts_of_speech' if n <= 48 else
+                            'clauses' if n <= 54 else
+                            'sentence_types' if n <= 64 else
+                            'vocabulary_synonym' if n <= 70 else
+                            'vocabulary_antonym' if n <= 74 else
+                            'one_word_substitution' if n <= 77 else
+                            'word_usage')
+                topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'je-phe-2019-english':
+                n = q['n']
+                topic_id = ('idioms_phrases' if n <= 16 else
+                            'comprehension' if n <= 27 else
+                            'vocabulary_synonym' if n == 28 else
+                            'parts_of_speech' if n <= 34 else
+                            'prepositions' if n <= 40 else
+                            'verb_tenses' if n <= 48 else
+                            'sentence_types' if n <= 53 else
+                            'clauses' if n <= 58 else
+                            'sentence_types' if n <= 64 else
+                            'one_word_substitution' if n <= 67 or 71 <= n <= 72 else
+                            'word_usage' if n <= 70 else
+                            'vocabulary_synonym')
                 topic_label = taxonomy.resolve(topic_id)[1]
             if slug == 'archive-lang-2015-middle-school-teacher-2015-1-middle-primary-school-teacher-2015-general-a0a584d9':
                 n = q['n']

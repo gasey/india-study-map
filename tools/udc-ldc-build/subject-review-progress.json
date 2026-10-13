@@ -7,15 +7,15 @@
     "records": 27033,
     "mcq": 26011,
     "writtenRecords": 1022,
-    "ready": 21287,
+    "ready": 21357,
     "readyOfficial": 8518,
-    "pendingMcq": 3915,
-    "heldReviewed": 809,
-    "workedGuidesReviewed": 14539,
-    "pendingMcqGuides": 11472,
+    "pendingMcq": 3835,
+    "heldReviewed": 819,
+    "workedGuidesReviewed": 14619,
+    "pendingMcqGuides": 11392,
     "keyOnlyFeedback": 6838,
-    "writtenGuidesReviewed": 124,
-    "pendingWrittenGuides": 898,
+    "writtenGuidesReviewed": 125,
+    "pendingWrittenGuides": 897,
     "missingMcq": 606
   },
   "sections": {
@@ -23,15 +23,15 @@
       "records": 11030,
       "mcq": 10008,
       "writtenRecords": 1022,
-      "ready": 6969,
+      "ready": 7039,
       "readyOfficial": 1682,
-      "pendingMcq": 2676,
-      "heldReviewed": 363,
-      "workedGuidesReviewed": 6164,
-      "pendingMcqGuides": 3844,
+      "pendingMcq": 2596,
+      "heldReviewed": 373,
+      "workedGuidesReviewed": 6244,
+      "pendingMcqGuides": 3764,
       "keyOnlyFeedback": 909,
-      "writtenGuidesReviewed": 124,
-      "pendingWrittenGuides": 898
+      "writtenGuidesReviewed": 125,
+      "pendingWrittenGuides": 897
     },
     "arithmetic": {
       "records": 715,
@@ -11859,32 +11859,93 @@
       "records": 81,
       "mcq": 80,
       "writtenRecords": 1,
-      "ready": 0,
+      "ready": 70,
       "readyOfficial": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 10,
+      "workedGuidesReviewed": 80,
+      "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
-      "writtenGuidesReviewed": 0,
-      "pendingWrittenGuides": 1,
+      "writtenGuidesReviewed": 1,
+      "pendingWrittenGuides": 0,
       "sections": {
         "english": {
           "records": 81,
           "mcq": 80,
           "writtenRecords": 1,
-          "ready": 0,
+          "ready": 70,
           "readyOfficial": 0,
-          "pendingMcq": 80,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 80,
+          "pendingMcq": 0,
+          "heldReviewed": 10,
+          "workedGuidesReviewed": 80,
+          "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
-          "writtenGuidesReviewed": 0,
-          "pendingWrittenGuides": 1
+          "writtenGuidesReviewed": 1,
+          "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-dso-2019-english-B22",
+          "questionNumber": "B22",
+          "section": "english",
+          "reason": "Held: the source passage does not contain “twirl,” and none of the options is a defensible synonym for that word. The printed question appears mismatched to its passage."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B35",
+          "questionNumber": "B35",
+          "section": "english",
+          "reason": "Held: both “conflict among the men” and “conflict with the men” are grammatical and convey plausible meanings; the sentence gives no context that selects one."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B37",
+          "questionNumber": "B37",
+          "section": "english",
+          "reason": "Held: both “opposite the chair” and “opposite to the chair” are grammatical, so the choices overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B40",
+          "questionNumber": "B40",
+          "section": "english",
+          "reason": "Held: both “among the trees” and “between the trees” can describe an elk’s position; the scan gives no layout or number of trees to disambiguate."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B41",
+          "questionNumber": "B41",
+          "section": "english",
+          "reason": "Held: the sentence gives no time context. “You wake up…?”, “You woke up…?”, and “You awoke…?” can all be grammatical in different contexts."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B59",
+          "questionNumber": "B59",
+          "section": "english",
+          "reason": "Held: this is both an affirmative statement and an assertive sentence; the alternatives overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B60",
+          "questionNumber": "B60",
+          "section": "english",
+          "reason": "Held: “There is no doubt…” is an assertive statement and is affirmative in meaning despite the word “no”; the available labels do not give a unique classification."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B61",
+          "questionNumber": "B61",
+          "section": "english",
+          "reason": "Held: “She danced with me” is both affirmative and assertive; the alternatives overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B63",
+          "questionNumber": "B63",
+          "section": "english",
+          "reason": "Held: “She threw the ball into the pit” is both affirmative and assertive; the alternatives overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B78",
+          "questionNumber": "B78",
+          "section": "english",
+          "reason": "Held: “Euphony” means pleasing or harmonious sound, not living together in social harmony. None of the options is an exact synonym for the printed use of “harmony”."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-dso-2019-gs1",

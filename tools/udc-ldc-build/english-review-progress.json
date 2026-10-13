@@ -4,10 +4,10 @@
   "summary": {
     "papers": 262,
     "gazettedArchivePapers": 109,
-    "ready": 6969,
-    "pendingMcq": 2676,
-    "heldReviewed": 363,
-    "pendingWritten": 871
+    "ready": 7039,
+    "pendingMcq": 2596,
+    "heldReviewed": 373,
+    "pendingWritten": 870
   },
   "papers": [
     {
@@ -4810,20 +4810,71 @@
       "subject": "General English",
       "sourceHref": "/papers/group-b/dso-2019-english.pdf",
       "archiveBatch": "earlier-import",
-      "status": "needs-review",
+      "status": "ready-with-held-items",
       "mcq": 80,
-      "ready": 0,
+      "ready": 70,
       "readyOfficial": 0,
-      "sourceReviewedMcq": 0,
-      "pendingMcq": 80,
-      "heldReviewed": 0,
+      "sourceReviewedMcq": 80,
+      "pendingMcq": 0,
+      "heldReviewed": 10,
       "expectedMcq": 80,
       "missingMcq": 0,
       "writtenRecords": 1,
-      "writtenGuides": 0,
-      "pendingWritten": 1,
+      "writtenGuides": 1,
+      "pendingWritten": 0,
       "keyHref": null,
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-dso-2019-english-B22",
+          "questionNumber": "B22",
+          "reason": "Held: the source passage does not contain “twirl,” and none of the options is a defensible synonym for that word. The printed question appears mismatched to its passage."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B35",
+          "questionNumber": "B35",
+          "reason": "Held: both “conflict among the men” and “conflict with the men” are grammatical and convey plausible meanings; the sentence gives no context that selects one."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B37",
+          "questionNumber": "B37",
+          "reason": "Held: both “opposite the chair” and “opposite to the chair” are grammatical, so the choices overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B40",
+          "questionNumber": "B40",
+          "reason": "Held: both “among the trees” and “between the trees” can describe an elk’s position; the scan gives no layout or number of trees to disambiguate."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B41",
+          "questionNumber": "B41",
+          "reason": "Held: the sentence gives no time context. “You wake up…?”, “You woke up…?”, and “You awoke…?” can all be grammatical in different contexts."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B59",
+          "questionNumber": "B59",
+          "reason": "Held: this is both an affirmative statement and an assertive sentence; the alternatives overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B60",
+          "questionNumber": "B60",
+          "reason": "Held: “There is no doubt…” is an assertive statement and is affirmative in meaning despite the word “no”; the available labels do not give a unique classification."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B61",
+          "questionNumber": "B61",
+          "reason": "Held: “She danced with me” is both affirmative and assertive; the alternatives overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B63",
+          "questionNumber": "B63",
+          "reason": "Held: “She threw the ball into the pit” is both affirmative and assertive; the alternatives overlap."
+        },
+        {
+          "id": "mpsc-group-b-dso-2019-english-B78",
+          "questionNumber": "B78",
+          "reason": "Held: “Euphony” means pleasing or harmonious sound, not living together in social harmony. None of the options is an exact synonym for the printed use of “harmony”."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-eo-2019-english-p1",

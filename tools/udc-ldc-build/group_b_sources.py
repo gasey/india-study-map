@@ -1410,6 +1410,18 @@ def build_additional():
                 else:
                     topic_id = 'clauses'
                 topic_label = taxonomy.resolve(topic_id)[1]
+            if slug == 'dso-2019-english':
+                n = q['n']
+                topic_id = ('idioms_phrases' if n <= 16 else
+                            'comprehension' if n <= 28 else
+                            'parts_of_speech' if n <= 34 else
+                            'prepositions' if n <= 40 else
+                            'verb_tenses' if n <= 48 else
+                            'sentence_types' if n <= 53 else
+                            'clauses' if n <= 58 else
+                            'sentence_types' if n <= 64 else
+                            'vocabulary_synonym')
+                topic_label = taxonomy.resolve(topic_id)[1]
             if slug == 'chemist2-2020-english':
                 n = q['n']
                 topic_id = ('comprehension' if n <= 12 else

@@ -310225,6 +310225,1439 @@
           "explanation": "The topography of the ocean bottom means its physical features and relief."
         }
       }
+    },
+    "dso-2019-english": {
+      "sourceSha256": "acea57eec5dc79b9f393f1ed1968881056a92f94d6c6a1ae3c8d2795ea39582d",
+      "expectedMcq": 80,
+      "reviewedOn": "2026-10-13",
+      "evidence": "Compared all eight printed pages against the extracted question text and options; verified the cover (August 2019, 3 hours, 100 marks; 20-mark essay plus 80 one-mark MCQs). Restored directions, preserved blanks and source emphasis, checked question/option order, and added page references. Independently solved the unambiguous MCQs; no official answer key was located. Ten items are explicitly held for overlapping choices, missing context, or a stem/option defect. Q26 option D prints “Encano” although the passage gives “Elcano”; retained as printed and explained the apparent typo. The source itself prints the Q41 direction typo “verb-form to kill”; retained as printed evidence.",
+      "questions": {
+        "1": {
+          "n": 1,
+          "page": 1,
+          "part": "B",
+          "opts": {
+            "a": "to put aside differences",
+            "b": "to put away a weapon",
+            "c": "to bury a weapon",
+            "d": "to hide something"
+          },
+          "q": "To bury the hatchet.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "2": {
+          "n": 2,
+          "page": 1,
+          "part": "B",
+          "opts": {
+            "a": "to give up on something",
+            "b": "to pass away",
+            "c": "to give something away",
+            "d": "to be unhappy"
+          },
+          "q": "To kick the bucket.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "3": {
+          "n": 3,
+          "page": 1,
+          "part": "B",
+          "opts": {
+            "a": "by stealing",
+            "b": "in complete secrecy",
+            "c": "by any means",
+            "d": "by force"
+          },
+          "q": "By hook or by crook.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "4": {
+          "n": 4,
+          "page": 1,
+          "part": "B",
+          "opts": {
+            "a": "very common",
+            "b": "very expensive",
+            "c": "very many",
+            "d": "very cheap"
+          },
+          "q": "A dime a dozen.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "5": {
+          "n": 5,
+          "page": 1,
+          "part": "B",
+          "opts": {
+            "a": "unexperienced",
+            "b": "beautiful",
+            "c": "needing to be rescued",
+            "d": "pretty"
+          },
+          "q": "Babe in the woods.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "6": {
+          "n": 6,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "very expensive",
+            "b": "very cheap",
+            "c": "illegally bought",
+            "d": "bought by trade"
+          },
+          "q": "Jack’s new car costs an arm and a leg.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "7": {
+          "n": 7,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "done badly",
+            "b": "done quickly",
+            "c": "done diligently",
+            "d": "none of these"
+          },
+          "q": "They cut corners while building their house and it eventually collapsed.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "8": {
+          "n": 8,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "to hit something",
+            "b": "to go to sleep",
+            "c": "to commit adultery",
+            "d": "to hit a sack"
+          },
+          "q": "Hit the sack.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "9": {
+          "n": 9,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "very common",
+            "b": "very rarely",
+            "c": "never happens",
+            "d": "none of these"
+          },
+          "q": "Michael being diligent only happens once in a blue moon.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "10": {
+          "n": 10,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "not to be taken seriously",
+            "b": "to be considered",
+            "c": "to be taken seriously",
+            "d": "to be forgotten"
+          },
+          "q": "Take it with a grain of salt.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "11": {
+          "n": 11,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "in his imagination",
+            "b": "in a losing position",
+            "c": "under his control",
+            "d": "under his possession"
+          },
+          "q": "Thomas had the entire game under his thumb.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "12": {
+          "n": 12,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "In-between",
+            "b": "Very rare",
+            "c": "Very near",
+            "d": "Very far"
+          },
+          "q": "few and far between",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "13": {
+          "n": 13,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "to be hypocritical",
+            "b": "to lie",
+            "c": "to snitch",
+            "d": "to be frank"
+          },
+          "q": "Call a spade a spade.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "14": {
+          "n": 14,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "life full of bliss",
+            "b": "life full of sorrow",
+            "c": "life full of quarrels",
+            "d": "life without quarrels"
+          },
+          "q": "Their marriage is basically a cat and dog life.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "15": {
+          "n": 15,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "spread slowly",
+            "b": "spread quickly",
+            "c": "spread dangerously",
+            "d": "spread like fire"
+          },
+          "q": "The rumor spread like wildfire.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "16": {
+          "n": 16,
+          "page": 2,
+          "part": "B",
+          "opts": {
+            "a": "die while in service",
+            "b": "die while in safety",
+            "c": "die in a hospital bed",
+            "d": "die peacefully"
+          },
+          "q": "Die in harness.",
+          "direction": "Directions (Questions 1–16): Choose the correct meaning of the idioms and phrases."
+        },
+        "17": {
+          "n": 17,
+          "page": 3,
+          "part": "B",
+          "opts": {
+            "a": "joy and happiness",
+            "b": "extreme talent and tragedy",
+            "c": "skill and depression",
+            "d": "none of these"
+          },
+          "q": "Van Gogh’s life was a mix of :",
+          "direction": "Read the Van Gogh passage and choose the appropriate answer."
+        },
+        "18": {
+          "n": 18,
+          "page": 3,
+          "part": "B",
+          "opts": {
+            "a": "his brother",
+            "b": "his friends",
+            "c": "his father",
+            "d": "his determination"
+          },
+          "q": "Van Gogh was able to pursue his passion because of :",
+          "direction": "Read the Van Gogh passage and choose the appropriate answer."
+        },
+        "19": {
+          "n": 19,
+          "page": 3,
+          "part": "B",
+          "opts": {
+            "a": "being a minister",
+            "b": "making money",
+            "c": "painting",
+            "d": "none of these"
+          },
+          "q": "What was he most passionate in?",
+          "direction": "Read the Van Gogh passage and choose the appropriate answer."
+        },
+        "20": {
+          "n": 20,
+          "page": 3,
+          "part": "B",
+          "opts": {
+            "a": "arrogant",
+            "b": "compassionate",
+            "c": "stubborn",
+            "d": "none of these"
+          },
+          "q": "What type of person was Van Gogh?",
+          "direction": "Read the Van Gogh passage and choose the appropriate answer."
+        },
+        "21": {
+          "n": 21,
+          "page": 3,
+          "part": "B",
+          "opts": {
+            "a": "rich and wealthy",
+            "b": "humble and impoverished",
+            "c": "both (a) & (b)",
+            "d": "none of these"
+          },
+          "q": "What type of people did he associate with?",
+          "direction": "Read the Van Gogh passage and choose the appropriate answer."
+        },
+        "22": {
+          "n": 22,
+          "page": 3,
+          "part": "B",
+          "opts": {
+            "a": "contrast",
+            "b": "compassionate",
+            "c": "passion",
+            "d": "intertwine"
+          },
+          "q": "Find the synonymous word for ‘__twirl__’ in the passage.",
+          "direction": "Read the Van Gogh passage and choose the appropriate answer.",
+          "unscored": true,
+          "explanation": "Held: the source passage does not contain “twirl,” and none of the options is a defensible synonym for that word. The printed question appears mismatched to its passage.",
+          "reviewNote": "Held: the source passage does not contain “twirl,” and none of the options is a defensible synonym for that word. The printed question appears mismatched to its passage."
+        },
+        "23": {
+          "n": 23,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "great marine and terrestrial exploration",
+            "b": "great space exploration",
+            "c": "great sea exploration",
+            "d": "none of these"
+          },
+          "q": "The 16th century was an age of :",
+          "direction": "Read the Magellan passage and choose the appropriate answer."
+        },
+        "24": {
+          "n": 24,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "Emperor Charles IV",
+            "b": "Emperor Charles V",
+            "c": "Emperor Henry III",
+            "d": "Emperor Charlie V"
+          },
+          "q": "Whom did Magellan serve later on after he was dismissed by his king.",
+          "direction": "Read the Magellan passage and choose the appropriate answer."
+        },
+        "25": {
+          "n": 25,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "of natural causes",
+            "b": "killed in a battle",
+            "c": "assassinated",
+            "d": "drowned"
+          },
+          "q": "How did Magellan die?",
+          "direction": "Read the Magellan passage and choose the appropriate answer."
+        },
+        "26": {
+          "n": 26,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "Magellan",
+            "b": "Ferdinand",
+            "c": "Charles",
+            "d": "Encano"
+          },
+          "q": "Who was the navigator that led his crew successfully to Spain?",
+          "direction": "Read the Magellan passage and choose the appropriate answer."
+        },
+        "27": {
+          "n": 27,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "quagmire",
+            "b": "intrigue",
+            "c": "topography",
+            "d": "none of these"
+          },
+          "q": "Find the word synonymous with ‘mess’ in the passage.",
+          "direction": "Read the Magellan passage and choose the appropriate answer."
+        },
+        "28": {
+          "n": 28,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "Portugal",
+            "b": "Spain",
+            "c": "France",
+            "d": "England"
+          },
+          "q": "Where was Magellan originally from?",
+          "direction": "Read the Magellan passage and choose the appropriate answer."
+        },
+        "29": {
+          "n": 29,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "proper noun",
+            "b": "common noun",
+            "c": "collective noun",
+            "d": "none of these"
+          },
+          "q": "**__Henry__** is not a smart person.",
+          "direction": "Identify the part of speech of the underlined word."
+        },
+        "30": {
+          "n": 30,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "adjective of quantity",
+            "b": "adjective of quality",
+            "c": "proper adjective",
+            "d": "emphasizing adjective"
+          },
+          "q": "The tomatoes were **__rotten__**.",
+          "direction": "Identify the part of speech of the underlined word."
+        },
+        "31": {
+          "n": 31,
+          "page": 4,
+          "part": "B",
+          "opts": {
+            "a": "transitive verb",
+            "b": "intransitive verb",
+            "c": "defective verb",
+            "d": "incomplete verb"
+          },
+          "q": "Lila **__conveyed__** the message.",
+          "direction": "Identify the part of speech of the underlined word."
+        },
+        "32": {
+          "n": 32,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "emphatic pronoun",
+            "b": "indefinite pronoun",
+            "c": "relative pronoun",
+            "d": "reflexive pronoun"
+          },
+          "q": "They **__themselves__** broke the vase.",
+          "direction": "Identify the part of speech of the underlined word."
+        },
+        "33": {
+          "n": 33,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "adverb of time",
+            "b": "adverb of duration",
+            "c": "adverb of manner",
+            "d": "relative adverb"
+          },
+          "q": "This is the place **__where__** I got stabbed.",
+          "direction": "Identify the part of speech of the underlined word."
+        },
+        "34": {
+          "n": 34,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "adverb",
+            "b": "quantitative determiner",
+            "c": "conjunction",
+            "d": "none of these"
+          },
+          "q": "She brought a shirt **__and__** a book.",
+          "direction": "Identify the part of speech of the underlined word."
+        },
+        "35": {
+          "n": 35,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "with",
+            "b": "on",
+            "c": "among",
+            "d": "by"
+          },
+          "q": "There was conflict  ________ the men.",
+          "direction": "Fill in the blank with a suitable preposition.",
+          "unscored": true,
+          "explanation": "Held: both “conflict among the men” and “conflict with the men” are grammatical and convey plausible meanings; the sentence gives no context that selects one.",
+          "reviewNote": "Held: both “conflict among the men” and “conflict with the men” are grammatical and convey plausible meanings; the sentence gives no context that selects one."
+        },
+        "36": {
+          "n": 36,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "in",
+            "b": "over",
+            "c": "among",
+            "d": "with"
+          },
+          "q": "He jumped ________ the bridge.",
+          "direction": "Fill in the blank with a suitable preposition."
+        },
+        "37": {
+          "n": 37,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "among",
+            "b": "in",
+            "c": "opposite",
+            "d": "opposite to"
+          },
+          "q": "The table was placed ________ the chair.",
+          "direction": "Fill in the blank with a suitable preposition.",
+          "unscored": true,
+          "explanation": "Held: both “opposite the chair” and “opposite to the chair” are grammatical, so the choices overlap.",
+          "reviewNote": "Held: both “opposite the chair” and “opposite to the chair” are grammatical, so the choices overlap."
+        },
+        "38": {
+          "n": 38,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "after",
+            "b": "before",
+            "c": "in",
+            "d": "of"
+          },
+          "q": "My grandfather died ________ cancer.",
+          "direction": "Fill in the blank with a suitable preposition."
+        },
+        "39": {
+          "n": 39,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "against",
+            "b": "in",
+            "c": "with",
+            "d": "under"
+          },
+          "q": "Don’t lean ________ the wall.",
+          "direction": "Fill in the blank with a suitable preposition."
+        },
+        "40": {
+          "n": 40,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "between",
+            "b": "among",
+            "c": "in",
+            "d": "into"
+          },
+          "q": "An elk stood ________ the trees.",
+          "direction": "Fill in the blank with a suitable preposition.",
+          "unscored": true,
+          "explanation": "Held: both “among the trees” and “between the trees” can describe an elk’s position; the scan gives no layout or number of trees to disambiguate.",
+          "reviewNote": "Held: both “among the trees” and “between the trees” can describe an elk’s position; the scan gives no layout or number of trees to disambiguate."
+        },
+        "41": {
+          "n": 41,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "woke up",
+            "b": "woke",
+            "c": "wake",
+            "d": "awoke"
+          },
+          "q": "You ________ early just to be lazy the whole day?",
+          "direction": "Choose the appropriate verb form for the blank.",
+          "unscored": true,
+          "explanation": "Held: the sentence gives no time context. “You wake up…?”, “You woke up…?”, and “You awoke…?” can all be grammatical in different contexts.",
+          "reviewNote": "Held: the sentence gives no time context. “You wake up…?”, “You woke up…?”, and “You awoke…?” can all be grammatical in different contexts."
+        },
+        "42": {
+          "n": 42,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "have not",
+            "b": "has not",
+            "c": "have",
+            "d": "has"
+          },
+          "q": "I ________ done any work today.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "43": {
+          "n": 43,
+          "page": 5,
+          "part": "B",
+          "opts": {
+            "a": "discoveries",
+            "b": "discovery",
+            "c": "discovered",
+            "d": "discovers"
+          },
+          "q": "The ________ of electricity paved way for many great inventions.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "44": {
+          "n": 44,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "jog",
+            "b": "jogs",
+            "c": "jogged",
+            "d": "jogging"
+          },
+          "q": "I was ________ down the street before I was mugged.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "45": {
+          "n": 45,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "see",
+            "b": "seen",
+            "c": "saw",
+            "d": "seeing"
+          },
+          "q": "I swear on my life that I ________ a ghost.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "46": {
+          "n": 46,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "eat",
+            "b": "ate",
+            "c": "eaten",
+            "d": "eats"
+          },
+          "q": "I ________ a croissant before I came over.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "47": {
+          "n": 47,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "was be staying",
+            "b": "will be staying",
+            "c": "was stay",
+            "d": "none of these"
+          },
+          "q": "I ________ in the Ritz for a week or so.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "48": {
+          "n": 48,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "gets up",
+            "b": "got up",
+            "c": "get up",
+            "d": "getting up"
+          },
+          "q": "I always ________ at six in the morning.",
+          "direction": "Choose the appropriate verb form for the blank."
+        },
+        "49": {
+          "n": 49,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence"
+          },
+          "q": "We met rather many people who spoke Spanish.",
+          "direction": "Analyze the sentence and choose its sentence type."
+        },
+        "50": {
+          "n": 50,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence"
+          },
+          "q": "We drove to Austria in a few days.",
+          "direction": "Analyze the sentence and choose its sentence type."
+        },
+        "51": {
+          "n": 51,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence"
+          },
+          "q": "I don’t care how cheap it is.",
+          "direction": "Analyze the sentence and choose its sentence type."
+        },
+        "52": {
+          "n": 52,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence"
+          },
+          "q": "You are not tall enough to be a policeman.",
+          "direction": "Analyze the sentence and choose its sentence type."
+        },
+        "53": {
+          "n": 53,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Compound sentence",
+            "b": "Complex sentence",
+            "c": "Simple sentence"
+          },
+          "q": "I guess she just doesn’t love you.",
+          "direction": "Analyze the sentence and choose its sentence type."
+        },
+        "54": {
+          "n": 54,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "q": "Ronald is my father-in-law **__who died a while back__**.",
+          "direction": "Identify the type of the underlined clause."
+        },
+        "55": {
+          "n": 55,
+          "page": 6,
+          "part": "B",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "q": "A nurse can find a job **__wherever she goes__**.",
+          "direction": "Identify the type of the underlined clause."
+        },
+        "56": {
+          "n": 56,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "q": "Now I understand **__why you didn’t want to leave__**.",
+          "direction": "Identify the type of the underlined clause."
+        },
+        "57": {
+          "n": 57,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "q": "This is the town where **__Lakeview Resort is located__**.",
+          "direction": "Identify the type of the underlined clause."
+        },
+        "58": {
+          "n": 58,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Noun Clause",
+            "b": "Adjective Clause",
+            "c": "Adverb Clause",
+            "d": "Co-Ordinate Clause"
+          },
+          "q": "**__Whoever thought of this__** is an idiot.",
+          "direction": "Identify the type of the underlined clause."
+        },
+        "59": {
+          "n": 59,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Exclamatory",
+            "b": "Assertive",
+            "c": "Affirmative",
+            "d": "Imperative"
+          },
+          "q": "The zookeeper shot the lion with a tranquilizer.",
+          "direction": "Identify the notion expressed by the sentence.",
+          "unscored": true,
+          "explanation": "Held: this is both an affirmative statement and an assertive sentence; the alternatives overlap.",
+          "reviewNote": "Held: this is both an affirmative statement and an assertive sentence; the alternatives overlap."
+        },
+        "60": {
+          "n": 60,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Affirmative",
+            "b": "Assertive",
+            "c": "Negative",
+            "d": "Exclamatory"
+          },
+          "q": "There is no doubt that Duke is a good person.",
+          "direction": "Identify the notion expressed by the sentence.",
+          "unscored": true,
+          "explanation": "Held: “There is no doubt…” is an assertive statement and is affirmative in meaning despite the word “no”; the available labels do not give a unique classification.",
+          "reviewNote": "Held: “There is no doubt…” is an assertive statement and is affirmative in meaning despite the word “no”; the available labels do not give a unique classification."
+        },
+        "61": {
+          "n": 61,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Affirmative",
+            "b": "Assertive",
+            "c": "Negative",
+            "d": "Exclamatory"
+          },
+          "q": "She danced with me.",
+          "direction": "Identify the notion expressed by the sentence.",
+          "unscored": true,
+          "explanation": "Held: “She danced with me” is both affirmative and assertive; the alternatives overlap.",
+          "reviewNote": "Held: “She danced with me” is both affirmative and assertive; the alternatives overlap."
+        },
+        "62": {
+          "n": 62,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Exclamatory",
+            "b": "Assertive",
+            "c": "Affirmative",
+            "d": "Imperative"
+          },
+          "q": "Goodness gracious, what a large Deer!",
+          "direction": "Identify the notion expressed by the sentence."
+        },
+        "63": {
+          "n": 63,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Negative",
+            "b": "Imperative",
+            "c": "Affirmative",
+            "d": "Assertive"
+          },
+          "q": "She threw the ball into the pit.",
+          "direction": "Identify the notion expressed by the sentence.",
+          "unscored": true,
+          "explanation": "Held: “She threw the ball into the pit” is both affirmative and assertive; the alternatives overlap.",
+          "reviewNote": "Held: “She threw the ball into the pit” is both affirmative and assertive; the alternatives overlap."
+        },
+        "64": {
+          "n": 64,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "Negative",
+            "b": "Exclamatory",
+            "c": "Imperative",
+            "d": "Assertive"
+          },
+          "q": "Stop fooling around and get to work.",
+          "direction": "Identify the notion expressed by the sentence."
+        },
+        "65": {
+          "n": 65,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "uncanny",
+            "b": "original",
+            "c": "canny",
+            "d": "suave"
+          },
+          "q": "Something out of the ordinary.",
+          "direction": "Choose the word matching the definition."
+        },
+        "66": {
+          "n": 66,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "promiscuous",
+            "b": "polygamy",
+            "c": "fertile",
+            "d": "concubine"
+          },
+          "q": "Having many wives or husbands.",
+          "direction": "Choose the word matching the definition."
+        },
+        "67": {
+          "n": 67,
+          "page": 7,
+          "part": "B",
+          "opts": {
+            "a": "avatar",
+            "b": "memento",
+            "c": "alias",
+            "d": "incognito"
+          },
+          "q": "A name that is assumed temporarily",
+          "direction": "Choose the word matching the definition."
+        },
+        "68": {
+          "n": 68,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "mythical",
+            "b": "arcane",
+            "c": "apocryphal",
+            "d": "voodoo"
+          },
+          "q": "Requiring secret or mysterious knowledge.",
+          "direction": "Choose the word matching the definition."
+        },
+        "69": {
+          "n": 69,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "waterfall",
+            "b": "clarion",
+            "c": "stream",
+            "d": "maelstrom"
+          },
+          "q": "A powerful circular current of water.",
+          "direction": "Choose the word matching the definition."
+        },
+        "70": {
+          "n": 70,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "delinquent",
+            "b": "pariah",
+            "c": "degenerate",
+            "d": "bandit"
+          },
+          "q": "A person who is rejected from home or society.",
+          "direction": "Choose the word matching the definition."
+        },
+        "71": {
+          "n": 71,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "plethora",
+            "b": "portent",
+            "c": "presage",
+            "d": "potent"
+          },
+          "q": "In excess quantity.",
+          "direction": "Choose the word matching the definition."
+        },
+        "72": {
+          "n": 72,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "etiquette",
+            "b": "quaint",
+            "c": "handsome",
+            "d": "majestic"
+          },
+          "q": "Attractively old-fashioned.",
+          "direction": "Choose the word matching the definition."
+        },
+        "73": {
+          "n": 73,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "adequate",
+            "b": "improper",
+            "c": "barely",
+            "d": "wonderful"
+          },
+          "q": "The paper you presented is __acceptable__ but not up to my expectations.",
+          "direction": "Choose the synonym of the italicized word."
+        },
+        "74": {
+          "n": 74,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "ugly",
+            "b": "beautiful",
+            "c": "lust",
+            "d": "clean"
+          },
+          "q": "She gazed at me with her __alluring__ eyes.",
+          "direction": "Choose the synonym of the italicized word."
+        },
+        "75": {
+          "n": 75,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "impressive",
+            "b": "wonderful",
+            "c": "awful",
+            "d": "weird"
+          },
+          "q": "The thing you did is just simply __atrocious__.",
+          "direction": "Choose the synonym of the italicized word."
+        },
+        "76": {
+          "n": 76,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "minimal",
+            "b": "smidgen",
+            "c": "shred",
+            "d": "plenty"
+          },
+          "q": "I have an __ample__ amount of cash.",
+          "direction": "Choose the synonym of the italicized word."
+        },
+        "77": {
+          "n": 77,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "astute",
+            "b": "arduous",
+            "c": "wonderful",
+            "d": "integral"
+          },
+          "q": "You are a __brilliant__ student.",
+          "direction": "Choose the synonym of the italicized word."
+        },
+        "78": {
+          "n": 78,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "euphony",
+            "b": "epiphany",
+            "c": "eulogy",
+            "d": "melody"
+          },
+          "q": "Like ebony and ivory, they live in complete __harmony__.",
+          "direction": "Choose the synonym of the italicized word.",
+          "unscored": true,
+          "explanation": "Held: “Euphony” means pleasing or harmonious sound, not living together in social harmony. None of the options is an exact synonym for the printed use of “harmony”.",
+          "reviewNote": "Held: “Euphony” means pleasing or harmonious sound, not living together in social harmony. None of the options is an exact synonym for the printed use of “harmony”."
+        },
+        "79": {
+          "n": 79,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "delirium",
+            "b": "confusion",
+            "c": "jubilation",
+            "d": "dysphoria"
+          },
+          "q": "It was a moment of __exhilaration__.",
+          "direction": "Choose the synonym of the italicized word."
+        },
+        "80": {
+          "n": 80,
+          "page": 8,
+          "part": "B",
+          "opts": {
+            "a": "exasperated",
+            "b": "wonderful",
+            "c": "euphoria",
+            "d": "utopia"
+          },
+          "q": "Just the memory of her made him feel __vexed__.",
+          "direction": "Choose the synonym of the italicized word."
+        }
+      },
+      "derivedAnswers": {
+        "1": {
+          "answerIndex": 0,
+          "explanation": "“Bury the hatchet” means end a disagreement and make peace.",
+          "answerConfidence": "high"
+        },
+        "2": {
+          "answerIndex": 1,
+          "explanation": "“Kick the bucket” is an informal idiom meaning to die.",
+          "answerConfidence": "high"
+        },
+        "3": {
+          "answerIndex": 2,
+          "explanation": "“By hook or by crook” means by any means, fair or otherwise.",
+          "answerConfidence": "high"
+        },
+        "4": {
+          "answerIndex": 0,
+          "explanation": "“A dime a dozen” describes something very common and easy to find.",
+          "answerConfidence": "high"
+        },
+        "5": {
+          "answerIndex": 0,
+          "explanation": "A “babe in the woods” is inexperienced or naive.",
+          "answerConfidence": "high"
+        },
+        "6": {
+          "answerIndex": 0,
+          "explanation": "“An arm and a leg” means a very large amount of money; the car is very expensive.",
+          "answerConfidence": "high"
+        },
+        "7": {
+          "answerIndex": 0,
+          "explanation": "To “cut corners” is to do something carelessly or cheaply, often reducing quality; the house was done badly.",
+          "answerConfidence": "high"
+        },
+        "8": {
+          "answerIndex": 1,
+          "explanation": "“Hit the sack” is an informal expression meaning go to bed or sleep.",
+          "answerConfidence": "high"
+        },
+        "9": {
+          "answerIndex": 1,
+          "explanation": "“Once in a blue moon” means very rarely.",
+          "answerConfidence": "high"
+        },
+        "10": {
+          "answerIndex": 0,
+          "explanation": "To take something “with a grain of salt” is to regard it skeptically, not accept it as certainly true.",
+          "answerConfidence": "high"
+        },
+        "11": {
+          "answerIndex": 2,
+          "explanation": "Having the game “under his thumb” means having it under his control.",
+          "answerConfidence": "high"
+        },
+        "12": {
+          "answerIndex": 1,
+          "explanation": "“Few and far between” means very rare or infrequent.",
+          "answerConfidence": "high"
+        },
+        "13": {
+          "answerIndex": 3,
+          "explanation": "“Call a spade a spade” means speak frankly and directly.",
+          "answerConfidence": "high"
+        },
+        "14": {
+          "answerIndex": 2,
+          "explanation": "A “cat and dog” life is characterized by frequent quarrels.",
+          "answerConfidence": "high"
+        },
+        "15": {
+          "answerIndex": 1,
+          "explanation": "“Spread like wildfire” means spread very quickly.",
+          "answerConfidence": "high"
+        },
+        "16": {
+          "answerIndex": 0,
+          "explanation": "“Die in harness” means die while still working or serving.",
+          "answerConfidence": "high"
+        },
+        "17": {
+          "answerIndex": 1,
+          "explanation": "The passage explicitly describes his life as extreme talent mixed with tragedy.",
+          "answerConfidence": "high"
+        },
+        "18": {
+          "answerIndex": 0,
+          "explanation": "Theo, his brother, gave him financial and moral assistance, enabling him to continue painting.",
+          "answerConfidence": "high"
+        },
+        "19": {
+          "answerIndex": 2,
+          "explanation": "Although he first considered ministry, the passage says he discovered a passion for painting.",
+          "answerConfidence": "high"
+        },
+        "20": {
+          "answerIndex": 1,
+          "explanation": "The passage directly describes Van Gogh as compassionate and says he gave possessions to people in need.",
+          "answerConfidence": "high"
+        },
+        "21": {
+          "answerIndex": 1,
+          "explanation": "It says he often associated with humble, impoverished people.",
+          "answerConfidence": "high"
+        },
+        "23": {
+          "answerIndex": 0,
+          "explanation": "The opening sentence calls the 16th century an age of great marine and terrestrial exploration.",
+          "answerConfidence": "high"
+        },
+        "24": {
+          "answerIndex": 1,
+          "explanation": "The passage says he offered to serve the future Emperor Charles V of Spain.",
+          "answerConfidence": "high"
+        },
+        "25": {
+          "answerIndex": 1,
+          "explanation": "It says he was killed in a tribal battle in the Philippines.",
+          "answerConfidence": "high"
+        },
+        "26": {
+          "answerIndex": 3,
+          "explanation": "The surviving ship and 17 sailors returned under Basque navigator Elcano; option D is evidently intended, although the option prints “Encano.”",
+          "answerConfidence": "medium"
+        },
+        "27": {
+          "answerIndex": 0,
+          "explanation": "“Quagmire” means a difficult, confused situation, matching “mess” in this context.",
+          "answerConfidence": "high"
+        },
+        "28": {
+          "answerIndex": 0,
+          "explanation": "The passage calls Magellan a Portuguese noble and says he served Portugal’s king.",
+          "answerConfidence": "high"
+        },
+        "29": {
+          "answerIndex": 0,
+          "explanation": "Henry is a specific person’s name, so it is a proper noun.",
+          "answerConfidence": "high"
+        },
+        "30": {
+          "answerIndex": 1,
+          "explanation": "“Rotten” describes the quality or condition of the tomatoes, so it is an adjective of quality.",
+          "answerConfidence": "high"
+        },
+        "31": {
+          "answerIndex": 0,
+          "explanation": "“Conveyed” takes the direct object “the message,” so it is transitive.",
+          "answerConfidence": "high"
+        },
+        "32": {
+          "answerIndex": 0,
+          "explanation": "“Themselves” emphasizes the subject “they”; it is emphatic, not an object reflecting the action back on them.",
+          "answerConfidence": "high"
+        },
+        "33": {
+          "answerIndex": 3,
+          "explanation": "“Where” introduces a place-related relative clause and modifies “place”; it is a relative adverb.",
+          "answerConfidence": "high"
+        },
+        "34": {
+          "answerIndex": 2,
+          "explanation": "“And” joins the coordinated noun phrases “a shirt” and “a book,” so it is a conjunction.",
+          "answerConfidence": "high"
+        },
+        "36": {
+          "answerIndex": 1,
+          "explanation": "“Jumped over the bridge” expresses movement across/above the bridge; “over” fits the printed choices.",
+          "answerConfidence": "high"
+        },
+        "38": {
+          "answerIndex": 3,
+          "explanation": "The standard construction is “died of cancer.”",
+          "answerConfidence": "high"
+        },
+        "39": {
+          "answerIndex": 0,
+          "explanation": "The standard collocation is “lean against the wall.”",
+          "answerConfidence": "high"
+        },
+        "42": {
+          "answerIndex": 0,
+          "explanation": "“I” takes “have,” and “have not done” is the present perfect form used with “today.”",
+          "answerConfidence": "high"
+        },
+        "43": {
+          "answerIndex": 1,
+          "explanation": "The sentence needs the noun “discovery” as its subject: “The discovery of electricity paved the way…”",
+          "answerConfidence": "high"
+        },
+        "44": {
+          "answerIndex": 3,
+          "explanation": "The past progressive “was jogging” describes the ongoing action interrupted by the mugging.",
+          "answerConfidence": "high"
+        },
+        "45": {
+          "answerIndex": 2,
+          "explanation": "After “I swear ... that,” the reported past event is “I saw a ghost.”",
+          "answerConfidence": "high"
+        },
+        "46": {
+          "answerIndex": 1,
+          "explanation": "“Ate” is the simple past form that fits the completed action before the later past event.",
+          "answerConfidence": "medium"
+        },
+        "47": {
+          "answerIndex": 1,
+          "explanation": "“Will be staying” is the grammatical future progressive form for a planned future stay.",
+          "answerConfidence": "high"
+        },
+        "48": {
+          "answerIndex": 2,
+          "explanation": "“Always” signals a habitual action; with “I,” the simple present is “get up.”",
+          "answerConfidence": "high"
+        },
+        "49": {
+          "answerIndex": 1,
+          "explanation": "The relative clause “who spoke Spanish” depends on “people,” making the sentence complex.",
+          "answerConfidence": "high"
+        },
+        "50": {
+          "answerIndex": 2,
+          "explanation": "There is one independent clause and no dependent clause, so it is simple.",
+          "answerConfidence": "high"
+        },
+        "51": {
+          "answerIndex": 1,
+          "explanation": "“How cheap it is” is a dependent noun clause after “care,” so the sentence is complex.",
+          "answerConfidence": "high"
+        },
+        "52": {
+          "answerIndex": 2,
+          "explanation": "There is one finite independent clause; “to be a policeman” is an infinitive phrase, so the sentence is simple in the usual school classification.",
+          "answerConfidence": "medium"
+        },
+        "53": {
+          "answerIndex": 1,
+          "explanation": "“She just doesn’t love you” is the dependent clause functioning as the object of “guess,” so this is complex.",
+          "answerConfidence": "high"
+        },
+        "54": {
+          "answerIndex": 1,
+          "explanation": "“Who died a while back” modifies “father-in-law,” so it is an adjective/relative clause.",
+          "answerConfidence": "high"
+        },
+        "55": {
+          "answerIndex": 2,
+          "explanation": "“Wherever she goes” tells where she can find a job, so it is an adverb clause of place.",
+          "answerConfidence": "high"
+        },
+        "56": {
+          "answerIndex": 0,
+          "explanation": "“Why you didn’t want to leave” is what the speaker understands; it functions as a noun clause.",
+          "answerConfidence": "high"
+        },
+        "57": {
+          "answerIndex": 1,
+          "explanation": "The underlined clause identifies which town is meant by modifying “town,” so it is an adjective (relative) clause.",
+          "answerConfidence": "high"
+        },
+        "58": {
+          "answerIndex": 0,
+          "explanation": "“Whoever thought of this” is the subject of “is an idiot,” so it is a noun clause.",
+          "answerConfidence": "high"
+        },
+        "62": {
+          "answerIndex": 0,
+          "explanation": "The exclamation “Goodness gracious, what a large deer!” expresses strong feeling and is exclamatory.",
+          "answerConfidence": "high"
+        },
+        "64": {
+          "answerIndex": 2,
+          "explanation": "“Stop ... and get ...” gives commands, so it is imperative.",
+          "answerConfidence": "high"
+        },
+        "65": {
+          "answerIndex": 0,
+          "explanation": "“Uncanny” means strange or mysterious, outside the ordinary.",
+          "answerConfidence": "high"
+        },
+        "66": {
+          "answerIndex": 1,
+          "explanation": "“Polygamy” is the practice of having more than one spouse; it is the best matching listed term for the definition.",
+          "answerConfidence": "medium"
+        },
+        "67": {
+          "answerIndex": 2,
+          "explanation": "An “alias” is an assumed or alternate name.",
+          "answerConfidence": "high"
+        },
+        "68": {
+          "answerIndex": 1,
+          "explanation": "“Arcane” means understood by few and requiring specialized or mysterious knowledge.",
+          "answerConfidence": "high"
+        },
+        "69": {
+          "answerIndex": 3,
+          "explanation": "A “maelstrom” is a powerful whirlpool or turbulent circular current.",
+          "answerConfidence": "high"
+        },
+        "70": {
+          "answerIndex": 1,
+          "explanation": "A “pariah” is a person rejected or shunned by society.",
+          "answerConfidence": "high"
+        },
+        "71": {
+          "answerIndex": 0,
+          "explanation": "A “plethora” is an abundance or excess quantity.",
+          "answerConfidence": "high"
+        },
+        "72": {
+          "answerIndex": 1,
+          "explanation": "“Quaint” means attractively old-fashioned.",
+          "answerConfidence": "high"
+        },
+        "73": {
+          "answerIndex": 0,
+          "explanation": "“Acceptable” here means adequate or satisfactory.",
+          "answerConfidence": "high"
+        },
+        "74": {
+          "answerIndex": 1,
+          "explanation": "“Alluring” means attractive or appealing; “beautiful” is the closest choice.",
+          "answerConfidence": "high"
+        },
+        "75": {
+          "answerIndex": 2,
+          "explanation": "“Atrocious” means extremely bad or awful.",
+          "answerConfidence": "high"
+        },
+        "76": {
+          "answerIndex": 3,
+          "explanation": "“Ample” means more than enough; “plenty” is the closest option.",
+          "answerConfidence": "high"
+        },
+        "77": {
+          "answerIndex": 0,
+          "explanation": "“Brilliant” describes a very intelligent student; “astute” is the closest listed synonym.",
+          "answerConfidence": "medium"
+        },
+        "79": {
+          "answerIndex": 2,
+          "explanation": "“Exhilaration” is intense happiness or excitement; “jubilation” is the closest choice.",
+          "answerConfidence": "high"
+        },
+        "80": {
+          "answerIndex": 0,
+          "explanation": "“Vexed” means annoyed or exasperated.",
+          "answerConfidence": "high"
+        }
+      },
+      "written": {
+        "1": {
+          "page": 1,
+          "questionNumber": "A",
+          "q": "Write an essay on __any one__ of these topics in no more than 300 words: (1) Secularism in India; (2) Importance of Empathy; (3) Impact of Religion in Mizoram. (20 marks).",
+          "explanation": "Choose one topic and write a focused essay of at most 300 words. Use a clear introduction, two or three connected points supported by examples, and a conclusion. For secularism, explain equal respect and constitutional protections; for empathy, define perspective-taking and show its value in relationships or public service; for religion in Mizoram, distinguish social/cultural contributions from pluralism and discuss effects with balanced evidence. Stay on topic and check grammar and paragraph flow."
+        }
+      }
     }
   }
 }

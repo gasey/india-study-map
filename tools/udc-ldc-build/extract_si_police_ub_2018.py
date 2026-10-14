@@ -32,6 +32,7 @@ QUESTION_START = re.compile(r'^\s*(\d{1,3})\.\s+', re.M)
 def clean(text):
     text = re.sub(r'\f\s*-\s*\d+\s*-', ' ', text)
     text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'(?<=\d)o\b', '°', text)
     return text.strip(' \t-')
 
 

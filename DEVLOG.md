@@ -1,3 +1,32 @@
+## 14 October 2026 — Restore printed festival-pair layout
+
+LDC February 2025 Paper I Q10 still displayed its four festival/state pairs
+as one sentence because the clerical TypeScript emitter replaced question
+newlines with spaces. The printed page 2 scan confirms the four rows and the
+option letters. A guarded arbitration now records the rows and printed
+choices, and the emitter preserves line breaks in question stems. The answer
+remains B (pairs 2 and 3); this is a readability and source-fidelity repair.
+
+## 14 October 2026 — Reconcile source repairs and generated exam banks
+
+The LDC/UDC and Group B banks were regenerated from the reviewed inputs so
+source-checked figures, arithmetic notation, repaired stems, and worked
+Economics explanations appear in the module. The Group B rebuild preserves
+all 26,987 question IDs and makes 37 previously held items ready while
+holding 15 items whose answer or source is disputed (net 22 more ready).
+The clerical rebuild preserves its question IDs and leaves the sibling
+question-bank state unchanged.
+
+An older arbitration for LDC 2025 Paper I Q25 asserted that an ambiguous
+central-bank lending-rate stem uniquely meant “bank rate.” It was removed;
+the later source review now keeps that question unscored because “repo rate”
+also fits the wording. The Group B builder now accepts shared Economics
+reviews for clerical IDs without treating those IDs as missing Group B rows,
+and still rejects stale Group B IDs. New figure attachments and text repairs
+retain their printed-source context. Proposed bulk answer-key changes from
+the separate parser were not applied; they still need individual conflict
+review before they can affect scored practice.
+
 ## 14 October 2026 — Science compilation and Economics source review
 
 The UDC/LDC/Group B study module now has a Science compilation beside Mizo and

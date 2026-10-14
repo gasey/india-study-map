@@ -7,13 +7,13 @@
     "records": 26987,
     "mcq": 26046,
     "writtenRecords": 941,
-    "ready": 23528,
-    "readyOfficial": 8616,
-    "pendingMcq": 1286,
-    "heldReviewed": 1232,
-    "workedGuidesReviewed": 18031,
-    "pendingMcqGuides": 8015,
-    "keyOnlyFeedback": 6425,
+    "ready": 23552,
+    "readyOfficial": 8611,
+    "pendingMcq": 1249,
+    "heldReviewed": 1245,
+    "workedGuidesReviewed": 18177,
+    "pendingMcqGuides": 7869,
+    "keyOnlyFeedback": 6248,
     "writtenGuidesReviewed": 361,
     "pendingWrittenGuides": 580,
     "missingMcq": 312
@@ -37,16 +37,16 @@
       "records": 734,
       "mcq": 734,
       "writtenRecords": 0,
-      "ready": 709,
+      "ready": 710,
       "readyOfficial": 288,
       "pendingMcq": 9,
-      "heldReviewed": 16,
+      "heldReviewed": 15,
       "workedGuidesReviewed": 725,
       "pendingMcqGuides": 9,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
-      "mixedTopicRecords": 32
+      "mixedTopicRecords": 35
     },
     "computer": {
       "records": 110,
@@ -67,13 +67,13 @@
       "records": 15137,
       "mcq": 15137,
       "writtenRecords": 0,
-      "ready": 13432,
-      "readyOfficial": 6394,
-      "pendingMcq": 1273,
-      "heldReviewed": 432,
-      "workedGuidesReviewed": 7827,
-      "pendingMcqGuides": 7310,
-      "keyOnlyFeedback": 5864,
+      "ready": 13455,
+      "readyOfficial": 6389,
+      "pendingMcq": 1236,
+      "heldReviewed": 446,
+      "workedGuidesReviewed": 7973,
+      "pendingMcqGuides": 7164,
+      "keyOnlyFeedback": 5687,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0
     },
@@ -217,9 +217,9 @@
       "readyOfficial": 100,
       "pendingMcq": 0,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 1,
-      "pendingMcqGuides": 99,
-      "keyOnlyFeedback": 99,
+      "workedGuidesReviewed": 5,
+      "pendingMcqGuides": 95,
+      "keyOnlyFeedback": 95,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -231,9 +231,9 @@
           "readyOfficial": 100,
           "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 1,
-          "pendingMcqGuides": 99,
-          "keyOnlyFeedback": 99,
+          "workedGuidesReviewed": 5,
+          "pendingMcqGuides": 95,
+          "keyOnlyFeedback": 95,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -646,7 +646,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 97,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -660,7 +660,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 97,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -1365,7 +1365,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 98,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -1379,7 +1379,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 98,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -2055,7 +2055,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 97,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -2069,7 +2069,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 97,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -7489,7 +7489,7 @@
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
-          "mixedTopicRecords": 1
+          "mixedTopicRecords": 4
         },
         "gk": {
           "records": 50,
@@ -9081,9 +9081,9 @@
       "readyOfficial": 97,
       "pendingMcq": 0,
       "heldReviewed": 3,
-      "workedGuidesReviewed": 3,
-      "pendingMcqGuides": 97,
-      "keyOnlyFeedback": 97,
+      "workedGuidesReviewed": 8,
+      "pendingMcqGuides": 92,
+      "keyOnlyFeedback": 92,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9095,9 +9095,9 @@
           "readyOfficial": 97,
           "pendingMcq": 0,
           "heldReviewed": 3,
-          "workedGuidesReviewed": 3,
-          "pendingMcqGuides": 97,
-          "keyOnlyFeedback": 97,
+          "workedGuidesReviewed": 8,
+          "pendingMcqGuides": 92,
+          "keyOnlyFeedback": 92,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9141,9 +9141,9 @@
       "readyOfficial": 86,
       "pendingMcq": 0,
       "heldReviewed": 3,
-      "workedGuidesReviewed": 3,
-      "pendingMcqGuides": 86,
-      "keyOnlyFeedback": 86,
+      "workedGuidesReviewed": 5,
+      "pendingMcqGuides": 84,
+      "keyOnlyFeedback": 84,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9155,9 +9155,9 @@
           "readyOfficial": 86,
           "pendingMcq": 0,
           "heldReviewed": 3,
-          "workedGuidesReviewed": 3,
-          "pendingMcqGuides": 86,
-          "keyOnlyFeedback": 86,
+          "workedGuidesReviewed": 5,
+          "pendingMcqGuides": 84,
+          "keyOnlyFeedback": 84,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9197,12 +9197,12 @@
       "records": 88,
       "mcq": 88,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 2,
       "readyOfficial": 0,
-      "pendingMcq": 88,
+      "pendingMcq": 86,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 88,
+      "workedGuidesReviewed": 2,
+      "pendingMcqGuides": 86,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -9211,12 +9211,12 @@
           "records": 88,
           "mcq": 88,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 2,
           "readyOfficial": 0,
-          "pendingMcq": 88,
+          "pendingMcq": 86,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 88,
+          "workedGuidesReviewed": 2,
+          "pendingMcqGuides": 86,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -9378,9 +9378,9 @@
       "readyOfficial": 50,
       "pendingMcq": 0,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 50,
-      "keyOnlyFeedback": 50,
+      "workedGuidesReviewed": 7,
+      "pendingMcqGuides": 43,
+      "keyOnlyFeedback": 43,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9392,9 +9392,9 @@
           "readyOfficial": 50,
           "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 50,
-          "keyOnlyFeedback": 50,
+          "workedGuidesReviewed": 7,
+          "pendingMcqGuides": 43,
+          "keyOnlyFeedback": 43,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9460,9 +9460,9 @@
       "readyOfficial": 100,
       "pendingMcq": 0,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 99,
+      "keyOnlyFeedback": 99,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9474,9 +9474,9 @@
           "readyOfficial": 100,
           "pendingMcq": 0,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 99,
+          "keyOnlyFeedback": 99,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9501,9 +9501,9 @@
       "readyOfficial": 95,
       "pendingMcq": 0,
       "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 96,
-      "keyOnlyFeedback": 95,
+      "workedGuidesReviewed": 19,
+      "pendingMcqGuides": 77,
+      "keyOnlyFeedback": 76,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9515,9 +9515,9 @@
           "readyOfficial": 95,
           "pendingMcq": 0,
           "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 96,
-          "keyOnlyFeedback": 95,
+          "workedGuidesReviewed": 19,
+          "pendingMcqGuides": 77,
+          "keyOnlyFeedback": 76,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9611,7 +9611,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 98,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9625,7 +9625,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 98,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9758,9 +9758,9 @@
       "readyOfficial": 83,
       "pendingMcq": 4,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 87,
-      "keyOnlyFeedback": 87,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 86,
+      "keyOnlyFeedback": 86,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9772,9 +9772,9 @@
           "readyOfficial": 83,
           "pendingMcq": 4,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 87,
-          "keyOnlyFeedback": 87,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 86,
+          "keyOnlyFeedback": 86,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9840,9 +9840,9 @@
       "readyOfficial": 83,
       "pendingMcq": 2,
       "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 86,
-      "keyOnlyFeedback": 86,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 85,
+      "keyOnlyFeedback": 85,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9854,9 +9854,9 @@
           "readyOfficial": 83,
           "pendingMcq": 2,
           "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 86,
-          "keyOnlyFeedback": 86,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 85,
+          "keyOnlyFeedback": 85,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9888,9 +9888,9 @@
       "readyOfficial": 87,
       "pendingMcq": 2,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 89,
-      "keyOnlyFeedback": 89,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 88,
+      "keyOnlyFeedback": 88,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9902,9 +9902,9 @@
           "readyOfficial": 87,
           "pendingMcq": 2,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 89,
-          "keyOnlyFeedback": 89,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 88,
+          "keyOnlyFeedback": 88,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9925,13 +9925,13 @@
       "records": 88,
       "mcq": 88,
       "writtenRecords": 0,
-      "ready": 82,
-      "readyOfficial": 82,
+      "ready": 79,
+      "readyOfficial": 79,
       "pendingMcq": 5,
-      "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 88,
-      "keyOnlyFeedback": 88,
+      "heldReviewed": 4,
+      "workedGuidesReviewed": 17,
+      "pendingMcqGuides": 71,
+      "keyOnlyFeedback": 71,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9939,13 +9939,13 @@
           "records": 88,
           "mcq": 88,
           "writtenRecords": 0,
-          "ready": 82,
-          "readyOfficial": 82,
+          "ready": 79,
+          "readyOfficial": 79,
           "pendingMcq": 5,
-          "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 88,
-          "keyOnlyFeedback": 88,
+          "heldReviewed": 4,
+          "workedGuidesReviewed": 17,
+          "pendingMcqGuides": 71,
+          "keyOnlyFeedback": 71,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -9956,6 +9956,24 @@
           "questionNumber": "8",
           "section": "gk",
           "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q54",
+          "questionNumber": "54",
+          "section": "gk",
+          "reason": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q64",
+          "questionNumber": "64",
+          "section": "gk",
+          "reason": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q66",
+          "questionNumber": "66",
+          "section": "gk",
+          "reason": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring."
         }
       ]
     },
@@ -9973,13 +9991,13 @@
       "records": 92,
       "mcq": 92,
       "writtenRecords": 0,
-      "ready": 86,
-      "readyOfficial": 86,
-      "pendingMcq": 6,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 92,
-      "keyOnlyFeedback": 92,
+      "ready": 84,
+      "readyOfficial": 84,
+      "pendingMcq": 5,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 17,
+      "pendingMcqGuides": 75,
+      "keyOnlyFeedback": 75,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -9987,18 +10005,37 @@
           "records": 92,
           "mcq": 92,
           "writtenRecords": 0,
-          "ready": 86,
-          "readyOfficial": 86,
-          "pendingMcq": 6,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 92,
-          "keyOnlyFeedback": 92,
+          "ready": 84,
+          "readyOfficial": 84,
+          "pendingMcq": 5,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 17,
+          "pendingMcqGuides": 75,
+          "keyOnlyFeedback": 75,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q79",
+          "questionNumber": "79",
+          "section": "gk",
+          "reason": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q89",
+          "questionNumber": "89",
+          "section": "gk",
+          "reason": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q91",
+          "questionNumber": "91",
+          "section": "gk",
+          "reason": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025",
@@ -10016,11 +10053,11 @@
       "writtenRecords": 0,
       "ready": 81,
       "readyOfficial": 81,
-      "pendingMcq": 4,
-      "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 86,
-      "keyOnlyFeedback": 86,
+      "pendingMcq": 2,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 13,
+      "pendingMcqGuides": 73,
+      "keyOnlyFeedback": 73,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10030,21 +10067,33 @@
           "writtenRecords": 0,
           "ready": 81,
           "readyOfficial": 81,
-          "pendingMcq": 4,
-          "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 86,
-          "keyOnlyFeedback": 86,
+          "pendingMcq": 2,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 13,
+          "pendingMcqGuides": 73,
+          "keyOnlyFeedback": 73,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
       "heldItems": [
         {
-          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q8",
-          "questionNumber": "8",
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q16",
+          "questionNumber": "16",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q26",
+          "questionNumber": "26",
+          "section": "gk",
+          "reason": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q28",
+          "questionNumber": "28",
+          "section": "gk",
+          "reason": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring."
         }
       ]
     },
@@ -10062,13 +10111,13 @@
       "records": 87,
       "mcq": 87,
       "writtenRecords": 0,
-      "ready": 79,
-      "readyOfficial": 79,
-      "pendingMcq": 8,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 87,
-      "keyOnlyFeedback": 87,
+      "ready": 77,
+      "readyOfficial": 77,
+      "pendingMcq": 7,
+      "heldReviewed": 3,
+      "workedGuidesReviewed": 12,
+      "pendingMcqGuides": 75,
+      "keyOnlyFeedback": 75,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10076,18 +10125,37 @@
           "records": 87,
           "mcq": 87,
           "writtenRecords": 0,
-          "ready": 79,
-          "readyOfficial": 79,
-          "pendingMcq": 8,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 87,
-          "keyOnlyFeedback": 87,
+          "ready": 77,
+          "readyOfficial": 77,
+          "pendingMcq": 7,
+          "heldReviewed": 3,
+          "workedGuidesReviewed": 12,
+          "pendingMcqGuides": 75,
+          "keyOnlyFeedback": 75,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q16",
+          "questionNumber": "16",
+          "section": "gk",
+          "reason": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q26",
+          "questionNumber": "26",
+          "section": "gk",
+          "reason": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction."
+        },
+        {
+          "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q28",
+          "questionNumber": "28",
+          "section": "gk",
+          "reason": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025",
@@ -10107,9 +10175,9 @@
       "readyOfficial": 68,
       "pendingMcq": 8,
       "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 77,
-      "keyOnlyFeedback": 77,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 76,
+      "keyOnlyFeedback": 76,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10121,9 +10189,9 @@
           "readyOfficial": 68,
           "pendingMcq": 8,
           "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 77,
-          "keyOnlyFeedback": 77,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 76,
+          "keyOnlyFeedback": 76,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -10155,9 +10223,9 @@
       "readyOfficial": 67,
       "pendingMcq": 2,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 69,
-      "keyOnlyFeedback": 69,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 68,
+      "keyOnlyFeedback": 68,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10169,9 +10237,9 @@
           "readyOfficial": 67,
           "pendingMcq": 2,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 69,
-          "keyOnlyFeedback": 69,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 68,
+          "keyOnlyFeedback": 68,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -10196,9 +10264,9 @@
       "readyOfficial": 71,
       "pendingMcq": 4,
       "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 76,
-      "keyOnlyFeedback": 76,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 75,
+      "keyOnlyFeedback": 75,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10210,9 +10278,9 @@
           "readyOfficial": 71,
           "pendingMcq": 4,
           "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 76,
-          "keyOnlyFeedback": 76,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 75,
+          "keyOnlyFeedback": 75,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -10244,9 +10312,9 @@
       "readyOfficial": 67,
       "pendingMcq": 9,
       "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 77,
-      "keyOnlyFeedback": 77,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 76,
+      "keyOnlyFeedback": 76,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10258,9 +10326,9 @@
           "readyOfficial": 67,
           "pendingMcq": 9,
           "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 77,
-          "keyOnlyFeedback": 77,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 76,
+          "keyOnlyFeedback": 76,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -10657,12 +10725,12 @@
       "records": 88,
       "mcq": 88,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 4,
       "readyOfficial": 0,
-      "pendingMcq": 88,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 88,
+      "pendingMcq": 83,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 5,
+      "pendingMcqGuides": 83,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10671,18 +10739,25 @@
           "records": 88,
           "mcq": 88,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 4,
           "readyOfficial": 0,
-          "pendingMcq": 88,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 88,
+          "pendingMcq": 83,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 5,
+          "pendingMcqGuides": 83,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q66",
+          "questionNumber": "66",
+          "section": "gk",
+          "reason": "Interest payments and government wages are revenue expenditure. Defence purchases may be routine stores (revenue) or durable assets (capital). Both A and C are independently true, and the question offers no A-and-C option. “All of the above” is not unconditionally correct because B is unspecified. Keep unscored."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies",
@@ -10698,12 +10773,12 @@
       "records": 88,
       "mcq": 88,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 2,
       "readyOfficial": 0,
-      "pendingMcq": 88,
+      "pendingMcq": 86,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 88,
+      "workedGuidesReviewed": 2,
+      "pendingMcqGuides": 86,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -10712,12 +10787,12 @@
           "records": 88,
           "mcq": 88,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 2,
           "readyOfficial": 0,
-          "pendingMcq": 88,
+          "pendingMcq": 86,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 88,
+          "workedGuidesReviewed": 2,
+          "pendingMcqGuides": 86,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -10739,13 +10814,13 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 97,
-      "readyOfficial": 97,
+      "ready": 98,
+      "readyOfficial": 98,
       "pendingMcq": 0,
-      "heldReviewed": 3,
-      "workedGuidesReviewed": 3,
-      "pendingMcqGuides": 97,
-      "keyOnlyFeedback": 97,
+      "heldReviewed": 2,
+      "workedGuidesReviewed": 7,
+      "pendingMcqGuides": 93,
+      "keyOnlyFeedback": 93,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -10753,24 +10828,18 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 97,
-          "readyOfficial": 97,
+          "ready": 98,
+          "readyOfficial": 98,
           "pendingMcq": 0,
-          "heldReviewed": 3,
-          "workedGuidesReviewed": 3,
-          "pendingMcqGuides": 97,
-          "keyOnlyFeedback": 97,
+          "heldReviewed": 2,
+          "workedGuidesReviewed": 7,
+          "pendingMcqGuides": 93,
+          "keyOnlyFeedback": 93,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
       "heldItems": [
-        {
-          "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q35",
-          "questionNumber": "35",
-          "section": "gk",
-          "reason": "Held: the scan lists ₹2, ₹3, ₹4 and ₹5 lakh; the applicable FY 2025–26 new-regime ₹12 lakh threshold is absent."
-        },
         {
           "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q65",
           "questionNumber": "65",
@@ -11169,10 +11238,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 99,
+      "ready": 100,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 1,
+      "heldReviewed": 0,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -11183,10 +11252,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 99,
+          "ready": 100,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 1,
+          "heldReviewed": 0,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -11195,14 +11264,7 @@
           "mixedTopicRecords": 2
         }
       },
-      "heldItems": [
-        {
-          "id": "mpsc-group-b-asi-home-2018-mathematics-Q21",
-          "questionNumber": "21",
-          "section": "arithmetic",
-          "reason": "Held out: the question gives an annual interest rate but does not specify simple or compound interest; the time to reach ₹1,200 is not uniquely determined."
-        }
-      ]
+      "heldItems": []
     },
     {
       "paperId": "mpsc-group-b-assistant-grade-2018-p1",
@@ -11246,8 +11308,8 @@
       "readyOfficial": 0,
       "pendingMcq": 0,
       "heldReviewed": 9,
-      "workedGuidesReviewed": 116,
-      "pendingMcqGuides": 9,
+      "workedGuidesReviewed": 117,
+      "pendingMcqGuides": 8,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -11260,8 +11322,8 @@
           "readyOfficial": 0,
           "pendingMcq": 0,
           "heldReviewed": 9,
-          "workedGuidesReviewed": 116,
-          "pendingMcqGuides": 9,
+          "workedGuidesReviewed": 117,
+          "pendingMcqGuides": 8,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -11302,7 +11364,7 @@
           "id": "mpsc-group-b-assistant-grade-2018-p2-B113",
           "questionNumber": "B113",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored."
+          "reason": "The printed prices contain no correct choice. A 10% rebate leaves ₹2,250; adding 12.5% GST gives ₹2,531.25, whereas the four printed choices are ₹2,250, ₹28,125, ₹1,968.75 and ₹2,520.25."
         },
         {
           "id": "mpsc-group-b-assistant-grade-2018-p2-B116",
@@ -11838,7 +11900,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 99,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -11852,7 +11914,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 99,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -11878,7 +11940,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 85,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -11892,7 +11954,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 85,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -11918,7 +11980,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 98,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -11932,7 +11994,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 98,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -11958,7 +12020,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 95,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -11972,7 +12034,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 95,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -12427,7 +12489,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 93,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -12441,7 +12503,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 93,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -14608,10 +14670,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 89,
+      "ready": 88,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 11,
+      "heldReviewed": 12,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -14622,10 +14684,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 89,
+          "ready": 88,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 11,
+          "heldReviewed": 12,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -14639,6 +14701,12 @@
           "questionNumber": "17",
           "section": "gk",
           "reason": "Held after scan review; source offers no reliable unique answer."
+        },
+        {
+          "id": "mpsc-group-b-fr-2019-science-3-Q20",
+          "questionNumber": "20",
+          "section": "gk",
+          "reason": "Both the high-yielding-varieties programme and the associated seed–fertiliser–water package describe the Green Revolution; “most appropriately” does not make C uniquely correct over D."
         },
         {
           "id": "mpsc-group-b-fr-2019-science-3-Q31",
@@ -15596,10 +15664,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 98,
+      "ready": 97,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 2,
+      "heldReviewed": 3,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -15610,10 +15678,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 98,
+          "ready": 97,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 2,
+          "heldReviewed": 3,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -15627,6 +15695,12 @@
           "questionNumber": "45",
           "section": "gk",
           "reason": "Defective options: the correct merged bank was Punjab National Bank, but PNB is absent from the choices. Oriental Bank of Commerce and United Bank of India merged into PNB."
+        },
+        {
+          "id": "mpsc-group-b-inspector-excise-2019-gs2-Q53",
+          "questionNumber": "53",
+          "section": "gk",
+          "reason": "Only devaluation can directly tend to narrow a current-account deficit by changing trade prices, subject to trade elasticities. FDI and foreign portfolio inflows are recorded in the financial account and can finance a current-account gap but do not reduce the deficit itself. Reducing export subsidies can weaken exports. No printed combination gives (i) alone."
         },
         {
           "id": "mpsc-group-b-inspector-excise-2019-gs2-Q98",
@@ -15754,7 +15828,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 50,
-      "keyOnlyFeedback": 50,
+      "keyOnlyFeedback": 43,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -15768,7 +15842,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 50,
-          "keyOnlyFeedback": 50,
+          "keyOnlyFeedback": 43,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -16871,10 +16945,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 99,
+      "ready": 98,
       "readyOfficial": 0,
       "pendingMcq": 0,
-      "heldReviewed": 1,
+      "heldReviewed": 2,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -16885,10 +16959,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 99,
+          "ready": 98,
           "readyOfficial": 0,
           "pendingMcq": 0,
-          "heldReviewed": 1,
+          "heldReviewed": 2,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -16902,6 +16976,12 @@
           "questionNumber": "14",
           "section": "gk",
           "reason": "The scan prints “326 BC” as both options (a) and (c). Although 326 BC is the accepted year, the duplicated choices make the answer key ambiguous; hold the item unscored."
+        },
+        {
+          "id": "mpsc-group-b-je-2025-gk-Q51",
+          "questionNumber": "51",
+          "section": "gk",
+          "reason": "NITI Aayog publishes a National Multidimensional Poverty Index, but that is distinct from a monetary poverty line based on household consumption. India’s last official consumption-poverty-line estimates were released by the former Planning Commission. The wording “releases the Poverty Line estimates” therefore does not precisely fit the keyed NITI option."
         }
       ]
     },
@@ -17291,12 +17371,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 5,
       "readyOfficial": 0,
-      "pendingMcq": 75,
+      "pendingMcq": 70,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "workedGuidesReviewed": 5,
+      "pendingMcqGuides": 70,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -17305,12 +17385,12 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 5,
           "readyOfficial": 0,
-          "pendingMcq": 75,
+          "pendingMcq": 70,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "workedGuidesReviewed": 5,
+          "pendingMcqGuides": 70,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -17500,7 +17580,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 95,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -17514,7 +17594,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 95,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -17861,7 +17941,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 97,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -17875,7 +17955,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 97,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -17955,7 +18035,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 93,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -17969,7 +18049,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 93,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -18674,7 +18754,7 @@
           "id": "mpsc-group-b-mes-pwd-2020-gs-Q49",
           "questionNumber": "49",
           "section": "gk",
-          "reason": "No option states the standard definition accurately: fiscal deficit is total expenditure less revenue receipts and non-debt capital receipts. The options either omit components or subtract borrowings incorrectly."
+          "reason": "The correct fiscal deficit formula is total expenditure less revenue receipts and non-debt capital receipts. Printed B omits non-debt capital receipts; the other choices are also incorrect. No precise option is available."
         },
         {
           "id": "mpsc-group-b-mes-pwd-2020-gs-Q87",
@@ -19640,8 +19720,8 @@
       "readyOfficial": 0,
       "pendingMcq": 0,
       "heldReviewed": 5,
-      "workedGuidesReviewed": 95,
-      "pendingMcqGuides": 5,
+      "workedGuidesReviewed": 96,
+      "pendingMcqGuides": 4,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -19654,8 +19734,8 @@
           "readyOfficial": 0,
           "pendingMcq": 0,
           "heldReviewed": 5,
-          "workedGuidesReviewed": 95,
-          "pendingMcqGuides": 5,
+          "workedGuidesReviewed": 96,
+          "pendingMcqGuides": 4,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -19684,7 +19764,7 @@
           "id": "mpsc-group-b-mpe-ss-2020-gk-Q66",
           "questionNumber": "66",
           "section": "gk",
-          "reason": "Text extraction needs comparison with the printed paper; candidate answers are not scored. The independent candidate came from the legacy inferred bank and still needs reasoning review."
+          "reason": "As of the 2020 paper, RBI had divested its NABARD and NHB holdings to the Government of India in 2019, and SIDBI was also not an RBI subsidiary. A, B and C therefore all satisfy “not a subsidiary”; BRBNM was an RBI subsidiary."
         },
         {
           "id": "mpsc-group-b-mpe-ss-2020-gk-Q90",
@@ -19760,12 +19840,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 5,
       "readyOfficial": 0,
-      "pendingMcq": 75,
+      "pendingMcq": 70,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "workedGuidesReviewed": 5,
+      "pendingMcqGuides": 70,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -19774,12 +19854,12 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 5,
           "readyOfficial": 0,
-          "pendingMcq": 75,
+          "pendingMcq": 70,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "workedGuidesReviewed": 5,
+          "pendingMcqGuides": 70,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -19800,12 +19880,12 @@
       "records": 74,
       "mcq": 74,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 2,
       "readyOfficial": 0,
-      "pendingMcq": 74,
+      "pendingMcq": 72,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 74,
+      "workedGuidesReviewed": 2,
+      "pendingMcqGuides": 72,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -19814,12 +19894,12 @@
           "records": 74,
           "mcq": 74,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 2,
           "readyOfficial": 0,
-          "pendingMcq": 74,
+          "pendingMcq": 72,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 74,
+          "workedGuidesReviewed": 2,
+          "pendingMcqGuides": 72,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -19926,7 +20006,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 75,
-      "keyOnlyFeedback": 50,
+      "keyOnlyFeedback": 47,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -19954,7 +20034,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 50,
-          "keyOnlyFeedback": 50,
+          "keyOnlyFeedback": 47,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -20128,9 +20208,9 @@
       "readyOfficial": 99,
       "pendingMcq": 0,
       "heldReviewed": 1,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 99,
+      "workedGuidesReviewed": 3,
+      "pendingMcqGuides": 97,
+      "keyOnlyFeedback": 96,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -20142,9 +20222,9 @@
           "readyOfficial": 99,
           "pendingMcq": 0,
           "heldReviewed": 1,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 99,
+          "workedGuidesReviewed": 3,
+          "pendingMcqGuides": 97,
+          "keyOnlyFeedback": 96,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -20568,7 +20648,7 @@
       "heldReviewed": 0,
       "workedGuidesReviewed": 0,
       "pendingMcqGuides": 100,
-      "keyOnlyFeedback": 100,
+      "keyOnlyFeedback": 99,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
       "sections": {
@@ -20582,7 +20662,7 @@
           "heldReviewed": 0,
           "workedGuidesReviewed": 0,
           "pendingMcqGuides": 100,
-          "keyOnlyFeedback": 100,
+          "keyOnlyFeedback": 99,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
@@ -21103,12 +21183,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 5,
       "readyOfficial": 0,
-      "pendingMcq": 75,
+      "pendingMcq": 70,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "workedGuidesReviewed": 5,
+      "pendingMcqGuides": 70,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -21117,12 +21197,12 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 5,
           "readyOfficial": 0,
-          "pendingMcq": 75,
+          "pendingMcq": 70,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "workedGuidesReviewed": 5,
+          "pendingMcqGuides": 70,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -21672,12 +21752,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 2,
       "readyOfficial": 0,
-      "pendingMcq": 75,
-      "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "pendingMcq": 72,
+      "heldReviewed": 1,
+      "workedGuidesReviewed": 3,
+      "pendingMcqGuides": 72,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -21686,18 +21766,25 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 2,
           "readyOfficial": 0,
-          "pendingMcq": 75,
-          "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "pendingMcq": 72,
+          "heldReviewed": 1,
+          "workedGuidesReviewed": 3,
+          "pendingMcqGuides": 72,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
         }
       },
-      "heldItems": []
+      "heldItems": [
+        {
+          "id": "mpsc-group-b-si-fcs-2018-gs1-Q51",
+          "questionNumber": "51",
+          "section": "gk",
+          "reason": "The question does not state the loan term or transaction type. The bank rate applies to RBI lending/rediscounting, but the repo rate is also a rate at which RBI lends to commercial banks against securities. The broad wording permits both A and B."
+        }
+      ]
     },
     {
       "paperId": "mpsc-group-b-si-fcs-2018-gs2",
@@ -21921,10 +22008,10 @@
       "records": 100,
       "mcq": 100,
       "writtenRecords": 0,
-      "ready": 90,
-      "readyOfficial": 90,
+      "ready": 91,
+      "readyOfficial": 91,
       "pendingMcq": 0,
-      "heldReviewed": 10,
+      "heldReviewed": 9,
       "workedGuidesReviewed": 100,
       "pendingMcqGuides": 0,
       "keyOnlyFeedback": 0,
@@ -21935,10 +22022,10 @@
           "records": 100,
           "mcq": 100,
           "writtenRecords": 0,
-          "ready": 90,
-          "readyOfficial": 90,
+          "ready": 91,
+          "readyOfficial": 91,
           "pendingMcq": 0,
-          "heldReviewed": 10,
+          "heldReviewed": 9,
           "workedGuidesReviewed": 100,
           "pendingMcqGuides": 0,
           "keyOnlyFeedback": 0,
@@ -21965,7 +22052,7 @@
           "id": "mpsc-group-b-si-police-2026-p2-Q21",
           "questionNumber": "21",
           "section": "gk",
-          "reason": "The stem does not specify engine size, and two-wheeler GST rates differ by size; the answer is not uniquely established."
+          "reason": "The question bundles goods with different 2025 GST rates. Small cars, televisions, ACs, cement and motorcycles up to 350 cc are generally 18%, while motorcycles above 350 cc are 40%. The stem says only “two-wheelers” and does not restrict engine size."
         },
         {
           "id": "mpsc-group-b-si-police-2026-p2-Q28",
@@ -22013,13 +22100,7 @@
           "id": "mpsc-group-b-si-police-2026-p2-Q96",
           "questionNumber": "96",
           "section": "gk",
-          "reason": "The diagram labels conflict with the prose and the answer choices; neither interpretation yields a reliable choice."
-        },
-        {
-          "id": "mpsc-group-b-si-police-2026-p2-Q100",
-          "questionNumber": "100",
-          "section": "gk",
-          "reason": "The stem says only “Match the correct option” and does not state what the displayed figures should be matched by."
+          "reason": "The diagram agrees with the printed figures: 92 studied only Mizo, 43 studied both, and 85 studied only History. Thus 92+43+85=220 studied at least one subject, so 300−220=80 studied neither. No listed choice is 80; keep unscored."
         }
       ]
     },
@@ -23362,12 +23443,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 3,
       "readyOfficial": 0,
-      "pendingMcq": 75,
+      "pendingMcq": 72,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "workedGuidesReviewed": 3,
+      "pendingMcqGuides": 72,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -23376,12 +23457,12 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 3,
           "readyOfficial": 0,
-          "pendingMcq": 75,
+          "pendingMcq": 72,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "workedGuidesReviewed": 3,
+          "pendingMcqGuides": 72,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0
@@ -23402,12 +23483,12 @@
       "records": 75,
       "mcq": 75,
       "writtenRecords": 0,
-      "ready": 0,
+      "ready": 1,
       "readyOfficial": 0,
-      "pendingMcq": 75,
+      "pendingMcq": 74,
       "heldReviewed": 0,
-      "workedGuidesReviewed": 0,
-      "pendingMcqGuides": 75,
+      "workedGuidesReviewed": 1,
+      "pendingMcqGuides": 74,
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
@@ -23416,12 +23497,12 @@
           "records": 75,
           "mcq": 75,
           "writtenRecords": 0,
-          "ready": 0,
+          "ready": 1,
           "readyOfficial": 0,
-          "pendingMcq": 75,
+          "pendingMcq": 74,
           "heldReviewed": 0,
-          "workedGuidesReviewed": 0,
-          "pendingMcqGuides": 75,
+          "workedGuidesReviewed": 1,
+          "pendingMcqGuides": 74,
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0

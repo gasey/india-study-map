@@ -230,7 +230,7 @@
         "SLR",
         "CRR"
       ],
-      "expectedAnswerIndex": 1,
+      "expectedAnswerIndex": 0,
       "status": "held",
       "replacementAnswerIndex": null,
       "explanation": "Both bank rate and repo rate can describe a rate at which RBI lends to commercial banks. Repo lending is secured by a repurchase agreement; bank rate is a broader statutory lending or rediscount rate. The stem gives no tenor or transaction type to distinguish A from B.",

@@ -622,6 +622,28 @@ HUB_FIGURES = {
  'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q45': '/question-images/group-b/jao-2025-p2-q045.png',
  'mpsc-group-b-co-2026-p2-Q89': '/question-images/group-b/co-2026-p2-q089.webp',
  'mpsc-group-b-co-2026-p2-Q96': '/question-images/group-b/co-2026-p2-q096.webp',
+ 'mpsc-group-b-station-officer-2018-mathematics-Q7': '/question-images/group-b/recovered-context/station-officer-2018-q007-chart.png',
+ 'mpsc-group-b-station-officer-2018-mathematics-Q100': '/question-images/group-b/recovered-context/station-officer-2018-q100-venn.png',
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q21': '/question-images/group-b/recovered-context/jao-archive-2025-q021-histogram.png',
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q27': '/question-images/group-b/recovered-context/jao-archive-2025-q027-chart.png',
+ 'mpsc-group-b-archive-lang-2025-jr-accounts-officer-jr-accounts-officer-paper-ii-gk-arithmetic-reasoning-0ea2ba29-Q28': '/question-images/group-b/recovered-context/jao-archive-2025-q027-chart.png',
+ 'mpsc-group-b-si-police-2026-p2-Q99': '/question-images/group-b/recovered-context/si-police-2026-q099-figures.png',
+ 'mpsc-group-b-si-police-2026-p2-Q100': '/question-images/group-b/recovered-context/si-police-2026-q100-figures.png',
+}
+
+REASONING_EXPLANATIONS = {
+    ('si-police-2026-p2', 97): (
+        'Read the second arrow in the middle column from top to bottom: it points down, '
+        'left, so the missing direction continues the turn to up. The first arrow in '
+        'that column points up in the first two cells and remains up in the missing cell. '
+        'The answer is therefore two upward arrows, figure 2 (B).'),
+    ('si-police-2026-p2', 98): (
+        'Across each row, the third cell contains the shaded region from the middle cell '
+        'plus the next region. In the circle row, the middle cell shades the top-right '
+        'quadrant; the final cell shades the full right half. That is answer figure 1 (A).'),
+    ('si-police-2026-p2', 99): (
+        'Group the figures by outline: 1, 3 and 5 have curved edges; 2, 6 and 8 are '
+        'triangles; 4, 7 and 9 are four-sided figures. This matches option C.'),
 }
 
 
@@ -1660,6 +1682,7 @@ def build_additional():
                     topic_label = manual_solution.get('topicLabel', topic_label)
             if slug == 'inspector-stats-2026-p2' and q['n'] > 50:
                 section = 'arithmetic'
+            solution_explanation = REASONING_EXPLANATIONS.get((slug, q['n']), solution_explanation)
             if section == 'english':
                 focused_topic = classify_english_topic(
                     q.get('direction'), q.get('q'), topic_label)

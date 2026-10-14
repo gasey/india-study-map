@@ -59,6 +59,12 @@
     "explanation": "The recovered bar chart shows R&D at 5% of total expenditure. Therefore, total expenditure/R&D expenditure = 100/5 = 20, so option B is correct."
   },
 
+  "mpsc-ldc-2025-paper-2-q055": {
+    "imagePath": "mpsc-ldc-2025-paper-2-q055.png",
+    "figureRecovered": true,
+    "explanation": "The square is divided into 25 equal small squares. 15 are coloured, so 15/25 × 100 = 60%; option C is correct."
+  },
+
   "mpsc-ldc-2025-paper-2-q075": {
     "imagePath": "mpsc-ldc-2025-paper-2-q075.png",
     "explanation": "From the pie chart, pomegranate is 54° and grapes are 36°. Their combined share is 90°/360° = 1/4 of ₹500, so the difference is (54−36)/360 × ₹500 = ₹25; option A is correct."

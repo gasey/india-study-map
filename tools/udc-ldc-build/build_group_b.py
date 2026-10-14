@@ -263,17 +263,24 @@ def build():
                                 'This is the key reference for the answer; it is not a worked derivation.')
     worked = json.loads((Path(__file__).parent / 'economics-worked-explanations.json').read_text())['items']
     for qid, review in worked.items():
-        assert qid in by_id, f'Stale Economics explanation: {qid}'
+        # The durable Economics overlays are shared by both bank builders.
+        # Older UDC/LDC IDs belong only to build_bank.py; only a missing Group B
+        # ID is stale for this builder.
+        if qid not in by_id:
+            assert not qid.startswith('mpsc-group-b-'), f'Stale Economics explanation: {qid}'
+            continue
         q = by_id[qid]
         assert q['question'] == review['expectedStem'] and q['answerIndex'] == review['expectedAnswerIndex'], qid
         assert not review.get('expectedOptions') or q['options'] == review['expectedOptions'], qid
         if review.get('mode') != 'brief':
-            assert q.get('answerSource') == 'official', qid
+            assert q.get('answerSource') in ('official', 'derived') and not q.get('sourceReview'), qid
         q['explanation'] = review['explanation']
     disputes = json.loads((Path(__file__).parent / 'economics-disputes.json').read_text())['items']
     for review in disputes:
         qid = review['id']
-        assert qid in by_id, f'Stale Economics dispute: {qid}'
+        if qid not in by_id:
+            assert not qid.startswith('mpsc-group-b-'), f'Stale Economics dispute: {qid}'
+            continue
         q = by_id[qid]
         assert q['question'] == review['expectedStem'] and q['options'] == review['expectedOptions'], qid
         assert q['answerIndex'] == review['expectedAnswerIndex'], qid
@@ -297,7 +304,9 @@ def build():
     answer_reviews = json.loads((Path(__file__).parent / 'economics-answer-reviews.json').read_text())['items']
     for review in answer_reviews:
         qid = review['id']
-        assert qid in by_id, f'Stale Economics source review: {qid}'
+        if qid not in by_id:
+            assert not qid.startswith('mpsc-group-b-'), f'Stale Economics source review: {qid}'
+            continue
         q = by_id[qid]
         assert q['question'] == review['expectedStem'] and q['options'] == review['expectedOptions'], qid
         assert q.get('answerIndex', -1) < 0 or q.get('answerIndex') == review['answerIndex'], qid

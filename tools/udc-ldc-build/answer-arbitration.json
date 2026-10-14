@@ -819,12 +819,20 @@
     }
   },
   "2.UDC under EF&CC Deptt. Paper-II::q94": {
-    "answerIndex": null,
-    "reason": "WITHDRAWN. The comparison operators are replaced by unreadable glyphs, and the surviving fraction strings support more than one interpretation. No unique option can be verified.",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Compare by cross multiplication: 6/7 > 5/6 because 36 > 35, and 5/6 > 4/5 because 25 > 24. Thus 6/7 > 5/6 > 4/5, option D.",
+    "question": "Which one is correct?",
+    "options": [
+      "4/5 > 5/6 > 6/7",
+      "5/6 > 6/7 > 4/5",
+      "6/7 > 4/5 > 5/6",
+      "6/7 > 5/6 > 4/5"
+    ],
     "evidence": {
       "source": "2.UDC under EF&CC Deptt. Paper-II, q94",
-      "method": "Checked the recovered fractions and missing comparison symbols",
-      "answer": "withdrawn (answerIndex -1)"
+      "method": "Transcribed the printed fractions and greater-than symbols from the page 9 scan; verified both inequalities by cross multiplication",
+      "answer": "D"
     }
   },
   "UDC ARC Paper-I::q10": {
@@ -931,15 +939,14 @@
     "answerIndex": 3,
     "confidence": "high",
     "explanation": "Blue Revolution = fish production and Black Revolution = petroleum production. Grey Revolution concerns fertilizers and Pink Revolution concerns onion/prawn production, so only pairs 1 and 4 are correct: option D.",
-    "reason": "The flattened table can be realigned unambiguously by the four known revolution definitions.",
-    "evidence": {"source": "LDC under MPSC Paper-I 2025, q9", "method": "Matched each named revolution with its standard field"}
+    "question": "With reference to the economic revolutions in India, consider the following pairs:\n1. Blue Revolution — Fish production\n2. Grey Revolution — Onions and prawn production\n3. Pink Revolution — Fertilizer production\n4. Black Revolution — Petroleum production\nWhich of the above pairs are correctly matched?",
+    "options": ["1, 2, 4", "Only 1 and 2", "Only 1", "Only 1 and 4"],
+    "evidence": {"source": "LDC under MPSC Paper-I 2025, printed page 2", "method": "Reconstructed the flattened two-column table from the printed scan and matched each revolution to its field"}
   },
-  "LDC under MPSC Paper-I 2025.::q25": {
-    "answerIndex": 1,
-    "confidence": "high",
-    "explanation": "The unqualified rate at which the central bank lends directly to commercial banks is the bank rate. Repo rate specifically refers to short-term repurchase transactions against securities. Option B is correct.",
-    "reason": "The stem does not mention repurchase of securities or a short-term repo transaction; the standard exam distinction makes bank rate the intended answer.",
-    "evidence": {"source": "LDC under MPSC Paper-I 2025, q25", "method": "Central-bank rate definition check"}
+  "LDC under MPSC Paper-I 2025.::q10": {
+    "question": "With reference to the festivals of India, consider the following pairs:\nFestival — State\n1. Pushkar Camel Fair — Tamil Nadu\n2. Bihu — Assam\n3. Onam — Kerala\n4. Cherry Blossom — Nagaland\nWhich of the above pairs are correctly matched?",
+    "options": ["Only 1, 2", "Only 2 & 3", "1, 2 & 3", "Only 3 & 4"],
+    "evidence": {"source": "LDC under MPSC Paper-I 2025, printed page 2", "method": "Reconstructed the four-row festival/state table and checked all four printed options against the page scan"}
   },
   "UDC Combined Paper-I (C) May-2025.::q35": {
     "question": "What is the rank of India in the Henley Passport Index 2025?",

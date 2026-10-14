@@ -541,7 +541,7 @@ MONTHS = {"January": 1, "February": 2, "March": 3, "April": 4, "May": 5, "June":
 LETTERS = "abcdefgh"
 
 
-def ts(v):
+def ts(v, preserve_lines=False):
     if v is None:
         return "undefined"
     if isinstance(v, bool):
@@ -550,7 +550,8 @@ def ts(v):
         return str(v)
     if isinstance(v, list):
         return "[" + ", ".join(ts(x) for x in v) + "]"
-    return "'" + str(v).replace("\\", "\\\\").replace("'", "\\'").replace("\n", " ") + "'"
+    value = str(v).replace("\\", "\\\\").replace("'", "\\'")
+    return "'" + value.replace("\n", "\\n" if preserve_lines else " ") + "'"
 
 
 def generated_explanation(section, question, options, answer_index):
@@ -1797,7 +1798,7 @@ def main():
             body = {k: v for k, v in q.items() if not k.startswith("_")}
             lines.append("  {")
             for k, v in body.items():
-                lines.append("    %s: %s," % (k, ts(v)))
+                lines.append("    %s: %s," % (k, ts(v, preserve_lines=k == "question")))
             lines.append("  },")
         lines += ["];", ""]
     lines.append("export const mpscUdcLdcQuestions: BankQuestion[] = [")

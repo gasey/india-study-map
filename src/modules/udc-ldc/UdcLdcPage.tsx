@@ -30,6 +30,7 @@ import { LearningDashboard } from './LearningDashboard';
 import { QuestionStudyGuides } from './QuestionStudyGuides';
 import { WindowedQuestionList } from './WindowedQuestionList';
 import { withTopicOverride } from './topicOverrides';
+import { withEconomicsReview } from './economicsReviews';
 import { buildLearningDashboard } from './learningModel';
 import { groupBPaperMeta, groupBExpectedMcq } from '@/data/banks/mpsc-group-b-general';
 import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
@@ -1021,8 +1022,10 @@ export default function UdcLdcPage() {
   }, []);
 
   const correctedQuestions = useMemo(() => {
-    if (!data || Object.keys(corrections).length === 0) return data?.bank.questions ?? [];
-    return data.bank.questions.map((q) => {
+    if (!data) return [];
+    const reviewed = data.bank.questions.map(withEconomicsReview);
+    if (Object.keys(corrections).length === 0) return reviewed;
+    return reviewed.map((q) => {
       const c = corrections[q.id];
       if (!c) return q;
       return {
@@ -1128,7 +1131,7 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'guides' ? 'Mizo & Economics guides' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
+            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'guides' ? 'Mizo / Economics / Science' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
           </button>
         ))}
       </div>

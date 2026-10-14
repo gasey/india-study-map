@@ -1,0 +1,2713 @@
+{
+  "_note": "Question-specific Economics explanations for official-key-only placeholders. Exact stem and keyed answer guards prevent stale application. Official-key disputes are documented separately; an explanation does not change a key.",
+  "items": {
+    "mpsc-group-b-ng-2024-paper-1-a-q021": {
+      "expectedStem": "Which Indian state has the highest GDP during 2023-24?",
+      "expectedAnswerIndex": 3,
+      "explanation": "For 2023–24, Maharashtra had the largest state gross domestic product among the listed states. State GDP measures production within a state; this is a reference-year ranking, not a permanent rank."
+    },
+    "mpsc-group-b-ng-2024-paper-1-a-q042": {
+      "expectedStem": "The amount of money allocated for capital expenditure (CAPEX) in the Indian Budget 2024-25 is-",
+      "expectedAnswerIndex": 0,
+      "explanation": "The Interim Union Budget for 2024–25 budgeted ₹11,11,111 crore for capital expenditure. CAPEX funds asset creation such as infrastructure; the precise amount belongs to that budget estimate."
+    },
+    "mpsc-group-b-ng-2024-paper-1-a-q045": {
+      "expectedStem": "To control inflation in the economy, RBI-",
+      "expectedAnswerIndex": 0,
+      "explanation": "Selling government securities in open market operations withdraws money from banks and the public. Lower liquidity and credit growth can help restrain demand-driven inflation; buying securities or cutting policy rates would generally ease money conditions."
+    },
+    "mpsc-group-b-aao-2024-gk-Q37": {
+      "expectedStem": "Per Capita Income of a country is obtained by dividing National Income by which of the following?",
+      "expectedAnswerIndex": 1,
+      "explanation": "Per capita income is national income divided by the whole population. Dividing only by workers would measure income per worker, a different statistic."
+    },
+    "mpsc-group-b-aao-2024-gk-Q74": {
+      "expectedStem": "About 6% of the country’s GDP is contributed by Indian diaspora. Which country is this?",
+      "expectedAnswerIndex": 0,
+      "explanation": "The paper’s 6% figure refers to Indian-origin people’s estimated economic contribution in the United Kingdom. It is a source-specific estimate about diaspora contribution, not a component of India’s own GDP."
+    },
+    "mpsc-group-b-aao-2024-gk-Q85": {
+      "expectedStem": "Which one of the following situation can lead to inflation?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Inflation can arise when aggregate spending rises faster than the economy can supply goods and services. This demand-pull pressure raises the general price level."
+    },
+    "mpsc-group-b-aao-2024-gk-Q97": {
+      "expectedStem": "RBI has increased the UPI payment limit from ₹1.00 lakh to how much?",
+      "expectedAnswerIndex": 3,
+      "explanation": "The ₹5 lakh UPI ceiling applied to specified categories, including payments to hospitals and educational institutions (and later tax payments). Ordinary UPI transfers generally retained a lower standard cap; the question omits that qualification."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q21": {
+      "expectedStem": "Consider the following statements: (i)Harrod – Domar model was adopted in 1st Five Year Plan. (ii)Nehru – Mahalanobis model was adopted in 2nd Five Year Plan. (iii)Gadgil model was adopted in 5th Five Year Plan. (iv)Rao-Manmohan Singh model was adopted in 8th Five Year Plan. Which of the statements given above are correct?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The First Plan drew on Harrod–Domar growth ideas, the Second on the Mahalanobis heavy-industry strategy, and the Eighth followed the Rao–Manmohan Singh liberalisation framework. The Gadgil approach does not correctly describe the Fifth Plan in this list, leaving (i), (ii) and (iv)."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q23": {
+      "expectedStem": "Consider the following agricultural related revolutions in India: (i)Green revolution – Agriculture (HYV) production (ii)Yellow revolution – Oilseeds production (iii)Round revolution – Potato production (iv)Protein revolution – High agricultural production Which of the revolutions given above are correct?",
+      "expectedAnswerIndex": 3,
+      "explanation": "Green denotes higher farm output using high-yielding varieties, yellow denotes oilseeds, and round denotes potatoes. The paper also uses “protein revolution” for raising agricultural output; under its terminology all four pairings are accepted."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q24": {
+      "expectedStem": "What fiscal policy response did the Government of India undertake in recent times in response to the aggravated global supply disruptions? (i)Decreasing food and fertilizers subsidies. (ii)Increasing taxes on fuel and imported products. (iii)Reducing taxes on fuel and certain imported products. Select the correct answer from the codes given below:",
+      "expectedAnswerIndex": 0,
+      "explanation": "The response described is a cut in fuel taxes and duties on selected imports. Lowering these levies can reduce the domestic cost of disrupted supply; raising them would add to prices."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q34": {
+      "expectedStem": "Fiscal policy in India comprises of the following components: (i)Government receipts (ii)Government expenditure (iii)Public debt Select the correct answer using the codes given below:",
+      "expectedAnswerIndex": 3,
+      "explanation": "Fiscal policy concerns the government budget: receipts, expenditure and borrowing or public debt. Each of the three listed components therefore belongs to fiscal policy."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q36": {
+      "expectedStem": "The growth of India’s real GDP during the year 2024 – 2025 is estimated at",
+      "expectedAnswerIndex": 1,
+      "explanation": "The paper’s 6.5% figure is an estimate for real GDP growth in FY 2024–25. Such advance estimates can differ from later revised national accounts, so the percentage should be read with its forecast date."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q38": {
+      "expectedStem": "Who was the first Chairman of Planning Commission of India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Jawaharlal Nehru chaired the Planning Commission at its creation in 1950 as Prime Minister. Mahalanobis helped shape the Second Plan but was not its first chair."
+    },
+    "mpsc-group-b-inspector-excise-2025-gs2-Q39": {
+      "expectedStem": "The main objectives of NITI Aayog are: (i)Cooperative federalism. (ii)Formulation of plans at village level. (iii)Economic policy that incorporates national security interests (iv)Innovation and entrepreneurial support. Select the correct answer using the codes given below:",
+      "expectedAnswerIndex": 3,
+      "explanation": "NITI Aayog was set up to support cooperative federalism, planning inputs from village level, policy that accounts for national security, and innovation. Thus all four listed objectives fit its institutional mandate."
+    },
+    "mpsc-group-b-cdpo-2025-gs-Q5": {
+      "expectedStem": "The new GST rate structure in India after September 2025 is:",
+      "expectedAnswerIndex": 1,
+      "explanation": "The September 2025 GST changes set main rates of 5% and 18%, with a special 40% rate for selected luxury and demerit goods. The former 12% and 28% main slabs were rationalised; the new rates took effect from 22 September 2025 for most items."
+    },
+    "mpsc-group-b-cdpo-2025-gs-Q25": {
+      "expectedStem": "The Human Development Index (HDI) was developed by:",
+      "expectedAnswerIndex": 0,
+      "explanation": "Mahbub ul Haq developed the Human Development Index for UNDP, with important intellectual input from Amartya Sen. The index broadens development beyond income alone."
+    },
+    "mpsc-group-b-cdpo-2025-gs-Q30": {
+      "expectedStem": "The concept of “trickle-down effect” in economic development refers to:",
+      "expectedAnswerIndex": 2,
+      "explanation": "“Trickle down” is the claim that benefits from overall growth eventually reach poorer households through jobs, incomes or other channels. It does not by itself mean direct tax redistribution or subsidy."
+    },
+    "mpsc-group-b-cdpo-2025-gs-Q70": {
+      "expectedStem": "The major objectives of NITI Aayog are to-",
+      "expectedAnswerIndex": 2,
+      "explanation": "NITI Aayog provides policy and technical advice and develops strategic, long-term programmes. Both listed functions are therefore within its advisory and planning role."
+    },
+    "mpsc-group-b-cdpo-2025-gs-Q72": {
+      "expectedStem": "Which of the following best explains the theoretical foundation of the design of the Mahatma Gandhi Rural Employment Guarantee Act (MNREGA)?",
+      "expectedAnswerIndex": 2,
+      "explanation": "MGNREGA guarantees paid rural work and supports household demand when private employment is weak. That demand-support mechanism is closest to a Keynesian rural stimulus among the choices."
+    },
+    "mpsc-group-b-adtp-2026-gs-Q54": {
+      "expectedStem": "The belief that economic growth will trickle down to all sectors is known as",
+      "expectedAnswerIndex": 3,
+      "explanation": "Trickle-down theory holds that gains from aggregate growth will spread across sectors and income groups over time. The question directly names that belief."
+    },
+    "mpsc-group-b-adtp-2026-gs-Q60": {
+      "expectedStem": "In India, National Income is computed by",
+      "expectedAnswerIndex": 1,
+      "explanation": "India’s national accounts and national-income estimates are prepared by the National Statistical Office within the Ministry of Statistics and Programme Implementation."
+    },
+    "mpsc-group-b-agri-2025-gs-Q8": {
+      "expectedStem": "The new GST rate for luxury items and ‘sin’ goods is:",
+      "expectedAnswerIndex": 3,
+      "explanation": "The September 2025 GST reform introduced a special 40% demerit rate for selected luxury and “sin” goods, alongside the main 5% and 18% slabs. Treatment and commencement for some tobacco items were separately deferred."
+    },
+    "mpsc-group-b-agri-2025-gs-Q51": {
+      "expectedStem": "Regarding ‘Goods and Services Tax (GST)’: I.It is a destination-based tax. II.It has subsumed all indirect taxes including Basic Customs Duty. III.The GST Council is a constitutional body chaired by the Union Finance Minister. Which of the statements is/are correct?",
+      "expectedAnswerIndex": 1,
+      "explanation": "GST is levied on consumption at the destination, and the GST Council is a constitutional body chaired by the Union Finance Minister. Basic Customs Duty remains outside GST, so statements I and III alone are true."
+    },
+    "mpsc-group-b-agri-2025-gs-Q53": {
+      "expectedStem": "The ‘Human Development Index (HDI)’ comprises which of the following dimensions? 1.Long and healthy life2.Access to knowledge 3.Decent standard of living4.Political freedom Select the correct option:",
+      "expectedAnswerIndex": 0,
+      "explanation": "HDI combines life expectancy (health), education (knowledge), and gross national income per person (living standard). Political freedom is valuable but is not one of its three measured dimensions."
+    },
+    "mpsc-group-b-mcs-prelim-2025-p1-Q13": {
+      "expectedStem": "Which district in Mizoram ranked highest in NITI Aayog second edition of the North Eastern Region District SDG Index 2023-24?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The NITI Aayog North Eastern Region District SDG Index 2023–24 ranks Hnahthial first in Mizoram and first across the northeastern districts, with a composite score of 81.43. This is specific to that index edition."
+    },
+    "mpsc-group-b-mcs-prelim-2025-p1-Q58": {
+      "expectedStem": "In the context of the Reserve Bank of India’s (RBI) monetary policy operations, a sustained period of increasing Repo Rate is generally expected to have which of the following effects on the Indian economy? (i)Dampen demand-pull inflation by increasing the cost of borrowing and investment. (ii)Reduce the net interest margin (NIM) of commercial banks that rely heavily on deposits for funding. (iii)Lead to an appreciation of the Indian Rupee against major global currencies. (iv)Encourage a shift in household savings from market-linked instruments to bank fixed deposits. Select the correct answer using the code given below:",
+      "expectedAnswerIndex": 2,
+      "explanation": "Higher repo rates normally raise borrowing costs, cooling demand-driven inflation; they can also make rupee assets more attractive and bank deposits relatively appealing. A fall in banks’ net interest margins is not a general consequence because margins depend on how loan and deposit rates adjust."
+    },
+    "mpsc-group-b-mcs-prelim-2025-p1-Q59": {
+      "expectedStem": "Consider the following potential effects on economic development when the central bank decides to lower the Cash Reserve Ratio (CRR) in a developing economy: (i)It is likely to inject additional liquidity into the banking system, potentially increasing banks’ capacity for credit creation. (ii)It could lead to a reduction in market interest rates, making borrowing cheaper for businesses and consumers. (iii)It might stimulate aggregate demand, potentially leading to increased investment and consumption. (iv)It invariably guarantees a rapid acceleration of real economic growth by ensuring optimal allocation of credit to productive sectors. Which of the statements given above are conceptually sound effects of lowering CRR, but not necessarily a guaranteed outcome in all economic contexts?",
+      "expectedAnswerIndex": 0,
+      "explanation": "A lower CRR releases reserves, potentially allowing more bank lending, lower rates and stronger spending. It cannot guarantee real growth, since banks may not lend or credit may be unproductive. Thus (i), (ii) and (iii) are possible effects, while (iv) overclaims."
+    },
+    "mpsc-group-b-radio-2026-p2-Q46": {
+      "expectedStem": "The NITI Aayog (National Institution for Transforming India) was formed in 2015, replacing which institution?",
+      "expectedAnswerIndex": 0,
+      "explanation": "NITI Aayog was established in 2015 as the successor to the Planning Commission. The Finance Commission and other listed bodies have different constitutional or coordinating roles."
+    },
+    "mpsc-group-b-acm-2026-gs-Q52": {
+      "expectedStem": "In India, poverty ratio is lowest in:",
+      "expectedAnswerIndex": 0,
+      "explanation": "Kerala is the intended choice among these states and Union Territory in the poverty comparison used by the paper. Poverty rankings depend on whether the measure is consumption poverty or a multidimensional index and on the reference year."
+    },
+    "mpsc-group-b-acm-2026-gs-Q53": {
+      "expectedStem": "With reference to multidimensional poverty, consider the following statements: 1.It goes beyond income-based measurement. 2.It includes health and education indicators. 3.It is measured exclusively by GDP growth. Which of the statements given above is/are correct?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Multidimensional poverty measures deprivations beyond income, including health and education. GDP growth alone does not measure whether households lack these essentials, so statements 1 and 2 are correct."
+    },
+    "mpsc-group-b-acm-2026-gs-Q58": {
+      "expectedStem": "With reference to inequality, consider the following statements: 1.High economic growth automatically reduces inequality. 2.Inequality can coexist with poverty reduction. 3.Excessive inequality can hinder long-term growth. Which of the statements given above is/are correct?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Growth need not automatically narrow inequality. Poor households can become better off while the gap to richer households widens; severe inequality can also undermine human capital and long-run growth. Thus 2 and 3 are correct."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q30": {
+      "expectedStem": "Which of the following are considered Capital Expenditure? 1.Purchase of land2.Purchase of machinery 3.Investment in shares4.Salaries of employees",
+      "expectedAnswerIndex": 3,
+      "explanation": "Land, machinery and equity investments acquire assets or financial claims, so they are capital expenditure. Salaries pay for current operations and are revenue expenditure."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q32": {
+      "expectedStem": "Which of the following is included in the calculation of a country’s Gross Domestic Product (GDP)?",
+      "expectedAnswerIndex": 2,
+      "explanation": "GDP is the market value of final goods and services produced within a country during a period. Counting raw inputs separately would double count them; production by citizens abroad belongs in national, not domestic, aggregates."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q33": {
+      "expectedStem": "Consider the following statements about the Indian economy: 1.Share of services in GDP significantly increased 2.Share of India’s exports in world trade increased 3.FDI inflows decreased Which of the following occurred in India after the economic liberalization in 1991?",
+      "expectedAnswerIndex": 1,
+      "explanation": "After 1991 liberalisation, services gained a larger share of GDP and India’s share of global trade rose. FDI inflows did not generally decline as statement 3 suggests, leaving statements 1 and 2."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q34": {
+      "expectedStem": "Which of the following best defines ‘inflation’ in an economy?",
+      "expectedAnswerIndex": 3,
+      "explanation": "Inflation is a sustained rise in the overall price level. It is broader than one temporary food-price shock and means each unit of money buys less on average."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q78": {
+      "expectedStem": "The WTO replaced which earlier organization?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The World Trade Organization began in 1995 and succeeded the General Agreement on Tariffs and Trade framework, adding a more formal institution and wider trade agreements."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q80": {
+      "expectedStem": "Which of the following is a monetary policy tool of RBI?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Cash Reserve Ratio is set by RBI and changes how much of banks’ deposits must be held as reserves. Income tax, GST and the Union Budget are fiscal instruments."
+    },
+    "mpsc-group-b-ceo-2025-gk-Q83": {
+      "expectedStem": "‘Repo Rate’ is the rate at which:",
+      "expectedAnswerIndex": 1,
+      "explanation": "The repo rate is the rate at which RBI lends short-term funds to banks against eligible securities. It is a policy rate used to influence wider borrowing costs."
+    },
+    "mpsc-group-b-cao-2026-gs1-Q94": {
+      "expectedStem": "Consider the following statements: (i)President of India has given assent to the Viksit Bharat - Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB -G RAM G) Bill, 2025 marking a significant milestone in the transformation of rural employment policy. (ii)The Viksit Bharat - G RAM G Act, 2025 replaces MGNREGA. The Bill was introduced in Lok Sabha on December 16, 2025 and was passed, two days later, on December 18, 2025. In Rajya Sabha, it was passed on December 19, 2025. (iii)The employment guarantee is enhanced to 125 days per rural household, strengthening income security; but not shifted from Demand-Based Model to Normative Allocation Framework. Which of the statements given above is/are wrong?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Statement (iii) is false: the VB–G RAM G Act raised the rural wage-employment guarantee to 125 days per eligible household and adopted a normative allocation framework for states. The President assented in December 2025; the provisions came into force on 1 July 2026. Thus “not shifted” makes (iii) the wrong statement."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q43": {
+      "expectedStem": "Match the economic terms in Column I with their correct definitions in Column II: Column I (Economic Column II (Definitions) **Terms)** 1. Short-term measures to control inflation and correct A. Structural Reform **the balance of payments.** 2. Selling off part of the equity of Public Sector B. Stabilisation Measures **Enterprises to the public.** 3. Long-term measures to improve the efficiency of the C. Disinvestment **economy and international competitiveness.** 4. Reduction in the value of domestic currency vis-à-vis D. Devaluation **foreign currency by the government.** Select the correct option from the codes given below:",
+      "expectedAnswerIndex": 1,
+      "explanation": "Stabilisation measures address short-run inflation and external imbalance (1); structural reforms improve long-run efficiency (3); disinvestment sells public-enterprise equity (2); devaluation lowers the official foreign-currency value of domestic currency (4). Hence A-3, B-1, C-2, D-4."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q45": {
+      "expectedStem": "Identify the correct chronological order of the following events in the Indian Economy: 1.Establishment of the Planning Commission. 2.Nationalisation of Commercial Banks. 3.Introduction of New Economic Policy (LPG). 4.Setting up of NITI Aayog.",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Planning Commission was set up in 1950; major commercial-bank nationalisation occurred in 1969; the New Economic Policy began in 1991; and NITI Aayog began in 2015. This gives 1-2-3-4."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q47": {
+      "expectedStem": "With reference to Poverty Estimation in India, the Planning Commission accepted the calorie norm of:",
+      "expectedAnswerIndex": 1,
+      "explanation": "The older Planning Commission poverty-line method used 2,400 calories per person per day in rural areas and 2,100 in urban areas, reflecting different work and consumption patterns. Later poverty methods changed."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q52": {
+      "expectedStem": "Which of the following is a direct tax?",
+      "expectedAnswerIndex": 3,
+      "explanation": "Corporation tax is imposed directly on a company’s taxable income. GST, excise and customs duties are indirect taxes collected on transactions or goods."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q55": {
+      "expectedStem": "Assertion (A ):The service sector in India has grown rapidly in terms of contribution to GDP but",
+      "expectedAnswerIndex": 0,
+      "explanation": "The intended assertion is that services grew strongly in GDP without proportional employment growth. Many service activities are relatively skill intensive or capital intensive, so they absorb fewer workers per unit of output than their GDP share might imply; the OCR text of the reason is damaged."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q56": {
+      "expectedStem": "Who among the following is known as the ‘Architect of Indian Planning’ for his contribution to the Second Five Year Plan strategy?",
+      "expectedAnswerIndex": 2,
+      "explanation": "P. C. Mahalanobis designed the Second Five Year Plan’s emphasis on heavy industry and capital goods, giving him the planning epithet in the question."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q58": {
+      "expectedStem": "What is the primary function of the ‘Reserve Bank of India (RBI)’?",
+      "expectedAnswerIndex": 1,
+      "explanation": "RBI is the central bank: it issues banknotes and manages monetary conditions, including money and credit. Tax collection and securities-market regulation belong to other bodies."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q60": {
+      "expectedStem": "Which of the following correctly defines ‘Fiscal Policy’?",
+      "expectedAnswerIndex": 1,
+      "explanation": "Fiscal policy uses government taxation, spending and borrowing to influence the economy. Policy rates and money supply belong to monetary policy."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q70": {
+      "expectedStem": "Minimum Support Price (MSP) is announced to:",
+      "expectedAnswerIndex": 1,
+      "explanation": "A minimum support price is intended as a price floor for eligible crops, protecting farmers from a sharp fall in market prices and supporting income certainty."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q71": {
+      "expectedStem": "Capital expenditure mainly leads to:",
+      "expectedAnswerIndex": 0,
+      "explanation": "Capital expenditure generally creates a durable asset or reduces a liability, for example building infrastructure or buying machinery. It is distinct from routine consumption spending."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q72": {
+      "expectedStem": "Expansionary fiscal policy involves:",
+      "expectedAnswerIndex": 1,
+      "explanation": "Expansionary fiscal policy raises aggregate demand through higher government spending and/or lower taxes, often at the cost of a larger near-term deficit."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q74": {
+      "expectedStem": "The main objective of monetary policy is to:",
+      "expectedAnswerIndex": 3,
+      "explanation": "The central purpose of monetary policy is price stability while supporting growth. RBI uses policy rates and liquidity tools to influence inflation."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q75": {
+      "expectedStem": "Repo rate refers to the rate at which?",
+      "expectedAnswerIndex": 1,
+      "explanation": "Repo is the short-term rate for RBI lending to banks against securities. A bank depositing funds with RBI would instead face the reverse-repo or deposit-facility rate."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q77": {
+      "expectedStem": "SEBI regulates the:",
+      "expectedAnswerIndex": 3,
+      "explanation": "SEBI oversees India’s securities and capital markets, including intermediaries and investor protection. RBI and IRDAI have the principal banking and insurance roles."
+    },
+    "mpsc-group-b-cao-2026-gs2-Q80": {
+      "expectedStem": "The Mahalanobis strategy of planning emphasized:",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Mahalanobis Second Plan prioritised basic and heavy industries, especially capital goods, to expand future productive capacity."
+    },
+    "mpsc-group-b-cao-2026-gs3-Q3": {
+      "expectedStem": "Which institution played a key role in India’s Green Revolution through scientific research?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The Indian Agricultural Research Institute contributed crop research and high-yielding wheat development central to the Green Revolution. ICAR is the wider coordinating research council, making the institute the intended specific choice."
+    },
+    "mpsc-group-b-cao-2026-gs3-Q12": {
+      "expectedStem": "Which statement best captures the institutional division of roles between MeitY, DST, and NITI Aayog regarding India’s AI ecosystem as of 2024–2025?",
+      "expectedAnswerIndex": 1,
+      "explanation": "For the 2024–25 AI ecosystem, MeitY led the IndiaAI compute and implementation agenda, DST supported foundational science research, and NITI Aayog supplied cross-government strategy. The other choices assign the institutions roles they did not have."
+    },
+    "mpsc-group-b-lecturer-serchhip-2026-gs-Q46": {
+      "expectedStem": "Which of the following best distinguishes NPCI from RBI?",
+      "expectedAnswerIndex": 2,
+      "explanation": "NPCI operates retail payment infrastructure such as UPI. RBI is the central bank that regulates payments and monetary conditions; it does not itself run ordinary payment apps."
+    },
+    "mpsc-group-b-lecturer-serchhip-2026-gs-Q49": {
+      "expectedStem": "Consider the following statements regarding cooperative federalism in India: 1.It requires constitutionally equal tax powers 2.It encourages centre–state policy coordination 3.GST Council is an example Which statement(s) is/are correct?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Cooperative federalism involves Union–state coordination, illustrated by the GST Council. It does not require identical constitutional taxation powers, so only statements 2 and 3 hold."
+    },
+    "mpsc-group-b-lecturer-serchhip-2026-gs-Q66": {
+      "expectedStem": "Finance Commission recommends on: 1.Tax devolution 2.Grants-in-aid 3.Monetary policy Which are correct?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Finance Commission recommends tax sharing between Union and states and grants-in-aid. Monetary policy is RBI’s responsibility, so only 1 and 2 apply."
+    },
+    "mpsc-group-b-lecturer-serchhip-2026-gs-Q69": {
+      "expectedStem": "Repo rate transmission directly affects:",
+      "expectedAnswerIndex": 1,
+      "explanation": "When RBI changes the repo rate, banks’ funding costs and lending-rate benchmarks can change, directly affecting loan interest rates."
+    },
+    "mpsc-group-b-lecturer-serchhip-2026-gs-Q70": {
+      "expectedStem": "Which of the following increases Current Account Deficit (CAD)?",
+      "expectedAnswerIndex": 1,
+      "explanation": "More crude-oil imports raise payments to the rest of the world and can widen the current-account deficit. Software exports, remittances and fewer gold imports tend to improve it."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q38": {
+      "expectedStem": "As per the new income tax rates for FY 2025-26 in the Union Budget 2025, what is the income tax rate for a person earning more than Rs. 24 lakhs per annum?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Under the FY 2025–26 new-regime income-tax schedule, taxable income above ₹24 lakh falls in the 30% marginal slab. That is the rate on income in the slab, not necessarily the effective rate on all income."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q60": {
+      "expectedStem": "How is India’s Gross Domestic Product (GDP) calculated?",
+      "expectedAnswerIndex": 2,
+      "explanation": "GDP can be compiled from value added by industries (the production approach) and from final spending on consumption, investment, government purchases and net exports (the expenditure approach). CPI measures prices, not total output."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q61": {
+      "expectedStem": "Which of the following institutions formulates the monetary policy in India?",
+      "expectedAnswerIndex": 1,
+      "explanation": "RBI conducts monetary policy through its Monetary Policy Committee and related instruments. NITI Aayog and the Finance Ministry have different policy roles."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q71": {
+      "expectedStem": "The Reserve Bank of India was nationalized in:",
+      "expectedAnswerIndex": 2,
+      "explanation": "RBI began operations in 1935 and was nationalised in 1949. Its founding date is therefore earlier than its nationalisation."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q84": {
+      "expectedStem": "Who is called the Father of the Green Revolution in India?",
+      "expectedAnswerIndex": 2,
+      "explanation": "M. S. Swaminathan is called the father of India’s Green Revolution for his role in adapting and advancing high-yielding crop technology in India. Norman Borlaug is associated with the global Green Revolution."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q88": {
+      "expectedStem": "The ‘Blue Revolution’ in India is associated with:",
+      "expectedAnswerIndex": 2,
+      "explanation": "The Blue Revolution refers to growth in fisheries and aquaculture production. Dairy growth is called the White Revolution."
+    },
+    "mpsc-group-b-mes-combined-2025-gs-Q97": {
+      "expectedStem": "In which year was the Goods and Services Tax (GST) launched in India?",
+      "expectedAnswerIndex": 2,
+      "explanation": "India’s Goods and Services Tax took effect on 1 July 2017, replacing many central and state indirect taxes."
+    },
+    "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q6": {
+      "expectedStem": "Which District was originally part of the Aspirational District Programme launched by NITI Aayog in 2018?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Mamit was the Mizoram district included in NITI Aayog’s original 2018 Aspirational Districts Programme list. The programme targeted lagging districts for improvement on social and development indicators."
+    },
+    "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q25": {
+      "expectedStem": "What is the full form of “NITT’ in NITI Aayog?",
+      "expectedAnswerIndex": 0,
+      "explanation": "NITI expands to National Institution for Transforming India. “Institution” and the participle “Transforming” distinguish the official name from the near-match options."
+    },
+    "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q32": {
+      "expectedStem": "Which of the following statements is true with regards to the MGNREGA 2005?",
+      "expectedAnswerIndex": 3,
+      "explanation": "MGNREGA provides a statutory guarantee of wage employment to rural households and applies in rural areas. Its basic guarantee was 100 days, and equal wages apply to men and women, so the other statements are inaccurate."
+    },
+    "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q100": {
+      "expectedStem": "The situation in an economy with slow growth and rapid inflation is known as -",
+      "expectedAnswerIndex": 3,
+      "explanation": "Stagflation combines economic stagnation or weak output growth with high inflation. “Recession” alone does not capture simultaneous rapid price increases."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-a-2025-Q89": {
+      "expectedStem": "Which of the following is not included in the list of crops to be supported by minimum support price by the Government of Mizoram from January 2025?",
+      "expectedAnswerIndex": 3,
+      "explanation": "Mizoram’s January 2025 support-price announcement covered ginger, broom grass, turmeric and Mizo bird-eye chilli. Rice was not among these four crops. Later state budget materials mention locally grown paddy under notified-crop support, so the answer is specific to the original January list."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-c-2025-Q39": {
+      "expectedStem": "Which of the following is not included in the list of crops to be supported by minimum support price by the Government of Mizoram from January 2025?",
+      "expectedAnswerIndex": 3,
+      "explanation": "Mizoram’s January 2025 support-price announcement covered ginger, broom grass, turmeric and Mizo bird-eye chilli. Rice was not among these four crops. Later state budget materials mention locally grown paddy under notified-crop support, so the answer is specific to the original January list."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-i-d-2025-Q64": {
+      "expectedStem": "Which of the following is not included in the list of crops to be supported by minimum support price by the Government of Mizoram from January 2025?",
+      "expectedAnswerIndex": 3,
+      "explanation": "Mizoram’s January 2025 support-price announcement covered ginger, broom grass, turmeric and Mizo bird-eye chilli. Rice was not among these four crops. Later state budget materials mention locally grown paddy under notified-crop support, so the answer is specific to the original January list."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q31": {
+      "expectedStem": "According to the Global Data Lab, is the top-ranking state in the context of Human Development Index in India.",
+      "expectedAnswerIndex": 1,
+      "explanation": "Kerala ranks highest among the listed states in the Global Data Lab state HDI comparison. This is a particular dataset and reference-year ranking, so it should not be treated as a universal current rank."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q39": {
+      "expectedStem": "National Income in India is estimated by-",
+      "expectedAnswerIndex": 2,
+      "explanation": "The Central Statistical Organisation, now part of the National Statistical Office, prepares India’s national accounts. The Finance Commission determines fiscal sharing, while the Indian Statistical Institute is a research institution."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q40": {
+      "expectedStem": "NABARD was established on the recommendation of -",
+      "expectedAnswerIndex": 1,
+      "explanation": "The B. Sivaraman Committee on institutional credit for agriculture and rural development recommended a dedicated development bank, leading to NABARD in 1982."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q43": {
+      "expectedStem": "Budget Deficit means-",
+      "expectedAnswerIndex": 2,
+      "explanation": "In the terminology of this paper, budget deficit is total expenditure less total receipts. Fiscal deficit excludes borrowing receipts, primary deficit subtracts interest from fiscal deficit, and revenue deficit compares revenue expenditure with revenue receipts."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q44": {
+      "expectedStem": "Green Revolution in India mainly related to-",
+      "expectedAnswerIndex": 2,
+      "explanation": "The Green Revolution in India chiefly increased foodgrain production, especially wheat and then rice, through high-yielding seeds, irrigation, fertiliser and other inputs."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q45": {
+      "expectedStem": "The 1* Five Year Plan period was-",
+      "expectedAnswerIndex": 1,
+      "explanation": "India’s First Five Year Plan ran from 1951 to 1956. The Planning Commission was established in 1950 before this plan period."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q48": {
+      "expectedStem": "Which one of the following is an important measure of ‘Sterilization’ under Reserve Bank of India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Sterilisation offsets the money-supply effect of foreign-exchange intervention. RBI can use open market sales or purchases of securities to absorb or inject domestic liquidity as needed."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q52": {
+      "expectedStem": "Balance of Payments is an accounting statement that records monetary transactions between -",
+      "expectedAnswerIndex": 0,
+      "explanation": "The balance of payments records transactions between a country’s residents and the rest of the world over a period. “Residents” is an economic residence concept, not simply citizenship."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q54": {
+      "expectedStem": "‘The primary sector within a country for the calculation of National Income includes -",
+      "expectedAnswerIndex": 3,
+      "explanation": "The primary sector consists of activities extracting or growing natural resources, including agriculture. Small-scale manufacturing is secondary and retail trading is tertiary, so only “Agriculture” is economically correct; the supplied key’s “All of these” conflicts with the definitions."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q58": {
+      "expectedStem": "The Goods and Service Tax (GST) has been implemented from -",
+      "expectedAnswerIndex": 2,
+      "explanation": "GST was implemented in India on 1 July 2017. The 2018 dates in the other options are one year too late."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q62": {
+      "expectedStem": "In India, 100% FDI is permitted in which of the following sector?",
+      "expectedAnswerIndex": 0,
+      "explanation": "At the paper’s reference date, the telecom sector permitted up to 100% foreign direct investment, subject to applicable conditions and the government route where required. FDI caps are sector- and date-specific."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q64": {
+      "expectedStem": "Who bas fixed the Minimum Support Price for crops?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Commission for Agricultural Costs and Prices analyses costs and recommends MSPs. The Union government, through Cabinet approval, actually fixes or announces them. The key selects CACP, but “who has fixed” is imprecise and should distinguish recommending from approving."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q66": {
+      "expectedStem": "Which of the following is not a credit control objective of RBI?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Price stability is a central objective of RBI monetary and credit policy. The key marks it as “not” an objective, which contradicts RBI’s stated mandate; this question needs correction or withdrawal."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q67": {
+      "expectedStem": "Blue Revolution was first launched in India during which of the following Five Year Plan?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The paper associates the Blue Revolution fisheries programme with the Seventh Five Year Plan (1985–90). This historical “first launched” label can depend on which fisheries initiative is meant."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q71": {
+      "expectedStem": "The difference between Gross National Product and Depreciation is equal to-",
+      "expectedAnswerIndex": 0,
+      "explanation": "Net national product equals gross national product minus depreciation, also called consumption of fixed capital. This converts a gross measure into a net measure."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q73": {
+      "expectedStem": "When was the Planning Commission set up?",
+      "expectedAnswerIndex": 3,
+      "explanation": "The Planning Commission was created by a Union government resolution in March 1950. It preceded the First Five Year Plan of 1951–56."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q84": {
+      "expectedStem": "Which of the following states has produced Rice after the Green Revolution only?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Punjab is the intended example of large-scale rice cultivation expanding under Green Revolution irrigation and high-yielding varieties. The wording “produced rice only after” is overbroad: rice existed there earlier."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q9": {
+      "expectedStem": "Which of the following states has produced Rice after the Green Revolution only?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Punjab is the intended example of large-scale rice cultivation expanding under Green Revolution irrigation and high-yielding varieties. The wording “produced rice only after” is overbroad: rice existed there earlier."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q56": {
+      "expectedStem": "According to the Global Data Lab, is the top-ranking state in the context of Human Development Index in India.",
+      "expectedAnswerIndex": 1,
+      "explanation": "Kerala ranks highest among the listed states in the Global Data Lab state HDI comparison. This is a particular dataset and reference-year ranking, so it should not be treated as a universal current rank."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q64": {
+      "expectedStem": "National Income in India is estimated by-",
+      "expectedAnswerIndex": 2,
+      "explanation": "The Central Statistical Organisation, now part of the National Statistical Office, prepares India’s national accounts. The Finance Commission determines fiscal sharing, while the Indian Statistical Institute is a research institution."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q65": {
+      "expectedStem": "NABARD was established on the recommendation of -",
+      "expectedAnswerIndex": 1,
+      "explanation": "The B. Sivaraman Committee on institutional credit for agriculture and rural development recommended a dedicated development bank, leading to NABARD in 1982."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q68": {
+      "expectedStem": "Budget Deficit means-",
+      "expectedAnswerIndex": 2,
+      "explanation": "In the terminology of this paper, budget deficit is total expenditure less total receipts. Fiscal deficit excludes borrowing receipts, primary deficit subtracts interest from fiscal deficit, and revenue deficit compares revenue expenditure with revenue receipts."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q69": {
+      "expectedStem": "Green Revolution in India mainly related to-",
+      "expectedAnswerIndex": 2,
+      "explanation": "The Green Revolution in India chiefly increased foodgrain production, especially wheat and then rice, through high-yielding seeds, irrigation, fertiliser and other inputs."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q70": {
+      "expectedStem": "The 1° Five Year Plan period was-",
+      "expectedAnswerIndex": 1,
+      "explanation": "India’s First Five Year Plan ran from 1951 to 1956. The Planning Commission was established in 1950 before this plan period."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q73": {
+      "expectedStem": "Which one of the following is an important measure of ‘Sterilization’ under Reserve Bank of India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Sterilisation offsets the money-supply effect of foreign-exchange intervention. RBI can use open market sales or purchases of securities to absorb or inject domestic liquidity as needed."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q77": {
+      "expectedStem": "Balance of Payments is an accounting statement that records monetary transactions between -",
+      "expectedAnswerIndex": 0,
+      "explanation": "The balance of payments records transactions between a country’s residents and the rest of the world over a period. “Residents” is an economic residence concept, not simply citizenship."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q79": {
+      "expectedStem": "The primary sector within a country for the calculation of National Income includes -",
+      "expectedAnswerIndex": 3,
+      "explanation": "The primary sector consists of activities extracting or growing natural resources, including agriculture. Small-scale manufacturing is secondary and retail trading is tertiary, so only “Agriculture” is economically correct; the supplied key’s “All of these” conflicts with the definitions."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q83": {
+      "expectedStem": "The Goods and Service Tax (GST) has been implemented from -",
+      "expectedAnswerIndex": 2,
+      "explanation": "GST was implemented in India on 1 July 2017. The 2018 dates in the other options are one year too late."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q87": {
+      "expectedStem": "In India, 100% FDI is permitted in which of the following sector?",
+      "expectedAnswerIndex": 0,
+      "explanation": "At the paper’s reference date, the telecom sector permitted up to 100% foreign direct investment, subject to applicable conditions and the government route where required. FDI caps are sector- and date-specific."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q89": {
+      "expectedStem": "Who has fixed the Minimum Support Price for crops?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Commission for Agricultural Costs and Prices analyses costs and recommends MSPs. The Union government, through Cabinet approval, actually fixes or announces them. The key selects CACP, but “who has fixed” is imprecise and should distinguish recommending from approving."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q91": {
+      "expectedStem": "Which of the following is not a credit control objective of RBI?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Price stability is a central objective of RBI monetary and credit policy. The key marks it as “not” an objective, which contradicts RBI’s stated mandate; this question needs correction or withdrawal."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q92": {
+      "expectedStem": "Blue Revolution was first launched in India during which of the following Five Year Plan?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The paper associates the Blue Revolution fisheries programme with the Seventh Five Year Plan (1985–90). This historical “first launched” label can depend on which fisheries initiative is meant."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q98": {
+      "expectedStem": "When was the Planning Commission set up? .",
+      "expectedAnswerIndex": 3,
+      "explanation": "The Planning Commission was created by a Union government resolution in March 1950. It preceded the First Five Year Plan of 1951–56."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q10": {
+      "expectedStem": "Which one of the following is an important measure of ‘Sterilization’ under Reserve Bank of India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Sterilisation offsets the money-supply effect of foreign-exchange intervention. RBI can use open market sales or purchases of securities to absorb or inject domestic liquidity as needed."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q14": {
+      "expectedStem": "Balance of Payments is an accounting statement that records monetary transactions between -",
+      "expectedAnswerIndex": 0,
+      "explanation": "The balance of payments records transactions between a country’s residents and the rest of the world over a period. “Residents” is an economic residence concept, not simply citizenship."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q16": {
+      "expectedStem": "The primary sector within a country for the calculation of National Income includes -",
+      "expectedAnswerIndex": 3,
+      "explanation": "The primary sector consists of activities extracting or growing natural resources, including agriculture. Small-scale manufacturing is secondary and retail trading is tertiary, so only “Agriculture” is economically correct; the supplied key’s “All of these” conflicts with the definitions."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q24": {
+      "expectedStem": "In India, 100% FDI is permitted in which of the following sector?",
+      "expectedAnswerIndex": 0,
+      "explanation": "At the paper’s reference date, the telecom sector permitted up to 100% foreign direct investment, subject to applicable conditions and the government route where required. FDI caps are sector- and date-specific."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q26": {
+      "expectedStem": "Who has fixed the Minimum Support Price for crops?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Commission for Agricultural Costs and Prices analyses costs and recommends MSPs. The Union government, through Cabinet approval, actually fixes or announces them. The key selects CACP, but “who has fixed” is imprecise and should distinguish recommending from approving."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q28": {
+      "expectedStem": "Which of the following is nota credit control objective of RBI?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Price stability is a central objective of RBI monetary and credit policy. The key marks it as “not” an objective, which contradicts RBI’s stated mandate; this question needs correction or withdrawal."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q29": {
+      "expectedStem": "Blue Revolution was first launched in India during which of the following Five Year Plan? :",
+      "expectedAnswerIndex": 2,
+      "explanation": "The paper associates the Blue Revolution fisheries programme with the Seventh Five Year Plan (1985–90). This historical “first launched” label can depend on which fisheries initiative is meant."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q33": {
+      "expectedStem": "The difference between Gross National Product and Depreciation is equal to-",
+      "expectedAnswerIndex": 0,
+      "explanation": "Net national product equals gross national product minus depreciation, also called consumption of fixed capital. This converts a gross measure into a net measure."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q46": {
+      "expectedStem": "Which of the following states has produced Rice after the Green Revolution only?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Punjab is the intended example of large-scale rice cultivation expanding under Green Revolution irrigation and high-yielding varieties. The wording “produced rice only after” is overbroad: rice existed there earlier."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q93": {
+      "expectedStem": "According to the Global Data Lab, is the top-ranking state in the context of Human Development Index in India.",
+      "expectedAnswerIndex": 1,
+      "explanation": "Kerala ranks highest among the listed states in the Global Data Lab state HDI comparison. This is a particular dataset and reference-year ranking, so it should not be treated as a universal current rank."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q8": {
+      "expectedStem": "There are no negative marks for incorrect answer. Series - D -2- * 1. National Income in Indiias  estimated by-",
+      "expectedAnswerIndex": 0,
+      "explanation": "The source record is corrupted by OCR. The printed series D question 8 asks when India’s first Plan Holiday occurred; 1966–69 is option A and matches the final key. The bank has merged questions 1–8 into this item and must be repaired before use."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q10": {
+      "expectedStem": "Which one of the following is an important measure of ‘Sterilization’ under Reserve Bank of India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Sterilisation offsets the money-supply effect of foreign-exchange intervention. RBI can use open market sales or purchases of securities to absorb or inject domestic liquidity as needed."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q14": {
+      "expectedStem": "Balance of Payments is an accounting statement that records monetary transactions between -",
+      "expectedAnswerIndex": 0,
+      "explanation": "The balance of payments records transactions between a country’s residents and the rest of the world over a period. “Residents” is an economic residence concept, not simply citizenship."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q16": {
+      "expectedStem": "The primary sector within a country for the calculation of National Income includes -",
+      "expectedAnswerIndex": 3,
+      "explanation": "The primary sector consists of activities extracting or growing natural resources, including agriculture. Small-scale manufacturing is secondary and retail trading is tertiary, so only “Agriculture” is economically correct; the supplied key’s “All of these” conflicts with the definitions. This booklet’s option text also contains OCR contamination."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q20": {
+      "expectedStem": "The Goods and Service Tax (GST) has been implemented from -",
+      "expectedAnswerIndex": 2,
+      "explanation": "GST was implemented in India on 1 July 2017. The 2018 dates in the other options are one year too late."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q26": {
+      "expectedStem": "Who has fixed the Minimum Support Price for crops?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Commission for Agricultural Costs and Prices analyses costs and recommends MSPs. The Union government, through Cabinet approval, actually fixes or announces them. The key selects CACP, but “who has fixed” is imprecise and should distinguish recommending from approving."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q28": {
+      "expectedStem": "Which of the following is not a credit control objective of RBI?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Price stability is a central objective of RBI monetary and credit policy. The key marks it as “not” an objective, which contradicts RBI’s stated mandate; this question needs correction or withdrawal."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q29": {
+      "expectedStem": "Blue Revolution was first launched in India during which of the following Five Year Plan?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The paper associates the Blue Revolution fisheries programme with the Seventh Five Year Plan (1985–90). This historical “first launched” label can depend on which fisheries initiative is meant."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q33": {
+      "expectedStem": "The difference between Gross National Product and Depreciation is equal to-",
+      "expectedAnswerIndex": 0,
+      "explanation": "Net national product equals gross national product minus depreciation, also called consumption of fixed capital. This converts a gross measure into a net measure."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q35": {
+      "expectedStem": "When was the Planning Commission set up?",
+      "expectedAnswerIndex": 3,
+      "explanation": "The Planning Commission was created by a Union government resolution in March 1950. It preceded the First Five Year Plan of 1951–56."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q46": {
+      "expectedStem": "Which of the following states has produced Rice afier the Green Revolution only?",
+      "expectedAnswerIndex": 2,
+      "explanation": "Punjab is the intended example of large-scale rice cultivation expanding under Green Revolution irrigation and high-yielding varieties. The wording “produced rice only after” is overbroad: rice existed there earlier."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-a-2025-Q18": {
+      "expectedStem": "The Blue revolution that occurred in India generally refers to increase in—",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Blue Revolution denotes a rise in fish and aquaculture output. Milk production belongs to the White Revolution."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-b-2025-Q43": {
+      "expectedStem": "The Blue revolution that occurred in India generally refers to increase in —",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Blue Revolution denotes a rise in fish and aquaculture output. Milk production belongs to the White Revolution."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-c-2025-Q80": {
+      "expectedStem": "The Blue revolution that occurred in India generally refers to increase in —",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Blue Revolution denotes a rise in fish and aquaculture output. Milk production belongs to the White Revolution."
+    },
+    "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-iii-d-2025-Q98": {
+      "expectedStem": "The Blue revolution that occurred in India generally refers to increase in —",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Blue Revolution denotes a rise in fish and aquaculture output. Milk production belongs to the White Revolution."
+    },
+    "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q6": {
+      "expectedStem": "As of November 2024, which of the following countries is ranked the third largest economy in the world (GDP) in terms of Purchasing Power Parity (PPP)?",
+      "expectedAnswerIndex": 0,
+      "explanation": "On a purchasing-power-parity GDP basis around November 2024, India ranked third after China and the United States. PPP adjusts for price-level differences; rankings based on market exchange rates differ."
+    },
+    "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q7": {
+      "expectedStem": "Which of the following banks is not one among the three banks identified as Domestic Systematically Important Banks (D-SIBs) by the Reserve Bank of India?",
+      "expectedAnswerIndex": 3,
+      "explanation": "RBI’s domestic systemically important banks list at the cited time contained SBI, ICICI Bank and HDFC Bank. Axis Bank was the only listed bank outside that group; the designation is periodically reviewed."
+    },
+    "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q32": {
+      "expectedStem": "Inorder to control inflation in the economy, what would be the desired action of the Reserve Bank of India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Raising the bank rate makes central-bank borrowing more expensive and tends to tighten credit, helping restrain inflation. Lowering rates or buying securities would add liquidity instead."
+    },
+    "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q33": {
+      "expectedStem": "In which of the following five-year plans was the Mahalanobis strategy adopted for the first time?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Mahalanobis heavy-industry strategy was adopted in the Second Five Year Plan (1956–61), which put capital-goods industries at the centre of long-run growth."
+    },
+    "mpsc-group-b-archive2325-agriculture-allied-service-general-studies-december-2024-Q35": {
+      "expectedStem": "Fiscal deficit minus Interest Payment gives us-",
+      "expectedAnswerIndex": 1,
+      "explanation": "Primary deficit equals fiscal deficit minus interest payments. It shows the current year’s borrowing need excluding interest on past debt."
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q19": {
+      "expectedStem": "The Reserve Bank of India (RBI) has approved the transfer of how many crores of rupees to the government of India for the financial year 2022-23?",
+      "expectedAnswerIndex": 1,
+      "explanation": "RBI approved a ₹87,416 crore surplus transfer to the Union government for its 2022–23 accounting year. This is a historical transfer amount, not a recurring rate or current-year figure."
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mes-electrical-wing-under-pe-deptt-general-studies-Q78": {
+      "expectedStem": "Fiscal deficit minus interest payment is known as",
+      "expectedAnswerIndex": 2,
+      "explanation": "Primary deficit is fiscal deficit less interest payments. It isolates the budget gap arising from current non-interest activity."
+    },
+    "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q1": {
+      "expectedStem": "What is India’s Gross Domestic Product (GDP) percent in the April-June quarter of the current fiscal (2023-2024)?",
+      "expectedAnswerIndex": 2,
+      "explanation": "The first advance GDP estimate for April–June 2023–24 reported India’s real growth at 7.8% year on year. This is a quarter-specific historical figure, subject to later revisions."
+    },
+    "mpsc-group-b-archive2325-assist-director-town-planning-general-studies-Q56": {
+      "expectedStem": "Which oft he following fixes ‘Poverty Line’ in India?",
+      "expectedAnswerIndex": 3,
+      "explanation": "The Planning Commission historically used expenditure and consumption surveys to set official poverty lines; NITI Aayog later replaced it as the government policy institution. The parenthetical in the option reflects that institutional change."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-i-Q10": {
+      "expectedStem": "According to the budget estimate introduced by the finance minister Mrs. Nirmala Sitharaman, the targeted fiscal deficit for the current financial year 2023-24 is",
+      "expectedAnswerIndex": 1,
+      "explanation": "The Union Budget 2023–24 budget estimate targeted a fiscal deficit of 5.9% of GDP. A budget estimate is a target, distinct from the eventual actual deficit."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q30": {
+      "expectedStem": "The “Goods and Services Tax” (GST) in India is a type of:",
+      "expectedAnswerIndex": 3,
+      "explanation": "GST is a destination-based value-added tax: tax is charged along the supply chain with input-tax credits, so the burden is intended to fall on final consumption."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q39": {
+      "expectedStem": "The first Five Year plan was introduced in",
+      "expectedAnswerIndex": 1,
+      "explanation": "The First Five Year Plan started in 1951 and covered 1951–56. Planning Commission establishment in 1950 was preparatory, not the plan’s start."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q40": {
+      "expectedStem": "Planning Commission was scrapped on",
+      "expectedAnswerIndex": 1,
+      "explanation": "The government announced in 2014 that the Planning Commission would be replaced; NITI Aayog was constituted on 1 January 2015. The key uses the 2014 announcement as the “scrapped” date."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q41": {
+      "expectedStem": "Niti Aayog came into effect on",
+      "expectedAnswerIndex": 3,
+      "explanation": "NITI Aayog was established by a Union Cabinet resolution effective 1 January 2015, taking over the planning-policy role of the former Planning Commission."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q46": {
+      "expectedStem": "Identify the correct sequence of components within the Balance of Payments (BoP) statement. A. Current Account B. Capital Account C. Financial Account D. Errors and Omissions Choose the correct answer from the options given below:",
+      "expectedAnswerIndex": 0,
+      "explanation": "A standard balance-of-payments presentation lists the current account, capital account, financial account, and then errors and omissions to reconcile the accounts. That yields A-B-C-D."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q49": {
+      "expectedStem": "Gross National Product (GNP) can be calculated as",
+      "expectedAnswerIndex": 0,
+      "explanation": "GNP equals GDP plus net factor income from abroad: domestic production plus residents’ net earnings from overseas. Depreciation subtracted from GDP gives net domestic product, not GNP. The first option is truncated by OCR, so its exact wording needs restoration."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q50": {
+      "expectedStem": "When was the International Monetary Fund (IMF) set up?",
+      "expectedAnswerIndex": 0,
+      "explanation": "The Bretton Woods conference that established the design of the IMF took place in 1944, the keyed year. The Fund legally came into existence in 1945, so “set up” should be read as the 1944 founding agreement."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q57": {
+      "expectedStem": "Goods and Services Tax Council (GST) of India is headed by",
+      "expectedAnswerIndex": 2,
+      "explanation": "Article 279A provides for the GST Council, with the Union Finance Minister as chairperson and state finance or taxation ministers as members."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q59": {
+      "expectedStem": "In India, the Good and Services Tax (GST) came into effect on",
+      "expectedAnswerIndex": 2,
+      "explanation": "GST commenced in India on 1 July 2017. The “1%” symbols in the options are scanning errors for “1st.”"
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q60": {
+      "expectedStem": "Which amongst the following was the first State to approve Goods and Services Tax (GST) bill in India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Assam was the first Indian state to ratify the Constitution Amendment Bill enabling GST, in August 2016. Ratification of that bill preceded GST’s July 2017 start."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q64": {
+      "expectedStem": "The rate at which the Reserve Bank of India (RBI) gives loans to the Commercial Banks is called",
+      "expectedAnswerIndex": 1,
+      "explanation": "The key chooses Bank Rate, a traditional RBI lending or rediscount rate used in credit policy. For modern short-term collateralised RBI loans to banks, the more precise term is repo rate; the unqualified wording makes these choices ambiguous."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q66": {
+      "expectedStem": "The percentage of total deposits that commercial banks are required to keep with the Reserve Bank of India in the form of cash is called",
+      "expectedAnswerIndex": 0,
+      "explanation": "The Cash Reserve Ratio is the share of a bank’s net demand and time liabilities it must hold as cash balance with RBI. SLR is a separate requirement for liquid assets."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q67": {
+      "expectedStem": "Increased in Cash Reserve Ratio (CRR) by the Reserve Bank of India indicates that",
+      "expectedAnswerIndex": 0,
+      "explanation": "A higher CRR locks up a larger share of banks’ deposits at RBI. That leaves less lendable funding and tends to restrain credit expansion."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q68": {
+      "expectedStem": "The Monetary Policy Framework of India is formulated by",
+      "expectedAnswerIndex": 2,
+      "explanation": "RBI conducts India’s monetary policy under the RBI Act and the monetary-policy framework. The Monetary Policy Committee sets the policy repo rate within this framework."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q69": {
+      "expectedStem": "The primary objective of monetary policy is",
+      "expectedAnswerIndex": 0,
+      "explanation": "The RBI Act’s monetary-policy objective is to maintain price stability while keeping in mind the objective of growth. Printing currency is a central-bank function, not the stated primary policy objective."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q70": {
+      "expectedStem": "The Reserve Bank of India is vested with the responsibility of conducting monetary policy. This responsibility is explicitly mandated under the",
+      "expectedAnswerIndex": 0,
+      "explanation": "The Reserve Bank of India Act, 1934 gives RBI its statutory basis. The amended Act provides the modern monetary-policy framework and Monetary Policy Committee."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q71": {
+      "expectedStem": "As per the Union Budget 2023-24, the government aimed to bring down the fiscal deficit from 6.4 per cent of GDP (2022-23) to",
+      "expectedAnswerIndex": 3,
+      "explanation": "The 2023–24 Union Budget targeted a fiscal deficit of 5.9% of GDP, down from the 2022–23 revised estimate of 6.4%. This refers to that budget estimate."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q75": {
+      "expectedStem": "Which Committee was set up to review the concept of Poverty Line?",
+      "expectedAnswerIndex": 0,
+      "explanation": "The Suresh Tendulkar Committee reviewed poverty estimation and recommended a revised consumption-based methodology that moved beyond a direct calorie cutoff."
+    },
+    "mpsc-group-b-archive2325-inpector-of-supplies-2023-general-studies-ii-Q90": {
+      "expectedStem": "Which is not one of the 7 Pillars of effective governance envisaged by NITI Aayog?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The source key excludes “Efficiency,” but efficiency is widely treated as a good-governance principle. The stem does not identify a verifiable seven-pillar NITI Aayog framework, so this exclusion needs a primary-source citation before it can be explained as a rule."
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q18": {
+      "expectedStem": "The slogan of which Five-Year Plan in India is “Faster, More inclusive and Sustainable Growth”?",
+      "expectedAnswerIndex": 3,
+      "explanation": "“Faster, More Inclusive and Sustainable Growth” was the theme of India’s Twelfth Five Year Plan (2012–17). The Eleventh Plan used “Faster and More Inclusive Growth.”"
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q21": {
+      "expectedStem": "Reserve Bank of India was established on -",
+      "expectedAnswerIndex": 1,
+      "explanation": "RBI began operations on 1 April 1935 under the RBI Act, 1934. Nationalisation came later, in 1949."
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q26": {
+      "expectedStem": "Who first estimated the National Income in India?",
+      "expectedAnswerIndex": 0,
+      "explanation": "Dadabhai Naoroji made the earliest widely cited estimate of India’s national income in the nineteenth century, as part of his analysis of colonial economic conditions."
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q27": {
+      "expectedStem": "‘Base year ’ in National Income accounting means -",
+      "expectedAnswerIndex": 2,
+      "explanation": "A base year fixes the prices used to value output when calculating real GDP. Holding prices constant lets the measure isolate changes in production volume."
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q32": {
+      "expectedStem": "Which sector makes the largest contributions to India’s GDP?",
+      "expectedAnswerIndex": 3,
+      "explanation": "The tertiary or services sector is the largest contributor to India’s GDP among the broad primary, secondary and tertiary sectors."
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q35": {
+      "expectedStem": "Who is called “the Father of the Green Revolution’ in India?",
+      "expectedAnswerIndex": 2,
+      "explanation": "M. S. Swaminathan is known as the father of the Green Revolution in India for his scientific leadership in introducing high-yielding crop varieties and related practices."
+    },
+    "mpsc-group-b-archive2325-group-b-combined-general-studies-paper-ii-july-2024-Q40": {
+      "expectedStem": "The slogan “Garibi Hatao” was introduced in which Five-Year Plan?",
+      "expectedAnswerIndex": 2,
+      "explanation": "“Garibi Hatao” (“remove poverty”) became a prominent slogan in the era of the Fifth Five Year Plan (1974–79), which placed poverty removal among its main objectives."
+    },
+    "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q29": {
+      "expectedStem": "Human Development Index measures:",
+      "expectedAnswerIndex": 2,
+      "explanation": "HDI assesses a long and healthy life, education and a decent standard of living. Income or education alone covers only one dimension."
+    },
+    "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q31": {
+      "expectedStem": "Poverty line is determined based on:",
+      "expectedAnswerIndex": 1,
+      "explanation": "Traditional Indian poverty-line estimates used household consumption expenditure to judge whether minimum consumption needs could be met. Income is harder to measure consistently in the underlying surveys."
+    },
+    "mpsc-group-b-ng-april-2026-assistant-leso-under-labour-employment-skill-development-entrepreneurship-department-general-studies-Q79": {
+      "expectedStem": "What GDP growth rate has ICRA projected for India in Q3 FY 2025-2026?",
+      "expectedAnswerIndex": 1,
+      "explanation": "The keyed 7.2% is the upper end of ICRA’s 7.1–7.2% forecast for India’s Q3 FY 2025–26 real GDP growth at constant 2011–12 prices. It is a forecast from that release, not the subsequently published official GDP growth estimate."
+    },
+    "mpsc-udc-artculture-2016-paper-2-q032": {
+      "expectedStem": "Writer of the book, “Who moved my interest rate”",
+      "expectedOptions": [
+        "D.Subbarao",
+        "YV Reddy",
+        "Ranghuram Rajan",
+        "Arvind Panagariya"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "'Who Moved My Interest Rate?' is a memoir by former RBI Governor D. Subbarao. The title refers to his account of monetary-policy decisions while leading the Reserve Bank of India.",
+      "mode": "brief"
+    },
+    "mpsc-udc-excise-2018-paper-2-q032": {
+      "expectedStem": "What is the full form of PPP?",
+      "expectedOptions": [
+        "People’s Programme & Priority",
+        "Purchase Produce Provide",
+        "Public Power Parity",
+        "Public Private Partnership"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "In this general/administrative usage, PPP stands for Public Private Partnership. Here PPP names a collaboration between the government and private businesses to finance or provide a public service; the similarly worded alternatives are not standard expansions.",
+      "mode": "brief"
+    },
+    "mpsc-udc-arc-2020-paper-2-q046": {
+      "expectedStem": "What is the full form of PPP?",
+      "expectedOptions": [
+        "Product Purchase Provides",
+        "Public Private Partnership",
+        "Purchasing Power Point",
+        "People’s Programme & Priority"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "PPP commonly stands for Public Private Partnership. The term describes a government–private-sector arrangement for delivering infrastructure or services; “Purchasing Power Point” is not the economics term purchasing power parity.",
+      "mode": "brief"
+    },
+    "mpsc-udc-taxation-2021-paper-2-q030": {
+      "expectedStem": "The organization that released ‘The Future of Jobs Report 2020’ is",
+      "expectedOptions": [
+        "International Labour Organisation",
+        "World Economic Forum",
+        "World Trade Organisation",
+        "United Nations"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The World Economic Forum released 'The Future of Jobs Report 2020'. It is the WEF publication on employment trends and future skills, rather than a report issued by the ILO, WTO or UN.",
+      "mode": "brief"
+    },
+    "mpsc-udc-agriculture-2018-paper-2-q059": {
+      "expectedStem": "VAT stands for",
+      "expectedOptions": [
+        "Various Alternative Tax",
+        "Vivid Aided Tax",
+        "Value Added Tax",
+        "Vigorous Added Tax"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "VAT is the standard abbreviation for Value Added Tax. The tax applies to the value added at each production or distribution stage, with input tax credit preventing repeated taxation of the same value.",
+      "mode": "brief"
+    },
+    "mpsc-udc-tourism-2018-paper-2-q049": {
+      "expectedStem": "In banking, ATM stands for",
+      "expectedOptions": [
+        "Automated Tallying Machine",
+        "Automated Teller Machine",
+        "Automatic Totalling Machine",
+        "Automated Transaction of Money"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "ATM stands for Automated Teller Machine. A teller machine lets customers perform common banking transactions such as withdrawals without a human bank teller.",
+      "mode": "brief"
+    },
+    "mpsc-asst-2014-paper-2-q019": {
+      "expectedStem": "Literacy rate is lowest in the state of",
+      "expectedOptions": [
+        "Bihar",
+        "Chhattisgarh",
+        "Haryana",
+        "Arunachal Pradesh"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Bihar had the lowest literacy rate in India in the 2011 census, at about 61.8 per cent. This compares the four listed states using the 2011 Census, the reference available when this 2014 paper was set; later literacy estimates are a different time series.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ng-technical-2024-gk-q051": {
+      "expectedStem": "Which of the following Five Year Plan was implemented with the slogan \"Garibi Hatao\"?",
+      "expectedOptions": [
+        "7^th Five Year Plan",
+        "8^th Five Year Plan",
+        "2^nd Five Year Plan",
+        "5^th Five Year Plan"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Fifth Plan (1974–79) adopted poverty removal as a central aim; the slogan “Garibi Hatao” identifies that plan among the four choices.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ng-technical-2024-gk-q055": {
+      "expectedStem": "Which Five Year Plan had the primary goal to establish India as self-reliant and self-generating economy?",
+      "expectedOptions": [
+        "1^st Five Year Plan",
+        "2^th Five Year Plan",
+        "3^rd Five Year Plan",
+        "4^th Five Year Plan"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Third Plan (1961–66) sought a self-reliant, self-generating economy; the First Plan focused more on agriculture and the Second on heavy industry.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-jao-2025-p2-Q25": {
+      "expectedStem": "The Reserve Bank of India (RBI) was established on:",
+      "expectedOptions": [
+        "1 January 1935",
+        "1 May 1935",
+        "1 April 1935",
+        "1 July 1935"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The RBI commenced operations on 1 April 1935 under the Reserve Bank of India Act, 1934. The Act was passed in 1934, but the question asks the start date of the institution; RBI commenced business on 1 April 1935.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-steno-2025-gk-Q18": {
+      "expectedStem": "According to World Bank, what is the projected growth rate of Indian economy over the next two fiscal years (2025-2027)?",
+      "expectedOptions": [
+        "6.3%",
+        "6.5%",
+        "6.7%",
+        "7.1%"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Option C is the best answer: 6.7%. The number is the World Bank forecast cited by this paper, not an observed growth rate. Forecast vintages change, so the specified 2025–27 horizon matters.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-steno-2025-gk-Q64": {
+      "expectedStem": "The Head Quarters of World Bank is in-",
+      "expectedOptions": [
+        "Washington",
+        "New York",
+        "Montreal",
+        "Geneva"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Option A is the best answer: Washington. Its two main headquarters buildings are in Washington, D.C.; New York is associated with the UN headquarters.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-station-officer-2018-gk-Q3": {
+      "expectedStem": "NITI Aayog has launched which global mobility hackathon to crowdsource solutions for future of mobility in India?",
+      "expectedOptions": [
+        "Lock Hack",
+        "Beware Hack",
+        "Move Hack",
+        "Crowd Hack"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "NITI Aayog called the global mobility hackathon MoveHack 2018. “MoveHack” is the mobility-themed name; the other three choices are unrelated phrases.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-station-officer-2018-gk-Q47": {
+      "expectedStem": "Who is the current Governor of Reserve Bank of India?",
+      "expectedOptions": [
+        "Urjit Patel",
+        "Raguram Rajan",
+        "D.Subbarao",
+        "Y.V. Reddy"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Urjit Patel was RBI Governor in October 2018; he resigned in December 2018. The word “current” is anchored to the 2018 paper. Raghuram Rajan and D. Subbarao were earlier governors, while Patel was then in office.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-station-officer-2018-gk-Q82": {
+      "expectedStem": "SHG is a small voluntary association of poor people, preferably from the same socio-economic background. The “G” in SHG stands for:",
+      "expectedOptions": [
+        "Group",
+        "Grant",
+        "Grade",
+        "General"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "SHG means Self-Help Group, so G stands for Group. The members pool savings and access credit together, making “Group” the substantive final word in the abbreviation.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-pwd-2018-gs-Q91": {
+      "expectedStem": "National Income of a country is also known as:",
+      "expectedOptions": [
+        "Gross National Product (GNP)",
+        "Gross Domestic Product (GDP)",
+        "Net National Product (NNP)",
+        "Net Domestic Product (NDP)"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "National income is conventionally measured as NNP at factor cost. NNP deducts depreciation from GNP; measuring that net national output at factor cost yields the conventional national-income aggregate.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-power-2018-gs-Q38": {
+      "expectedStem": "Which one of the following taxes at the State level is being subsumed into GST?",
+      "expectedOptions": [
+        "Service tax",
+        "Excise duty",
+        "Countervailing duty",
+        "VAT"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "State VAT was subsumed into GST. VAT was a state tax on sale of goods that GST absorbed; service tax, countervailing duty and central excise were central-level levies.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-assistant-grade-2018-p2-A27": {
+      "expectedStem": "Who is the present governor of Reserve Bank of India (RBI)?",
+      "expectedOptions": [
+        "Viral Acharya",
+        "Urjit Patel",
+        "Raghuram Rajan",
+        "S S Mundra"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Option B is correct: Urjit Patel. At the 2018 paper date Patel had succeeded Raghuram Rajan; Viral Acharya and S. S. Mundra were deputy governors.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-assistant-grade-2018-p2-A39": {
+      "expectedStem": "The Managing director of International Monetary Fund is:",
+      "expectedOptions": [
+        "Christine Lagarde",
+        "Dominique Strauss-Kahn",
+        "Jim Yong Kim",
+        "Kristalina Georgieva"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Option A is correct: Christine Lagarde. This is a paper-date question: Lagarde led the IMF from 2011 to 2019, before Kristalina Georgieva succeeded her.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-assistant-grade-2018-p2-A40": {
+      "expectedStem": "The Vice-Chairman of NITI Aayog is:",
+      "expectedOptions": [
+        "Arvind Panagariya",
+        "Rajiv Kumar",
+        "Rajiv Mehrishi",
+        "Yash Pal"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Option B is correct: Rajiv Kumar. Rajiv Kumar succeeded Arvind Panagariya as vice-chairperson in 2017 and held the post at the 2018 sitting.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-acf-2018-gk-Q100": {
+      "expectedStem": "Blue revolution is related to:",
+      "expectedOptions": [
+        "Meat Production",
+        "Foodgrains Production",
+        "Fish Production",
+        "Apple Production"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Option C is the best answer: Fish Production. “Blue” points to water-based production, particularly fisheries and aquaculture, rather than meat, grain or apples.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ada-2014-gk-Q40": {
+      "expectedStem": "Presently, who is the President of the World Bank?",
+      "expectedOptions": [
+        "Irina Bokova",
+        "Peter Tomka",
+        "Roberto Azevedo",
+        "Jim Yong Kim"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Jim Yong Kim was World Bank president in 2014 (D). Jim Yong Kim served as World Bank president from 2012 to 2019, covering the year of this 2014 paper.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ada-2014-gk-Q47": {
+      "expectedStem": "Who is the current Governor of Reserve Bank of India?",
+      "expectedOptions": [
+        "Dr. Duvvuri Subbarao",
+        "Dr. Y.V.Reddy",
+        "Dr. Vijay L.Kelkar",
+        "Dr. Raghuram Rajan"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Raghuram Rajan was RBI Governor in 2014 (D). Rajan took office in September 2013, after D. Subbarao, and therefore held the governorship at the 2014 sitting.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-phe-2014-gs-Q12": {
+      "expectedStem": "Who is Chairman of Planning Commission?",
+      "expectedOptions": [
+        "President",
+        "Finance Minister",
+        "Prime Minister",
+        "Speaker of Lok Sabha"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Prime Minister chaired India’s Planning Commission. The Prime Minister was ex-officio chair of the former Planning Commission; its day-to-day leadership also included a deputy chair.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-aao-2025-p2-Q27": {
+      "expectedStem": "What is the target fiscal deficit as a percentage of GDP for 2025–26?",
+      "expectedOptions": [
+        "4.4%",
+        "3.5%",
+        "5.0%",
+        "6.0%"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Union Budget 2025–26 sets the fiscal-deficit target at 4.4% of GDP. This is the budget estimate for FY 2025–26, representing planned central-government borrowing as a share of GDP; it should not be read as the later realised deficit.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-hfw-2026-p2-Q33": {
+      "expectedStem": "Human Development Index (HDI) is calculated using which three indicators?",
+      "expectedOptions": [
+        "Health, Education, Income",
+        "Education, Environment, Employment",
+        "Income, Technology, Agriculture",
+        "Health, Housing, Governance"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The HDI combines indicators of health, education and standard of living (income). Life expectancy measures health; mean and expected years of schooling measure education; GNI per person measures living standards.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-assistant-grade-mpsc-2019-p2-A23": {
+      "expectedStem": "At what percent, fiscal deficit for the budget of 2019-2020 has been pegged?",
+      "expectedOptions": [
+        "3.4 %",
+        "3.2 %",
+        "3.1 %",
+        "3.9 %"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Interim Budget projected a 3.4% fiscal deficit for FY 2019–20. The question refers to the Interim Budget forecast for FY2019–20; 3.4% was its announced fiscal-deficit ratio, not a current estimate.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-assistant-grade-mpsc-2019-p2-A35": {
+      "expectedStem": "What is the India’s GDP growth rate forecast for the year 2018, as per latest report by Moody’s Investors Service?",
+      "expectedOptions": [
+        "7.7 %",
+        "7.6 %",
+        "7.8 %",
+        "7.5 %"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Moody’s reported a 7.5% India growth forecast for 2018. The wording fixes Moody’s contemporaneous 2018 forecast. GDP forecasts are time-specific predictions and differ from subsequent realised growth.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-dso-2019-gs1-Q47": {
+      "expectedStem": "NITI Aayog was formed in",
+      "expectedOptions": [
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "NITI Aayog replaced the Planning Commission in 2015. The replacement institution was constituted on 1 January 2015, distinguishing it from the 2014 announcement of the reform.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-dso-2019-gs1-Q48": {
+      "expectedStem": "Green Revolution was started in India in the",
+      "expectedOptions": [
+        "1940s",
+        "1950s",
+        "1960s",
+        "1970s"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "India’s Green Revolution began in the 1960s. High-yielding wheat and rice varieties were introduced and expanded from the mid-1960s, identifying that decade.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-dso-2019-gs1-Q51": {
+      "expectedStem": "Which among the following is the method to estimate the poverty line in India?",
+      "expectedOptions": [
+        "Capital method",
+        "Investment method",
+        "Income method",
+        "Expenditure method"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "India’s poverty line has traditionally been estimated using consumption expenditure. The older official poverty estimates were built from household consumption-expenditure surveys rather than reported income.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-dso-2019-gs1-Q54": {
+      "expectedStem": "Which base year is currently used to calculate per capita income in India?",
+      "expectedOptions": [
+        "1991-92",
+        "2001-02",
+        "2011-12",
+        "2004-05"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The 2011–12 series was the then-current national accounts base year. At the 2019 paper date, the national-accounts series used 2011–12 as its base; the base year has since been revised.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-dso-2019-gs1-Q73": {
+      "expectedStem": "The Five Year Plan in India that gave priority to heavy industry was ..........",
+      "expectedOptions": [
+        "First Five Year Plan",
+        "Second Five Year Plan",
+        "Fourth Five Year Plan",
+        "Seventh Five Year Plan"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Second Five Year Plan prioritized heavy industry. The Mahalanobis strategy placed capital goods and heavy industry at the centre of the Second Plan (1956–61).",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-mar-2019-gs1-Q49": {
+      "expectedStem": "The term ‘Green Revolution’ is also known as",
+      "expectedOptions": [
+        "Monsoon Revolution",
+        "New Economic Policy",
+        "New Agricultural Production Policy",
+        "New Agricultural Strategy"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Green Revolution is also called the New Agricultural Strategy. The phrase refers to high-yield seed varieties supported by irrigation, fertiliser and other inputs, a new strategy for raising crop output.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-mar-2019-gs1-Q54": {
+      "expectedStem": "Since the First Plan, the share of Agriculture and Allied Services in the GDP is",
+      "expectedOptions": [
+        "Same",
+        "Increasing",
+        "Decreasing",
+        "Fluctuating"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Agriculture and allied activities’ share of GDP has declined since the First Plan. Agriculture grew in absolute output, but industry and services expanded faster, reducing agriculture’s percentage share of GDP.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-mar-2019-gs1-Q56": {
+      "expectedStem": "Which of the followings is among the credit control methods used by the RBI?",
+      "expectedOptions": [
+        "Issue of currency",
+        "Credit creation",
+        "Moral suasion",
+        "None of these"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Moral suasion is a qualitative credit-control instrument used by the RBI. Moral suasion means RBI persuading banks to alter lending behaviour; issuing currency is a separate central-bank function.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-mar-2019-gs1-Q69": {
+      "expectedStem": "The main impact of the Green Revolution has been on",
+      "expectedOptions": [
+        "Cereals",
+        "Pulses",
+        "Fruits",
+        "Vegetables"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Green Revolution’s main impact was on cereal crops, especially wheat and rice. The largest gains came from high-yielding wheat and rice, both cereal foodgrains; pulses, fruits and vegetables saw less of the initial impact.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-mar-2019-gs2-Q19": {
+      "expectedStem": "The headquarters of International Monetary fund is located in",
+      "expectedOptions": [
+        "Washington DC",
+        "Vienna",
+        "New York",
+        "Geneva"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The IMF headquarters is in Washington, D.C. The IMF is based in Washington, D.C.; New York is the UN’s headquarters, while Vienna and Geneva house other international bodies.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-oct-2019-gs1-Q2": {
+      "expectedStem": "Who among the following Indian freedom fighters produced for the first time statistical estimate of average per capita income of India?",
+      "expectedOptions": [
+        "Gopal Krishna Gokhale",
+        "Feroz Shah Mehta",
+        "Surendranath Banerjee",
+        "Dadabhai Naoroji"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Dadabhai Naoroji was the first to estimate India’s average per-capita income. Naoroji used early statistics to estimate Indian national and per-capita income, linked to his “drain of wealth” analysis.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-oct-2019-gs1-Q49": {
+      "expectedStem": "The term ‘Green Revolution’ is also known as",
+      "expectedOptions": [
+        "Monsoon Revolution",
+        "New Agricultural Strategy",
+        "New Agricultural Production Policy",
+        "New Economic Policy"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Green Revolution is also called the New Agricultural Strategy. This “new strategy” used high-yielding seeds with irrigation and fertiliser to increase foodgrain yields.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-oct-2019-gs1-Q54": {
+      "expectedStem": "Among different sectors, the contribution for India’s National Income is largest from",
+      "expectedOptions": [
+        "Agriculture sector",
+        "Industrial sector",
+        "Services sector",
+        "None of the above"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The services sector contributes the largest share of India’s national income. Services include trade, transport, finance and other activities; together they contribute more to national income than agriculture or industry.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-do-oct-2019-gs1-Q56": {
+      "expectedStem": "Which of the followings is among the credit control methods used by the RBI?",
+      "expectedOptions": [
+        "Issue of currency",
+        "Bank rate",
+        "Credit creation",
+        "None of these"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The bank rate is a quantitative credit-control tool used by the Reserve Bank of India. Changing the bank rate influences the cost of borrowing from RBI and thus overall bank credit; issuing currency is a different function.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs2-Q40": {
+      "expectedStem": "The Reserve Bank of India was established on :",
+      "expectedOptions": [
+        "April 1, 1935",
+        "April 1, 1926.",
+        "April 1, 1933",
+        "April 1, 1951"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Reserve Bank of India began operations on 1 April 1935. The RBI Act dates from 1934, but the central bank opened for business on 1 April 1935.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs2-Q43": {
+      "expectedStem": "Goods and Service Tax (GST) is implemented With effect from:",
+      "expectedOptions": [
+        "August 1, 2017",
+        "July 1, 2017",
+        "June 1, 2017",
+        "September 1, 2017"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "GST took effect on 1 July 2017. India introduced the nationwide GST regime on 1 July 2017, replacing many central and state indirect taxes.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs2-Q48": {
+      "expectedStem": "Green Revolution was associated with:",
+      "expectedOptions": [
+        "High Yielding Variety of Seeds (HYVS)",
+        "Chemical Fertilizers",
+        "New Technology",
+        "All of these"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Green Revolution combined high-yielding seeds, fertilizers and new technology. High-yielding seeds produced the gains only when supported by fertiliser, irrigation and improved cultivation technology, so all three listed elements apply.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs2-Q54": {
+      "expectedStem": "The basic objective of Twelfth Five Year Plan (2012 – 17) is:",
+      "expectedOptions": [
+        "Rapid industrialisation",
+        "Mechanisation of Agriculture",
+        "Faster, more inclusive and sustainable growth",
+        "Healthy inter-dependence between agriculture and industry"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Twelfth Plan’s theme was faster, more inclusive and sustainable growth. The plan title combines growth speed, broad participation and environmental sustainability; the other options narrow the aim to one sector.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs2-Q55": {
+      "expectedStem": "Revenue deficit arises when the Government’s :",
+      "expectedOptions": [
+        "Actual net receipts is lower than the projected receipts",
+        "Expenditure exceeds revenue",
+        "Debt is mounting",
+        "Expenditure is met from borrowing"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Revenue deficit occurs when revenue expenditure exceeds revenue receipts. Strictly, this means revenue expenditure exceeds revenue receipts; borrowing or a shortfall against forecasts alone does not define a revenue deficit.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs2-Q63": {
+      "expectedStem": "The share of agriculture in Indian National Income is:",
+      "expectedOptions": [
+        "Diminishing",
+        "Increasing",
+        "Constant",
+        "None of these"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Agriculture’s share of national income has declined over time. The share falls when industry and services grow faster, even if agricultural production itself rises.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-2019-gs3-Q66": {
+      "expectedStem": "According to the Mizoram Economic Survey 2016-2017, State Per Capita income of Mizoram in 2015-2016 is",
+      "expectedOptions": [
+        "Rs. 95317",
+        "Rs. 85659",
+        "Rs. 93293",
+        "Rs. 85317"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The 2016–17 Economic Survey gives 2015–16 per-capita income as Rs 85,659. This is a nominal state per-capita-income figure tied to 2015–16; the nearby options are different amounts.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-fr-2019-science-3-Q2": {
+      "expectedStem": "During green revolution in India the crops introduced are:",
+      "expectedOptions": [
+        "Pesticide resistant variety crops",
+        "Drought resistant variety crops",
+        "Insecticide resistant variety crop",
+        "High Yielding variety crops"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Green Revolution relied on high-yielding varieties. These varieties raised yield per hectare, particularly for wheat and rice, when paired with water and fertiliser.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-fr-2019-science-3-Q10": {
+      "expectedStem": "To reduce the environmental impact the Government of India reduce tax for electric vehicle. The new GST for electric vehicle in 2019 stands:",
+      "expectedOptions": [
+        "5%",
+        "6%",
+        "7%",
+        "8%"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The 2019 GST rate for electric vehicles was reduced to 5%. The GST Council cut the electric-vehicle rate from 12% to 5% in 2019 as a lower-tax incentive for cleaner transport.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-iof-2019-gs-Q37": {
+      "expectedStem": "Where was the ‘Deccan Dialogue-Conference on Economic Development’ organized on May 6, 2018?",
+      "expectedOptions": [
+        "Chennai",
+        "Bangalore",
+        "Hyderabad",
+        "Amravati"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Deccan Dialogue was held in Hyderabad. The event name refers to the Deccan region; contemporary event notices place the 6 May 2018 conference in Hyderabad.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-iof-2019-gs-Q93": {
+      "expectedStem": "Which state tops in the list of “Healthy States, Progressive India” published by Niti Aayog in the month of February, 2018?",
+      "expectedOptions": [
+        "Kerala",
+        "Punjab",
+        "Haryana",
+        "Maharashtra"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Kerala topped NITI Aayog’s 2018 Healthy States index among the listed choices. The answer is for the 2018 report and its larger-state comparison; a different edition or category can produce a different leader.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs1-Q64": {
+      "expectedStem": "The present Governor of the Reserve Bank of India is",
+      "expectedOptions": [
+        "Urjit Patel",
+        "Shaktikanta Das",
+        "P. S. Sreedharan Pillai",
+        "Arvind Subramaniam"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Shaktikanta Das was RBI Governor in November 2019. Das took office in December 2018 after Urjit Patel and remained governor when this 2019 exam was set.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs1-Q65": {
+      "expectedStem": "In May 2016, the Reserve Bank of India Act 1934 was amended to provide a statutory basis for the implementation of which of the following:",
+      "expectedOptions": [
+        "The flexible inflation targeting framework",
+        "The flexible deflation targeting framework",
+        "The flexible Banking Ombudsman framework",
+        "The flexible KYC framework"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The 2016 amendment provided the statutory basis for flexible inflation targeting. The amendment underpins the Monetary Policy Committee and an inflation target with tolerance band, rather than a deflation, ombudsman or KYC framework.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs1-Q78": {
+      "expectedStem": "Who among the following has resigned as Deputy Governor of the Reserve Bank of India recently?",
+      "expectedOptions": [
+        "K. Natarajan",
+        "Arvind Pranagaria",
+        "Viral Acharya",
+        "Samant Goel"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Viral Acharya resigned as RBI Deputy Governor in 2019. Acharya announced an early departure from his RBI deputy governorship in 2019; the other names held different positions.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs1-Q82": {
+      "expectedStem": "According to the National Statistic Office, Ministry of Statistics and Programme Implementation, India’s GDP growth rate in the Q1 (April-June) 2019-20 was",
+      "expectedOptions": [
+        "5.7%",
+        "5.2%",
+        "5%",
+        "4.9%"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The NSO’s initial estimate for Q1 FY2019–20 GDP growth was 5.0%. This is the first official GDP release for April–June 2019, in which year-on-year real growth was reported as 5.0%.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs1-Q85": {
+      "expectedStem": "The fiscal deficit of the Union Government of India for the FY 2018-19 was",
+      "expectedOptions": [
+        "3.6% of GDP",
+        "3.5% of GDP",
+        "3.4% of GDP",
+        "3.3% of GDP"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The revised FY2018–19 Union fiscal deficit was 3.4% of GDP. The 3.4% figure is the contemporaneous revised estimate for the Union fiscal deficit as a percentage of GDP, not an absolute rupee amount.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs1-Q88": {
+      "expectedStem": "The Reserve Bank of India reduced the repo rate by 25 basis points in June 2019. The repo rate after this announcement is ___",
+      "expectedOptions": [
+        "6%",
+        "5.75%",
+        "5.5%",
+        "5.25%"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "After the June 2019 cut, the repo rate was 5.75%. A 25-basis-point cut equals 0.25 percentage points: 6.00% before the June decision became 5.75% afterward.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q31": {
+      "expectedStem": "Developmental administration which focuses upon socio-economic development for the people is the administrative responsibility of the",
+      "expectedOptions": [
+        "Bureaucracy",
+        "Politicians",
+        "Civil societies",
+        "None of these"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "A permanent bureaucracy provides administrative continuity across elected governments. Civil servants implement development programmes and maintain administration between elections, while elected politicians set political direction.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q46": {
+      "expectedStem": "Which of the following crops are related to Green Revolution?",
+      "expectedOptions": [
+        "Cotton, Bajra",
+        "Maize, Rice",
+        "Bajra, Wheat",
+        "Wheat, Rice"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Wheat and rice are the principal foodgrains in India. Early high-yield varieties were adopted most prominently for wheat and rice, matching that crop pair.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q52": {
+      "expectedStem": "If there were a balance of payments deficit then in a floating exchange rate system:",
+      "expectedOptions": [
+        "The external value of currency would tend to fall",
+        "The external value of currency would tend to rise",
+        "The injections from trade are greater than the withdrawal",
+        "Aggregate demand is increasing"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "A floating deficit can put downward pressure on a currency through depreciation. In a floating regime the central bank does not maintain a fixed parity; excess demand for foreign currency tends to depreciate the domestic currency.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q55": {
+      "expectedStem": "Niti Aayog is based on which of the following pillars of effective governance? (i)Pro-people agenda(ii)Pro-active (iii)Participative(iv)Transparency (v)Accountability(vi)Quality of service",
+      "expectedOptions": [
+        "i, ii and ii",
+        "i, ii, iii and iv",
+        "i, ii, iii, iv and v",
+        "all of these"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The selected choice includes all the listed pillars of the programme. The listed principles combine service quality, accountability, transparency and participation, so omitting any listed pillar would be incomplete.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q63": {
+      "expectedStem": "NABARD was established in 1982 on the recommendation of:",
+      "expectedOptions": [
+        "Rangarajan Committee",
+        "Sivaraman Committee",
+        "Narashimhan Committee",
+        "Tendulkar Committee"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Sivaraman Committee recommended institutional credit reforms for rural development. The Committee to Review Arrangements for Institutional Credit for Agriculture and Rural Development, chaired by B. Sivaraman, led to NABARD’s creation.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q67": {
+      "expectedStem": "Which among the following is not part of fiscal policy?",
+      "expectedOptions": [
+        "Income Tax",
+        "National Insurance",
+        "Interest Rates",
+        "GST"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Interest rates are a key instrument/transmission channel of monetary policy. Fiscal policy uses government tax and spending choices. Interest-rate policy belongs to monetary policy conducted through the central bank.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q70": {
+      "expectedStem": "First Five Year Plan was based on:",
+      "expectedOptions": [
+        "Harrod Domar Model",
+        "Mahalanobis Model",
+        "Gadgil Model",
+        "Nehruvian Model"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Harrod–Domar model links growth to savings and capital-output ratios. The First Plan stressed agriculture and irrigation and used the Harrod–Domar savings-and-investment growth framework; Mahalanobis is linked to the Second Plan.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q89": {
+      "expectedStem": "Green revolution in India is associated with increased of food grain production and, which of the following food crop benefited the most?",
+      "expectedOptions": [
+        "Rice",
+        "Jowar",
+        "Wheat",
+        "Bajra"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Wheat is a major rabi crop of the northern plains. Early high-yielding varieties produced especially large gains in wheat output, more than in the other three listed crops.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-phe-2019-gs-Q23": {
+      "expectedStem": "Which committee has been constituted by the Reserve Bank of India (RBI) to look into bank frauds?",
+      "expectedOptions": [
+        "A.K. Misra committee",
+        "Nandkumar Saravade committee",
+        "S Raman committee",
+        "Y H Malegam committee"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The RBI formed the Y.H. Malegam committee to examine bank frauds and related issues. The Y. H. Malegam panel was appointed to examine bank-fraud issues; the other committee names do not match that RBI inquiry.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-phe-2019-gs-Q57": {
+      "expectedStem": "In the budget of Mizoram 2018-19. How much amount was allocated for implementation of the New Economic Development Policy (NEDP)?",
+      "expectedOptions": [
+        "Rs 730crore",
+        "Rs 750 crore",
+        "Rs 1000 crore",
+        "Rs 760 crore"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Mizoram’s 2018–19 Budget Estimate earmarked ₹1,000 crore for NEDP. The figure is the allocation in the specified 2018–19 Mizoram budget for the New Economic Development Policy, not the policy’s total multiyear cost.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-phe-2019-gs-Q59": {
+      "expectedStem": "The base year currently in use for measuring national income in India, also known as national income at constant price is -",
+      "expectedOptions": [
+        "2001-02 prices",
+        "2004-05 prices",
+        "2011-12 prices",
+        "2012-13 prices"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "India’s national-income constant-price series uses 2011–12 as its base year. Constant-price income removes inflation by valuing output at prices from a fixed base year, which was 2011–12 for this 2019 paper.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-agri-2019-p2-A12": {
+      "expectedStem": "Who was appointed as the 25th Governor of the Reserve Bank of India on 11th December 2018?",
+      "expectedOptions": [
+        "Ravi Handa",
+        "Shaktikanta Das",
+        "S. Krishna Moorthy",
+        "Arjun Rishab"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Das was appointed after Urjit Patel’s resignation, becoming the twenty-fifth person to lead RBI.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-agri-2019-p2-A18": {
+      "expectedStem": "As per the revised GST norms, the GST on Haj has been reduced from 18 per cent to",
+      "expectedOptions": [
+        "15 per cent",
+        "12 per cent",
+        "8 per cent",
+        "5 per cent"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The revised rate for Haj pilgrimage services was 5%, a decrease of 13 percentage points from 18%.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-agri-2019-p2-B108": {
+      "expectedStem": "The marked price of a scooty is Rs 54,000 and GST of 4 % is charged on it. The total  amount to be paid for the scooty is",
+      "expectedOptions": [
+        "Rs 56,120",
+        "Rs 56,160",
+        "Rs 57,200",
+        "Rs 57,820"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "GST is 4% of ₹54,000, or ₹2,160. Adding it to the marked price gives ₹56,160.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-dc-serchhip-2019-p2-A13": {
+      "expectedStem": "Who was selected as the 13th president of the World Bank on April 5, 2019?",
+      "expectedOptions": [
+        "Abdelaziz Bouteflika",
+        "David Malpass",
+        "Mats Malm",
+        "Paul Morland"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "David Malpass was elected World Bank president. The World Bank selected Malpass in April 2019 to succeed Jim Yong Kim; the other names were not its president-elect.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-forensic-2019-p2-A9": {
+      "expectedStem": "Blue revolution is the intense growth of ____________ technology.",
+      "expectedOptions": [
+        "Fishing",
+        "Aquaculture",
+        "horticulture",
+        "silvipasture"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Blue Revolution concerns aquaculture and fish production. Aquaculture is the cultivation of fish and other aquatic organisms; that production is the focus of the Blue Revolution.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-forensic-2019-p2-A14": {
+      "expectedStem": "Reserve Bank of India (RBI) has approved which country’s Pasargad Bank to open branches in Mumbai for easing trade related transactions on 2019?",
+      "expectedOptions": [
+        "Afghanistan",
+        "Myanmar",
+        "Egypt",
+        "Iran"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Pasargad Bank is Iranian. Pasargad Bank is an Iranian bank, so the proposed Mumbai branch related to Iran–India trade.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-forensic-2019-p2-A37": {
+      "expectedStem": "The biggest economy in the world in terms of GDP purchasing power parity is",
+      "expectedOptions": [
+        "India",
+        "USA",
+        "Japan",
+        "China"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "China had the largest GDP by purchasing power parity. Purchasing-power parity adjusts GDP for domestic price levels, under which China exceeded the United States in the cited period.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-forensic-2019-p2-A62": {
+      "expectedStem": "GST, introduced by Government of India is",
+      "expectedOptions": [
+        "General Surveying Team",
+        "Geology Surveying Team",
+        "Goods and Services tax",
+        "General Service in Transport"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "GST means Goods and Services Tax. GST is the broad indirect tax on supplies of goods and services, rather than any of the unrelated “survey” or “transport” expansions.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-horti-2019-p2-A11": {
+      "expectedStem": "Which state tops the Innovation Index 2019 launched by the NITI Aayog?",
+      "expectedOptions": [
+        "Kerala",
+        "Maharastra",
+        "Andra Pradesh",
+        "Karnataka"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Karnataka is the state. The 2019 India Innovation Index placed Karnataka first among major states; the question refers to that edition.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-horti-2019-p2-A22": {
+      "expectedStem": "The amount of money given by RBI to the Central government- its highest transfer ever-sparking a fierce debate in India is",
+      "expectedOptions": [
+        "1.76 Lakh crores",
+        "1.96 Lakh crores",
+        "2.18 Lakh crores",
+        "2.85 Lakh crores"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The RBI transferred ₹1.76 lakh crore in surplus. The record transfer was the RBI’s 2018–19 surplus plus excess provisions, totaling about ₹1.76 lakh crore to the Union government.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-revenue-2019-p2-A36": {
+      "expectedStem": "Green Revolution is also known as",
+      "expectedOptions": [
+        "Second Agricultural Revolution",
+        "Anti-Red Revolution",
+        "Third Agricultural Revolution",
+        "Agricultural and Healthy Revolution"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Green Revolution is commonly called the Second Agricultural Revolution. The term points to the major second phase of agricultural productivity growth through high-yield seeds, irrigation and fertiliser.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-mpsc-2019-p2-B84": {
+      "expectedStem": "The price of a scooter is Rs 54,000 and GST of 28% is charged on it. The total amount to be paid for the scooter is",
+      "expectedOptions": [
+        "Rs 58320",
+        "Rs 69120",
+        "Rs 70200",
+        "Rs 92880"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "54,000×1.28=69,120. Calculate 28% of ₹54,000 as ₹15,120, then add it to the base price: ₹54,000 + ₹15,120 = ₹69,120.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-rd-2019-p2-A9": {
+      "expectedStem": "Which among the following banks was not penalised for non-compliance with various directions issued by the Reserve Bank of India?",
+      "expectedOptions": [
+        "HDFC Bank",
+        "ICICI Bank",
+        "IDBI Bank",
+        "Kotak Mahindra Bank Limited"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "ICICI Bank was not among the banks penalized in the cited RBI action. This item depends on the specific RBI penalties reported near the 2019 exam date; the other three banks were named in that enforcement action.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-rd-2019-p2-A24": {
+      "expectedStem": "Which country tops the list under Human Capital Index launched by World Bank?",
+      "expectedOptions": [
+        "United States of America",
+        "Denmark",
+        "Singapore",
+        "Iceland"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Singapore topped the World Bank Human Capital Index. The World Bank’s inaugural Human Capital Index ranked Singapore first; it combines expected health and education outcomes.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-rd-2019-p2-A26": {
+      "expectedStem": "Who is appointed as the 25th Governor of the Reserve Bank of India?",
+      "expectedOptions": [
+        "Rajiv Mehrishi",
+        "Sanjib Chattapadhyay",
+        "Krishnamurthy Subramanian",
+        "Shaktikanta Das"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Shaktikanta Das was the 25th RBI Governor. Das succeeded Urjit Patel in December 2018, making him RBI’s twenty-fifth governor.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-rd-2019-p2-A31": {
+      "expectedStem": "Who is the first Indian woman to be appointed as Chief Economist of IMF?",
+      "expectedOptions": [
+        "Chanda Kochhar",
+        "Gita Gopinath",
+        "Nikki Haley",
+        "Arundhati Bhattacharya"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Gita Gopinath became IMF Chief Economist. Gopinath was appointed IMF chief economist in 2018 and took up the role in 2019; the other candidates did not hold that post.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-transport-2019-p2-A4": {
+      "expectedStem": "India has raised customs duty to 200 per cent on all goods imported from which nation?",
+      "expectedOptions": [
+        "Pakistan",
+        "China",
+        "Myanmar",
+        "Saudi Arabia"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "India raised import duties on Pakistani goods to 200% after Pulwama. This followed the February 2019 Pulwama attack and withdrawal of Pakistan’s most-favoured-nation trade status.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-leit-2019-gs2-Q40": {
+      "expectedStem": "The Reserve Bank of India was established on :",
+      "expectedOptions": [
+        "April 1, 1935",
+        "April 1, 1926.",
+        "April 1, 1933",
+        "April 1, 1951"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Reserve Bank of India began operations on 1 April 1935. The Reserve Bank of India Act, 1934 enabled its creation; it commenced business on 1 April 1935.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-leit-2019-gs2-Q43": {
+      "expectedStem": "Goods and Service Tax (GST) is implemented With effect from:",
+      "expectedOptions": [
+        "August 1, 2017",
+        "July 1, 2017",
+        "June 1, 2017",
+        "September 1, 2017"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "GST took effect across India on 1 July 2017. The nationwide goods-and-services tax began on 1 July 2017, absorbing multiple earlier indirect taxes.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-leit-2019-gs2-Q54": {
+      "expectedStem": "The basic objective of Twelfth Five Year Plan (2012 – 17) is:",
+      "expectedOptions": [
+        "Rapid industrialisation",
+        "Mechanisation of Agriculture",
+        "Faster, more inclusive and sustainable growth",
+        "Healthy inter-dependence between agriculture and industry"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Twelfth Plan’s stated theme was faster, more inclusive and sustainable growth. The Twelfth Plan’s title explicitly combined faster growth with inclusion and sustainability over 2012–17.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-leit-2019-gs2-Q63": {
+      "expectedStem": "The share of agriculture in Indian National Income is:",
+      "expectedOptions": [
+        "Diminishing",
+        "Increasing",
+        "Constant",
+        "None of these"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Agriculture’s share of national income has declined as industry and services expanded. The percentage share fell as services and industry expanded faster than farm output; “diminishing” refers to share, not necessarily absolute production.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-eo-leit-2019-gs3-Q66": {
+      "expectedStem": "According to the Mizoram Economic Survey 2016-2017, state per-capita income of Mizoram in 2015-2016 is",
+      "expectedOptions": [
+        "Rs. 95317",
+        "Rs. 85659",
+        "Rs. 93293",
+        "Rs. 85317"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The 2016–17 Economic Survey gives 2015–16 per-capita income as Rs 85,659. The question cites the 2016–17 Economic Survey and asks for its 2015–16 estimate, so ₹85,659 is tied to that specific year.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ae-civil-tourism-2020-gs-Q9": {
+      "expectedStem": "The NITI Aayog and which international organization launched “The Gandhian Challenge”?",
+      "expectedOptions": [
+        "UNESCO",
+        "FAO",
+        "UNICEF",
+        "WHO"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The NITI Aayog launched The Gandhian Challenge with UNICEF (C). The Gandhian Challenge invited ideas from young people around Mahatma Gandhi’s principles and was a NITI Aayog–UNICEF initiative.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-arc-2020-p2-A5": {
+      "expectedStem": "What is India’s rank in Human Development Index-2019?",
+      "expectedOptions": [
+        "130",
+        "88",
+        "129",
+        "98"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "India ranked 129th in the 2019 Human Development Report. The 2019 UNDP Human Development Report listed India at 129th; ranks vary with report year and country coverage.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-udc-arc-2020-p2-A29": {
+      "expectedStem": "What is the GDP (Gross Domestic Product) growth of India for the current financial year-FY 20 as per Asian Development Bank?",
+      "expectedOptions": [
+        "5.5%",
+        "5.7%",
+        "5.3%",
+        "5.1%"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "ADB forecast India’s FY2020 growth at 5.1%. ADB’s forecast was 5.1% for FY2019–20 in the release relevant to the paper; forecast vintages should not be replaced by later actuals.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-aap-2020-gs-Q11": {
+      "expectedStem": "What was the position of India in the World Bank’s Human Capital Index 2020?",
+      "expectedOptions": [
+        "67th",
+        "93rd",
+        "116th",
+        "123rd"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "India ranked 116th in the 2020 Human Capital Index. The index measures expected human-capital productivity from child survival, schooling and health; India’s 2020 rank was 116th.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-aap-2020-gs-Q13": {
+      "expectedStem": "According to the reports of the finance ministry, India’s GDP during April-June period was contracted by",
+      "expectedOptions": [
+        "21.7%",
+        "23.9 %",
+        "33.6%",
+        "35.7%"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "India’s GDP contracted 23.9% in April–June 2020. The first pandemic lockdown quarter, April–June 2020, recorded a year-on-year real GDP contraction of 23.9%.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-aap-2020-gs-Q58": {
+      "expectedStem": "National Income in India is estimated by?",
+      "expectedOptions": [
+        "Planning Commission",
+        "Finance Commission",
+        "Indian Statistical Institute",
+        "Central Statistical Organization"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Central Statistical Organization (now NSO) estimates national income. The CSO compiled India’s official national accounts; it has since been incorporated into the National Statistical Office.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-aap-2020-gs-Q60": {
+      "expectedStem": "The rate at which RBI gives short term loan to commercial banks is called",
+      "expectedOptions": [
+        "Reverse Repo Rate",
+        "Repo Rate",
+        "SLR",
+        "Cash Reserve Ratio"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Repo rate is the rate at which RBI lends short-term to banks. Under a repo transaction a bank receives funds from RBI against securities and agrees to repurchase them; reverse repo moves funds the other way.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-aap-2020-gs-Q62": {
+      "expectedStem": "The blue revolution is related with",
+      "expectedOptions": [
+        "Foodgrain production",
+        "Oilseed production",
+        "Milk production",
+        "Fish Production"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Blue Revolution concerns fish production. It refers to increasing fish output through fisheries and aquaculture, unlike the white revolution for milk.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-pwd-2020-gs-Q77": {
+      "expectedStem": "The central banking functions in India are performed by the i)Central Bank of India ii)Reserve Bank of India iii)State Bank of India iv)Punjab National Bank",
+      "expectedOptions": [
+        "i) only",
+        "ii) only",
+        "i) and ii)",
+        "ii) and iii)"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Reserve Bank of India performs India’s central-banking functions. The similarly named Central Bank of India is a commercial bank. Only RBI is India’s monetary authority and bank regulator.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mes-pwd-2020-gs-Q81": {
+      "expectedStem": "If the cash reserve ratio is lowered by the RBI, its impact on credit creation will be to –",
+      "expectedOptions": [
+        "increase it",
+        "decrease it",
+        "no impact",
+        "none of these"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "A lower CRR frees more bank funds for lending and expands credit creation. CRR is the fraction of deposits banks must keep with RBI. Reducing it releases funds that banks can lend, raising potential credit creation.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q2": {
+      "expectedStem": "How much percent of India’s GDP is set as a target to raise health services expenditure by 2025?",
+      "expectedOptions": [
+        "2.3%",
+        "2.4%",
+        "2.5%",
+        "2.6%"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The National Health Policy 2017 set a goal of public health spending reaching 2.5% of GDP by 2025.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q4": {
+      "expectedStem": "What is the GDP growth of India for the year 2018-19?",
+      "expectedOptions": [
+        "7%",
+        "7.2%",
+        "6.8%",
+        "7.3%"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The 6.8% figure is the GDP growth estimate cited for FY2018–19 in the source period; later revisions can change historical growth series.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q34": {
+      "expectedStem": "If the cash reserve ratio is lowered by the RBI, its impact on credit creation will be to",
+      "expectedOptions": [
+        "increase it",
+        "decrease it",
+        "no impact",
+        "none of these"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "CRR is required cash held at RBI. A lower requirement leaves banks more lendable deposits, increasing their capacity to create credit.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q35": {
+      "expectedStem": "In India, which one among the following formulates the fiscal policy?",
+      "expectedOptions": [
+        "Planning Commission",
+        "Ministry of Finance",
+        "Finance Commission",
+        "The Reserve Bank of India"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Taxation, expenditure and the Union Budget are handled by the Ministry of Finance; RBI mainly conducts monetary policy.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q53": {
+      "expectedStem": "Reserve Bank of India (RBI) observed Financial Literacy (FL) Week on?",
+      "expectedOptions": [
+        "June 2-6, 2019",
+        "June 1-5, 2019",
+        "June 4-8, 2019",
+        "June 3-7, 2019"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The RBI’s 2019 Financial Literacy Week ran from Monday 3 June through Friday 7 June, matching option D.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q56": {
+      "expectedStem": "What is the limit of Ways and Means Advances (WMA) set up by Reserve Bank of India(RBI) for the first half of the financial year 2019-20?",
+      "expectedOptions": [
+        "Rs.90000 crore",
+        "Rs.75000 crore",
+        "Rs.25000 crore",
+        "Rs.50000 crore"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "RBI’s announced WMA ceiling for the Union government in April–September 2019 was ₹75,000 crore; WMA covers temporary cash-flow gaps.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q57": {
+      "expectedStem": "Name the Scheme,funded by the World Bank and the Government of India,in order to strengthen the unorganised food processing sector concentrated in rural areas?",
+      "expectedOptions": [
+        "Gram Samridhi Yojana",
+        "Pradhan Mantri Kaushal Vikas Yojna",
+        "Pradhan Mantri Suraksha Bima Yojana",
+        "Pradhan Mantri Jeevan Jyoti Bima Yojana"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The proposed Gram Samridhi Yojana targeted rural unorganised food-processing enterprises with World Bank and Indian-government support.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q62": {
+      "expectedStem": "Foreign Direct Investment ceilings in the telecom sector have been raised from 74 percent to",
+      "expectedOptions": [
+        "80 percent",
+        "83 percent",
+        "90 percent",
+        "100 percent"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The policy change permitted up to 100% foreign direct investment in telecom, above the previous 74% ceiling.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q63": {
+      "expectedStem": "The chairman of NITI Aayog is",
+      "expectedOptions": [
+        "The President of India",
+        "The Prime Minister of India",
+        "The Planning Minister",
+        "The Home Minister of India"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Prime Minister chairs NITI Aayog by design; its vice-chairperson and CEO are separate posts.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q64": {
+      "expectedStem": "National Income estimates in India are prepared by",
+      "expectedOptions": [
+        "Central Statistical Organisation.",
+        "National Income Organisation",
+        "Planning Commission",
+        "NITI Aayog"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The CSO was the official statistics agency compiling national-income aggregates; this function now sits within the NSO.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-mpe-ss-2020-gk-Q69": {
+      "expectedStem": "The First Five Year Plan was based on:",
+      "expectedOptions": [
+        "Harrod–Domar Model",
+        "P.C. Mahalanobis Model",
+        "Both (a) and (b)",
+        "Neither (a) nor (b)"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Harrod–Domar links growth to savings and investment, while the Mahalanobis heavy-industry model characterized the Second Plan.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q19": {
+      "expectedStem": "Which of the following replaced the Planning Commission?",
+      "expectedOptions": [
+        "NITI AYOG",
+        "The Finance Commission",
+        "Lok Sabha Secretariat",
+        "Rajia Sabha Secretasriat"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "NITI Aayog replaced the Planning Commission in 2015. NITI Aayog was created in 2015 to replace the Planning Commission as the government’s policy think tank.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q44": {
+      "expectedStem": "For which type of crop was Minimum Support Price (MSP) first announced by the Government of India in 1966-67?",
+      "expectedOptions": [
+        "Corn",
+        "Maize",
+        "Rice",
+        "Wheat"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Wheat was the first crop for which minimum support prices were announced in 1966–67. The first MSP announcement in 1966–67 was for wheat amid the early Green Revolution; later MSP coverage expanded to other crops.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q54": {
+      "expectedStem": "Buying of securities by RBI leads to______",
+      "expectedOptions": [
+        "Decrease in liquidity",
+        "Increase in liquidity",
+        "Constant liquidity",
+        "None of these"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "When RBI buys securities, it pays funds into the market, increasing liquidity. Buying government securities pays money to sellers and adds reserves to banks, increasing market liquidity; selling does the reverse.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q58": {
+      "expectedStem": "Which Five-Year Plan of India had adopted ‘Removal of Poverty’ as its foremost objective?",
+      "expectedOptions": [
+        "2nd Five-Year Plan",
+        "3rd Five-Year Plan",
+        "4th Five-Year Plan",
+        "6th Five-Year Plan"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Sixth Five-Year Plan (1980–85) emphasised poverty alleviation and employment. The Sixth Plan (1980–85) put poverty removal and employment at the centre of its objectives; the earlier plans stressed other priorities.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q61": {
+      "expectedStem": "Per capita income of India as per IMF estimate in 2017 is",
+      "expectedOptions": [
+        "1983 $",
+        "1720 $",
+        "2500 $",
+        "2750 $"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The IMF’s nominal per-capita GDP estimate for India in 2017 was approximately US$1,983. This is a nominal US-dollar estimate for 2017; it is distinct from a purchasing-power-parity figure, which would be much higher.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q69": {
+      "expectedStem": "Reserve Bank of India fixed the cash reserve ratio now at",
+      "expectedOptions": [
+        "7 %",
+        "8 %",
+        "6 %",
+        "4 %"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The RBI’s cash reserve ratio at the time of this 2019 paper was 4%. At the 2019 sitting RBI required commercial banks to hold 4% of eligible deposits as cash reserves; the rate changes over time.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-inspector-fcs-2019-gs2-Q71": {
+      "expectedStem": "Chairman of NITI Aayog is",
+      "expectedOptions": [
+        "Prime Minister of India",
+        "President of India",
+        "Vice President of India",
+        "Home Minister of India"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Prime Minister of India chairs NITI Aayog. The Prime Minister is NITI Aayog’s ex-officio chairperson; the other constitutional officers listed do not hold that role.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q11": {
+      "expectedStem": "Name Chief Economist of World Bank",
+      "expectedOptions": [
+        "Raghuram Rajan",
+        "Urjit Patel",
+        "Indemit Gill",
+        "Viral Acharya"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Indermit Gill became the World Bank’s Chief Economist. Gill was appointed in 2022 as the World Bank’s Chief Economist and Senior Vice President for Development Economics.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q17": {
+      "expectedStem": "Name the country who recently joined Comprehensive and Progressive Agreement for Trans-Pacific Partnership(CPTPP), unlocking access to a region with a total GDP of $13.6 trillion.",
+      "expectedOptions": [
+        "Canada",
+        "Italy",
+        "UK",
+        "Brazil"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The UK signed its accession protocol in July 2023, which explains the paper’s wording; formal membership began on 15 December 2024.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q27": {
+      "expectedStem": "Name the new mobile app launched on 22 March 2023 for Taxpayers by Income Tax Department.",
+      "expectedOptions": [
+        "AIS for Taxpayers",
+        "App for Taxpayers",
+        "AIS App Taxpayers",
+        "APP TAXP"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The Income Tax Department launched the AIS for Taxpayers app. AIS stands for Annual Information Statement, and the app allows taxpayers to view their reported tax information on a phone.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q28": {
+      "expectedStem": "According to the National Statistical Office on 5th March 2023, India’s Per Capita Income was estimated at",
+      "expectedOptions": [
+        "Rs. 86,647",
+        "Rs. 1,72,000",
+        "Rs. 2,50,900",
+        "Rs. 3,77,680"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The NSO estimate cited in the paper was per-capita income of ₹1,72,000. The amount corresponds to the NSO’s then-current per-capita net national income estimate at current prices, around ₹1.72 lakh.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-jr-grade-of-mls-under-law-judicial-deptt-general-knowledge-Q61": {
+      "expectedStem": "Chief Executive Officer of NITI Aayog is",
+      "expectedOptions": [
+        "B.V.R. Subrahmanyam",
+        "Bimal Jain",
+        "Dr. Manik Sinha",
+        "Raghuram Rajan"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "B. V. R. Subrahmanyam became NITI Aayog’s CEO in February 2023. He assumed the NITI Aayog CEO post in 2023, succeeding Parameswaran Iyer; the other listed people held different posts.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-acf-2023-general-knowledge-Q64": {
+      "expectedStem": "National Bank for Agriculture and Rural Development (NABARD) was established in the year",
+      "expectedOptions": [
+        "1980",
+        "1982",
+        "1984",
+        "1986"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "NABARD was established in 1982. NABARD began operations on 12 July 1982 as the apex institution for agricultural and rural-development finance.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q1": {
+      "expectedStem": "Which sector contributes the highest to the Gross Domestic Product of India?",
+      "expectedOptions": [
+        "Agriculture & Allied sector",
+        "Manufacturing sector",
+        "Service sector",
+        "External sector"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The services sector is the largest component of India’s GDP. Services include trade, finance, transport and public services; in aggregate they exceed agriculture and manufacturing in GDP share.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q6": {
+      "expectedStem": "Who is the present chairman of NITI Aayog?",
+      "expectedOptions": [
+        "Narendra Modi",
+        "Suman Bery",
+        "Arvind Panagariya (printed/OCR rendering: Pranagaria)",
+        "Bibek Debroy"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "NITI Aayog’s chairperson is the Prime Minister; at the exam date this was Narendra Modi. NITI Aayog is chaired ex officio by the serving Prime Minister, who was Narendra Modi at the 2024 exam date.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q7": {
+      "expectedStem": "Minimum support price (MSP) is the guaranteed amount paid to farmers based on the recommendations of",
+      "expectedOptions": [
+        "Ministry of Agriculture and Farmers Welfare",
+        "Cabinet Committee on Economic Affairs",
+        "Agricultural Price Commission",
+        "Commission for Agricultural Costs and Prices"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Commission for Agricultural Costs and Prices recommends MSPs to the government. CACP advises the government on crop MSPs; the Cabinet Committee on Economic Affairs makes the final approval decision.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-archive2325-grade-iii-of-mjs-civil-judge-general-knowledge-2024-Q8": {
+      "expectedStem": "In which year Planning Commission was set up to help design and execute suitable policies for economic development?",
+      "expectedOptions": [
+        "1949",
+        "1950",
+        "1951",
+        "1952"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Planning Commission was established by Cabinet resolution on 15 March 1950. The Commission was formed by executive resolution in March 1950, before the First Five Year Plan began in 1951.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q5": {
+      "expectedStem": "According to IMF projections for 2025, which nation recorded the highest growth rate among major economies?",
+      "expectedOptions": [
+        "China",
+        "Japan",
+        "India",
+        "South Korea"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The cited IMF projection placed India highest among the listed major economies. For the IMF forecast vintage referred to in the 2026 paper, India’s projected growth exceeded China, Japan and South Korea among these choices.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ng-january-2026-group-b-non-gazetted-technical-common-examination-general-studies-Q33": {
+      "expectedStem": "Human Development Index (HDI) is calculated using which three indicators?",
+      "expectedOptions": [
+        "Health, Education, Income",
+        "Education, Environment, Employment",
+        "Income, Technology, Agriculture",
+        "Health, Housing, Governance"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "HDI uses health, education, and income dimensions. Health uses life expectancy, education uses years-of-schooling measures, and income uses GNI per capita.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q51": {
+      "expectedStem": "Which Five Year Plan was implemented with the slogan “Garibi Hatao”?",
+      "expectedOptions": [
+        "7th Five Year Plan",
+        "8th Five Year Plan",
+        "2nd Five Year Plan",
+        "5th Five Year Plan"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Fifth Plan (1974–79) gave poverty removal prominence, whereas the Second Plan emphasized heavy industry.",
+      "mode": "brief"
+    },
+    "mpsc-group-b-ng-november-2024-group-b-non-gazetted-technical-common-examination-general-knowledge-Q55": {
+      "expectedStem": "Which Five Year Plan had the primary goal to establish India as self-reliant and self-generating economy?",
+      "expectedOptions": [
+        "1° Five Year Plan",
+        "2\" Five Year Plan",
+        "3™ Five Year Plan",
+        "4\" Five Year Plan"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Third Plan (1961–66) aimed for a self-reliant, self-generating economy; the First Plan prioritized agriculture and the Second industrialization.",
+      "mode": "brief"
+    },
+    "mpsc-ldc-2025-paper-1-q008": {
+      "expectedStem": "The tax on import and export of commodities is known as",
+      "expectedOptions": [
+        "VAT",
+        "GST",
+        "Custom duties",
+        "Excise duties"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Customs duties are taxes imposed on goods when they cross a national border. VAT and GST tax domestic supplies or consumption, while excise duties are associated with manufacture or production.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2025-paper-1-q043": {
+      "expectedStem": "Which of the following would come under capital expenditure?",
+      "expectedOptions": [
+        "Salaries and wages",
+        "Payment of rent",
+        "Repairs and maintenance",
+        "Purchase of tools and machinery"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "Buying tools and machinery creates assets used over several years, so it is capital expenditure. Salaries, rent and routine repairs are recurring revenue expenditure.",
+      "mode": "long"
+    },
+    "mpsc-udc-combined-2025-paper-1-q008": {
+      "expectedStem": "What is the important function of taxation in India?",
+      "expectedOptions": [
+        "Reduce black money",
+        "Generate funds for Government expenditure",
+        "Reduce inflation",
+        "None of the above"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Taxation raises revenue that the government uses for public services, administration and investment. Reducing inflation or black money may be policy effects of particular taxes, but raising public funds is the basic function asked here.",
+      "mode": "long"
+    },
+    "mpsc-udc-combined-2025-paper-1-q010": {
+      "expectedStem": "What is the main purpose of buffer stock in India?",
+      "expectedOptions": [
+        "To reduce food price fluctuations",
+        "To save food grains from environmental threats",
+        "To provide farmers a place to store food grains",
+        "None of the above"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "A buffer stock lets public agencies buy grain when supplies are plentiful and release it when supplies are tight. This cushions food-price swings and supports availability; it is not simply rented storage for individual farmers.",
+      "mode": "long"
+    },
+    "mpsc-udc-combined-2025-paper-1-q011": {
+      "expectedStem": "Which industry is related to the second green revolution?",
+      "expectedOptions": [
+        "Horticulture",
+        "Food processing",
+        "Fisheries",
+        "None of the above"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Food processing adds value to farm produce, reduces spoilage and links higher agricultural output to markets. It is the industry associated with a proposed second Green Revolution in the terminology used by this question.",
+      "mode": "long"
+    },
+    "mpsc-udc-combined-2025-paper-1-q012": {
+      "expectedStem": "Which among the following is a domestic payment system?",
+      "expectedOptions": [
+        "VISA",
+        "MasterCard",
+        "RuPay",
+        "American Express"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "RuPay is India’s domestic card-payment network operated by NPCI. Visa, MasterCard and American Express are international card networks, so RuPay is the domestic option.",
+      "mode": "long"
+    },
+    "mpsc-udc-combined-2025-paper-1-q013": {
+      "expectedStem": "What is meant by the ‘Take off stage’ in an economy?",
+      "expectedOptions": [
+        "Stage of growth",
+        "Stage of stagnation",
+        "Stage of collapse",
+        "Stage of decline"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "In Rostow’s stages of economic growth, take-off is the stage when investment and industrial activity accelerate enough for sustained growth. Stagnation, collapse and decline describe the opposite direction.",
+      "mode": "long"
+    },
+    "mpsc-udc-combined-2025-paper-1-q014": {
+      "expectedStem": "What is amoderate degree of controlled inflation called?",
+      "expectedOptions": [
+        "Reflation",
+        "Stagflation",
+        "Hyper-inflation",
+        "Disinflation"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "Reflation is deliberate policy to lift prices and activity from a depressed level toward normal conditions. Stagflation combines inflation with weak growth, hyperinflation is uncontrolled rapid price growth, and disinflation is slower inflation.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q016": {
+      "expectedStem": "The think tank of government of India that replaced the Planning Commission is?",
+      "expectedOptions": [
+        "NITI dharma",
+        "NITI Vakya",
+        "NITI dharsan",
+        "NITI Aayog"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Government of India established NITI Aayog on 1 January 2015 as the policy institution succeeding the Planning Commission. The other three names are not that institution.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q028": {
+      "expectedStem": "What does ‘NPA’ stand for in the banking sector?",
+      "expectedOptions": [
+        "Net Project Asset",
+        "Non-Performing Asset",
+        "New Pension Account",
+        "Net Project Assesstment"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "NPA means Non-Performing Asset. In banking, a loan becomes non-performing when repayment of principal or interest remains overdue beyond the regulatory threshold; the other expansions are not banking asset classifications.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q029": {
+      "expectedStem": "Which of the following has the regulatory powers to prevent recurrence of scams in Indian Capital Market?",
+      "expectedOptions": [
+        "SEBI",
+        "RBI",
+        "SBI",
+        "SIDBI"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "SEBI regulates India’s securities and capital markets, including intermediaries, disclosures and market misconduct. RBI regulates banking and monetary matters; SBI and SIDBI are financial institutions rather than the securities-market regulator.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q031": {
+      "expectedStem": "In which year, National Food Security Act was passed?",
+      "expectedOptions": [
+        "2014",
+        "2013",
+        "2012",
+        "2011"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "Parliament enacted the National Food Security Act in 2013. It creates legal entitlements to subsidised foodgrains for eligible households, distinguishing it from the nearby years listed.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q032": {
+      "expectedStem": "In the context of the Indian Budget, what does ‘Capital Expenditure’ primarily refer to?",
+      "expectedOptions": [
+        "Money spent on salaries and pensions",
+        "Money spent on subsidies",
+        "Money spent on making assets like roads, bridges etc",
+        "Interest payment on past loans"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "Capital expenditure creates or acquires durable assets, such as roads and bridges, or reduces liabilities. Salaries, pensions, subsidies and interest payments are recurring revenue expenditure.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q033": {
+      "expectedStem": "What was the prime target of the first five year plan of India?",
+      "expectedOptions": [
+        "Development of Agriculture",
+        "Development of Industries",
+        "Development of Infrastructure",
+        "Development of International Boarder"
+      ],
+      "expectedAnswerIndex": 0,
+      "explanation": "The First Five Year Plan (1951–56) prioritized agriculture, irrigation and food production after independence. Heavy industrialization became the stronger emphasis of the Second Plan.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q035": {
+      "expectedStem": "The Second Five Year Plan in India was based on which model?",
+      "expectedOptions": [
+        "Harrod Domar",
+        "Mahalanobis",
+        "Keynesian",
+        "Gandhian"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The Second Five Year Plan (1956–61) followed P. C. Mahalanobis’s strategy of building heavy industry and capital-goods capacity. The Harrod–Domar model is associated with the First Plan.",
+      "mode": "long"
+    },
+    "mpsc-ldc-2026apr-paper-1-q036": {
+      "expectedStem": "The symbol of Reserve Bank of India is",
+      "expectedOptions": [
+        "Capitol of Ashoka Pillar (",
+        "Kuber with a purse of money (",
+        "Tiger before a Palm tree (",
+        "A dog sitting in a defensive state"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Reserve Bank of India emblem depicts a tiger standing before a palm tree. It is not the Ashoka emblem or a figure of Kubera.",
+      "mode": "long"
+    },
+    "mpsc-asst-dpar-2018-paper-2-q022": {
+      "expectedStem": "Which of the following Union ministry launches SAATHI to help small Industries?",
+      "expectedOptions": [
+        "Ministry of Finance and Railways",
+        "Ministry of Minority Affairs and Human Resource Development",
+        "Ministry of Power and Science & Technology",
+        "Ministry of Power and Textiles"
+      ],
+      "expectedAnswerIndex": 3,
+      "explanation": "The Ministries of Power and Textiles jointly launched SAATHI in 2017. The initiative supplied energy-efficient powerloom equipment to small textile units, so the pairing in option D matches both the sponsoring ministries and programme purpose.",
+      "mode": "long"
+    },
+    "mpsc-group-b-si-police-2026-p2-Q18": {
+      "expectedStem": "Which of the following is correct about repo rate?",
+      "expectedOptions": [
+        "It is the rate at which RBI borrows funds from Commercial Banks in the country.",
+        "It is the rate at which RBI provides short term loans to scheduled commercial banks against approved securities.",
+        "Current repo rate as onFebruary 2025 is 3%",
+        "None of the above"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "The repo rate is the rate at which RBI provides short-term funds to banks against eligible securities under a repurchase agreement. Reverse repo describes RBI absorbing funds from banks, while CRR and SLR are reserve requirements.",
+      "mode": "long"
+    },
+    "mpsc-group-b-fr-2019-science-2-Q17": {
+      "expectedStem": "Who is the Father of Green Revolution in India?",
+      "expectedOptions": [
+        "Vandana Shiva",
+        "M. S. Swaminathan",
+        "M.V. Rao",
+        "Norman Borlaug"
+      ],
+      "expectedAnswerIndex": 1,
+      "explanation": "M. S. Swaminathan is called the father of India’s Green Revolution for leading the introduction and spread of high-yielding wheat and rice varieties in India. Norman Borlaug is associated with the global Green Revolution.",
+      "mode": "long"
+    },
+    "mpsc-group-b-inspector-excise-2019-gs2-Q48": {
+      "expectedStem": "Who recommends Minimum Support Price and issue prices in India?",
+      "expectedOptions": [
+        "Ministry of Agriculture",
+        "Niti Aayog",
+        "Commission for Agriculture Costs and Prices",
+        "NABARD"
+      ],
+      "expectedAnswerIndex": 2,
+      "explanation": "The Commission for Agricultural Costs and Prices recommends minimum support prices to the Union government after considering production costs and market conditions. The reference to “issue prices” is loose: central issue prices under the public distribution system are set through separate government decisions.",
+      "mode": "long"
+    }
+  }
+}

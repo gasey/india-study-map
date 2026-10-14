@@ -1,0 +1,300 @@
+{
+  "_note": "Source-checked official-key conflicts, one OCR repair, and two disputed derived answers. Official key letters are retained as officialAnswerCandidates when held; scoreability is removed where the question teaches a false or ambiguous answer.",
+  "items": [
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q54",
+      "expectedStem": "‘The primary sector within a country for the calculation of National Income includes -",
+      "expectedOptions": [
+        "Small scale industries",
+        "Retail trading",
+        "Agriculture",
+        "All of these"
+      ],
+      "expectedAnswerIndex": 3,
+      "status": "held",
+      "explanation": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary.",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q79",
+      "expectedStem": "The primary sector within a country for the calculation of National Income includes -",
+      "expectedOptions": [
+        "Small scale industries",
+        "Retail trading",
+        "Agriculture",
+        "All of these"
+      ],
+      "expectedAnswerIndex": 3,
+      "status": "held",
+      "explanation": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary.",
+      "printedPage": 8
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q16",
+      "expectedStem": "The primary sector within a country for the calculation of National Income includes -",
+      "expectedOptions": [
+        "Small scale industries",
+        "Retail trading",
+        "Agriculture",
+        "Allofthese"
+      ],
+      "expectedAnswerIndex": 3,
+      "status": "held",
+      "explanation": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary.",
+      "printedPage": 3
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q16",
+      "expectedStem": "The primary sector within a country for the calculation of National Income includes -",
+      "expectedOptions": [
+        "Small scale industries",
+        "Retail trading",
+        "Agriculture",
+        "All of these . (a) Nominal trade (b) Invisible trade (c) Visible trade (d) None of these"
+      ],
+      "expectedAnswerIndex": 3,
+      "status": "held",
+      "explanation": "The official key marks D, but only agriculture belongs to the primary sector. Treat this item as a disputed key; do not teach that manufacturing or retail trading is primary.",
+      "printedPage": 3
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q64",
+      "expectedStem": "Who bas fixed the Minimum Support Price for crops?",
+      "expectedOptions": [
+        "Cabinet Committee on Economic Affairs",
+        "Commission for Agriculture Cost and Prices",
+        "NITIAayog",
+        "Parliament"
+      ],
+      "expectedAnswerIndex": 1,
+      "status": "held",
+      "explanation": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction.",
+      "printedPage": 7
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q89",
+      "expectedStem": "Who has fixed the Minimum Support Price for crops?",
+      "expectedOptions": [
+        "Cabinet Committee on Economic Affairs",
+        "Commission for Agriculture Cost and Prices",
+        "NITI Aayog",
+        "Parliament"
+      ],
+      "expectedAnswerIndex": 1,
+      "status": "held",
+      "explanation": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction.",
+      "printedPage": 9
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q26",
+      "expectedStem": "Who has fixed the Minimum Support Price for crops?",
+      "expectedOptions": [
+        "Cabinet Committee on Economic Affairs",
+        "Commission for Agriculture Cost and Prices",
+        "NITI Aayog",
+        "Parliament"
+      ],
+      "expectedAnswerIndex": 1,
+      "status": "held",
+      "explanation": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction.",
+      "printedPage": 4
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q26",
+      "expectedStem": "Who has fixed the Minimum Support Price for crops?",
+      "expectedOptions": [
+        "Cabinet Committee on Economic Affairs",
+        "Commission for Agriculture Cost and Prices",
+        "NITI Aayog",
+        "Parliament"
+      ],
+      "expectedAnswerIndex": 1,
+      "status": "held",
+      "explanation": "The official key marks CACP. CACP recommends support prices; the Union government approves and fixes them. The wording conflates those roles, so this answer needs a source note or correction.",
+      "printedPage": 4
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-a-2025-Q66",
+      "expectedStem": "Which of the following is not a credit control objective of RBI?",
+      "expectedOptions": [
+        "To achieve stability in the Country’s currency rate and money market.",
+        "Controlling the business cycle and meeting the needs of the company.",
+        "Toachieve price stability.",
+        "To meet financial obligations during a down turn in the economy as well as in regular times."
+      ],
+      "expectedAnswerIndex": 2,
+      "status": "held",
+      "explanation": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring.",
+      "printedPage": 7
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q91",
+      "expectedStem": "Which of the following is not a credit control objective of RBI?",
+      "expectedOptions": [
+        "To achieve stability in the Country’s currency rate and money market.",
+        "Controlling the business cycle and meeting the needs of the company.",
+        "To achieve price stability.",
+        "To meet financial obligations during a down turn in the economy as well as in regular times."
+      ],
+      "expectedAnswerIndex": 2,
+      "status": "held",
+      "explanation": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring.",
+      "printedPage": 9
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q28",
+      "expectedStem": "Which of the following is nota credit control objective of RBI?",
+      "expectedOptions": [
+        "To achieve stability in the Country’s currency rate and money market.",
+        "Controlling the business cycle and meeting the needs of the company.",
+        "To achieve price stability. .",
+        "To meet financial obligations during a down turn in the economy as well as in regular times."
+      ],
+      "expectedAnswerIndex": 2,
+      "status": "held",
+      "explanation": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring.",
+      "printedPage": 4
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q28",
+      "expectedStem": "Which of the following is not a credit control objective of RBI?",
+      "expectedOptions": [
+        "To achieve stability in the Country’s currency rate and money market.",
+        "Controlling the business cycle and meeting the needs of the company.",
+        "To achieve price stability. : .",
+        "To meet financial obligations during a down turn in the economy as well as in regular times."
+      ],
+      "expectedAnswerIndex": 2,
+      "status": "held",
+      "explanation": "The official key marks price stability as something RBI does not seek. RBI states that maintaining price stability is its primary monetary-policy objective. This answer is disputed; the question should be corrected or excluded from scoring.",
+      "printedPage": 4
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q8",
+      "expectedStem": "There are no negative marks for incorrect answer. Series - D -2- * 1. National Income in Indiias  estimated by-",
+      "expectedOptions": [
+        "Finance Commission",
+        "Indian Statistical Institute",
+        "Central Statistical Organization (da) Finance Commission (a) Narashimham Committce (b) Shivaraman Committee",
+        "None ofthe above (a) 1963 (b) 1956 (c) 1958 (d) 1955 (a) AppropriatiBoilnl  (b) Finance Bill (c) Demand for Grants (d) None of these (a) Fiscal Deficit — Interest Payment (b) Revenue Receipts + Capital Receipts — Total Expenditure (c) Total Expenditure — Total Receipts (d) Revenue Expenditure — Revenue Receipts (a) Oilseed (b) Fish (c) Foodgrains (a) Non-Conventional Energy Sources . (a) 19—5 19055  (b) 1951-1956 (c) 1955 -- 1960 (d) 1956-1961 (a) 1966 — 1969 (b) 1965 - 1968 (c) 1964 - 1968 (d) 1965 — 1969"
+      ],
+      "expectedAnswerIndex": 0,
+      "status": "official_repaired",
+      "explanation": "India’s first Plan Holiday ran from 1966 to 1969, after the Third Five Year Plan and before the Fourth. The official final key marks A for this printed question.",
+      "printedPage": 2,
+      "correctedStem": "The 1st Plan Holiday in independent India covered the period—",
+      "correctedOptions": [
+        "1966–1969",
+        "1965–1968",
+        "1964–1968",
+        "1965–1969"
+      ],
+      "sourceHref": "/papers/group-b/archive2325-lecturer-vse-general-studies-paper-ii-d-2025.pdf#page=2"
+    },
+    {
+      "id": "mpsc-group-b-mvi-2025-p2-Q57",
+      "expectedStem": "How many indicators are used in the Human Development Index (HDI)?",
+      "expectedOptions": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "expectedAnswerIndex": 0,
+      "status": "corrected",
+      "replacementAnswerIndex": 1,
+      "explanation": "UNDP specifies four underlying indicators: life expectancy, expected years of schooling, mean years of schooling, and GNI per capita. These represent three dimensions, which the existing explanation confused with indicators.",
+      "printedPage": null
+    },
+    {
+      "id": "mpsc-group-b-fr-2019-science-3-Q20",
+      "expectedStem": "Which one of the following most appropriately describes the nature of Green Revolution of late sixties of 20th century?",
+      "expectedOptions": [
+        "Intensive cultivation of green vegetable",
+        "Intensive agriculture district programme",
+        "High-yielding varieties programme",
+        "Seed-Fertilizer-Water technology"
+      ],
+      "expectedAnswerIndex": 2,
+      "status": "held",
+      "replacementAnswerIndex": null,
+      "explanation": "Both the high-yielding-varieties programme and the associated seed–fertiliser–water package describe the Green Revolution; “most appropriately” does not make C uniquely correct over D.",
+      "printedPage": null
+    },
+    {
+      "id": "mpsc-ldc-2025-paper-1-q025",
+      "expectedStem": "The rate at which a central bank lends money to commercial banks is called -",
+      "expectedOptions": [
+        "repo rate",
+        "bank rate",
+        "SLR",
+        "CRR"
+      ],
+      "expectedAnswerIndex": 1,
+      "status": "held",
+      "replacementAnswerIndex": null,
+      "explanation": "Both bank rate and repo rate can describe a rate at which RBI lends to commercial banks. Repo lending is secured by a repurchase agreement; bank rate is a broader statutory lending or rediscount rate. The stem gives no tenor or transaction type to distinguish A from B.",
+      "evidenceUrl": "https://www.rbi.org.in/Scripts/PublicationReportDetails.aspx?ID=548"
+    },
+    {
+      "id": "mpsc-ldc-2026feb-paper-1-q040",
+      "expectedStem": "Which country has officially become the world’s first Cashless country?",
+      "expectedOptions": [
+        "Sweden",
+        "Norway",
+        "Germany",
+        "Japan"
+      ],
+      "expectedAnswerIndex": 0,
+      "status": "held",
+      "replacementAnswerIndex": null,
+      "explanation": "Sweden is highly digital but has not officially abolished cash or become a completely cashless country. Its central bank still treats notes and coins as legal tender and recorded cash purchases in 2025. No printed country is established as the world’s first officially cashless country.",
+      "evidenceUrl": "https://www.riksbank.se/en-gb/payments--cash/payments-in-sweden/payments-report-2025/trends-on-the-payments-market/the-swedish-payments-market-is-almost-entirely-digital/"
+    },
+    {
+      "id": "mpsc-asst-dpar-2018-paper-2-q018",
+      "expectedStem": "No helmet, no petrol rule comes into force in _____________",
+      "expectedOptions": [
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Gujarat",
+        "Karnataka"
+      ],
+      "expectedAnswerIndex": 2,
+      "status": "held",
+      "replacementAnswerIndex": null,
+      "explanation": "The existing Gujarat key is an admitted guess. Contemporary reports document Andhra Pradesh introducing this rule in September 2017 and a Karnataka city enforcing it in February 2018. The stem gives no date or geographic level, so it cannot distinguish the printed states reliably.",
+      "evidenceUrl": "https://www.newindianexpress.com/states/andhra-pradesh/2017/Sep/28/no-helmet-no-petrol-for-two-wheeler-riders-in-andhra-pradesh-1663815.html"
+    },
+    {
+      "id": "mpsc-group-b-je-2025-gk-Q51",
+      "expectedStem": "In India, which body releases the Poverty Line estimates?",
+      "expectedOptions": [
+        "NITI Aayog",
+        "Reserve Bank of India",
+        "Ministry of Finance",
+        "National Statistical Office"
+      ],
+      "expectedAnswerIndex": 0,
+      "status": "held",
+      "replacementAnswerIndex": null,
+      "explanation": "NITI Aayog publishes a National Multidimensional Poverty Index, but that is distinct from a monetary poverty line based on household consumption. India’s last official consumption-poverty-line estimates were released by the former Planning Commission. The wording “releases the Poverty Line estimates” therefore does not precisely fit the keyed NITI option.",
+      "evidenceUrl": "https://www.niti.gov.in/sites/default/files/2021-11/National_MPI_India-11242021.pdf"
+    },
+    {
+      "id": "mpsc-group-b-inspector-excise-2019-gs2-Q53",
+      "expectedStem": "Consider the following actions which the government can take: (i)Devaluing the domestic currency (ii)Reduction in export subsidy (iii)Adopting suitable policies which attract greater FDI and more funds from FIIs. Which of the above action/ actions can help in reducing the current account deficit?",
+      "expectedOptions": [
+        "i and ii",
+        "ii and iii",
+        "iii only",
+        "i and iii"
+      ],
+      "expectedAnswerIndex": 3,
+      "status": "held",
+      "replacementAnswerIndex": null,
+      "explanation": "Only devaluation can directly tend to narrow a current-account deficit by changing trade prices, subject to trade elasticities. FDI and foreign portfolio inflows are recorded in the financial account and can finance a current-account gap but do not reduce the deficit itself. Reducing export subsidies can weaken exports. No printed combination gives (i) alone.",
+      "evidenceUrl": null
+    }
+  ]
+}

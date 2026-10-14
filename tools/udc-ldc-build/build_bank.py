@@ -1253,11 +1253,14 @@ def main():
     # These stem-checked corrections supplement the older keyword classifier.
     # Keep both labels in `tags` when a local-economy question belongs to both.
     topic_overrides = json.load(open(os.path.join(HERE, 'mizo-economy-topic-overrides.json'), encoding='utf-8'))
+    science_overrides = json.load(open(os.path.join(HERE, 'science-topic-overrides.json'), encoding='utf-8'))
     mizo_ids = set(topic_overrides['mizoram'])
     economy_ids = set(topic_overrides['economy'])
-    for qid in mizo_ids | economy_ids:
+    science_ids = set(science_overrides['science'])
+    science_excluded_ids = set(science_overrides['exclude'])
+    for qid in mizo_ids | economy_ids | science_ids | science_excluded_ids:
         if not qid.startswith('mpsc-group-b-'):
-            subtopics[qid] = 'mizoram' if qid in mizo_ids else 'economy'
+            subtopics[qid] = 'mizoram' if qid in mizo_ids else 'economy' if qid in economy_ids else 'general' if qid in science_excluded_ids else 'general-science'
 
     def apply_gk_topic(rec, qid):
         # Finer still: which GK sub-topic. Content-classified (the
@@ -1270,10 +1273,11 @@ def main():
         if qid in subtopics:
             rec["gkTopic"] = subtopics[qid]
             stats["gk_topic"] += 1
-        if qid in mizo_ids or qid in economy_ids:
+        if qid in mizo_ids or qid in economy_ids or qid in science_ids:
             rec['tags'] = list(dict.fromkeys(rec.get('tags', [])
                 + (['mizoram'] if qid in mizo_ids else [])
-                + (['economy'] if qid in economy_ids else [])))
+                + (['economy'] if qid in economy_ids else [])
+                + (['science'] if qid in science_ids else [])))
 
     disputes = load_disputes(staged_index)
     option_defects = load_option_defects(staged_index)
@@ -1667,6 +1671,46 @@ def main():
     if os.path.exists(written_review_file):
         apply_clerical_written_reviews(questions, papers,
             json.load(open(written_review_file, encoding='utf-8')), REPO, BANK_REPO)
+
+    # Keep reviewed Economics explanations in the build output as well as the
+    # live module overlay; this file is a generated bank, not an edit target.
+    economics_explanations = json.load(open(os.path.join(HERE, 'economics-worked-explanations.json'), encoding='utf-8'))['items']
+    clerical_by_id = {q['id']: q for q in questions}
+    for qid, review in economics_explanations.items():
+        if qid.startswith('mpsc-group-b-'):
+            continue
+        assert qid in clerical_by_id, f'Stale clerical Economics explanation: {qid}'
+        q = clerical_by_id[qid]
+        assert q['question'] == review['expectedStem'] and q.get('answerIndex') == review['expectedAnswerIndex'], qid
+        assert not review.get('expectedOptions') or q.get('options') == review['expectedOptions'], qid
+        q['explanation'] = review['explanation']
+    economics_disputes = json.load(open(os.path.join(HERE, 'economics-disputes.json'), encoding='utf-8'))['items']
+    for review in economics_disputes:
+        qid = review['id']
+        if qid.startswith('mpsc-group-b-'):
+            continue
+        assert qid in clerical_by_id, f'Stale clerical Economics dispute: {qid}'
+        q = clerical_by_id[qid]
+        assert q['question'] == review['expectedStem'] and q.get('options') == review['expectedOptions'], qid
+        assert q['answerIndex'] == review['expectedAnswerIndex'], qid
+        q['sourceReviewed'] = True
+        q['explanation'] = review['explanation']
+        q['disputeNote'] = review['explanation']
+        if review['status'] == 'corrected':
+            q['answerIndex'] = review['replacementAnswerIndex']
+            q['answerSource'] = 'derived'
+            q['answerConfidence'] = 'medium'
+        else:
+            if q.get('answerSource') == 'official':
+                q['officialAnswerCandidates'] = [q['answerIndex']]
+            q['answerIndex'] = -1
+            q['sourceReview'] = True
+    economics_descriptive = json.load(open(os.path.join(HERE, 'economics-descriptive-notes.json'), encoding='utf-8'))['items']
+    for qid, review in economics_descriptive.items():
+        assert qid in clerical_by_id, f'Stale Economics short answer: {qid}'
+        q = clerical_by_id[qid]
+        assert q.get('type') == 'descriptive' and q['question'] == review['expectedStem'], qid
+        q['explanation'] = review['explanation']
 
     lines = ["import type { BankQuestion, ExamPaper, QuestionBank } from './types';", "",
              "// " + "=" * 58,

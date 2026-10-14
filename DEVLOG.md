@@ -1,3 +1,39 @@
+## 14 October 2026 — Science compilation and Economics source review
+
+The UDC/LDC/Group B study module now has a Science compilation beside Mizo and
+Economics. It uses the same interactive Browse cards and retains source, answer,
+and caution badges. A stem audit added 607 explicit science tags to the older
+general-paper records. A second audit removes 91 old false science labels
+whose stems concern schemes, dates, geography, literature or computer use;
+the visible Science section now has 750 MCQs. The route overlay applies immediately, and both
+bank builders read the curated science IDs for future regenerations. This is
+topic routing, not an answer or source-text endorsement.
+
+The Economics review covered the formerly unscored set against original PDF
+pages: 31 MCQs gained independently derived answers and six had published
+MPSC key letters restored after their source text was repaired;
+six remain unscored because their printed choices or wording do not permit one
+defensible answer. The one descriptive WTO prompt now has its expansion and a
+short explanation while remaining outside scored MCQ practice. OCR-damaged options and two
+Plan Holiday stems were restored from the printed Lecturer papers; the source
+page link follows the repaired question. Across the current Economics
+compilation, 172 official-key placeholders, 134 brief explanations and 20
+weaker long explanations were replaced with question-specific reasoning.
+The 131 remaining long explanations were audited and retained. Additional
+official-key and inferred-answer conflicts are held or corrected with visible
+dispute notes. The Commission's conflicting letters remain recorded as
+official answer candidates when a question is held.
+
+The checked records live in `economics-answer-reviews.json`,
+`economics-worked-explanations.json`, `economics-disputes.json`, and
+`economics-descriptive-notes.json`. Exact stem,
+options, and key guards prevent applying a review to a changed question. The
+module reads the overlays at runtime, while the builders bake them into future
+generated banks. Generated bank files already had unrelated active edits, so
+they were not regenerated as part of this work. Source issues still open are
+the explicitly held MCQs; the 21-topic Economics concept guide remains beside
+the per-question explanations.
+
 ## 14 October 2026 — Recover Mizo and Economics topic tags in general papers
 
 A stem audit of the UDC/LDC and Group B general-paper records found 940

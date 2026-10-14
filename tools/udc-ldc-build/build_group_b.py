@@ -221,21 +221,30 @@ def build():
         json.dumps(essay_archive(library, questions, Path(__file__).parent), ensure_ascii=False, indent=2) + '\n')
     apply_reviewed_study_guides(ROOT, questions, json.loads((Path(__file__).parent / 'reviewed-study-guides.json').read_text()))
     topic_overrides = json.loads((Path(__file__).parent / 'mizo-economy-topic-overrides.json').read_text())
+    science_overrides = json.loads((Path(__file__).parent / 'science-topic-overrides.json').read_text())
     mizo_ids = set(topic_overrides['mizoram'])
     economy_ids = set(topic_overrides['economy'])
+    science_ids = set(science_overrides['science'])
+    science_excluded_ids = set(science_overrides['exclude'])
     by_id = {q['id']: q for q in questions}
-    group_b_ids = {qid for qid in mizo_ids | economy_ids if qid.startswith('mpsc-group-b-')}
+    group_b_ids = {qid for qid in mizo_ids | economy_ids | science_ids | science_excluded_ids if qid.startswith('mpsc-group-b-')}
     unknown_topic_ids = group_b_ids - by_id.keys()
-    assert not unknown_topic_ids, f'Stale Mizo/Economics topic IDs: {sorted(unknown_topic_ids)[:10]}'
+    assert not unknown_topic_ids, f'Stale curated topic IDs: {sorted(unknown_topic_ids)[:10]}'
     for qid in group_b_ids:
         q = by_id[qid]
         assert q.get('studySection') == 'gk' or q.get('subject') == 'gk', qid
+        if qid in science_excluded_ids and qid not in mizo_ids | economy_ids:
+            q['topic'] = 'general'
+            q['topicLabel'] = 'General Knowledge'
+            q['tags'] = [tag for tag in q.get('tags', []) if tag != 'science']
+            continue
         is_mizo = qid in mizo_ids
-        q['topic'] = 'mizoram_gk' if is_mizo else 'economy'
-        q['topicLabel'] = 'Mizoram — General' if is_mizo else 'Economy'
+        q['topic'] = 'mizoram_gk' if is_mizo else 'economy' if qid in economy_ids else 'science_general'
+        q['topicLabel'] = 'Mizoram — General' if is_mizo else 'Economy' if qid in economy_ids else 'General Science'
         q['tags'] = list(dict.fromkeys(q.get('tags', [])
             + (['mizoram'] if is_mizo else [])
-            + (['economy'] if qid in economy_ids else [])))
+            + (['economy'] if qid in economy_ids else [])
+            + (['science'] if qid in science_ids else [])))
     assert len({q['id'] for q in questions}) == len(questions)
     assert all(q['paperId'] in {p['id'] for p in papers} for q in questions)
     # Keep answer feedback useful and honest when the source provides only a
@@ -252,6 +261,67 @@ def build():
             label = 'ABCD'[index]
             q['explanation'] = (f'The official final key marks option {label}: “{option_text}”. '
                                 'This is the key reference for the answer; it is not a worked derivation.')
+    worked = json.loads((Path(__file__).parent / 'economics-worked-explanations.json').read_text())['items']
+    for qid, review in worked.items():
+        assert qid in by_id, f'Stale Economics explanation: {qid}'
+        q = by_id[qid]
+        assert q['question'] == review['expectedStem'] and q['answerIndex'] == review['expectedAnswerIndex'], qid
+        assert not review.get('expectedOptions') or q['options'] == review['expectedOptions'], qid
+        if review.get('mode') != 'brief':
+            assert q.get('answerSource') == 'official', qid
+        q['explanation'] = review['explanation']
+    disputes = json.loads((Path(__file__).parent / 'economics-disputes.json').read_text())['items']
+    for review in disputes:
+        qid = review['id']
+        assert qid in by_id, f'Stale Economics dispute: {qid}'
+        q = by_id[qid]
+        assert q['question'] == review['expectedStem'] and q['options'] == review['expectedOptions'], qid
+        assert q['answerIndex'] == review['expectedAnswerIndex'], qid
+        q['question'] = review.get('correctedStem', q['question'])
+        q['options'] = review.get('correctedOptions', q['options'])
+        q['sourceHref'] = review.get('sourceHref', q.get('sourceHref'))
+        q['sourceReviewed'] = True
+        q['explanation'] = review['explanation']
+        if review['status'] == 'official_repaired':
+            continue
+        q['disputeNote'] = review['explanation']
+        if review['status'] == 'corrected':
+            q['answerIndex'] = review['replacementAnswerIndex']
+            q['answerSource'] = 'derived'
+            q['answerConfidence'] = 'medium'
+        else:
+            if q.get('answerSource') == 'official':
+                q['officialAnswerCandidates'] = [q['answerIndex']]
+            q['answerIndex'] = -1
+            q['sourceReview'] = True
+    answer_reviews = json.loads((Path(__file__).parent / 'economics-answer-reviews.json').read_text())['items']
+    for review in answer_reviews:
+        qid = review['id']
+        assert qid in by_id, f'Stale Economics source review: {qid}'
+        q = by_id[qid]
+        assert q['question'] == review['expectedStem'] and q['options'] == review['expectedOptions'], qid
+        assert q.get('answerIndex', -1) < 0 or q.get('answerIndex') == review['answerIndex'], qid
+        if review.get('correctedStem'):
+            q['question'] = review['correctedStem']
+        if review.get('correctedOptions'):
+            q['options'] = review['correctedOptions']
+        if q.get('sourceHref', '').startswith('/papers/'):
+            q['sourceHref'] = q['sourceHref'].split('#')[0] + f"#page={review['printedPage']}"
+        q['sourceReviewed'] = True
+        q['explanation'] = review['explanation']
+        if review['status'] in ('solved', 'official_restored'):
+            assert review['answerIndex'] is not None, qid
+            q['answerIndex'] = review['answerIndex']
+            q['answerSource'] = 'official' if review['status'] == 'official_restored' else 'derived'
+            if review['status'] == 'solved':
+                q['answerConfidence'] = 'medium'
+            else:
+                q.pop('answerConfidence', None)
+            q['sourceReview'] = False
+        else:
+            q['answerIndex'] = -1
+            q['sourceReview'] = True
+            q['disputeNote'] = review['explanation']
     payload = "// Generated by tools/udc-ldc-build/build_group_b.py. Do not hand-edit.\n"
     payload += "import type { BankQuestion, ExamPaper } from './types';\n\n"
     payload += "import type { UdcLdcPaperMeta } from './mpsc-udc-ldc';\n\n"

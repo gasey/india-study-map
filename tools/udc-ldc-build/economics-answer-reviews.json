@@ -1,0 +1,740 @@
+{
+  "_note": "Source-checked Economics MCQ reviews. A solved row may be scored only when its printed stem and options match this record. Held rows retain answerIndex -1. Source href/page and worked explanation document the decision.",
+  "items": [
+    {
+      "id": "mpsc-group-b-assistant-grade-2018-p2-B113",
+      "expectedStem": "The price after a rebate of 10% and GST of 12.5% on ₹2,500 is",
+      "expectedOptions": [
+        "Rs.2250",
+        "Rs.28125",
+        "Rs.1968.75",
+        "Rs.2520.25"
+      ],
+      "status": "held",
+      "answerIndex": null,
+      "explanation": "The printed prices contain no correct choice. A 10% rebate leaves ₹2,250; adding 12.5% GST gives ₹2,531.25, whereas the four printed choices are ₹2,250, ₹28,125, ₹1,968.75 and ₹2,520.25.",
+      "sourceHref": "/papers/group-b/assistant-grade-2018-p2.pdf#page=11",
+      "printedPage": 11,
+      "correctedStem": "The marked price of an item is Rs.2500 and a rebate of 10% is given on it. After the rebate, GST is charged at 12.5%. The net price of the item is"
+    },
+    {
+      "id": "mpsc-group-b-si-police-2026-p2-Q21",
+      "expectedStem": "In the recent GST reforms, taxes on two-wheelers, small cars, TVs, ACs, cement became:",
+      "expectedOptions": [
+        "18%",
+        "5%",
+        "28%",
+        "40%"
+      ],
+      "status": "held",
+      "answerIndex": null,
+      "explanation": "The question bundles goods with different 2025 GST rates. Small cars, televisions, ACs, cement and motorcycles up to 350 cc are generally 18%, while motorcycles above 350 cc are 40%. The stem says only “two-wheelers” and does not restrict engine size.",
+      "sourceHref": "/papers/group-b/si-police-2026-p2.pdf#page=3",
+      "printedPage": 3
+    },
+    {
+      "id": "mpsc-group-b-si-fcs-2018-gs1-Q51",
+      "expectedStem": "The rate of interest at which the RBI provides assistance to commercial banks is",
+      "expectedOptions": [
+        "Bank Rate",
+        "Repo Rate",
+        "Cash Reserve Ratio",
+        "Capital Adequacy Ratio"
+      ],
+      "status": "held",
+      "answerIndex": null,
+      "explanation": "The question does not state the loan term or transaction type. The bank rate applies to RBI lending/rediscounting, but the repo rate is also a rate at which RBI lends to commercial banks against securities. The broad wording permits both A and B.",
+      "sourceHref": "/papers/group-b/si-fcs-2018-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-si-fcs-2018-gs1-Q54",
+      "expectedStem": "Which of the following is the main component of Foreign Exchange Reserves?",
+      "expectedOptions": [
+        "Foreign Currency Assets",
+        "Gold",
+        "Special Drawing Rights",
+        "NRI deposits"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "Foreign Currency Assets are the dominant part of India’s reserves. Gold, SDRs and the IMF reserve tranche are smaller reserve components; NRI deposits are not a standalone reserve component.",
+      "sourceHref": "/papers/group-b/si-fcs-2018-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-si-fcs-2018-gs1-Q56",
+      "expectedStem": "Per Capita Income is",
+      "expectedOptions": [
+        "Total Income of the family/Number of family members",
+        "Total number of population/National income of a country",
+        "Total budget income/Number of families",
+        "National Income/Total number of population"
+      ],
+      "status": "solved",
+      "answerIndex": 3,
+      "explanation": "Per capita income equals national income divided by the country’s population. Household income divided by household size is a different measure.",
+      "sourceHref": "/papers/group-b/si-fcs-2018-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-jics-2019-gs1-Q47",
+      "expectedStem": "National Rural Employment Guarantee Programme (NERGP) was launched in",
+      "expectedOptions": [
+        "2005",
+        "2004",
+        "2006",
+        "2010"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The employment guarantee law dates from 2005, but the programme began implementation on 2 February 2006. The question asks when the programme was launched, so 2006 is the fitting choice.",
+      "sourceHref": "/papers/group-b/jics-2019-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-jics-2019-gs1-Q50",
+      "expectedStem": "The rate of interest charged by the RBI for providing long-term loans or funds to the banking system is known as",
+      "expectedOptions": [
+        "Cash Reserve Ratio",
+        "Statutory Liquidity Ratio",
+        "Repo Rate",
+        "The bank rate"
+      ],
+      "status": "solved",
+      "answerIndex": 3,
+      "explanation": "The bank rate is the RBI’s traditional rate for longer-term lending or rediscounting. Repo is a secured repurchase operation, usually used for shorter-term liquidity; CRR and SLR are reserve ratios, not interest rates.",
+      "sourceHref": "/papers/group-b/jics-2019-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-jics-2019-gs1-Q55",
+      "expectedStem": "India’s Foreign Exchange Reserves (Forex reserves) comprise",
+      "expectedOptions": [
+        "Foreign currency assets and gold reserves only",
+        "Foreign currency assets, gold reserves, special drawing rights and reserve tranche position",
+        "Foreign currency and special drawing rights in the IMF",
+        "Foreign currency assets held in the RBI"
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "India’s forex reserves include foreign currency assets, gold, Special Drawing Rights, and the reserve tranche position in the IMF. B alone lists all four.",
+      "sourceHref": "/papers/group-b/jics-2019-gs1.pdf#page=6",
+      "printedPage": 6,
+      "correctedOptions": [
+        "Foreign currency assets and gold reserves only",
+        "Foreign currency assets, gold reserves, special drawing rights and reserve tranche position in the IMF",
+        "Foreign currency and special drawing rights in the IMF",
+        "Foreign currency assets held in the RBI"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-jics-2019-gs1-Q56",
+      "expectedStem": "In the foreign exchange market, when exchange rate of a domestic currency is cut down by its government against any foreign currency, it is called",
+      "expectedOptions": [
+        "Devaluation",
+        "Depreciation",
+        "Revaluation",
+        "Appreciation"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "A deliberate official reduction in the domestic currency’s exchange value is devaluation. Depreciation is generally a market-driven fall; revaluation and appreciation are increases.",
+      "sourceHref": "/papers/group-b/jics-2019-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-jics-2019-gs1-Q59",
+      "expectedStem": "In India the method followed for the estimation of national income is",
+      "expectedOptions": [
+        "Income method",
+        "Expenditure method",
+        "Mixed and combined method",
+        "None of these"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "India estimates national income using a combination of production, income and expenditure approaches across sectors, depending on the available data. It is therefore a mixed or combined method.",
+      "sourceHref": "/papers/group-b/jics-2019-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-translator-2019-gs1-Q46",
+      "expectedStem": "India’s first Five Year Plan was launched in-",
+      "expectedOptions": [
+        "1931",
+        "1941",
+        "1951",
+        "1961"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "India’s First Five Year Plan began in 1951 and ran through 1956.",
+      "sourceHref": "/papers/group-b/translator-2019-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-translator-2019-gs1-Q49",
+      "expectedStem": "One of the main aims of second Five Year Plan was-",
+      "expectedOptions": [
+        "Food security",
+        "Rapid industrialisation",
+        "Self-sufficiency",
+        "Removal of poverty"
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "The Second Five Year Plan emphasized heavy industry and rapid industrialisation under the Mahalanobis strategy. Food security and poverty removal were not its central distinguishing aim.",
+      "sourceHref": "/papers/group-b/translator-2019-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-translator-2019-gs1-Q51",
+      "expectedStem": "The largest source of National Income in India is-",
+      "expectedOptions": [
+        "Service sector",
+        "Agriculture sector",
+        "Industrial sector",
+        "Trade sector"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "Services contribute the largest share of India’s national income. Agriculture and industry are smaller sectors; trade is a component of services, not a larger alternative.",
+      "sourceHref": "/papers/group-b/translator-2019-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-translator-2019-gs2-Q25",
+      "expectedStem": "Which country has promised to give a life time income tax exemption to women with four children as a measure to reverse its population decline?",
+      "expectedOptions": [
+        "Bulgaria",
+        "Hungary",
+        "Portugal",
+        "Romania"
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "Hungary announced and introduced a lifetime personal income tax exemption for mothers with four or more children as part of its family policy.",
+      "sourceHref": "/papers/group-b/translator-2019-gs2.pdf#page=3",
+      "printedPage": 3
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs1-Q49",
+      "expectedStem": "Which is the period of the Fourth Five Year Plan in India?",
+      "expectedOptions": [
+        "1961-1966",
+        "1966-1971",
+        "1969-1974",
+        "1970-1975"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The Fourth Five Year Plan ran from 1969 to 1974. The period 1966–1969 was the plan holiday before it.",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs1.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs1-Q54",
+      "expectedStem": "Indian Green Revolution is the most successful in",
+      "expectedOptions": [
+        "Wheat and Potato",
+        "Jowar and Oil seeds",
+        "Wheat and Rice",
+        "Tea and Coffee"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The Green Revolution’s high-yield varieties and supporting inputs had their greatest impact on wheat and rice among the printed pairs.",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs1-Q56",
+      "expectedStem": "The rural poverty line in India is determined by daily calorie intake of",
+      "expectedOptions": [
+        "2100 calories",
+        "2400 calories",
+        "1800 calories",
+        "2200 calories"
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "The older Planning Commission calorie norm used in this textbook-style question was 2,400 calories per person per day for rural areas (and 2,100 for urban areas).",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs1-Q60",
+      "expectedStem": "‘Blue Revolution’ is related to",
+      "expectedOptions": [
+        "Solar Energy",
+        "Milk Production",
+        "Fish Production",
+        "Tea Production"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The Blue Revolution concerns fisheries and increased fish production. The other options refer to unrelated sectors.",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs1-Q61",
+      "expectedStem": "Which of the following is not the quantitative credit control instrument of RBI?",
+      "expectedOptions": [
+        "Minimum margin for lending against specific securities",
+        "Bank rate",
+        "Cash reserve ratio",
+        "Statutory liquidity ratio"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "Minimum margin requirements for loans against specified securities are selective or qualitative credit controls. Bank rate, CRR and SLR are broad quantitative controls.",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs1.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs2-Q14",
+      "expectedStem": "Who is the current Governor of the RBI?",
+      "expectedOptions": [
+        "D. Subbarao",
+        "Raghuram Rajan",
+        "Shaktikanta Das",
+        "Urjit Patel"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "In the 2020 exam context, Shaktikanta Das was RBI Governor, having taken office in December 2018. “Current” should be read as of the paper date.",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs2.pdf#page=2",
+      "printedPage": 2
+    },
+    {
+      "id": "mpsc-group-b-museum-guide-2020-gs2-Q20",
+      "expectedStem": "The NDA government replace Planning Commission and established",
+      "expectedOptions": [
+        "Department of Economic Affairs",
+        "Finance Commission",
+        "National Advisory Commission",
+        "NITI Aayog"
+      ],
+      "status": "solved",
+      "answerIndex": 3,
+      "explanation": "The government established NITI Aayog in 2015 as the institution succeeding the Planning Commission.",
+      "sourceHref": "/papers/group-b/museum-guide-2020-gs2.pdf#page=2",
+      "printedPage": 2
+    },
+    {
+      "id": "mpsc-group-b-mes-pwd-2020-gs-Q49",
+      "expectedStem": "Fiscal Deficit is:",
+      "expectedOptions": [
+        "Government expenditure minus borrowings",
+        "Government expenditure minus revenue receipts",
+        "Same as budget deficit",
+        "Budget deficit minus borrowings and other liabilities"
+      ],
+      "status": "held",
+      "answerIndex": null,
+      "explanation": "The correct fiscal deficit formula is total expenditure less revenue receipts and non-debt capital receipts. Printed B omits non-debt capital receipts; the other choices are also incorrect. No precise option is available.",
+      "sourceHref": "/papers/group-b/mes-pwd-2020-gs.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-mpe-ss-2020-gk-Q66",
+      "expectedStem": "Which among the following is not a subsidiary of RBI?",
+      "expectedOptions": [
+        "National Housing Bank",
+        "NABARD",
+        "SIDBI",
+        "Bharatiya Reserve Bank Note Mudran Pvt. Ltd."
+      ],
+      "status": "held",
+      "answerIndex": null,
+      "explanation": "As of the 2020 paper, RBI had divested its NABARD and NHB holdings to the Government of India in 2019, and SIDBI was also not an RBI subsidiary. A, B and C therefore all satisfy “not a subsidiary”; BRBNM was an RBI subsidiary.",
+      "sourceHref": "/papers/group-b/mpe-ss-2020-gk.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-archive2325-technical-officer-scert-general-studies-april-2025-Q35",
+      "expectedStem": "As per the new income tax rates for FY 2025-26 in the Union Budget 2025, what is the threshold amount of annual income under which income tax is zero?",
+      "expectedOptions": [
+        "%2 lakh",
+        "23 lakh",
+        "%4 lakh",
+        "%5 lakh"
+      ],
+      "status": "official_restored",
+      "answerIndex": 2,
+      "explanation": "The Budget 2025-26 new-regime rate table has a nil rate for income up to ₹4 lakh, so C identifies the zero-rate slab. A separate rebate makes tax payable zero for eligible resident individuals up to ₹12 lakh; that figure is not a listed option and is distinct from the nil-rate slab.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/05/fcd719aa0a44ab8d0f4518914e3425dd/technical-officer-scert-general-studies-april-2025.pdf#page=4",
+      "printedPage": 4,
+      "correctedOptions": [
+        "₹2 lakh",
+        "₹3 lakh",
+        "₹4 lakh",
+        "₹5 lakh"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-b-2025-Q96",
+      "expectedStem": "The difference between Gross National Product and Depreciation is equal to-",
+      "expectedOptions": [
+        "Net National Product",
+        "Net Domestic at market price",
+        "Net National Product at factor cost (a) Net Value Added"
+      ],
+      "status": "official_restored",
+      "answerIndex": 0,
+      "explanation": "Gross National Product less depreciation (consumption of fixed capital) equals Net National Product. Subtracting depreciation alone does not convert national to domestic or market prices to factor cost.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/dacd478d0eda5a46b9d5837580966813/lecturer-vse-general-studies-paper-ii-b-2025.pdf#page=10",
+      "printedPage": 10,
+      "correctedStem": "The difference between Gross National Product and Depreciation is equal to—",
+      "correctedOptions": [
+        "Net National Product",
+        "Net Domestic at market price",
+        "Net National Product at factor cost",
+        "Net Value Added"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q8",
+      "expectedStem": "There are no negative marks for incorrect answer. Series -C -2- . 1. National Income in India is estimated by-",
+      "expectedOptions": [
+        "Finance Commission",
+        "Indian Statistical Institute",
+        "Central Statistical Organization",
+        "Finance Commission (a) Narashimham Committee (b) Shivaraman Committee (c) PublicAccounts Committee (d)} None of the above (a) 1963 (b) 1956 (c) 1958 (d) 1955 (a) Appropriation Bill (b) Finance Bill (c) Demand for Grants (d) None of these (a) Fiscal Deficit— Interest Payment (b) Revenue Receipts + Capital Receipts ~ Total Expenditure (c) Total Expenditure —Total Receipts (d) Revenue Expenditure — Revenue Receipts (a) Oilseed (b) Fish (c) Foodgrains (d) Non-Conventional Energy Sources (a) 1950-1955 (b) 1951-1956 (c) 1955-  1960 (d) 1956-1961 : (a) 1966 - 1969 (b) 1965 — 1968 (c) 1964 ~ 1968 (d) 1965 — 1969"
+      ],
+      "status": "official_restored",
+      "answerIndex": 0,
+      "explanation": "The three annual plans following the Third Five Year Plan ran from 1966 to 1969; this gap between five-year plans is called the Plan Holiday.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/9ed1cb7c6fadd9cf0949070d7178d4f4/lecturer-vse-general-studies-paper-ii-c-2025.pdf#page=2",
+      "printedPage": 2,
+      "correctedStem": "The 1st Plan Holiday in independent India covered the period—",
+      "correctedOptions": [
+        "1966–1969",
+        "1965–1968",
+        "1964–1968",
+        "1965–1969"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q20",
+      "expectedStem": "The Goods and Service Tax (GST) has been implemented from -",
+      "expectedOptions": [
+        "July 1, 2018",
+        "October 1, 2018",
+        "July 1,2017 {d)} October 1, 2017"
+      ],
+      "status": "official_restored",
+      "answerIndex": 2,
+      "explanation": "India’s Goods and Services Tax took effect on 1 July 2017, so C is the only matching date.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/9ed1cb7c6fadd9cf0949070d7178d4f4/lecturer-vse-general-studies-paper-ii-c-2025.pdf#page=3",
+      "printedPage": 3,
+      "correctedStem": "The Goods and Service Tax (GST) has been implemented from—",
+      "correctedOptions": [
+        "July 1, 2018",
+        "October 1, 2018",
+        "July 1, 2017",
+        "October 1, 2017"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-c-2025-Q35",
+      "expectedStem": "When was the Planning Commission set up?",
+      "expectedOptions": [
+        "2000",
+        "2019",
+        "1947 ({d) 1950"
+      ],
+      "status": "official_restored",
+      "answerIndex": 3,
+      "explanation": "The Planning Commission was constituted by a Government of India resolution in March 1950, making D correct.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/9ed1cb7c6fadd9cf0949070d7178d4f4/lecturer-vse-general-studies-paper-ii-c-2025.pdf#page=5",
+      "printedPage": 5,
+      "correctedOptions": [
+        "2000",
+        "2019",
+        "1947",
+        "1950"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-lecturer-vse-general-studies-paper-ii-d-2025-Q93",
+      "expectedStem": "According to the Global Data Lab, is the top-ranking state in the context of Human Development Index in India.",
+      "expectedOptions": [
+        "Mizoram",
+        "Kerala",
+        "UP (@) MP"
+      ],
+      "status": "official_restored",
+      "answerIndex": 1,
+      "explanation": "Global Data Lab’s subnational HDI table places Kerala above Mizoram, Uttar Pradesh and Madhya Pradesh for the exam-era data; B is the best listed answer.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2025/02/fc9186517f6a60620b3b9b6e6942d5b5/lecturer-vse-general-studies-paper-ii-d-2025.pdf#page=9",
+      "printedPage": 9,
+      "correctedStem": "According to the Global Data Lab, which is the top-ranking state in the context of Human Development Index in India?",
+      "correctedOptions": [
+        "Mizoram",
+        "Kerala",
+        "Uttar Pradesh",
+        "Madhya Pradesh"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q35",
+      "expectedStem": "What per cent of GST is levied on cancer-fighting drugs, medicines for rare diseases, and food products for special medical purposes?",
+      "expectedOptions": [
+        "0%",
+        "2%",
+        "5%",
+        "12%"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "The referenced GST Council decision exempted specified cancer medicine and medicines or foods for special medical purposes used for rare diseases on qualifying personal imports. Exempt means a nil 0% levy, option A; the exemption has conditions and does not cover every drug in these categories.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/e303d4fd1d0bb973040a30c11f6ee0fd/mizoram-legal-service-general-knowledge-august-2024.pdf#page=4",
+      "printedPage": 4
+    },
+    {
+      "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q61",
+      "expectedStem": "The Human Development Index (HDI) summarizes a great deal of social performance in a single composite index, which combines -",
+      "expectedOptions": [
+        "disparity reduction rate, human resource development rate and the composite index.",
+        "longevity, education and living standard.",
+        "minimum schooling, adult literacy and tertiary educational attainment.",
+        "human resource training, development and R&D."
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "HDI combines health or longevity, education and standard of living, typically measured through life expectancy, years of schooling and GNI per person. Only B contains all three dimensions.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/e303d4fd1d0bb973040a30c11f6ee0fd/mizoram-legal-service-general-knowledge-august-2024.pdf#page=7",
+      "printedPage": 7,
+      "correctedStem": "The Human Development Index (HDI) summarizes a great deal of social performance in a single composite index, which combines—",
+      "correctedOptions": [
+        "disparity reduction rate, human resource development rate and the composite index",
+        "longevity, education and living standard",
+        "minimum schooling, adult literacy and tertiary educational attainment",
+        "human resource training, development and R&D"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q66",
+      "expectedStem": "Which of the following is a part of the revenue expenditure in the Indian government budget?",
+      "expectedOptions": [
+        "Interests payments",
+        "Defence purchases",
+        "Wage bill of the government",
+        "Allofthe above _8-"
+      ],
+      "status": "held",
+      "answerIndex": null,
+      "explanation": "Interest payments and government wages are revenue expenditure. Defence purchases may be routine stores (revenue) or durable assets (capital). Both A and C are independently true, and the question offers no A-and-C option. “All of the above” is not unconditionally correct because B is unspecified. Keep unscored.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/e303d4fd1d0bb973040a30c11f6ee0fd/mizoram-legal-service-general-knowledge-august-2024.pdf#page=7",
+      "printedPage": 7,
+      "correctedOptions": [
+        "Interest payments",
+        "Defence purchases",
+        "Wage bill of the government",
+        "All of the above"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q67",
+      "expectedStem": "Consider the following statements: 1. The Self-Help Group (SHG) programme was originally initiated by the State Bank of India by providing microcredit to the financially deprived. 2. Inan SHG all members ofa group take responsibility for a loan that an individual member takes. Which of these statements are true?",
+      "expectedOptions": [
+        "Only!",
+        "Only II",
+        "and I",
+        "NeitherI  nor II"
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "Statement 1 is false: NABARD launched the SHG–Bank Linkage Programme in 1992, with NGO and bank participation. Statement 2 reflects group or joint liability for loans within SHGs. Thus only II is true, option B.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/e303d4fd1d0bb973040a30c11f6ee0fd/mizoram-legal-service-general-knowledge-august-2024.pdf#page=8",
+      "printedPage": 8,
+      "correctedStem": "Consider the following statements: 1. The Self-Help Group (SHG) programme was originally initiated by the State Bank of India by providing microcredit to the financially deprived. 2. In an SHG, all members of a group take responsibility for a loan that an individual member takes. Which of these statements are true?",
+      "correctedOptions": [
+        "Only I",
+        "Only II",
+        "I and II",
+        "Neither I nor II"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-mizoram-legal-service-general-knowledge-august-2024-Q70",
+      "expectedStem": "India’s first Five Year Plan introduced by Jawaharlal Nehru spanned the period between -",
+      "expectedOptions": [
+        "April 19—-5 Mar0ch  1955",
+        "April 1951 - March 1956",
+        "April 1952 — March 1957",
+        "April 1953 — March 1958 ."
+      ],
+      "status": "solved",
+      "answerIndex": 1,
+      "explanation": "The First Five Year Plan covered 1951–56, beginning in April 1951 and ending in March 1956, so B is correct.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/08/e303d4fd1d0bb973040a30c11f6ee0fd/mizoram-legal-service-general-knowledge-august-2024.pdf#page=8",
+      "printedPage": 8,
+      "correctedStem": "India’s first Five Year Plan introduced by Jawaharlal Nehru spanned the period between—",
+      "correctedOptions": [
+        "April 1950 – March 1955",
+        "April 1951 – March 1956",
+        "April 1952 – March 1957",
+        "April 1953 – March 1958"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q53",
+      "expectedStem": "In India, poverty ratio is lowest in",
+      "expectedOptions": [
+        "Kerala",
+        "Punjab",
+        "Haryana",
+        "Delhi"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "In the Planning Commission’s 2011–12 state poverty estimates, Kerala’s overall poverty ratio was about 7.1%, lower than Punjab (8.3%), Delhi (9.9%) and Haryana (11.2%). A is lowest among the listed choices.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/a06e278228272758555e034d340190a0/psychologistcase-worker-2024-general-studies.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-archive2325-psychologistcase-worker-2024-general-studies-Q58",
+      "expectedStem": "National Bank for Agriculture and Rural Development (NABARD) was merged with which organization in 1982?",
+      "expectedOptions": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "Agricultural Refinance and Development Corporation (ARDC)",
+        "EXTM Bank ."
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The wording reverses the institutional direction: NABARD was established in 1982 and took over functions of the former ARDC, plus RBI agricultural-credit functions. Among the choices, ARDC is the entity absorbed into NABARD, so C is the intended answer.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/a06e278228272758555e034d340190a0/psychologistcase-worker-2024-general-studies.pdf#page=6",
+      "printedPage": 6,
+      "correctedOptions": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "Agricultural Refinance and Development Corporation (ARDC)",
+        "EXIM Bank"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q53",
+      "expectedStem": "In India, poverty ratio is lowest in",
+      "expectedOptions": [
+        "Kerala",
+        "Punjab",
+        "Haryana",
+        "Delhi"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "In the Planning Commission’s 2011–12 state poverty estimates, Kerala’s overall poverty ratio was about 7.1%, lower than Punjab (8.3%), Delhi (9.9%) and Haryana (11.2%). A is lowest among the listed choices.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/b5e24e6525d3dfe31e81b5769bdfa8a5/case-worker-2024-general-studies.pdf#page=5",
+      "printedPage": 5
+    },
+    {
+      "id": "mpsc-group-b-archive2325-case-worker-2024-general-studies-Q58",
+      "expectedStem": "National Bank for Agriculture and Rural Development (NABARD) was merged with which organization in 1982?",
+      "expectedOptions": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "Agricultural Refinance and Development Corporation (ARDC)",
+        "EXTM Bank ."
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The wording reverses the institutional direction: NABARD was established in 1982 and took over functions of the former ARDC, plus RBI agricultural-credit functions. Among the choices, ARDC is the entity absorbed into NABARD, so C is the intended answer.",
+      "sourceHref": "https://mpsc.mizoram.gov.in/uploads/attachments/2024/02/b5e24e6525d3dfe31e81b5769bdfa8a5/case-worker-2024-general-studies.pdf#page=6",
+      "printedPage": 6,
+      "correctedOptions": [
+        "State Bank of India",
+        "Reserve Bank of India",
+        "Agricultural Refinance and Development Corporation (ARDC)",
+        "EXIM Bank"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-si-excise-2014-p2-q048",
+      "expectedStem": "Which sector constitutes the maximum share in National Income of India?",
+      "expectedOptions": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "All of these have equal share"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "The tertiary or services sector supplies the largest share of India’s national income; the primary and secondary sectors are smaller, so C is correct.",
+      "sourceHref": "/papers/group-b/si-excise-2014-p2.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-si-excise-2014-p2-q049",
+      "expectedStem": "In 2011-2012, the contribution to the Indian GDP was highest in",
+      "expectedOptions": [
+        "agriculture sector",
+        "industrial sector",
+        "services sector",
+        "I.T. sector"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "MoSPI’s 2011–12 national accounts show services at about 55.7% of GDP at current prices, above agriculture and industry. IT is a subset of services. Thus C.",
+      "sourceHref": "/papers/group-b/si-excise-2014-p2.pdf#page=6",
+      "printedPage": 6,
+      "correctedStem": "In 2011–2012, the contribution to the Indian GDP was highest in—"
+    },
+    {
+      "id": "mpsc-group-b-si-excise-2014-p2-q052",
+      "expectedStem": "Fiscal policy in India is formulated by",
+      "expectedOptions": [
+        "the Reserve Bank of India",
+        "the Planning Commission",
+        "the Finance Ministry",
+        "the Securities and Exchange Board of India"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "Fiscal policy concerns government taxation, spending and borrowing, developed through the Union Budget by the Ministry of Finance. RBI handles monetary policy, so C.",
+      "sourceHref": "/papers/group-b/si-excise-2014-p2.pdf#page=6",
+      "printedPage": 6
+    },
+    {
+      "id": "mpsc-group-b-si-excise-2014-p2-q053",
+      "expectedStem": "The RBI was nationalised on",
+      "expectedOptions": [
+        "1st January,1949",
+        "1st March, 1949",
+        "1st January, 1950",
+        "1st March 1950"
+      ],
+      "status": "solved",
+      "answerIndex": 0,
+      "explanation": "The Reserve Bank of India was nationalised with effect from 1 January 1949 under the RBI (Transfer to Public Ownership) Act, 1948. A matches.",
+      "sourceHref": "/papers/group-b/si-excise-2014-p2.pdf#page=6",
+      "printedPage": 6,
+      "correctedStem": "The RBI was nationalised on—",
+      "correctedOptions": [
+        "1st January 1949",
+        "1st March 1949",
+        "1st January 1950",
+        "1st March 1950"
+      ]
+    },
+    {
+      "id": "mpsc-group-b-si-excise-2014-p2-q059",
+      "expectedStem": "When was the Indian Planning Commission set up?",
+      "expectedOptions": [
+        "1948",
+        "1949",
+        "1950",
+        "1951"
+      ],
+      "status": "solved",
+      "answerIndex": 2,
+      "explanation": "A Government of India resolution established the Planning Commission in March 1950, making C correct.",
+      "sourceHref": "/papers/group-b/si-excise-2014-p2.pdf#page=7",
+      "printedPage": 7
+    }
+  ]
+}

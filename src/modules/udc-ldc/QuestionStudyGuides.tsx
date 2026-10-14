@@ -88,17 +88,19 @@ export function QuestionStudyGuides({ questions, renderQuestions }: {
 }) {
   const mizoram = questions.filter(q => hasTopic(q, 'mizoram'));
   const economy = questions.filter(q => hasTopic(q, 'economy'));
+  const science = questions.filter(q => hasTopic(q, 'science') && q.type !== 'descriptive');
   const [selectedConcept, setSelectedConcept] = useState<{ title: string; questions: BankQuestion[] } | null>(null);
   const jump = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  return <section className="udc-subject-compilations" aria-label="Mizo and Economics question compilations">
+  return <section className="udc-subject-compilations" aria-label="Mizo, Economics and Science question compilations">
     <div className="udc-hero" style={{ marginBottom: 16 }}>
-      <h2 style={{ margin: '0 0 5px', fontSize: 20 }}>Mizo &amp; Economics</h2>
-      <p style={{ margin: 0, fontSize: 13.5 }}>Read the questions in one continuous list and pick an option to check your answer. Study the Economics concepts, then try their related questions.</p>
+      <h2 style={{ margin: '0 0 5px', fontSize: 20 }}>Mizo, Economics &amp; Science</h2>
+      <p style={{ margin: 0, fontSize: 13.5 }}>Read each subject in one continuous list and pick an option to check your answer. Study the Economics concepts, then try their related questions.</p>
     </div>
     <nav className="udc-compilation-nav" aria-label="Jump to subject">
       <button type="button" onClick={() => jump('udc-mizo-compilation')}>Mizo · {mizoram.length}</button>
       <button type="button" onClick={() => jump('udc-economics-concepts')}>Economics concept guide · {economyGuides.length}</button>
       <button type="button" onClick={() => jump('udc-economics-questions')}>Economics questions · {economy.length}</button>
+      <button type="button" onClick={() => jump('udc-science-questions')}>Science questions · {science.length}</button>
     </nav>
     <section id="udc-mizo-compilation" className="udc-compilation-section">
       <header className="udc-compilation-heading"><span>MIZORAM</span><h3>Mizo questions <small>{mizoram.length}</small></h3><p>All Mizoram and Mizo-related questions in this module.</p></header>
@@ -116,6 +118,10 @@ export function QuestionStudyGuides({ questions, renderQuestions }: {
         {selectedConcept && <p>{selectedConcept.title} <button type="button" onClick={() => setSelectedConcept(null)}>Show all {economy.length} questions</button></p>}
       </div>
       <div key={selectedConcept?.title ?? 'all-economics'}>{renderQuestions(selectedConcept?.questions ?? economy)}</div>
+    </section>
+    <section id="udc-science-questions" className="udc-compilation-section is-science">
+      <header className="udc-compilation-heading"><span>GENERAL SCIENCE</span><h3>Science questions <small>{science.length}</small></h3><p>Biology, chemistry, physics, space, and environmental science from the general-study papers. Each card retains its printed-source and scoring status.</p></header>
+      {renderQuestions(science)}
     </section>
   </section>;
 }

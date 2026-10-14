@@ -191,11 +191,23 @@ html.dark .udc-ldc-page {
 .udc-question-card:last-child { margin-bottom: 4px !important; }
 .udc-question-card > .udc-review-panel { margin-top: 14px !important; }
 .udc-practice-card { scroll-margin-top: 16px; }
+.udc-practice.is-answered { padding-bottom: 76px; }
+.udc-practice-action-bar {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: 30;
+  width: min(280px, calc(100vw - 32px));
+  padding: 6px;
+  border: 1px solid var(--udc-border);
+  border-radius: 14px;
+  background: var(--bg-panel, #fff);
+  box-shadow: 0 8px 28px color-mix(in srgb, var(--udc-primary) 22%, transparent);
+}
 .udc-practice-next {
   display: block;
-  width: min(100%, 280px);
+  width: 100%;
   min-height: 44px;
-  margin-top: 14px;
   padding: 9px 16px;
   border: 1px solid var(--udc-primary);
   border-radius: 10px;
@@ -214,6 +226,12 @@ html.dark .udc-ldc-page {
 
 @media (max-width: 767px) {
   .udc-ldc-content { padding-left: 12px !important; padding-right: 12px !important; }
+  .udc-practice-action-bar {
+    left: max(12px, env(safe-area-inset-left));
+    right: max(12px, env(safe-area-inset-right));
+    bottom: max(12px, env(safe-area-inset-bottom));
+    width: auto;
+  }
   .udc-practice-card {
     padding: 14px 12px !important;
     scroll-margin-top: 12px;
@@ -222,7 +240,6 @@ html.dark .udc-ldc-page {
     min-width: 0;
     overflow-wrap: anywhere;
   }
-  .udc-practice-next { width: 100%; }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

@@ -157,7 +157,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   const choose = (idx: number) => submitAnswer(idx);
 
   return (
-    <div>
+    <div className={submitted ? 'udc-practice is-answered' : 'udc-practice'}>
       <div
         style={{
           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
@@ -379,9 +379,6 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}
-            <button type="button" className="udc-practice-next" onClick={next}>
-              {onFinish && i >= pool.length - 1 ? 'Finish session' : 'Next question'} →
-            </button>
             <p style={{ marginTop: 6, fontSize: 11.5, opacity: 0.65 }} aria-live="polite">
               {correct ? 'Continue when you are ready.' : 'Confidence is optional. Continue when you are ready.'}
             </p>
@@ -399,6 +396,11 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
           compact
         />
       </div>
+      {submitted && <div className="udc-practice-action-bar">
+        <button type="button" className="udc-practice-next" onClick={next}>
+          {onFinish && i >= pool.length - 1 ? 'Finish session' : 'Next question'} →
+        </button>
+      </div>}
     </div>
   );
 }

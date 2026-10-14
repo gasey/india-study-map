@@ -1,3 +1,12 @@
+## 14 October 2026 — Keep manual practice navigation in view
+
+After an answer, the manual Next question or Finish session control now floats
+above the bottom edge of the viewport in both Practice and My Learning review
+sessions. Long explanations and source notes can still be read in full, while
+the navigation control remains visible without scrolling to the end of the
+question card. The card keeps extra bottom space so its last content is not
+hidden behind the control. No automatic question advance was restored.
+
 ## 14 October 2026 — Manual next question in Practice
 
 Practice now waits after every answer until the learner presses “Next

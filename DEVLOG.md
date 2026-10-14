@@ -1,3 +1,19 @@
+## 14 October 2026 — Faster practice answer and next-question flow
+
+The drill now advances after 0.9 seconds for a correct answer or 4 seconds for
+a wrong answer, with an immediate “Next question now” control on either result.
+The question card moves into view without a smooth-scroll animation. Saving an
+answer no longer rebuilds the full learning dashboard while another tab or a
+focused learning session is open. General practice and subject pools stay
+stable across progress changes unless an attempt-based filter actually needs
+the new history. This avoids filtering thousands of questions just to display
+the next one, while keeping “never attempted” and “wrong” filters live. Filter
+rail counts now refresh after the answer view, and paper rows are indexed once
+instead of rescanning the entire bank for every paper at startup.
+Final browser review also found that the “Never attempted” filter could skip the
+next item after an answered question disappeared from the pool. Navigation now
+tracks the next question ID across that pool update.
+
 ## 14 October 2026 — Restore printed festival-pair layout
 
 LDC February 2025 Paper I Q10 still displayed its four festival/state pairs

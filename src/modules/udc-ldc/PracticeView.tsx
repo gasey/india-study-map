@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
@@ -47,6 +47,9 @@ interface Props {
 
 export function PracticeView({ questions, progress, onAnswer, onMistakeReason, onAttemptConfidence, onFinish }: Props) {
   const pool = useMemo(() => questions.filter(isAnswerable), [questions]);
+  const latestPool = useRef(pool);
+  const pendingNextId = useRef<string | null>(null);
+  useLayoutEffect(() => { latestPool.current = pool; }, [pool]);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [session, setSession] = useState({ done: 0, right: 0 });
@@ -120,22 +123,29 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
     if (autoNextTimer.current !== null) window.clearTimeout(autoNextTimer.current);
     autoNextTimer.current = null;
     if (onFinish && i >= pool.length - 1) { onFinish(); return; }
-    const currentIndex = pool.findIndex(item => item.id === q.id);
+    const currentPool = latestPool.current;
+    const targetIndex = currentPool.findIndex(item => item.id === pendingNextId.current);
+    const currentIndex = currentPool.findIndex(item => item.id === q.id);
     setPicked(null);
     setSubmitted(false);
     setHeldQuestion(null);
     answerEvent.current = null;
+    pendingNextId.current = null;
     setMistakeReason('');
     visibleMs.current = 0;
     activeSince.current = Date.now();
-    setI(currentIndex >= 0 ? (currentIndex + 1) % Math.max(1, pool.length) : Math.min(i, Math.max(0, pool.length - 1)));
-    requestAnimationFrame(() => questionCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    setI(targetIndex >= 0 ? targetIndex : currentIndex >= 0
+      ? (currentIndex + 1) % Math.max(1, currentPool.length)
+      : Math.min(i, Math.max(0, currentPool.length - 1)));
+    requestAnimationFrame(() => questionCardRef.current?.scrollIntoView({ behavior: 'auto', block: 'start' }));
   };
 
   const submitAnswer = (selectedIndex: number) => {
     if (submitted || answerEvent.current) return;
     const eventId = `practice:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`;
     answerEvent.current = eventId;
+    const sourceIndex = pool.findIndex(item => item.id === q.id);
+    pendingNextId.current = pool[(sourceIndex + 1) % pool.length]?.id ?? null;
     setHeldQuestion(q);
     setPicked(selectedIndex);
     setSubmitted(true);
@@ -146,9 +156,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
       durationMs: Math.max(0, visibleMs.current + (document.hidden ? 0 : Date.now() - activeSince.current)),
       source: onFinish ? 'review' : 'practice',
     });
-    // Answer selection submits immediately. Show the feedback briefly; wrong
-    // answers get a little more time for the confidence prompt before moving on.
-    autoNextTimer.current = window.setTimeout(next, ok ? 2200 : 6500);
+    // Keep the result visible briefly; a wrong answer gets time for the optional
+    // confidence prompt. The visible Next button can skip either delay.
+    autoNextTimer.current = window.setTimeout(next, ok ? 900 : 4000);
   };
 
   const choose = (idx: number) => submitAnswer(idx);
@@ -376,8 +386,13 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}
-            <p style={{ marginTop: 10, fontSize: 11.5, opacity: 0.65 }} aria-live="polite">
-              {correct ? 'Moving to the next question…' : 'Choose a confidence rating to continue, or this will advance automatically.'}
+            <button type="button" onClick={next} style={{ marginTop: 10, padding: '7px 12px', borderRadius: 8,
+              border: '1px solid var(--border, #dcdce3)', background: 'var(--bg-panel, #fff)', color: 'inherit',
+              cursor: 'pointer', font: 'inherit', fontSize: 12.5 }}>
+              Next question now →
+            </button>
+            <p style={{ marginTop: 6, fontSize: 11.5, opacity: 0.65 }} aria-live="polite">
+              {correct ? 'Advancing automatically…' : 'Choose a confidence rating or continue now; this will also advance automatically.'}
             </p>
           </div>
         )}

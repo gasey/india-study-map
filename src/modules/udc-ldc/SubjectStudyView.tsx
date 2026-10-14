@@ -16,6 +16,7 @@ interface Props {
   onAttemptConfidence?: (eventId: string, confidence: Confidence) => void;
   renderBrowse: (questions: BankQuestion[]) => ReactNode;
 }
+const EMPTY_ATTEMPT_PROGRESS: ProgressMap = Object.create(null) as ProgressMap;
 
 export function SubjectStudyView({ subject, questions, progress, onAnswer, onMistakeReason, onAttemptConfidence, renderBrowse }: Props) {
   const [topic, setTopic] = useState<StudyTopicId | 'all'>('all');
@@ -34,15 +35,17 @@ export function SubjectStudyView({ subject, questions, progress, onAnswer, onMis
     const rows = scoped.filter(q => studyTopicOf(q, subject) === id);
     return { id, label, total: rows.length, ready: rows.filter(isAnswerable).length };
   }), [scoped, topics, subject]);
+  const scopedReady = useMemo(() => scoped.filter(isAnswerable).length, [scoped]);
+  const attemptProgress = attempt === 'all' ? EMPTY_ATTEMPT_PROGRESS : progress;
   const filtered = useMemo(() => scoped.filter(q => {
     if (hasTopicGroups && topic !== 'all' && studyTopicOf(q, subject) !== topic) return false;
     if (kind === 'mcq' ? !isMcqQuestion(q) : isMcqQuestion(q)) return false;
-    if (attempt === 'never' && progress[q.id]) return false;
-    if (attempt === 'wrong' && (!progress[q.id] || progress[q.id].lastCorrect)) return false;
+    if (attempt === 'never' && attemptProgress[q.id]) return false;
+    if (attempt === 'wrong' && (!attemptProgress[q.id] || attemptProgress[q.id].lastCorrect)) return false;
     const needle = search.trim().toLowerCase();
     return !needle || (q.question + ' ' + (isMcqQuestion(q) ? q.options.join(' ') : '')).toLowerCase().includes(needle);
-  }), [scoped, hasTopicGroups, subject, topic, kind, attempt, progress, search]);
-  const ready = filtered.filter(isAnswerable).length;
+  }), [scoped, hasTopicGroups, subject, topic, kind, attempt, attemptProgress, search]);
+  const ready = useMemo(() => filtered.filter(isAnswerable).length, [filtered]);
 
   return <section className={`udc-subject-study ${maths ? 'is-maths' : computer ? 'is-computer' : 'is-english'}`} aria-label={title}>
     <div className="udc-subject-heading">
@@ -50,11 +53,11 @@ export function SubjectStudyView({ subject, questions, progress, onAnswer, onMis
         <h2>{title}</h2>
         <p>{'Choose a topic, practise its questions, or read the original material.'}</p>
       </div>
-      <div className="udc-subject-total"><strong>{scoped.filter(isAnswerable).length.toLocaleString()}</strong><span>ready to practise</span><small>{scoped.length.toLocaleString()} available to read</small></div>
+      <div className="udc-subject-total"><strong>{scopedReady.toLocaleString()}</strong><span>ready to practise</span><small>{scoped.length.toLocaleString()} available to read</small></div>
     </div>
     {hasTopicGroups && <div className="udc-topic-grid" aria-label={`${title} topics`}>
       <button type="button" className={`udc-topic-card ${topic === 'all' ? 'is-selected' : ''}`} aria-pressed={topic === 'all'} onClick={() => setTopic('all')}>
-        <strong>All {title}</strong><span>{scoped.filter(isAnswerable).length} ready · {scoped.length} to read</span>
+        <strong>All {title}</strong><span>{scopedReady} ready · {scoped.length} to read</span>
       </button>
       {topicCounts.map(({ id, label, total, ready: count }) => <button key={id} type="button" className={`udc-topic-card ${topic === id ? 'is-selected' : ''}`} aria-pressed={topic === id} disabled={!total} onClick={() => setTopic(id)}>
         <strong>{label}</strong><span>{count} ready · {total} to read</span>

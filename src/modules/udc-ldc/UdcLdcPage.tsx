@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { useDeferredValue, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { getBank } from '@/data/banks/index';
 import { mpscUdcLdcNegativeMarking } from '@/data/banks/mpsc-udc-ldc';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
@@ -54,6 +54,7 @@ import './udc-ldc.css';
 
 
 type Tab = 'learning' | 'progress' | 'papers' | 'mizo' | 'economics' | 'science' | 'maths' | 'english' | 'computer' | 'essays' | 'browse' | 'practice' | 'exam';
+const EMPTY_FILTER_PROGRESS: ProgressMap = Object.create(null) as ProgressMap;
 const paperNegativeMarking = {
   ...mpscUdcLdcNegativeMarking,
   ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
@@ -90,8 +91,15 @@ function useStats() {
     const bank = getBank(BANK_ID);
     if (!bank) return null;
     const papers = bank.papers ?? [];
+    const questionsByPaper = new Map<string, BankQuestion[]>();
+    for (const question of bank.questions) {
+      if (!question.paperId) continue;
+      const group = questionsByPaper.get(question.paperId);
+      if (group) group.push(question);
+      else questionsByPaper.set(question.paperId, [question]);
+    }
     const rows: PaperStats[] = papers.map((paper) => {
-      const questions = bank.questions.filter((q) => q.paperId === paper.id);
+      const questions = questionsByPaper.get(paper.id) ?? [];
       const mcq = questions.filter(isMcqQuestion);
       return {
         paper,
@@ -1049,16 +1057,27 @@ export default function UdcLdcPage() {
   ), [data]);
   const visibleRows = useMemo(() => data?.rows.filter((row) => !technicalPaperIds.has(row.paper.id)) ?? [],
     [data, technicalPaperIds]);
+  const visiblePapers = useMemo(() => (data?.bank.papers ?? []).filter((paper) => !technicalPaperIds.has(paper.id)),
+    [data, technicalPaperIds]);
   const moduleQuestions = useMemo(() => correctedQuestions.filter((q) =>
     !q.paperId || !technicalPaperIds.has(q.paperId)).map(withTopicOverride), [correctedQuestions, technicalPaperIds]);
 
+  // Answering changes progress, but the question pool only depends on it when
+  // an attempt filter is active. Keep the pool stable during ordinary practice.
+  const filterProgress = filters.attempt === 'any' ? EMPTY_FILTER_PROGRESS : progress;
+  // The expanded rail can count thousands of questions. Its counts may follow
+  // one render behind an answer so the verdict and next question stay responsive.
+  const deferredRailProgress = useDeferredValue(progress);
   const filtered = useMemo(() => {
     if (!data) return [];
-    return applyFilters(moduleQuestions, data.bank.papers ?? [], filters, progress, flags);
-  }, [data, moduleQuestions, filters, progress, flags]);
+    return applyFilters(moduleQuestions, data.bank.papers ?? [], filters, filterProgress, flags);
+  }, [data, moduleQuestions, filters, filterProgress, flags]);
 
-  const learningModel = useMemo(() => buildLearningDashboard(moduleQuestions, tracker.learning, learningClock),
-    [moduleQuestions, tracker.learning, learningClock]);
+  // The dashboard scans the whole bank. It has no visible work to do while a
+  // drill, subject page, or Browse is on screen.
+  const learningModel = useMemo(() => tab === 'learning' && !learningSession
+    ? buildLearningDashboard(moduleQuestions, tracker.learning, learningClock) : null,
+    [tab, learningSession, moduleQuestions, tracker.learning, learningClock]);
   const learningQuestions = useMemo(() => {
     if (!learningSession) return [];
     const byId = new Map(moduleQuestions.map(q => [q.id, q]));
@@ -1153,7 +1172,7 @@ export default function UdcLdcPage() {
             onFinish={() => { setLearningSession(null); setLearningMessage('Session complete. Your learning progress and review queue are updated.'); }} />
             : <BrowseView key={learningSession.id} rows={visibleRows} questions={learningQuestions} progress={progress} flags={flags}
               onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />}
-        </section> : <LearningDashboard model={learningModel} storageStatus={tracker.storageStatus}
+        </section> : learningModel && <LearningDashboard model={learningModel} storageStatus={tracker.storageStatus}
           onStart={(ids, label) => openLearning(ids, label, 'practice')}
           onRead={(ids, label) => openLearning(ids, label, 'read')}
           onExport={exportLearning} onImport={importLearning} />}
@@ -1225,12 +1244,12 @@ export default function UdcLdcPage() {
       })()}
       {(tab === 'browse' || tab === 'practice') && filtersOpen && (
         <FilterRail
-          papers={(data.bank.papers ?? []).filter((paper) => !technicalPaperIds.has(paper.id))}
+          papers={visiblePapers}
           all={moduleQuestions}
           filters={filters}
           onChange={setFilters}
           matched={filtered.length}
-          progress={progress}
+          progress={deferredRailProgress}
           onResetProgress={reset}
           flags={flags}
           signedIn={signedIn}

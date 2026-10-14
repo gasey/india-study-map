@@ -1,3 +1,13 @@
+## 14 October 2026 — Manual next question in Practice
+
+Practice now waits after every answer until the learner presses “Next
+question.” Correct and wrong explanations remain visible for as long as needed.
+On a wrong answer, choosing a confidence rating saves the rating and highlights
+the selection without moving to another question. The previous 0.9/4-second
+automatic advance timers were removed; the bank-filter and next-ID performance
+repairs remain. The manual Next control has a 44-pixel touch target and fills
+the practice card on narrow screens, with a visible keyboard focus outline.
+
 ## 14 October 2026 — Faster practice answer and next-question flow
 
 The drill now advances after 0.9 seconds for a correct answer or 4 seconds for

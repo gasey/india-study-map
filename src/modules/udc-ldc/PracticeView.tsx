@@ -56,10 +56,10 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   const [heldQuestion, setHeldQuestion] = useState<BankQuestion | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [mistakeReason, setMistakeReason] = useState('');
+  const [attemptConfidence, setAttemptConfidence] = useState<Confidence | null>(null);
   const answerEvent = useRef<string | null>(null);
   const activeSince = useRef(Date.now());
   const visibleMs = useRef(0);
-  const autoNextTimer = useRef<number | null>(null);
   const questionCardRef = useRef<HTMLDivElement>(null);
   const { flags } = useFlags();
 
@@ -72,9 +72,6 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
     };
     document.addEventListener('visibilitychange', visibility);
     return () => document.removeEventListener('visibilitychange', visibility);
-  }, []);
-  useEffect(() => () => {
-    if (autoNextTimer.current !== null) window.clearTimeout(autoNextTimer.current);
   }, []);
 
   if (!pool.length && !heldQuestion) {
@@ -120,8 +117,6 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   const groupBPaper = groupBGeneralPapers.find((paper) => paper.id === q.paperId);
 
   const next = () => {
-    if (autoNextTimer.current !== null) window.clearTimeout(autoNextTimer.current);
-    autoNextTimer.current = null;
     if (onFinish && i >= pool.length - 1) { onFinish(); return; }
     const currentPool = latestPool.current;
     const targetIndex = currentPool.findIndex(item => item.id === pendingNextId.current);
@@ -132,6 +127,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
     answerEvent.current = null;
     pendingNextId.current = null;
     setMistakeReason('');
+    setAttemptConfidence(null);
     visibleMs.current = 0;
     activeSince.current = Date.now();
     setI(targetIndex >= 0 ? targetIndex : currentIndex >= 0
@@ -156,9 +152,6 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
       durationMs: Math.max(0, visibleMs.current + (document.hidden ? 0 : Date.now() - activeSince.current)),
       source: onFinish ? 'review' : 'practice',
     });
-    // Keep the result visible briefly; a wrong answer gets time for the optional
-    // confidence prompt. The visible Next button can skip either delay.
-    autoNextTimer.current = window.setTimeout(next, ok ? 900 : 4000);
   };
 
   const choose = (idx: number) => submitAnswer(idx);
@@ -288,7 +281,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
         </div>
 
         {!submitted && <p aria-live="polite" style={{ margin: '10px 0 0', fontSize: 12.5, opacity: 0.75 }}>
-          Select an option to submit and continue.
+          Select an option to check your answer.
         </p>}
 
         {submitted && (
@@ -323,9 +316,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7, marginTop: 6 }}>
                   {([['sure', 'Sure'], ['unsure', 'Unsure'], ['guess', 'Guessing']] as const).map(([value, label]) => (
                     <button key={value} type="button" onClick={() => {
+                      setAttemptConfidence(value);
                       if (answerEvent.current) onAttemptConfidence(answerEvent.current, value);
-                      next();
-                    }} style={{ border: '1px solid var(--border, #dcdce3)', borderRadius: 999, padding: '5px 11px', background: 'var(--bg-panel, transparent)', color: 'inherit', cursor: 'pointer', font: 'inherit' }}>{label}</button>
+                    }} aria-pressed={attemptConfidence === value} style={{ border: '1px solid var(--border, #dcdce3)', borderRadius: 999, padding: '5px 11px', background: attemptConfidence === value ? 'var(--info, #3b7dd8)' : 'var(--bg-panel, transparent)', color: attemptConfidence === value ? '#fff' : 'inherit', cursor: 'pointer', font: 'inherit' }}>{label}</button>
                   ))}
                 </div>
               </div>
@@ -386,13 +379,11 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
                 {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}
-            <button type="button" onClick={next} style={{ marginTop: 10, padding: '7px 12px', borderRadius: 8,
-              border: '1px solid var(--border, #dcdce3)', background: 'var(--bg-panel, #fff)', color: 'inherit',
-              cursor: 'pointer', font: 'inherit', fontSize: 12.5 }}>
-              Next question now →
+            <button type="button" className="udc-practice-next" onClick={next}>
+              {onFinish && i >= pool.length - 1 ? 'Finish session' : 'Next question'} →
             </button>
             <p style={{ marginTop: 6, fontSize: 11.5, opacity: 0.65 }} aria-live="polite">
-              {correct ? 'Advancing automatically…' : 'Choose a confidence rating or continue now; this will also advance automatically.'}
+              {correct ? 'Continue when you are ready.' : 'Confidence is optional. Continue when you are ready.'}
             </p>
           </div>
         )}

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
 import type { Primer } from '@/data/banks/all-primers';
@@ -44,6 +44,7 @@ function GuideList({ rows, questions = [], onPractice }: {
 }) {
   const [expanded, setExpanded] = useState(false);
   const [openTopics, setOpenTopics] = useState<Record<string, boolean>>({});
+  const relatedByTopic = useMemo(() => new Map(rows.map(guide => [guide.subtopic, relatedQuestions(guide, questions)])), [rows, questions]);
   return <div className="udc-concept-guide">
     <div className="udc-guide-toolbar">
       <span>{rows.length} lessons · concepts, memory aids and exam traps</span>
@@ -53,7 +54,7 @@ function GuideList({ rows, questions = [], onPractice }: {
     </div>
     <div className="udc-guide-lessons">
       {rows.map((guide, index) => {
-        const related = relatedQuestions(guide, questions);
+        const related = relatedByTopic.get(guide.subtopic) ?? [];
         // Plain-text lessons are broken into short reading paragraphs.
         const sentences = guide.primer.split(/(?<=[.!?])\s+(?=[A-Z“])/u);
         const paragraphs = Array.from({ length: Math.ceil(sentences.length / 2) }, (_, i) => sentences.slice(i * 2, i * 2 + 2).join(' '));
@@ -83,45 +84,44 @@ function GuideList({ rows, questions = [], onPractice }: {
   </div>;
 }
 
-export function QuestionStudyGuides({ questions, renderQuestions }: {
-  questions: BankQuestion[]; renderQuestions: (questions: BankQuestion[]) => ReactNode;
+export type CompilationSubject = 'mizo' | 'economics' | 'science';
+
+export function QuestionStudyGuides({ subject, questions, renderQuestions }: {
+  subject: CompilationSubject; questions: BankQuestion[]; renderQuestions: (questions: BankQuestion[]) => ReactNode;
 }) {
-  const mizoram = questions.filter(q => hasTopic(q, 'mizoram'));
-  const economy = questions.filter(q => hasTopic(q, 'economy'));
-  const science = questions.filter(q => hasTopic(q, 'science') && q.type !== 'descriptive');
+  const subjectQuestions = useMemo(() => questions.filter(q =>
+    subject === 'mizo' ? hasTopic(q, 'mizoram')
+      : subject === 'economics' ? hasTopic(q, 'economy')
+        : hasTopic(q, 'science') && q.type !== 'descriptive'), [questions, subject]);
   const [selectedConcept, setSelectedConcept] = useState<{ title: string; questions: BankQuestion[] } | null>(null);
-  const jump = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  return <section className="udc-subject-compilations" aria-label="Mizo, Economics and Science question compilations">
-    <div className="udc-hero" style={{ marginBottom: 16 }}>
-      <h2 style={{ margin: '0 0 5px', fontSize: 20 }}>Mizo, Economics &amp; Science</h2>
-      <p style={{ margin: 0, fontSize: 13.5 }}>Read each subject in one continuous list and pick an option to check your answer. Study the Economics concepts, then try their related questions.</p>
-    </div>
-    <nav className="udc-compilation-nav" aria-label="Jump to subject">
-      <button type="button" onClick={() => jump('udc-mizo-compilation')}>Mizo · {mizoram.length}</button>
-      <button type="button" onClick={() => jump('udc-economics-concepts')}>Economics concept guide · {economyGuides.length}</button>
-      <button type="button" onClick={() => jump('udc-economics-questions')}>Economics questions · {economy.length}</button>
-      <button type="button" onClick={() => jump('udc-science-questions')}>Science questions · {science.length}</button>
-    </nav>
-    <section id="udc-mizo-compilation" className="udc-compilation-section">
-      <header className="udc-compilation-heading"><span>MIZORAM</span><h3>Mizo questions <small>{mizoram.length}</small></h3><p>All Mizoram and Mizo-related questions in this module.</p></header>
-      {renderQuestions(mizoram)}
+  const [economicsView, setEconomicsView] = useState<'questions' | 'concepts'>('questions');
+  return <section className="udc-subject-compilations" aria-label={`${subject} question compilation`}>
+    {subject === 'mizo' && <section className="udc-compilation-section">
+      <header className="udc-compilation-heading"><span>MIZORAM</span><h3>Mizo questions <small>{subjectQuestions.length}</small></h3><p>All Mizoram and Mizo-related questions in this module.</p></header>
+      {renderQuestions(subjectQuestions)}
       <details className="udc-mizo-notes"><summary>Mizoram concept notes · {mizoGuides.length} topics</summary><GuideList rows={mizoGuides} /></details>
-    </section>
-    <section className="udc-compilation-section is-economics">
-      <header id="udc-economics-concepts" className="udc-compilation-heading"><span>ECONOMICS</span><h3>Understand the concept. Solve the question.</h3><p>{economyGuides.length} lessons covering the ideas tested in older papers, with formulas, memory aids and common traps. Historical rates and rankings stay tied to their paper year.</p></header>
-      <GuideList rows={economyGuides} questions={economy} onPractice={(guide, related) => {
+    </section>}
+    {subject === 'economics' && <section className="udc-compilation-section is-economics">
+      <header className="udc-compilation-heading"><span>ECONOMICS</span><h3>Economics questions and concepts</h3><p>{subjectQuestions.length} questions and {economyGuides.length} lessons drawn from older papers. Historical rates and rankings stay tied to their paper year.</p></header>
+      <nav className="udc-compilation-nav" aria-label="Economics views">
+        <button type="button" aria-pressed={economicsView === 'questions'} className={economicsView === 'questions' ? 'is-active' : ''} onClick={() => setEconomicsView('questions')}>Questions · {subjectQuestions.length}</button>
+        <button type="button" aria-pressed={economicsView === 'concepts'} className={economicsView === 'concepts' ? 'is-active' : ''} onClick={() => setEconomicsView('concepts')}>Concept guide · {economyGuides.length}</button>
+      </nav>
+      {economicsView === 'concepts' && <GuideList rows={economyGuides} questions={subjectQuestions} onPractice={(guide, related) => {
         setSelectedConcept({ title: guide.subtopic, questions: related });
-        requestAnimationFrame(() => jump('udc-economics-questions'));
-      }} />
-      <div id="udc-economics-questions" className="udc-economics-question-heading">
-        <h3>Economics questions <small>{selectedConcept?.questions.length ?? economy.length}</small></h3>
-        {selectedConcept && <p>{selectedConcept.title} <button type="button" onClick={() => setSelectedConcept(null)}>Show all {economy.length} questions</button></p>}
-      </div>
-      <div key={selectedConcept?.title ?? 'all-economics'}>{renderQuestions(selectedConcept?.questions ?? economy)}</div>
-    </section>
-    <section id="udc-science-questions" className="udc-compilation-section is-science">
-      <header className="udc-compilation-heading"><span>GENERAL SCIENCE</span><h3>Science questions <small>{science.length}</small></h3><p>Biology, chemistry, physics, space, and environmental science from the general-study papers. Each card retains its printed-source and scoring status.</p></header>
-      {renderQuestions(science)}
-    </section>
+        setEconomicsView('questions');
+      }} />}
+      {economicsView === 'questions' && <>
+        <div className="udc-economics-question-heading">
+          <h3>Economics questions <small>{selectedConcept?.questions.length ?? subjectQuestions.length}</small></h3>
+          {selectedConcept && <p>{selectedConcept.title} <button type="button" onClick={() => setSelectedConcept(null)}>Show all {subjectQuestions.length} questions</button></p>}
+        </div>
+        <div key={selectedConcept?.title ?? 'all-economics'}>{renderQuestions(selectedConcept?.questions ?? subjectQuestions)}</div>
+      </>}
+    </section>}
+    {subject === 'science' && <section className="udc-compilation-section is-science">
+      <header className="udc-compilation-heading"><span>GENERAL SCIENCE</span><h3>Science questions <small>{subjectQuestions.length}</small></h3><p>Biology, chemistry, physics, space, and environmental science from the general-study papers. Each card retains its printed-source and scoring status.</p></header>
+      {renderQuestions(subjectQuestions)}
+    </section>}
   </section>;
 }

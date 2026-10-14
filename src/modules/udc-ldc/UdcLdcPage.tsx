@@ -53,7 +53,7 @@ import './udc-ldc.css';
 // ============================================
 
 
-type Tab = 'learning' | 'progress' | 'papers' | 'guides' | 'maths' | 'english' | 'computer' | 'essays' | 'browse' | 'practice' | 'exam';
+type Tab = 'learning' | 'progress' | 'papers' | 'mizo' | 'economics' | 'science' | 'maths' | 'english' | 'computer' | 'essays' | 'browse' | 'practice' | 'exam';
 const paperNegativeMarking = {
   ...mpscUdcLdcNegativeMarking,
   ...Object.fromEntries(Object.entries(groupBPaperMeta).map(([id, meta]) => [id, meta.negativeMarking])),
@@ -990,6 +990,7 @@ function BrowseView({
 
 export default function UdcLdcPage() {
   const data = useStats();
+  const pageScroll = useRef<HTMLDivElement>(null);
   const [corrections, setCorrections] = useState<Record<string, Correction>>({});
   const [tab, setTab] = useState<Tab>('learning');
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
@@ -1100,7 +1101,7 @@ export default function UdcLdcPage() {
     // page must supply its OWN scroll container — see PyqPage/PapersPage, which
     // both use `scroll-panel ... overflow-y-auto`. Without it the page renders
     // at full height inside a clipped box and simply cannot be scrolled.
-    <div className="scroll-panel h-full overflow-y-auto udc-ldc-page">
+    <div ref={pageScroll} className="scroll-panel h-full overflow-y-auto udc-ldc-page">
       <div className="udc-ldc-content" style={{ padding: '20px 24px 48px', maxWidth: 1100, margin: '0 auto' }}>
       <div className="udc-hero">
       <h1 style={{ margin: '0 0 4px', fontSize: 22 }}>UDC / LDC / Group B</h1>
@@ -1115,14 +1116,14 @@ export default function UdcLdcPage() {
       </p>
       </div>
 
-      <div className="udc-tabs" style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 18 }}>
-        {(['learning', 'progress', 'papers', 'guides', 'maths', 'english', 'computer', 'essays', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
+      <div className="udc-tabs" style={{ display: 'flex', gap: 8, marginBottom: 18 }}>
+        {(['mizo', 'economics', 'science', 'learning', 'progress', 'papers', 'maths', 'english', 'computer', 'essays', 'browse', 'practice', 'exam'] as Tab[]).map((t) => (
           <button
             key={t}
             className={`udc-tab ${tab === t ? 'is-active' : ''}`}
             type="button"
             aria-pressed={tab === t}
-            onClick={() => setTab(t)}
+            onClick={() => { setTab(t); pageScroll.current?.scrollTo({ top: 0 }); }}
             style={{
               padding: '6px 14px', borderRadius: 999, cursor: 'pointer', font: 'inherit',
               fontSize: 13, fontWeight: 600, textTransform: 'capitalize',
@@ -1131,7 +1132,7 @@ export default function UdcLdcPage() {
               color: tab === t ? '#fff' : 'inherit',
             }}
           >
-            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'guides' ? 'Mizo / Economics / Science' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
+            {t === 'learning' ? 'My learning' : t === 'progress' ? 'Bank coverage' : t === 'papers' ? 'Group B papers' : t === 'mizo' ? 'Mizo' : t === 'economics' ? 'Economics' : t === 'science' ? 'Science' : t === 'maths' ? 'Maths / Arithmetic' : t === 'english' ? 'English only' : t === 'computer' ? 'Computer Knowledge' : t === 'essays' ? 'Essay Topics' : t}
           </button>
         ))}
       </div>
@@ -1159,7 +1160,7 @@ export default function UdcLdcPage() {
       </>}
 
       {tab === 'progress' && <ProgressView rows={visibleRows} />}
-      {tab === 'guides' && <QuestionStudyGuides questions={moduleQuestions} renderQuestions={(questions) =>
+      {(tab === 'mizo' || tab === 'economics' || tab === 'science') && <QuestionStudyGuides key={tab} subject={tab} questions={moduleQuestions} renderQuestions={(questions) =>
         <BrowseView flatOnly rows={visibleRows} questions={questions} progress={progress} flags={flags}
           onAnswer={record} onStudied={tracker.markStudied} studyProgress={tracker.learning.questions} />
       } />}

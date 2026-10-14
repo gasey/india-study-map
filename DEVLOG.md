@@ -12918,3 +12918,15 @@ sitting — kept held.
 
 **Bank 22,833 records / 21,929 MCQ / 6,688 practice-ready (+99, readyofficial
 4,682).**
+## 14 October 2026 — Separate subject tabs for the UDC/LDC study compilations
+
+Mizo, Economics and Science now have their own top-level tabs instead of three
+long sections in one page. Economics opens directly on its questions, with a
+separate concept-guide view. Trying a concept's related questions switches back
+to the question view. Switching top-level tabs returns the page to the top.
+On narrow screens the tabs use one swipeable row, with those three subjects
+first, so the navigation no longer pushes the questions several screens down.
+Only the selected subject's question list is filtered and mounted, reducing
+render and scroll work for the large compilations. The existing
+windowed question renderer continues to handle the long lists. The paper bank,
+answers and scoring rules are unchanged.

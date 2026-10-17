@@ -8,7 +8,7 @@ gates when importing or correcting content.
 
 # UDC / LDC / Group B: subject practice contract
 
-Updated 10 October 2026. User request: independent Maths/Arithmetic, English-only,
+Updated 17 October 2026. User request: independent Maths/Arithmetic, English-only,
 and Computer Knowledge sections; Maths organised by topic; future models must
 follow this design when deriving answers or importing papers.
 
@@ -245,3 +245,58 @@ marked unreviewed; topic classification and worked guides do not count as full
 source review. English has 7,136 pending MCQ worked guides and 903 pending
 written guides in the Group B ledger. `python3 tools/udc-ldc-build/build_group_b.py`,
 `git diff --check` and `npm run build` completed successfully for this update.
+
+## Mixed-topic classification sweep — 17 October 2026
+
+Durable ID tags in `src/data/banks/mpsc-study-topic-tags.json` now cover every
+classifiable Mixed Maths question in both banks. Tags are runtime-only and never
+touch generated banks, readiness or scoring. After a rebuild the Group B ledger
+`tools/udc-ldc-build/subject-review-progress.json` shows arithmetic
+`mixedTopicRecords` falling from 35 to 12.
+
+Group B arithmetic Mixed: 35 → 12. The 23 reclassified records are:
+
+- the merged ADA 2014 20-in-1 arithmetic record, split cleanly into 20 usable
+  sub-questions (`mpsc-group-b-ada-2014-arithmetic-1(i)`…`1(xx)`) and tagged
+  `number_system` (10), `average`, `ratio_proportion` (2), `probability`,
+  `speed_distance_time` (2), `time_work`, `mensuration` (2), `percentage`;
+- three JR Accounts Officer 2025 data-interpretation MCQs (Q21/Q27/Q28) tagged
+  `data_interpretation`.
+
+The remaining 12 Group B Mixed records are deliberate and now carry an explicit
+`"mixed"` tag so the gap is documented rather than merely untagged:
+
+- four clock problems — `mpsc-group-b-asi-home-2018-mathematics-Q50`/`-Q58`,
+  `mpsc-group-b-si-stats-2026-p2-A4`, and JR Accounts Officer 2025 Q30. The
+  taxonomy has no Maths `clock` topic; `calendar_clock` belongs to Reasoning, so
+  these arithmetic-section items stay Mixed rather than being misrouted.
+- one physics item, `mpsc-group-b-inspector-stats-2026-p2-Q98` (javelin
+  release-angle mechanics) with no canonical Maths topic here.
+- seven ACF 2023 degree-level Mathematics items
+  (`mpsc-group-b-archive2325-acf-2023-mathematics-A1`, `A2`, `A4`, `A5`, `A6`,
+  `B8`, `B11`): matrices, multivariable limits, Clairaut's equation, resisted
+  motion, a vector triple-product proof and bisection/convergence — none maps to
+  a canonical topic in this catalog.
+
+The clerical LDC/UDC bank (`mpsc-udc-ldc`) is down to **18 Mixed** arithmetic
+records. Two more were classified this date: `mpsc-udc-efcc-2018-paper-2-q094`
+(fraction/simplification) → `number_system`, and
+`mpsc-asst-2014-paper-2-d02` (equation solving) → `algebra`. The remaining 18
+are deliberately Mixed: their stored OCR stem is unreadable or incomplete,
+the prompt spans unrelated methods (multi-part descriptive items), or it asks a
+clock angle with no clock topic. Clerical tags are applied at runtime, so no
+clerical rebuild is needed; `build_bank.py` does not consume tags.
+
+The 20 ADA 2014 "merged 20-in-1" source record in
+`tools/udc-ldc-build/extracted/ada-2014-arithmetic.json` is split cleanly into 20
+usable records with correct per-item stems/options before tagging.
+
+Verification for this sweep: 1,481 tags parse, every tag ID exists in a built
+bank, and every arithmetic/computer tag resolves into that section's catalog
+(the only non-catalog tags are the pre-existing reasoning tags on the JR
+Accounts Officer paper, which is intended). Mixed recount via the real routing
+tables: clerical 18 (all arithmetic), Group B 12 (all arithmetic).
+`python3 tools/udc-ldc-build/build_group_b.py` is idempotent,
+`npm run lint` (tsc) and `npm run build` pass, and `git diff --check` is clean.
+Browser visual verification remains outstanding under the workspace access
+restriction.

@@ -46,7 +46,7 @@
       "keyOnlyFeedback": 0,
       "writtenGuidesReviewed": 0,
       "pendingWrittenGuides": 0,
-      "mixedTopicRecords": 35
+      "mixedTopicRecords": 12
     },
     "computer": {
       "records": 110,
@@ -865,7 +865,7 @@
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
-          "mixedTopicRecords": 20
+          "mixedTopicRecords": 0
         }
       },
       "heldItems": [
@@ -7489,7 +7489,7 @@
           "keyOnlyFeedback": 0,
           "writtenGuidesReviewed": 0,
           "pendingWrittenGuides": 0,
-          "mixedTopicRecords": 4
+          "mixedTopicRecords": 1
         },
         "gk": {
           "records": 50,

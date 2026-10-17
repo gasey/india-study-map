@@ -12994,3 +12994,23 @@ Only the selected subject's question list is filtered and mounted, reducing
 render and scroll work for the large compilations. The existing
 windowed question renderer continues to handle the long lists. The paper bank,
 answers and scoring rules are unchanged.
+
+## Mixed-topic classification sweep — 17 October 2026
+
+Classified the remaining Mixed Maths material through durable ID tags in
+`src/data/banks/mpsc-study-topic-tags.json`, which are applied at runtime and
+never alter generated banks, answers or scoring. Group B arithmetic Mixed fell
+from 35 to 12: the 20 ADA 2014 sub-questions from the split "20-in-1" record now
+carry canonical Maths topics, and three JR Accounts Officer 2025 data-reading
+MCQs are tagged `data_interpretation`. The clerical LDC/UDC bank fell to 18
+Mixed after a fraction item moved to `number_system` and an equation item to
+`algebra`.
+
+What stays Mixed is deliberate and now tagged `"mixed"` so the gap is visible
+rather than merely absent: four clock problems (no Maths `clock` topic exists;
+`calendar_clock` is Reasoning), one javelin-physics item, and seven ACF 2023
+degree-level Mathematics items (matrices, multivariable limits, Clairaut's
+equation, resisted motion, a vector proof, and a bisection/convergence question)
+with no canonical topic here. Verification: 1,481 tags parse, all tag IDs exist,
+tags resolve into the correct section catalog, `build_group_b.py` is idempotent,
+`npm run lint` and `npm run build` pass, and `git diff --check` is clean.

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-17",
+  "source": {
+    "title": "National & International — 2026-10-17",
+    "links": [
+      "https://www.freepressjournal.in/mumbai/mumbai-cbi-court-discharges-5-former-jet-airways-pilots-in-epfo-bribery-case-finds-no-evidence-of-undue-favour",
+      "https://www.ndtv.com/world-news/india-among-leading-world-bank-investors-ajay-banga-12196667",
+      "https://www.timesnownews.com/videos/times-now/nation-wants-to-know/sir-showdown-in-supreme-court-notice-to-gyanesh-co-video-156352748",
+      "https://econotimes.com/Two-Wallets-Sent-14-48-Million-Worldcoin-Tokens-Worth-7-21-Million-to-Binance-1755543",
+      "https://www.news18.com/india/delhi-tiranga-protest-150-detained-as-dipke-neha-bora-taken-to-undisclosed-locations-ws-l-10385683.html",
+      "https://financialnewsindia.com/news/nifty-rally-sitharaman-stt-ltcg-tax-debate/",
+      "https://www.thedailyjagran.com/india/news/cockroach-long-nails-and-improper-segregation-of-veg-and-nonveg-ab-hotels-ltds-radisson-blu-delhi-gets-fssai-notice-10333016",
+      "https://econotimes.com/Chainlink-Reserve-Adds-431-900-LINK-in-a-Month-Reaching-78-3-Million-1755542",
+      "https://www.news18.com/agency-feeds/hc-nod-to-manns-france-visit-after-centres-refusal-of-clearance-10385710.html",
+      "https://www.news18.com/agency-feeds/e-governance-must-make-public-services-simpler-citizen-centric-himachal-cm-10385709.html"
+    ],
+    "publishedAt": "2026-10-17T04:46:38.422Z"
+  },
+  "summary": "On the national and political front, the Supreme Court of India issued notices to Election Commissioner Gyanesh Kumar and other officials following petitions by opposition leaders questioning the Special Electoral Roll (SIR) process. The bench cautioned against public demonstrations intended to exert institutional pressure while examining allegations concerning voter disenfranchisement. Simultaneously, security restrictions in New Delhi led to the detention of around 150 demonstrators during the 'Lehra Do Tiranga' protest.\n\nIn economic developments, domestic equity markets advanced with the benchmark Nifty index gaining 1.6% after Union Finance Minister Nirmala Sitharaman indicated openness to discussions regarding Securities Transaction Tax (STT) and Long-Term Capital Gains (LTCG) tax regimes. Additionally, World Bank President Ajay Banga noted that India remains among the foremost contributors to investment mobilization in lower-middle-income nations.\n\nIn administrative and legal updates, a special CBI court in Mumbai discharged five former Jet Airways pilots implicated in an alleged EPFO bribery matter, citing a complete absence of evidence regarding undue favors. In regulatory compliance, the Food Safety and Standards Authority of India (FSSAI) served a notice to a prominent luxury hotel in Delhi citing critical sanitation lapses, warning of license suspension upon non-rectification.",
+  "keyFacts": [
+    "Supreme Court issued notices to Election Commissioner Gyanesh Kumar over the Special Electoral Roll (SIR) revision petitions.",
+    "NSE Nifty surged by 1.6% following remarks by Finance Minister Nirmala Sitharaman regarding debates on STT and LTCG taxes.",
+    "World Bank President Ajay Banga stated investment mobilization has nearly tripled across lower-middle-income countries, highlighting India's leading role.",
+    "A Mumbai special CBI court discharged five former Jet Airways pilots in an alleged 2019-2021 EPFO bribery investigation.",
+    "FSSAI issued a regulatory non-compliance notice to Radisson Blu Hotel Mahipalpur under food safety and hygiene protocols.",
+    "Delhi Police detained over 150 protesters, including CJP founder Abhijeet Dipke and AISA president Neha Bora, during unauthorized demonstrations."
+  ],
+  "topics": [
+    "Polity and Governance",
+    "Economy",
+    "Judiciary",
+    "Public Administration",
+    "Regulatory Bodies"
+  ],
+  "mcqs": [
+    {
+      "id": "2026-10-17-1",
+      "question": "To which Election Commissioner did the Supreme Court of India issue notices regarding petitions challenging the Special Electoral Roll (SIR) process?",
+      "options": {
+        "a": "Rajiv Kumar",
+        "b": "Gyanesh Kumar",
+        "c": "Sukhbir Singh Sandhu",
+        "d": "Arun Goel"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Supreme Court issued notices to Election Commissioner Gyanesh Kumar and other officials concerning petitions questioning the Special Electoral Roll process.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-10-17-2",
+      "question": "What does the abbreviation 'SIR' stand for in the context of the recent electoral petitions heard by the Supreme Court?",
+      "options": {
+        "a": "State Identity Register",
+        "b": "Special Institutional Review",
+        "c": "Special Electoral Roll",
+        "d": "Standardized Indian Roll"
+      },
+      "correctAnswer": "c",
+      "explanation": "In the context of the petitions filed by opposition leaders, SIR refers to the Special Electoral Roll revision process.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-10-17-3",
+      "question": "By what percentage did the benchmark NSE Nifty index surge following positive remarks on market taxation regimes by the Finance Minister?",
+      "options": {
+        "a": "0.8%",
+        "b": "1.2%",
+        "c": "1.6%",
+        "d": "2.4%"
+      },
+      "correctAnswer": "c",
+      "explanation": "The benchmark Nifty index advanced by 1.6% following remarks made by Union Finance Minister Nirmala Sitharaman.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-17-4",
+      "question": "The rally in domestic equity markets followed Union Finance Minister Nirmala Sitharaman's willingness to discuss which of the following tax regimes?",
+      "options": {
+        "a": "GST and Corporate Tax",
+        "b": "Securities Transaction Tax (STT) and Long-Term Capital Gains (LTCG) tax",
+        "c": "Customs Duty and Dividend Distribution Tax",
+        "d": "Banking Cash Transaction Tax and Wealth Tax"
+      },
+      "correctAnswer": "b",
+      "explanation": "Markets advanced after the Finance Minister indicated openness to discussions regarding Securities Transaction Tax (STT) and Long-Term Capital Gains (LTCG) taxes.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-17-5",
+      "question": "Who is the current World Bank President who highlighted India's leading role in investment mobilization across lower-middle-income nations?",
+      "options": {
+        "a": "David Malpass",
+        "b": "Jim Yong Kim",
+        "c": "Ajay Banga",
+        "d": "Kristalina Georgieva"
+      },
+      "correctAnswer": "c",
+      "explanation": "World Bank President Ajay Banga noted that India remains among the foremost contributors to global investment mobilization.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-17-6",
+      "question": "According to statements by World Bank President Ajay Banga, investment mobilization across lower-middle-income countries has:",
+      "options": {
+        "a": "Nearly doubled",
+        "b": "Nearly tripled",
+        "c": "Decreased by 15%",
+        "d": "Remained stagnant"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ajay Banga stated that investment mobilization has nearly tripled across lower-middle-income countries, with India playing a leading role.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-17-7",
+      "question": "In which city did a Special CBI Court discharge five former Jet Airways pilots due to a lack of evidence in an alleged bribery matter?",
+      "options": {
+        "a": "New Delhi",
+        "b": "Mumbai",
+        "c": "Bengaluru",
+        "d": "Hyderabad"
+      },
+      "correctAnswer": "b",
+      "explanation": "A special CBI court in Mumbai discharged five former Jet Airways pilots, citing a complete absence of evidence regarding undue favors.",
+      "difficulty": "easy",
+      "topic": "Legal"
+    },
+    {
+      "id": "2026-10-17-8",
+      "question": "The five discharged Jet Airways pilots were investigated by the CBI in connection with an alleged bribery matter involving which organization?",
+      "options": {
+        "a": "Directorate General of Civil Aviation (DGCA)",
+        "b": "Employees' Provident Fund Organisation (EPFO)",
+        "c": "Airports Authority of India (AAI)",
+        "d": "Income Tax Department"
+      },
+      "correctAnswer": "b",
+      "explanation": "The pilots had been implicated in an alleged bribery matter related to the Employees' Provident Fund Organisation (EPFO).",
+      "difficulty": "medium",
+      "topic": "Legal"
+    },
+    {
+      "id": "2026-10-17-9",
+      "question": "What was the timeframe of the alleged EPFO bribery case in which the former Jet Airways pilots were recently discharged?",
+      "options": {
+        "a": "2015-2017",
+        "b": "2017-2019",
+        "c": "2019-2021",
+        "d": "2021-2023"
+      },
+      "correctAnswer": "c",
+      "explanation": "The investigation by the CBI pertained to alleged EPFO bribery offenses occurring between 2019 and 2021.",
+      "difficulty": "hard",
+      "topic": "Legal"
+    },
+    {
+      "id": "2026-10-17-10",
+      "question": "Which regulatory authority issued a notice to a luxury hotel in Delhi warning of license suspension over critical sanitation lapses?",
+      "options": {
+        "a": "Central Pollution Control Board (CPCB)",
+        "b": "Food Safety and Standards Authority of India (FSSAI)",
+        "c": "Bureau of Indian Standards (BIS)",
+        "d": "Municipal Corporation of Delhi (MCD)"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Food Safety and Standards Authority of India (FSSAI) served the notice citing hygiene protocol non-compliance.",
+      "difficulty": "easy",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-10-17-11",
+      "question": "Which hotel was served a regulatory notice by FSSAI for critical sanitation lapses under food hygiene protocols?",
+      "options": {
+        "a": "The Taj Mahal Hotel, Mansingh Road",
+        "b": "The Leela Palace, Chanakyapuri",
+        "c": "Radisson Blu Hotel, Mahipalpur",
+        "d": "ITC Maurya, Diplomatic Enclave"
+      },
+      "correctAnswer": "c",
+      "explanation": "FSSAI issued a regulatory non-compliance notice to Radisson Blu Hotel Mahipalpur in Delhi.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-10-17-12",
+      "question": "Around 150 demonstrators were detained in New Delhi during an unauthorized demonstration organized under which name?",
+      "options": {
+        "a": "'Save Democracy March'",
+        "b": "'Lehra Do Tiranga'",
+        "c": "'Chalo Dilli'",
+        "d": "'Voter Adhikar Yatra'"
+      },
+      "correctAnswer": "b",
+      "explanation": "Security restrictions in New Delhi led to the detention of around 150 protesters participating in the 'Lehra Do Tiranga' protest.",
+      "difficulty": "medium",
+      "topic": "National Affairs"
+    },
+    {
+      "id": "2026-10-17-13",
+      "question": "Abhijeet Dipke, who was detained during protests in New Delhi, is associated with which organization as its founder?",
+      "options": {
+        "a": "AISA",
+        "b": "CJP",
+        "c": "PUCL",
+        "d": "SFI"
+      },
+      "correctAnswer": "b",
+      "explanation": "Delhi Police detained over 150 protesters, including Citizens for Justice and Peace (CJP) founder Abhijeet Dipke.",
+      "difficulty": "hard",
+      "topic": "National Affairs"
+    },
+    {
+      "id": "2026-10-17-14",
+      "question": "Which student leader and AISA president was detained alongside other demonstrators during the recent protests in New Delhi?",
+      "options": {
+        "a": "Neha Bora",
+        "b": "Aishe Ghosh",
+        "c": "Kanhaiya Kumar",
+        "d": "Shehla Rashid"
+      },
+      "correctAnswer": "a",
+      "explanation": "AISA president Neha Bora was among those detained by Delhi Police during the unauthorized demonstrations.",
+      "difficulty": "hard",
+      "topic": "National Affairs"
+    },
+    {
+      "id": "2026-10-17-15",
+      "question": "While hearing the Special Electoral Roll petitions, what caution did the Supreme Court bench issue regarding public conduct?",
+      "options": {
+        "a": "Prohibiting social media commentary on ongoing trials",
+        "b": "Cautioning against public demonstrations intended to exert institutional pressure",
+        "c": "Barring political parties from addressing press conferences",
+        "d": "Restricting media coverage of Election Commission proceedings"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Supreme Court bench cautioned against holding public demonstrations intended to exert institutional pressure while examining allegations.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    }
+  ]
+}

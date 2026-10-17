@@ -51,26 +51,23 @@ def classify(text: str, paper: str):
     return ("General Aptitude" if paper == "II" else "General Studies"), "paper-fallback"
 
 
-def ocr_rows(pdf: Path):
-    sidecar = pdf.with_suffix(pdf.suffix + ".ocr.txt")
-    if not sidecar.is_file():
-        return []
-    content = sidecar.read_text(errors="replace")
-    # Tesseract often reads option brackets as braces or the letter d as 4.
-    # These remain low-confidence OCR items and are never answer-key matched.
-    content = re.sub(r"\{\s*([abcd])\s*[}\)]", lambda m: f"({m.group(1)})", content, flags=re.I)
-    content = re.sub(r"\{\s*([abcd])y\b", lambda m: f"({m.group(1)})", content, flags=re.I)
-    content = re.sub(r"\(\s*4\s*\)", "(d)", content)
-    if "QUESTION BOOKLET" in content.split("\f", 1)[0].upper() and "\f" in content:
-        content = content.split("\f", 1)[1]
-    markers = list(OPTIONS.finditer(content))
-    groups, i = [], 0
-    while i < len(markers):
+def option_groups(markers):
+    """Group (a)-(d) option markers into per-question runs.
+
+    Most papers print options top-to-bottom as (a)(b)(c)(d). Paper II booklets
+    often print them in two columns, which reads as (a)(c)(b)(d). The strict
+    in-order pass runs first; only groups it rejects fall back to the
+    order-independent pass, so already-parsed papers are unchanged. The
+    fallback stops at the next (a) and within a short span, so it never merges
+    options across question boundaries.
+    """
+    groups, i, total = [], 0, len(markers)
+    while i < total:
         if markers[i].group(1).lower() != "a":
             i += 1
             continue
         run, j = [markers[i]], i + 1
-        while j < len(markers) and len(run) < 4 and markers[j].start() - run[-1].start() < 550:
+        while j < total and len(run) < 4 and markers[j].start() - run[-1].start() < 550:
             letter = markers[j].group(1).lower()
             if letter == "abcd"[len(run)]:
                 run.append(markers[j])
@@ -80,22 +77,58 @@ def ocr_rows(pdf: Path):
         if len(run) == 4:
             groups.append(run)
             i = j
+            continue
+        found, k = {"a": markers[i]}, i + 1
+        while k < total and len(found) < 4 and markers[k].start() - markers[i].start() < 700:
+            letter = markers[k].group(1).lower()
+            if letter == "a":
+                break
+            if letter not in found:
+                found[letter] = markers[k]
+            k += 1
+        if len(found) == 4:
+            groups.append(sorted(found.values(), key=lambda m: m.start()))
+            i = k
         else:
             i += 1
+    return groups
+
+
+def option_rows(content: str):
+    """Parse options and stems from a paper's text or OCR sidecar body."""
+    # Tesseract often reads option brackets as braces/brackets, or the letter d
+    # as 4. These remain low-confidence OCR items, never answer-key matched.
+    content = re.sub(r"[\{\[]\s*([abcd])\s*[}\)\]]", lambda m: f"({m.group(1)})", content, flags=re.I)
+    content = re.sub(r"\(\s*([abcd])\s*[\}\]]", lambda m: f"({m.group(1)})", content, flags=re.I)
+    content = re.sub(r"\{\s*([abcd])y\b", lambda m: f"({m.group(1)})", content, flags=re.I)
+    content = re.sub(r"\(\s*4\s*\)", "(d)", content)
+    if "QUESTION BOOKLET" in content.split("\f", 1)[0].upper() and "\f" in content:
+        content = content.split("\f", 1)[1]
     rows, previous_end = [], 0
-    for run in groups:
+    for run in option_groups(list(OPTIONS.finditer(content))):
         raw_stem = content[previous_end:run[0].start()]
         printed = re.findall(r"(?m)^\s*(\d{1,3})[.,)]\s+\S", raw_stem)
         printed_number = int(printed[-1]) if printed and 1 <= int(printed[-1]) <= 100 else None
         stem = re.sub(r"\s+", " ", raw_stem).strip(" .:-")[-2500:]
-        line_end = content.find("\n", run[3].end())
+        line_end = content.find("\n", run[-1].end())
         if line_end < 0:
             line_end = len(content)
-        options = [re.sub(r"\s+", " ", content[run[k].end():run[k + 1].start() if k < 3 else line_end]).strip(" .:-") for k in range(4)]
+        by_letter = {}
+        for k, marker in enumerate(run):
+            end = run[k + 1].start() if k < len(run) - 1 else line_end
+            by_letter[marker.group(1).lower()] = re.sub(r"\s+", " ", content[marker.end():end]).strip(" .:-")
         previous_end = line_end
+        options = [by_letter.get(letter, "") for letter in "abcd"]
         if len(stem) >= 8 and all(options):
             rows.append({"text": stem, "options": options, "page": None, "printedNumber": printed_number})
     return rows
+
+
+def ocr_rows(pdf: Path):
+    sidecar = pdf.with_suffix(pdf.suffix + ".ocr.txt")
+    if not sidecar.is_file():
+        return []
+    return option_rows(sidecar.read_text(errors="replace"))
 
 
 def ocr_key_answers(key_file: Path, year: int, paper: str, series: str):

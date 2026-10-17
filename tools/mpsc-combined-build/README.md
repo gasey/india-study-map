@@ -14,7 +14,7 @@ The build includes all 36 archived MCS Combined Prelims paper PDFs from
 coverage is high, and the archive's OCR sidecars for otherwise missing
 scanned papers. OCR items have unverified numbering and low confidence; they
 must be checked against their source PDF before use as authoritative data.
-The UI reports each paper's extraction coverage. Do not treat 3,292 extracted
+The UI reports each paper's extraction coverage. Do not treat 3,415 extracted
 rows as 3,600 verified questions.
 
 The 2023 final key has parsed answers, but only complete, valid Paper I items

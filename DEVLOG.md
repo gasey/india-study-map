@@ -13014,3 +13014,29 @@ equation, resisted motion, a vector proof, and a bisection/convergence question)
 with no canonical topic here. Verification: 1,481 tags parse, all tag IDs exist,
 tags resolve into the correct section catalog, `build_group_b.py` is idempotent,
 `npm run lint` and `npm run build` pass, and `git diff --check` is clean.
+
+## Combined Prelims two-column option recovery — 17 October 2026
+
+The Combined Prelims OCR/text parser grouped options only when they arrived in
+strict (a)(b)(c)(d) order. Paper II booklets print many options in two columns,
+which reads as (a)(c)(b)(d), so those questions were silently dropped. The
+parser now keeps the strict pass and adds an order-independent fallback that
+stops at the next (a), so already-parsed papers are byte-identical and only
+previously-rejected groups are recovered. Bracket/letter OCR damage
+(`{a)`, `(c}`, `(4)`) is normalised first.
+
+Extracted rows rose from 3,292 to 3,415 of 3,600 (missing 308 → 185). The
+biggest gains are 2023 Paper I Series C (74 to 99), 2025 Paper I Series D
+(67 to 98), 2025 Paper II B and C (83 to 98 each) and 2023 Paper II Series C
+(67 to 94). The image-only 2016 Paper II booklets barely move because their
+Tesseract text genuinely lacks option markers. Option letters were verified by
+comparing the parser against the trusted legacy bank rows, where it matches
+strictly better on every paper.
+
+New golden fixtures in `tools/mpsc-combined-build/test_ocr_parser.py` pin the
+standard order, two-column order, OCR bracket damage, the cover-page skip, and
+that a question missing an option is dropped rather than completed from the
+next question. Because OCR question IDs are positional, the 565 proposals on
+papers whose rows shifted were re-keyed to the matching question by stem and
+options; six ambiguous ones were dropped. Extraction only changes readability,
+never scoring: OCR rows stay unscored.

@@ -1,3 +1,45 @@
+## 22 October 2026 — Three offline study packs added as app modules
+
+Three self-contained study files built offline from the user's own source
+folders are now reachable from inside the app as static modules under
+Practice ▸ Exam guides, served from `public/` and framed in-app by the
+existing `/embed/:id` route — no new React component, no new route.
+
+- **Mizo Prelims Study Pack** (`/mizo-prelims-study/index.html`) — 329
+  questions from the seven "MIZO COMBINED PRELIMS" decks (ST Zote, MPSC
+  Combined Prelims Paper 1 · Mizo), plus a 120-entry timeline (AD 800 →
+  2026), 273 dated facts, 32 concept sections, a 50-term glossary, the
+  Mizo Lal Ban Book-of-the-Year list (1989–2013) and 63 illustrated
+  material-culture entries with the original deck diagrams.
+- **Current Affairs Study Pack** (`/current-affairs-study/index.html`) —
+  529 questions with explanations across 10 topic groups, a Quick Revision
+  box per group, the MPSC/Department job notifications and the
+  Schedule of Examination No. 6 of 2026.
+- **Mizo Subject Notes** (`/mizo-subject-study/index.html`) — 155 questions
+  over 52 sections in four groups (culture; society, history and heritage;
+  governance, politics and land; administration, security, economy and
+  geography).
+
+Each file is one tabbed page rather than one long scroll: only one pane is
+visible at a time, the tab bar carries a live count, and the MCQ bank loads
+30 questions at a time behind a "Load 30 more" button. Practice, a timed
+mock test with a full score sheet, per-question bookmarks, wrong-answer
+tracking and a text-size control are in each file; progress is kept in
+localStorage only.
+
+**Why:** these packs were the answer to "give me the whole syllabus in one
+offline file" — the source decks are PowerPoint and PDFs that are awkward to
+read on a phone and impossible to search across. Putting them behind the app
+shell means they load without a network round trip and sit next to the
+modules that already cover the same ground.
+
+**What's still open:** the deck-1 answers are agent-verified from the
+corpus, not official MPSC keys — treat them as study aids, not as a key.
+The source decks stop at the 2018 prelims, so 2019–2025 papers are still
+absent. 80 of the group-quiz questions have three options exactly as posted
+in the study group (the app renders 3–6 options). Several source PDFs in the
+original folders are password-protected and were not read.
+
 ## 14 October 2026 — Keep manual practice navigation in view
 
 After an answer, the manual Next question or Finish session control now floats

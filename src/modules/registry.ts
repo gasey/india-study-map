@@ -275,6 +275,41 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/mpsc-group-c-study.html',
   },
+  // ---- Offline study packs (self-contained HTML, no network needed) ----
+  // Built from the user's own source folders: the seven "MIZO COMBINED
+  // PRELIMS" decks (ST Zote), the LUSHAI TUTORIAL / ZZR LUANGCHHUAK
+  // current-affairs material and the Mizo subject notes. Each is one
+  // tabbed file so nothing needs scrolling — see public/<dir>/index.html.
+  {
+    id: 'mizo-prelims-study',
+    title: 'Mizo Prelims Study Pack',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '329 questions · 120-entry timeline, 273 facts, glossary, material-culture gallery',
+    glyph: '📖',
+    kind: 'static',
+    path: '/mizo-prelims-study/index.html',
+  },
+  {
+    id: 'current-affairs-study',
+    title: 'Current Affairs Study Pack',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '529 questions · topic notes, quick revision, MPSC job notices, mock tests',
+    glyph: '🗂️',
+    kind: 'static',
+    path: '/current-affairs-study/index.html',
+  },
+  {
+    id: 'mizo-subject-study',
+    title: 'Mizo Subject Notes',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '155 questions · Mizo society, culture, polity, land and security notes',
+    glyph: '🏞️',
+    kind: 'static',
+    path: '/mizo-subject-study/index.html',
+  },
 
   // ---- Practice: Labs ----
   {

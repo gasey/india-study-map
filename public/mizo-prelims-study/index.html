@@ -138,6 +138,9 @@ label.opt input{margin-right:10px;accent-color:var(--brand);width:16px;height:16
 label.opt b{color:var(--brand-d)}
 label.opt.right{background:var(--okbg);border-color:var(--ok);color:#0d4a2c}
 label.opt.right b{color:#0d4a2c}
+/* The tick is drawn only after the question is answered/revealed (show()
+   adds "right"), so it never leaks the key before an attempt. */
+label.opt.right::after{content:" \2713";font-weight:900;color:#0d4a2c}
 label.opt.wrong{background:var(--nobg);border-color:var(--no);color:#7a1c14}
 label.opt.wrong b{color:#7a1c14}
 .expl{display:none;margin:12px 0 0;padding:13px 15px;background:var(--accentbg);border-left:5px solid var(--accent);
@@ -331,7 +334,12 @@ footer{color:var(--muted);font-size:.86rem;padding:18px 16px 40px;text-align:cen
 
   <!-- ===== MCQ BANK ===== -->
   <div class="tabpane" id="tab-mcqbank">
-    <div class="tabhead"><h2>Full MCQ Bank</h2><p>329 unique questions with answers and explanations. Use the filters on the Dashboard, or scroll here.</p></div>
+    <div class="tabhead"><h2>Full MCQ Bank</h2><p>329 unique questions — answers stay hidden until you attempt a question. Use the filters on the Dashboard, or read the whole bank with keys and explanations.</p>
+      <div class="row" style="margin-top:10px">
+        <button class="act" id="bankRevealBtn" onclick="toggleBankReveal()">Show answers</button>
+        <span class="stat" id="bankHint" style="color:var(--muted)">Practice mode &mdash; pick an option to check it.</span>
+      </div>
+    </div>
     <div id="mcqAll"></div>
     <div style="text-align:center;margin:20px 0"><button class="act primary" id="moreBtn" onclick="loadMore()">Load 30 more</button></div>
   </div>
@@ -428,9 +436,8 @@ function qHTML(m,i,tag){
   (m.themes||[]).forEach(t=>{h+='<span class="chip th">'+esc(t)+'</span>';});
   h+='</div><ul class="opts">';
   m.options.forEach((o,oi)=>{
-    const tick=(oi===m.answer)?'<b style="color:#0d4a2c">&#10003; </b>':'';
     h+='<li><label class="opt" id="o'+tag+i+'-'+oi+'"><input type="radio" name="'+tag+i+'" value="'+oi+'" onchange="pick(\''+tag+'\','+i+','+oi+')">'+
-       '<b>'+LET[oi]+'.</b> '+tick+esc(o)+'</label></li>';});
+       '<b>'+LET[oi]+'.</b> '+esc(o)+'</label></li>';});
   h+='</ul><div class="expl"><b>Answer: '+LET[m.answer]+' &mdash; '+m.ans_html+'.</b><br>'+m.expl_html+'</div>';
   h+='<div class="src">Source: '+esc(m.source)+'</div>';
   h+='<div class="tools"><button class="act" style="padding:5px 11px;font-size:.84rem" onclick="resetOne(\''+tag+'\','+i+')">Clear</button>'+
@@ -655,16 +662,32 @@ document.getElementById('galCat').onchange=renderGal;
 document.getElementById('galSearch').addEventListener('input',()=>{clearTimeout(window._t4);window._t4=setTimeout(renderGal,240);});
 
 /* ---------- full MCQ bank (paged) ---------- */
-let shown=0;
+// Answers are hidden by default so the bank can be used as a test. The
+// Show answers button turns the loaded cards into a revision view, the same
+// way Practice's "Reveal answers" does.
+let shown=0, BANK_REVEAL=false;
 function loadMore(){
   const nxt=MCQS.slice(shown,shown+30);
   document.getElementById('mcqAll').insertAdjacentHTML('beforeend',nxt.map((m,i)=>qHTML(m,shown+i,'a')).join(''));
-  shown+=nxt.length;
-  nxt.forEach((m,i)=>show('a',shown-nxt.length+i,m.answer));
+  const start=shown; shown+=nxt.length;
+  if(BANK_REVEAL) nxt.forEach((m,i)=>show('a',start+i,m.answer));
   document.getElementById('moreBtn').textContent = shown>=MCQS.length ? 'All '+MCQS.length+' shown' : 'Load 30 more';
   if(shown>=MCQS.length) document.getElementById('moreBtn').disabled=true;
 }
-SEL.a={items:MCQS,reveal:true};
+function toggleBankReveal(){
+  BANK_REVEAL=!BANK_REVEAL;
+  const btn=document.getElementById('bankRevealBtn'), hint=document.getElementById('bankHint');
+  btn.textContent=BANK_REVEAL?'Hide answers':'Show answers';
+  btn.classList.toggle('primary',BANK_REVEAL);
+  hint.textContent=BANK_REVEAL?'Revision mode — keys and explanations are visible.':'Practice mode — pick an option to check it.';
+  SEL.a={items:MCQS,reveal:BANK_REVEAL};
+  MCQS.slice(0,shown).forEach((m,i)=>{
+    const q=document.getElementById('qa'+i); if(!q)return;
+    if(BANK_REVEAL) show('a',i,m.answer);
+    else{q.classList.remove('done');q.querySelectorAll('label.opt').forEach(l=>l.classList.remove('right','wrong'));}
+  });
+}
+SEL.a={items:MCQS,reveal:false};
 loadMore();
 
 /* ---------- init ---------- */

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "source": {
+    "title": "National & International — 2026-10-24",
+    "links": [
+      "https://economictimes.indiatimes.com/markets/ipos/fpos/eaaa-india-alternatives-mops-up-rs-360-crore-from-anchor-investors-ipo-opens-on-oct-26/articleshow/135150980.cms",
+      "https://www.cnbctv18.com/market/ge-shipping-to-buy-82000-cbm-gas-carrier-as-fleet-expansion-gathers-pace-20018381.htm",
+      "https://globalgovernancenews.com/uae-royal-official-meets-pm-modi/",
+      "https://econotimes.com/Greece-Approves-Bill-to-Restrict-Social-Media-Access-for-Under-15s-1761429",
+      "https://in.investing.com/news/stock-market-news/popular-declares-090-quarterly-dividend-per-share-93CH-5652002",
+      "https://timesofindia.indiatimes.com/city/agra/ruckus-at-mlc-polling-centre-in-mnagar-as-sp-bjp-workers-clash/articleshow/135151007.cms",
+      "https://www.ptinews.com/story/business/shriram-finance-q2-net-jumps-59-pc-confident-of-maintaining-asset-growth/4194322",
+      "https://www.btin.co.in/indias-business-activity-hits-four-month-high-in-october-hsbc-pmi-121438",
+      "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWkRhRnNVRDY1STh6VklkbHZ2ei1TTHpob1RVSWJncU9DaWpfLUNfVXJZTFVqaENlOWRDSDU5UjlFclAwZG5NdU8tbTBxdzV2R3lQc1JNZmlqQXdoWURVOE5fR0lfZzBBS1pMMDc3bGd1SFJMekFxUUt4TE9uUW91UElsNWRyWE9Yams4T3MweDY2ajFu?oc=5",
+      "https://econotimes.com/India-s-Goyal-Explores-Healthcare-Ties-With-Bayer-and-Fresenius-1761428"
+    ],
+    "publishedAt": "2026-10-24T04:54:42.906Z"
+  },
+  "summary": "On the diplomatic front, Prime Minister Narendra Modi held a meeting in New Delhi with Sheikh Theyab bin Mohamed bin Zayed Al Nahyan, Deputy Chairman of the UAE Presidential Court, strengthening ongoing bilateral engagements. Internationally, Greece approved legislation prohibiting social media access for individuals under 15 years of age, with implementation scheduled for January 1, 2027.\n\nIn the economic domain, India's private sector activity reached a four-month peak in October, driven by rising demand and softening inflation according to the HSBC Purchasing Managers' Index (PMI). Concurrently, Union Minister Piyush Goyal engaged with multinational healthcare firms Bayer and Fresenius to promote India's manufacturing capabilities and talent. In capital markets and logistics, EAAA India Alternatives mobilized Rs 360 crore via anchor investors ahead of its IPO, while GE Shipping announced the acquisition of an 82,000-cbm gas carrier slated for delivery in Q3 FY27.\n\nIn scientific developments, the IceCube Neutrino Observatory identified ultra-high-energy cosmic neutrinos—often termed 'ghost particles'—possessing energies up to 10 billion times higher than solar neutrinos, offering critical insights into extreme astrophysical phenomena.",
+  "keyFacts": [
+    "Sheikh Theyab bin Mohamed bin Zayed Al Nahyan, Deputy Chairman of the UAE Presidential Court, met Prime Minister Narendra Modi in New Delhi on October 23.",
+    "Greece passed legislation restricting social media access for individuals under 15 years old, effective January 1, 2027.",
+    "HSBC PMI data indicated India's private sector business activity reached a four-month high in October.",
+    "Union Minister Piyush Goyal held talks with global healthcare firms Bayer and Fresenius to expand manufacturing partnerships in India.",
+    "IceCube Neutrino Observatory detected cosmic neutrinos possessing energy 10 billion times greater than solar neutrinos.",
+    "EAAA India Alternatives raised approximately Rs 360 crore from anchor investors prior to its October 26 IPO opening.",
+    "GE Shipping finalized an agreement to acquire an 82,000-cbm gas carrier, scheduled to join its fleet in Q3 FY27."
+  ],
+  "topics": [
+    "International Relations",
+    "Indian Economy",
+    "Science and Technology",
+    "Governance and Policies",
+    "Bilateral Engagements"
+  ],
+  "mcqs": [
+    {
+      "id": "2026-10-24-1",
+      "question": "In October, Prime Minister Narendra Modi held high-level bilateral talks in New Delhi with Sheikh Theyab bin Mohamed bin Zayed Al Nahyan. Which country does he represent?",
+      "options": {
+        "a": "Saudi Arabia",
+        "b": "United Arab Emirates",
+        "c": "Qatar",
+        "d": "Oman"
+      },
+      "correctAnswer": "b",
+      "explanation": "Sheikh Theyab bin Mohamed bin Zayed Al Nahyan is the Deputy Chairman of the Presidential Court of the United Arab Emirates (UAE). He met Prime Minister Narendra Modi in New Delhi on October 23.",
+      "difficulty": "easy",
+      "topic": "Diplomacy"
+    },
+    {
+      "id": "2026-10-24-2",
+      "question": "Which European nation recently enacted legislation barring individuals under the age of 15 from accessing social media platforms?",
+      "options": {
+        "a": "France",
+        "b": "Germany",
+        "c": "Greece",
+        "d": "Italy"
+      },
+      "correctAnswer": "c",
+      "explanation": "Greece passed legislation prohibiting social media access for individuals under 15 years old. The measure is scheduled to take effect on January 1, 2027.",
+      "difficulty": "easy",
+      "topic": "International Affairs"
+    },
+    {
+      "id": "2026-10-24-3",
+      "question": "What is the scheduled enforcement date for Greece's newly approved legislation restricting social media access for minors?",
+      "options": {
+        "a": "July 1, 2025",
+        "b": "January 1, 2026",
+        "c": "October 1, 2026",
+        "d": "January 1, 2027"
+      },
+      "correctAnswer": "d",
+      "explanation": "The legislation prohibiting social media access for individuals under 15 years in Greece is scheduled for implementation on January 1, 2027.",
+      "difficulty": "medium",
+      "topic": "International Affairs"
+    },
+    {
+      "id": "2026-10-24-4",
+      "question": "According to the HSBC Purchasing Managers' Index (PMI) data, India's private sector business activity achieved what milestone in October?",
+      "options": {
+        "a": "An all-time high",
+        "b": "A four-month high",
+        "c": "A six-month low",
+        "d": "A three-month low"
+      },
+      "correctAnswer": "b",
+      "explanation": "According to the HSBC PMI, India's private sector activity reached a four-month peak in October, supported by strong demand and easing inflation.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-24-5",
+      "question": "Which primary factors were highlighted by the HSBC PMI as catalysts for the surge in India's private sector activity in October?",
+      "options": {
+        "a": "Surging export subsidies and tax incentives",
+        "b": "Rising demand and softening inflation",
+        "c": "Currency depreciation and higher government spending",
+        "d": "Decreased raw material imports and tariff cuts"
+      },
+      "correctAnswer": "b",
+      "explanation": "The expansion in India's private sector activity was primarily driven by rising demand and softening inflation.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-24-6",
+      "question": "Union Minister Piyush Goyal recently engaged in high-level discussions with Bayer and Fresenius. In which primary sector do these multinational companies operate?",
+      "options": {
+        "a": "Renewable Energy",
+        "b": "Healthcare and Pharmaceuticals",
+        "c": "Telecommunications",
+        "d": "Automotive Manufacturing"
+      },
+      "correctAnswer": "b",
+      "explanation": "Bayer and Fresenius are multinational healthcare firms with whom Union Minister Piyush Goyal held talks to expand manufacturing partnerships in India.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-24-7",
+      "question": "Ahead of its initial public offering (IPO), how much capital did EAAA India Alternatives raise from anchor investors?",
+      "options": {
+        "a": "Rs 250 crore",
+        "b": "Rs 360 crore",
+        "c": "Rs 450 crore",
+        "d": "Rs 520 crore"
+      },
+      "correctAnswer": "b",
+      "explanation": "EAAA India Alternatives mobilized approximately Rs 360 crore from anchor investors prior to the opening of its IPO on October 26.",
+      "difficulty": "hard",
+      "topic": "Capital Markets"
+    },
+    {
+      "id": "2026-10-24-8",
+      "question": "Great Eastern (GE) Shipping finalized a deal to acquire a gas carrier of what carrying capacity?",
+      "options": {
+        "a": "65,000 cbm",
+        "b": "74,000 cbm",
+        "c": "82,000 cbm",
+        "d": "90,000 cbm"
+      },
+      "correctAnswer": "c",
+      "explanation": "GE Shipping finalized an agreement to acquire an 82,000-cbm gas carrier to augment its fleet capacity.",
+      "difficulty": "hard",
+      "topic": "Logistics & Shipping"
+    },
+    {
+      "id": "2026-10-24-9",
+      "question": "When is the newly contracted 82,000-cbm gas carrier scheduled to join the fleet of GE Shipping?",
+      "options": {
+        "a": "Q1 FY26",
+        "b": "Q4 FY26",
+        "c": "Q2 FY27",
+        "d": "Q3 FY27"
+      },
+      "correctAnswer": "d",
+      "explanation": "The gas carrier acquired by GE Shipping is slated for delivery and fleet integration in the third quarter of FY27 (Q3 FY27).",
+      "difficulty": "medium",
+      "topic": "Logistics & Shipping"
+    },
+    {
+      "id": "2026-10-24-10",
+      "question": "Which research facility detected ultra-high-energy cosmic neutrinos dubbed 'ghost particles'?",
+      "options": {
+        "a": "IceCube Neutrino Observatory",
+        "b": "Large Hadron Collider",
+        "c": "James Webb Space Telescope",
+        "d": "Kamioka Observatory"
+      },
+      "correctAnswer": "a",
+      "explanation": "The IceCube Neutrino Observatory, located in Antarctica, identified ultra-high-energy cosmic neutrinos offering crucial insights into extreme astrophysical events.",
+      "difficulty": "easy",
+      "topic": "Science & Technology"
+    },
+    {
+      "id": "2026-10-24-11",
+      "question": "The ultra-high-energy cosmic neutrinos detected by the IceCube Observatory have energies up to how many times greater than solar neutrinos?",
+      "options": {
+        "a": "10 million times",
+        "b": "100 million times",
+        "c": "1 billion times",
+        "d": "10 billion times"
+      },
+      "correctAnswer": "d",
+      "explanation": "The detected cosmic neutrinos possess energies up to 10 billion times higher than the solar neutrinos emitted by our Sun.",
+      "difficulty": "medium",
+      "topic": "Science & Technology"
+    },
+    {
+      "id": "2026-10-24-12",
+      "question": "In the context of modern physics and astrophysics, which subatomic particles are commonly referred to as 'ghost particles'?",
+      "options": {
+        "a": "Photons",
+        "b": "Neutrinos",
+        "c": "Gluons",
+        "d": "Muons"
+      },
+      "correctAnswer": "b",
+      "explanation": "Neutrinos are famously called 'ghost particles' because they have almost no mass, carry no electric charge, and rarely interact with regular matter.",
+      "difficulty": "easy",
+      "topic": "Science & Technology"
+    },
+    {
+      "id": "2026-10-24-13",
+      "question": "What is the official designation of Sheikh Theyab bin Mohamed bin Zayed Al Nahyan, who visited New Delhi in October?",
+      "options": {
+        "a": "Foreign Minister of the UAE",
+        "b": "Deputy Chairman of the UAE Presidential Court",
+        "c": "Minister of Economy of Dubai",
+        "d": "Chairman of Abu Dhabi Investment Authority"
+      },
+      "correctAnswer": "b",
+      "explanation": "Sheikh Theyab bin Mohamed bin Zayed Al Nahyan serves as the Deputy Chairman of the Presidential Court of the UAE.",
+      "difficulty": "hard",
+      "topic": "Diplomacy"
+    },
+    {
+      "id": "2026-10-24-14",
+      "question": "Which two global healthcare corporations held discussions with Union Minister Piyush Goyal to foster manufacturing partnerships in India?",
+      "options": {
+        "a": "Pfizer and Moderna",
+        "b": "Novartis and Roche",
+        "c": "Bayer and Fresenius",
+        "d": "Sanofi and AstraZeneca"
+      },
+      "correctAnswer": "c",
+      "explanation": "Union Minister Piyush Goyal engaged with multinational healthcare conglomerates Bayer and Fresenius to showcase India's talent and manufacturing base.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-10-24-15",
+      "question": "Consider the following statements regarding the IceCube Neutrino Observatory's recent discovery:\n1. The observatory detected ultra-high-energy cosmic neutrinos.\n2. The energy of these cosmic neutrinos was measured to be up to 10 billion times that of solar neutrinos.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "c",
+      "explanation": "Both statements are correct. The IceCube Neutrino Observatory detected cosmic neutrinos possessing energy levels up to 10 billion times greater than ordinary solar neutrinos.",
+      "difficulty": "hard",
+      "topic": "Science & Technology"
+    }
+  ]
+}

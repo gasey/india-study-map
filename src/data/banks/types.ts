@@ -171,8 +171,10 @@ interface BankQuestionBase {
    * List-II via a Codes grid" question (FC&CAS-2019 GS-I Q38/43/50/56) whose
    * real answer options are rows of a small matrix the regex-based parser
    * would otherwise mis-split — transcribed by hand instead of guessed at.
-   * Both are kept out of scored mock tests rather than counting against the
-   * candidate.
+   * The defect is kept visible in the bank. For duplicate options, identical
+   * printed choices are equivalent when marking so the candidate is not
+   * penalised for selecting the duplicate letter; learning dashboards may
+   * still hold defective items out of scheduled revision.
    *
    * `'answer-not-among-options'` is the third: the correct answer is simply not
    * one of the four the Commission printed, so the answer shown is the nearest
@@ -293,6 +295,19 @@ export type BankQuestion = McqBankQuestion | DescriptiveBankQuestion;
  *  record that doesn't explicitly declare `type: 'descriptive'`. */
 export function isMcqQuestion(q: BankQuestion): q is McqBankQuestion {
   return q.type !== 'descriptive';
+}
+
+/**
+ * Treat identical printed choices as equivalent on a verified duplicate-option
+ * defect. Otherwise a learner selecting the same answer text under a second
+ * letter would be marked wrong solely because the source paper duplicated it.
+ */
+export function isCorrectOption(q: BankQuestion, selectedIndex: number): boolean {
+  if (!isMcqQuestion(q) || !Number.isInteger(selectedIndex)
+    || selectedIndex < 0 || selectedIndex >= q.options.length) return false;
+  if (selectedIndex === q.answerIndex) return true;
+  return q.sourceDefect === 'duplicate-options'
+    && q.options[selectedIndex]?.trim() === q.options[q.answerIndex]?.trim();
 }
 
 /** A graded game/drill needs a readable question and a usable answer. */

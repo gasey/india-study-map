@@ -4,6 +4,7 @@ import { mpscStateTaxOfficer } from './mpsc-state-tax-officer';
 import { mizoramStatHandbook2024 } from './mizoram-statistical-handbook-2024';
 import { assistantControllerOfMines2026 } from './assistant-controller-of-mines-2026';
 import { mpscUdcLdc } from './mpsc-udc-ldc';
+import { zzrMock2026 } from './zzr-mock-2026';
 import { groupBGeneralPapers, groupBGeneralQuestions } from './mpsc-group-b-general';
 import { isGeneralStudyPaperSubjectTechnical } from '@/lib/technicalPosts';
 
@@ -28,6 +29,7 @@ export const banks: QuestionBank[] = [
   mpscStateTaxOfficer,
   mizoramStatHandbook2024,
   assistantControllerOfMines2026,
+  zzrMock2026,
   {
     ...mpscUdcLdc,
     title: 'UDC / LDC / Group B',

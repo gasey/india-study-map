@@ -6,7 +6,7 @@ import { QuestionText } from './QuestionText';
 import { QuestionContext } from './QuestionContext';
 import { QuestionImage } from './QuestionImage';
 import type { ProgressMap } from './useProgress';
-import { isMcqQuestion } from '@/data/banks/types';
+import { isCorrectOption, isMcqQuestion } from '@/data/banks/types';
 import { useProgress } from './useProgress';
 import type { AttemptMetadata, Confidence, LearningState } from '@/lib/learning/types';
 import {
@@ -815,8 +815,8 @@ function BrowseView({
                           return (
                             <div style={{ display: 'grid', gap: 6, margin: '2px 0 8px' }}>
                               {q.options.map((o, oi) => {
-                                const isAnswer = open && markable && oi === q.answerIndex;
-                                const isBadPick = open && mine === oi && oi !== q.answerIndex;
+                                const isAnswer = open && markable && isCorrectOption(q, oi);
+                                const isBadPick = open && mine === oi && !isCorrectOption(q, oi);
                                 const edge = isAnswer ? 'var(--ok, #2e9e5b)'
                                   : isBadPick ? 'var(--bad, #c4462f)'
                                   // Neat, not mixed into --border (#241f18,
@@ -834,7 +834,7 @@ function BrowseView({
                                       selectionLocks.current.add(q.id);
                                       setRetained(prev => ({ ...prev, [q.id]: q }));
                                       setPicked(p => ({ ...p, [q.id]: oi }));
-                                      onAnswer?.(q.id, oi === q.answerIndex, {
+                                      onAnswer?.(q.id, isCorrectOption(q, oi), {
                                         selectedIndex: oi, source: 'browse',
                                         eventId: `browse:${globalThis.crypto?.randomUUID?.() ?? `${Date.now()}:${Math.random()}`}`,
                                       });
@@ -876,10 +876,10 @@ function BrowseView({
                         {isMcqQuestion(q) && shown.has(q.id) && picked[q.id] != null && (
                           <div style={{
                             fontSize: 12.5, fontWeight: 700, marginBottom: 6,
-                            color: picked[q.id] === q.answerIndex
+                            color: isCorrectOption(q, picked[q.id] ?? -1)
                               ? 'var(--ok, #2e9e5b)' : 'var(--bad, #c4462f)',
                           }}>
-                            {picked[q.id] === q.answerIndex
+                            {isCorrectOption(q, picked[q.id] ?? -1)
                               ? 'Correct'
                               : `Not quite — the answer is (${optionLetter(q.answerIndex)})`}
                           </div>

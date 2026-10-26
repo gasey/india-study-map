@@ -142,6 +142,16 @@ export const modules: AppModule[] = [
     path: '/udc-ldc',
   },
   {
+    id: 'zzr-mock-2026',
+    title: 'Zawlbuk Zirna Run Mock',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: '2026 Assistant Grade & UDC mock · two papers with keys and explanations',
+    glyph: '📝',
+    kind: 'route',
+    path: '/zzr-mock-2026',
+  },
+  {
     id: 'mpsc-combined-prelims',
     title: 'MPSC Combined Prelims',
     category: 'Practice',

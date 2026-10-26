@@ -27,7 +27,7 @@ export interface FlagInfo {
   adminNote: string | null;
 }
 
-export function useFlags() {
+export function useFlags(bankId = BANK_ID) {
   const user = useAuthStore((s) => s.user);
   const [flags, setFlags] = useState<Record<string, FlagInfo>>({});
   const [loaded, setLoaded] = useState(false);
@@ -39,7 +39,7 @@ export function useFlags() {
       return;
     }
     let live = true;
-    api.myReports(BANK_ID)
+    api.myReports(bankId)
       .then((res: { reports: QuestionReport[] }) => {
         if (!live) return;
         const out: Record<string, FlagInfo> = {};
@@ -61,7 +61,7 @@ export function useFlags() {
       .catch(() => { if (live) setFlags({}); })
       .finally(() => { if (live) setLoaded(true); });
     return () => { live = false; };
-  }, [user]);
+  }, [user, bankId]);
 
   return { flags, loaded, signedIn: !!user };
 }

@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { AttemptInput } from '@/lib/learning/types';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
-import { isMcqQuestion } from '@/data/banks/types';
+import { isCorrectOption, isMcqQuestion } from '@/data/banks/types';
 import { mpscUdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import type { UdcLdcPaperMeta } from '@/data/banks/mpsc-udc-ldc';
 import { groupBPaperMeta } from '@/data/banks/mpsc-group-b-general';
+import { zzrMock2026PaperMeta } from '@/data/banks/zzr-mock-2026';
 import { SECTION_LABEL, optionLetter, sectionOf, isAnswerable, textMode, type SectionId } from './filters';
 import { useAttemptState } from '@/modules/mpsc/useAttemptState';
 import { QuestionText } from './QuestionText';
@@ -37,10 +38,11 @@ interface Props {
   papers: ExamPaper[];
   questions: BankQuestion[];
   onRecordAttempts?: (attempts: AttemptInput[]) => Promise<void>;
+  storageNamespace?: string;
 }
 
 function paperMeta(paper: ExamPaper): UdcLdcPaperMeta {
-  const meta = mpscUdcLdcPaperMeta[paper.id] ?? groupBPaperMeta[paper.id];
+  const meta = mpscUdcLdcPaperMeta[paper.id] ?? groupBPaperMeta[paper.id] ?? zzrMock2026PaperMeta[paper.id];
   if (!meta) throw new Error(`No verified marking rules for ${paper.id}`);
   return meta;
 }
@@ -66,8 +68,8 @@ function fmt(sec: number) {
  * instead of working around it.
  */
 function ExamSitting({
-  paper, questions, onExit, onRecordAttempts,
-}: { paper: ExamPaper; questions: BankQuestion[]; onExit: () => void; onRecordAttempts?: Props['onRecordAttempts'] }) {
+  paper, questions, onExit, onRecordAttempts, storageNamespace,
+}: { paper: ExamPaper; questions: BankQuestion[]; onExit: () => void; storageNamespace: string; onRecordAttempts?: Props['onRecordAttempts'] }) {
   const paperId = paper.id;
   const [submitted, setSubmitted] = useState(false);
   /**
@@ -96,7 +98,7 @@ function ExamSitting({
     [paperId, paperQs],
   );
   const { state, patch, resumed, clear } = useAttemptState(
-    `udc-ldc.exam.${paperId}`, signature, true,
+    `${storageNamespace}.exam.${paperId}`, signature, true,
   );
   const answers = state.answers as Answers;
   const instant = state.feedbackMode === 'instant';
@@ -128,7 +130,7 @@ function ExamSitting({
     const attempts: AttemptInput[] = scorable.flatMap(q => {
       const choice = answers[q.id];
       if (!isMcqQuestion(q) || !Number.isInteger(choice) || choice < 0 || choice >= q.options.length) return [];
-      return [{ questionId: q.id, correct: choice === q.answerIndex, selectedIndex: choice,
+      return [{ questionId: q.id, correct: isCorrectOption(q, choice), selectedIndex: choice,
         source: 'exam' as const, eventId: `exam:${state.startedAt}:${q.id}` }];
     });
     // The same IDs are used for instant feedback and final submission. Skips
@@ -151,7 +153,7 @@ function ExamSitting({
       bySection[sec] ??= { right: 0, wrong: 0, skipped: 0 };
       const a = answers[q.id];
       if (a === undefined) { skipped++; bySection[sec].skipped++; }
-      else if (a === q.answerIndex) { right++; bySection[sec].right++; }
+      else if (isCorrectOption(q, a)) { right++; bySection[sec].right++; }
       else { wrong++; bySection[sec].wrong++; }
     }
     const gross = right * per;
@@ -334,8 +336,8 @@ function ExamSitting({
                     <div style={{ display: 'grid', gap: 5 }}>
                       {q.options.map((o, oi) => {
                         const revealed = submitted || (instant && picked !== undefined);
-                        const isRight = revealed && oi === q.answerIndex;
-                        const isWrongPick = revealed && oi === picked && picked !== q.answerIndex;
+                        const isRight = revealed && isCorrectOption(q, oi);
+                        const isWrongPick = revealed && oi === picked && !isCorrectOption(q, oi);
                         return (
                           <label
                             key={oi}
@@ -357,7 +359,7 @@ function ExamSitting({
                               onChange={() => {
                                 patch((st) => ({ answers: { ...st.answers, [q.id]: oi } }));
                                 if (instant) void onRecordAttempts?.([{ questionId: q.id,
-                                  correct: oi === q.answerIndex, selectedIndex: oi, source: 'exam',
+                                  correct: isCorrectOption(q, oi), selectedIndex: oi, source: 'exam',
                                   eventId: `exam:${state.startedAt}:${q.id}` }]);
                               }}
                             />
@@ -381,7 +383,7 @@ function ExamSitting({
 }
 
 
-export function ExamView({ papers, questions, onRecordAttempts }: Props) {
+export function ExamView({ papers, questions, onRecordAttempts, storageNamespace = 'udc-ldc' }: Props) {
   const [paperId, setPaperId] = useState<string | null>(null);
   const paper = papers.find((p) => p.id === paperId);
 
@@ -393,6 +395,7 @@ export function ExamView({ papers, questions, onRecordAttempts }: Props) {
         paper={paper}
         questions={questions}
         onRecordAttempts={onRecordAttempts}
+        storageNamespace={storageNamespace}
         onExit={() => setPaperId(null)}
       />
     );
@@ -413,7 +416,7 @@ export function ExamView({ papers, questions, onRecordAttempts }: Props) {
           const n = questions.filter((q) => q.paperId === p.id).length;
           const inProgress = (() => {
             try {
-              return Boolean(localStorage.getItem(`jabreeze.attempt.udc-ldc.exam.${p.id}`));
+              return Boolean(localStorage.getItem(`jabreeze.attempt.${storageNamespace}.exam.${p.id}`));
             } catch {
               return false;
             }

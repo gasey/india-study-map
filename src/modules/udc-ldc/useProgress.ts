@@ -6,12 +6,20 @@ export type { AttemptInput, AttemptMetadata, LearningState, StorageStatus } from
 /** Compatibility view used by existing bank filters. Explicit reading is not an attempt. */
 export interface QuestionProgress { n: number; lastCorrect: boolean; at: number }
 export type ProgressMap = Record<string, QuestionProgress>;
-let store: LearningStore | undefined;
-function getStore(): LearningStore {
-  return store ??= new LearningStore({ moduleId: 'udc-ldc', legacyKey: 'jabreeze.udcldc.progress.v1' });
+const stores = new Map<string, LearningStore>();
+function getStore(moduleId: string): LearningStore {
+  let active = stores.get(moduleId);
+  if (!active) {
+    active = new LearningStore({
+      moduleId,
+      ...(moduleId === 'udc-ldc' ? { legacyKey: 'jabreeze.udcldc.progress.v1' } : {}),
+    });
+    stores.set(moduleId, active);
+  }
+  return active;
 }
-export function useProgress() {
-  const active = getStore();
+export function useProgress(moduleId = 'udc-ldc') {
+  const active = getStore(moduleId);
   const snapshot = useSyncExternalStore(active.subscribe, active.getSnapshot, active.getSnapshot);
   const progress = useMemo<ProgressMap>(() => {
     const result: ProgressMap = Object.create(null) as ProgressMap;

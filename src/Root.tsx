@@ -35,6 +35,7 @@ const MpscPage = lazy(() => import('./modules/mpsc/MpscPage'));
 const InterviewPage = lazy(() => import('./modules/interview/InterviewPage'));
 const StateTaxOfficerPage = lazy(() => import('./modules/mpsc/StateTaxOfficerPage'));
 const UdcLdcPage = lazy(() => import('./modules/udc-ldc/UdcLdcPage'));
+const ZzrMockPage = lazy(() => import('./modules/zzr-mock/ZzrMockPage'));
 const CombinedPrelimsPage = lazy(() => import('./modules/mpsc-combined/CombinedPrelimsPage'));
 const PapersPage = lazy(() => import('./pages/PapersPage'));
 const RevisionPage = lazy(() => import('./modules/revision/RevisionPage'));
@@ -87,6 +88,7 @@ export function Root() {
             <Route path="/interview" element={<InterviewPage />} />
             <Route path="/state-tax-officer" element={<StateTaxOfficerPage />} />
             <Route path="/udc-ldc" element={<UdcLdcPage />} />
+            <Route path="/zzr-mock-2026" element={<ZzrMockPage />} />
             <Route path="/mpsc-combined-prelims" element={<CombinedPrelimsPage />} />
             <Route path="/revision/*" element={<RevisionPage />} />
             <Route path="/embed/:id" element={<EmbedPage />} />

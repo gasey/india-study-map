@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import type { BankQuestion } from '@/data/banks/types';
-import { isMcqQuestion } from '@/data/banks/types';
+import { isCorrectOption, isMcqQuestion } from '@/data/banks/types';
 import type { ProgressMap } from './useProgress';
 import { BANK_ID, SECTION_COLOUR, isAnswerable, optionLetter, sectionOf, textMode } from './filters';
 import type { Confidence } from '@/lib/learning/types';
@@ -39,13 +39,14 @@ export interface PracticeAnswerMeta {
 interface Props {
   questions: BankQuestion[];
   progress: ProgressMap;
+  bankId?: string;
   onAnswer: (questionId: string, correct: boolean, meta?: PracticeAnswerMeta) => void;
   onMistakeReason?: (eventId: string, reason: string) => void;
   onAttemptConfidence?: (eventId: string, confidence: Confidence) => void;
   onFinish?: () => void;
 }
 
-export function PracticeView({ questions, progress, onAnswer, onMistakeReason, onAttemptConfidence, onFinish }: Props) {
+export function PracticeView({ questions, progress, bankId = BANK_ID, onAnswer, onMistakeReason, onAttemptConfidence, onFinish }: Props) {
   const pool = useMemo(() => questions.filter(isAnswerable), [questions]);
   const latestPool = useRef(pool);
   const pendingNextId = useRef<string | null>(null);
@@ -61,7 +62,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   const activeSince = useRef(Date.now());
   const visibleMs = useRef(0);
   const questionCardRef = useRef<HTMLDivElement>(null);
-  const { flags } = useFlags();
+  const { flags } = useFlags(bankId);
 
   // Count foreground time only. Background tabs should not imply slow recall.
   useEffect(() => {
@@ -112,7 +113,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
   if (!isMcqQuestion(q)) return null;
   const accent = SECTION_COLOUR[sectionOf(q)];
   const mode = textMode(q);
-  const correct = submitted && picked === q.answerIndex;
+  const correct = submitted && isCorrectOption(q, picked ?? -1);
   const prior = progress[q.id];
   const groupBPaper = groupBGeneralPapers.find((paper) => paper.id === q.paperId);
 
@@ -145,7 +146,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
     setHeldQuestion(q);
     setPicked(selectedIndex);
     setSubmitted(true);
-    const ok = selectedIndex === q.answerIndex;
+    const ok = isCorrectOption(q, selectedIndex);
     setSession((s) => ({ done: s.done + 1, right: s.right + (ok ? 1 : 0) }));
     onAnswer(q.id, ok, {
       eventId, selectedIndex,
@@ -224,7 +225,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
 
         <div style={{ display: 'grid', gap: 8 }}>
           {q.options.map((o, idx) => {
-            const isAnswer = idx === q.answerIndex;
+            const isAnswer = isCorrectOption(q, idx);
             const isPick = idx === picked;
             // ⚠️ The accent is used NEAT, not mixed into --border. That token
             // is #241f18 — very nearly black — so `color-mix(accent 35%,
@@ -344,7 +345,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
               <p style={{ margin: '6px 0 0', fontSize: 12.5, color: 'var(--bad, #c4462f)' }}>
                 <strong>Disputed:</strong> {q.disputeNote}
                 {q.answerKeyRef
-                  ? ' The marked answer is still the one MPSC published.'
+                  ? bankId === BANK_ID
+                    ? ' The marked answer is still the one MPSC published.'
+                    : ' The marked answer is retained from the supplied key.'
                   : ''}
               </p>
             )}
@@ -375,7 +378,9 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
               <p style={{ margin: '6px 0 0', fontSize: 11.5, opacity: 0.6 }}>
                 {q.independentAnswerSource === 'transcribed'
                   ? 'No matching MPSC key is attached. This study transcription is provisional'
-                  : 'No matching MPSC key is attached to this paper — this answer was worked out'}
+                  : bankId === BANK_ID
+                    ? 'No matching MPSC key is attached to this paper — this answer was worked out'
+                    : 'No printed answer key was supplied for this paper — this answer was worked out'}
                 {q.answerConfidence ? `, stated confidence: ${q.answerConfidence}` : ''}.
               </p>
             )}
@@ -390,7 +395,7 @@ export function PracticeView({ questions, progress, onAnswer, onMistakeReason, o
             gates itself on login and says so, so a logged-out reader is not
             offered a control that would fail. */}
         <QuestionReviewPanel
-          bankId={BANK_ID}
+          bankId={bankId}
           questionId={q.id}
           options={q.options}
           compact

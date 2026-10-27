@@ -1,6 +1,6 @@
 import { getChapter } from '@/data';
 import type { AppState } from './store';
-import { MIN_ATTEMPTS } from './weakTopics';
+import { MIN_ATTEMPTS } from './weakTopicSummary';
 
 // ============================================
 // MIND MAP MASTERY — real per-chapter accuracy for Mind Map nodes, from the

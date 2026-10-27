@@ -1,6 +1,9 @@
 import { getChapter } from '@/data';
 import { getBank } from '@/data/banks';
 import type { AppState } from './store';
+import { MIN_ATTEMPTS, type WeakTopic } from './weakTopicSummary';
+
+export { MIN_ATTEMPTS } from './weakTopicSummary';
 
 // ============================================
 // WEAK TOPICS — client-local aggregation, no backend needed. Every attempt
@@ -18,17 +21,6 @@ import type { AppState } from './store';
 
 type Progress = AppState['progress'];
 type BankProgress = AppState['bankProgress'];
-
-export interface WeakTopic {
-  key: string;
-  label: string;
-  accuracy: number;
-  attempts: number;
-}
-
-/** A topic needs at least this many attempts before its accuracy means
- *  anything — one wrong answer out of one shouldn't read as "0% weak". */
-export const MIN_ATTEMPTS = 5;
 
 export function weakTopics(progress: Progress, bankProgress: BankProgress, limit = 4): WeakTopic[] {
   const totals = new Map<string, { label: string; correct: number; attempts: number }>();

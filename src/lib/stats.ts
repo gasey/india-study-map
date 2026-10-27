@@ -1,6 +1,5 @@
 import { chapters } from '@/data';
 import { decks } from '@/data/decks';
-import { banks } from '@/data/banks';
 import { mindmaps } from '@/data/mindmaps';
 import type { AppState } from './store';
 
@@ -55,18 +54,17 @@ export interface ModuleProgress {
 }
 
 /** Real completion % + a one-line meta string per registry module id. */
-export function moduleProgress(progress: Progress, bankProgress: BankProgress, deckProgress: DeckProgress): Record<string, ModuleProgress> {
+export function moduleProgress(progress: Progress, deckProgress: DeckProgress): Record<string, ModuleProgress> {
   const { completed, total } = chapterCompletion(progress);
-
-  const totalQs = banks.reduce((s, b) => s + b.questions.length, 0);
-  const masteredQs = banks.reduce((s, b) => s + (bankProgress[b.id]?.mastered.length ?? 0), 0);
 
   const totalCards = decks.reduce((s, d) => s + d.cards.length, 0);
   const knownCards = totalCards - flashcardsRemaining(deckProgress);
 
   return {
     map: { pct: total > 0 ? Math.round((completed / total) * 100) : null, meta: `${total} chapters` },
-    pyq: { pct: totalQs > 0 ? Math.round((masteredQs / totalQs) * 100) : null, meta: `${totalQs} Qs` },
+    // Keep dashboard metadata independent of the generated question archives.
+    // The exact inventory is shown inside each bank module, where it is loaded.
+    pyq: { pct: null, meta: 'Question bank' },
     flashcards: { pct: totalCards > 0 ? Math.round((knownCards / totalCards) * 100) : null, meta: `${totalCards} cards` },
     mindmaps: { pct: null, meta: `${mindmaps.length} maps` },
     codex: { pct: null, meta: 'guide' },
@@ -74,12 +72,7 @@ export function moduleProgress(progress: Progress, bankProgress: BankProgress, d
     'lab-english': { pct: null, meta: 'lab' },
     'lab-paper2': { pct: null, meta: 'lab' },
     arena: { pct: null, meta: 'MCQ game' },
-    mpsc: (() => {
-      const bank = banks.find((b) => b.id === 'mpsc-old-questions');
-      const q = bank?.questions.length ?? 0;
-      const m = bankProgress['mpsc-old-questions']?.mastered.length ?? 0;
-      return { pct: q > 0 ? Math.round((m / q) * 100) : null, meta: `${bank?.papers?.length ?? 0} papers` };
-    })(),
+    mpsc: { pct: null, meta: 'MPSC papers' },
   };
 }
 

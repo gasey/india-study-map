@@ -1,3 +1,28 @@
+## 27 October 2026 — Keep the generated PYQ archive off the first load
+
+The dashboard's initial imports pulled the full generated Group B question
+archive into the entry bundle, although the archive is only needed inside
+question-bank features. The live entry JavaScript was 34,227,034 bytes (about
+4.30 MB transferred with compression). After removing those imports from
+dashboard statistics and deferring bank-backed weak-topic enrichment, the
+production entry is 836,492 bytes (262,951 bytes gzip), roughly 94% less
+JavaScript on first load. Chapter-based weak-topic feedback still renders
+immediately; bank-backed results enrich it after a short delay only when saved
+bank attempts exist. The archive stays available to the modules that need it.
+
+The live map uses Esri's World Topographic tiles by default. There is no NIC
+India/NIC endpoint in the app's basemap configuration; a live sample Esri tile
+returned HTTP 200. OpenTopoMap also returned 200, while an unauthenticated
+Stadia Watercolor sample returned 401 (a separate optional-basemap issue, not
+the default map or NIC). `npm run build` passed. A direct Vite SSR attempt to
+count the full bank exhausted Node's default 2 GB heap, so the inventory was
+kept out of the dashboard rather than recomputed at runtime.
+
+**What's still open:** deploy and check first-load timing on a real phone and
+slow connection. Users with saved static-bank attempts still need the optional
+bank archive for the full dashboard weak-topic breakdown; that request is now
+deferred until after the initial render.
+
 ## 22 October 2026 — Three offline study packs added as app modules
 
 Three self-contained study files built offline from the user's own source

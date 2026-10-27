@@ -1,10 +1,11 @@
 import { Link, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { useApp } from '@/lib/store';
 import { modules, type ModuleCategory } from '@/modules/registry';
 import { useVisibleModules } from '@/lib/access';
 import { chapters, getChapter } from '@/data';
 import { moduleProgress, quizAccuracy, studyStreak, flashcardsRemaining } from '@/lib/stats';
-import { weakTopics } from '@/lib/weakTopics';
+import { weakChapterTopics, type WeakTopic } from '@/lib/weakTopicSummary';
 import { levelInfo } from '@/lib/xp';
 import { listResumableAttempts } from '@/modules/mpsc/useAttemptState';
 import { pyStages } from '@/data/python/lessons';
@@ -26,6 +27,47 @@ const MODULE_ICON: Record<string, string> = {
 };
 
 const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice'];
+
+/**
+ * Start with map-chapter attempts, then enrich from PYQ attempts only when
+ * there is bank progress to resolve. This keeps the generated question bank
+ * out of the dashboard's initial bundle and startup path.
+ */
+function useDashboardWeakTopics(
+  progress: ReturnType<typeof useApp.getState>['progress'],
+  bankProgress: ReturnType<typeof useApp.getState>['bankProgress'],
+  limit: number,
+): WeakTopic[] {
+  const [topics, setTopics] = useState(() => weakChapterTopics(progress, limit));
+
+  useEffect(() => {
+    let active = true;
+    setTopics(weakChapterTopics(progress, limit));
+
+    const hasStaticBankAttempts = Object.entries(bankProgress).some(
+      ([bankId, bank]) => bankId !== 'mpsc-old-questions' && Object.keys(bank.attempts).length > 0,
+    );
+    if (!hasStaticBankAttempts) return () => { active = false; };
+
+    // Let the dashboard paint and settle before requesting the optional archive.
+    const timer = window.setTimeout(() => {
+      void import('@/lib/weakTopics')
+        .then(({ weakTopics }) => {
+          if (active) setTopics(weakTopics(progress, bankProgress, limit));
+        })
+        .catch(() => {
+          // The fast chapter-only summary remains usable if the optional archive fails.
+        });
+    }, 1500);
+
+    return () => {
+      active = false;
+      window.clearTimeout(timer);
+    };
+  }, [progress, bankProgress, limit]);
+
+  return topics;
+}
 
 function moduleHref(m: (typeof modules)[number]) {
   return m.kind === 'static' ? `/embed/${m.id}` : m.path;
@@ -85,7 +127,7 @@ interface PlanStep {
 function TodaysPlanHero() {
   const navigate = useNavigate();
   const { progress, bankProgress, deckProgress } = useApp();
-  const topics = weakTopics(progress, bankProgress, 1);
+  const topics = useDashboardWeakTopics(progress, bankProgress, 1);
   const resumable = listResumableAttempts();
   const cardsDue = flashcardsRemaining(deckProgress);
   const weekAccuracy = quizAccuracy(progress, bankProgress, 7);
@@ -191,10 +233,10 @@ function LevelCard() {
 
 /** Real per-topic accuracy from actual attempt history — see lib/weakTopics.ts.
  *  A topic only shows once it has enough attempts to mean something
- *  (MIN_ATTEMPTS in weakTopics.ts). */
+ *  (MIN_ATTEMPTS in weakTopicSummary.ts). */
 function WeakTopicsPanel() {
   const { progress, bankProgress } = useApp();
-  const topics = weakTopics(progress, bankProgress);
+  const topics = useDashboardWeakTopics(progress, bankProgress, 4);
   if (topics.length === 0) return null;
   return (
     <div className="surface rounded-xl p-4 flex-1">
@@ -323,7 +365,7 @@ function JumpBackInGrid() {
 function ModuleGroupedCards() {
   const visibleModules = useVisibleModules();
   const { progress, bankProgress, deckProgress } = useApp();
-  const prog = moduleProgress(progress, bankProgress, deckProgress);
+  const prog = moduleProgress(progress, deckProgress);
   return (
     <div className="flex flex-col gap-6">
       {CATEGORY_ORDER.map((cat) => {

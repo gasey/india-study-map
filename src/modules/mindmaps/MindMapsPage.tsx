@@ -4,7 +4,7 @@ import { mindmaps } from '@/data/mindmaps';
 import type { MindNode } from '@/data/mindmaps/types';
 import { useApp } from '@/lib/store';
 import { chapterMastery, type ChapterMastery, type MasteryState } from '@/lib/mindMapMastery';
-import { MIN_ATTEMPTS } from '@/lib/weakTopics';
+import { MIN_ATTEMPTS } from '@/lib/weakTopicSummary';
 import { SUBJECT_HUE } from '@/lib/subjectHue';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';

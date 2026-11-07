@@ -43,8 +43,16 @@ for full Paper IV coverage.
 mine — the authored bank in `p4u3-digital-forensics.js`, `p4u4` and `p4u5`
 remains the only material. The 31 Computer/IT papers also contain a large
 off-syllabus tail (networking, programming, data structures, discrete math,
-e-governance, project management) that was deliberately excluded. No commit or
-push was made.
+e-governance, project management) that was deliberately excluded.
+
+**Committed and deployed (same day):** two commits pushed to `main` —
+`8d3485b` (this bank, the Maths guide, the science swap, the registry) and
+`5bf8c9f` (the pre-existing Informatics Officer module and study-pack
+updates that were already deployed on 1 November but never committed). The
+workspace was then deployed to production. Verified live: the module serves
+at https://map.hawayu.in/mpsc-jso-p4-bank/index.html with 205 questions, the
+four tabs and no console errors; the registry bundle carries the module; the
+Maths guide and science swap are live.
 
 ## 7 November 2026 — JSO Maths Focus guide for the 30-mark optional unit
 

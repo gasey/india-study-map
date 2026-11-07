@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/((?!assets/|codex/|labs/|maps/|ncert-history/|images/|favicon).*)", "destination": "/index.html" }
+    { "source": "/((?!assets/|mpsc-informatics-officer/|mpsc-system-analyst/|codex/|labs/|maps/|ncert-history/|images/|instagram-materials/|favicon).*)", "destination": "/index.html" }
   ]
 }

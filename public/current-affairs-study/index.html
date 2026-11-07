@@ -171,7 +171,8 @@ footer{color:var(--muted);font-size:.86rem;padding:18px 16px 40px;text-align:cen
           <option value="mizoram">Mizoram &amp; Northeast only</option>
           <option value="bookmarked">Bookmarked only</option>
           <option value="mistakes">My wrong answers only</option>
-          <option value="unseen">Not attempted yet</option>
+          <option value="unseen">Unattempted only</option>
+          <option value="attempted">Attempted only</option>
         </select>
         <select id="quizTheme"><option value="">Any theme</option></select>
       </div>
@@ -222,6 +223,8 @@ footer{color:var(--muted);font-size:.86rem;padding:18px 16px 40px;text-align:cen
           <option value="mizoram">Mizoram / Northeast</option>
           <option value="bookmarked">Bookmarked</option>
           <option value="mistakes">Wrong answers</option>
+          <option value="unseen">Unattempted</option>
+          <option value="attempted">Attempted</option>
         </select>
         <button class="act" onclick="renderBrowse()">Apply</button>
         <span class="stat" id="browseCount" style="color:var(--muted)"></span>
@@ -405,6 +408,7 @@ function poolFor(gi,source,theme){
   else if(source==='bookmarked') b=b.filter(x=>inSet(S.bm,x.id));
   else if(source==='mistakes') b=b.filter(x=>inSet(S.wrong,x.id));
   else if(source==='unseen') b=b.filter(x=>!inSet(S.seen,x.id));
+  else if(source==='attempted') b=b.filter(x=>inSet(S.seen,x.id));
   return b;}
 
 /* ---------- practice ---------- */
@@ -482,6 +486,8 @@ function renderBrowse(){
   else if(tag==='mizoram') base=base.filter(x=>x.mizoram);
   else if(tag==='bookmarked') base=base.filter(x=>inSet(S.bm,x.id));
   else if(tag==='mistakes') base=base.filter(x=>inSet(S.wrong,x.id));
+  else if(tag==='unseen') base=base.filter(x=>!inSet(S.seen,x.id));
+  else if(tag==='attempted') base=base.filter(x=>inSet(S.seen,x.id));
   if(q) base=base.filter(x=>(x.q+' '+x.options.join(' ')+' '+x.explanation+' '+x.date+' '+x.gtitle).toLowerCase().indexOf(q)>-1);
   document.getElementById('browseCount').textContent=base.length+' questions';
   const area=document.getElementById('browseArea');

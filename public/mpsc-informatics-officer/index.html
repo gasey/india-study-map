@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPSC Informatics Officer — Study Trainer</title>
+<link rel="stylesheet" href="../mpsc-system-analyst/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">IO</span>
+    <span class="brand-text">
+      <strong>MPSC Informatics Officer</strong>
+      <em id="countdown">—</em>
+    </span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-view="syllabus" class="on">Syllabus</button>
+    <button data-view="dash">Dashboard</button>
+    <button data-view="study">Study</button>
+    <button data-view="daily">Daily Test</button>
+    <button data-view="practice">Practice</button>
+    <button data-view="essays">Essays</button>
+    <button data-view="calc">Calc Lab</button>
+    <button data-view="papers">Past Papers</button>
+    <button data-view="repeats">Repeats</button>
+    <button data-view="mock">Mock Test</button>
+    <button data-view="review">Review</button>
+    <button data-view="sources">Sources &amp; notices</button>
+    <button data-view="progress">Progress</button>
+  </nav>
+  <div class="topbar-right">
+    <button id="themeBtn" class="icon-btn" title="Toggle theme">◐</button>
+    <button id="dataBtn"  class="icon-btn" title="Backup / restore progress">⛁</button>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-card">
+    <button class="modal-x" id="modalX">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="../mpsc-system-analyst/data/syllabus.js"></script>
+<script src="../mpsc-system-analyst/data/concepts.js"></script>
+<script src="../mpsc-system-analyst/data/questions.js"></script>
+<script src="../mpsc-system-analyst/data/id-migration.js"></script>
+<script src="../mpsc-system-analyst/data/modes.js"></script>
+<script src="../mpsc-system-analyst/data/repeats.js"></script>
+<script src="../mpsc-system-analyst/data/calc.js"></script>
+<script src="past-papers.js"></script>
+<script src="module.js"></script>
+<script src="lessons.js"></script>
+<script src="../mpsc-system-analyst/app.js"></script>
+</body>
+</html>

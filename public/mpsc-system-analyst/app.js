@@ -4,6 +4,7 @@
    ========================================================================== */
 'use strict';
 
+const CONFIG = window.TRAINER_CONFIG || {};
 const SYL = window.SYLLABUS || { papers: [] };
 const CON = window.CONCEPTS || [];
 const QS  = window.QUESTIONS || [];
@@ -13,7 +14,7 @@ const GENS = window.CALC_DRILLS || [];
 
 // Distinct from the System Manager app's 'mpsc_sm_v1' — both are served from
 // the same origin, so a shared key would merge the two apps' progress.
-const KEY = 'mpsc_sa_v1';
+const KEY = CONFIG.storageKey || 'mpsc_sa_v1';
 const EXAM_HINT = '2026-11-01';      // no date announced yet; used only for the countdown
 const BOX_DAYS = [0, 1, 3, 7, 21];   // Leitner intervals, box 1..5
 const DAY = 864e5;
@@ -139,6 +140,13 @@ const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no
    existed to browse. `??` not `||`: OFFSYL sets 0 deliberately, and 0 marks is
    the truthful figure for material that is not examined. */
 const mpqOf = pid => paperById[pid]?.marks_per_question ?? 2;
+function quizMarks(questions, picks) {
+  return {
+    total: questions.reduce((sum, q) => sum + mpqOf(q.paper), 0),
+    earned: questions.reduce((sum, q, k) => sum + (picks[k] === q.ans ? mpqOf(q.paper)
+      : picks[k] ? -mpqOf(q.paper) * (CONFIG.negativeMarking || 0) : 0), 0),
+  };
+}
 // Escaped "Unit 2 · Computer Architecture and Organization" pill text, falling
 // back to the bare number if a unit somehow has no matching syllabus entry.
 const unitLabel = q => {
@@ -146,7 +154,7 @@ const unitLabel = q => {
   return u ? `Unit ${esc(q.unit)} · ${esc(u.title)}` : `Unit ${esc(q.unit)}`;
 };
 const paperName = pid => paperById[pid]?.name || pid;
-const shortPaper = pid => ({
+const shortPaper = pid => CONFIG.paperNames?.[pid] || ({
   GE: 'General English', GS: 'General Studies',
   TECH1: 'Technical I · IT & Communication (2026 syllabus)',
   TECH1_LEGACY: 'Technical I · Informatics Officer (legacy syllabus)',
@@ -169,7 +177,7 @@ const shortPaper = pid => ({
    (Units 1 and 3 of Technical I — 100 of that paper's 200 marks) so it cannot be
    mistaken for whole-syllabus coverage, and opens in a new tab so a half-finished
    test in this one is not lost behind it. */
-const GUIDE_HREF = 'study-guide-tech1.html';
+const GUIDE_HREF = CONFIG.guideHref || 'study-guide-tech1.html';
 const revisionGuideLink = (cls = 'btn') =>
   `<a class="${cls}" href="${GUIDE_HREF}" target="_blank" rel="noopener">`
   + 'Technical I revision guide <span class="dim">Units 1 &amp; 3 ↗</span></a>';
@@ -214,7 +222,7 @@ function provLine(q) {
   const official = q.prov
     && /official/i.test(q.prov)
     && !/\b(?:no|without|never)\s+official/i.test(q.prov);
-  const badge = official
+  const badge = q.sourceUrl ? '<span class="pill acc">supplied answer key</span>' : official
     ? '<span class="pill acc">official key</span>'
     : ({
         high:   '<span class="pill ok">derived · high confidence</span>',
@@ -222,7 +230,7 @@ function provLine(q) {
         low:    '<span class="pill no">derived · low confidence</span>',
       }[q.conf] || (q.conf ? '' : '<span class="pill wn">derived · unrated</span>'));
   const text = esc(q.prov || '') + (q.note ? ' — ' + esc(q.note) : '');
-  return `<div class="prov">${badge}${badge && text ? ' ' : ''}${text}</div>`;
+  return `<div class="prov">${badge}${badge && text ? ' ' : ''}${text}${q.sourceUrl ? ` <a href="${esc(q.sourceUrl)}" target="_blank" rel="noopener">View source page ↗</a>` : ''}</div>`;
 }
 
 const ANSWERABLE = QS.filter(q => q.ans && q.ans.length === 1);
@@ -517,15 +525,19 @@ VIEWS.syllabus = (el) => {
           <span>${SYL.interview.marks} marks · ${Math.round(100 * SYL.interview.marks / meritTotal)}%</span>
         </div>` : ''}
     </div>
-    <p class="syl-note">Merit total ${meritTotal} marks. The ${qual.length} qualifying
+    <p class="syl-note">Merit total ${meritTotal} marks.${qual.length ? ` The ${qual.length} qualifying
       paper${qual.length === 1 ? '' : 's'} below (${qual.reduce((a, p) => a + p.marks, 0)} marks)
-      earn no merit — they only have to be passed.</p>
+      earn no merit — they only have to be passed.` : ' All five written papers count.'}</p>
+    ${CONFIG.resources ? `<div class="card mt"><h3>Prepare with the 2026 syllabus</h3>
+      <p>${esc(SYL.source_note)}</p><p>Technical I and II reuse the System Analyst study material. Technical III follows the new Networks, Software Engineering, AI/ML and Cybersecurity syllabus. Study counts show available material, not complete topic coverage.</p>
+      <p>The 2026 System Analyst Set A papers add 400 questions, including 10 compensated questions excluded from tests. Other past papers are selected topic extracts. Original paper formats and GS topic weights can differ from this exam.</p>
+      <p><a class="btn" href="sources/informatics-officer-syllabus-2026.pdf" target="_blank" rel="noopener">Read official syllabus ↗</a></p>
+    </div>` : ''}
 
     <h2 class="mt">Counts for merit</h2>
     ${merit.map(paperCardSyl).join('')}
 
-    <h2 class="mt">Qualifying only</h2>
-    ${qual.map(paperCardSyl).join('')}
+    ${qual.length ? `<h2 class="mt">Qualifying only</h2>${qual.map(paperCardSyl).join('')}` : ''}
 
     ${(SYL.reading || []).length ? `
     <div class="card mt">
@@ -558,6 +570,11 @@ VIEWS.syllabus = (el) => {
     </div>`;
 };
 
+VIEWS.sources = el => {
+  el.innerHTML = `<h1>Sources and notices</h1><p class="muted">Official syllabus and the System Analyst reference papers supplied for this module.</p>
+    <div class="grid g2">${(CONFIG.resources || []).map(([title, url, note]) => `<div class="card"><h3>${esc(title)}</h3><p>${esc(note)}</p><a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Open document ↗</a></div>`).join('')}</div>`;
+};
+
 /* ------------------------------------------------------------- dashboard */
 VIEWS.dash = (el) => {
   const seen = Object.keys(S.questions).length;
@@ -573,8 +590,7 @@ VIEWS.dash = (el) => {
     <div class="spread mb">
       <div>
         <h1>Dashboard</h1>
-        <p class="muted" style="margin:0">Merit is decided by Technical Papers I–III (600 marks) plus interview.
-        General English and General Studies only need 50% to qualify.</p>
+        <p class="muted" style="margin:0">${esc(SYL.scoring_note || '')}</p>
       </div>
     </div>
 
@@ -1231,12 +1247,13 @@ VIEWS.papers = (el) => {
   if (!keys.length) { el.innerHTML = emptyBank(); return; }
   el.innerHTML = `
     <h1>Past papers</h1>
-    <p class="muted">Real past papers, grouped by sitting. The Nov-2024 Informatics Officer sitting predates the
+    ${CONFIG.componentMocks ? `<p class="muted">Browse the supplied System Analyst 2026 Set A papers and selected earlier questions matched to this syllabus. Original exam names and question numbers are preserved. Earlier papers may be partial extracts. Compensated questions remain readable but are excluded from tests. Source-paper drills use the Informatics Officer study scoring rules.</p>` : `    <p class="muted">Real past papers, grouped by sitting. The Nov-2024 Informatics Officer sitting predates the
     30 July 2026 syllabus change — most of it practices under "Technical I · Informatics Officer (legacy syllabus)"
     in Study/Practice, not as a preview of the current Technical Paper I. Answers for that sitting come from MPSC's
     published final answer key. Its database questions are the exception: the 2026 syllabus moved DBMS out of
     Paper I into Paper II, so they now sit under "Technical II · OOP, Web, DBMS &amp; Cloud (2026 syllabus)" and
-    are still current.</p>
+    are still current.</p>`}
+
     <div class="grid g2 mt">
       ${keys.map(k => {
         const qs = groups[k].slice().sort((a, b) => a.no - b.no);
@@ -1256,8 +1273,8 @@ VIEWS.papers = (el) => {
         const partial = qs.find(q => q.note && /^Only the /.test(q.note));
         return `<div class="card">
           <div class="spread"><h3 style="margin:0">${esc(qs[0].sitting)}</h3>
-          <span class="pill ${off ? 'ok' : 'wn'}">${off ? 'official key' : 'derived answers'}</span></div>
-          <p class="dim" style="margin:.35rem 0 .6rem">${esc(shortPaper(qs[0].paper))} · ${mcq.length} MCQ · ${mcq.length * mpqOf(qs[0].paper)} marks${essay ? ` · ${essay} essay` : ''}</p>
+          <span class="pill ${off ? 'ok' : 'wn'}">${qs[0].sourceUrl ? 'supplied answer key' : off ? 'official key' : 'derived answers'}</span></div>
+          <p class="dim" style="margin:.35rem 0 .6rem">${esc(shortPaper(qs[0].paper))} · ${mcq.length} MCQ · ${mcq.length * mpqOf(qs[0].paper)} source-paper marks${qs.some(q => q.compensated) ? ` · ${qs.filter(q => q.compensated).length} compensated (excluded from tests)` : ''}${essay ? ` · ${essay} essay` : ''}</p>
           ${partial ? `<p class="dim" style="margin:-.3rem 0 .6rem;font-size:.75rem">${esc(partial.note)}</p>` : ''}
           <div style="font-size:.78rem;color:var(--ink-3)">Attempted ${att}/${mcq.length}${att ? ` · last-attempt ${pct(ok, att)}%` : ''}</div>
           <div class="bar mb"><i style="width:${pct(att, mcq.length)}%"></i></div>
@@ -1305,6 +1322,7 @@ function browsePaper(qs) {
           ${q.unit ? `<span class="pill">${unitLabel(q)}</span>` : ''}
           ${q.sub ? `<span class="pill">${esc(q.sub)}</span>` : ''}
           ${isDescriptive(q) ? '' : modeBadge(q.id)}
+          ${q.compensated ? `<span class="pill wn">compensated · excluded from tests</span>` : ''}
           ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
         </div>
         <div class="qtext">${esc(q.q)}</div>
@@ -1471,7 +1489,8 @@ VIEWS.repeats = (el) => {
         <strong style="color:var(--ink)">Copy ${i + 1} · Q${q.no}</strong>
         <span class="pill">${esc(q.sitting || '')}</span>
         ${modeBadge(q.id)}
-        ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
+        ${q.compensated ? `<span class="pill wn">compensated · excluded from tests</span>` : ''}
+          ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
       </div>
       <div class="qtext">${esc(q.q)}</div>
       <div class="opts shown">${['A', 'B', 'C', 'D', 'E'].filter(k => q.opts && q.opts[k] != null).map(k => `
@@ -1546,9 +1565,10 @@ VIEWS.repeats = (el) => {
 /* ------------------------------------------------------------- mock test */
 VIEWS.mock = (el, opts) => {
   if (!ANSWERABLE.length) { el.innerHTML = emptyBank(); return; }
-  const merit = SYL.papers.filter(p => p.counts_for_merit && ANSWERABLE.some(q => q.paper === p.id));
+  const merit = SYL.papers.filter(p => p.counts_for_merit && p.mock_enabled !== false && ANSWERABLE.some(q => q.paper === p.id));
   el.innerHTML = `
     <h1>Mock test</h1>
+    ${CONFIG.componentMocks ? `<div class="card mb"><strong>MCQ practice component</strong><p>Each technical paper also has 100 marks of written questions. These drills score MCQs only; their 3-hour timer is the full-paper limit, not a separate official MCQ duration. GS uses a 100-question study format. English MCQs and written work are available in Practice and Study.</p><p>Wrong answers lose one third of the question marks. Unanswered questions score zero. Coverage is limited to the questions available in the bank.</p></div>` : ''}
     <p class="muted">Timed, exam-conditions simulation. Questions are sampled across units in proportion to their real mark
     weighting, so a 40-mark unit gets twice the airtime of a 20-mark one. No feedback until you submit.</p>
     <div class="grid g2 mt">
@@ -1567,11 +1587,11 @@ VIEWS.mock = (el, opts) => {
         const deadMarks = dead.reduce((m, u) => m + u.marks, 0);
         return `<div class="card">
           <h3 style="margin:0">${esc(shortPaper(p.id))}</h3>
-          <p class="dim" style="margin:.35rem 0 .7rem">${want} questions · ${p.marks} marks · ${p.duration_hours || 2} hours<br>
+          <p class="dim" style="margin:.35rem 0 .7rem">${want} questions · ${CONFIG.componentMocks ? (p.mcq_marks || p.marks) : p.marks} ${CONFIG.componentMocks ? "MCQ" : ""} marks · ${p.duration_hours || 2} hours<br>
           bank holds ${n}${n < want ? ` <span style="color:var(--warn)">(short of ${want} — sampled with what exists)</span>` : ''}
           ${deadMarks ? `<br><span style="color:var(--warn)">covers only ${p.marks - deadMarks} of ${p.marks} marks — no questions yet for
             ${dead.slice(0, 3).map(u => esc(u.title)).join(', ')}${dead.length > 3 ? ` and ${dead.length - 3} more unit${dead.length - 3 > 1 ? 's' : ''}` : ''}</span>` : ''}</p>
-          <button class="btn pri sm" data-mock="${p.id}">Start ${p.duration_hours || 2}-hour mock</button>
+          <button class="btn pri sm" data-mock="${p.id}">${CONFIG.componentMocks ? "Start MCQ drill" : `Start ${p.duration_hours || 2}-hour mock`}</button>
         </div>`;
       }).join('')}
       <div class="card">
@@ -1603,12 +1623,12 @@ VIEWS.mock = (el, opts) => {
     const rnd = mulberry(hash32('mock' + Date.now()));
     let qs, title, secs;
     if (id === 'QUICK') {
-      qs = weightedPick(ANSWERABLE.filter(q => paperById[q.paper]?.counts_for_merit), 50, rnd);
+      qs = weightedPick(ANSWERABLE.filter(q => paperById[q.paper]?.counts_for_merit && (!CONFIG.componentMocks || q.paper.startsWith('TECH'))), 50, rnd);
       title = 'Quick mock — all technical papers'; secs = 3600;
     } else {
       const p = paperById[id];
       qs = weightedPick(ANSWERABLE.filter(q => q.paper === id), p.questions || 100, rnd);
-      title = 'Mock — ' + shortPaper(id);
+      title = (CONFIG.componentMocks ? 'MCQ drill — ' : 'Mock — ') + shortPaper(id);
       secs = (p.duration_hours || 2) * 3600;
     }
     if (!qs.length) { toast('No questions available for that paper yet'); return; }
@@ -2275,7 +2295,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
     // exam mode defers grading, so record everything now
     if (mode === 'exam') Q.forEach((q, k) => { if (picks[k]) recordAnswer(q, picks[k]); });
     const score = scoreNow();
-    S.sessions.push({ id: 'ses' + Date.now(), type: mode, title, started: 0, ended: Date.now(), score, total: Q.length });
+    S.sessions.push({ id: 'ses' + Date.now(), type: mode, title, started: 0, ended: Date.now(), score, total: Q.length, marks: quizMarks(Q, picks).earned, maximumMarks: quizMarks(Q, picks).total });
     if (S.sessions.length > 200) S.sessions = S.sessions.slice(-200);
     save();
     if (onFinish) onFinish(score, Q.length);
@@ -2284,7 +2304,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
 
   function results(score) {
     const p = pct(score, Q.length);
-    const marks = score * 2;
+    const {total: totalMarks, earned: marks} = quizMarks(Q, picks);
     const byUnit = {};
     Q.forEach((q, k) => {
       const key = `${q.paper}|${q.unit}`;
@@ -2300,9 +2320,9 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
         <h1>${esc(title)} — result</h1>
         <div class="grid g4 mb">
           ${stat('Score', `${score}/${Q.length}`, `${p}%`)}
-          ${stat('Marks', `${marks}`, `of ${Q.length * 2} at 2 each`)}
-          ${stat('Unanswered', String(picks.filter(x => !x).length), 'no negative marking')}
-          ${stat('Verdict', p >= 60 ? 'Strong' : p >= 45 ? 'Fair' : 'Weak', p >= 50 ? 'above qualifying line' : 'below 50%')}
+          ${stat('Marks', `${Number(marks.toFixed(2))}`, `of ${totalMarks}${CONFIG.negativeMarking ? ' after ⅓ penalty for wrong answers' : ''}`)}
+          ${stat('Unanswered', String(picks.filter(x => !x).length), CONFIG.negativeMarking ? 'zero marks; no penalty' : 'no negative marking')}
+          ${stat('Verdict', p >= 60 ? 'Strong' : p >= 45 ? 'Fair' : 'Weak', CONFIG.componentMocks ? 'practice accuracy, not a qualifying verdict' : p >= 50 ? 'above qualifying line' : 'below 50%')}
         </div>
         <div class="card mb">
           <div class="bar ${p >= 60 ? 'good' : p >= 45 ? 'warn' : 'bad'}" style="height:12px"><i style="width:${p}%"></i></div>
@@ -2415,6 +2435,7 @@ $('#modalX').onclick = () => { $('#modal').hidden = true; };
 $('#modal').onclick = e => { if (e.target.id === 'modal') $('#modal').hidden = true; };
 
 function paintCountdown() {
+  if (CONFIG.examLabel) { $('#countdown').textContent = CONFIG.examLabel; return; }
   const d = Math.ceil((Date.parse(EXAM_HINT) - Date.now()) / DAY);
   const el = $('#countdown');
   const apply = new Date('2026-08-29T16:00:00+05:30') - Date.now();

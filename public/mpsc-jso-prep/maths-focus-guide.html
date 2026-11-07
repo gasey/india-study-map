@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MPSC JSO · Mathematics — the 30 marks you master first</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --bg:#f7f7f5; --panel:#ffffff; --ink:#1a1a18; --muted:#6b6b66; --line:#e3e3de;
+  --accent:#1f6f78; --accent-soft:#e7efee;
+  --m1:#2f6f9f; --m2:#7a3ea3; --m3:#a34f2f;
+  --ok:#2e7d4f; --warn:#9a6b12; --bad:#a33232;
+  --radius:10px; --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#131315;--panel:#1c1c1f;--ink:#e9e9e4;--muted:#9d9d96;--line:#31313a;
+        --accent:#6aa6ae;--accent-soft:#20333a;
+        --m1:#6fb0dd;--m2:#c69be3;--m3:#e0916f;
+        --ok:#6cc48d;--warn:#d8ad52;--bad:#e08585;}
+}
+:root[data-theme="dark"]{--bg:#131315;--panel:#1c1c1f;--ink:#e9e9e4;--muted:#9d9d96;--line:#31313a;
+  --accent:#6aa6ae;--accent-soft:#20333a;--m1:#6fb0dd;--m2:#c69be3;--m3:#e0916f;
+  --ok:#6cc48d;--warn:#d8ad52;--bad:#e08585;}
+:root[data-theme="light"]{--bg:#f7f7f5;--panel:#ffffff;--ink:#1a1a18;--muted:#6b6b66;--line:#e3e3de;
+  --accent:#1f6f78;--accent-soft:#e7efee;--m1:#2f6f9f;--m2:#7a3ea3;--m3:#a34f2f;
+  --ok:#2e7d4f;--warn:#9a6b12;--bad:#a33232;}
+
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 var(--sans);
+     overflow-x:hidden;padding-bottom:5rem}
+.wrap{max-width:960px;margin:0 auto;padding:0 1.1rem}
+h1,h2,h3,h4{line-height:1.22;margin:0 0 .5rem;font-weight:650;letter-spacing:-.01em}
+h1{font-size:clamp(1.7rem,4.4vw,2.5rem)}
+h2{font-size:clamp(1.3rem,3vw,1.72rem);margin-top:0}
+h3{font-size:1.09rem}
+p{margin:0 0 .8rem}
+a{color:var(--accent)}
+code,.mono{font-family:var(--mono);font-size:.9em}
+
+header.hero{background:var(--panel);border-bottom:1px solid var(--line);padding:2.4rem 0 1.7rem}
+.kicker{font-size:.73rem;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.sub{color:var(--muted);max-width:64ch}
+.hero-stats{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.1rem}
+.stat{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);
+      padding:.5rem .75rem;min-width:104px}
+.stat b{display:block;font-size:1.32rem;line-height:1.1}
+.stat span{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+
+nav.toc{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--panel) 94%,transparent);
+  backdrop-filter:blur(9px);border-bottom:1px solid var(--line);overflow-x:auto;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none}
+nav.toc::-webkit-scrollbar{display:none}
+nav.toc ul{display:flex;gap:.15rem;list-style:none;margin:0;padding:.5rem 1.1rem;white-space:nowrap}
+nav.toc a{display:block;padding:.34rem .66rem;border-radius:7px;text-decoration:none;
+  color:var(--muted);font-size:.85rem;font-weight:550}
+nav.toc a:hover{background:var(--accent-soft);color:var(--accent)}
+
+section{padding:2.6rem 0;border-bottom:1px solid var(--line)}
+section>.wrap>h2{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.secnum{font:600 .8rem var(--mono);color:var(--accent);background:var(--accent-soft);
+  padding:.14rem .45rem;border-radius:5px}
+.lede{color:var(--muted);max-width:72ch;margin-bottom:1.4rem}
+
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:1.05rem 1.15rem;margin:0 0 .85rem}
+.grid{display:grid;gap:.85rem}
+@media(min-width:720px){.grid.two{grid-template-columns:1fr 1fr}.grid.three{grid-template-columns:repeat(3,1fr)}}
+
+.callout{border-left:3px solid var(--accent);background:var(--accent-soft);
+  padding:.85rem 1rem;border-radius:0 var(--radius) var(--radius) 0;margin:0 0 1.1rem}
+.callout.warn{border-color:var(--warn);background:color-mix(in srgb,var(--warn) 12%,transparent)}
+.callout h3{margin:0 0 .35rem;font-size:.98rem}
+.callout p:last-child{margin:0}
+
+.pill{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;padding:.16rem .44rem;border-radius:5px;border:1px solid var(--line);
+  color:var(--muted);vertical-align:middle}
+.pill.m1{color:var(--m1);border-color:currentColor}
+.pill.m2{color:var(--m2);border-color:currentColor}
+.pill.m3{color:var(--m3);border-color:currentColor}
+.pill.critical{color:var(--bad);border-color:currentColor}
+.pill.high{color:var(--warn);border-color:currentColor}
+.pill.medium,.pill.low{color:var(--muted)}
+.pill.conf-high{color:var(--ok);border-color:currentColor}
+.pill.real{color:var(--accent);border-color:currentColor}
+
+.yield-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.6rem;align-items:center;
+  padding:.3rem 0;border-bottom:1px dashed var(--line)}
+.yield-row:last-child{border-bottom:0}
+.yield-label{min-width:0;font-size:.9rem;display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
+.bar{height:8px;border-radius:99px;background:var(--accent);min-width:3px}
+.bar.m1{background:var(--m1)}.bar.m2{background:var(--m2)}.bar.m3{background:var(--m3)}
+.bartrack{background:var(--bg);border-radius:99px;overflow:hidden;width:min(46vw,290px)}
+.yield-n{font:600 .82rem var(--mono);color:var(--muted);text-align:right;min-width:2.6rem}
+@media(max-width:640px){
+  .yield-row{grid-template-columns:1fr;gap:.2rem}
+  .yield-row>div:last-child{width:100%}
+  .bartrack{width:100%;flex:1 1 auto}
+}
+
+details.acc{border:1px solid var(--line);border-radius:var(--radius);background:var(--panel);
+  margin:0 0 .55rem;overflow:hidden}
+details.acc>summary{cursor:pointer;padding:.75rem .95rem;font-weight:600;font-size:.97rem;
+  display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;list-style:none}
+details.acc>summary::-webkit-details-marker{display:none}
+details.acc>summary::before{content:"+";font:700 1rem var(--mono);color:var(--accent);width:.9rem}
+details.acc[open]>summary::before{content:"\2212"}
+details.acc[open]>summary{border-bottom:1px solid var(--line)}
+.acc-body{padding:.95rem}
+.acc-body>*:last-child{margin-bottom:0}
+
+.formulae{display:flex;flex-wrap:wrap;gap:.35rem;margin:.6rem 0}
+.formulae code{background:var(--bg);border:1px solid var(--line);border-radius:6px;
+  padding:.24rem .5rem;font-size:.82rem;white-space:nowrap;max-width:100%;overflow-x:auto}
+.progress-panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:.8rem 1rem;margin:0 0 1rem}
+.progress-line{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap;font-size:.88rem}
+.progress-track{height:8px;flex:1 1 180px;background:var(--bg);border-radius:99px;overflow:hidden}
+.progress-fill{height:100%;width:0;background:var(--ok);border-radius:99px;transition:width .2s ease}
+.progress-panel button{font-size:.78rem;padding:.28rem .5rem}
+.review-toggle{margin:.15rem 0 .7rem;display:flex;gap:.45rem;align-items:center;color:var(--muted);font-size:.82rem}
+.review-toggle input{accent-color:var(--accent)}
+.review-btn{margin:.2rem 0 .7rem}
+.review-btn.done{color:var(--ok);border-color:var(--ok)}
+.analogy{border-left:3px solid var(--m1);background:color-mix(in srgb,var(--m1) 9%,transparent);
+  padding:.6rem .8rem;border-radius:0 8px 8px 0;margin:.6rem 0;font-size:.94rem}
+.analogy::before{content:"Analogy";display:block;font-size:.66rem;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--m1);margin-bottom:.15rem}
+.traps{border-left:3px solid var(--bad);background:color-mix(in srgb,var(--bad) 8%,transparent);
+  padding:.6rem .8rem;border-radius:0 8px 8px 0;margin:.6rem 0}
+.traps::before{content:"Marks lost here";display:block;font-size:.66rem;font-weight:700;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--bad);margin-bottom:.2rem}
+.traps ul{margin:0;padding-left:1.15rem;font-size:.92rem}
+.traps li{margin:.18rem 0}
+
+.filters{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:1rem;align-items:center}
+select,input[type=text],button{font:inherit;font-size:.88rem;color:var(--ink);
+  background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:.4rem .55rem}
+button{cursor:pointer;font-weight:600}
+button.primary{background:var(--accent);color:#fff;border-color:transparent}
+button:disabled{opacity:.5;cursor:not-allowed}
+input[type=text]{min-width:min(100%,210px);flex:1 1 160px}
+
+.q{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+   padding:.9rem 1rem;margin:0 0 .7rem}
+.q-head{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center;margin-bottom:.45rem;font-size:.7rem}
+.q-src{color:var(--muted);font-size:.72rem;margin-left:auto}
+.q-stem{font-weight:550;margin:0 0 .55rem}
+.opts{list-style:none;margin:0 0 .5rem;padding:0;display:grid;gap:.28rem}
+.opts li{border:1px solid var(--line);border-radius:7px;padding:.4rem .6rem;font-size:.93rem;
+  display:flex;gap:.5rem;align-items:flex-start}
+.opts li .lt{font:700 .8rem var(--mono);color:var(--muted);flex:0 0 1.1rem}
+.opts li.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 11%,transparent)}
+.opts li.right .lt{color:var(--ok)}
+.reveal{margin-top:.45rem;padding-top:.6rem;border-top:1px dashed var(--line)}
+.reveal h4{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:.7rem 0 .2rem}
+.reveal h4:first-child{margin-top:0}
+.reveal .vars{margin:0;padding-left:1.15rem;font-size:.92rem}
+.hidden{display:none!important}
+
+.mock-bar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;background:var(--panel);
+  border:1px solid var(--line);border-radius:var(--radius);padding:.7rem .9rem;margin-bottom:1rem}
+.mock-bar .spacer{flex:1 1 auto}
+#timer{font:700 1rem var(--mono);color:var(--accent)}
+.mockq{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:.9rem 1rem;margin:0 0 .7rem}
+.mockq .opts li{cursor:pointer;user-select:none}
+.mockq .opts li:hover{border-color:var(--accent)}
+.mockq .opts li.sel{border-color:var(--accent);background:var(--accent-soft)}
+.mockq .opts li.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,transparent)}
+.score{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:1.1rem;margin-bottom:1rem}
+.score .big{font:700 2.1rem/1 var(--mono);color:var(--accent)}
+.scoregrid{display:grid;gap:.5rem;margin-top:.8rem}
+@media(min-width:600px){.scoregrid{grid-template-columns:repeat(4,1fr)}}
+.scoregrid div{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:.5rem .6rem}
+.scoregrid b{display:block;font:700 1.15rem var(--mono)}
+.scoregrid span{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+
+table{width:100%;border-collapse:collapse;font-size:.87rem}
+th,td{text-align:left;padding:.42rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.7rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.scrollx{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tnum{font-family:var(--mono);white-space:nowrap}
+
+.themetoggle{position:fixed;right:.85rem;bottom:.85rem;z-index:80;border-radius:99px;
+  width:2.6rem;height:2.6rem;padding:0;font-size:1rem;box-shadow:0 3px 12px rgba(0,0,0,.18)}
+@media print{
+  nav.toc,.themetoggle,.mock-bar,.filters,#mockRun{display:none!important}
+  body{background:#fff;color:#000;font-size:11pt}
+  header.hero,section{padding:1rem 0;border-color:#bbb}
+  .card,details.acc,.q{break-inside:avoid;background:#fff;border-color:#bbb}
+  details.acc{display:block}
+  details.acc>summary{display:none}
+  .acc-body{display:block!important}
+  a{color:inherit;text-decoration:none}
+}
+footer{padding:2rem 0;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">MPSC Junior Scientific Officer (Cyber Forensic) · Paper III, Part A · Unit III</div>
+  <h1>Mathematics — the 30 marks you can fully master first</h1>
+  <p class="sub">Paper III offers Biological Science <b>or</b> Mathematics, 30 marks each. Mathematics has the
+  smallest, most mechanical syllabus in the entire written exam: three 10-mark units, all standard
+  graduation-level material, every question solvable in under a minute once the formulae are cold.
+  This guide covers all three units with primers, solved questions and a 30-mark mock.</p>
+  <div class="hero-stats">
+    <div class="stat"><b>30</b><span>marks · Unit III</span></div>
+    <div class="stat"><b>3</b><span>units × 10</span></div>
+    <div class="stat"><b>8</b><span>concept primers</span></div>
+    <div class="stat"><b id="statQ">36</b><span>solved questions</span></div>
+    <div class="stat"><b>15</b><span>question mock</span></div>
+  </div>
+</div></header>
+
+<nav class="toc"><ul>
+  <li><a href="#how">How to use</a></li>
+  <li><a href="#marks">The 30 marks</a></li>
+  <li><a href="#primersec">Concept primers</a></li>
+  <li><a href="#banksec">Solved questions</a></li>
+  <li><a href="#mocksec">30-mark mock</a></li>
+  <li><a href="#methodsec">Method &amp; provenance</a></li>
+</ul></nav>
+
+<section id="how"><div class="wrap">
+  <h2><span class="secnum">01</span> How to use this, and why Maths first</h2>
+  <div class="callout">
+    <h3>Why Mathematics before the rest of Paper III</h3>
+    <p>Paper III is 200 marks: General Science 100 (Physics 34, Chemistry 36, <b>Biology <i>or</i>
+    Mathematics</b> 30) plus General Forensic 100. Physics and Chemistry are vast — 70 marks across
+    mechanics, thermodynamics, electrodynamics, atomic physics, organic chemistry and
+    electrochemistry. Mathematics is <b>30 marks across three compact topics</b> with a fixed formula
+    set and no breadth to hide in. It is the fastest block to take from "unprepared" to "full marks",
+    and the negative-marking arithmetic rewards exactly the precision this unit tests.</p>
+  </div>
+  <div class="callout warn">
+    <h3>Read this before you trust an answer</h3>
+    <p>No JSO (Cyber Forensic) paper has ever been set — the division has never been recruited — so
+    there is no official answer key for this unit. Questions marked
+    <span class="pill real">real MPSC</span> are transcribed from actual MPSC papers at a matching
+    standard (Inspector of Statistics, Sub Inspector (UB), High School Teacher Mathematics); their
+    answers are derived from subject knowledge and cross-checked. All other questions are authored
+    to the official syllabus. Every answer below was verified computationally before publication.</p>
+  </div>
+  <div class="grid two">
+    <div class="card"><h3>The order that works</h3>
+      <p>Read the <a href="#marks">unit table</a> to see the three blocks. For each block, read its
+      <a href="#primersec">primer</a>, write the formulae from memory, then drill that block's
+      <a href="#banksec">solved questions</a>. Finish with the <a href="#mocksec">30-mark mock</a>
+      under negative marking.</p></div>
+    <div class="card"><h3>What actually earns marks</h3>
+      <p>Every question carries a <b>trap</b> (the distractor that catches people and why) and
+      <b>variations</b> (other ways the same concept gets asked). Those generalise; the exact
+      question will almost certainly not repeat verbatim.</p></div>
+  </div>
+  <div class="callout">
+    <h3>A repeatable study loop</h3>
+    <p><b>1 · Diagnose:</b> pick one sub-topic from the unit table. <b>2 · Learn:</b> read its primer
+    and write the formulae or definitions from memory. <b>3 · Retrieve:</b> answer that topic's
+    questions without looking at the explanation. <b>4 · Repair:</b> record the trap you fell for,
+    then revisit after 1 day, 3 days and 7 days. <b>5 · Test:</b> use the timed mock only after
+    topic-level recall is working.</p>
+  </div>
+</div></section>
+
+<section id="marks"><div class="wrap">
+  <h2><span class="secnum">02</span> The 30 marks at a glance</h2>
+  <p class="lede">The official syllabus splits Unit III into three equal 10-mark blocks. The bars show
+  how many solved questions this guide provides per block — the coverage is even, because the mark
+  split is even.</p>
+  <div id="yield"></div>
+  <div class="callout" style="margin-top:1.1rem">
+    <h3>Official syllabus text (verbatim)</h3>
+    <p style="font-size:.9rem"><b>I. Sets, Relations and functions (10 Marks):</b> Sets and their
+    representation; Union, intersection and complement of sets and their algebraic properties; Power
+    set, Relations, type of relations, equivalence relations, functions; one-one, into and onto
+    functions, the composition of functions.</p>
+    <p style="font-size:.9rem"><b>II. Permutations and combinations (10 Marks):</b> The fundamental
+    principle of counting, permutations and combinations; Meaning of P(n, r) and C(n, r). Simple
+    applications.</p>
+    <p style="font-size:.9rem;margin:0"><b>III. Statistics and probability (10 Marks):</b> Measures of
+    dispersion; calculation of mean, median, mode of grouped and ungrouped data, calculation of
+    standard deviation, variance and mean deviation for grouped and ungrouped data. Probability:
+    Probability of an event, addition and multiplication theorems of probability.</p>
+  </div>
+</div></section>
+
+<section id="primersec"><div class="wrap">
+  <h2><span class="secnum">03</span> Concept primers</h2>
+  <p class="lede">One per sub-topic, ordered by unit. Each gives the governing formulae, one analogy,
+  and the specific confusions that cost marks. Read a primer actively: hide the body, reproduce its
+  formulae and definitions, then check yourself against the text.</p>
+  <div class="progress-panel">
+    <div class="progress-line"><b id="primerProgressLabel">0 of 8 primers reviewed (0%)</b>
+      <div class="progress-track"><div class="progress-fill" id="primerProgressFill"></div></div>
+      <button id="resetPrimerProgress">Reset progress</button></div>
+    <label class="review-toggle"><input type="checkbox" id="unfinishedOnly"> Show unfinished primers only</label>
+  </div>
+  <div id="primers"></div>
+</div></section>
+
+<section id="banksec"><div class="wrap">
+  <h2><span class="secnum">04</span> Solved questions</h2>
+  <p class="lede">Real MPSC questions where they match the syllabus, authored questions elsewhere.
+  The correct option is highlighted; explanation, analogy, trap and likely variations follow.
+  <span class="pill real">real MPSC</span> marks a transcribed paper question with its source.</p>
+  <div class="filters">
+    <select id="fUnit"></select>
+    <select id="fTopic"></select>
+    <input type="text" id="fSearch" placeholder="Search stems, options, concepts…">
+    <span class="mono" id="bankCount" style="color:var(--muted);font-size:.8rem"></span>
+  </div>
+  <div id="bank"></div>
+</div></section>
+
+<section id="mocksec"><div class="wrap">
+  <h2><span class="secnum">05</span> 30-mark mock test</h2>
+  <p class="lede">Fifteen questions at 2 marks each — exactly the 30 marks of Unit III. The mix is
+  weighted 5 / 5 / 5 across the three units. Timing allows roughly 1 minute a mark, matching the
+  real paper's pace (200 marks in 2 hours). Negative marking is real on every MPSC MCQ paper.</p>
+  <div id="mockSetup" class="mock-bar">
+    <label>Questions
+      <select id="mN"><option>10</option><option selected>15</option><option>20</option><option>30</option></select>
+    </label>
+    <label>Penalty per wrong
+      <select id="mNeg"><option value="0.25" selected>&minus;0.25 (1/4)</option>
+        <option value="0.3333">&minus;0.33 (1/3)</option><option value="0.5">&minus;0.5</option>
+        <option value="0">none</option></select>
+    </label>
+    <label>Marks per correct
+      <select id="mPos"><option value="1">1</option><option value="2" selected>2</option></select>
+    </label>
+    <span class="spacer"></span>
+    <button class="primary" id="mStart">Start</button>
+  </div>
+  <div id="mockRun" class="hidden">
+    <div class="mock-bar">
+      <span id="timer">--:--</span>
+      <span class="mono" id="mProgress" style="color:var(--muted);font-size:.82rem"></span>
+      <span class="spacer"></span>
+      <button class="primary" id="mSubmit">Submit &amp; review</button>
+      <button id="mReset">New test</button>
+    </div>
+    <div id="mockScore"></div>
+    <div id="mockQs"></div>
+  </div>
+</div></section>
+
+<section id="methodsec"><div class="wrap">
+  <h2><span class="secnum">06</span> Method, provenance and honest limits</h2>
+  <div class="grid two">
+    <div class="card"><h3>Where the questions come from</h3>
+      <p>Three real MPSC papers supplied questions that sit exactly on the JSO syllabus:
+      <b>Inspector of Statistics Paper-III (Mathematics), 2017</b> (the surjection question),
+      <b>Sub Inspector (UB) Mathematics, 2018</b> (the prime-number and red-Queen probability
+      questions), and <b>High School Teacher (Mathematics) Paper-I, 2017</b> (the standard-deviation
+      transformation and exactly-one-girl questions). The remaining questions are authored to the
+      official syllabus text and verified computationally.</p></div>
+    <div class="card"><h3>What is not covered here</h3>
+      <p>The JSO paper has never been set, so no question can be guaranteed to predict it. The
+      nearest real MPSC mathematics papers (ACF, MCS Main, MPE&amp;SS) are set at a far higher level
+      — matrices, real analysis, abstract algebra — and are <b>not</b> useful for this unit. The
+      syllabus here is deliberately elementary; the value is in total command of a small surface,
+      not in advanced material.</p></div>
+    <div class="card"><h3>Verification</h3>
+      <p>Every numerical answer in this guide was recomputed by script before publication, and the
+      real-paper questions were checked against their source OCR. Where a real paper's OCR was
+      ambiguous the question was dropped rather than guessed. If you find a discrepancy, treat the
+      arithmetic as authoritative and check the source paper.</p></div>
+    <div class="card"><h3>Using it with the rest of Paper III</h3>
+      <p>This guide covers the 30 marks you chose <i>instead of</i> Biology. The sibling
+      <a href="science-study-guide.html">General Science guide</a> covers Physics and Chemistry and
+      currently weights its mock to Biology — when you run a mixed Paper III mock, swap that
+      weighting to Mathematics and use this bank for the 30 marks.</p></div>
+  </div>
+  <h3 style="margin-top:1.4rem">Source papers</h3>
+  <div id="prov"></div>
+</div></section>
+
+<footer><div class="wrap">
+  <p>Built 2026-11-07 for MPSC JSO (Cyber Forensic) Adv. 18 of 2026-27 · Paper III Unit III
+  (Mathematics, 30 marks). Answers derived and verified, not transcribed from an official key —
+  none exists for this division. Verify anything that matters against a textbook before relying on
+  it in the exam.</p>
+</div></footer>
+
+<button class="themetoggle" id="themetoggle" title="Toggle light/dark">&#9788;</button>
+
+<script id="payload" type="application/json">{"units": [{"unit": "M1", "title": "Sets, Relations and Functions", "marks": 10, "syllabus": "Sets and their representation; Union, intersection and complement of sets and their algebraic properties; Power set, Relations, type of relations, equivalence relations, functions; one-one, into and onto functions, the composition of functions."}, {"unit": "M2", "title": "Permutations and Combinations", "marks": 10, "syllabus": "The fundamental principle of counting, permutations and combinations; Meaning of P(n, r) and C(n, r). Simple applications."}, {"unit": "M3", "title": "Statistics and Probability", "marks": 10, "syllabus": "Measures of dispersion; calculation of mean, median, mode of grouped and ungrouped data, calculation of standard deviation, variance and mean deviation for grouped and ungrouped data. Probability: Probability of an event, addition and multiplication theorems of probability."}], "primers": [{"subtopic": "Sets, power set and counting formulae", "unit": "M1", "priority": "critical", "primer": "<p>A <b>set<\/b> is a well-defined collection of distinct objects; <b>cardinality<\/b> |A| counts its elements. The <b>power set<\/b> P(A) is the set of all subsets; if |A| = n then |P(A)| = <b>2ⁿ<\/b>. The number of <b>proper subsets<\/b> is 2ⁿ − 1 (all subsets except A itself). The empty set ∅ is a subset of every set, and every set is a subset of itself.<\/p><p><b>Inclusion–exclusion<\/b> is the workhorse for numerical questions:<\/p><ul><li>|A ∪ B| = |A| + |B| − |A ∩ B|<\/li><li>|A ∪ B ∪ C| = |A| + |B| + |C| − |A∩B| − |B∩C| − |A∩C| + |A∩B∩C|<\/li><\/ul><p><b>De Morgan's laws:<\/b> (A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′. Union and intersection are commutative, associative, and mutually distributive.<\/p><p><b>Cartesian product:<\/b> |A × B| = |A| × |B|. A <b>relation<\/b> from A to B is any subset of A × B, so the number of relations is <b>2^(mn)<\/b>.<\/p>", "formulae": ["|P(A)| = 2ⁿ when |A| = n", "Proper subsets = 2ⁿ − 1", "|A ∪ B| = |A| + |B| − |A ∩ B|", "|A ∪ B ∪ C| = |A|+|B|+|C| − |A∩B| − |B∩C| − |A∩C| + |A∩B∩C|", "(A ∪ B)′ = A′ ∩ B′;  (A ∩ B)′ = A′ ∪ B′", "|A × B| = |A| × |B|;  relations from A to B = 2^(mn)"], "analogy": "A power set is the full menu of possible subsets — for n items you can include or exclude each one independently, giving 2 choices per item and 2ⁿ combinations total, exactly like n coin flips.", "traps": ["Answering 2ⁿ for the number of <em>proper<\/em> subsets — proper excludes the set itself, so it is 2ⁿ − 1.", "Forgetting to subtract the overlap in |A ∪ B| — the classic double-count error that makes the total exceed the universe.", "Confusing the number of relations (2^(mn), subsets of A×B) with the size of A×B itself (mn)."]}, {"subtopic": "Relations and equivalence", "unit": "M1", "priority": "critical", "primer": "<p>A relation R on a set A is:<\/p><ul><li><b>Reflexive<\/b> — (a, a) ∈ R for every a ∈ A.<\/li><li><b>Symmetric<\/b> — (a, b) ∈ R ⟹ (b, a) ∈ R.<\/li><li><b>Transitive<\/b> — (a, b) ∈ R and (b, c) ∈ R ⟹ (a, c) ∈ R.<\/li><li><b>Equivalence relation<\/b> — all three together.<\/li><\/ul><p>An equivalence relation <b>partitions<\/b> the set into disjoint equivalence classes. Standard examples: equality; congruence modulo n; parallelism of lines; similarity of triangles.<\/p><p><b>Counting relations:<\/b> on a set with n elements there are <b>2^(n²)<\/b> relations in total. Reflexive relations must contain all n diagonal pairs, leaving n² − n free pairs, so there are <b>2^(n²−n)<\/b> of them. The number of equivalence relations is the Bell number Bₙ (B₃ = 5, B₄ = 15).<\/p>", "formulae": ["Total relations on an n-element set = 2^(n²)", "Reflexive relations = 2^(n²−n)", "Equivalence relations on n elements = Bell number Bₙ (B₃ = 5)", "Equivalence ⟺ reflexive + symmetric + transitive"], "analogy": "An equivalence relation is like sorting a mixed box of objects into labelled bins where every object goes in exactly one bin — the bins are the equivalence classes, and the relation just says 'is in the same bin as'.", "traps": ["\"Perpendicular to\" on lines is symmetric but <em>not<\/em> reflexive (no line ⊥ itself) and <em>not<\/em> transitive (L₁⊥L₂ and L₂⊥L₃ makes L₁ ∥ L₃).", "\"Is a subset of\" is reflexive and transitive but <em>not<\/em> symmetric.", "\"Is the brother of\" is not symmetric — the sibling may be a sister.", "Assuming every symmetric + transitive relation is equivalence — it must also be reflexive."]}, {"subtopic": "Functions — one-one, onto, composition", "unit": "M1", "priority": "critical", "primer": "<ul><li><b>One-one (injective)<\/b> — distinct inputs give distinct outputs: f(x₁) = f(x₂) ⟹ x₁ = x₂. Graphically, the horizontal line test.<\/li><li><b>Onto (surjective)<\/b> — every element of the codomain is attained: range = codomain.<\/li><li><b>Bijective<\/b> — both; only a bijection has an inverse.<\/li><li><b>Into<\/b> — not onto: some codomain element is unattained.<\/li><\/ul><p><b>Counting functions<\/b> from a set of size m to a set of size n: total functions = <b>nᵐ<\/b>; one-one functions = <b>ⁿPₘ<\/b> (only if n ≥ m). Onto functions require n ≤ m; for n = 2 the number of surjections from an m-element set is <b>2ᵐ − 2<\/b> (all functions minus the two constant ones).<\/p><p><b>Composition:<\/b> (f ∘ g)(x) = f(g(x)) — apply <b>g first<\/b>. Composition is associative but <b>not commutative<\/b>. If f and g are both one-one then f ∘ g is one-one; likewise for onto. And (f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹ — the order reverses.<\/p>", "formulae": ["Total functions m→n = nᵐ", "One-one functions m→n = ⁿPₘ (requires n ≥ m)", "Surjections onto a 2-element set = 2ᵐ − 2", "(f ∘ g)(x) = f(g(x)) — g applied first", "(f ∘ g)⁻¹ = g⁻¹ ∘ f⁻¹"], "analogy": "Composition is a relay race: g runs the first leg and hands the baton to f, so (f ∘ g)(x) means g goes first — reading the symbols left-to-right as f-then-g is the single commonest slip.", "traps": ["Answering 5³ = 125 for one-one functions from 3 to 5 — that is <em>all<\/em> functions; one-one is ⁵P₃ = 60.", "For n = 2, answering 2ᵐ for surjections — the two constant functions are not onto, so it is 2ᵐ − 2.", "Assuming a function with an inverse need only be one-one — it must be both one-one and onto (bijective)."]}, {"subtopic": "Fundamental principle, nPr and nCr", "unit": "M2", "priority": "critical", "primer": "<p><b>Fundamental principle of counting:<\/b> if one task can be done in m ways and a second independently in n ways, both can be done in <b>m × n<\/b> ways (multiplication for \"and\", addition for \"or\").<\/p><ul><li><b>Permutation<\/b> — arrangement, <b>order matters<\/b>: <b>ⁿPᵣ = n! / (n − r)!<\/b><\/li><li><b>Combination<\/b> — selection, <b>order does not matter<\/b>: <b>ⁿCᵣ = n! / [r!(n − r)!]<\/b><\/li><li>Relation: <b>ⁿPᵣ = ⁿCᵣ × r!<\/b><\/li><\/ul><p><b>The decision rule.<\/b> Ask whether rearranging the chosen items produces a different outcome. A <em>committee<\/em> of 3 from 10 is a combination; the offices of <em>president, secretary and treasurer<\/em> filled from 10 is a permutation. Handshakes and diagonals are combinations; seating and ranking are permutations.<\/p>", "formulae": ["ⁿPᵣ = n!/(n−r)!", "ⁿCᵣ = n!/[r!(n−r)!]", "ⁿPᵣ = ⁿCᵣ × r!", "Multiplication principle for \"and\"; addition for \"or\""], "analogy": "A permutation is a ranked finishing order (gold, silver and bronze all differ); a combination is just the set of medallists with no order — same people, different question.", "traps": ["Using ⁿPᵣ for a committee — if no posts are assigned, order is irrelevant and it is ⁿCᵣ.", "Computing ¹⁰C₈ as a large factorial — use ⁿCᵣ = ⁿCₙ₋ᵣ to get ¹⁰C₂ = 45.", "Forgetting 0! = 1, which breaks ⁿC₀ and ⁿCₙ."]}, {"subtopic": "Identities and standard cases", "unit": "M2", "priority": "high", "primer": "<ul><li>ⁿC₀ = ⁿCₙ = 1; ⁿC₁ = n; <b>ⁿCᵣ = ⁿCₙ₋ᵣ<\/b><\/li><li><b>Pascal's rule:<\/b> ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ<\/li><li>Sum of all combinations: ⁿC₀ + ⁿC₁ + … + ⁿCₙ = <b>2ⁿ<\/b><\/li><\/ul><p><b>Standard cases worth memorising:<\/b><\/p><ul><li>Arrangements of n objects with repetitions p, q, r alike: <b>n! / (p! q! r!)<\/b><\/li><li><b>Circular<\/b> permutations of n objects: <b>(n − 1)!<\/b>; a necklace/garland (flippable) is <b>(n − 1)!/2<\/b><\/li><li>Arrangements with r positions and repetition allowed: <b>nʳ<\/b><\/li><li>Number of diagonals of an n-sided polygon: <b>ⁿC₂ − n = n(n − 3)/2<\/b><\/li><li>Handshakes among n people: <b>ⁿC₂<\/b><\/li><li>\"At least one\" problems: compute the <b>complement<\/b> — total minus none.<\/li><li>Items that must stay together: <b>treat the block as one unit<\/b>, then multiply by the internal arrangements of the block.<\/li><\/ul>", "formulae": ["ⁿCᵣ = ⁿCₙ₋ᵣ", "ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ", "Σ ⁿCᵣ = 2ⁿ", "Repeated letters: n!/(p!q!r!)", "Circular: (n−1)!; necklace: (n−1)!/2", "Diagonals: n(n−3)/2; handshakes: ⁿC₂", "Block method: bundle, arrange, multiply by internal arrangements"], "analogy": "The block method is like taping together a group of friends who insist on sitting together — count the tape-bundle as one seat, then let the friends shuffle inside it.", "traps": ["Forgetting to divide by repeats in a word like LEVEL — 5!/(2!2!) = 30, not 120.", "Using n! instead of (n−1)! for a circular table — rotations are the same arrangement.", "Answering ⁿC₂ for diagonals — that counts the sides too; subtract n.", "Missing the complement trick on \"at least one\" — total minus none is far faster."]}, {"subtopic": "Mean, median and mode", "unit": "M3", "priority": "critical", "primer": "<ul><li><b>Mean<\/b> = Σx / n (ungrouped) or Σfx / Σf (grouped). Uses every value, so it is <b>most affected by extreme values<\/b>.<\/li><li><b>Median<\/b> — the middle value of ordered data; for even n, the mean of the two middle values. <b>Unaffected by outliers<\/b>, so preferred for skewed data such as income.<\/li><li><b>Mode<\/b> — the most frequent value. A data set may have no mode or several.<\/li><\/ul><p><b>Empirical relation<\/b> for a moderately skewed distribution: <b>Mode = 3 Median − 2 Mean<\/b>. In a perfectly symmetric distribution, mean = median = mode.<\/p><p>For grouped data, the median class is found from n/2 and the mode class is the one with the highest frequency; interpolation formulae are rarely needed at this level, but identifying the correct class is commonly tested.<\/p>", "formulae": ["Mean = Σx/n = Σfx/Σf", "Median = middle value (mean of two middles if n even)", "Mode = 3 Median − 2 Mean (empirical, moderately skewed)", "Symmetric: mean = median = mode"], "analogy": "Mean is the balancing point of a seesaw, median is the person in the middle of a queue, and mode is the most popular shirt size — only the mean gets dragged by a single giant or tiny value.", "traps": ["Forgetting to sort data before taking the median — the single commonest error.", "Taking one middle value when n is even instead of averaging the two.", "Misapplying Mode = 3 Median − 2 Mean as Mean = 3 Median − 2 Mode — the coefficients attach to the wrong terms."]}, {"subtopic": "Dispersion — range, mean deviation, variance, SD, CV", "unit": "M3", "priority": "critical", "primer": "<ul><li><b>Range<\/b> = maximum − minimum. Crude; uses only two values.<\/li><li><b>Mean deviation<\/b> = Σ|x − x̄| / n. Taken about the mean or median; it is <b>least about the median<\/b>.<\/li><li><b>Variance<\/b> σ² = Σ(x − x̄)² / n. Computationally: <b>σ² = (Σx²/n) − x̄²<\/b>.<\/li><li><b>Standard deviation<\/b> σ = √variance. <b>Same units as the data<\/b>, which is why it is preferred for reporting.<\/li><li><b>Coefficient of variation<\/b> = (σ / x̄) × 100. Dimensionless, so it is the correct tool for <b>comparing consistency between two data sets<\/b> with different units or very different means — lower CV means greater consistency.<\/li><\/ul><p><b>Effect of transformations:<\/b> adding a constant to every value shifts the mean but <b>leaves σ unchanged<\/b>. Multiplying every value by k multiplies the mean by k, σ by |k|, and the variance by k².<\/p><p>Standard deviation of the first n natural numbers: σ = √[(n² − 1)/12], so the variance is <b>(n² − 1)/12<\/b>.<\/p>", "formulae": ["Range = max − min", "Mean deviation = Σ|x − x̄|/n (least about the median)", "σ² = Σ(x − x̄)²/n = (Σx²/n) − x̄²", "σ = √σ² (same units as data)", "CV = (σ/x̄) × 100 — compare consistency", "Variance of first n naturals = (n² − 1)/12"], "analogy": "If every value in a data set is a person's height, adding 5 cm to everyone just lifts the whole group — the spread (SD) is unchanged. Multiplying everyone's height by 2 stretches the group apart, so the spread doubles.", "traps": ["Thinking σ changes when a constant is added — it measures spread about the mean, which shifts too.", "Comparing two data sets with different means using σ alone — use the coefficient of variation.", "Confusing variance (units²) with standard deviation (same units as data).", "Forgetting the square root at the end — variance and SD are offered as separate options."]}, {"subtopic": "Probability — addition, multiplication, independence", "unit": "M3", "priority": "critical", "primer": "<p>P(E) = favourable outcomes / total outcomes, with <b>0 ≤ P(E) ≤ 1<\/b>. P(E′) = 1 − P(E).<\/p><p><b>Addition theorem:<\/b> P(A ∪ B) = P(A) + P(B) − P(A ∩ B). For <b>mutually exclusive<\/b> events (cannot occur together), P(A ∩ B) = 0, so P(A ∪ B) = P(A) + P(B).<\/p><p><b>Multiplication theorem:<\/b> P(A ∩ B) = P(A) × P(B|A). For <b>independent<\/b> events (one's occurrence does not affect the other's probability), P(A ∩ B) = P(A) × P(B).<\/p><p><b>Do not conflate mutually exclusive with independent.<\/b> They are near-opposites: if two events with non-zero probability are mutually exclusive, one occurring <em>guarantees<\/em> the other did not — making them strongly <b>dependent<\/b>. Two events cannot be both mutually exclusive and independent unless one has probability zero.<\/p><p><b>Reference counts:<\/b> a standard deck has <b>52 cards<\/b>, 4 suits of 13, <b>26 red and 26 black<\/b>, 12 face cards (J, Q, K), and 4 aces. Two dice give <b>36<\/b> outcomes; a sum of 7 occurs in 6 of them, making it the most likely total.<\/p><p>For \"at least one\" problems, compute the <b>complement<\/b>: P(at least one) = 1 − P(none).<\/p>", "formulae": ["P(E) = favourable/total; 0 ≤ P ≤ 1", "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)", "Mutually exclusive: P(A ∪ B) = P(A) + P(B)", "Independent: P(A ∩ B) = P(A) × P(B)", "P(at least one) = 1 − P(none)", "Deck: 52 cards, 26 red, 26 black, 12 face, 4 aces; two dice: 36 outcomes, sum 7 = 6 ways"], "analogy": "Mutually exclusive events are two switches that cannot both be on; independent events are two separate switches in different rooms, where one being on tells you nothing about the other.", "traps": ["Multiplying P(A) × P(B) for mutually exclusive events — that is the <em>independent<\/em> rule, and mutually exclusive events with non-zero probability are dependent.", "Adding P(A) + P(B) for independent events — that is the <em>mutually exclusive<\/em> rule.", "Reading \"red king\" as \"king\" — 2 red kings out of 52, not 4 kings.", "Counting unordered dice pairs — (1,6) and (6,1) are distinct outcomes."]}], "questions": [{"unit": "M1", "subtopic": "Sets, power set and counting formulae", "stem": "The number of surjections from A = {1, 2, …, n}, n ≥ 2, onto B = {a, b} is", "options": ["n", "nP2", "2ⁿ − 2", "2ⁿ − 1"], "answer": 2, "explanation": "<p>A surjection onto two elements means every element of B is hit. There are <b>2ⁿ<\/b> functions from A to B in total; exactly <b>2<\/b> of them are constant (all-a and all-b) and so fail to be onto. The number of surjections is therefore <b>2ⁿ − 2<\/b>.<\/p><p>For n = 3 this gives 8 − 2 = 6, which you can verify by listing: each of the 3 elements chooses a or b (8 ways), minus aaa and bbb.<\/p>", "trap": "Answering 2ⁿ (all functions) or 2ⁿ − 1 (subtracting only one constant). Both constants fail to be onto, so subtract 2.", "analogy": "Think of it as assigning each of n people to one of two rooms with neither room left empty — total assignments 2ⁿ, minus the two arrangements where everyone piles into one room.", "variations": ["Number of onto functions from a 4-element set to a 3-element set", "Surjections onto a 3-element set (Stirling numbers of the second kind)", "Number of relations from A to B versus number of functions"], "source": "Inspector of Statistics Paper-III (Mathematics), MPSC 2017, Q1", "concept": "Sets, power set and counting formulae"}, {"unit": "M1", "subtopic": "Sets, power set and counting formulae", "stem": "If a set A has 5 elements, the number of elements in its power set is", "options": ["10", "25", "32", "120"], "answer": 2, "explanation": "<p>|P(A)| = <b>2ⁿ = 2⁵ = 32<\/b>.<\/p><p>Do not confuse this with 5² = 25 or 5! = 120, both offered as distractors. The number of <em>proper<\/em> subsets would be 31.<\/p>", "trap": "Confusing 2ⁿ with n² or n! — the three are all different functions of n.", "analogy": null, "variations": ["Proper subsets of a 6-element set", "Number of subsets with at least 2 elements", "Comparing |P(A)| with |A × A|"], "source": null, "concept": "Sets, power set and counting formulae"}, {"unit": "M1", "subtopic": "Sets, power set and counting formulae", "stem": "In a class of 60 students, 35 play cricket, 30 play football and 15 play both. The number who play neither is", "options": ["5", "10", "15", "20"], "answer": 1, "explanation": "<p>|C ∪ F| = 35 + 30 − 15 = <b>50<\/b> play at least one game. Therefore 60 − 50 = <b>10<\/b> play neither.<\/p><p>The commonest error is forgetting to subtract the overlap, giving 65 — which exceeds the class size and should immediately signal the mistake.<\/p>", "trap": "Forgetting to subtract the intersection: 35 + 30 = 65 &gt; 60 is impossible, so the answer must be wrong.", "analogy": null, "variations": ["Three-set inclusion–exclusion", "Given neither, find the intersection", "At least one of three activities"], "source": null, "concept": "Sets, power set and counting formulae"}, {"unit": "M1", "subtopic": "Relations and equivalence", "stem": "The relation \"is perpendicular to\" on the set of all lines in a plane is", "options": ["An equivalence relation", "Symmetric but neither reflexive nor transitive", "Reflexive and transitive but not symmetric", "Transitive only"], "answer": 1, "explanation": "<p>It is <b>symmetric<\/b> (if L₁ ⊥ L₂ then L₂ ⊥ L₁), but <b>not reflexive<\/b> (no line is perpendicular to itself) and <b>not transitive<\/b> (if L₁ ⊥ L₂ and L₂ ⊥ L₃ then L₁ is <em>parallel<\/em> to L₃, not perpendicular).<\/p><p>Contrast with \"is parallel to\", which <em>is<\/em> an equivalence relation — the pairing examiners like to exploit.<\/p>", "trap": "Assuming symmetry implies reflexivity. \"Perpendicular to\" is the standard counterexample: symmetric only.", "analogy": null, "variations": ["\"Is a subset of\" — reflexive and transitive, not symmetric", "\"Is the brother of\" — not symmetric", "\"Is congruent modulo n to\" — equivalence relation"], "source": null, "concept": "Relations and equivalence"}, {"unit": "M1", "subtopic": "Functions — one-one, onto, composition", "stem": "The number of one-one functions from a set with 3 elements to a set with 5 elements is", "options": ["15", "60", "125", "243"], "answer": 1, "explanation": "<p>One-one functions number <b>⁵P₃ = 5 × 4 × 3 = 60<\/b> — choose a distinct image for each of the 3 inputs in order.<\/p><p>5³ = 125 counts <em>all<\/em> functions, and 3⁵ = 243 reverses the roles. No one-one function exists when the domain is larger than the codomain.<\/p>", "trap": "Answering 5³ = 125, which counts <em>all<\/em> functions, not one-one ones.", "analogy": null, "variations": ["Onto functions from a larger set to a smaller one", "Number of bijections between equal-sized sets", "One-one functions when domain exceeds codomain"], "source": null, "concept": "Functions — one-one, onto, composition"}, {"unit": "M1", "subtopic": "Functions — one-one, onto, composition", "stem": "If f(x) = 2x + 3 and g(x) = x², then (f ∘ g)(2) equals", "options": ["11", "19", "49", "25"], "answer": 0, "explanation": "<p>(f ∘ g)(2) = f(g(2)) — apply <b>g first<\/b>: g(2) = 4, then f(4) = 2(4) + 3 = <b>11<\/b>.<\/p><p>Reversing the order gives (g ∘ f)(2) = g(7) = 49, which is offered as option (c). Composition is <b>not commutative<\/b>, and this is exactly how that is tested.<\/p>", "trap": "Reading (f ∘ g)(x) as f-then-g instead of g-then-f. The rightmost function acts first.", "analogy": "Composition is a relay: g runs the first leg, f the second. The symbol order is the reverse of the action order.", "variations": ["(g ∘ f)(x) for the same pair", "Composition of three functions", "Inverse composition (f ∘ g)⁻¹"], "source": null, "concept": "Functions — one-one, onto, composition"}, {"unit": "M1", "subtopic": "Relations and equivalence", "stem": "A relation R on a set A is an equivalence relation if it is", "options": ["Reflexive and symmetric only", "Symmetric and transitive only", "Reflexive, symmetric and transitive", "Reflexive and transitive only"], "answer": 2, "explanation": "<p>All three properties are required. An equivalence relation <b>partitions<\/b> the set into disjoint equivalence classes.<\/p><p>Each of the other options is a genuine but weaker structure — reflexive + transitive alone is a <em>preorder<\/em>, for instance — which is why they make plausible distractors.<\/p>", "trap": "Dropping one property. All three are necessary; a relation missing any one is not an equivalence relation.", "analogy": null, "variations": ["Equivalence classes of congruence modulo 5", "Bell numbers counting equivalence relations", "Why \"parallel to\" is equivalence but \"perpendicular to\" is not"], "source": null, "concept": "Relations and equivalence"}, {"unit": "M1", "subtopic": "Relations and equivalence", "stem": "The total number of relations from a set with 3 elements to a set with 2 elements is", "options": ["6", "8", "64", "512"], "answer": 2, "explanation": "<p>A relation is any <b>subset of A × B<\/b>. Here |A × B| = 3 × 2 = 6, so the number of subsets is <b>2⁶ = 64<\/b>.<\/p><p>The trap is answering 6 (the size of the Cartesian product) rather than the number of its subsets. Compare: the number of <em>functions<\/em> from A to B would be 2³ = 8.<\/p>", "trap": "Answering 6 (the Cartesian product size) instead of 2⁶ (its subsets). Also, 8 is the number of <em>functions<\/em>, a different object.", "analogy": null, "variations": ["Relations on a single n-element set", "Reflexive relations on a 4-element set", "Comparing relations, functions and equivalence relations"], "source": null, "concept": "Relations and equivalence"}, {"unit": "M1", "subtopic": "Relations and equivalence", "stem": "By De Morgan's law, the complement of (A ∪ B) is", "options": ["A′ ∪ B′", "A′ ∩ B′", "A ∩ B", "A ∪ B"], "answer": 1, "explanation": "<p>De Morgan's laws: <b>(A ∪ B)′ = A′ ∩ B′<\/b> and (A ∩ B)′ = A′ ∪ B′. The complement of a union is the intersection of the complements.<\/p><p>The two laws are mirror images — union ↔ intersection when you pass through a complement.<\/p>", "trap": "Swapping ∪ and ∩ in one direction only. Both laws swap the operator, so (A ∪ B)′ must become an intersection.", "analogy": null, "variations": ["Complement of (A ∩ B)", "Complement of a three-set union", "Using a Venn diagram to verify"], "source": null, "concept": "Relations and equivalence"}, {"unit": "M1", "subtopic": "Relations and equivalence", "stem": "The number of reflexive relations on a set with 4 elements is", "options": ["2¹⁶", "2¹²", "2⁴", "2⁸"], "answer": 1, "explanation": "<p>A reflexive relation must contain all 4 diagonal pairs (a, a). Of the 4 × 4 = 16 ordered pairs, these 4 are forced, leaving 16 − 4 = 12 free pairs, each independently in or out: <b>2¹² = 4096<\/b>.<\/p><p>Contrast with the total number of relations, 2¹⁶, which is offered as option (a).<\/p>", "trap": "Answering 2^(n²) = 2¹⁶, which is the total number of relations, not the reflexive ones.", "analogy": null, "variations": ["Symmetric relations on an n-element set", "Relations that are both reflexive and symmetric", "Equivalence relations on a 4-element set (B₄ = 15)"], "source": null, "concept": "Relations and equivalence"}, {"unit": "M1", "subtopic": "Functions — one-one, onto, composition", "stem": "The function f : ℝ → ℝ defined by f(x) = x² is", "options": ["One-one but not onto", "Onto but not one-one", "Both one-one and onto", "Neither one-one nor onto"], "answer": 3, "explanation": "<p>f(x) = x² is <b>not one-one<\/b> because f(2) = f(−2) = 4 (distinct inputs, same output). It is <b>not onto<\/b> because no real x gives x² = −1, so the codomain ℝ is not fully covered. It is therefore <b>into<\/b>.<\/p><p>Restricting the codomain to [0, ∞) would make it onto; restricting the domain to [0, ∞) would make it one-one.<\/p>", "trap": "Assuming a continuous function on ℝ must be one-one, or that its range equals ℝ. Both fail for x².", "analogy": null, "variations": ["f(x) = x³ on ℝ — both one-one and onto", "Making x² bijective by restricting domain and codomain", "Horizontal line test for injectivity"], "source": null, "concept": "Functions — one-one, onto, composition"}, {"unit": "M1", "subtopic": "Relations and equivalence", "stem": "The number of equivalence relations on a set with 3 elements is", "options": ["3", "5", "6", "8"], "answer": 1, "explanation": "<p>An equivalence relation corresponds exactly to a <b>partition<\/b> of the set. The 3-element set {a, b, c} has <b>5<\/b> partitions: {abc}; {ab}{c}; {ac}{b}; {bc}{a}; {a}{b}{c}. This is the Bell number B₃ = 5.<\/p><p>B₄ = 15, if the same question is asked for four elements.<\/p>", "trap": "Counting partitions incorrectly, or answering 2³ = 8 (subsets) or 3! = 6 (permutations) — neither is a partition count.", "analogy": null, "variations": ["B₄ = 15 equivalence relations on 4 elements", "Link between equivalence classes and partitions", "Reflexive + symmetric + transitive ⟺ partition"], "source": null, "concept": "Relations and equivalence"}, {"unit": "M2", "subtopic": "Fundamental principle, nPr and nCr", "stem": "The number of ways of selecting a committee of 3 members from 10 people is", "options": ["30", "120", "720", "1000"], "answer": 1, "explanation": "<p>A committee has no ranking, so this is a <b>combination<\/b>: ¹⁰C₃ = (10 × 9 × 8)/(3 × 2 × 1) = <b>120<\/b>.<\/p><p>720 is ¹⁰P₃, the answer if the three posts were distinct offices — the intended trap. Always ask whether order matters.<\/p>", "trap": "Using ⁿPᵣ because the numbers are large or the word \"ways\" appears. A committee has no internal order.", "analogy": "A committee is a bag of names; president–secretary–treasurer is an ordered list. Same 10 people, different question.", "variations": ["Filling 3 distinct offices from 10", "Committee with a specified person included", "Committee with at least one of two rivals"], "source": null, "concept": "Fundamental principle, nPr and nCr"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "The number of different arrangements of the letters of the word \"LEVEL\" is", "options": ["120", "60", "30", "20"], "answer": 2, "explanation": "<p>LEVEL has 5 letters with L twice and E twice. Arrangements = 5! / (2! × 2!) = 120/4 = <b>30<\/b>.<\/p><p>Failing to divide by the repeats gives 120 — option (a), and the single commonest error in this topic.<\/p>", "trap": "Forgetting to divide by the factorial of each repeated-letter count. Every repeated letter overcounts by its own factorial.", "analogy": null, "variations": ["Arrangements of \"MATHEMATICS\"", "Arrangements with a letter repeated three times", "Arrangements of \"NAGPUR\" (all distinct)"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "In how many ways can 6 people be seated around a circular table?", "options": ["720", "120", "60", "6"], "answer": 1, "explanation": "<p>Circular permutations of n objects = <b>(n − 1)! = 5! = 120<\/b>. One person is fixed as a reference because rotations of the same arrangement are not distinct.<\/p><p>720 = 6! is the answer for a <em>row<\/em>. If the arrangement could also be flipped (a necklace or garland), it would be (n−1)!/2 = 60.<\/p>", "trap": "Using n! for a circle, or (n−1)!/2 when the arrangement is not flippable. A dinner table has a fixed orientation (no flipping), so (n−1)!.", "analogy": null, "variations": ["Necklace of 6 beads — (n−1)!/2", "Seating with two people who must sit together", "Linear seating of the same 6 people"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "The number of diagonals in a regular octagon is", "options": ["16", "20", "28", "8"], "answer": 1, "explanation": "<p>Diagonals = n(n − 3)/2 = 8 × 5 / 2 = <b>20<\/b>.<\/p><p>Equivalently ⁸C₂ − 8 = 28 − 8 = 20: every pair of vertices gives a line, minus the 8 that are sides. Note 28 is offered as the trap — that is ⁸C₂, forgetting to subtract the sides.<\/p>", "trap": "Answering ⁿC₂ (all vertex pairs) without subtracting the n sides.", "analogy": null, "variations": ["Diagonals of a hexagon", "Handshakes among 8 people (ⁿC₂, no subtraction)", "Triangulation of an n-gon"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "If ⁿC₈ = ⁿC₂, then n equals", "options": ["6", "10", "16", "8"], "answer": 1, "explanation": "<p>Use <b>ⁿCᵣ = ⁿCₙ₋ᵣ<\/b>. Since the lower indices differ, we need 8 = n − 2, giving <b>n = 10<\/b>.<\/p><p>Check: ¹⁰C₈ = ¹⁰C₂ = 45. ✓ The alternative case r₁ = r₂ fails here because 8 ≠ 2.<\/p>", "trap": "Adding the indices (8 + 2 = 10) works here, but the reasoning matters: ⁿCᵣ = ⁿCₛ implies r = s <i>or<\/i> r + s = n. Both must be considered.", "analogy": null, "variations": ["ⁿC₅ = ⁿC₉ → n = 14", "Solving ⁿCᵣ = k for r", "Using ⁿCᵣ = ⁿCₙ₋ᵣ to simplify a computation"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Fundamental principle, nPr and nCr", "stem": "How many 3-digit numbers can be formed from the digits 1 to 9 if repetition is allowed?", "options": ["504", "729", "84", "81"], "answer": 1, "explanation": "<p>With repetition allowed each of the 3 positions independently takes any of 9 digits: <b>9³ = 729<\/b>.<\/p><p>Without repetition it would be ⁹P₃ = 9 × 8 × 7 = 504, which is option (a). Note the digits start at 1, so there is no leading-zero complication.<\/p>", "trap": "Using ⁿPᵣ when repetition is allowed. \"Repetition allowed\" means independent choices — nʳ.", "analogy": null, "variations": ["3-digit numbers without repetition", "Numbers with repetition but a fixed first digit", "Counting with a restricted digit set"], "source": null, "concept": "Fundamental principle, nPr and nCr"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "In how many ways can the letters of the word \"CHAIR\" be arranged so that the vowels are always together?", "options": ["24", "48", "120", "12"], "answer": 1, "explanation": "<p>CHAIR has vowels A and I. Treat them as a single block: this gives 4 units (C, H, R, [AI]) arranged in <b>4! = 24<\/b> ways, and the block itself internally in <b>2! = 2<\/b> ways.<\/p><p>Total = 24 × 2 = <b>48<\/b>. The block technique — bundle, arrange, then multiply by internal arrangements — handles every \"always together\" question.<\/p>", "trap": "Forgetting to multiply by the internal arrangements of the block (2!), giving 24.", "analogy": "Tape the vowels together into one block, seat the blocks, then let the vowels shuffle inside their tape.", "variations": ["Vowels never together (complement)", "Three letters that must stay together", "Arrangements with a repeated letter in the block"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "The value of ¹⁰C₀ + ¹⁰C₁ + ¹⁰C₂ + … + ¹⁰C₁₀ is", "options": ["512", "1024", "2048", "100"], "answer": 1, "explanation": "<p>The sum of all binomial coefficients for a given n is <b>2ⁿ<\/b>. Here <b>2¹⁰ = 1024<\/b>.<\/p><p>This follows from putting x = 1 in the binomial expansion of (1 + x)ⁿ.<\/p>", "trap": "Answering 2^(n−1) = 512 by halving for some symmetry reason, or n² = 100.", "analogy": null, "variations": ["Sum of even-indexed coefficients = 2^(n−1)", "Sum of coefficients in (1 + x)⁷", "Using the identity to count subsets of a 10-element set"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "The value of ¹⁰C₃ + ¹⁰C₂ is", "options": ["165", "120", "45", "210"], "answer": 0, "explanation": "<p>By <b>Pascal's rule<\/b>, ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ, so ¹⁰C₃ + ¹⁰C₂ = <b>¹¹C₃ = 165<\/b>.<\/p><p>Directly: ¹⁰C₃ = 120 and ¹⁰C₂ = 45, and 120 + 45 = 165. ✓<\/p>", "trap": "Computing each term correctly but adding wrong, or applying the rule backwards (¹⁰C₃ + ¹⁰C₂ ≠ ⁹C₃).", "analogy": null, "variations": ["Pascal's rule with different indices", "Using Pascal's rule to build a row of Pascal's triangle", "Sum of a diagonal of Pascal's triangle"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "The number of distinct arrangements of the letters of the word \"MATHEMATICS\" is", "options": ["39916800", "19958400", "4989600", "9979200"], "answer": 2, "explanation": "<p>MATHEMATICS has 11 letters with M, A and T each repeated twice. Arrangements = 11! / (2! × 2! × 2!) = 39916800 / 8 = <b>4989600<\/b>.<\/p><p>39916800 is 11! — forgetting all three repeated pairs. 9979200 divides by only one 2!.<\/p>", "trap": "Dividing by 2! only once, or not at all. Every repeated letter contributes its own factorial to the divisor.", "analogy": null, "variations": ["Arrangements with three letters repeated twice each", "Arrangements where the M's are treated as distinct", "Comparison with a word having no repeats"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "From 6 men and 4 women, a committee of 5 is to be formed with at least one woman. The number of ways is", "options": ["252", "246", "6", "120"], "answer": 1, "explanation": "<p>Use the <b>complement<\/b>: total committees = ¹⁰C₅ = 252; all-men committees = ⁶C₅ = 6. So committees with at least one woman = 252 − 6 = <b>246<\/b>.<\/p><p>The complement is far faster than summing \"exactly 1 woman + exactly 2 + …\".<\/p>", "trap": "Summing the cases and making an arithmetic slip, or answering 252 (all committees, forgetting the constraint) or 6 (all-men, the exact opposite).", "analogy": "Counting \"at least one\" directly means many cases; counting \"none\" means one case, and subtracting from the total.", "variations": ["At least two women", "Committee with a particular man and woman both included", "Forming the committee with a chairperson"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M2", "subtopic": "Identities and standard cases", "stem": "The number of handshakes if each of 10 people shakes hands with every other person exactly once is", "options": ["45", "50", "90", "100"], "answer": 0, "explanation": "<p>Each handshake is an unordered pair of people: <b>¹⁰C₂ = 45<\/b>.<\/p><p>90 = 10 × 9 counts ordered pairs (A shaking B is counted separately from B shaking A) — the intended trap.<\/p>", "trap": "Multiplying 10 × 9 and forgetting to divide by 2. A handshake is not ordered.", "analogy": null, "variations": ["Diagonals of a 10-sided polygon (subtract the sides)", "Number of matches in a round-robin tournament", "Comparing with 10 × 9 ordered pairs"], "source": null, "concept": "Identities and standard cases"}, {"unit": "M3", "subtopic": "Dispersion — range, mean deviation, variance, SD, CV", "stem": "The standard deviation of 25 numbers is 40. If each of the numbers is increased by 5, then the new standard deviation will be", "options": ["45", "40", "35", "5"], "answer": 1, "explanation": "<p>Standard deviation measures <b>spread about the mean<\/b>. Adding a constant shifts every value <em>and<\/em> the mean equally, so every deviation (x − x̄) is unchanged — and so is σ. The answer is <b>40<\/b>.<\/p><p>By contrast, <b>multiplying<\/b> every value by k multiplies σ by |k| and the variance by k². Distinguishing shift from scale is the point of the question.<\/p>", "trap": "Adding 5 to σ because the data increased by 5. σ is a spread, not a level.", "analogy": "Lifting every person in a room by the same 5 cm changes nobody's height <i>relative<\/i> to the group — the spread is identical.", "variations": ["Multiplying each value by 2", "Adding 5 to the mean instead of the data", "Variance change under a scale transformation"], "source": "High School Teacher (Mathematics) Paper-I, MPSC 2017, Q57", "concept": "Dispersion — range, mean deviation, variance, SD, CV"}, {"unit": "M3", "subtopic": "Mean, median and mode", "stem": "For a moderately skewed distribution, mean = 30 and median = 28. The mode is approximately", "options": ["24", "26", "32", "29"], "answer": 0, "explanation": "<p>Mode = 3 Median − 2 Mean = 3(28) − 2(30) = 84 − 60 = <b>24<\/b>.<\/p><p>Sanity check: in a positively skewed distribution the order is mode &lt; median &lt; mean, and 24 &lt; 28 &lt; 30 fits. If your answer breaks that ordering, you have misapplied the formula.<\/p>", "trap": "Applying Mean = 3 Median − 2 Mode instead, or mixing up which coefficient goes with which measure.", "analogy": null, "variations": ["Finding the median given mean and mode", "Negatively skewed data (mode &gt; median &gt; mean)", "Symmetric distribution where all three coincide"], "source": null, "concept": "Mean, median and mode"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "Two events A and B are mutually exclusive with P(A) = 0.3 and P(B) = 0.4. Then P(A ∪ B) is", "options": ["0.12", "0.58", "0.7", "0.1"], "answer": 2, "explanation": "<p>Mutually exclusive means P(A ∩ B) = 0, so P(A ∪ B) = 0.3 + 0.4 = <b>0.7<\/b>.<\/p><p>0.12 would be P(A) × P(B) — correct only for <b>independent<\/b> events, and these are not independent. Mutually exclusive events with non-zero probability are in fact strongly dependent.<\/p>", "trap": "Multiplying 0.3 × 0.4 = 0.12. That is the <em>independence<\/em> rule; mutually exclusive events cannot occur together, so their intersection is 0.", "analogy": "Mutually exclusive events are like a coin landing heads and tails on the same toss — impossible together, so you simply add their chances.", "variations": ["Independent events with the same probabilities", "Non-mutually-exclusive events requiring subtraction", "Complement of the union"], "source": null, "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "A card is drawn from a well-shuffled deck of 52. The probability that it is a red king is", "options": ["1/26", "1/13", "1/52", "2/13"], "answer": 0, "explanation": "<p>There are <b>2 red kings<\/b> (hearts and diamonds), so P = 2/52 = <b>1/26<\/b>.<\/p><p>1/13 would be the probability of any king (4/52); 1/52 a specific single card. Careless reading of \"red king\" as \"king\" is the intended slip.<\/p>", "trap": "Reading \"red king\" as \"king\" (4/52 = 1/13) or as a single specific card (1/52).", "analogy": null, "variations": ["Probability of a red card", "Probability of a face card", "Probability of a king or a heart"], "source": null, "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "Two dice are thrown. The probability that the sum is 7 is", "options": ["1/6", "1/12", "5/36", "7/36"], "answer": 0, "explanation": "<p>There are 36 equally likely outcomes. A sum of 7 arises from 6 of them — (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — giving 6/36 = <b>1/6<\/b>.<\/p><p>7 is the <b>most probable total<\/b> with two dice, having more combinations than any other sum. Counting ordered pairs rather than unordered is essential here.<\/p>", "trap": "Counting unordered pairs — {1,6} and {3,4} — which gives 3/21 or similar nonsense. Dice are ordered.", "analogy": "Two dice are two separate coloured balls: a red 1 with a blue 6 is a different outcome from a red 6 with a blue 1, even though the sum is the same.", "variations": ["Probability the sum is 8 or 10", "Probability both dice show the same number", "Probability the sum exceeds 9"], "source": null, "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Mean, median and mode", "stem": "The median of the data 12, 7, 15, 9, 20, 11 is", "options": ["11", "11.5", "12", "13"], "answer": 1, "explanation": "<p>Order first: 7, 9, 11, 12, 15, 20. With <b>n = 6<\/b> (even), the median is the mean of the 3rd and 4th values = (11 + 12)/2 = <b>11.5<\/b>.<\/p><p>Two errors are being probed: failing to sort the data, and taking a single middle value when n is even.<\/p>", "trap": "Taking the 3rd value (11) or the 4th (12) instead of their average.", "analogy": null, "variations": ["Median of an odd-sized data set", "Median class of grouped data", "Effect of an outlier on median vs mean"], "source": null, "concept": "Mean, median and mode"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "The probability of getting at least one head in three tosses of a fair coin is", "options": ["3/8", "1/2", "7/8", "1/8"], "answer": 2, "explanation": "<p>Use the <b>complement<\/b>: P(no head) = P(three tails) = (1/2)³ = 1/8. So P(at least one head) = 1 − 1/8 = <b>7/8<\/b>.<\/p><p>The complement method is far faster than summing the cases of exactly one, two and three heads, and it is the standard approach for every \"at least one\" question.<\/p>", "trap": "Answering 3/8, which is the probability of <i>exactly<\/i> one head, not at least one.", "analogy": null, "variations": ["At least one six in three dice rolls", "At least one tail in four tosses", "Exactly two heads in three tosses"], "source": null, "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "A bag contains 20 balls bearing numbers 1, 2, 3, …, 20. A ball is drawn at random. The probability of getting a ball bearing a prime number is", "options": ["1/20", "2/5", "1/5", "9/20"], "answer": 1, "explanation": "<p>The primes from 1 to 20 are 2, 3, 5, 7, 11, 13, 17, 19 — <b>8<\/b> of them. So P = 8/20 = <b>2/5<\/b>.<\/p><p>1 is <b>not<\/b> prime, and 9, 15 are composite — the common counting traps.<\/p>", "trap": "Including 1 as prime, or missing 2 (the only even prime), or counting 9 and 15 as prime.", "analogy": null, "variations": ["Probability of a composite number", "Probability of an even prime", "Probability of a multiple of 3"], "source": "Sub Inspector (UB) Mathematics, MPSC 2018, Q38", "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "A card is drawn at random from a well-shuffled pack of playing cards. The probability of getting a red Queen is", "options": ["1/26", "1/13", "1/52", "2/13"], "answer": 0, "explanation": "<p>There are <b>2 red queens<\/b> (hearts and diamonds), so P = 2/52 = <b>1/26<\/b>.<\/p><p>1/13 = 4/52 is the probability of any queen; 2/13 would be any face card of a red suit.<\/p>", "trap": "Confusing \"red queen\" (2 cards) with \"queen\" (4) or \"red card\" (26).", "analogy": null, "variations": ["Probability of a black queen", "Probability of a queen or a king", "Probability of a red face card"], "source": "Sub Inspector (UB) Mathematics, MPSC 2018, Q97", "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "If there are 3 children in a family, the probability that there is exactly one girl is", "options": ["1/8", "1/4", "3/8", "1/2"], "answer": 2, "explanation": "<p>There are 2³ = 8 equally likely gender sequences. Exactly one girl occurs in ³C₁ = 3 of them (GBB, BGB, BBG), so P = <b>3/8<\/b>.<\/p><p>1/8 is the probability of a <i>specific<\/i> sequence (e.g. GBB); 1/2 is the probability that a given child is a girl.<\/p>", "trap": "Answering 1/8 (one specific sequence) or 1/4. \"Exactly one\" requires counting all positions for the girl.", "analogy": "Three coin flips: the single girl is the single head, and it can occur in any of the three positions — 3 of the 8 outcomes.", "variations": ["Probability of exactly two girls", "Probability of at least one girl", "Probability all three are boys"], "source": "High School Teacher (Mathematics) Paper-I, MPSC 2017, Q52", "concept": "Probability — addition, multiplication, independence"}, {"unit": "M3", "subtopic": "Dispersion — range, mean deviation, variance, SD, CV", "stem": "The variance of the first 5 natural numbers is", "options": ["2", "2.5", "10", "8"], "answer": 0, "explanation": "<p>The variance of the first n natural numbers is <b>(n² − 1)/12<\/b>. For n = 5: (25 − 1)/12 = 24/12 = <b>2<\/b>.<\/p><p>Direct check: data 1, 2, 3, 4, 5; mean = 3; squared deviations 4, 1, 0, 1, 4; sum = 10; variance = 10/5 = 2. ✓<\/p>", "trap": "Using the standard deviation formula √[(n²−1)/12] = √2 and forgetting the question asks for variance, or dividing by n−1.", "analogy": null, "variations": ["Variance of the first 10 natural numbers", "Standard deviation of the first n naturals", "Variance of the first n even numbers"], "source": null, "concept": "Dispersion — range, mean deviation, variance, SD, CV"}, {"unit": "M3", "subtopic": "Probability — addition, multiplication, independence", "stem": "Two independent events A and B have P(A) = 0.5 and P(B) = 0.4. Then P(A ∩ B) is", "options": ["0.9", "0.1", "0.2", "0.02"], "answer": 2, "explanation": "<p>For <b>independent<\/b> events, P(A ∩ B) = P(A) × P(B) = 0.5 × 0.4 = <b>0.2<\/b>.<\/p><p>0.9 = P(A) + P(B) would be for mutually exclusive events; independence is about multiplication, not addition.<\/p>", "trap": "Adding the probabilities (0.9) — that is the mutually exclusive rule, and these events are independent.", "analogy": "Independent means one event tells you nothing about the other, so their joint probability is the product — like the chance of two unrelated coins both landing heads.", "variations": ["P(A ∪ B) for the same independent events", "Conditional probability P(A|B) under independence", "Three independent events occurring together"], "source": null, "concept": "Probability — addition, multiplication, independence"}], "provenance": [{"paper": "Inspector of Statistics Paper-III (Mathematics), MPSC 2017", "used": 1, "note": "Surjection onto a 2-element set — directly on the JSO functions syllabus."}, {"paper": "Sub Inspector (UB) Mathematics, MPSC 2018", "used": 2, "note": "Prime-number probability and red-Queen probability — basic probability at JSO level."}, {"paper": "High School Teacher (Mathematics) Paper-I, MPSC 2017", "used": 2, "note": "SD under a constant shift, and exactly-one-girl in three children."}, {"paper": "Authored to the official JSO syllabus", "used": 31, "note": "All remaining questions, each answer verified computationally before publication."}], "marks": 30, "built": "2026-11-07"}</script>
+<script>
+const DATA = JSON.parse(document.getElementById('payload').textContent);
+const Q = DATA.questions, PR = DATA.primers, UN = DATA.units;
+const cls = u => u==='M1'?'m1':u==='M2'?'m2':'m3';
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const LT = ['a','b','c','d'];
+
+/* ---------- theme ---------- */
+const tb = document.getElementById('themetoggle');
+tb.onclick = () => {
+  const cur = document.documentElement.getAttribute('data-theme')
+    || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  tb.textContent = next === 'dark' ? '☀' : '☽';
+};
+
+/* ---------- unit yield ---------- */
+function renderYield(){
+  const host = document.getElementById('yield');
+  host.innerHTML = UN.map(u=>{
+    const qs = Q.filter(q=>q.unit===u.unit);
+    const subs = [...new Set(qs.map(q=>q.subtopic))];
+    const max = Math.max(...UN.map(x=>Q.filter(q=>q.unit===x.unit).length));
+    const rows = subs.map(s=>{
+      const n = qs.filter(q=>q.subtopic===s).length;
+      return `<div class="yield-row">
+        <div class="yield-label"><span>${esc(s)}</span></div>
+        <div style="display:flex;gap:.5rem;align-items:center">
+          <div class="bartrack"><div class="bar ${cls(u.unit)}" style="width:${Math.max(3,100*n/Math.max(1,subs.length?qs.length/subs.length:1))}%"></div></div>
+          <span class="yield-n">${n}</span>
+        </div>
+      </div>`;
+    }).join('');
+    return `<div class="card">
+      <h3><span class="pill ${cls(u.unit)}">${esc(u.unit)}</span> &nbsp;${esc(u.title)} &nbsp;·&nbsp; ${u.marks} marks
+        <span style="font-weight:400;color:var(--muted);font-size:.86rem">&nbsp;· ${qs.length} solved questions</span></h3>
+      ${rows}</div>`;
+  }).join('');
+}
+
+/* ---------- primers ---------- */
+const REVIEW_KEY = 'mpsc-jso-maths-reviewed-v1';
+let reviewed = {};
+try { reviewed = JSON.parse(localStorage.getItem(REVIEW_KEY) || '{}') || {}; } catch(e) {}
+const primerKey = p => `${p.unit}::${p.subtopic}`;
+function saveReviewed(){
+  try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewed)); } catch(e) {}
+}
+function updatePrimerProgress(){
+  const total = PR.length, done = PR.filter(p=>reviewed[primerKey(p)]).length;
+  const pct = total ? Math.round(done*100/total) : 0;
+  const label = document.getElementById('primerProgressLabel');
+  const fill = document.getElementById('primerProgressFill');
+  if(label) label.textContent = `${done} of ${total} primers reviewed (${pct}%)`;
+  if(fill) fill.style.width = `${pct}%`;
+}
+function renderPrimers(){
+  const host = document.getElementById('primers');
+  const order = {critical:0,high:1,medium:2,low:3};
+  const unfinishedOnly = document.getElementById('unfinishedOnly')?.checked;
+  host.innerHTML = UN.map(u=>{
+    const ps = PR.filter(p=>p.unit===u.unit)
+                 .filter(p=>!unfinishedOnly||!reviewed[primerKey(p)])
+                 .sort((a,b)=>(order[a.priority]??9)-(order[b.priority]??9));
+    if(!ps.length) return '';
+    const items = ps.map(p=>`
+      <details class="acc${reviewed[primerKey(p)]?' reviewed':''}">
+        <summary>
+          <span>${esc(p.subtopic)}</span>
+          <span class="pill ${esc(p.priority)}">${esc(p.priority)}</span>
+          <span class="pill ${cls(u.unit)}">${esc(u.unit)}</span>
+        </summary>
+        <div class="acc-body">
+          <button class="review-btn ${reviewed[primerKey(p)]?'done':''}" data-review="${esc(primerKey(p))}">${reviewed[primerKey(p)]?'✓ Reviewed':'Mark reviewed'}</button>
+          ${p.primer||''}
+          ${(p.formulae||[]).length?`<div class="formulae">${p.formulae.map(f=>`<code>${esc(f)}</code>`).join('')}</div>`:''}
+          ${p.analogy?`<div class="analogy">${p.analogy}</div>`:''}
+          ${(p.traps||[]).length?`<div class="traps"><ul>${p.traps.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>`:''}
+        </div>
+      </details>`).join('');
+    return `<h3 style="margin-top:1.3rem"><span class="pill ${cls(u.unit)}">${esc(u.unit)}</span> &nbsp;${esc(u.title)} — ${ps.length} primers</h3>${items}`;
+  }).join('');
+  updatePrimerProgress();
+  host.querySelectorAll('[data-review]').forEach(btn=>btn.addEventListener('click', e=>{
+    e.preventDefault(); e.stopPropagation();
+    const key = btn.dataset.review;
+    if(reviewed[key]) delete reviewed[key]; else reviewed[key] = Date.now();
+    saveReviewed(); renderPrimers();
+  }));
+}
+
+/* ---------- solved question bank ---------- */
+function qCard(q, idx){
+  const opts = q.options.map((o,i)=>`<li class="${i===q.answer?'right':''}"><span class="lt">${LT[i]}</span><span>${esc(o)}</span></li>`).join('');
+  return `<div class="q" data-unit="${esc(q.unit)}" data-topic="${esc(q.subtopic)}"
+             data-text="${esc((q.stem+' '+q.options.join(' ')+' '+(q.concept||'')).toLowerCase())}">
+    <div class="q-head">
+      <span class="pill ${cls(q.unit)}">${esc(q.unit)}</span>
+      <span class="pill">${esc(q.subtopic)}</span>
+      ${q.source?'<span class="pill real">real MPSC</span>':''}
+      <span class="q-src">${esc(q.source||'authored to syllabus')}</span>
+    </div>
+    <p class="q-stem">${idx+1}. ${esc(q.stem)}</p>
+    <ul class="opts">${opts}</ul>
+    <div class="reveal">
+      <h4>Why</h4>${q.explanation||''}
+      ${q.analogy?`<div class="analogy">${q.analogy}</div>`:''}
+      ${q.trap?`<div class="traps">${q.trap}</div>`:''}
+      ${(q.variations||[]).length?`<h4>Expect it re-asked as</h4><ul class="vars">${q.variations.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`:''}
+    </div>
+  </div>`;
+}
+
+function renderBank(){
+  document.getElementById('bank').innerHTML = Q.map(qCard).join('');
+  const fu = document.getElementById('fUnit');
+  fu.innerHTML = '<option value="">All units</option>' +
+    UN.map(u=>`<option value="${u.unit}">${u.unit} — ${esc(u.title)}</option>`).join('');
+  buildTopicFilter('');
+  applyFilters();
+}
+function buildTopicFilter(unit){
+  const ts = [...new Set(Q.filter(q=>!unit||q.unit===unit).map(q=>q.subtopic))].sort();
+  document.getElementById('fTopic').innerHTML =
+    '<option value="">All topics</option>' + ts.map(t=>`<option>${esc(t)}</option>`).join('');
+}
+function applyFilters(){
+  const u = document.getElementById('fUnit').value;
+  const t = document.getElementById('fTopic').value;
+  const term = document.getElementById('fSearch').value.trim().toLowerCase();
+  let n = 0;
+  document.querySelectorAll('#bank .q').forEach(el=>{
+    const ok = (!u||el.dataset.unit===u) && (!t||el.dataset.topic===t)
+            && (!term||el.dataset.text.includes(term));
+    el.classList.toggle('hidden',!ok); if(ok) n++;
+  });
+  document.getElementById('bankCount').textContent = `${n} of ${Q.length} shown`;
+}
+document.getElementById('fUnit').addEventListener('change',e=>{
+  buildTopicFilter(e.target.value); applyFilters();
+});
+document.getElementById('fTopic').addEventListener('change',applyFilters);
+document.getElementById('fSearch').addEventListener('input',applyFilters);
+
+/* ---------- provenance ---------- */
+function renderProv(){
+  const rows = DATA.provenance.map(p=>`<tr>
+    <td>${esc(p.paper)}</td><td class="tnum">${p.used}</td>
+    <td>${esc(p.note)}</td></tr>`).join('');
+  document.getElementById('prov').innerHTML = `<div class="card scrollx"><table>
+    <thead><tr><th>Source paper</th><th>Questions used</th><th>Note</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+
+/* ---------- mock test ---------- */
+let mock = null, tick = null;
+function startMock(){
+  const n = +document.getElementById('mN').value;
+  const neg = parseFloat(document.getElementById('mNeg').value);
+  const pos = parseFloat(document.getElementById('mPos').value);
+  let pool = Q.slice();
+  // weight the mix to the real mark split (5/5/5) when the count allows it
+  if(n >= 15){
+    let picked = [];
+    UN.forEach(u=>{
+      const sp = shuffle(pool.filter(q=>q.unit===u.unit));
+      picked = picked.concat(sp.slice(0, Math.round(n*10/30)));
+    });
+    pool = picked.length>=Math.min(n,pool.length)?picked:shuffle(pool);
+  }
+  const items = shuffle(pool).slice(0, Math.min(n, pool.length));
+  if(!items.length){alert('No questions match that selection.');return;}
+  mock = {items, answers:new Array(items.length).fill(null), neg, pos,
+          started:Date.now(), secs:items.length*60, done:false};
+  document.getElementById('mockSetup').classList.add('hidden');
+  document.getElementById('mockRun').classList.remove('hidden');
+  document.getElementById('mockScore').innerHTML='';
+  renderMock();
+  clearInterval(tick); tick=setInterval(updTimer,1000); updTimer();
+}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function updTimer(){
+  if(!mock||mock.done) return;
+  const left = mock.secs - Math.floor((Date.now()-mock.started)/1000);
+  const el = document.getElementById('timer');
+  if(left<=0){el.textContent='0:00';submitMock();return;}
+  el.textContent = Math.floor(left/60)+':'+String(left%60).padStart(2,'0');
+}
+function renderMock(){
+  document.getElementById('mockQs').innerHTML = mock.items.map((q,i)=>`
+    <div class="mockq" id="mq${i}">
+      <div class="q-head"><span class="pill ${cls(q.unit)}">${esc(q.unit)}</span>
+        <span class="pill">${esc(q.subtopic)}</span></div>
+      <p class="q-stem">${i+1}. ${esc(q.stem)}</p>
+      <ul class="opts">${q.options.map((o,k)=>
+        `<li data-q="${i}" data-o="${k}"><span class="lt">${LT[k]}</span><span>${esc(o)}</span></li>`).join('')}</ul>
+      <div class="reveal hidden" id="mr${i}"></div>
+    </div>`).join('');
+  document.querySelectorAll('#mockQs .opts li').forEach(li=>{
+    li.onclick = ()=>{
+      if(mock.done) return;
+      const qi=+li.dataset.q, oi=+li.dataset.o;
+      mock.answers[qi] = mock.answers[qi]===oi ? null : oi;
+      document.querySelectorAll(`#mq${qi} .opts li`).forEach(x=>
+        x.classList.toggle('sel', +x.dataset.o===mock.answers[qi]));
+      document.getElementById('mProgress').textContent =
+        `${mock.answers.filter(a=>a!==null).length}/${mock.items.length} answered`;
+    };
+  });
+  document.getElementById('mProgress').textContent = `0/${mock.items.length} answered`;
+}
+function submitMock(){
+  if(!mock||mock.done) return;
+  mock.done = true; clearInterval(tick);
+  let right=0, wrong=0, skip=0;
+  mock.items.forEach((q,i)=>{
+    const a = mock.answers[i];
+    const rv = document.getElementById('mr'+i);
+    if(a===null) skip++; else if(a===q.answer) right++; else wrong++;
+    document.querySelectorAll(`#mq${i} .opts li`).forEach(x=>{
+      const k=+x.dataset.o;
+      x.classList.remove('sel');
+      if(k===q.answer) x.classList.add('right');
+      else if(k===a) x.classList.add('wrong');
+    });
+    rv.classList.remove('hidden');
+    rv.innerHTML = `<h4>Why</h4>${q.explanation||''}
+      ${q.analogy?`<div class="analogy">${q.analogy}</div>`:''}
+      ${q.trap?`<div class="traps">${q.trap}</div>`:''}
+      ${(q.variations||[]).length?`<h4>Expect it re-asked as</h4><ul class="vars">${q.variations.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`:''}`;
+  });
+  const raw = right*mock.pos - wrong*mock.neg;
+  const max = mock.items.length*mock.pos;
+  const pct = max ? (100*raw/max) : 0;
+  const byUnit = {};
+  mock.items.forEach((q,i)=>{
+    const u=q.unit; byUnit[u]=byUnit[u]||{n:0,ok:0};
+    byUnit[u].n++; if(mock.answers[i]===q.answer) byUnit[u].ok++;
+  });
+  document.getElementById('mockScore').innerHTML = `
+    <div class="score">
+      <div class="big">${raw.toFixed(2)} / ${max}</div>
+      <p style="margin:.3rem 0 0;color:var(--muted)">
+        ${pct.toFixed(1)}% after a &minus;${mock.neg} penalty per wrong answer.</p>
+      <div class="scoregrid">
+        <div><b style="color:var(--ok)">${right}</b><span>correct</span></div>
+        <div><b style="color:var(--bad)">${wrong}</b><span>wrong</span></div>
+        <div><b>${skip}</b><span>skipped</span></div>
+        <div><b>${(wrong*mock.neg).toFixed(2)}</b><span>marks lost</span></div>
+      </div>
+      <h4 style="margin:1rem 0 .3rem;font-size:.72rem;letter-spacing:.09em;
+        text-transform:uppercase;color:var(--muted)">By unit</h4>
+      <ul style="margin:0;padding-left:1.15rem;font-size:.92rem">
+        ${UN.map(u=>{const v=byUnit[u.unit]||{n:0,ok:0};
+          return `<li>${esc(u.unit)} — ${esc(u.title)}: ${v.ok}/${v.n}</li>`;}).join('')}
+      </ul>
+      <p style="margin:.9rem 0 0;font-size:.86rem;color:var(--muted)">
+        Answers were derived and verified, not transcribed from an official key — none exists for
+        this division. Treat a disagreement as a prompt to check a textbook.</p>
+    </div>`;
+  document.getElementById('mockScore').scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.getElementById('mStart').onclick = startMock;
+document.getElementById('mSubmit').onclick = submitMock;
+document.getElementById('mReset').onclick = ()=>{
+  clearInterval(tick); mock=null;
+  document.getElementById('mockRun').classList.add('hidden');
+  document.getElementById('mockSetup').classList.remove('hidden');
+  document.getElementById('mockScore').innerHTML='';
+  document.getElementById('mockQs').innerHTML='';
+};
+
+document.getElementById('unfinishedOnly').addEventListener('change', renderPrimers);
+document.getElementById('resetPrimerProgress').addEventListener('click', ()=>{
+  if(!confirm('Reset all primer progress?')) return;
+  reviewed = {}; saveReviewed(); renderPrimers();
+});
+renderYield(); renderPrimers(); renderBank(); renderProv();
+</script>
+</body>
+</html>

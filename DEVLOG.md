@@ -1,3 +1,155 @@
+## 7 November 2026 — JSO Paper IV real-question bank module
+
+Added `/embed/jso-p4-bank`, backed by `public/mpsc-jso-p4-bank/`, after mining
+the MPSC corpus for Paper IV material. The finding that shaped it: **the corpus
+contains no forensic-specific papers at all** (a full-text search for digital
+forensic, computer forensic, steganography, chain of custody, write blocker,
+file carving, rainbow table, memory forensics, MD5/SHA256, mobile forensic,
+chip-off and JTAG returns zero relevant hits). Paper IV Units III, IV and V —
+Digital, Multimedia and Mobile Forensics, 120 of the 200 marks — therefore have
+**no real past questions anywhere in the archive**.
+
+What the corpus *does* have is general Computer Science: 31 Computer/IT papers
+(Informatics Officer, Computer Science & Engineering, Jr. Grade of MES,
+Computer Operator). Only two of the five Paper IV units are covered by them:
+
+- **Unit I — Computer Fundamentals, OS & File Systems (40 marks)**
+- **Unit II — Database Management Systems (40 marks)**
+
+**What shipped:** a standalone module in the System Manager / Analyst idiom —
+`index.html` + `styles.css` + `app.js` + `data/questions.js` in the
+`window.QUESTIONS` bank format (`id, src, sitting, no, paper, unit, sub, q,
+opts, ans, exp, conf, prov, note`). It carries **205 real questions** (101
+Unit I, 104 Unit II) mined from Inspector of Legal Metrology CSE, Jr. Grade of
+MES and Computer Operator technical papers, with four views: Bank (filter by
+unit/topic/paper/confidence + search), Practice (topic-selected tests),
+Mock Test (timed, weighted 40/40, negative marking, per-unit breakdown) and
+Review (marked + auto-saved incorrect, persisted in localStorage).
+
+**Verification:** 205 questions render; Unit II filter returns 104; high-
+confidence filter returns 187; a perfect practice run scores 40.00/40 and a
+40-question mock scores 80.00/80; mark + review persistence works; no console
+errors. TypeScript compiles; the module loads via `/embed/jso-p4-bank` with the
+bank, stats and all four tabs rendering inside the shell iframe.
+
+**Provenance honesty:** no official key exists for the CSE/MES/Computer
+Operator papers, so 203 answers are **derived** and carry a confidence flag
+(187 high, 17 medium, 1 low). Two Informatics Officer questions that sit on
+Unit I carry the **official MPSC final answer key** and are badged as such.
+The module header states the Units III–V gap plainly so nobody mistakes this
+for full Paper IV coverage.
+
+**Still open:** Units III, IV and V (120 marks) have no real past questions to
+mine — the authored bank in `p4u3-digital-forensics.js`, `p4u4` and `p4u5`
+remains the only material. The 31 Computer/IT papers also contain a large
+off-syllabus tail (networking, programming, data structures, discrete math,
+e-governance, project management) that was deliberately excluded. No commit or
+push was made.
+
+## 7 November 2026 — JSO Maths Focus guide for the 30-mark optional unit
+
+Added `public/mpsc-jso-prep/maths-focus-guide.html` and registered it as the
+`jso-maths` module (Labs → "JSO Maths Focus"). The guide covers Paper III Unit
+III — Mathematics, the 30 marks the user chose instead of Biological Science —
+as three equal 10-mark blocks: Sets/Relations/Functions, Permutations &
+Combinations, and Statistics & Probability.
+
+**What shipped:** 8 concept primers (formulae, analogy, "marks lost here"
+traps), 36 solved questions (12 per unit, each with explanation, trap and
+likely variations), a 30-mark mock (15 questions × 2 marks, weighted 5/5/5,
+configurable negative marking), unit and provenance tables, and a review
+tracker. Five questions are transcribed from real MPSC papers at matching
+standard — Inspector of Statistics Paper-III 2017 (surjection), Sub Inspector
+(UB) Mathematics 2018 (prime-number and red-Queen probability), and High
+School Teacher (Mathematics) Paper-I 2017 (SD under a constant shift; exactly
+one girl in three children). The other 31 are authored to the official
+syllabus. Every numerical answer was recomputed by script before publication.
+
+**Why:** the existing General Science guide covers Physics and Chemistry but
+weights its mock to Biology, so the chosen Mathematics unit had no focused
+lesson of its own. Mathematics is the smallest and most mechanical block in
+Paper III, so it is the fastest 30 marks to take from unprepared to full
+marks — the right place to start.
+
+**What's still open:** the science guide's mock still weights Biology 30
+rather than Mathematics; a mixed Paper III mock should swap that weighting to
+use this bank. The guide is static and ships no new build dependency.
+
+**Deployment (same day):** the production TypeScript/Vite build passed and the
+workspace was deployed to Vercel at the user's request. The guide is live at
+https://map.hawayu.in/mpsc-jso-prep/maths-focus-guide.html and the module loads
+via https://map.hawayu.in/embed/jso-maths. Verified in a browser on production:
+36 questions, 8 primers, mock button present, no console errors.
+
+**Also swapped:** the General Science guide's Biology block was replaced with
+Mathematics, since the user chose Mathematics over Biological Science. The
+guide now carries 140 questions (44 Physics, 60 Chemistry, 36 Mathematics),
+36 primers, marks Physics 34 / Chemistry 36 / Mathematics 30, a subject filter
+offering Mathematics, and a mock weighted 34/36/30 across the three. The
+Biology questions and primers were removed from the payload (they remain in git
+history); the "biology problem" method card was replaced with a note pointing
+at the Mathematics focus guide. Verified live: no console errors, hero stat
+reads 44/60/36, subject options include Mathematics.
+
+## 1 November 2026 — Deploy Informatics Officer to production
+
+At the user's request, deployed the current India Study Map workspace to
+Vercel production: `dpl_9bNEe68MVqNY3WrxKsLnLKPXstYA`, aliased to
+https://map.hawayu.in. The module is available at
+https://map.hawayu.in/embed/informatics-officer.
+
+The production TypeScript/Vite build passed. Data and runtime checks passed
+before deployment. After publication, HTTP checks confirmed the embed route,
+registry bundle, every module script/style and all six source documents.
+All fetched static files matched their local SHA-256 hashes. Browser visual
+verification remains pending after the earlier access denial. No Git commit
+or push was made.
+
+## 1 November 2026 — Informatics Officer module with the notified 2026 syllabus
+
+Added `/embed/informatics-officer` to the Exam guides menu, backed by
+`public/mpsc-informatics-officer/`. The official ICT notification of 30 July
+2026 confirms 800 written marks plus 100 interview marks, three-hour papers,
+and one-third negative marking. English/GS count toward merit; Technical III
+is Networks (60), Software Engineering (60), AI/ML (40), Cybersecurity (40),
+not the old Project Management syllabus. English and GS unit weights now use
+the notification instead of the System Analyst/MES distribution.
+
+The module adapts shared study assets at load time without rewriting source
+banks. It has 544 concepts, 2,496 questions (2,445 scoreable), 53 calculation
+generators, independent `mpsc_io_2026_v1` progress, syllabus, study, daily tests,
+practice, essays, papers, repeats, mocks and sources. Thirteen introductory
+notes cover letter writing, AI/ML and cybersecurity. Study counts are not a
+claim of complete syllabus coverage. Technical mocks explicitly cover only
+the 100-mark MCQ component; the 100-mark written portion remains separate.
+English MCQ point values and the GS 100-question format are stated as study
+conventions where the notification does not specify question counts.
+
+Imported 400 Set A questions from the four supplied System Analyst 2026 PDFs,
+retaining bold-answer provenance and direct source-page links. All original
+sets and the 14 September compensation notice are accessible. Paper I A56–65
+remain readable but cannot enter scored pools. These are related System
+Analyst papers, not Informatics Officer papers. The extractor normalises
+missing A labels in Technical II Q54/Q69/Q72 and the duplicated A label in
+Technical III Q38, with notes; GS Q22 uses bold option text rather than the
+stray bold D label. Relevant source pages were visually checked. Answers are
+transcribed, not independently re-solved. Source hashes are in `sources/manifest.json`.
+
+Shared trainer changes are configuration-driven: module identity, scoring,
+source links, appropriate mock labels and no invented exam countdown. Marks
+now respect the paper value; IO applies one-third deductions. System Analyst
+keeps its storage namespace and existing exam configuration. The Vercel SPA
+rewrite excludes both module directories so shared static files/PDFs resolve.
+
+Validation: extractor asserts 100 questions per source, four options and one
+marked answer (except compensated items); data checks verify totals, unit
+mappings, IDs and exclusions; runtime checks cover view templates, isolated
+storage, weighted sampling, scoring and calculation generators for both module
+configurations. Production build and `git diff --check` pass. Browser visual
+verification is pending: browser security policy rejected localhost access
+because permission was declined; no alternative browser route was attempted.
+No commit or deployment was performed. Existing unrelated edits were preserved.
+
 ## 27 October 2026 — Keep the generated PYQ archive off the first load
 
 The dashboard's initial imports pulled the full generated Group B question

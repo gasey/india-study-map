@@ -228,7 +228,7 @@ export const modules: AppModule[] = [
     title: 'MPSC JSO — Cyber Forensic',
     category: 'Practice',
     subgroup: 'Exam guides',
-    tagline: '49 units, 543 questions — Browse / Test / Exam Plan modes',
+    tagline: '53 units, 1325 questions — Interactive Study, Visual Lab & Cheat Sheets, Custom Test, Saved & Weak Review',
     glyph: '🕵️',
     kind: 'static',
     path: '/mpsc-jso-prep/index.html',

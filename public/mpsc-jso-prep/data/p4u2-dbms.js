@@ -7,218 +7,227 @@ window.MPSC.units.push({
 
   notes: [
     {
-      h: 'Why DBMS carries 40 marks in a forensics paper',
-      b: '<p>This unit looks out of place until you notice <b>SQLite</b> and <b>Unix Timestamp</b> named in the syllabus text. Almost every artefact you recover from a phone is a SQLite database: WhatsApp <code>msgstore.db</code>, Android contacts and SMS, iOS <code>sms.db</code>, browser history, call logs. Recovering and interpreting them <em>is</em> mobile forensics.</p>' +
-         '<p>So treat this unit as two halves: classical DBMS theory (normalisation, keys, transactions — where the marks are easiest) and the forensic application of SQLite, which links directly to Unit V.</p>'
-    },
-    {
-      h: 'Keys',
-      b: '<ul>' +
-         '<li><b>Super key</b> — any attribute set that uniquely identifies a tuple.</li>' +
-         '<li><b>Candidate key</b> — a minimal super key (no attribute can be removed without losing uniqueness).</li>' +
-         '<li><b>Primary key</b> — the candidate key chosen by the designer; cannot be NULL.</li>' +
-         '<li><b>Alternate key</b> — a candidate key not chosen as primary.</li>' +
-         '<li><b>Foreign key</b> — an attribute referencing the primary key of another relation; enforces <b>referential integrity</b>.</li>' +
-         '<li><b>Composite key</b> — a key made of more than one attribute.</li>' +
-         '</ul>' +
-         '<p>Every primary key is a candidate key, and every candidate key is a super key. The reverse does not hold — a standard MCQ framing.</p>'
-    },
-    {
-      h: 'Normalisation',
-      b: '<p>Normalisation removes redundancy and the insertion, update and deletion anomalies it causes.</p>' +
-         '<table>' +
-         '<tr><th>Form</th><th>Requirement</th><th>Removes</th></tr>' +
-         '<tr><td><b>1NF</b></td><td>All attributes atomic; no repeating groups</td><td>Multi-valued cells</td></tr>' +
-         '<tr><td><b>2NF</b></td><td>1NF + no partial dependency of a non-prime attribute on part of a composite key</td><td>Partial dependencies</td></tr>' +
-         '<tr><td><b>3NF</b></td><td>2NF + no transitive dependency of a non-prime attribute</td><td>Transitive dependencies</td></tr>' +
-         '<tr><td><b>BCNF</b></td><td>For every non-trivial X→Y, X is a super key</td><td>Anomalies 3NF still permits</td></tr>' +
-         '<tr><td><b>4NF</b></td><td>BCNF + no non-trivial multi-valued dependency</td><td>Multi-valued dependencies</td></tr>' +
-         '</table>' +
-         '<p>Mnemonic for the classic line: <em>every non-key attribute must depend on the key (1NF→2NF), the whole key (2NF→3NF), and nothing but the key (3NF→BCNF), so help me Codd.</em></p>' +
-         '<p>Note that 2NF violations require a <b>composite</b> primary key. If the key is a single attribute, a 1NF relation is automatically in 2NF — a frequent exam point.</p>'
-    },
-    {
-      h: 'ACID and transactions',
-      b: '<ul>' +
-         '<li><b>Atomicity</b> — all operations commit or none do.</li>' +
-         '<li><b>Consistency</b> — a transaction moves the database from one valid state to another.</li>' +
-         '<li><b>Isolation</b> — concurrent transactions do not observe each other\'s intermediate state.</li>' +
-         '<li><b>Durability</b> — once committed, changes survive system failure.</li>' +
-         '</ul>' +
-         '<p><b>Two-Phase Commit (2PC)</b>, named in the syllabus, coordinates a distributed transaction: a <em>voting/prepare</em> phase where the coordinator asks all participants to prepare and they reply commit-or-abort, then a <em>decision</em> phase where the coordinator broadcasts the outcome. Its weakness is <b>blocking</b> — if the coordinator fails after participants vote, they wait indefinitely.</p>' +
-         '<p>Do not confuse 2PC with <b>two-phase locking (2PL)</b>, a concurrency-control protocol with a growing and a shrinking phase that guarantees serialisability. The similar names are deliberately exploited in MCQs.</p>'
-    },
-    {
-      h: 'SQLite and Unix timestamps — the forensic half',
-      b: '<p><b>SQLite</b> is a serverless, zero-configuration, single-file database engine. The whole database is one file, which is exactly why it dominates mobile apps and why it matters to you.</p>' +
-         '<ul>' +
-         '<li>Deleted rows are often <em>not</em> erased — they remain in <b>free pages</b> and unallocated areas of the database file until vacuumed, so deleted messages are frequently recoverable.</li>' +
-         '<li>Journal modes matter: a <code>-journal</code> rollback file or a <code>-wal</code> (Write-Ahead Log) file sits beside the database. <b>The WAL can hold records not yet merged into the main file</b> — seizing the <code>.db</code> alone and leaving the <code>-wal</code> behind loses evidence.</li>' +
-         '</ul>' +
-         '<p><b>Timestamps</b> you must be able to convert:</p>' +
-         '<table>' +
-         '<tr><th>Epoch</th><th>Starts at</th><th>Unit</th><th>Seen in</th></tr>' +
-         '<tr><td>Unix</td><td>1 Jan 1970 UTC</td><td>seconds</td><td>Linux, Android</td></tr>' +
-         '<tr><td>Unix (ms)</td><td>1 Jan 1970 UTC</td><td>milliseconds</td><td>Java, Android apps</td></tr>' +
-         '<tr><td>Apple/Mac absolute</td><td>1 Jan 2001 UTC</td><td>seconds</td><td>iOS, macOS, Plists</td></tr>' +
-         '<tr><td>Windows FILETIME</td><td>1 Jan 1601 UTC</td><td>100-nanosecond</td><td>NTFS, registry</td></tr>' +
-         '</table>' +
-         '<div class="tip"><b>Trap.</b> An iOS timestamp read as a Unix timestamp lands 31 years early. Getting the epoch wrong does not produce an obviously absurd date — it produces a plausible wrong one, which is far more dangerous in a report.</div>'
-    },
-    {
-      h: 'Database security and triggers',
-      b: '<p><b>Triggers</b> are procedural code fired automatically on INSERT, UPDATE or DELETE. They enforce complex integrity rules and, importantly here, maintain <b>audit trails</b> — a trigger writing every change to a log table is a common evidentiary source.</p>' +
-         '<p>Security concepts: <b>authentication</b> (who you are) vs <b>authorisation</b> (what you may do); <code>GRANT</code> and <code>REVOKE</code> as SQL\'s Data Control Language; <b>views</b> as a means of restricting visible columns and rows; and <b>SQL injection</b>, defeated by parameterised queries rather than by input filtering.</p>' +
-         '<p><b>Recovery:</b> <em>system recovery</em> handles a crash with the disk intact, replaying the log (redo committed, undo uncommitted). <em>Media recovery</em> handles physical loss of the disk, restoring from backup and rolling forward through archived logs.</p>'
-    },
-    {
-      h: 'Database architecture and data models',
-      b: '<p>The syllabus names "Data models & Database Architecture" separately from the relational model — this is the ANSI-SPARC <b>three-level architecture</b>, and it is tested as a standalone topic.</p>' +
-         '<table>' +
-         '<tr><th>Level</th><th>Describes</th><th>Example change</th></tr>' +
-         '<tr><td><b>External</b></td><td>Individual user/application views</td><td>Adding a new report view</td></tr>' +
-         '<tr><td><b>Conceptual</b></td><td>The whole logical structure — entities, relationships, constraints — for the community of users</td><td>Adding a new table or column</td></tr>' +
-         '<tr><td><b>Internal</b></td><td>Physical storage — file organisation, indexes, access paths</td><td>Adding an index, changing storage engine</td></tr>' +
-         '</table>' +
-         '<p>Two kinds of <b>data independence</b> follow directly from this stack:</p>' +
-         '<ul>' +
-         '<li><b>Physical data independence</b> — change the internal schema (storage/indexing) without touching the conceptual schema. Relatively easy to achieve; this is what lets a DBA add an index with zero application changes.</li>' +
-         '<li><b>Logical data independence</b> — change the conceptual schema without touching external schemas/applications. Harder, because more objects depend on the conceptual level.</li>' +
-         '</ul>' +
-         '<div class="tip"><b>Trap.</b> Questions often ask which independence is "harder to achieve" — it is <b>logical</b>, not physical, precisely because the conceptual schema sits between the internal level and every external view.</div>' +
-         '<p>Data model families to be able to name: <b>hierarchical</b> (tree, each child has one parent — old IMS systems), <b>network</b> (graph, CODASYL owner-member sets, a child can have multiple parents), <b>relational</b> (tables/tuples — Codd, 1970), and <b>E-R</b> (a design/conceptual-modelling tool, not a storage model in itself).</p>'
-    },
-    {
-      h: 'E-R to Relational Mapping',
-      b: '<p>Converting a conceptual E-R diagram into relational tables follows fixed rules — a favourite short-answer/MCQ source.</p>' +
-         '<ul>' +
-         '<li><b>Strong entity</b> → its own table; entity\'s key becomes the table\'s primary key.</li>' +
-         '<li><b>Weak entity</b> → its own table, but its primary key is the <b>partial key combined with the primary key of the owner (identifying) entity</b>, which is also carried in as a foreign key. A weak entity can never stand alone because it has no candidate key of its own.</li>' +
-         '<li><b>1:1 relationship</b> → post the primary key of either side into the other as a foreign key (commonly placed on the side with mandatory/total participation).</li>' +
-         '<li><b>1:N relationship</b> → the primary key of the "1" side is posted as a foreign key into the table on the <b>"N" (many) side</b>.</li>' +
-         '<li><b>M:N relationship</b> → neither entity table gets a foreign key. Instead create a new <b>junction/bridge table</b> holding foreign keys to both entities; the pair (or the pair plus a relationship attribute) forms its primary key.</li>' +
-         '<li><b>Multi-valued attribute</b> → its own table, with a foreign key back to the owning entity.</li>' +
-         '</ul>' +
-         '<div class="tip"><b>Trap.</b> Placing the foreign key on the wrong side of a 1:N relationship (i.e. on the "1" side instead of the "N" side) is the single most common mapping error tested.</div>'
-    },
-    {
-      h: 'Relational model: integrity constraints and relational algebra',
-      b: '<p>Three constraint types every relation must satisfy:</p>' +
-         '<ul>' +
-         '<li><b>Domain constraint</b> — every attribute value must come from its declared domain (type/range).</li>' +
-         '<li><b>Entity integrity</b> — no attribute participating in the primary key may be NULL.</li>' +
-         '<li><b>Referential integrity</b> — a foreign key value must either be NULL or match an existing primary-key value in the referenced relation; it cannot reference a non-existent row.</li>' +
-         '</ul>' +
-         '<p><b>Relational algebra</b> — the procedural query language the relational model is theoretically built on:</p>' +
-         '<table>' +
-         '<tr><th>Operator</th><th>Symbol</th><th>Acts on</th></tr>' +
-         '<tr><td>Select</td><td>σ</td><td><b>Rows</b> — filters tuples matching a predicate; column count unchanged</td></tr>' +
-         '<tr><td>Project</td><td>π</td><td><b>Columns</b> — keeps only specified attributes; row count may shrink if duplicates collapse</td></tr>' +
-         '<tr><td>Union / Set difference</td><td>∪ / −</td><td>Two union-compatible relations</td></tr>' +
-         '<tr><td>Cartesian product</td><td>×</td><td>Every tuple of R paired with every tuple of S</td></tr>' +
-         '<tr><td>Rename</td><td>ρ</td><td>Renames a relation or its attributes</td></tr>' +
-         '<tr><td>Join</td><td>⋈</td><td>Derived from product + select; a <b>natural join</b> auto-equates and de-duplicates common attribute names</td></tr>' +
-         '</table>' +
-         '<div class="tip"><b>Trap.</b> σ (select) and π (project) are constantly swapped in options — σ trims <em>rows</em>, π trims <em>columns</em>. Read the option as "acts on rows/columns" before matching it to a symbol.</div>'
-    },
-    {
-      h: 'SQL joins and query essentials',
-      b: '<p>Join semantics, tested both as theory and as "what will this query return":</p>' +
-         '<ul>' +
-         '<li><b>INNER JOIN</b> — only rows with a match on both sides.</li>' +
-         '<li><b>LEFT (OUTER) JOIN</b> — every row from the left table; unmatched right-side columns come back NULL.</li>' +
-         '<li><b>RIGHT (OUTER) JOIN</b> — the mirror image of LEFT.</li>' +
-         '<li><b>FULL OUTER JOIN</b> — every row from both sides, NULL-padded where unmatched; neither MySQL nor pre-3.39 SQLite support it natively — emulate with a LEFT JOIN <code>UNION</code> a RIGHT JOIN.</li>' +
-         '</ul>' +
-         '<p><b>Logical order of execution</b> of a SELECT (not its written order): <code>FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY</code>. This is why you can filter on a raw column in WHERE but must filter on an aggregate in HAVING — the aggregate does not exist yet when WHERE runs.</p>' +
-         '<p>Aggregates — COUNT, SUM, AVG, MIN, MAX — operate per group; WHERE filters rows <em>before</em> grouping, HAVING filters groups <em>after</em>.</p>' +
-         '<p><b>MySQL vs SQLite</b>, both named in the syllabus: MySQL is client-server with strict column typing; SQLite is a serverless single embedded file with dynamic <em>type affinity</em> (a column declared INTEGER will still happily store text). Historically (pre-3.39, 2022) SQLite supported only LEFT JOIN, not RIGHT or FULL OUTER JOIN — MySQL has always supported RIGHT JOIN.</p>'
-    },
-    {
-      h: 'Concurrency control and transaction isolation levels',
-      b: '<p>Running transactions concurrently without control produces three named anomalies:</p>' +
-         '<ul>' +
-         '<li><b>Dirty read</b> — reading a value written by a transaction that has not yet committed (and might later roll back).</li>' +
-         '<li><b>Non-repeatable read</b> — re-reading the same row within one transaction and getting a different value because another transaction committed an update in between.</li>' +
-         '<li><b>Phantom read</b> — re-running the same range query within one transaction and getting a different <em>set of rows</em> because another transaction inserted or deleted a matching row in between.</li>' +
-         '</ul>' +
-         '<p>The SQL standard defines four isolation levels as a ladder, each preventing one more anomaly than the last:</p>' +
-         '<table>' +
-         '<tr><th>Level</th><th>Dirty read</th><th>Non-repeatable read</th><th>Phantom read</th></tr>' +
-         '<tr><td>Read Uncommitted</td><td>Possible</td><td>Possible</td><td>Possible</td></tr>' +
-         '<tr><td>Read Committed</td><td>Prevented</td><td>Possible</td><td>Possible</td></tr>' +
-         '<tr><td>Repeatable Read</td><td>Prevented</td><td>Prevented</td><td>Possible</td></tr>' +
-         '<tr><td>Serializable</td><td>Prevented</td><td>Prevented</td><td>Prevented</td></tr>' +
-         '</table>' +
-         '<p>This connects back to <b>two-phase locking (2PL)</b> from the ACID note: strict 2PL — holding all exclusive locks until commit — is the classic mechanism used to implement Serializable isolation.</p>' +
-         '<div class="tip"><b>Trap.</b> Per the ANSI SQL standard, Repeatable Read still permits phantom reads; only Serializable rules them out. (Some engines, e.g. InnoDB\'s Repeatable Read, block most phantoms via gap locking in practice — but for exam purposes, go by the standard ladder above, not a specific engine\'s implementation.)</div>'
+      h: 'Why DBMS carries 40 marks in a Cyber Forensics paper',
+      b: '<p>At first glance, classical database theory seems distant from crime scenes — until you notice <b>SQLite</b> and <b>Unix Timestamp</b> explicitly written into the MPSC syllabus. Nearly every digital artefact recovered from a smartphone or desktop browser is stored inside a <b>SQLite database</b>: WhatsApp (<code>msgstore.db</code>, <code>wa.db</code>), Android SMS/MMS (<code>mmssms.db</code>), iOS Messages (<code>sms.db</code>), Call Logs (<code>calllog.db</code> / <code>CallHistory.storedata</code>), Chrome/Firefox History (<code>History</code>, <code>places.sqlite</code>), and Location caches.</p>' +
+         '<p>Therefore, treat Unit II as two tightly linked pillars: (1) <b>Classical Relational & Transaction Theory</b> (ER models, keys, functional dependencies, 1NF–4NF/BCNF, SQL, ACID, 2PC, recovery — high-scoring, deterministic questions) and (2) <b>Forensic Database Analysis</b> (SQLite internal page structure, freelist carving, `-wal` write-ahead logs, epoch timestamp conversions, triggers for audit trails, and SQL injection forensics).</p>'
     },
     {
       h: 'Evolution of DB & DBMS, and why a DBMS exists at all',
-      b: '<p>The syllabus opens with this as its own line, and it is the "why does this subject exist" question examiners like to open with.</p>' +
+      b: '<div class="analogy"><b>💡 Analogy — Shared Notebooks vs a Central Evidence Vault:</b> A <b>traditional file-based system</b> is like five police officers each keeping their own private Excel spreadsheet of suspects on their laptops. When a suspect\'s phone number changes, Officer A updates her sheet, while Officers B, C, and D still hold the old number (<b>data redundancy &amp; inconsistency</b>). If two officers edit a file on a shared folder at the same instant, one overwrites the other (<b>concurrency anomaly</b>). A <b>DBMS</b> replaces those scattered notebooks with a single, centrally guarded, rule-enforcing Evidence Vault!</div>' +
          '<table>' +
-         '<tr><th>Era</th><th>Approach</th><th>Limitation</th></tr>' +
-         '<tr><td>1950s–60s</td><td><b>File-based systems</b> — each application wrote its own flat files (COBOL/FORTRAN programs with hard-coded record layouts)</td><td>Data duplicated across programs; changing a record layout meant rewriting every program that touched it</td></tr>' +
-         '<tr><td>Late 1960s</td><td><b>Hierarchical model</b> (e.g. IBM IMS) — records in a tree, each child has exactly one parent</td><td>Rigid; cannot naturally represent many-to-many relationships</td></tr>' +
-         '<tr><td>1969</td><td><b>Network model</b> (CODASYL) — a graph of owner-member sets, a child can have multiple parents</td><td>Navigation was procedural — the programmer had to know the access path</td></tr>' +
-         '<tr><td>1970</td><td><b>Relational model</b> (E. F. Codd) — data as tables, accessed declaratively</td><td>Query languages (SQL) let you state <em>what</em> you want, not <em>how</em> to navigate to it</td></tr>' +
-         '<tr><td>2000s onward</td><td><b>NoSQL</b> — document (MongoDB), key-value (Redis), column-family (Cassandra), graph (Neo4j)</td><td>Trades strict schema/ACID guarantees for horizontal scale and flexible, semi-structured data</td></tr>' +
+         '<tr><th>Era</th><th>Data Model / Generation</th><th>Structure &amp; Access Style</th><th>Primary Limitation</th></tr>' +
+         '<tr><td>1950s–60s</td><td><b>Flat File Systems</b> (Magnetic tape / COBOL)</td><td>Application-specific sequential/indexed files</td><td>Severe data duplication, program-data dependence, no ad-hoc queries</td></tr>' +
+         '<tr><td>Late 1960s</td><td><b>Hierarchical Model</b> (IBM IMS)</td><td><b>Tree structure</b> (1:N parent-child; each child has <em>at most one parent</em>)</td><td>Cannot represent M:N relationships without duplicating records; navigational</td></tr>' +
+         '<tr><td>1969</td><td><b>Network Model</b> (CODASYL DBTG)</td><td><b>Directed Graph</b> (owner-member sets; a child can have <em>multiple parents</em>)</td><td>Complex pointer chains; programmer must navigate physical access paths manually</td></tr>' +
+         '<tr><td>1970</td><td><b>Relational Model</b> (E. F. Codd)</td><td><b>2D Relations (Tables)</b> of tuples and attributes</td><td>Declarative access (SQL states <em>what</em> to fetch, not <em>how</em>); struggle with massive unstructured scale</td></tr>' +
+         '<tr><td>2000s+</td><td><b>NoSQL / NewSQL</b> (MongoDB, Redis, Neo4j)</td><td>Document, Key-Value, Wide-Column, Graph</td><td>Often trades strict ACID serializability for BASE / eventual consistency</td></tr>' +
          '</table>' +
-         '<p><b>Database Applications</b> is the syllabus\'s name for the breadth of this: banking, airline reservation, e-commerce, telecom billing, and — for this exam — forensic evidence stores are all "database applications" in this sense.</p>' +
-         '<p><b>Need for data management</b> — why a DBMS replaced raw files, in the five reasons examiners actually test:</p>' +
-         '<ul>' +
-         '<li><b>Data redundancy &amp; inconsistency</b> — the same fact stored in multiple files can go out of sync when only one copy is updated.</li>' +
-         '<li><b>Data integrity</b> — a DBMS enforces constraints (domain, entity, referential) centrally; a flat file has no such enforcement mechanism.</li>' +
-         '<li><b>Concurrent access</b> — a DBMS provides locking/isolation so multiple users can read and write safely at once; concurrent file access easily corrupts data.</li>' +
-         '<li><b>Security</b> — a DBMS offers user-level authentication and column/row-level authorisation; a shared file offers only OS-level file permissions, all-or-nothing.</li>' +
-         '<li><b>Backup &amp; recovery</b> — a DBMS has built-in logging and recovery (see System &amp; Media Recovery); recovering a corrupted flat file has no equivalent mechanism.</li>' +
-         '</ul>' +
-         '<div class="tip"><b>Trap.</b> "Faster hardware" or "cheaper storage" are commonly planted as a wrong option for "why DBMS replaced file systems" — the real drivers are the five <em>data-management</em> problems above, not raw performance.</div>'
+         '<p><b>Five textbook reasons why a DBMS replaced file-based systems ("Need for data management"):</b></p>' +
+         '<ol>' +
+         '<li><b>Controlling Data Redundancy &amp; Inconsistency:</b> facts are stored once (normalised), preventing contradictory copies.</li>' +
+         '<li><b>Program-Data Independence:</b> changing disk storage or adding a column does not force rewriting application code.</li>' +
+         '<li><b>Centralised Integrity Constraints:</b> domain types, NOT NULL, primary keys, and foreign keys are enforced by the engine, not left to application bugs.</li>' +
+         '<li><b>Concurrent Access &amp; Atomicity:</b> multi-user locking/MVCC prevents lost updates and half-written crashes.</li>' +
+         '<li><b>Fine-Grained Security &amp; Backup/Recovery:</b> role/view-based `GRANT`/`REVOKE` and automated WAL crash recovery.</li>' +
+         '</ol>'
     },
     {
-      h: 'Introduction to SQL: the DDL / DML / DCL / TCL taxonomy',
-      b: '<p>The syllabus lists "Introduction to SQL" as its own topic, separate from the specific joins/queries already covered above. At this level it is tested as a sorting exercise: given a command, name its category.</p>' +
-         '<table>' +
-         '<tr><th>Category</th><th>Full form</th><th>Commands</th><th>Purpose</th></tr>' +
-         '<tr><td><b>DDL</b></td><td>Data Definition Language</td><td>CREATE, ALTER, DROP, TRUNCATE</td><td>Defines/modifies schema structure (tables, indexes, views)</td></tr>' +
-         '<tr><td><b>DML</b></td><td>Data Manipulation Language</td><td>INSERT, UPDATE, DELETE (and SELECT, in most syllabi)</td><td>Manipulates the data stored inside tables</td></tr>' +
-         '<tr><td><b>DCL</b></td><td>Data Control Language</td><td>GRANT, REVOKE</td><td>Controls who has which privileges</td></tr>' +
-         '<tr><td><b>TCL</b></td><td>Transaction Control Language</td><td>COMMIT, ROLLBACK, SAVEPOINT</td><td>Manages the boundaries of a transaction</td></tr>' +
-         '</table>' +
-         '<p>Example of each in one line: <code>CREATE TABLE Suspects(id INT PRIMARY KEY);</code> (DDL) → <code>INSERT INTO Suspects VALUES(1);</code> (DML) → <code>GRANT SELECT ON Suspects TO investigator;</code> (DCL) → <code>SAVEPOINT before_edit; ROLLBACK TO before_edit;</code> (TCL).</p>' +
-         '<p>Two commands deserve special attention because they sit at category boundaries:</p>' +
-         '<ul>' +
-         '<li><b>TRUNCATE</b> looks like DELETE but is <b>DDL</b>: it deallocates the table\'s data pages wholesale, resets any auto-increment counter, cannot be filtered with a WHERE clause, and — unlike DELETE — is not logged row-by-row, so it usually cannot be rolled back and triggers an implicit commit in most engines.</li>' +
-         '<li><b>SELECT</b> is grouped under DML by most textbooks and this syllabus, though some separately label it <b>DQL</b> (Data Query Language) since it only reads and never manipulates data.</li>' +
-         '</ul>' +
-         '<div class="tip"><b>Trap.</b> "Which category does TRUNCATE belong to" is a favourite MCQ precisely because it reads like a DELETE (a DML verb) but behaves and is classified like DDL.</div>'
+      h: 'Database architecture and data models (ANSI-SPARC)',
+      b: '<div class="stack-diagram">' +
+         '<div class="stack-layer"><b>External / View Level (View 1, View 2, …)</b><span>What individual users see (e.g., a receptionist view hiding salary columns)</span></div>' +
+         '<div class="stack-layer"><b>↕ Logical Data Independence</b><span>Modify conceptual schema (add table/column) without breaking external user views</span></div>' +
+         '<div class="stack-layer"><b>Conceptual / Logical Level</b><span>Community-wide blueprint: all entities, data types, relationships, and constraints</span></div>' +
+         '<div class="stack-layer"><b>↕ Physical Data Independence</b><span>Modify internal storage (add B+ tree index, move datafile, change compression) without touching conceptual schema</span></div>' +
+         '<div class="stack-layer"><b>Internal / Physical Level</b><span>Low-level byte layout: B-tree pages, hash buckets, block offsets, encryption on disk</span></div>' +
+         '</div>' +
+         '<div class="clarity"><b>⚡ Concept Clarity — Schema vs Instance:</b><br>' +
+         '• <b>Database Schema (Intension):</b> the structural blueprint/skeleton of the database (table definitions, column names, constraints) — changes very rarely.<br>' +
+         '• <b>Database Instance / State (Extension):</b> the actual snapshot of rows/tuples sitting inside the tables at a specific moment in time — changes with every `INSERT`, `UPDATE`, or `DELETE`.<br>' +
+         '• <b>Logical Data Independence is harder to achieve</b> than Physical Data Independence because application queries are tightly coupled to table/column definitions.</div>'
     },
     {
-      h: 'System & Media Recovery — logs, checkpoints, undo/redo',
-      b: '<p>The "Database security and triggers" note above already draws the headline distinction — <b>system recovery</b> (crash, disk intact) vs <b>media recovery</b> (physical storage loss, needs backup). This note covers the machinery both rely on.</p>' +
-         '<p><b>Write-ahead logging (WAL)</b> is the foundational rule: before any change to a data page is written to disk, the log record describing that change must already be on stable storage. This guarantees that even if the system crashes mid-write, the log has enough information to reconstruct what was intended.</p>' +
-         '<p>Recovery from the log then runs in two conceptual passes:</p>' +
+      h: 'E-R Diagrams and E-R to Relational Mapping',
+      b: '<p><b>Chen E-R Notation Symbols (Frequently Tested!):</b></p>' +
          '<ul>' +
-         '<li><b>Redo</b> — reapply the changes of every transaction that had <em>committed</em>, in case its updates never made it from buffer to disk before the crash.</li>' +
-         '<li><b>Undo</b> — reverse the changes of every transaction that was still <em>in progress</em> (uncommitted) at the time of the crash, since it must not survive.</li>' +
+         '<li><b>Rectangle:</b> Strong Entity Set &nbsp;|&nbsp; <b>Double Rectangle:</b> Weak Entity Set (depends on an identifying owner entity).</li>' +
+         '<li><b>Diamond:</b> Relationship Set &nbsp;|&nbsp; <b>Double Diamond:</b> Identifying Relationship (links a weak entity to its owner).</li>' +
+         '<li><b>Ellipse:</b> Attribute &nbsp;|&nbsp; <b>Double Ellipse:</b> Multi-valued attribute (e.g., `Phone_Numbers`) &nbsp;|&nbsp; <b>Dashed Ellipse:</b> Derived attribute (e.g., `Age` computed from `DOB`).</li>' +
+         '<li><b>Solid Underlined Attribute:</b> Primary Key &nbsp;|&nbsp; <b>Dashed Underlined Attribute:</b> Partial Key (Discriminator) of a weak entity.</li>' +
+         '<li><b>Single Line:</b> Partial Participation (optional) &nbsp;|&nbsp; <b>Double Line:</b> Total Participation (mandatory — every entity in the set must participate at least once, which is always true for a weak entity).</li>' +
          '</ul>' +
-         '<p><b>Checkpoints</b> exist purely to bound how far back recovery has to scan the log. At a checkpoint the DBMS records which transactions are currently active and forces their buffered pages to disk; recovery then only needs to redo/undo from the most recent checkpoint onward, not from the start of the log.</p>' +
-         '<p><b>Media recovery</b> is invoked when the disk itself is lost or corrupted beyond what logs alone can fix: restore the most recent full backup, then roll forward by replaying the <em>archived</em> logs generated since that backup was taken.</p>' +
-         '<div class="tip"><b>Trap.</b> "Redo" and "undo" are often swapped in options: <b>redo</b> is for transactions that <em>did</em> commit, <b>undo</b> is for transactions that did <em>not</em>. Read it as "redo the done, undo the undone."</div>'
+         '<div class="example"><b>🔬 Worked Formula — Minimum Number of Relational Tables Required for an E-R Diagram:</b><br>' +
+         'Suppose Strong Entities $E_1$ (key $A_1$) and $E_2$ (key $A_2$) are connected by a relationship $R$:<br>' +
+         '1. <b>M:N (Many-to-Many) relationship:</b> Always requires <b>3 tables</b> ($E_1$, $E_2$, and a separate junction table $R$ with composite primary key $(A_1, A_2)$).<br>' +
+         '2. <b>1:N (One-to-Many) relationship:</b> Requires <b>2 tables</b>! Post the primary key of the "1" side as a Foreign Key into the table of the <b>"N" (Many) side</b> (merging $R$ into the Many side).<br>' +
+         '3. <b>1:1 relationship with Partial Participation on both sides:</b> Requires <b>2 tables</b> (post FK into either side).<br>' +
+         '4. <b>1:1 relationship with Total Participation on one side:</b> Can be merged into <b>1 table</b> (or kept as 2 tables with FK on the total side).<br>' +
+         '5. <b>1:1 relationship with Total Participation on BOTH sides:</b> Can be merged into just <b>1 single table</b>!<br>' +
+         '6. <b>Multi-valued attribute (double ellipse):</b> Always requires <b>1 extra separate table</b> with $(PK_{\\text{entity}}, \\text{MultiValue})$ as its composite primary key.</div>'
     },
     {
-      h: 'Two Phase Commit Protocol — coordinator, participants, and the 2PC-vs-2PL trap',
-      b: '<p>The ACID note above already introduces 2PC in brief; this note is the full mechanics, because the syllabus names it as a standalone topic.</p>' +
-         '<p><b>Why it exists:</b> a distributed transaction touches more than one database/site (e.g. updating two branch databases in one logical transfer). Atomicity demands that <em>every</em> site commit, or <em>none</em> do — a site cannot be allowed to commit locally while another aborts. 2PC is the classic protocol that enforces this across independent sites.</p>' +
-         '<p>Roles: one site acts as the <b>coordinator</b>; every other site involved is a <b>participant</b> (also called a cohort).</p>' +
+      h: 'Keys and Functional Dependencies',
+      b: '<div class="analogy"><b>💡 Analogy — Super Key vs Candidate Key vs Primary Key:</b> Imagine identifying a citizen in India. <code>{Aadhaar_No}</code> uniquely identifies a citizen, and <code>{PAN_No}</code> also uniquely identifies a citizen. Both are minimal — remove anything and they are empty — so both are <b>Candidate Keys</b>. If someone uses <code>{Aadhaar_No, Favourite_Colour, Shoe_Size}</code>, that combination still uniquely identifies the person, but it contains redundant baggage — so it is a <b>Super Key</b>, not a Candidate Key! When the database designer picks <code>{Aadhaar_No}</code> as the official main key (and enforces <code>NOT NULL</code>), it becomes the <b>Primary Key</b>, while the unselected candidate key <code>{PAN_No}</code> is called an <b>Alternate Key</b>.</div>' +
+         '<ul>' +
+         '<li><b>Super Key $\\supseteq$ Candidate Key $\\supseteq$ Primary Key:</b> Every Primary Key is a Candidate Key, and every Candidate Key is a Super Key (the converse is false).</li>' +
+         '<li><b>Prime Attribute:</b> any attribute that is a member of <em>at least one</em> Candidate Key. <b>Non-Prime Attribute:</b> an attribute that does not belong to any Candidate Key.</li>' +
+         '<li><b>Attribute Closure ($X^+$):</b> the set of all attributes functionally determined by $X$ using Armstrong\'s Axioms (<em>Reflexivity</em>, <em>Augmentation</em>, <em>Transitivity</em>). <b>$X$ is a Super Key of $R$ if and only if $X^+$ contains all attributes of $R$!</b></li>' +
+         '</ul>' +
+         '<div class="example"><b>🔬 Worked Example — Finding All Candidate Keys &amp; Counting Super Keys:</b><br>' +
+         'Given relation $R(A, B, C, D, E)$ with Functional Dependencies: $AB \\to C$, $C \\to D$, $D \\to B$, $D \\to E$.<br>' +
+         '• <b>Step 1 (Find essential attributes):</b> Notice attribute $A$ never appears on the Right-Hand Side (RHS) of any FD! Therefore, <b>$A$ MUST be part of every candidate key</b>.<br>' +
+         '• <b>Step 2 (Check closure of $A$):</b> $A^+ = \\{A\\} \\neq R$, so $A$ alone is not a key.<br>' +
+         '• <b>Step 3 (Try 2-attribute combinations with $A$):</b><br>' +
+         '  – $(AB)^+ = \\{A, B, C, D, E\\} = R \\Rightarrow$ <b>$AB$ is a Candidate Key!</b><br>' +
+         '  – Since $C \\to D$ and $D \\to B$, test $(AC)^+ = \\{A, C, D, B, E\\} = R \\Rightarrow$ <b>$AC$ is a Candidate Key!</b><br>' +
+         '  – Since $D \\to B$, test $(AD)^+ = \\{A, D, B, C, E\\} = R \\Rightarrow$ <b>$AD$ is a Candidate Key!</b><br>' +
+         '• <b>Prime attributes:</b> $\\{A, B, C, D\\}$. <b>Non-prime attribute:</b> $\\{E\\}$.<br>' +
+         '• <b>Bonus Shortcut (Counting Super Keys):</b> If a relation with $n$ attributes has a <em>single</em> Candidate Key containing $k$ attributes, the total number of Super Keys is $2^{n - k}$!</div>'
+    },
+    {
+      h: 'Normalisation (1NF, 2NF, 3NF, BCNF, 4NF)',
+      b: '<p>Normalisation decomposes tables with redundant data to eliminate <b>Insertion, Deletion, and Update Anomalies</b> while striving for two decomposition properties: <b>1. Lossless-Join Decomposition</b> (mandatory — natural join of projections recovers exact original rows with zero spurious tuples) and <b>2. Dependency Preservation</b> (desirable — all FDs can be checked without joining tables).</p>' +
+         '<div class="diagram"><div class="diag-title">The Normalisation Hierarchy (Strict Subset Ladder: 4NF ⊂ BCNF ⊂ 3NF ⊂ 2NF ⊂ 1NF)</div>' +
+         '<div class="flow-row">' +
+         '<div class="flow-step"><b>1NF</b><small>Atomic values only (no multi-valued cells)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>2NF</b><small>No Partial FD (Non-prime on part of CK)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>3NF</b><small>No Transitive FD (X is SK, or Y is Prime)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>BCNF</b><small>Every determinant X is a Super Key</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>4NF</b><small>No Multi-Valued Dependency X ↠ Y</small></div>' +
+         '</div></div>' +
          '<table>' +
-         '<tr><th>Phase</th><th>Coordinator does</th><th>Participant does</th></tr>' +
-         '<tr><td><b>Phase 1 — Prepare / Voting</b></td><td>Sends VOTE-REQUEST to all participants</td><td>Does the work, writes it to its own log, then replies VOTE-COMMIT (ready) or VOTE-ABORT (cannot proceed) — and can no longer unilaterally change its mind once it votes COMMIT</td></tr>' +
-         '<tr><td><b>Phase 2 — Commit / Decision</b></td><td>If <em>all</em> votes are COMMIT, logs and broadcasts GLOBAL-COMMIT; if <em>any</em> vote is ABORT, broadcasts GLOBAL-ABORT</td><td>Applies the decision (commits or rolls back) and sends an acknowledgement</td></tr>' +
+         '<tr><th>Normal Form</th><th>Formal Test Condition (for every non-trivial FD $X \\to Y$)</th><th>Helpful Exam Shortcut</th></tr>' +
+         '<tr><td><b>1NF</b></td><td>Every attribute holds only atomic (indivisible) scalar values</td><td>Disallows nested tables, arrays, or comma-separated lists in a single cell.</td></tr>' +
+         '<tr><td><b>2NF</b></td><td>In 1NF + no <b>non-prime attribute</b> is partially dependent on a proper subset of any candidate key</td><td><b>If every Candidate Key is a single attribute, a 1NF table is AUTOMATICALLY in 2NF!</b></td></tr>' +
+         '<tr><td><b>3NF</b></td><td>In 2NF + for every $X \\to Y$, either <b>$X$ is a Super Key</b> OR <b>$Y$ is a Prime Attribute</b></td><td>Always admits a decomposition that is <b>both Lossless-Join AND Dependency-Preserving</b>.</td></tr>' +
+         '<tr><td><b>BCNF</b></td><td>For every non-trivial $X \\to Y$, <b>$X$ MUST be a Super Key</b> (no exception for prime $Y$!)</td><td>Always Lossless-Join, but <b>not always Dependency-Preserving</b>! If a table has only 2 attributes, it is automatically in BCNF.</td></tr>' +
+         '<tr><td><b>4NF</b></td><td>In BCNF + for every non-trivial Multi-Valued Dependency $X \\twoheadrightarrow Y$, $X$ is a Super Key</td><td>Arises when a table mixes two independent $1:N$ multi-valued facts (e.g., `Officer ↠ Skill` and `Officer ↠ Language`).</td></tr>' +
          '</table>' +
-         '<p>The transaction is only truly durable once the coordinator has logged its GLOBAL-COMMIT decision — that log record is the single point where the whole distributed transaction becomes irrevocably committed.</p>' +
-         '<p><b>Weakness:</b> 2PC is a <b>blocking</b> protocol. A participant that has voted COMMIT and is waiting for the coordinator\'s decision must hold all its locks; if the coordinator crashes at that moment, the participant cannot decide on its own and simply blocks until the coordinator recovers (or a timeout/three-phase-commit extension is used).</p>' +
-         '<div class="tip"><b>Naming trap.</b> <b>Two-Phase Commit (2PC)</b> and <b>Two-Phase Locking (2PL)</b> are unrelated concepts that both abbreviate as "two-phase X" and are deliberately confused in options. 2PC is about <em>atomically committing a single distributed transaction across multiple sites</em> (prepare phase, then commit phase). 2PL is about <em>concurrency control within one transaction\'s lock management</em> (a growing phase that only acquires locks, then a shrinking phase that only releases them) and is what guarantees serialisable isolation — see the concurrency-control note above. If an option mentions "coordinator" or "sites," it is 2PC; if it mentions "growing/shrinking phase" or "locks," it is 2PL.</div>'
+         '<div class="example"><b>🔬 Step-by-Step Normalisation Walkthrough:</b><br>' +
+         'Consider `CaseEvidence(CaseID, ExhibitNo, OfficerID, OfficerDept, SuspectPhoneNumbers)` with key `(CaseID, ExhibitNo)` and FDs: `CaseID, ExhibitNo → OfficerID`; `CaseID → OfficerDept`; `OfficerID → OfficerDept`.<br>' +
+         '1. <b>1NF Violation:</b> `SuspectPhoneNumbers` holds multiple phone numbers in one cell. Split multi-valued phones into `CasePhones(CaseID, ExhibitNo, Phone)` $\\Rightarrow$ <b>Now in 1NF</b>.<br>' +
+         '2. <b>2NF Violation:</b> `CaseID → OfficerDept` has non-prime `OfficerDept` depending on only <em>part</em> of the composite key `(CaseID, ExhibitNo)` (a <b>partial dependency</b>). Split into `Cases(CaseID, OfficerDept)` and `Exhibits(CaseID, ExhibitNo, OfficerID)` $\\Rightarrow$ <b>Now in 2NF</b>.<br>' +
+         '3. <b>3NF Violation:</b> Inside `Exhibits(CaseID, ExhibitNo, OfficerID, OfficerDept)`, `OfficerID → OfficerDept` has non-prime `OfficerDept` depending on non-prime `OfficerID` (a <b>transitive dependency</b>). Split into `Officers(OfficerID, OfficerDept)` and `Exhibits(CaseID, ExhibitNo, OfficerID)` $\\Rightarrow$ <b>Now in 3NF &amp; BCNF</b>!<br>' +
+         '4. <b>Lossless-Join Check ($R_1 \\cap R_2$ rule):</b> A decomposition of $R$ into $R_1$ and $R_2$ is lossless if and only if $(R_1 \\cap R_2) \\to R_1$ or $(R_1 \\cap R_2) \\to R_2$ (i.e., the common attribute is a key of at least one sub-table). Here, `Exhibits` $\\cap$ `Officers` $= \\{\\text{OfficerID}\\}$, which is the primary key of `Officers` — hence <b>Lossless</b>!</div>'
+    },
+    {
+      h: 'Relational model: integrity constraints and relational algebra',
+      b: '<ul>' +
+         '<li><b>Domain Constraint:</b> attribute values must be atomic and belong to the declared data type/domain.</li>' +
+         '<li><b>Entity Integrity Constraint:</b> no attribute participating in the <b>Primary Key</b> may be `NULL` (because if a key is `NULL`, we cannot uniquely identify the tuple!). Note: a `UNIQUE` key in SQL <em>can</em> allow `NULL`s, whereas `PRIMARY KEY` never can.</li>' +
+         '<li><b>Referential Integrity Constraint:</b> if table $R_2$ has a Foreign Key referencing Primary Key $PK$ of $R_1$, then every value of the Foreign Key in $R_2$ must either match an existing $PK$ value in $R_1$ or be <b>wholly `NULL`</b> (if optional). Actions on delete/update of parent: `RESTRICT`/`NO ACTION`, `CASCADE`, `SET NULL`, `SET DEFAULT`.</li>' +
+         '</ul>' +
+         '<table>' +
+         '<tr><th>Relational Algebra Operator</th><th>Symbol</th><th>Action &amp; Cardinality Notes</th></tr>' +
+         '<tr><td><b>Selection</b> (Horizontal filter)</td><td>$\\sigma_{\\text{condition}}(R)$</td><td>Filters <b>rows (tuples)</b> satisfying predicate; degree (columns) stays identical; $0 \\le |\\sigma(R)| \\le |R|$. Commutative!</td></tr>' +
+         '<tr><td><b>Projection</b> (Vertical filter)</td><td>$\\pi_{A_1, A_2}(R)$</td><td>Selects specified <b>columns (attributes)</b> and <b>automatically eliminates duplicate rows</b> (unlike SQL `SELECT`, which keeps duplicates unless `DISTINCT` is written!).</td></tr>' +
+         '<tr><td><b>Cartesian Product</b></td><td>$R \\times S$</td><td>Pairs every row of $R$ ($m$ rows, $c_1$ cols) with every row of $S$ ($n$ rows, $c_2$ cols) $\\Rightarrow$ <b>$m \\times n$ rows</b> and <b>$c_1 + c_2$ columns</b>.</td></tr>' +
+         '<tr><td><b>Natural Join</b></td><td>$R \\bowtie S$</td><td>Equates all common attribute names and drops duplicate columns. If $R$ and $S$ share no attributes, $R \\bowtie S = R \\times S$.</td></tr>' +
+         '<tr><td><b>Set Operations</b></td><td>$R \\cup S,\\; R \\cap S,\\; R - S$</td><td>Require $R$ and $S$ to be <b>union-compatible</b> (same number of attributes and compatible corresponding domains).</td></tr>' +
+         '<tr><td><b>Division</b></td><td>$R \\div S$</td><td>Finds values in $R$ associated with <b>EVERY ("FOR ALL")</b> tuple in $S$ (e.g., "Find suspects who visited <em>all</em> crime scenes listed in $S$").</td></tr>' +
+         '</table>' +
+         '<div class="tip"><b>⚠️ Classic Exam Trap:</b> The six <b>fundamental (primitive)</b> operators of Relational Algebra are $\\sigma, \\pi, \\cup, -, \\times, \\rho$. Operators like <b>Intersection ($\\cap$), Join ($\\bowtie$), and Division ($\\div$) are DERIVED operators</b> because $R \\cap S = R - (R - S)$ and $R \\bowtie_c S = \\sigma_c(R \\times S)$!</div>'
+    },
+    {
+      h: 'Introduction to SQL: DDL, DML, DCL, TCL, Joins & NULL Logic',
+      b: '<table>' +
+         '<tr><th>Sub-language</th><th>Commands</th><th>Key Exam Properties</th></tr>' +
+         '<tr><td><b>DDL</b> (Data Definition)</td><td><code>CREATE, ALTER, DROP, TRUNCATE, RENAME</code></td><td>Modifies schema catalog; <b>auto-commits</b> in most RDBMSs.</td></tr>' +
+         '<tr><td><b>DML</b> (Data Manipulation)</td><td><code>SELECT (DQL), INSERT, UPDATE, DELETE</code></td><td>Operates on row data; changes can be `ROLLBACK`-ed before commit.</td></tr>' +
+         '<tr><td><b>DCL</b> (Data Control)</td><td><code>GRANT, REVOKE</code></td><td>Manages privileges and access control (`WITH GRANT OPTION`).</td></tr>' +
+         '<tr><td><b>TCL</b> (Transaction Control)</td><td><code>COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION</code></td><td>Controls atomic boundaries and savepoints.</td></tr>' +
+         '</table>' +
+         '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>DELETE vs TRUNCATE vs DROP</h4><p>• <b>DELETE (DML):</b> removes rows one-by-one, supports `WHERE`, fires `DELETE` triggers, writes full row undo logs (can `ROLLBACK`), keeps table &amp; indexes.<br>• <b>TRUNCATE (DDL):</b> deallocates all data pages at once, <b>no `WHERE` clause</b>, resets auto-increment, minimal logging, keeps empty table structure.<br>• <b>DROP (DDL):</b> deletes all rows <b>AND completely removes the table definition, indexes, and triggers</b> from the catalog.</p></div>' +
+         '<div class="vs-card"><h4>WHERE vs HAVING &amp; NULL Logic</h4><p>• <b>Evaluation Order:</b> `FROM` $\\to$ `JOIN` $\\to$ `WHERE` $\\to$ `GROUP BY` $\\to$ `HAVING` $\\to$ `SELECT` $\\to$ `DISTINCT` $\\to$ `ORDER BY` $\\to$ `LIMIT`.<br>• `WHERE` filters individual rows <em>before</em> grouping (cannot contain aggregates like `COUNT(*)`); `HAVING` filters groups <em>after</em> `GROUP BY`.<br>• <b>SQL `NULL` is UNKNOWN:</b> `NULL = NULL` and `NULL <> NULL` both evaluate to <b>UNKNOWN (falsy)</b>! Always use `IS NULL` / `IS NOT NULL`. Aggregate functions (`SUM, AVG, MIN, MAX, COUNT(col)`) <b>ignore `NULL` values</b>, except <b>`COUNT(*)` which counts all rows including `NULL`s</b>!</p></div>' +
+         '</div>' +
+         '<div class="example"><b>🔬 Worked Example — Counting Output Rows for INNER, LEFT, RIGHT &amp; FULL Joins:</b><br>' +
+         'Suppose Table $R(A)$ has 4 rows: <code>1, 2, 2, 3</code> and Table $S(A)$ has 3 rows: <code>2, 2, 4</code>. Join condition: <code>R.A = S.A</code>.<br>' +
+         '• <b>INNER JOIN:</b> The two <code>2</code>s in $R$ each match both <code>2</code>s in $S$ ($2 \\times 2 = 4$ matches). Output = <b>4 rows</b>.<br>' +
+         '• <b>LEFT OUTER JOIN:</b> 4 matched rows for `2`, plus unmatched `1` and `3` from $R$ (padded with `NULL`) $= 4 + 2 =$ <b>6 rows</b>.<br>' +
+         '• <b>RIGHT OUTER JOIN:</b> 4 matched rows for `2`, plus unmatched `4` from $S$ $= 4 + 1 =$ <b>5 rows</b>.<br>' +
+         '• <b>FULL OUTER JOIN:</b> 4 matched + 2 unmatched from $R$ + 1 unmatched from $S =$ <b>7 rows</b>.</div>'
+    },
+    {
+      h: 'ACID, Concurrency Control, Isolation Levels & Two-Phase Commit (2PC)',
+      b: '<p>Every database transaction is a logical unit of work that must obey <b>ACID</b>:</p>' +
+         '<ul>' +
+         '<li><b>Atomicity ("All or Nothing"):</b> guaranteed by the <b>Transaction Management / Undo Log Recovery</b> subsystem.</li>' +
+         '<li><b>Consistency:</b> preserves database integrity rules; guaranteed jointly by the application programmer and DBMS constraint checker.</li>' +
+         '<li><b>Isolation:</b> concurrent transactions appear to run serially; guaranteed by the <b>Concurrency Control</b> subsystem (2PL, Timestamp Ordering, MVCC).</li>' +
+         '<li><b>Durability:</b> committed changes survive power loss or OS crash; guaranteed by the <b>Recovery / Redo Write-Ahead Log (WAL)</b> subsystem.</li>' +
+         '</ul>' +
+         '<p><b>Schedules &amp; Serializability:</b> Two operations conflict if they belong to different transactions, access the same data item $Q$, and at least one is a `write(Q)`. A schedule is <b>Conflict Serializable</b> if and only if its <b>Precedence (Serialization) Graph is ACYCLIC (has no cycles)</b>! If the graph has $N$ nodes and no edges, there are $N!$ valid equivalent serial schedules.</p>' +
+         '<table>' +
+         '<tr><th>ANSI SQL Isolation Level</th><th>Dirty Read (Read uncommitted data)</th><th>Non-Repeatable Read (Same row changes value)</th><th>Phantom Read (New/deleted rows in range)</th></tr>' +
+         '<tr><td><b>Read Uncommitted</b> (Lowest)</td><td>Possible</td><td>Possible</td><td>Possible</td></tr>' +
+         '<tr><td><b>Read Committed</b> (Oracle/Postgres default)</td><td><b>Prevented</b></td><td>Possible</td><td>Possible</td></tr>' +
+         '<tr><td><b>Repeatable Read</b> (MySQL InnoDB default)</td><td><b>Prevented</b></td><td><b>Prevented</b></td><td>Possible (in ANSI SQL)</td></tr>' +
+         '<tr><td><b>Serializable</b> (Highest)</td><td><b>Prevented</b></td><td><b>Prevented</b></td><td><b>Prevented</b></td></tr>' +
+         '</table>' +
+         '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>Two-Phase Locking (2PL) — Concurrency Control</h4><p>• Controls <b>lock acquisition within a single database</b> to guarantee conflict serializability.<br>• <b>Phase 1 (Growing Phase):</b> transaction acquires Shared (S) and Exclusive (X) locks; cannot release any lock.<br>• <b>Phase 2 (Shrinking Phase):</b> transaction releases locks; cannot acquire any new lock.<br>• <b>Strict 2PL</b> holds all Exclusive (X) locks until commit/abort to prevent cascading rollbacks (still vulnerable to deadlocks).</p></div>' +
+         '<div class="vs-card"><h4>Two-Phase Commit (2PC) — Distributed Atomicity</h4><p>• Coordinates <b>atomic commit of a distributed transaction across multiple network nodes</b>.<br>• <b>Phase 1 (Voting / Prepare):</b> Coordinator sends `PREPARE`; each participant writes its redo/undo log and replies `VOTE_COMMIT` or `VOTE_ABORT`.<br>• <b>Phase 2 (Decision):</b> If <b>ALL</b> voted commit, Coordinator logs and broadcasts `GLOBAL_COMMIT`; if <b>even ONE</b> voted abort, broadcasts `GLOBAL_ABORT`.<br>• Weakness: <b>Blocking protocol</b> if Coordinator crashes after voting.</p></div>' +
+         '</div>'
+    },
+    {
+      h: 'System & Media Recovery — WAL, Checkpoints, Undo vs Redo',
+      b: '<div class="diagram"><div class="diag-title">Crash Recovery Timeline: Undo vs Redo from the Last Checkpoint</div>' +
+         '<div class="flow-row">' +
+         '<div class="flow-step"><b>T1: Starts &amp; Commits</b><small>Before Checkpoint → Already flushed to disk (No action)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>[CHECKPOINT]</b><small>Dirty buffers flushed; active list recorded</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>T2: Commits before Crash</b><small>Has &lt;T2, COMMIT&gt; in log → <b>REDO T2</b> (Roll Forward)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>T3: Active at Crash!</b><small>No COMMIT in log → <b>UNDO T3</b> (Roll Backward)</small></div>' +
+         '</div></div>' +
+         '<ul>' +
+         '<li><b>Write-Ahead Logging (WAL) Protocol:</b> Before a modified data page in RAM is written to the database file on disk, the log record $\\langle T_i, X, V_{\\text{old}}, V_{\\text{new}} \\rangle$ describing that modification <b>must first be forced to stable log storage</b>.</li>' +
+         '<li><b>Deferred Database Modification (NO-UNDO / REDO):</b> buffers all writes in the log until commit; never touches disk before commit, so crashed uncommitted transactions need <b>no Undo</b>.</li>' +
+         '<li><b>Immediate Database Modification (UNDO / REDO):</b> allows dirty pages to be flushed to disk before commit (steal policy); crash recovery requires <b>UNDO</b> (using old value $V_{\\text{old}}$ in reverse order) for active transactions and <b>REDO</b> (using new value $V_{\\text{new}}$ in forward order) for committed transactions.</li>' +
+         '<li><b>System Recovery vs Media Recovery:</b> <b>System recovery</b> recovers from power failure/OS crash when the disk remains intact by replaying the on-disk WAL from the last checkpoint. <b>Media recovery</b> recovers from physical disk destruction (head crash, corrupted RAID) by loading the last <b>full database backup</b> from separate storage and rolling forward through <b>archived redo logs</b>.</li>' +
+         '</ul>'
+    },
+    {
+      h: 'SQLite Forensics & Unix Timestamp Data Constraints',
+      b: '<p><b>Why SQLite is the #1 Mobile &amp; Browser Forensic Artefact:</b> Unlike client-server RDBMSs (MySQL, PostgreSQL, Oracle), SQLite is a <b>serverless, embedded, single-file database engine</b> with <b>dynamic type affinity</b> (any column can store any data type regardless of declared column type, except `INTEGER PRIMARY KEY`). Its 100-byte file header starts with the 16-byte ASCII magic signature:</p>' +
+         '<p style="text-align:center"><code>"SQLite format 3\\0"</code> &nbsp;→&nbsp; <code>53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00</code></p>' +
+         '<div class="diagram"><div class="diag-title">The Three Files of an Active SQLite Database (ALWAYS Seize All Three Together!)</div>' +
+         '<div class="flow-row">' +
+         '<div class="flow-step"><b>msgstore.db</b><small>Main database divided into 4096 B B-tree pages + Freelist</small></div><span class="flow-arrow">+</span>' +
+         '<div class="flow-step"><b>msgstore.db-wal</b><small>Write-Ahead Log holding the NEWEST committed messages not yet checkpointed!</small></div><span class="flow-arrow">+</span>' +
+         '<div class="flow-step"><b>msgstore.db-shm</b><small>Shared-memory WAL index (RAM-mapped coordination file)</small></div>' +
+         '</div></div>' +
+         '<ul>' +
+         '<li><b>How SQLite Deletion Works (Why Deleted Chats Survive):</b> When a user deletes a WhatsApp message or browser history item, SQLite does <b>not</b> zero out the row by default (unless `PRAGMA secure_delete = ON`). Instead, the record moves into a <b>Freeblock</b> inside the B-tree leaf page or the page is added to the database\'s <b>Freelist</b>. Forensic tools carve these unallocated cell areas and `-wal` frames to recover deleted rows!</li>' +
+         '<li><b>What destroys deleted SQLite evidence?</b> Running the SQL command <code>VACUUM;</code> rebuilds the entire `.db` file from scratch into a new contiguous file, purging all freelist pages and unallocated freeblocks.</li>' +
+         '</ul>' +
+         '<p><b>Master Forensic Timestamp Epochs Table:</b></p>' +
+         '<table>' +
+         '<tr><th>Timestamp Format</th><th>Epoch Start (Zero Point)</th><th>Unit / Digits</th><th>Where Seen Forensically</th></tr>' +
+         '<tr><td><b>Unix Epoch (Seconds)</b></td><td><b>1 Jan 1970 00:00:00 UTC</b></td><td>Seconds (10 digits, e.g. `1700000000`)</td><td>Linux ext4, Android system logs, iOS BSD layer</td></tr>' +
+         '<tr><td><b>Unix Epoch (Milliseconds)</b></td><td><b>1 Jan 1970 00:00:00 UTC</b></td><td>Milliseconds (13 digits, e.g. `1700000000000`)</td><td>Android `mmssms.db`, WhatsApp `msgstore.db`, Java</td></tr>' +
+         '<tr><td><b>Apple Cocoa / CoreData Time</b></td><td><b>1 Jan 2001 00:00:00 UTC</b></td><td>Seconds or Nanoseconds (9 or 18 digits)</td><td>iOS `sms.db`, `CallHistory.storedata`, Safari, macOS Plists</td></tr>' +
+         '<tr><td><b>Google Chrome / WebKit Time</b></td><td><b>1 Jan 1601 00:00:00 UTC</b></td><td>Microseconds (17 digits)</td><td>Chrome/Edge `History`, `Cookies`, `Login Data` SQLite DBs</td></tr>' +
+         '<tr><td><b>Windows FILETIME</b></td><td><b>1 Jan 1601 00:00:00 UTC</b></td><td>100-nanosecond intervals (64-bit integer)</td><td>NTFS `$MFT` (`$SI`, `$FN`), Windows Registry keys</td></tr>' +
+         '</table>' +
+         '<div class="example"><b>🔬 Worked Example — Converting Between Apple Cocoa Time and Unix Epoch Time:</b><br>' +
+         'The exact offset between <b>1 Jan 1970</b> and <b>1 Jan 2001</b> (31 years, including 8 leap years: 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000) is:<br>' +
+         '$$\\Delta = (31 \\times 365 + 8) \\times 86,400 = 11,323 \\text{ days} \\times 86,400\\text{ s/day} = \\mathbf{978,307,200\\text{ seconds}}$$<br>' +
+         'So in SQLite on an iPhone (`sms.db`), to convert an Apple second timestamp `date` to human-readable UTC:<br>' +
+         '<code>SELECT datetime(date + 978307200, \'unixepoch\') FROM message;</code><br>' +
+         'If you forget to add `978307200` (31 years), a message sent in <b>November 2026</b> will falsely appear in your forensic report as <b>November 1995</b>!</div>'
+    },
+    {
+      h: 'Database Security, SQL Injection & Audit Triggers',
+      b: '<ul>' +
+         '<li><b>Authentication vs Authorisation:</b> <b>Authentication</b> verifies identity (username/password, certificate, biometrics — <em>who you are</em>); <b>Authorisation</b> governs permissions on database objects via `GRANT` and `REVOKE` or restricted SQL `VIEW`s (<em>what you are allowed to read/modify</em>).</li>' +
+         '<li><b>Triggers (`BEFORE` / `AFTER` / `INSTEAD OF` on `INSERT`, `UPDATE`, `DELETE`):</b> Event-Condition-Action (ECA) rules stored inside the database catalog. Forensically, an `AFTER UPDATE OR DELETE` trigger that copies `OLD.*` values, `CURRENT_USER`, and `CURRENT_TIMESTAMP` into an append-only `Audit_Log` table provides tamper-evident history of who altered a record and what it looked like beforehand.</li>' +
+         '<li><b>SQL Injection (SQLi):</b> occurs when untrusted user input is concatenated directly into a dynamic SQL string, allowing an attacker to alter the query\'s syntax tree.</li>' +
+         '</ul>' +
+         '<div class="example"><b>🔬 Worked Forensic Example — Anatomy of a Classic SQL Injection &amp; Its Fix:</b><br>' +
+         '<b>Vulnerable code:</b> <code>SELECT * FROM Users WHERE user = \'" + inputUser + "\' AND pass = \'" + inputPass + "\';</code><br>' +
+         '<b>Attacker inputs:</b> <code>admin\' OR \'1\'=\'1\' --</code><br>' +
+         '<b>Resulting executed query:</b> <code>SELECT * FROM Users WHERE user = \'admin\' OR \'1\'=\'1\' --\' AND pass = \'...\';</code><br>' +
+         'Because `\'1\'=\'1\'` is always TRUE and `--` comments out the password check, the attacker logs in as `admin` without knowing the password! An attacker can also append `UNION SELECT username, password_hash FROM Users` to exfiltrate the entire database.<br>' +
+         '<b>The Definitive Fix:</b> Use <b>Parameterized Queries (Prepared Statements)</b> with bound placeholders (`?`). In a prepared statement, the database compiles the SQL structure <em>before</em> inserting the parameter, treating user input strictly as a literal scalar value and never as executable SQL syntax.</div>'
     }
   ],
 
@@ -390,6 +399,126 @@ window.MPSC.units.push({
 
     { q: 'A concurrency-control protocol has a "growing phase" in which a transaction may only acquire locks and a "shrinking phase" in which it may only release them, and this is used to guarantee serialisable isolation. This describes',
       o: ['Two-Phase Commit (2PC)', 'Two-Phase Locking (2PL)', 'Write-ahead logging', 'Media recovery'], a: 1,
-      e: '<p>This growing/shrinking-phase description is <b>Two-Phase Locking (2PL)</b>, a per-transaction lock-management protocol for serialisability.</p><p><b>Two-Phase Commit (2PC)</b> is a different, unrelated protocol — it coordinates atomic commit of one transaction across multiple distributed sites via a prepare phase and a commit phase, with no concept of "growing/shrinking" lock acquisition. The similar names are a deliberate exam trap: look for "coordinator/sites" (2PC) versus "acquire/release locks" (2PL) to tell them apart.</p>' }
+      e: '<p>This growing/shrinking-phase description is <b>Two-Phase Locking (2PL)</b>, a per-transaction lock-management protocol for serialisability.</p><p><b>Two-Phase Commit (2PC)</b> is a different, unrelated protocol — it coordinates atomic commit of one transaction across multiple distributed sites via a prepare phase and a commit phase, with no concept of "growing/shrinking" lock acquisition. The similar names are a deliberate exam trap: look for "coordinator/sites" (2PC) versus "acquire/release locks" (2PL) to tell them apart.</p>' },
+
+    { q: 'In Chen\'s E-R diagram notation, what do a DOUBLE ellipse, a DASHED ellipse, and a DOUBLE diamond represent respectively?',
+      o: ['Multi-valued attribute, Derived attribute, and Identifying relationship for a weak entity',
+          'Composite attribute, Optional attribute, and Many-to-Many relationship',
+          'Derived attribute, Multi-valued attribute, and Total participation',
+          'Candidate key, Foreign key, and Recursive relationship'], a: 0,
+      e: '<p>In standard Chen E-R notation:<br>• <b>Double ellipse</b> = <b>Multi-valued attribute</b> (e.g., `Phone_Numbers`, which maps to its own separate relational table).<br>• <b>Dashed ellipse</b> = <b>Derived attribute</b> (e.g., `Age` computed on the fly from `Date_of_Birth`).<br>• <b>Double diamond</b> = <b>Identifying relationship</b> linking a Weak Entity Set (double rectangle) to its owner Strong Entity Set.</p>' },
+
+    { q: 'Consider a relation R(A, B, C, D, E) with functional dependencies: AB → C, C → D, D → B, and D → E. Which of the following is the complete set of Candidate Keys for R?',
+      o: ['{AB, AC, AD}', '{AB} only', '{AB, CD, DE}', '{A, B, C, D}'], a: 0,
+      e: '<p>1. Attribute $A$ never appears on the right-hand side of any FD, so $A$ must belong to every candidate key.<br>2. $A^+ = \\{A\\} \\neq R$.<br>3. Testing pairs containing $A$: $(AB)^+ = \\{A,B,C,D,E\\} = R$; $(AC)^+ = \\{A,C,D,B,E\\} = R$; and $(AD)^+ = \\{A,D,B,C,E\\} = R$. Meanwhile $(AE)^+ = \\{A,E\\} \\neq R$.<br>Thus there are exactly three minimal super keys (Candidate Keys): <b><code>{AB, AC, AD}</code></b>.</p>' },
+
+    { q: 'A relation R(A, B, C, D, E, F) has 6 attributes and a SINGLE candidate key consisting of 2 attributes {A, B}. How many distinct Super Keys does R have?',
+      o: ['16', '32', '64', '4'], a: 0,
+      e: '<p>Any superset of the candidate key $\\{A, B\\}$ is a super key. Since $A$ and $B$ must always be included, each of the remaining $n - k = 6 - 2 = 4$ attributes ($C, D, E, F$) can either be present or absent independently. Total super keys $= 2^{6 - 2} = 2^4 =$ <b>16</b>.</p>' },
+
+    { q: 'Consider relation R(A, B, C) with functional dependencies AB → C and C → B. Which is the HIGHEST normal form satisfied by R?',
+      o: ['3NF (but not BCNF)', '2NF (but not 3NF)', 'BCNF', '1NF (but not 2NF)'], a: 0,
+      e: '<p>Let\'s find the candidate keys first: $A$ is not on any RHS, and $(AB)^+ = \\{A,B,C\\}$, $(AC)^+ = \\{A,C,B\\}$. So the Candidate Keys are <b>$AB$ and $AC$</b>, meaning the prime attributes are $\\{A, B, C\\}$ (all attributes are prime!).<br>• Check <b>3NF</b>: For $AB \\to C$, $AB$ is a super key (OK). For $C \\to B$, $C$ is not a super key, <em>but $B$ is a prime attribute</em>! Since 3NF allows $X \\to Y$ when $Y$ is prime, <b>$R$ is in 3NF</b>.<br>• Check <b>BCNF</b>: For $C \\to B$, the determinant $C$ is NOT a super key. Therefore $R$ violates BCNF! This is the classic textbook example of a relation that is in <b>3NF but not BCNF</b>.</p>' },
+
+    { q: 'A relation R(A, B, C, D) is decomposed into R1(A, B, C) and R2(C, D). Under which functional dependency is this decomposition guaranteed to be a LOSSLESS-JOIN decomposition?',
+      o: ['C → D', 'A → B', 'D → C', 'B → A'], a: 0,
+      e: '<p>By the lossless-join theorem for binary decomposition, decomposing $R$ into $R_1$ and $R_2$ is lossless if and only if the common attributes $(R_1 \\cap R_2)$ functionally determine all attributes of $R_1$ or all attributes of $R_2$: $$(R_1 \\cap R_2) \\to R_1 \\quad \\text{or} \\quad (R_1 \\cap R_2) \\to R_2$$ Here, $R_1 \\cap R_2 = \\{C\\}$. If <b>$C \\to D$</b> holds, then $C$ is a super key of $R_2(C, D)$, making the join guaranteed lossless!</p>' },
+
+    { q: 'Which relational algebra operator is used to answer queries containing the universal quantifier "FOR ALL" — such as "Find all suspect IDs who were present at EVERY crime scene in District X"?',
+      o: ['Division (÷)', 'Natural Join (⋈)', 'Cartesian Product (×)', 'Set Difference (−)'], a: 0,
+      e: '<p>The <b>Division operator ($R \\div S$)</b> returns tuples from the projection of $R$ that are paired with <b>every</b> tuple in $S$. Whenever an exam question asks for entities matching "all" or "every" item in another set, the relational algebra operator is <b>Division ($\\div$)</b>.</p>' },
+
+    { q: 'Relation R has 10 tuples and 4 attributes; Relation S has 8 tuples and 3 attributes, with no common attributes. How many tuples and attributes are in the Cartesian Product R × S?',
+      o: ['80 tuples and 7 attributes', '18 tuples and 7 attributes', '80 tuples and 12 attributes', '18 tuples and 12 attributes'], a: 0,
+      e: '<p>For Cartesian Product $R \\times S$:<br>• <b>Cardinality (number of tuples/rows)</b> multiplies: $|R \\times S| = |R| \\times |S| = 10 \\times 8 =$ <b>80 tuples</b>.<br>• <b>Degree (number of attributes/columns)</b> adds: $\\text{deg}(R \\times S) = \\text{deg}(R) + \\text{deg}(S) = 4 + 3 =$ <b>7 attributes</b>.</p>' },
+
+    { q: 'A table `EvidenceLogs` has 5 rows with column `FileSizeKB` containing: `100, 200, NULL, 300, NULL`. What values are returned by `SELECT COUNT(*), COUNT(FileSizeKB), AVG(FileSizeKB) FROM EvidenceLogs;`?',
+      o: ['5, 3, 200', '5, 5, 120', '3, 3, 200', '5, 3, 120'], a: 0,
+      e: '<p>In SQL:<br>• <b>`COUNT(*)`</b> counts every row in the table regardless of NULLs $\\Rightarrow$ <b>5</b>.<br>• <b>`COUNT(column)`</b> ignores NULLs and counts only non-null values (`100, 200, 300`) $\\Rightarrow$ <b>3</b>.<br>• <b>`AVG(column)`</b> sums the non-null values and divides by the count of <em>non-null</em> rows: $(100 + 200 + 300) / 3 =$ <b>200</b> (NOT $600 / 5 = 120$!).</p>' },
+
+    { q: 'During crash recovery under an Immediate Database Modification (UNDO/REDO) log scheme, the recovery manager scans the log from the last checkpoint and finds `<T1, START>` and `<T1, COMMIT>`, while for T2 it finds `<T2, START>` with no commit record before the crash. What action must the recovery manager take?',
+      o: ['REDO T1 and UNDO T2',
+          'UNDO T1 and REDO T2',
+          'REDO both T1 and T2',
+          'UNDO both T1 and T2'], a: 0,
+      e: '<p>Because $T_1$ has a `COMMIT` record in the log, durability requires that all its updates be present on disk $\\Rightarrow$ <b>REDO $T_1$</b> (roll forward using new values). Because $T_2$ never committed before the crash, atomicity requires that none of its dirty updates remain on disk $\\Rightarrow$ <b>UNDO $T_2$</b> (roll backward using old values).</p>' },
+
+    { q: 'In concurrency control, a schedule S of concurrent transactions is guaranteed to be Conflict Serializable if and only if:',
+      o: ['its Precedence (Serialization) Graph is acyclic (contains no directed cycles)',
+          'every transaction in S commits in the exact order it started',
+          'no transaction in S reads any data item written by another transaction',
+          'its Precedence Graph is a single Hamiltonian cycle'], a: 0,
+      e: '<p>A schedule is <b>Conflict Serializable</b> iff its <b>Precedence Graph</b> (where nodes are transactions and a directed edge $T_i \\to T_j$ means an operation in $T_i$ conflicts with and precedes an operation in $T_j$) has <b>no cycles (is a DAG)</b>. A topological sort of the acyclic graph gives the equivalent serial order.</p>' },
+
+    { q: 'While examining a seized iPhone\'s `sms.db` SQLite database, a forensic examiner sees a timestamp value of `725846400` (Apple Cocoa/CoreData epoch seconds). Knowing that the offset between the Unix epoch (1970) and Apple epoch (2001) is 978,307,200 seconds, what is the equivalent Unix epoch timestamp and year?',
+      o: ['1,704,153,600 (January 2024)',
+          '725,846,400 (January 1993)',
+          '252,460,800 (January 1978)',
+          '1,704,153,600 (January 1993)'], a: 0,
+      e: '<p>Apple CoreData timestamps count seconds from <b>1 Jan 2001 UTC</b>, which is 31 years ($978,307,200$ seconds) after the Unix epoch of 1 Jan 1970 UTC. Adding the offset: $$725,846,400 + 978,307,200 = \\mathbf{1,704,153,600}$$ which corresponds to <b>2 January 2024 00:00:00 UTC</b>. Option (b) is the notorious 31-year error caused by feeding an iOS timestamp into a Unix converter without adding 978,307,200!</p>' },
+
+    { q: 'In a forensic examination of a suspect\'s Android phone, WhatsApp\'s `msgstore.db` shows 16-byte magic bytes `53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00` (`"SQLite format 3\\0"`). Which SQLite command, if executed by a suspect or anti-forensic app after deleting incriminating rows, permanently purges the freelist and unallocated cell areas by rebuilding the database file?',
+      o: ['VACUUM;', 'TRUNCATE;', 'CHECKPOINT;', 'ROLLBACK;'], a: 0,
+      e: '<p>Normally, `DELETE FROM messages` leaves deleted payloads intact inside SQLite freeblocks and freelist pages. However, executing <b><code>VACUUM;</code></b> copies only active live rows into a newly built file and replaces the original, wiping all unallocated space and freelist pages clean.</p>' },
+
+    { q: 'A web login form builds a query as: `SELECT * FROM Accounts WHERE user = \'` + u + `\' AND pin = \'` + p + `\';`. An attacker enters `admin\' --` as the username. What is the most effective coding defence that completely prevents this SQL Injection attack?',
+      o: ['Using Parameterized Queries (Prepared Statements) with bound parameters',
+          'Converting the database from MySQL to SQLite',
+          'Adding a client-side JavaScript max-length check on the input box',
+          'Running the database in Read Uncommitted isolation mode'], a: 0,
+      e: '<p><b>Parameterized Queries (Prepared Statements)</b> separate the SQL query structure from the data payload: the DBMS compiles the SQL command tree first and treats bound parameters strictly as scalar literals, making it impossible for injected quotes or `--` comments to alter query logic. Client-side JS validation is trivially bypassed with an HTTP proxy.</p>' },
+
+    { q: 'In an E-R diagram, Strong Entity E1 and Strong Entity E2 are connected by a 1:N (One-to-Many) binary relationship R (where 1 instance of E1 is associated with many instances of E2, and no multi-valued attributes exist). What is the MINIMUM number of relational tables required to represent this schema without redundancy?',
+      o: ['2 tables (by posting the primary key of the "1" side E1 as a foreign key inside the table of the "N" side E2)',
+          '3 tables (E1, E2, and a separate junction table R)',
+          '1 single merged table',
+          '4 tables'], a: 0,
+      e: '<p>For a <b>1:N relationship</b>, a separate junction table is unnecessary: the relationship $R$ (along with any relationship attributes) is absorbed into the table on the <b>"N" (Many) side</b> ($E_2$) by adding the primary key of the "1" side ($E_1$) as a Foreign Key. Thus only <b>2 tables</b> are needed. (3 tables are required only for M:N relationships!)</p>' },
+
+    { q: 'Which Normal Form is specifically designed to eliminate non-trivial Multi-Valued Dependencies (X ↠ Y) where a table mixes two or more independent 1:N multi-valued facts about the same key?',
+      o: ['Fourth Normal Form (4NF)',
+          'Second Normal Form (2NF)',
+          'Third Normal Form (3NF)',
+          'Boyce-Codd Normal Form (BCNF)'], a: 0,
+      e: '<p><b>Fourth Normal Form (4NF)</b> (introduced by Ronald Fagin) states that a relation is in 4NF if it is in BCNF and contains no non-trivial <b>Multi-Valued Dependencies ($X \\twoheadrightarrow Y$)</b> where $X$ is not a super key. For example, storing both an officer\'s multiple `Certifications` and multiple `Languages` in one table `Officer(ID, Cert, Lang)` creates Cartesian cross-product redundancy that violates 4NF even when no functional dependencies exist.</p>' },
+
+    { q: 'Which of the following is the correct complete set of SIX fundamental (primitive) operators of Relational Algebra from which Join (⋈), Intersection (∩), and Division (÷) can all be derived?',
+      o: ['Select (σ), Project (π), Union (∪), Set Difference (−), Cartesian Product (×), and Rename (ρ)',
+          'Select (σ), Project (π), Natural Join (⋈), Intersection (∩), Division (÷), and Union (∪)',
+          'INSERT, UPDATE, DELETE, SELECT, GRANT, and REVOKE',
+          'GROUP BY, HAVING, ORDER BY, WHERE, FROM, and LIMIT'], a: 0,
+      e: '<p>The six primitive operators of Codd\'s relational algebra are $\\sigma, \\pi, \\cup, -, \\times, \\rho$. Every other operator is derived:<ul><li><b>Intersection:</b> $R \\cap S = R - (R - S)$</li><li><b>Theta Join:</b> $R \\bowtie_\\theta S = \\sigma_\\theta(R \\times S)$</li><li><b>Division:</b> $R(A,B) \\div S(B) = \\pi_A(R) - \\pi_A((\\pi_A(R) \\times S) - R)$</li></ul></p>' },
+
+    { q: 'In SQL, what is the crucial difference between a `PRIMARY KEY` constraint and a `UNIQUE` constraint on a column?',
+      o: ['A table can have only ONE Primary Key and it can NEVER contain NULL values (Entity Integrity), whereas a table can have multiple UNIQUE constraints and a UNIQUE column may allow NULL values',
+          'A Primary Key allows duplicate values, whereas UNIQUE does not',
+          'UNIQUE automatically creates a foreign key, whereas Primary Key does not',
+          'There is no difference between PRIMARY KEY and UNIQUE in standard SQL'], a: 0,
+      e: '<p>By the <b>Entity Integrity Rule</b>, every attribute of a <b>Primary Key</b> must be strictly `NOT NULL`, and a table can have at most <b>one</b> Primary Key. By contrast, a table can have several <b>`UNIQUE`</b> constraints (for alternate keys), and unless `NOT NULL` is also specified, a `UNIQUE` column in standard SQL (including SQLite, PostgreSQL, and MySQL) allows `NULL` entries.</p>' },
+
+    { q: 'Table R(A) has 4 rows with values (1, 2, 2, 3) and Table S(A) has 3 rows with values (2, 2, 4). How many rows are returned by `SELECT * FROM R LEFT OUTER JOIN S ON R.A = S.A;`?',
+      o: ['6 rows', '4 rows', '5 rows', '7 rows'], a: 0,
+      e: '<p>1. Both `2`s in $R$ match both `2`s in $S$, producing $2 \\times 2 = 4$ matched rows.<br>2. Because it is a <b>LEFT OUTER JOIN</b>, the two unmatched rows in the left table $R$ (`1` and `3`) are also preserved, padded with `NULL` on the right.<br>Total rows $= 4 + 2 =$ <b>6 rows</b>. (An `INNER JOIN` returns 4 rows; `RIGHT JOIN` returns 5 rows; `FULL OUTER JOIN` returns 7 rows.)</p>' },
+
+    { q: 'When examining a Google Chrome or Microsoft Edge `History` SQLite database (`urls` or `visits` table), timestamps are stored as 17-digit WebKit/Chrome integers. What is the epoch start date and time unit of a WebKit/Chrome timestamp?',
+      o: ['Microseconds since 1 January 1601 00:00:00 UTC',
+          'Seconds since 1 January 2001 00:00:00 UTC',
+          'Milliseconds since 1 January 1970 00:00:00 UTC',
+          'Seconds since 1 January 1980 00:00:00 UTC'], a: 0,
+      e: '<p>Google Chrome / Chromium / WebKit SQLite databases (`History`, `Cookies`, `Downloads`, `Login Data`) store timestamps as <b>microseconds ($10^{-6}\\text{ s}$) elapsed since 1 January 1601 UTC</b> (the same 1601 epoch as Windows FILETIME, except FILETIME uses 100-nanosecond ticks while Chrome divides by 10 to use microseconds). To convert a Chrome timestamp `t` to Unix epoch seconds in SQLite: `(t / 1000000) - 11644473600`.</p>' },
+
+    { q: 'In database concurrency control, why do most real-world RDBMS engines implement "Strict Two-Phase Locking" (Strict 2PL) — where all Exclusive (write) locks are held until the transaction commits or aborts — rather than basic 2PL?',
+      o: ['To prevent cascading rollbacks (cascading aborts) and dirty reads, ensuring the schedule is both conflict-serializable and strict/recoverable',
+          'To allow transactions to read uncommitted data faster',
+          'To eliminate the need for a Write-Ahead Log',
+          'Because basic 2PL cannot use shared locks'], a: 0,
+      e: '<p>In basic 2PL, a transaction may release a write lock during its shrinking phase <em>before</em> it commits. If another transaction $T_2$ reads that uncommitted value and $T_1$ later aborts, $T_2$ (and any $T_3$ that read from $T_2$) must also be rolled back — a <b>cascading rollback</b>! Holding all Exclusive ($X$) locks until after `COMMIT`/`ABORT` (<b>Strict 2PL</b>) completely prevents dirty reads and cascading aborts.</p>' },
+
+    { q: 'When SQLite is operating in its classical default Rollback Journal mode (`PRAGMA journal_mode = DELETE`) rather than WAL mode, what happens if the power fails or the app crashes in the middle of an uncommitted transaction while a `-journal` file ("hot journal") is present on disk?',
+      o: ['The next time any process opens the `.db` file, SQLite automatically reads the original pre-transaction pages from the `-journal` file and restores the database to its clean pre-transaction state (automatic Undo)',
+          'Thus-far written changes are permanently committed',
+          'The `-journal` file holds new records that are merged forward like a WAL',
+          'SQLite deletes the main `.db` file'], a: 0,
+      e: '<p>Understand the exact opposite directions of a <b>Rollback Journal (`.db-journal`)</b> vs a <b>Write-Ahead Log (`.db-wal`)</b>:<br>• A <b>Rollback Journal</b> copies the <em>original unmodified pages</em> into `.db-journal` before modifying `.db` in place; if a crash occurs before commit, the leftover "hot journal" is used to <b>UNDO (roll back)</b> the incomplete changes.<br>• A <b>WAL (`.db-wal`)</b> leaves `.db` untouched and appends the <em>new modified pages</em> into `.db-wal`!</p>' }
   ]
 });

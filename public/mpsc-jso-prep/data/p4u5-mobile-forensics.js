@@ -7,177 +7,135 @@ window.MPSC.units.push({
 
   notes: [
     {
-      h: 'Identifiers you must not confuse',
-      b: '<table>' +
-         '<tr><th>Identifier</th><th>Length</th><th>Identifies</th><th>Stored on</th></tr>' +
-         '<tr><td><b>IMEI</b></td><td>15 digits</td><td>The <b>handset</b></td><td>Device firmware</td></tr>' +
-         '<tr><td><b>IMSI</b></td><td>up to 15 digits</td><td>The <b>subscriber</b></td><td>SIM card</td></tr>' +
-         '<tr><td><b>ICCID</b></td><td>19–20 digits</td><td>The <b>SIM card itself</b></td><td>Printed on and stored in SIM</td></tr>' +
-         '<tr><td><b>MSISDN</b></td><td>varies</td><td>The <b>phone number</b></td><td>Network (HLR)</td></tr>' +
+      h: 'Identifiers you must not confuse (IMEI, IMSI, ICCID, MSISDN)',
+      b: '<div class="analogy"><b>💡 Analogy — Car Chassis, Driver\'s Licence, Licence Card Serial &amp; Phone Directory Number:</b><br>' +
+         '• <b>IMEI (15 digits)</b> is the <b>Car\'s Chassis / VIN Number</b> stamped into the metal body of the phone handset itself. Even if you change drivers (swap SIM cards), the car\'s chassis number stays the same!<br>' +
+         '• <b>IMSI (15 digits)</b> is the <b>Subscriber\'s Driver Licence Account ID</b> stored inside the SIM chip.<br>' +
+         '• <b>ICCID (19–20 digits)</b> is the <b>Physical Plastic Card Serial Number</b> laser-engraved on the back of the SIM card.<br>' +
+         '• <b>MSISDN</b> is the public 10-digit <b>Mobile Phone Number</b> (`+91-98xxxxxxxx`) mapped to the IMSI in the telecom operator\'s HLR/HSS database (you can port or change your MSISDN without changing the handset IMEI!).</div>' +
+         '<table>' +
+         '<tr><th>Identifier</th><th>Exact Length &amp; Structure</th><th>Identifies</th><th>Where Stored / Retrieved</th></tr>' +
+         '<tr><td><b>IMEI</b> (International Mobile Equipment Identity)</td><td><b>15 decimal digits</b>:<br><code>[8-digit TAC][6-digit SNR][1-digit Luhn Check]</code></td><td>The physical <b>handset / modem slot</b> (Dual-SIM phones have <b>two IMEIs</b>: IMEI 1 &amp; IMEI 2!)</td><td>Modem NVRAM / EFS partition, printed on box/SIM tray, or dial <b><code>*#06#</code></b></td></tr>' +
+         '<tr><td><b>IMSI</b> (International Mobile Subscriber Identity)</td><td>Up to <b>15 digits</b>:<br><code>[3-digit MCC][2/3-digit MNC][MSIN]</code></td><td>The cellular <b>subscriber account</b> on the network</td><td>Inside the SIM card elementary file <b><code>EF_IMSI</code></b></td></tr>' +
+         '<tr><td><b>ICCID</b> (Integrated Circuit Card Identifier)</td><td><b>19 or 20 digits</b>:<br>Starts with <b><code>89</code></b> (ISO telecom industry prefix) + Country code (`91` for India)</td><td>The <b>physical SIM card chip</b> itself</td><td>Engraved on SIM plastic body &amp; stored in <b><code>EF_ICCID</code></b></td></tr>' +
+         '<tr><td><b>MSISDN</b> (Mobile Station International Subscriber Directory Number)</td><td>Max 15 digits (E.164):<br><code>CC (91) + NDC + Subscriber Number</code></td><td>The <b>diallable phone number</b></td><td>Telecom operator\'s <b>HLR / HSS</b> (often NOT reliably stored on the SIM!)</td></tr>' +
          '</table>' +
-         '<p>Dial <code>*#06#</code> to display the IMEI. Its structure: 8-digit <b>TAC</b> (Type Allocation Code, identifying make and model) + 6-digit serial + 1 check digit computed by the <b>Luhn algorithm</b>.</p>' +
-         '<p>The IMSI decomposes into <b>MCC</b> (Mobile Country Code — 404/405 for India) + <b>MNC</b> (Mobile Network Code) + MSIN. Note that the phone number is <em>not</em> stored on the SIM in any reliable way; it lives in the operator\'s network records.</p>' +
-         '<div class="tip"><b>The distinction that decides marks:</b> IMEI = equipment, IMSI = subscriber, ICCID = the physical card. Swap the SIM and the IMSI/ICCID change while the IMEI does not. This is exactly how investigators link multiple SIMs to one handset via CDR analysis.</div>'
+         '<div class="example"><b>🔬 Worked Example — Decomposing an Indian IMEI &amp; IMSI + Luhn Check Digit:</b><br>' +
+         '• <b>Indian IMSI Example:</b> <code>404 10 9876543210</code> $\\to$ <b>MCC = <code>404</code> or <code>405</code> (India!)</b> (do NOT confuse with `+91` which is the E.164 country dialling code; `310` is USA). `10` = MNC (Bharti Airtel Delhi). `9876543210` = MSIN.<br>' +
+         '• <b>IMEI Luhn Check Digit Rule:</b> Given the first 14 digits of an IMEI, double every <b>second digit from the right</b> (i.e. positions 2, 4, 6, 8, 10, 12, 14). If doubling produces a two-digit number (e.g. $7 \\times 2 = 14$), add the digits together ($1 + 4 = 5$). Sum all 14 resulting digits; the 15th check digit is the number ($0\\text{–}9$) needed to make the total sum a multiple of 10!</div>'
     },
     {
-      h: 'SIM card',
-      b: '<p>A SIM is a smart card running its own microprocessor and file system. Sizes: full-size, mini, micro, nano, and <b>eSIM</b> (embedded, provisioned over the air — a growing forensic problem since it cannot be physically removed).</p>' +
-         '<p>Evidence typically recoverable from a SIM: ICCID, IMSI, <b>ADN</b> (Abbreviated Dialling Numbers — the contacts), <b>LND</b> (Last Numbers Dialled), <b>SMS</b> messages including deleted ones flagged as free, and <b>LOCI</b> (Location Information — the last known Location Area Identity, useful for placing the device).</p>' +
-         '<p><b>SIM security:</b> the <b>PIN</b> protects normal use — three wrong attempts block the card. The <b>PUK</b> (8 digits, held by the operator) unblocks it; <b>ten</b> wrong PUK attempts permanently destroy the card. The <b>Ki</b> is the secret authentication key, never readable off the card.</p>' +
-         '<div class="tip"><b>Never guess a SIM PIN on evidence.</b> Exhausting PIN attempts forces a PUK you may not have, and exhausting the PUK destroys the evidence irreversibly. Obtain the PUK from the service provider first.</div>'
-    },
-    {
-      h: 'Seizure and network isolation',
-      b: '<p>The overriding risk is <b>remote wipe</b>. A seized phone left connected can be wiped, locked or have data altered by the suspect or an accomplice.</p>' +
-         '<p>Isolation options, in rough order of preference:</p>' +
+      h: 'SIM Card Internals (UICC File System) & SIM Security (PIN, PUK, Ki)',
+      b: '<p>A modern <b>SIM (Subscriber Identity Module)</b> runs on a <b>UICC (Universal Integrated Circuit Card)</b> containing its own CPU, ROM, RAM, and EEPROM with a hierarchical file system defined by 3GPP TS 31.102:</p>' +
+         '<div class="diagram"><div class="diag-title">SIM Card Internal File System Hierarchy (MF → DF → EF)</div>' +
+         '<div class="flow-row">' +
+         '<div class="flow-step"><b>MF (Master File <code>3F00</code>)</b><small>Root directory; holds <code>EF_ICCID (2FE2)</code></small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>DF_TELECOM (<code>7F10</code>)</b><small>Hold user contacts <code>EF_ADN</code>, dialled <code>EF_LND</code>, <code>EF_SMS</code></small></div><span class="flow-arrow">&amp;</span>' +
+         '<div class="flow-step"><b>DF_GSM (<code>7F20</code>) / ADF_USIM</b><small>Holds <code>EF_IMSI</code>, <code>EF_KC</code>, <code>EF_LOCI</code>, <code>EF_FPLMN</code></small></div>' +
+         '</div></div>' +
          '<ul>' +
-         '<li><b>Faraday bag / box / shielded room</b> — blocks radio. Note the phone will boost transmit power hunting for signal, so <b>keep it on charge</b>; a bagged phone flattens fast and may power off into a more locked state.</li>' +
-         '<li><b>Aeroplane mode</b> — requires interacting with the device, which alters it; acceptable if documented and justified under ACPO Principle 2.</li>' +
-         '<li><b>Removing the SIM</b> — stops cellular but not Wi-Fi or Bluetooth.</li>' +
-         '</ul>' +
-         '<p><b>Found switched on → keep it on</b> (powering down may trigger full-disk encryption requiring a passcode on reboot, and loses volatile data). <b>Found switched off → leave it off.</b> Photograph the screen state, and record whether it was in BFU or AFU state.</p>' +
-         '<p><b>BFU vs AFU</b> — <em>Before First Unlock</em>: encryption keys are not in memory and very little is extractable. <em>After First Unlock</em>: keys are resident, and far more data is accessible. This is the single most consequential distinction in modern mobile forensics.</p>'
-    },
-    {
-      h: 'Android internals',
-      b: '<p>Layered architecture, bottom-up: <b>Linux kernel</b> → <b>HAL and native libraries</b> (plus the Android Runtime) → <b>Application Framework</b> → <b>Applications</b>.</p>' +
-         '<ul>' +
-         '<li>The runtime was originally the <b>Dalvik VM</b> — register-based (unlike the stack-based Java VM), executing <code>.dex</code> bytecode with just-in-time compilation. It was replaced by <b>ART</b> (Android Runtime) from Android 5.0, which uses ahead-of-time compilation.</li>' +
-         '<li><b>AndroidManifest.xml</b> declares the package name, components (activities, services, receivers, providers), and the <b>permissions</b> the app requests. It is the first thing to examine in app analysis.</li>' +
-         '<li>Apps ship as <b>.apk</b> files — which are ZIP archives, so they carry the <code>50 4B 03 04</code> "PK" signature.</li>' +
-         '<li>Security model: each app runs under its own <b>UID</b> in an application sandbox, isolated by standard Linux permissions.</li>' +
-         '</ul>' +
-         '<p><b>Key paths:</b> <code>/data/data/&lt;package&gt;/</code> holds each app\'s private data — this is where the SQLite databases live, and it is inaccessible without root or a full file system extraction. <code>/sdcard/</code> or <code>/storage/emulated/0/</code> is user-accessible shared storage. <code>/system/</code> holds the OS.</p>' +
-         '<p><b>Access modes:</b> <b>ADB</b> (Android Debug Bridge) for shell access over USB, requiring USB debugging enabled in Developer Options; <b>fastboot</b> for bootloader-level flashing; <b>EDL</b> (Emergency Download Mode) on Qualcomm chipsets for low-level access; <b>recovery mode</b>; and <b>rooting</b> to obtain superuser privileges.</p>'
-    },
-    {
-      h: 'iOS internals',
-      b: '<ul>' +
-         '<li>File system: <b>HFS+</b> historically, replaced by <b>APFS</b> from iOS 10.3 — copy-on-write, with snapshots and native encryption.</li>' +
-         '<li><b>Plist</b> (property list) files store configuration and app state, in XML or binary form. Binary plists must be converted before reading — a routine exam point.</li>' +
-         '<li><b>DFU mode</b> (Device Firmware Update) is a low-level state that bypasses the bootloader and iBoot, used for restore and, forensically, for certain exploits. <b>Recovery mode</b> is the higher-level alternative that does load iBoot.</li>' +
-         '<li><b>Jailbreaking</b> removes Apple\'s restrictions to gain root — the iOS analogue of rooting. It modifies the device, so its forensic use must be justified and documented.</li>' +
-         '<li><b>iTunes/Finder backups</b> are a major evidence source, often obtainable from a suspect\'s computer rather than the phone. An <b>encrypted</b> backup counter-intuitively contains <em>more</em> data than an unencrypted one — it includes keychain items, health and Wi-Fi data.</li>' +
-         '<li>The <b>Secure Enclave</b> is a separate coprocessor holding cryptographic keys, and is why brute-forcing modern iOS passcodes is rate-limited in hardware.</li>' +
+         '<li><b>High-Value Elementary Files (EFs) on a SIM:</b>' +
+         '<br>• <b><code>EF_ICCID</code>:</b> Unique 19–20 digit card serial number (readable <em>even when the SIM is PIN-locked</em>!).' +
+         '<br>• <b><code>EF_IMSI</code>:</b> 15-digit subscriber identity.' +
+         '<br>• <b><code>EF_ADN</code> (Abbreviated Dialling Numbers):</b> SIM phonebook contacts.' +
+         '<br>• <b><code>EF_LND</code> (Last Numbers Dialled)</b> &amp; <b><code>EF_FDN</code> (Fixed Dialling Numbers)</b>.' +
+         '<br>• <b><code>EF_SMS</code>:</b> Up to 20–50 text messages stored in 176-byte fixed slots. When a SIM SMS is deleted, only the <b>first status byte</b> of the 176-byte slot changes from `0x01` (read) / `0x03` (unread) to <b>`0x00` (free/deleted)</b> while the remaining 175 bytes of message text remain intact!' +
+         '<br>• <b><code>EF_LOCI</code> (Location Information):</b> Stores the <b>TMSI</b> (Temporary Mobile Subscriber Identity) and the <b>LAI (Location Area Identity = MCC + MNC + LAC)</b> of the <em>last cell tower area</em> the phone registered with before power-off!</li>' +
+         '<li><b>SIM Security Keys:</b>' +
+         '<br>• <b>PIN1 (CHV1, 4–8 digits):</b> Guards normal subscriber files. <b>3 consecutive wrong PIN attempts</b> lock the SIM.' +
+         '<br>• <b>PUK1 (Personal Unblocking Key, 8 digits):</b> Issued by the mobile network operator to reset a blocked PIN. <b>10 consecutive wrong PUK attempts permanently and irreversibly brick (burn out) the SIM card!</b>' +
+         '<br>• <b>$K_i$ (128-bit Subscriber Authentication Key):</b> Stored inside a hardware-protected region of the SIM and in the operator\'s Authentication Centre (AuC); never transmitted over the air and cannot be read directly via standard SIM readers.</li>' +
          '</ul>'
     },
     {
-      h: 'Acquisition methods',
-      b: '<table>' +
-         '<tr><th>Method</th><th>Gets</th><th>Invasiveness</th></tr>' +
-         '<tr><td><b>Manual</b></td><td>What is visible by operating the handset, photographed</td><td>None, but alters device; no deleted data</td></tr>' +
-         '<tr><td><b>Logical</b></td><td>Live files via API/backup — contacts, SMS, call logs</td><td>Low; misses deleted data</td></tr>' +
-         '<tr><td><b>File system</b></td><td>Full directory structure including app databases and journals</td><td>Moderate; usually needs root/jailbreak or an exploit</td></tr>' +
-         '<tr><td><b>Physical</b></td><td>Bit-for-bit image including unallocated space</td><td>High; often impossible on modern encrypted devices</td></tr>' +
-         '<tr><td><b>JTAG</b></td><td>Physical image via the debug test-access port on the board</td><td>Invasive; requires soldering to test points</td></tr>' +
-         '<tr><td><b>Chip-off</b></td><td>Physical image by desoldering the NAND flash and reading it directly</td><td><b>Destructive</b>; last resort, and encryption may render it useless</td></tr>' +
-         '</table>' +
-         '<p>The ordering principle mirrors the order of volatility: <b>least invasive first</b>, escalating only as necessary, because each step forecloses options behind it. Note that on a modern encrypted device, chip-off recovers ciphertext — physical extraction is no longer the gold standard it once was.</p>' +
-         '<p><b>Where the evidence lives:</b> app SQLite databases under <code>/data/data/</code>, call logs and SMS, browser history, <b>location data</b> (GPS in image EXIF, Wi-Fi and cell-tower caches, Google Location History), cloud sync artefacts, notification history, and deleted rows recoverable from SQLite free pages and WAL files (see Unit II).</p>'
+      h: 'Seizure, Network Isolation & BFU vs AFU Encryption States',
+      b: '<p>When seizing a mobile phone at a crime scene, the #1 immediate threat is <b>remote wipe / remote lock</b> (via Google Find My Device, Apple Find My iPhone, or WhatsApp/Telegram remote message deletion) or incoming calls/messages overwriting volatile evidence.</p>' +
+         '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>BFU (Before First Unlock)</h4><p>• The device has just been <b>powered on or rebooted</b>, and the user has <b>NOT yet entered their passcode/pattern</b> even once.<br>• Under modern <b>File-Based Encryption (FBE)</b> (Android 7+ Credential Encrypted storage; iOS Class A/B/C Data Protection), the master decryption keys remain wrapped by the user\'s passcode inside the hardware TEE/Secure Enclave and are <b>absent from RAM</b>.<br>• Only tiny <em>Device Encrypted (DE)</em> boot files (alarms, accessibility, wallpaper) are accessible; almost zero user chats/photos can be extracted without a passcode or chipset exploit!</p></div>' +
+         '<div class="vs-card"><h4>AFU (After First Unlock)</h4><p>• The user has unlocked the phone <b>at least once since the last boot</b>, even if the screen subsequently locked again.<br>• The <b>Credential Encrypted (CE) / Class C decryption keys remain resident in volatile RAM</b> so background apps can receive messages and notifications!<br>• Forensic tools (Cellebrite UFED, GrayKey) can extract <b>95%+ of the Full File System</b> in AFU state — which is completely lost if the phone reboots or its battery dies!</p></div>' +
+         '</div>' +
+         '<div class="example"><b>🔬 Golden Scene Seizure Protocol — Switched ON vs Switched OFF Handset:</b><br>' +
+         '1. <b>If the phone is found SWITCHED OFF:</b> <b>Keep it OFF!</b> Turning it on boots it into BFU state anyway while altering timestamps and risking connecting to a cell tower.<br>' +
+         '2. <b>If the phone is found SWITCHED ON:</b> <b>Keep it ON (never reboot or power it off, or you drop from AFU $\\to$ BFU)!</b>' +
+         '<br>  • If the screen is <b>unlocked</b>: immediately increase screen timeout to Maximum/Never, enable <b>Airplane Mode</b>, disable Wi-Fi/Bluetooth, and enable <em>Developer Options $\\to$ Stay Awake + USB Debugging</em> (documenting every tap under ACPO Principle 2/3).' +
+         '<br>  • Place the device in a <b>Faraday Bag / Shielded RF Box</b> and connect it to an <b>external USB power bank</b> inside the bag! Why? Inside a Faraday bag, the phone sees zero cell signal and boosts its cellular transmitter to maximum wattage hunting for a tower, draining the battery in 2–3 hours; if the battery hits 0%, the phone shuts down and drops from AFU into locked BFU!</div>'
     },
     {
-      h: 'Mobile forensic challenges & rules of evidence',
-      b: '<p><b>Why mobile forensics is harder than disk forensics:</b> device diversity (thousands of OS/chipset/firmware combinations vs. a handful of desktop OSes), rapid OS version churn, near-universal <b>encryption at rest</b>, vendor lock-down (bootloader/Secure Enclave), volatile evidence that a wrong step destroys (remote wipe, screen-lock timeout, battery death), heavy reliance on <b>cloud-synced</b> data the handset itself never fully holds, and anti-forensic apps (vaults, secure messengers with disappearing messages, factory-reset triggers).</p>' +
-         '<p>The four <b>rules-of-evidence principles</b> (from the ACPO Good Practice Guide, applied to digital/mobile evidence generally) govern every step:</p>' +
-         '<ol>' +
-         '<li><b>Principle 1</b> — no action by the examiner should change data held on the device or media that may later be relied upon in court.</li>' +
-         '<li><b>Principle 2</b> — where access to original data is unavoidable, the person doing so must be <b>competent</b> and able to explain the relevance and implications of their actions.</li>' +
-         '<li><b>Principle 3</b> — an <b>audit trail</b> of every process applied must be created and preserved, such that an independent third party could repeat it and reach the same result.</li>' +
-         '<li><b>Principle 4</b> — the <b>case officer</b> (investigation lead) bears overall responsibility for ensuring the law and these principles are followed.</li>' +
-         '</ol>' +
-         '<div class="tip"><b>Exam trap:</b> Principle 1 does not say "no action is ever permitted" — Principle 2 explicitly allows necessary access by a competent examiner. Together they mean: minimise change, and where change is unavoidable, justify and document it. This is the same logic behind the airplane-mode-vs-Faraday-bag choice at seizure.</div>'
-    },
-    {
-      h: 'Rooting, bootloader & EDL mode',
-      b: '<p><b>Bootloader</b> is the first code that runs, choosing which partition/OS image to boot (normal, recovery, fastboot). Manufacturers ship it <b>locked</b> by default. Unlocking it (e.g. <code>fastboot oem unlock</code> / <code>fastboot flashing unlock</code>) is usually required before flashing a custom recovery or gaining deep access — and on most devices this <b>triggers an automatic factory data wipe</b> as an anti-theft measure. That makes bootloader unlocking a last-resort, evidence-destroying step in most casework.</p>' +
-         '<p><b>Rooting</b> installs a superuser binary/manager (historically <code>su</code>, now commonly <b>Magisk</b>, which patches the boot image to stay largely undetectable to apps) to grant root privileges to the shell/apps. Forensically valuable because it exposes <code>/data/data/</code>, but it <b>modifies the system partition</b> and must be justified exactly as jailbreaking is on iOS.</p>' +
-         '<p><b>EDL (Emergency Download) mode</b> is a low-level diagnostic mode on <b>Qualcomm</b> chipsets, reached via a key combination, a test point, or a crafted USB command, that talks to the Primary Bootloader over the <b>Sahara</b> and <b>Firehose</b> protocols. It permits raw read/write of the flash storage <em>below</em> the operating system and lock screen — which is exactly why commercial extraction tools exploit it for physical acquisition of otherwise-locked devices.</p>' +
-         '<div class="tip"><b>Ordering:</b> bootloader (chooses what to boot) → fastboot (a bootloader-level flashing protocol) → recovery mode (a minimal secondary OS for updates/wipes) → EDL (chip-level, below all of the above, Qualcomm-specific). Confusing EDL with "just another recovery mode" is a common wrong-option trap.</div>'
-    },
-    {
-      h: 'Location data & app analysis',
-      b: '<p><b>Location evidence comes from four independent sources</b>, each with a different accuracy/availability trade-off:</p>' +
+      h: 'Android Architecture, Security, File Hierarchy, ADB, Fastboot & Qualcomm EDL',
+      b: '<div class="stack-diagram">' +
+         '<div class="stack-layer"><b>Layer 4: System &amp; Third-Party User Applications (<code>.apk</code>)</b><span>Contacts, SMS, WhatsApp, Browser (each runs in its own sandbox UID)</span></div>' +
+         '<div class="stack-layer"><b>Layer 3: Java / Kotlin API Application Framework</b><span>Activity Manager, Content Providers, Location Manager, Telephony Manager, Notification Manager</span></div>' +
+         '<div class="stack-layer"><b>Layer 2b: Android Runtime (ART / Legacy Dalvik VM)</b><span>Executes <code>.dex</code> (Dalvik Executable) bytecode; ART compiles Ahead-of-Time (AOT/JIT)</span></div>' +
+         '<div class="stack-layer"><b>Layer 2a: Native C/C++ Libraries &amp; HAL (Hardware Abstraction Layer)</b><span>SQLite, OpenGL ES, WebKit, BoringSSL, Camera/Audio/Sensor HAL</span></div>' +
+         '<div class="stack-layer"><b>Layer 1: Modified Linux Kernel (SELinux Mandatory Access Control)</b><span>Process/memory management, Binder IPC driver, power management, device drivers</span></div>' +
+         '</div>' +
          '<ul>' +
-         '<li><b>GPS</b> — most accurate; embedded as EXIF latitude/longitude in photos, and logged in navigation-app databases.</li>' +
-         '<li><b>Wi-Fi positioning</b> — the device caches nearby access-point BSSIDs with signal strength and timestamps; resolved against crowd-sourced AP-location databases (Google/Apple) even indoors where GPS fails.</li>' +
-         '<li><b>Cell-tower data</b> — Cell ID + LAC/TAC give a coarse area fix from the handset side; the network side holds this too (see LOCI on the SIM, and operator CDRs).</li>' +
-         '<li><b>Cloud location history</b> — e.g. Google\'s account-level Location History/Timeline, which persists even if on-device caches are cleared, and must be requested from the provider rather than extracted from the handset.</li>' +
+         '<li><b>Dalvik VM vs ART (Android Runtime):</b> Both execute <b>register-based <code>.dex</code> bytecode</b> (unlike the stack-based standard Java JVM). Android 1.0–4.4 used <b>Dalvik</b> with Just-in-Time (JIT) compilation; Android 5.0+ replaced Dalvik with <b>ART</b>, which uses <b>Ahead-of-Time (AOT)</b> + profile-guided compilation into native `.oat` ELF code.</li>' +
+         '<li><b>APK Structure &amp; `AndroidManifest.xml`:</b> Every `.apk` file is a <b>ZIP archive (magic bytes <code>50 4B 03 04</code>)</b> containing `classes.dex`, `resources.arsc`, `lib/`, `META-INF/` signature certificates, and <b><code>AndroidManifest.xml</code></b> — which declares the app\'s package name, minimum SDK, four component types (<b>Activities, Services, Broadcast Receivers, Content Providers</b>), and requested <b>Permissions</b> (`READ_SMS`, `ACCESS_FINE_LOCATION`, `RECORD_AUDIO`).</li>' +
+         '<li><b>Crucial Android File System Paths:</b>' +
+         '<br>• <b><code>/data/data/&lt;package_name&gt;/</code></b> (or `/data/user/0/<package_name>/`): Private sandbox directory for each app, holding `databases/` (SQLite `.db`), `shared_prefs/` (XML key-value configs), `files/`, and `cache/`. Protected by Linux UID + SELinux — <b>inaccessible to normal ADB pull unless rooted or extracted via Full File System / Physical exploit</b>!' +
+         '<br>• <b><code>/sdcard/</code></b> (symlink to `/storage/emulated/0/` or `/data/media/0/`): Shared user storage (`DCIM/Camera`, `Download`, `WhatsApp/Media`) — accessible via MTP/logical extraction.' +
+         '<br>• <b><code>/data/system/</code>:</b> Critical OS telemetry: `packages.xml`, `users/0/settings_secure.xml`, <b><code>usagestats/</code></b> (app launch history), and legacy lockscreen files (`gesture.key` / `password.key` / `locksettings.db`).</li>' +
          '</ul>' +
-         '<p><b>App analysis</b> starts with the manifest/permissions (capability) and then the app\'s private SQLite stores. Messaging apps are the highest-value target: WhatsApp\'s chat database ships as <code>msgstore.db</code>, encrypted on-device as <code>msgstore.db.crypt12/.crypt14</code>, with the decryption key stored in a separate key file reachable only via root or a full file system extraction. Browser history, social-media caches and notification logs round out the app-analysis picture.</p>' +
-         '<div class="tip"><b>Trap:</b> a Wi-Fi/cell cache placed the device near a location — it does not prove the device <em>connected</em> to that network/tower, only that it detected it. Treat proximity evidence and connection evidence as distinct claims.</div>'
-    },
-    {
-      h: 'Mobile forensic tools',
-      b: '<table>' +
-         '<tr><th>Tool</th><th>Vendor / type</th><th>Notes</th></tr>' +
-         '<tr><td><b>Cellebrite UFED</b></td><td>Cellebrite (commercial)</td><td>"Universal Forensic Extraction Device" — logical, file system and physical extraction; bundles chipset-level exploits (Qualcomm/EDL-class) for locked devices; the de facto industry standard</td></tr>' +
-         '<tr><td><b>MSAB XRY</b></td><td>MSAB (commercial)</td><td>Competing full-suite extraction and analysis platform</td></tr>' +
-         '<tr><td><b>Magnet AXIOM</b></td><td>Magnet Forensics (commercial)</td><td>Combines device, cloud and computer artefacts in one case</td></tr>' +
-         '<tr><td><b>Oxygen Forensic Detective</b></td><td>Oxygen (commercial)</td><td>Strong on app/cloud artefact parsing</td></tr>' +
-         '<tr><td><b>Andriller</b></td><td>Open-source</td><td>Android-only, lightweight logical/physical extraction and decoding</td></tr>' +
-         '<tr><td><b>Autopsy</b></td><td>Open-source</td><td>General digital-forensics platform; useful for SQLite/file examination on top of a prior image</td></tr>' +
-         '</table>' +
-         '<p>Regardless of tool, the acquired image must be <b>hashed</b> (MD5/SHA-256) immediately on completion, and every verification hash re-checked before analysis and before court presentation — the tool automates extraction, not the chain of custody.</p>'
-    },
-    {
-      h: 'Evidence extraction workflow',
-      b: '<p>The end-to-end process, mirroring the general digital-forensics model but with mobile-specific steps inserted:</p>' +
-         '<ol>' +
-         '<li><b>Seizure & isolation</b> — Faraday bag/aeroplane mode, power-state decision (on stays on, off stays off), photograph screen state.</li>' +
-         '<li><b>Documentation</b> — make, model, IMEI, ICCID/IMSI if SIM present, visible damage, BFU/AFU state, seizure time and location, chain-of-custody form opened.</li>' +
-         '<li><b>Method selection</b> — least invasive method that meets the investigative need (see the acquisition-methods table), driven by lock state, OS version and available exploits.</li>' +
-         '<li><b>Acquisition</b> — extract, then <b>hash</b> the resulting image/report immediately.</li>' +
-         '<li><b>Preservation</b> — original device sealed and stored; all further work happens on the verified copy/image, never the original.</li>' +
-         '<li><b>Examination & analysis</b> — parse file system/SQLite artefacts, correlate app, location and network evidence.</li>' +
-         '<li><b>Reporting & presentation</b> — reproducible, documented findings suitable for court, satisfying ACPO Principle 3.</li>' +
-         '</ol>' +
-         '<div class="tip"><b>Discriminator:</b> hashing happens right after acquisition, not just before trial — a hash taken only at the end cannot prove the image was unaltered from the moment it was created.</div>'
-    },
-    {
-      h: 'Mobile phone fundamentals: types, components & chipset identification',
-      b: '<p><b>Feature phone vs smartphone</b> is the basic typology: a <b>feature phone</b> runs a closed, proprietary or lightweight OS (or none at all beyond firmware), offers calling/SMS and limited apps, and stores far less forensically — mainly contacts, call logs and SMS on the handset/SIM. A <b>smartphone</b> runs a full multitasking OS (Android/iOS), installs third-party apps each with their own private storage, and is the primary target of modern mobile forensics because of the sheer volume and variety of app-generated evidence it holds.</p>' +
-         '<p><b>Core hardware components inside a mobile device:</b></p>' +
          '<table>' +
-         '<tr><th>Component</th><th>Function</th><th>Forensic relevance</th></tr>' +
-         '<tr><td><b>Baseband processor / modem</b></td><td>Handles radio (cellular) communication, runs its own separate firmware/OS</td><td>Holds IMEI, radio firmware; a distinct attack surface from the main OS (e.g. EDL mode talks to the bootloader below the application processor)</td></tr>' +
-         '<tr><td><b>Application processor (SoC)</b></td><td>Runs the main OS (Android/iOS) and all apps</td><td>Where user data, app databases and the file system live</td></tr>' +
-         '<tr><td><b>RAM</b></td><td>Volatile working memory</td><td>Holds decryption keys in AFU state, running-process artefacts; lost on power-off</td></tr>' +
-         '<tr><td><b>Flash storage (NAND/eMMC/UFS)</b></td><td>Non-volatile storage for OS, apps and user data</td><td>Target of physical/chip-off acquisition; holds unallocated space where deleted data can persist</td></tr>' +
-         '<tr><td><b>SIM slot</b></td><td>Interfaces with the SIM/eSIM</td><td>See SIM card note — ICCID/IMSI, ADN, SMS, LOCI</td></tr>' +
-         '<tr><td><b>Radio/antenna module</b></td><td>Cellular, Wi-Fi, Bluetooth, GPS, NFC radios</td><td>Source of location and connectivity artefacts; also the reason Faraday isolation is needed at seizure</td></tr>' +
-         '</table>' +
-         '<p><b>Identifying the phone and chipset</b> during triage (before deciding an acquisition method) draws on several sources: the <b>model number</b> printed under the battery/SIM tray or in Settings; the <b>FCC ID</b> (for devices sold in the US, look up the FCC database for exact make/model/frequency bands) or equivalent regional certification marks; the <b>IMEI\'s TAC</b> (first 8 digits), which identifies make and model via the GSMA TAC database; and, at the chip level, <b>baseband/bootloader identification strings</b> (visible in EDL/download-mode handshakes or bootloader logs) that reveal the SoC vendor (Qualcomm, MediaTek, Samsung Exynos, Apple Silicon) — this is what determines which chipset-specific exploit (e.g. EDL/Sahara-Firehose for Qualcomm) a forensic tool can use.</p>' +
-         '<div class="tip"><b>Why this comes first in the syllabus:</b> chipset identification directly gates method selection later in the unit — an examiner who cannot tell a Qualcomm device from a MediaTek one cannot correctly choose (or explain) an EDL-based physical extraction. Model/FCC ID/TAC identification is the triage step that precedes every acquisition decision.</div>'
+         '<tr><th>Android Access Mode</th><th>Layer / Protocol</th><th>Forensic Capabilities &amp; Caveats</th></tr>' +
+         '<tr><td><b>ADB</b> (Android Debug Bridge)</td><td>OS user-space daemon (`adbd`) over USB TCP port 5037</td><td>Requires <b>USB Debugging</b> enabled in Developer Options (tap <em>Build Number 7 times</em>) AND RSA host key authorization (`adb_keys`) on an unlocked screen. Runs `adb devices`, `adb shell`, `adb pull`, `adb backup`, `adb bugreport`.</td></tr>' +
+         '<tr><td><b>Fastboot / Bootloader</b></td><td>Secondary Bootloader (ABOOT/ABL) before Linux kernel loads</td><td>Flashes partitions (`fastboot flash`). Warning: running <code>fastboot oem unlock</code> / <code>flashing unlock</code> <b>triggers an immediate mandatory cryptographic factory wipe of `/data`</b>!</td></tr>' +
+         '<tr><td><b>Recovery Mode</b></td><td>Separate bootable mini-OS partition</td><td>Stock recovery installs signed OTA updates or wipes `/data`; Custom recovery (<b>TWRP</b>) mounts `/data` to dump full file systems if unlocked/unencrypted.</td></tr>' +
+         '<tr><td><b>EDL Mode</b> (Emergency Download)</td><td><b>Qualcomm Primary Bootloader (PBL)</b> in Mask ROM (USB PID `9008`)</td><td>Communicates via <b>Sahara &amp; Firehose</b> programmer protocols <em>below the OS and bootloader</em>! Allows Cellebrite/Oxygen to extract a raw physical dump of Qualcomm flash storage on supported devices without unlocking the bootloader. (MediaTek equivalent: <b>BROM / Preloader mode</b>; Samsung equivalent: <b>Odin / Download mode</b>.)</td></tr>' +
+         '</table>'
     },
     {
-      h: 'Crimes using mobile phones',
-      b: '<p>The syllabus names this as a distinct topic: a typology of mobile-enabled crime, mirroring the instrument/target/incidental framing used for computer-based crime in the general cyber-forensic unit.</p>' +
-         '<table>' +
-         '<tr><th>Role of the phone</th><th>Examples</th></tr>' +
-         '<tr><td><b>Instrument</b> — phone used to commit the crime</td><td>Harassment/threatening calls and SMS, <b>smishing</b> (SMS-based phishing links), voice-call phishing (vishing), WhatsApp-based fraud (fake KYC/lottery/job-offer messages), <b>mobile banking/UPI fraud</b> via social engineering or malicious apps, circulation of obscene/defamatory content, cyberstalking via location-sharing features</td></tr>' +
-         '<tr><td><b>Target</b> — the phone or its access itself is attacked</td><td>Physical theft/snatching of the handset, <b>SIM-swap fraud</b> (fraudulently reissuing a victim\'s SIM to intercept OTPs and take over bank/email accounts), unauthorised remote access/spyware installation, IMEI cloning</td></tr>' +
-         '<tr><td><b>Incidental / evidentiary</b> — crime committed elsewhere, phone merely holds evidence of it</td><td>A phone recovered from a suspect in an unrelated offence (murder, narcotics, terrorism) that happens to contain call logs, location history or messages relevant to that case</td></tr>' +
-         '</table>' +
-         '<p>SIM-swap fraud deserves special attention because it chains two crimes: the phone is first the <b>target</b> (fraudulent SIM reissue, usually via social engineering of the telecom operator or an insider), then becomes the <b>instrument</b> for downstream banking fraud once OTPs are intercepted on the cloned SIM. This dual role is a frequent exam distractor.</p>' +
-         '<div class="tip"><b>Exam trap:</b> "theft of a mobile phone" and "a mobile phone recovered during theft investigation" sound similar but are opposite categories — the first is the phone as <b>target</b>, the second is the phone as <b>incidental evidence</b> of a different crime (or the phone being the fruit/object of the theft itself, not the instrument of it).</div>'
-    },
-    {
-      h: 'SQLite examination on mobile phones',
-      b: '<p>Unit II covers SQLite\'s file format generally; this is the mobile-specific application named in the syllabus under "potential evidence stored on mobile phones." Most native and third-party mobile apps persist their data in SQLite databases inside the app\'s private storage (<code>/data/data/&lt;package&gt;/databases/</code> on Android), which is exactly why file system or physical extraction — not logical extraction alone — is needed to reach them.</p>' +
-         '<table>' +
-         '<tr><th>Database</th><th>App / source</th><th>Holds</th></tr>' +
-         '<tr><td><code>contacts2.db</code></td><td>Android Contacts provider</td><td>Contact names, numbers, associated accounts</td></tr>' +
-         '<tr><td><code>mmssms.db</code> (a.k.a. <code>sms.db</code>)</td><td>Android messaging</td><td>SMS and MMS content, timestamps, thread IDs</td></tr>' +
-         '<tr><td><code>msgstore.db</code> (<code>.crypt12/.crypt14</code> encrypted)</td><td>WhatsApp</td><td>Chat messages, timestamps, media references</td></tr>' +
-         '<tr><td><code>calllog.db</code> / call log provider</td><td>Android telephony</td><td>Call history, duration, direction</td></tr>' +
-         '</table>' +
-         '<p><b>Why examine the database directly rather than through the app\'s UI:</b> the UI only shows what the app chooses to render — typically the current, non-deleted state. Opening the raw <code>.db</code> file with a SQLite viewer (or a forensic parser like Autopsy) exposes rows the UI hides, and more importantly lets the examiner recover deleted data:</p>' +
+      h: 'iOS Architecture, APFS, Plists, DFU vs Recovery, Secure Enclave & iTunes Backups',
+      b: '<ul>' +
+         '<li><b>iOS XNU Kernel &amp; File System:</b> Built on Darwin (XNU hybrid kernel = Mach microkernel + FreeBSD + I/O Kit). Older iOS (&lt; 10.3) used <b>HFSX / HFS+</b>; iOS 10.3+ uses <b>APFS (Apple File System)</b> with Copy-on-Write metadata and hardware-backed <b>Data Protection classes</b> (`NSFileProtectionComplete` [Class A, locked when screen locks], `CompleteUnlessOpen` [Class B], `CompleteUntilFirstUserAuthentication` [Class C, accessible in AFU!], `None` [Class D]).</li>' +
+         '<li><b>Secure Enclave Processor (SEP):</b> A dedicated hardware security coprocessor with its own encrypted memory and hardware UID key fused at manufacture. Enforces a minimum <b>80-millisecond delay per passcode attempt in silicon</b> plus escalating time lockouts, preventing offline high-speed brute-forcing even if the NAND chip is desoldered!</li>' +
+         '</ul>' +
+         '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>iOS Recovery Mode vs DFU Mode</h4><p>• <b>Recovery Mode:</b> Loads the <b>iBoot</b> second-stage bootloader; screen displays the <em>"Connect to computer / Finder / iTunes"</em> cable icon.<br>• <b>DFU (Device Firmware Update) Mode:</b> Completely <b>bypasses iBoot</b> and talks directly to the hardware <b>BootROM (`SecureROM`)</b> burned into the Apple A-series silicon! The <b>screen stays 100% pitch black</b>. BootROM vulnerabilities (like `checkm8` on A5–A11 chips) are exploited in DFU mode because BootROM sits in read-only silicon and can never be patched by an iOS software update!</p></div>' +
+         '<div class="vs-card"><h4>Unencrypted vs Encrypted iTunes / Finder Backup</h4><p>• <b>Unencrypted Backup:</b> Extracts photos, SMS (`sms.db`), contacts, call logs, and app sandboxes — <b>OMITS sensitive security databases</b>.<br>• <b>Password-Encrypted Backup (Forensic Goldmine!):</b> If you set a known forensic password (or know the suspect\'s backup password), iOS includes <b>1. The iOS Keychain (saved Wi-Fi passwords, website credentials, app tokens), 2. Apple Health (`healthdb_secure.sqlite`), 3. Safari Browsing History, and 4. Call History (`CallHistory.storedata`)</b>!</p></div>' +
+         '</div>' +
          '<ul>' +
-         '<li>SQLite marks a deleted row\'s space as <b>free</b> rather than erasing it — until that page is reused, the old bytes are still recoverable by scanning free/unallocated pages within the <code>.db</code> file itself.</li>' +
-         '<li>The <b>Write-Ahead Log</b> (<code>-wal</code> file, alongside the main <code>.db</code> and <code>-shm</code> shared-memory index) records changes not yet checkpointed into the main database — it frequently contains rows that were deleted from the main table moments before seizure but still sit uncommitted in the WAL.</li>' +
-         '<li>The rollback journal (<code>-journal</code>, on older SQLite configurations) serves the same recovery purpose as the WAL for databases not using WAL mode.</li>' +
+         '<li><b>High-Yield iOS Artefacts:</b>' +
+         '<br>• <b>Property Lists (`.plist`):</b> XML or binary configuration files (beginning with 8-byte magic header <b><code>bplist00</code></b>, decoded with `plutil -p` or `plistutil`).' +
+         '<br>• <b>`sms.db`</b> (`/private/var/mobile/Library/SMS/sms.db`): iMessage &amp; SMS text messages (timestamps in Apple 2001 epoch!).' +
+         '<br>• <b>`KnowledgeC.db`</b> (`/private/var/mobile/Library/CoreDuet/Knowledge/knowledgeC.db`): <b>Pattern-of-life goldmine</b> recording screen lock/unlock events, exact app foreground focus times down to the second, battery plug-in, Bluetooth audio connections, and CarPlay usage!' +
+         '<br>• <b>`Cache.sqlite` &amp; `consolidated.db` / `routined`:</b> Historical GPS, Wi-Fi BSSID, and cell tower location caches.</li>' +
+         '</ul>'
+    },
+    {
+      h: 'Mobile Acquisition Pyramid: Manual → Logical → Full File System → Physical (JTAG / Chip-Off)',
+      b: '<div class="stack-diagram">' +
+         '<div class="stack-layer"><b>Level 5 (Most Invasive / Destructive): Chip-Off &amp; ISP (In-System Programming)</b><span>Physically desoldering NAND / eMMC / UFS chip with hot air or milling — DESTRUCTIVE!</span></div>' +
+         '<div class="stack-layer"><b>Level 4 (Hardware Invasive): JTAG (IEEE 1149.1 Test Access Port)</b><span>Soldering hair-thin wires to PCB debug TAP pads (TDI, TDO, TCK, TMS, TRST) — Non-destructive if careful</span></div>' +
+         '<div class="stack-layer"><b>Level 3 (Bootloader / BootROM Exploit): Physical Extraction (Bit-for-Bit)</b><span>Via Qualcomm EDL, MediaTek BROM, or checkm8; captures raw flash + unallocated space</span></div>' +
+         '<div class="stack-layer"><b>Level 2 (Agent / AFU Privilege Escalation): Full File System (FFS) Extraction</b><span>Captures entire `/data` or `/private/var` directory tree including all SQLite `.db` &amp; `-wal` files!</span></div>' +
+         '<div class="stack-layer"><b>Level 1 (Least Invasive): Manual (Camera) &amp; Logical Extraction (ADB / iTunes Backup / AT / MTP)</b><span>Queries OS APIs only; fast &amp; safe, but misses deleted data and unbacked-up private app folders</span></div>' +
+         '</div>' +
+         '<div class="clarity"><b>⚡ Concept Clarity — Why Chip-Off and JTAG Rarely Work on Modern (Post-2016) Smartphones:</b><br>' +
+         'On older phones without hardware encryption, desoldering the eMMC/NAND flash chip (<b>Chip-Off</b>) and placing it into an adapter (UP-828 / EasyJTAG) gave a readable bit-for-bit raw image. On modern Android (FBE with TrustZone/StrongBox) and iOS (Secure Enclave), every block on the flash chip is encrypted with a hardware-bound key fused inside the SoC/SEP processor! If you desolder the flash chip and read it outside the phone, you get 100% undecryptable random ciphertext — and worse, because you destroyed the phone PCB, you can no longer boot the phone to enter the passcode! Therefore, on modern encrypted phones, <b>Full File System (FFS) extraction in AFU state</b> is the practical forensic gold standard.</div>'
+    },
+    {
+      h: 'WhatsApp, App Analysis, Location Forensics & Mobile Crime Typology',
+      b: '<div class="example"><b>🔬 Forensic Walkthrough — Recovering Encrypted &amp; Deleted WhatsApp Messages on Android:</b><br>' +
+         '1. <b>Where WhatsApp Stores Files on Android:</b>' +
+         '<br>  • <b>Private Sandbox (requires Root / Full File System extraction):</b> `/data/data/com.whatsapp/databases/msgstore.db` (plaintext SQLite chat database!) + `msgstore.db-wal` + `wa.db` (contacts) + `/data/data/com.whatsapp/files/key` (the <b>158-byte AES decryption key file</b>).' +
+         '<br>  • <b>Shared External Storage (accessible via simple Logical / MTP extraction):</b> `/sdcard/Android/media/com.whatsapp/WhatsApp/Databases/msgstore.db.crypt14` (or `.crypt15`).<br>' +
+         '2. <b>The Forensic Catch:</b> A simple logical extraction can grab `msgstore.db.crypt14` from `/sdcard/`, <b>but you CANNOT decrypt `.crypt12` or `.crypt14` without the 158-byte `key` file from `/data/data/com.whatsapp/files/key`</b> (unless the user enabled end-to-end encrypted backup with a known 64-digit key/password)!<br>' +
+         '3. <b>Recovering Deleted Messages:</b> Once you have plaintext `msgstore.db` and `msgstore.db-wal`, check the `message` (or `messages`) table, carve SQLite freelist/unallocated cell space, and parse uncheckpointed frames inside `msgstore.db-wal`. Even if a message was deleted, check `/sdcard/.../WhatsApp/Media/WhatsApp Images/Sent` and thumbnail caches!</div>' +
+         '<p><b>Four Sources of Mobile Location Evidence (and the Proximity vs Connection Trap):</b></p>' +
+         '<ul>' +
+         '<li><b>1. On-Device GPS:</b> EXIF `GPSLatitude`/`GPSLongitude` in camera photos, Google Maps/Uber SQLite caches (`da_destination_history`), Apple `routined`. Accuracy: 3–10 metres.</li>' +
+         '<li><b>2. Wi-Fi BSSID Positioning Caches:</b> Phones passively scan and cache MAC addresses (<b>BSSIDs</b>) and signal strengths (RSSI) of nearby Wi-Fi routers even without connecting to them! Comparing these BSSIDs against Skyhook/Wigle/Google location databases places the phone within ~20–50 metres indoors. <em>(Remember: detecting a BSSID proves physical proximity, NOT that the suspect authenticated to that Wi-Fi network!)</em></li>' +
+         '<li><b>3. Cellular Tower (Cell ID / LAC / TAC) &amp; CDRs:</b> On-SIM `EF_LOCI` and telecom operator <b>Call Detail Records (CDRs)</b> / Tower Dump logs show which sector antenna (`CGI = MCC-MNC-LAC-CI`) handled a call/SMS/data session.</li>' +
+         '<li><b>4. Cloud Account Telemetry:</b> Google Takeout / Sensorvault Location History and iCloud backups obtained via legal requisition.</li>' +
          '</ul>' +
-         '<div class="tip"><b>Discriminator:</b> "the app shows no messages" and "the phone contains no messages" are not the same claim. A message deleted from WhatsApp\'s or the SMS app\'s UI routinely survives — recoverable from SQLite free pages or the WAL — until the space is overwritten by later writes. This is the single most common way "deleted" evidence is actually recovered in mobile cases.</div>'
+         '<p><b>Mobile Phone Crime Typology (Instrument vs Target vs Incidental):</b></p>' +
+         '<ul>' +
+         '<li><b>Phone as Instrument:</b> Smishing (SMS phishing), Vishing (voice OTP fraud), UPI/QR-code collect-request fraud, sextortion/cyberbullying, remote detonation/coordination.</li>' +
+         '<li><b>Phone as Target:</b> Physical snatching, <b>SIM-Swap fraud</b> (attacker tricks telco into issuing a duplicate SIM for the victim\'s number to hijack 2FA SMS OTPs — here the SIM/identity is first the <em>Target</em>, then becomes the <em>Instrument</em> for draining bank accounts!), Pegasus/stalkerware spyware infection, IMEI tampering (a cognizable offence in India under the <b>Telecommunications Act, 2023</b>!).</li>' +
+         '<li><b>Phone as Incidental / Evidentiary Container:</b> A murder or robbery suspect\'s phone seized solely because its call logs, cell-tower trail, and Google Maps history place the suspect at the crime scene.</li>' +
+         '</ul>'
     }
   ],
 
@@ -329,6 +287,129 @@ window.MPSC.units.push({
 
     { q: 'Which of the following mobile SQLite databases would an examiner check specifically to recover Android SMS/MMS content?',
       o: ['contacts2.db', 'mmssms.db', 'calllog.db', 'AndroidManifest.xml'], a: 1,
-      e: '<p><code>mmssms.db</code> (sometimes referenced as <code>sms.db</code>) is the Android messaging provider\'s database, holding SMS and MMS content, timestamps and thread IDs.</p><p><code>contacts2.db</code> holds contacts and <code>calllog.db</code> holds call history — each app/provider keeps its own dedicated SQLite store, which is why examiners must know which database maps to which artefact rather than searching blindly.</p>' }
+      e: '<p><code>mmssms.db</code> (sometimes referenced as <code>sms.db</code>) is the Android messaging provider\'s database, holding SMS and MMS content, timestamps and thread IDs.</p><p><code>contacts2.db</code> holds contacts and <code>calllog.db</code> holds call history — each app/provider keeps its own dedicated SQLite store, which is why examiners must know which database maps to which artefact rather than searching blindly.</p>' },
+
+    { q: 'In a 15-digit IMEI number, what do the first 8 digits represent, and which mathematical algorithm is used to compute the 15th (final) check digit?',
+      o: ['The first 8 digits are the TAC (Type Allocation Code, identifying device make and model), and the 15th digit is computed by the Luhn (mod 10) algorithm',
+          'The first 8 digits are the MCC/MNC, and the 15th digit is a CRC-32 checksum',
+          'The first 8 digits are the subscriber MSISDN, and the 15th digit is always 0',
+          'The first 8 digits are the SIM ICCID prefix, and the 15th digit uses RSA-2048'], a: 0,
+      e: '<p>A 15-digit IMEI consists of an <b>8-digit TAC (Type Allocation Code)</b> assigned by the GSMA (which reveals the exact manufacturer and model of the device), followed by a <b>6-digit SNR (Serial Number)</b>, and a <b>1-digit Luhn check digit</b> (`mod 10` double-every-second-digit checksum).</p>' },
+
+    { q: 'Why must a forensic officer connect an external USB power bank to a powered-on smartphone when sealing it inside a Faraday bag during transport to the lab?',
+      o: ['Because inside a Faraday bag the phone loses all network signal and boosts its cellular radio transmitter to maximum power searching for a cell tower, rapidly draining the battery and risking a power-off that drops the phone from AFU into locked BFU state',
+          'Because Faraday bags only block radio waves when connected to 5V DC power',
+          'Because charging the battery automatically bypasses the Android lockscreen',
+          'Because a battery below 50% deletes the SIM card\'s ICCID'], a: 0,
+      e: '<p>When a powered-on phone is placed in a Faraday bag, its baseband modem detects zero signal and ramps its RF transmit power to maximum while continuously scanning all frequency bands for a cell tower. This drains the battery in a few hours; if the battery dies, the phone shuts off, losing all volatile RAM and transitioning from <b>AFU (After First Unlock)</b> back to <b>BFU (Before First Unlock)</b> where Credential Encrypted keys are inaccessible!</p>' },
+
+    { q: 'Why does a physical Chip-Off extraction (desoldering the UFS/eMMC flash chip) on a modern Android 13 or iPhone 15 handset almost always fail to yield readable user data?',
+      o: ['Because modern mobile OSes enforce mandatory File-Based Encryption (FBE) whose master decryption keys are fused inside the SoC\'s hardware TEE / Secure Enclave, so the raw flash dump contains only undecryptable ciphertext',
+          'Because modern smartphones no longer use NAND flash memory',
+          'Because Chip-Off only captures the SIM card and not internal storage',
+          'Because modern flash chips erase themselves when heated above 50°C'], a: 0,
+      e: '<p>On modern smartphones (iOS since iPhone 5s/SEP; Android since mandatory File-Based Encryption in Android 7–10+), every block written to the UFS/eMMC flash chip is encrypted using hardware-bound keys locked inside the processor\'s <b>Trusted Execution Environment (TEE) / Secure Enclave</b>. Desoldering the flash chip separates it from the CPU that holds the hardware key, leaving the examiner with unreadable ciphertext and a dead phone.</p>' },
+
+    { q: 'An investigator uses logical extraction to pull `/sdcard/Android/media/com.whatsapp/WhatsApp/Databases/msgstore.db.crypt14` from an Android phone. What additional file — and from which private directory — is required to decrypt `.crypt14` locally without the user\'s cloud backup password?',
+      o: ['The 158-byte `key` file located in `/data/data/com.whatsapp/files/key` (accessible only via root or Full File System extraction)',
+          '`AndroidManifest.xml` from `/system/app/`',
+          '`contacts2.db` from `/sdcard/Download/`',
+          '`build.prop` from `/system/`'], a: 0,
+      e: '<p>WhatsApp stores its encrypted backup database (`msgstore.db.crypt12` / `.crypt14`) on shared storage (`/sdcard/`), where any file manager or logical extraction can copy it. However, the AES decryption key is protected inside WhatsApp\'s private sandbox at <b>`/data/data/com.whatsapp/files/key`</b>, which requires root or Full File System extraction (or the WhatsApp Key/DB Extractor downgrade trick on older versions) to obtain.</p>' },
+
+    { q: 'On an iOS device, which SQLite database (located at `/private/var/mobile/Library/CoreDuet/Knowledge/knowledgeC.db`) is a "pattern-of-life" goldmine that records exact timestamps of screen lock/unlock state, which app was in the foreground, battery plug-in events, and Bluetooth/CarPlay connections?',
+      o: ['`knowledgeC.db`',
+          '`mmssms.db`',
+          '`SAM.db`',
+          '`ntuser.dat`'], a: 0,
+      e: '<p><b>`knowledgeC.db`</b> (part of iOS\'s CoreDuet / DuetExpertCenter subsystem) tracks fine-grained user and device state transitions over roughly 4 weeks — letting a forensic examiner prove whether a driver was actively holding their iPhone unlocked with WhatsApp in the foreground at the exact second of a traffic collision!</p>' },
+
+    { q: 'When an SMS message stored directly on a legacy SIM card (inside the elementary file `EF_SMS`) is deleted by the user, what actually happens to the 176-byte SMS slot on the SIM?',
+      o: ['Only the first status byte of the 176-byte record is changed to `0x00` (marking the slot free), while the remaining 175 bytes holding the sender number, timestamp, and message text remain intact until overwritten',
+          'All 176 bytes are immediately overwritten with `0xFF`',
+          'The SIM card\'s PUK counter is decremented by 1',
+          'The deleted SMS is automatically uploaded to the operator\'s HLR'], a: 0,
+      e: '<p>In the 3GPP SIM file system (`DF_TELECOM / EF_SMS`, file ID `6F3C`), each SMS occupies a fixed <b>176-byte linear record</b>. Byte 1 is the status byte (`0x01` = read, `0x03` = unread, `0x05` = sent, `0x07` = unsent). Deleting the message simply changes Byte 1 to <b>`0x00` (free space)</b>, leaving the entire 175-byte SMS payload recoverable by any forensic SIM card reader!</p>' },
+
+    { q: 'How does JTAG (Joint Test Action Group, IEEE 1149.1) acquisition differ from Chip-Off acquisition in mobile forensics?',
+      o: ['JTAG solders fine wires to existing debug Test Access Port (TAP) pads on the circuit board to read the flash memory through the CPU without removing the storage chip, whereas Chip-Off physically desolders and removes the storage chip from the board',
+          'JTAG requires desoldering the flash chip, whereas Chip-Off uses Bluetooth',
+          'JTAG only recovers SIM card contacts, whereas Chip-Off only recovers SD cards',
+          'JTAG is a cloud backup method, whereas Chip-Off is an ADB command'], a: 0,
+      e: '<p><b>JTAG</b> communicates with the processor\'s boundary-scan debug interface via 5 standard signals (<b>TDI, TDO, TCK, TMS, TRST</b>) exposed on test pads on the PCB. Because the flash chip stays soldered to the board, the phone remains functional afterward if the wires are cleanly removed — making JTAG <b>non-destructive</b> compared with <b>Chip-Off</b>.</p>' },
+
+    { q: 'While examining a seized iPhone file system, an investigator opens a configuration `.plist` file in a hex editor and sees the first 8 ASCII bytes read `bplist00` (`62 70 6C 69 73 74 30 30`). What does this header indicate?',
+      o: ['It is a binary Property List file that must be parsed or converted (e.g., via `plutil` or `plistutil`) before its key-value pairs can be read as text',
+          'It is an encrypted BitLocker volume header',
+          'It is a corrupted SQLite 3 database header',
+          'It is an Android Dalvik executable (`.dex`) file'], a: 0,
+      e: '<p>Apple stores Property Lists (`.plist`) in either plain XML (`<?xml ...`) or compact <b>Binary Plist</b> format, which always begins with the 8-byte magic signature <b>`bplist00`</b>.</p>' },
+
+    { q: 'Suppose the first 14 digits of a mobile phone\'s IMEI are `35693803564380`. Using the Luhn (mod 10) algorithm, what is the 15th check digit?',
+      o: ['9', '0', '5', '3'], a: 0,
+      e: '<p>Apply the <b>Luhn algorithm</b> to `3 5 6 9 3 8 0 3 5 6 4 3 8 0`, doubling every 2nd digit from theleft/right (positions 2, 4, 6, 8, 10, 12, 14):<br>• Odd positions (unchanged): $3, 6, 3, 0, 5, 4, 8$<br>• Even positions (doubled, sum digits if $\\ge 10$): $5\\times 2=10\\to 1$; $9\\times 2=18\\to 9$; $8\\times 2=16\\to 7$; $3\\times 2=6$; $6\\times 2=12\\to 3$; $3\\times 2=6$; $0\\times 2=0$.<br>• Total sum $= (3+1) + (6+9) + (3+7) + (0+6) + (5+3) + (4+6) + (8+0) = 4 + 15 + 10 + 6 + 8 + 10 + 8 = 61$.<br>• Next multiple of 10 above 61 is 70, so the 15th check digit is $70 - 61 =$ <b>9</b>!</p>' },
+
+    { q: 'On a SIM card (UICC), which Elementary File (EF) stores the Abbreviated Dialling Numbers (the user\'s SIM phonebook contacts), and which EF stores the Last Numbers Dialled?',
+      o: ['`EF_ADN` (Abbreviated Dialling Numbers) stores contacts, and `EF_LND` stores Last Numbers Dialled',
+          '`EF_IMSI` stores contacts, and `EF_ICCID` stores dialled numbers',
+          '`EF_LOCI` stores contacts, and `EF_KC` stores dialled numbers',
+          '`EF_SMS` stores both contacts and dialled numbers'], a: 0,
+      e: '<p>Under the `DF_TELECOM` (`7F10`) directory on a SIM card:<br>• <b>`EF_ADN` (Abbreviated Dialling Numbers):</b> stores the user\'s SIM contacts (names + phone numbers).<br>• <b>`EF_LND` (Last Numbers Dialled):</b> stores outgoing dialled calls.<br>• <b>`EF_FDN` (Fixed Dialling Numbers):</b> restricted whitelist of numbers.<br>• <b>`EF_SMS`:</b> text messages.</p>' },
+
+    { q: 'Since Android 4.2.2+, even if "USB Debugging" is turned ON in Developer Options on a suspect\'s locked Android phone, plugging it into a new forensic workstation via ADB displays `unauthorized`. How can an investigator legitimately bypass this RSA host authorization prompt without knowing the phone\'s passcode?',
+      o: ['Locate the suspect\'s own paired laptop/PC, extract the trusted `~/.android/adbkey` (and `adbkey.pub`) files from that computer, and copy them into the forensic workstation\'s `.android` directory (since the phone\'s `/data/misc/adb/adb_keys` already trusts that RSA key pair!)',
+          'Cut the green data wire inside the USB cable',
+          'Remove the SIM card and dial *#06#',
+          'Place the phone inside a Faraday bag for 24 hours'], a: 0,
+      e: '<p>When a user clicks "Always allow from this computer" on the Android USB debugging prompt, the host computer\'s public RSA key (`adbkey.pub`) is saved on the phone in `/data/misc/adb/adb_keys`. If the investigator seizes the suspect\'s laptop and copies its private `~/.android/adbkey` to the forensic laptop, the locked phone immediately recognises the workstation as already authorised and grants an `adb` shell!</p>' },
+
+    { q: 'How did the replacement of the legacy Dalvik Virtual Machine by ART (Android Runtime, introduced in Android 5.0) change how Android app `.dex` bytecode is executed?',
+      o: ['Dalvik relied on Just-in-Time (JIT) interpretation at runtime, whereas ART introduced Ahead-of-Time (AOT) / profile-guided compilation that compiles `.dex` bytecode into native machine code (`.oat` ELF binaries) upon installation',
+          'ART removed support for `.apk` files and requires Windows `.exe` files',
+          'Dalvik ran in kernel mode (Ring 0), whereas ART runs inside the SIM card',
+          'ART disables all app sandboxing'], a: 0,
+      e: '<p>In Android 1.0–4.4, <b>Dalvik</b> compiled bytecode on the fly each time the app ran (<b>JIT</b>). Starting in Android 5.0 (Lollipop), <b>ART (Android Runtime)</b> uses `dex2oat` to compile `.dex` bytecode into native `.oat` machine binaries ahead of time (<b>AOT</b>, later blended with JIT profile-guided compilation in Android 7+), dramatically improving performance and creating `.oat`/`.odex`/`.vdex` artefacts on disk.</p>' },
+
+    { q: 'In Android 7.0+ "File-Based Encryption" (FBE / Direct Boot), internal `/data` storage is divided into two cryptographic zones: Device Encrypted (DE) storage and Credential Encrypted (CE) storage. What is the difference between DE and CE storage when a phone boots into BFU (Before First Unlock) state?',
+      o: ['Device Encrypted (DE) storage is decrypted immediately upon boot (allowing alarms, accessibility, and incoming phone rings to work in BFU), whereas Credential Encrypted (CE) storage (which holds user photos, SMS, WhatsApp, and contacts) remains locked until the user enters their passcode/pattern for the first time (AFU)',
+          'Credential Encrypted (CE) storage is always unencrypted, whereas DE requires a PUK code',
+          'Both DE and CE are completely wiped on every reboot',
+          'DE storage resides on the SIM card, whereas CE storage resides in the cloud'], a: 0,
+      e: '<p>Android\'s <b>Direct Boot</b> splits storage into:<br>• <b>DE (Device Encrypted):</b> protected only by hardware keys verified at boot — accessible in <b>BFU</b> so the alarm clock rings and emergency calls work after a night-time reboot.<br>• <b>CE (Credential Encrypted):</b> the default storage for 99% of user apps (`/data/user/0/`), protected by the user\'s lockscreen credential — accessible <b>only after transition to AFU</b>!</p>' },
+
+    { q: 'Why was the `checkm8` ("checkmate") exploit discovered in 2019 for Apple A5 through A11 iPhones (iPhone 4s to iPhone X) considered a permanent, unpatchable hardware milestone for iOS forensics?',
+      o: ['Because the vulnerability resides in Apple\'s read-only hardware BootROM (`SecureROM`) executed during DFU mode, which is burned into silicon at manufacture and cannot be patched by any iOS software update',
+          'Because Apple voluntarily disabled encryption on all iPhones after 2019',
+          'Because it works over SMS without touching the phone',
+          'Because it resets the IMEI to all zeros'], a: 0,
+      e: '<p>`checkm8` is a use-after-free vulnerability in the USB DFU stack of Apple\'s first-stage <b>BootROM (`SecureROM`)</b> on A5–A11 SoCs. Because `SecureROM` is etched permanently into read-only mask ROM inside the processor silicon, Apple could only fix it by manufacturing new silicon (A12 and later), allowing forensic tools to boot a RAM disk in DFU mode on iPhone 5s–X across all iOS versions.</p>' },
+
+    { q: 'What is "ISP" (In-System Programming, also called "Direct eMMC / UFS Tap") in advanced mobile hardware forensics, and why is it preferred over traditional Chip-Off when applicable?',
+      o: ['ISP solders micro-jumper wires directly to the eMMC/UFS storage chip\'s PCB signal lines (CLK, CMD, DAT0, VCC, VCCQ, GND) to read the raw flash memory directly into a flash reader WITHOUT heating or desoldering the storage chip from the phone\'s motherboard',
+          'ISP requests the user\'s browsing history from their Internet Service Provider',
+          'ISP melts the motherboard in an acid bath to extract the SIM card',
+          'ISP is a cloud backup protocol for iCloud'], a: 0,
+      e: '<p>Unlike JTAG (which talks through the CPU\'s debug port) and unlike Chip-Off (which applies $300^\\circ\\text{C}+$ hot air to desolder the BGA flash chip, risking thermal damage), <b>ISP (In-System Programming)</b> taps directly into the eMMC/UFS data bus traces (`CMD, CLK, DAT0`) on the board while keeping the chip soldered in place.</p>' },
+
+    { q: 'When analysing Telecom Operator Call Detail Records (CDRs) in a mobile crime investigation, what does the "CGI" (Cell Global Identity) column `404-10-4021-18492` tell the investigator?',
+      o: ['The exact cellular base-station sector antenna (MCC = 404 India, MNC = 10 Operator, LAC/TAC = 4021 Location Area Code, CI = 18492 Cell Tower Sector ID) that served the handset at the start/end of the call or SMS',
+          'The GPS coordinates of the suspect accurate to 1 millimetre',
+          'The audio recording of the phone conversation',
+          'The suspect\'s bank account PIN'], a: 0,
+      e: '<p>A telecom <b>CDR (Call Detail Record)</b> logs metadata (never voice audio!) for every call and SMS: Calling Number (A-party), Called Number (B-party), Date, Start Time, Duration, <b>IMEI</b> of handset, <b>IMSI</b> of SIM, and the <b>First/Last CGI (Cell Global Identity = MCC + MNC + LAC + Cell ID)</b>. Mapping the Cell ID against the operator\'s Tower Location Mast Directory places the handset within the coverage sector ($60^\\circ / 120^\\circ$ azimuth) of that specific cell tower.</p>' },
+
+    { q: 'In Android forensics, if a suspect cleared their call log and uninstalled an incriminating app right before seizure, which system directory (accessible in Full File System extractions at `/data/system/usagestats/`) still records exact timestamps of when every app package was moved to the foreground or background?',
+      o: ['Android UsageStats (`/data/system/usagestats/` or `adb shell dumpsys usagestats`)',
+          '`/sdcard/DCIM/Camera/`',
+          '`EF_ICCID` on the SIM card',
+          '`/proc/cpuinfo`'], a: 0,
+      e: '<p>Android\'s <b>`UsageStatsManager` (`/data/system/usagestats/`)</b> is the Android counterpart to iOS\'s `knowledgeC.db`: it maintains daily, weekly, monthly, and yearly binary/XML logs of every application package\'s `MOVE_TO_FOREGROUND` and `MOVE_TO_BACKGROUND` events, surviving even after the user uninstalls the app!</p>' },
+
+    { q: 'Under the Indian Telecommunications Act, 2023, tampering with, altering, or reprogramming a mobile handset\'s 15-digit IMEI number is classified as:',
+      o: ['A serious cognizable, non-bailable criminal offence punishable with up to 3 years imprisonment and/or fine up to ₹50 lakh',
+          'A legal software customisation allowed for privacy',
+          'A minor traffic violation with a ₹100 fine',
+          'Permitted whenever a phone is rooted'], a: 0,
+      e: '<p>Under Section 42(3)(c) &amp; (f) of the <b>Telecommunications Act, 2023</b> (building on Section 65 of the IT Act, 2000), knowingly tampering with telecommunication identifiers such as the <b>IMEI</b> — or possessing equipment that spoofs/flashes IMEIs — is a stringent cognizable offence punishable with imprisonment up to <b>3 years, a fine up to ₹50 lakh, or both</b>.</p>' }
   ]
 });

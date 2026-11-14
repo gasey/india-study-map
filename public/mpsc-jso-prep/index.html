@@ -3,36 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MPSC JSO (Cyber Forensic) — Prep</title>
-<link rel="stylesheet" href="css/app.css">
+<title>MPSC JSO (Cyber Forensic) — Visual Concept &amp; Practice Workbench</title>
+<link rel="stylesheet" href="css/app.css?v=4">
 </head>
 <body>
 
 <header class="topbar">
+  <button class="icon-btn mobile-menu-btn" id="sidebar-toggle" title="Toggle topic list" aria-label="Toggle topic list">☰ Topics</button>
   <div class="brand">
-    <strong>MPSC JSO</strong><span class="sub">Cyber Forensic &middot; Adv. 18 of 2026-27</span>
+    <span class="brand-badge">🕵️ JSO</span>
+    <strong>MPSC Cyber Forensic</strong>
+    <span class="sub">Junior Scientific Officer &middot; Adv. 18 of 2026-27</span>
   </div>
-  <nav class="modes">
-    <button class="mode-btn is-active" data-mode="browse">Browse</button>
-    <button class="mode-btn" data-mode="test">Test</button>
-    <button class="mode-btn" data-mode="plan">Exam Plan</button>
-    <a class="mode-btn guide-link" href="maths-focus-guide.html">Maths guide</a>
-    <a class="mode-btn guide-link" href="science-study-guide.html">Science guide</a>
-    <a class="mode-btn guide-link" href="../mpsc-jso-p4-bank/index.html">Paper IV bank</a>
+  <nav class="modes" aria-label="Module views">
+    <button class="mode-btn is-active" data-mode="browse">📖 Study &amp; Practice</button>
+    <button class="mode-btn" data-mode="cheatsheet">⚡ Visual Lab &amp; Cheat Sheets</button>
+    <button class="mode-btn" data-mode="test">🧪 Custom Test</button>
+    <button class="mode-btn" data-mode="review">⭐ Saved &amp; Weak <span id="review-badge" class="nav-pill hidden">0</span></button>
+    <button class="mode-btn" data-mode="plan">🗺️ Exam Plan</button>
+    <a class="mode-btn guide-link" href="maths-focus-guide.html">📐 Maths</a>
+    <a class="mode-btn guide-link" href="science-study-guide.html">🔬 Science</a>
+    <a class="mode-btn guide-link" href="../mpsc-jso-p4-bank/index.html">🗄️ P4 Real Bank</a>
   </nav>
-  <div class="countdown" id="countdown"></div>
+  <div class="topbar-right">
+    <div class="countdown" id="countdown"></div>
+    <button class="icon-btn" id="theme-toggle" title="Switch light / dark theme" aria-label="Switch theme">🌓</button>
+  </div>
 </header>
 
 <main>
-  <!-- ================= BROWSE ================= -->
+  <!-- ================= BROWSE / STUDY ================= -->
   <section id="view-browse" class="view is-active">
-    <aside class="sidebar">
-      <input type="search" id="unit-filter" placeholder="Filter topics…" autocomplete="off">
-      <div id="unit-tree"></div>
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <div class="search-wrap">
+          <input type="search" id="unit-filter" placeholder="Search topics, concepts, or MCQs…" autocomplete="off">
+        </div>
+        <div class="paper-pills" id="paper-pills">
+          <button class="p-pill is-active" data-paper="all">All</button>
+          <button class="p-pill" data-paper="Paper IV">🕵️ Paper IV Cyber</button>
+          <button class="p-pill" data-paper="Paper III — General Forensic">🔍 P3 Forensic</button>
+          <button class="p-pill" data-paper="Paper III —">⚛️ P3 Science</button>
+          <button class="p-pill" data-paper="Paper II">🌏 P2 GK</button>
+          <button class="p-pill" data-paper="Paper I">🔤 P1 English</button>
+        </div>
+      </div>
+      <div id="unit-tree" class="unit-tree"></div>
     </aside>
     <article class="content" id="browse-content">
-      <div class="empty">Select a topic from the left.</div>
+      <div class="empty">Select a topic from the left to begin studying.</div>
     </article>
+  </section>
+
+  <!-- ================= VISUAL LAB & CHEAT SHEETS ================= -->
+  <section id="view-cheatsheet" class="view">
+    <article class="content wide-content" id="cheatsheet-content"></article>
   </section>
 
   <!-- ================= TEST ================= -->
@@ -40,22 +65,32 @@
     <div class="test-wrap">
 
       <div id="test-setup" class="card">
-        <h2>Build a test</h2>
-        <p class="muted">Questions are drawn from the units you select.</p>
+        <div class="test-setup-head">
+          <div>
+            <h2>Build a Custom Mock Test</h2>
+            <p class="muted">Draw randomised questions from any combination of syllabus units.</p>
+          </div>
+          <div class="quick-presets">
+            <button type="button" class="ghost sm" id="preset-p4">Paper IV Cyber (All 5 Units)</button>
+            <button type="button" class="ghost sm" id="preset-p3gf">Paper III General Forensic</button>
+            <button type="button" class="ghost sm" id="preset-all">Select All</button>
+            <button type="button" class="ghost sm" id="preset-none">Clear All</button>
+          </div>
+        </div>
 
-        <label class="fld">
-          <span>Units</span>
+        <div class="fld">
+          <span>Select Units</span>
           <div id="test-units" class="chk-grid"></div>
-        </label>
+        </div>
 
         <div class="fld-row">
           <label class="fld">
             <span>Number of questions</span>
-            <input type="number" id="test-count" value="20" min="1" max="200">
+            <input type="number" id="test-count" value="25" min="1" max="300">
           </label>
           <label class="fld">
             <span>Time limit (minutes, 0 = untimed)</span>
-            <input type="number" id="test-time" value="0" min="0" max="240">
+            <input type="number" id="test-time" value="30" min="0" max="240">
           </label>
         </div>
 
@@ -70,19 +105,20 @@
           </label>
         </div>
         <p class="note">
-          The syllabus states <em>&ldquo;MCQ with negative marking&rdquo;</em> for every objective paper but
-          <strong>does not publish the ratio</strong>. Past JSO papers carried 2 marks per question.
-          The defaults above assume 1/4 negative marking &mdash; adjust if MPSC announces otherwise.
+          The syllabus states <em>&ldquo;MCQ with negative marking&rdquo;</em> for every objective paper.
+          Past JSO papers carried 2 marks per question (100 questions = 200 marks on Papers III &amp; IV).
+          The defaults above assume 1/4 negative marking (&minus;0.5 per wrong answer).
         </p>
 
-        <button id="test-start" class="primary">Start test</button>
+        <button id="test-start" class="primary">🚀 Start Test</button>
       </div>
 
       <div id="test-run" class="hidden">
         <div class="test-hud">
           <span id="test-progress"></span>
           <span id="test-timer" class="timer"></span>
-          <button id="test-submit" class="primary sm">Submit</button>
+          <button id="test-abort" class="ghost sm">Cancel</button>
+          <button id="test-submit" class="primary sm">Submit Test</button>
         </div>
         <div id="test-questions"></div>
       </div>
@@ -91,35 +127,41 @@
     </div>
   </section>
 
+  <!-- ================= SAVED & WEAK REVIEW ================= -->
+  <section id="view-review" class="view">
+    <article class="content wide-content" id="review-content"></article>
+  </section>
+
   <!-- ================= PLAN ================= -->
   <section id="view-plan" class="view">
-    <article class="content plan" id="plan-content"></article>
+    <article class="content plan wide-content" id="plan-content"></article>
   </section>
 </main>
 
 <!-- Data files. Order does not matter; each pushes onto window.MPSC.units -->
-<script src="data/_schema.js"></script>
-<script src="data/p2gk-verified.js"></script>
-<script src="data/p2gk-mizoram.js"></script>
-<script src="data/p2-history-geography.js"></script>
-<script src="data/p2-polity-economy.js"></script>
-<script src="data/p2-environment-science.js"></script>
-<script src="data/p2-current-events.js"></script>
-<script src="data/p1-mcq-grammar.js"></script>
-<script src="data/p1-mcq-usage.js"></script>
-<script src="data/p1-mcq-sentence.js"></script>
-<script src="data/p1-descriptive.js"></script>
-<script src="data/p3gs-physics.js"></script>
-<script src="data/p3gs-chemistry.js"></script>
-<script src="data/p3gs-maths.js"></script>
-<script src="data/p3gf-a-chem-print-ballistics.js"></script>
-<script src="data/p3gf-b-docs-dna-tox.js"></script>
-<script src="data/p3gf-c-photo-cyber-scene-law.js"></script>
-<script src="data/p4u1-computer-fundamentals.js"></script>
-<script src="data/p4u2-dbms.js"></script>
-<script src="data/p4u3-digital-forensics.js"></script>
-<script src="data/p4u4-multimedia-forensics.js"></script>
-<script src="data/p4u5-mobile-forensics.js"></script>
-<script src="js/app.js?v=2"></script>
+<script src="data/_schema.js?v=4"></script>
+<script src="data/p4u1-computer-fundamentals.js?v=4"></script>
+<script src="data/p4u2-dbms.js?v=4"></script>
+<script src="data/p4u3-digital-forensics.js?v=4"></script>
+<script src="data/p4u4-multimedia-forensics.js?v=4"></script>
+<script src="data/p4u5-mobile-forensics.js?v=4"></script>
+<script src="data/p3gf-a-chem-print-ballistics.js?v=4"></script>
+<script src="data/p3gf-b-docs-dna-tox.js?v=4"></script>
+<script src="data/p3gf-c-photo-cyber-scene-law.js?v=4"></script>
+<script src="data/p3gs-physics.js?v=4"></script>
+<script src="data/p3gs-chemistry.js?v=4"></script>
+<script src="data/p3gs-maths.js?v=4"></script>
+<script src="data/p2gk-mizoram.js?v=4"></script>
+<script src="data/p2-history-geography.js?v=4"></script>
+<script src="data/p2-polity-economy.js?v=4"></script>
+<script src="data/p2-environment-science.js?v=4"></script>
+<script src="data/p2-current-events.js?v=4"></script>
+<script src="data/p2gk-verified.js?v=4"></script>
+<script src="data/p1-mcq-grammar.js?v=4"></script>
+<script src="data/p1-mcq-usage.js?v=4"></script>
+<script src="data/p1-mcq-sentence.js?v=4"></script>
+<script src="data/p1-english-verified.js?v=4"></script>
+<script src="data/p1-descriptive.js?v=4"></script>
+<script src="js/app.js?v=4"></script>
 </body>
 </html>

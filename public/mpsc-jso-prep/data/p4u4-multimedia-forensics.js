@@ -7,162 +7,125 @@ window.MPSC.units.push({
 
   notes: [
     {
-      h: 'Digitisation: sampling and quantisation',
-      b: '<p>Converting an analogue signal to digital involves two distinct steps, and the exam will test that you can separate them:</p>' +
+      h: 'Digitisation: sampling, quantisation, Nyquist & aliasing',
+      b: '<p>Converting a continuous real-world analogue signal (sound wave, light intensity) into a digital file requires two distinct, independent operations in an Analogue-to-Digital Converter (ADC):</p>' +
+         '<div class="diagram"><div class="diag-title">The Digitisation Pipeline: Continuous Analogue → Discrete Digital</div>' +
+         '<div class="flow-row">' +
+         '<div class="flow-step"><b>Analogue Signal $x(t)$</b><small>Continuous in time &amp; amplitude</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>Anti-Aliasing Low-Pass Filter</b><small>Strips frequencies above $f_s/2$</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>1. Sampling</b><small>Discretises TIME (or SPACE)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>2. Quantisation</b><small>Discretises AMPLITUDE into $2^b$ levels</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>Binary Encoding (PCM)</b><small>Bit stream</small></div>' +
+         '</div></div>' +
+         '<div class="analogy"><b>💡 Analogy — Tracing a Mountain Range on Graph Paper:</b> Imagine sketching a smooth mountain range onto grid paper. <b>Sampling</b> is how closely spaced your <em>vertical grid lines</em> are along the horizontal distance axis (horizontal resolution). <b>Quantisation</b> is how finely spaced your <em>horizontal altitude marks</em> are on the vertical axis (bit depth). If your vertical grid lines are too far apart (undersampling), a sharp narrow peak between two grid lines disappears completely or looks like a gentle hill (<b>aliasing</b>). If your horizontal altitude marks are only every 500 metres (low bit depth), smooth slopes turn into blocky staircase steps (<b>quantisation noise / posterisation / false contouring</b>)!</div>' +
          '<ul>' +
-         '<li><b>Sampling</b> discretises the signal in <em>time</em> (for audio) or <em>space</em> (for images). Governs resolution / sample rate.</li>' +
-         '<li><b>Quantisation</b> discretises the <em>amplitude</em> into a finite number of levels. Governs bit depth.</li>' +
+         '<li><b>Nyquist–Shannon Sampling Theorem:</b> To reconstruct a band-limited signal having maximum frequency $f_{\\max}$ without loss, the sampling rate $f_s$ must satisfy: $$f_s \\ge 2 \\cdot f_{\\max}$$ Here $2 f_{\\max}$ is the <b>Nyquist rate</b>, and $f_N = f_s / 2$ is the <b>Nyquist (folding) frequency</b>.</li>' +
+         '<li><b>Aliasing (Undersampling):</b> If a frequency component $f > f_s/2$ enters the sampler without first being blocked by an analogue <b>anti-aliasing low-pass filter</b>, it folds back across $f_s/2$ and masquerades irreversibly as a false lower alias frequency: $$f_{\\text{alias}} = |f - k \\cdot f_s| \\quad \\text{(chosen so } f_{\\text{alias}} \\le f_s/2\\text{)}$$ Visually, spatial aliasing appears as jagged staircase edges ("jaggies"), Moiré patterns on striped shirts, or the wagon-wheel effect in video where spokes appear to spin backward!</li>' +
+         '<li><b>Quantisation &amp; Dynamic Range (SQNR):</b> Quantising with $b$ bits per sample yields $L = 2^b$ discrete levels. Each additional bit doubles the amplitude resolution and improves the Signal-to-Quantisation-Noise Ratio (SQNR) by approximately <b>$6.02\\text{ dB}$ per bit</b>: $$\\text{SQNR}_{\\text{dB}} \\approx 6.02 \\cdot b + 1.76\\text{ dB}$$ (So 16-bit CD audio has $65,536$ levels and $\\approx 98\\text{ dB}$ dynamic range.)</li>' +
          '</ul>' +
-         '<p><b>Nyquist–Shannon sampling theorem:</b> a signal band-limited to <em>f<sub>max</sub></em> can be perfectly reconstructed if sampled at a rate <b>greater than 2·f<sub>max</sub></b>. Sampling below this causes <b>aliasing</b>, where high frequencies masquerade as false low ones.</p>' +
-         '<p>Worked consequence: human hearing extends to about 20 kHz, so audio CD sampling is 44.1 kHz — comfortably above 2 × 20 kHz. Telephone speech is band-limited to 4 kHz and sampled at 8 kHz.</p>' +
-         '<ul>' +
-         '<li>Quantisation with <em>n</em> bits gives <b>2<sup>n</sup> levels</b>. 8-bit = 256 grey levels; 24-bit colour = 8 bits each for R, G and B.</li>' +
-         '<li>Uncompressed size = samples × bit depth × channels. For an image: width × height × bit depth.</li>' +
-         '<li>Error introduced by rounding to the nearest level is <b>quantisation noise</b>.</li>' +
-         '</ul>'
+         '<div class="example"><b>🔬 Worked Numericals — Aliasing Frequency &amp; Uncompressed Media File Size:</b><br>' +
+         '<b>Problem 1 (Aliasing):</b> An audio recorder samples at $f_s = 8000\\text{ Hz}$ (Nyquist folding frequency $f_s/2 = 4000\\text{ Hz}$). If a pure $5500\\text{ Hz}$ whistle enters un-filtered, what frequency is heard in the recording?<br>' +
+         '• $f_{\\text{alias}} = |5500 - 8000| =$ <b>2500 Hz</b>! (Once recorded, no digital filter can undo this.)<br>' +
+         '<b>Problem 2 (Uncompressed Audio Size):</b> Calculate the size of a 1-minute (60 s) uncompressed stereo (2-channel) WAV file recorded at $44.1\\text{ kHz}$, 16-bit:<br>' +
+         '• $\\text{Bytes} = \\text{Sample Rate} \\times \\text{Bytes/Sample} \\times \\text{Channels} \\times \\text{Time} = 44,100 \\times 2\\text{ B} \\times 2 \\times 60\\text{ s} = 10,584,000\\text{ bytes} \\approx$ <b>10.09 MB</b>.<br>' +
+         '<b>Problem 3 (Uncompressed Image Size):</b> A $1920 \\times 1080$ Full-HD 24-bit RGB BMP image $= 1920 \\times 1080 \\times 3\\text{ bytes} = 6,220,800\\text{ bytes} \\approx$ <b>5.93 MB</b>.</div>'
     },
     {
       h: 'Image enhancement: spatial vs frequency domain',
-      b: '<p><b>Spatial domain</b> operates directly on pixel values, <em>g(x,y) = T[f(x,y)]</em>.</p>' +
-         '<ul>' +
-         '<li><b>Point operations:</b> negative, log transform, power-law (gamma) correction, contrast stretching, thresholding.</li>' +
-         '<li><b>Histogram equalisation</b> redistributes intensities to spread the histogram, improving global contrast.</li>' +
-         '<li><b>Spatial filters (masks/kernels):</b> <em>smoothing</em> — mean/averaging (blurs, reduces noise) and <b>median</b> (non-linear, excellent against salt-and-pepper noise while preserving edges); <em>sharpening</em> — Laplacian, unsharp masking, high-boost; <em>edge detection</em> — Sobel, Prewitt, Roberts (first derivative) and Canny (multi-stage, optimal).</li>' +
-         '</ul>' +
-         '<p><b>Frequency domain</b> transforms the image (usually by the Fourier transform), multiplies by a filter function, then transforms back.</p>' +
-         '<ul>' +
-         '<li><b>Low-pass</b> filters attenuate high frequencies → smoothing and blurring.</li>' +
-         '<li><b>High-pass</b> filters attenuate low frequencies → sharpening and edge emphasis.</li>' +
-         '<li><b>Band-reject / notch</b> filters remove periodic noise — the standard cure for repetitive interference patterns.</li>' +
-         '</ul>' +
-         '<p>Key idea: <b>edges and fine detail are high frequency; smooth regions are low frequency.</b> Nearly every frequency-domain question resolves from that one sentence.</p>' +
-         '<div class="tip"><b>Forensic caution.</b> Enhancement must be <em>reproducible and documented</em>. Work on a copy, record every operation, and never present an enhanced image as the original. Enhancement clarifies what is present; it must not add what was not.</div>'
-    },
-    {
-      h: 'Fourier analysis and the FFT',
-      b: '<p>The <b>Fourier transform</b> decomposes a signal into constituent sinusoids, converting a <em>time-domain</em> representation (amplitude vs time) into a <em>frequency-domain</em> one (magnitude vs frequency).</p>' +
-         '<ul>' +
-         '<li>The <b>DFT</b> is the discrete version; computed naively it costs <b>O(N²)</b>.</li>' +
-         '<li>The <b>FFT</b> is an algorithm — not a different transform — that computes the same DFT in <b>O(N log N)</b>. The Cooley–Tukey formulation is the classic.</li>' +
-         '<li>A <b>spectrogram</b> shows frequency against time with intensity as magnitude, obtained via the short-time Fourier transform. It is the workhorse display of audio forensics.</li>' +
-         '</ul>' +
-         '<p>Understand the trade-off: a long analysis window gives good frequency resolution but poor time resolution, and vice versa. You cannot have both — a direct consequence of the uncertainty principle.</p>'
-    },
-    {
-      h: 'Source camera identification',
-      b: '<p>Methods, roughly in ascending order of forensic strength:</p>' +
-         '<ol>' +
-         '<li><b>Metadata (EXIF)</b> — make, model, serial, lens, timestamp, GPS. Easy to read but trivially editable, so it is an investigative lead, not proof.</li>' +
-         '<li><b>File structure</b> — JPEG quantisation tables, Huffman tables and thumbnail structure vary by manufacturer and model.</li>' +
-         '<li><b>CFA / demosaicing artefacts</b> — sensors use a colour filter array (usually a <b>Bayer</b> pattern); the interpolation algorithm leaves manufacturer-specific traces.</li>' +
-         '<li><b>Lens aberration</b> — radial distortion and chromatic aberration characteristic of the optics.</li>' +
-         '<li><b>PRNU (Photo-Response Non-Uniformity)</b> — the strongest method. Minute manufacturing variations make each sensor pixel respond slightly differently to identical light. This pattern is stable, survives compression, and functions as a <b>sensor fingerprint</b> capable of identifying an individual camera, not merely a model.</li>' +
-         '</ol>'
-    },
-    {
-      h: 'Detecting image and video tampering',
-      b: '<p>Tampering types: <b>copy-move</b> (cloning a region within the same image, typically to conceal something), <b>splicing</b> (compositing from a different image), <b>retouching/morphing</b>, and for video, <b>frame insertion, deletion or duplication</b>.</p>' +
-         '<p>Detection approaches:</p>' +
-         '<ul>' +
-         '<li><b>Error Level Analysis (ELA)</b> — resave at known quality and compare; regions edited and resaved compress differently.</li>' +
-         '<li><b>Double JPEG compression</b> — a manipulated-and-resaved image shows periodic artefacts in its DCT coefficient histograms.</li>' +
-         '<li><b>PRNU inconsistency</b> — a spliced region carries the wrong sensor fingerprint, or none.</li>' +
-         '<li><b>Lighting and shadow inconsistency</b>, and inconsistent vanishing points in the geometry.</li>' +
-         '<li><b>Block artefact grid misalignment</b> — pasted content rarely aligns to the host\'s 8×8 JPEG grid.</li>' +
-         '<li><b>Copy-move detection</b> by block matching or SIFT keypoint matching, which finds near-duplicate regions.</li>' +
-         '</ul>' +
-         '<p>Note that JPEG uses the <b>Discrete Cosine Transform</b> on 8×8 blocks and is <b>lossy</b>; PNG and GIF are lossless. Excessive compression produces visible <em>blocking</em>, and sharp edges show <em>ringing</em> (Gibbs) artefacts.</p>'
-    },
-    {
-      h: 'Audio forensics',
-      b: '<p><b>Acoustic parameters:</b> frequency (perceived as pitch, in Hz), amplitude (perceived as loudness, in dB), timbre (spectral shape), and the speech-specific <b>fundamental frequency F0</b> plus <b>formants</b> (resonances of the vocal tract, F1/F2/F3, which determine vowel identity).</p>' +
-         '<p>Typical F0: adult male ≈ 85–180 Hz, adult female ≈ 165–255 Hz. The decibel is logarithmic — <b>+6 dB is roughly double the amplitude</b>, +10 dB is perceived as about twice as loud.</p>' +
-         '<p><b>Authentication techniques:</b></p>' +
-         '<ul>' +
-         '<li><b>ENF (Electrical Network Frequency) analysis</b> — mains hum at 50 Hz in India (60 Hz in North America) is captured by recording equipment and fluctuates minutely over time in a pattern unique to that moment on the grid. Matching the embedded ENF trace against grid records can date a recording and expose edits as discontinuities. This is the single most powerful audio authentication method.</li>' +
-         '<li><b>Butt splice detection</b> — abrupt discontinuities in waveform, spectrum or background noise floor.</li>' +
-         '<li><b>Background noise consistency</b> and reverberation profile across the recording.</li>' +
-         '<li><b>Compression history</b> — traces of prior lossy encoding in a supposedly original file.</li>' +
-         '</ul>' +
-         '<p><b>Enhancement:</b> spectral subtraction and adaptive filtering for noise reduction, band-pass filtering to isolate speech, notch filtering to remove tonal hum, and dereverberation. As with images, enhancement must be documented and never overwrite the original.</p>'
-    },
-    {
-      h: 'Colour spaces and chroma subsampling',
-      b: '<p><b>RGB</b> is an additive colour space (red, green, blue channels of equal resolution and importance) used for capture and display. Compression, however, almost always converts to <b>YCbCr</b>: a <b>luma</b> channel Y (brightness) plus two <b>chroma</b> channels Cb and Cr (colour difference).</p>' +
-         '<p>The reason: the human visual system is far more sensitive to changes in brightness than in colour. Once brightness and colour are separated, chroma can be sampled at reduced resolution with little visible loss — this is <b>chroma subsampling</b>.</p>' +
-         '<table><tr><th>Notation</th><th>Meaning</th><th>Typical use</th></tr>' +
-         '<tr><td>4:4:4</td><td>No subsampling — chroma at full resolution</td><td>High-end video mastering</td></tr>' +
-         '<tr><td>4:2:2</td><td>Chroma halved horizontally only</td><td>Broadcast video</td></tr>' +
-         '<tr><td>4:2:0</td><td>Chroma halved both horizontally and vertically (quarter resolution)</td><td>JPEG, most consumer video (H.264/HEVC)</td></tr></table>' +
-         '<div class="tip"><b>Exam trap.</b> Subsampling reduces <em>colour</em> resolution, not brightness/luma resolution and not bit depth. It is a resolution trick applied after the RGB→YCbCr conversion, distinct from quantisation (which reduces the number of amplitude/intensity levels) and from lossy DCT quantisation (which discards high-frequency coefficients).</div>'
-    },
-    {
-      h: 'Image and video file formats and compression',
-      b: '<p><b>Lossless</b> formats reconstruct the original data exactly: <b>PNG</b> (DEFLATE, supports transparency), <b>GIF</b> (256-colour indexed palette, LZW compression, supports simple animation), <b>BMP</b> (typically uncompressed) and <b>TIFF</b> (often uncompressed or lossless LZW — the archival choice in forensic labs since repeated re-saves cause no generational loss).</p>' +
-         '<p><b>Lossy</b> compression discards information judged perceptually unimportant: baseline <b>JPEG</b> (DCT on 8×8 blocks + quantisation, described in the tampering note) and <b>JPEG 2000</b> (wavelet-based, better quality at low bitrates, no 8×8 blocking).</p>' +
-         '<p>For video, distinguish the <b>container</b> — the wrapper file format bundling video, audio, subtitle and metadata streams (MP4, AVI, MKV, MOV) — from the <b>codec</b>, the algorithm that actually encodes/decodes each stream (H.264/AVC, H.265/HEVC, MPEG-4, VP9). The same container can carry streams from different codecs, and a file can be re-wrapped into a new container without touching codec-level compression.</p>' +
-         '<p>Video codecs exploit temporal redundancy via a <b>Group of Pictures (GOP)</b>: <b>I-frames</b> (intra-coded, independently decodable, like a standalone still image), <b>P-frames</b> (predicted from a prior frame) and <b>B-frames</b> (predicted from both prior and future frames). P/B-frames are much smaller but cannot stand alone — which is exactly why frame insertion, deletion or duplication disrupts the GOP structure and leaves detectable motion-vector and re-encoding artefacts near the edit point.</p>'
-    },
-    {
-      h: 'EXIF and embedded metadata forensics',
-      b: '<p><b>EXIF (Exchangeable Image File Format)</b> data embedded in JPEG/TIFF files typically records camera make and model, lens, exposure settings, orientation, a <b>DateTimeOriginal</b> timestamp, GPS coordinates (if location services were enabled), and a <b>Software</b> tag.</p>' +
-         '<ul>' +
-         '<li>The <b>Software</b> tag is often overwritten by editing applications (Photoshop, GIMP, etc.) when a file is re-saved — a useful lead that a "camera original" has actually been processed.</li>' +
-         '<li>Many cameras embed a small <b>thumbnail</b> inside the EXIF block. If the thumbnail and the full-resolution image show different content, the file has almost certainly been edited after the thumbnail was generated — a classic "thumbnail mismatch" giveaway.</li>' +
-         '<li>Tools such as <b>ExifTool</b> read and can also strip or forge EXIF fields, so metadata is corroborating evidence, never standalone proof.</li>' +
-         '</ul>' +
-         '<div class="tip"><b>Exam trap.</b> A missing EXIF block is <em>not</em> itself evidence of tampering — social media platforms and messaging apps (WhatsApp, Instagram, etc.) routinely strip metadata on upload as standard practice. Absence of metadata must never be read as proof of manipulation; fall back on PRNU, file-structure and compression-history analysis instead.</div>'
-    },
-    {
-      h: 'Video-specific tampering and authentication',
-      b: '<p>Beyond frame-level insertion/deletion/duplication (covered under GOP structure), video carries its own authentication cues:</p>' +
-         '<ul>' +
-         '<li><b>Interlacing artefacts ("combing")</b> — interlaced capture records alternating odd/even scan-line fields at slightly different instants; combining them into one frame during motion produces jagged, comb-like edges. Recognising this rules out confusing it with compression or subsampling defects.</li>' +
-         '<li><b>Double compression / re-encoding artefacts</b> — a video that has been edited and re-exported shows periodicities in macroblock statistics and GOP length, the video analogue of double-JPEG DCT-histogram analysis for stills.</li>' +
-         '<li><b>Container-level metadata inconsistency</b> — creation vs modification timestamps, encoder tags and embedded GPS/device info in the container can conflict with the codec-level encoding history if the file has been re-wrapped or partially re-encoded.</li>' +
-         '<li><b>PRNU for video</b> — the same sensor-fingerprint technique used for still images applies frame-by-frame to video and can both identify the source camera and flag frames whose fingerprint is missing or inconsistent (evidence of splicing or frame substitution).</li>' +
-         '</ul>' +
-         '<p>Enhancement of video follows the same still-image principles (documented, reversible, on a working copy) plus temporal techniques: frame averaging/stacking to reduce noise, motion-compensated deinterlacing, and stabilisation — none of which may alter evidentiary content.</p>'
-    },
-    {
-      h: 'Acoustic parameters of sound: the basis of speaker comparison',
-      b: '<p>A named syllabus topic in its own right. These are the physical parameters an examiner measures when comparing a questioned voice recording against a known-suspect sample:</p>' +
-         '<table><tr><th>Parameter</th><th>What it is</th><th>Perceived as</th></tr>' +
-         '<tr><td>Frequency</td><td>Number of vibration cycles per second (Hz) of a sound wave</td><td>Pitch</td></tr>' +
-         '<tr><td>Amplitude / intensity</td><td>Magnitude of pressure variation, measured in dB (logarithmic scale)</td><td>Loudness</td></tr>' +
-         '<tr><td>Fundamental frequency (F0)</td><td>Rate of vocal-fold vibration during voiced speech</td><td>Perceived pitch of the voice</td></tr>' +
-         '<tr><td>Formants (F1, F2, F3…)</td><td>Resonant frequencies of the vocal tract, shaped by tongue/jaw/lip position</td><td>Vowel quality / "who is speaking"</td></tr>' +
-         '<tr><td>Timbre</td><td>Overall spectral envelope / harmonic mix</td><td>Voice "colour" or quality</td></tr>' +
+      b: '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>Spatial Domain ($g(x,y) = T[f(x,y)]$)</h4><p>Manipulates the <b>pixel intensity matrix directly</b> via point operations (contrast stretching, gamma $s = c r^\\gamma$, histogram equalisation) or sliding a $3\\times 3$ / $5\\times 5$ convolution mask (kernel) across every pixel\'s neighbourhood.</p></div>' +
+         '<div class="vs-card"><h4>Frequency Domain ($G(u,v) = H(u,v) \\cdot F(u,v)$)</h4><p>Transforms the image via 2D DFT/FFT into spatial frequencies, multiplies by a filter transfer function $H(u,v)$, and applies the Inverse FFT. Remember: <b>Smooth flat background = Low Frequency; Sharp edges, text &amp; fine grain noise = High Frequency!</b></p></div>' +
+         '</div>' +
+         '<table>' +
+         '<tr><th>Filter / Operation</th><th>Domain &amp; Type</th><th>Forensic Use Case &amp; Behaviour</th></tr>' +
+         '<tr><td><b>Histogram Equalisation</b></td><td>Spatial (Point)</td><td>Spreads a narrow clustered intensity histogram across $0\\text{–}255$ using the Cumulative Distribution Function (CDF) to reveal detail in dark/overexposed CCTV frames.</td></tr>' +
+         '<tr><td><b>Mean (Box) / Gaussian Filter</b></td><td>Spatial (Linear Low-Pass)</td><td>Replaces centre pixel with average of neighbourhood; smooths Gaussian sensor noise but <b>blurs sharp edges</b>.</td></tr>' +
+         '<tr><td><b>Median Filter</b></td><td>Spatial (<b>Non-linear</b> Order-Statistic)</td><td>Sorts neighbourhood intensities and picks the middle value; <b>completely eliminates Salt-and-Pepper (impulse) noise while preserving sharp edges</b>!</td></tr>' +
+         '<tr><td><b>Sobel / Prewitt / Roberts</b></td><td>Spatial (1st-Derivative Gradient)</td><td>Computes first derivative $|\\nabla f|$; highlights prominent edges (e.g., vehicle licence plate boundaries).</td></tr>' +
+         '<tr><td><b>Laplacian / Unsharp Mask</b></td><td>Spatial (2nd-Derivative $\\nabla^2 f$)</td><td>Isotropic sharpening filter that accentuates fine edges and crisp text, though sensitive to noise.</td></tr>' +
+         '<tr><td><b>Canny Edge Detector</b></td><td>Spatial (Multi-stage optimal)</td><td>Gaussian smoothing $\\to$ gradient magnitude/angle $\\to$ non-maximum suppression $\\to$ double-threshold hysteresis.</td></tr>' +
+         '<tr><td><b>Band-Reject / Notch Filter</b></td><td>Frequency Domain</td><td>Surgically zeroes out specific frequency spikes to <b>remove periodic interference</b> (e.g., CCTV power-line hum bars or halftone scan patterns).</td></tr>' +
          '</table>' +
-         '<p>Typical adult F0: male ≈ 85–180 Hz, female ≈ 165–255 Hz. The decibel scale is logarithmic — <b>+6 dB ≈ double amplitude</b>.</p>' +
-         '<p><b>Why formants matter more than F0 for identification:</b> F0 is easy to measure but highly variable — it shifts with emotion, vocal effort, health and even deliberate disguise. <b>Formants</b>, by contrast, are governed by the relatively fixed geometry of an individual\'s vocal tract (length and shape of the throat, mouth and nasal cavities), making their trajectories a more stable — though still not infallible — discriminator in forensic speaker comparison. Forensic voice comparison combines multiple acoustic parameters with auditory-phonetic and linguistic analysis; it is treated as corroborative opinion evidence, never as a unique "voiceprint" match.</p>' +
-         '<div class="tip"><b>Exam trap.</b> Do not equate F0 with formants. F0 = rate of vocal-fold vibration (source); formants = vocal-tract resonances that filter that source and determine vowel identity. Confusing the two — or asserting F0 alone is a reliable identifier — is the classic wrong-option bait.</div>'
+         '<div class="example"><b>🔬 Worked Numerical — Why a $3\\times 3$ Median Filter Beats a Mean Filter on Impulse Noise:</b><br>' +
+         'Consider a uniform dark grey region of an image with pixel values around 50, corrupted at the centre by a single white "salt" noise spike of <b>255</b>:<br>' +
+         '$$\\begin{bmatrix} 50 & 52 & 48 \\\\ 50 & \\mathbf{255} & 50 \\\\ 49 & 51 & 50 \\end{bmatrix}$$' +
+         '• <b>$3\\times 3$ Mean (Averaging) Filter:</b> Sums all 9 pixels and divides by 9: $(50+52+48+50+255+50+49+51+50)/9 = 655 / 9 = \\mathbf{72.8 \\approx 73}$. The noise spike contaminates the output and blurs into neighbours!<br>' +
+         '• <b>$3\\times 3$ Median Filter:</b> Sorts the 9 values in ascending order: <code>[48, 49, 50, 50, <b>50</b>, 50, 51, 52, 255]</code> and picks the 5th (middle) value $= \\mathbf{50}$! The 255 impulse outlier is pushed to the extreme end of the sorted list and discarded completely!</div>' +
+         '<div class="tip"><b>⚠️ SWGDE / Forensic Enhancement Rule:</b> Never enhance the original evidence file! Always work on a verified hash-matched working copy, keep an exact repeatable audit log of every filter parameter applied (ACPO Principle 3), and present the original and enhanced exhibits side-by-side in court.</div>'
     },
     {
-      h: 'Frequency and time-domain representation of a speech signal',
-      b: '<p>A named syllabus topic distinct from the general Fourier/FFT note — here the focus is specifically on how a <b>speech signal</b> is displayed and why examiners prefer one view over the other.</p>' +
-         '<table><tr><th>Representation</th><th>Axes</th><th>Shows</th><th>Forensic use</th></tr>' +
-         '<tr><td><b>Waveform</b> (time domain)</td><td>Amplitude vs time</td><td>Loudness envelope, pauses, onsets/offsets, gross level changes</td><td>Quick scan for obvious level jumps or silence gaps; cannot show frequency content at all</td></tr>' +
-         '<tr><td><b>Spectrogram</b> (time-frequency domain)</td><td>Frequency vs time, intensity as colour/darkness</td><td>Formant bands, F0 harmonic striations, energy distribution over time</td><td>Formant analysis, phonetic comparison, detecting spectral discontinuities at a splice point</td></tr>' +
-         '</table>' +
-         '<p>The spectrogram is produced via the <b>short-time Fourier transform (STFT)</b> — the signal is sliced into short overlapping windows, each Fourier-transformed, and the results stacked side by side to show how the frequency content evolves over time. This is why it is described as a <em>time-frequency</em>, not purely frequency-domain, representation.</p>' +
-         '<p><b>Why spectrograms, not raw waveforms, for splice/edit detection:</b> a skilled edit can be level-matched so the waveform envelope looks continuous, hiding the join from a time-domain view. But a splice almost always joins two segments with different background noise spectra, reverberation, or a broken formant transition at the join instant — visible on a spectrogram as a spectral discontinuity even when the amplitude trace shows nothing unusual.</p>' +
-         '<div class="tip"><b>Exam trap.</b> "Time domain" and "waveform" are the same thing; "frequency domain" plotted against time (i.e. a spectrogram) is <em>not</em> a pure frequency-domain plot (which would be a single snapshot spectrum with no time axis) — it is a time-frequency representation. Questions sometimes call a spectrogram simply "frequency domain," which is loosely acceptable, but do not confuse it with a single static FFT plot.</div>'
-    },
-    {
-      h: 'Forensic authentication of digital image/video',
-      b: '<p>The syllabus lists this as a topic <em>separate</em> from "methods for tampering of digital image/video" (covered in the tampering-detection note above). The distinction matters:</p>' +
-         '<ul>' +
-         '<li><b>Tampering detection</b> is technique-level — it asks "was this specific manipulation (copy-move, splicing, frame deletion…) applied, and can I demonstrate it with ELA, PRNU inconsistency, double-compression analysis, etc.?"</li>' +
-         '<li><b>Authentication</b> is the broader, goal-level question — it asks "is this file a genuine, unaltered original that actually came from the claimed source device at the claimed time?" Tampering-detection techniques are the <em>toolbox</em> used to answer that broader question, not a substitute for it.</li>' +
+      h: 'Fourier analysis, DFT vs FFT & the STFT Time-Frequency trade-off',
+      b: '<ul>' +
+         '<li><b>Fourier Transform (FT / DFT):</b> states that any periodic or finite-duration time-domain signal $x(t)$ can be decomposed into a sum of sinusoids of different frequencies, amplitudes, and phases.</li>' +
+         '<li><b>DFT vs FFT Complexity:</b> Computing an $N$-point Discrete Fourier Transform (DFT) directly from its definition requires $N^2$ complex multiplications: <b>$O(N^2)$</b>. The <b>Fast Fourier Transform (FFT)</b> (Cooley–Tukey, 1965) is a divide-and-conquer algorithm that computes the <em>exact same mathematical result</em> in <b>$O(N \\log_2 N)$</b> operations! For $N = 1024$ ($2^{10}$), DFT takes $1,048,576$ operations while FFT takes only $10,240$ — a $100\\times$ speedup!</li>' +
+         '<li><b>Short-Time Fourier Transform (STFT) &amp; Gabor Uncertainty Principle:</b> A standard FFT over an entire 5-minute audio clip tells you <em>which</em> frequencies existed, but loses all information about <em>when</em> each word was spoken. The <b>STFT</b> slides a short window function (Hamming/Hann window of length $W$) along the signal to produce a 2D <b>Spectrogram</b>:</li>' +
          '</ul>' +
-         '<p>Authentication rests on two complementary pillars:</p>' +
-         '<table><tr><th>Pillar</th><th>Question answered</th><th>Typical techniques</th></tr>' +
-         '<tr><td><b>Source verification</b></td><td>Did this file actually originate from the claimed device?</td><td>PRNU sensor-fingerprint matching, file-structure/quantisation-table comparison, EXIF make/model consistency, CFA/demosaicing pattern</td></tr>' +
-         '<tr><td><b>Integrity verification</b></td><td>Has the file been altered since capture?</td><td>ELA, double-JPEG/double-compression analysis, PRNU-region inconsistency, container/codec metadata consistency, hash-value continuity since seizure (chain of custody)</td></tr>' +
+         '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>Wide-Band Spectrogram (Short Window, ~3–5 ms)</h4><p>• <b>Excellent Time Resolution</b> (sharp vertical glottal pulse striations), poor Frequency Resolution.<br>• Smeared horizontally across frequencies so individual harmonics merge into broad dark bands.<br>• <b>Forensic favourite for measuring vocal-tract Formant trajectories (F1, F2, F3)!</b></p></div>' +
+         '<div class="vs-card"><h4>Narrow-Band Spectrogram (Long Window, ~20–40 ms)</h4><p>• <b>Excellent Frequency Resolution</b> (resolves individual horizontal harmonic lines $F_0, 2F_0, 3F_0$ and 50 Hz ENF hum), poor Time Resolution.<br>• Smeared across rapid plosive consonants.<br>• <b>Forensic favourite for measuring exact pitch $F_0$ and 50 Hz ENF traces!</b></p></div>' +
+         '</div>'
+    },
+    {
+      h: 'Source camera identification (EXIF, Quantisation Tables, Bayer CFA, PRNU)',
+      b: '<p>When an investigator needs to prove which camera or smartphone captured a photograph (e.g., linking an anonymous ransom photo or CSAM image to a suspect\'s seized phone), five forensic layers are examined in increasing order of evidentiary strength:</p>' +
+         '<div class="stack-diagram">' +
+         '<div class="stack-layer"><b>Level 5 (Strongest — Individual Device Match): PRNU Sensor Fingerprint</b><span>Identifies the exact physical sensor chip (survives JPEG compression &amp; EXIF stripping!)</span></div>' +
+         '<div class="stack-layer"><b>Level 4 (Sensor Defect Match): Dead / Hot / Stuck Pixels</b><span>Fixed defective pixel coordinates shared across photos from the same camera</span></div>' +
+         '<div class="stack-layer"><b>Level 3 (Model/Pipeline Match): Bayer CFA Demosaicing &amp; Lens Aberration</b><span>Interpolation correlations from the RGGB (50% Green, 25% Red, 25% Blue) filter array</span></div>' +
+         '<div class="stack-layer"><b>Level 2 (Brand/Firmware Match): JPEG Quantisation &amp; Huffman Tables</b><span>Custom 8×8 DQT matrices hardcoded in camera firmware vs Photoshop/WhatsApp profiles</span></div>' +
+         '<div class="stack-layer"><b>Level 1 (Weakest — Easily Forged/Stripped): EXIF Metadata &amp; Thumbnail</b><span>Camera Make/Model, Serial, GPS, DateTimeOriginal, Software tag</span></div>' +
+         '</div>' +
+         '<div class="clarity"><b>⚡ Concept Clarity — Why Bayer CFA Has 50% Green Pixels (RGGB) &amp; How PRNU Works:</b><br>' +
+         '• <b>Bayer Colour Filter Array (CFA):</b> A raw CMOS/CCD photodiode only measures monochrome light intensity (brightness). To capture colour, a mosaic filter grid of $2\\times 2$ squares containing <b>1 Red, 2 Green, and 1 Blue (50% Green, 25% Red, 25% Blue)</b> sits over the pixels — twice as much Green because the human retina\'s M/L cones peak in green luminance sensitivity! The camera then interpolates ("<b>demosaics</b>") the missing two colours at every pixel.<br>' +
+         '• <b>PRNU (Photo-Response Non-Uniformity):</b> Tiny, unavoidable silicon wafer inhomogeneities during sensor fabrication cause individual pixels to generate fractionally more or less voltage under uniform light. By averaging the noise residuals of 20–50 reference photos from a suspect\'s camera to extract its Reference PRNU Pattern and correlating it with a questioned image, an examiner can link the image to that <b>exact individual physical camera</b> with false-alarm rates below $10^{-6}$, just like ballistic striations on a bullet!</div>'
+    },
+    {
+      h: 'Detecting image tampering & Forensic Authentication',
+      b: '<div class="vs-grid">' +
+         '<div class="vs-card"><h4>Copy-Move (Cloning) Forgery</h4><p>• Copies a region and pastes it <b>within the SAME image</b> (e.g., copying grass over a body, or duplicating a crowd).<br>• Because the cloned patch comes from the same photo, it shares the <b>same camera PRNU, global noise floor, and colour palette</b>.<br>• Detected by: <b>1. Block-based matching</b> (DCT/PCA on overlapping blocks) or <b>2. Keypoint-based matching (SIFT / SURF / ORB)</b>, which catches cloned regions even if rotated or rescaled!</p></div>' +
+         '<div class="vs-card"><h4>Image Splicing (Compositing)</h4><p>• Cuts an object from <b>Image A</b> and pastes it into <b>Image B</b>.<br>• Introduces mismatches between the host image and foreign patch.<br>• Detected by: <b>PRNU absence/mismatch</b> in the pasted zone, <b>CFA demosaicing disruption</b>, <b>8×8 JPEG Block Artifact Grid (BAG) misalignment</b>, inconsistent <b>lighting/specular highlights/shadow geometry</b>, and <b>Error Level Analysis (ELA)</b>.</p></div>' +
+         '</div>' +
+         '<div class="example"><b>🔬 Forensic Case Walkthrough — Authenticating a Questioned JPEG in 4 Steps:</b><br>' +
+         'A suspect submits `alibi.jpg` claiming he took it straight on his iPhone 15 at 14:00.<br>' +
+         '1. <b>EXIF &amp; Thumbnail Check (`ExifTool`):</b> The EXIF `DateTimeOriginal` says 14:00, but the `Software` tag reads `Adobe Photoshop 2024`, and the embedded <b>EXIF Thumbnail (`FF D8 ... FF D9` inside the APP1 segment)</b> still shows the original unedited license plate before the suspect blurred it! (Classic <b>EXIF Thumbnail Mismatch</b>.)<br>' +
+         '2. <b>Double JPEG Compression (DCT Histogram):</b> Baseline JPEG divides the image into $8\\times 8$ blocks, applies the <b>Discrete Cosine Transform (DCT)</b>, and divides by a Quantisation Table $Q_1$. When opened, edited, and re-saved at quality $Q_2$, the DCT coefficient histogram displays telltale <b>periodic missing-value comb peaks / valleys</b> (and Benford\'s Law violations).<br>' +
+         '3. <b>Error Level Analysis (ELA):</b> Re-saving the image at a known JPEG quality (e.g. 95%) and subtracting it from the questioned image shows the freshly pasted region glowing brightly at a higher compression error level than the twice-compressed background.<br>' +
+         '4. <b>PRNU Correlation:</b> Correlating against the suspect\'s iPhone reference PRNU shows strong positive correlation everywhere <em>except</em> a rectangular patch over the street sign where correlation drops to zero — proving local splicing!</div>'
+    },
+    {
+      h: 'Colour spaces (RGB vs YCbCr), Chroma Subsampling & Video GOP Forensics',
+      b: '<p><b>Why JPEG &amp; Video Codecs Convert RGB $\\to$ YCbCr:</b> Human vision has far higher spatial acuity for <b>luminance/brightness ($Y$, rod cells)</b> than for <b>chrominance/colour ($Cb$ blue-difference, $Cr$ red-difference, cone cells)</b>. Converting RGB into <b>YCbCr</b> decouples brightness from colour so encoders can keep $Y$ at 100% full resolution while downsampling $Cb$ and $Cr$ — <b>Chroma Subsampling ($J:a:b$ notation over a $4\\times 2$ pixel block)</b>:</p>' +
+         '<ul>' +
+         '<li><b><code>4:4:4</code>:</b> 4 Y, 4 Cb, 4 Cr samples per row — <b>no chroma subsampling</b> ($100\\%$ colour resolution; RAW/studio mastering).</li>' +
+         '<li><b><code>4:2:2</code>:</b> Chroma sampled at <b>half horizontal resolution</b>, full vertical resolution ($33\\%$ bandwidth saving; broadcast ProRes/SDI).</li>' +
+         '<li><b><code>4:2:0</code>:</b> Chroma sampled at <b>half horizontal AND half vertical resolution</b> (only 1 Cb and 1 Cr sample per $2\\times 2$ block of 4 Y pixels $\\Rightarrow 50\\%$ total data reduction; standard for JPEG, H.264/AVC, H.265/HEVC, MP4 consumer video).</li>' +
+         '</ul>' +
+         '<div class="diagram"><div class="diag-title">Video Group of Pictures (GOP) Structure &amp; Temporal Inter-Frame Prediction</div>' +
+         '<div class="flow-row">' +
+         '<div class="flow-step"><b>I-Frame (Intra)</b><small>Self-contained keyframe (standalone JPEG); starts GOP</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>B-Frame (Bi-dir)</b><small>Predicted from past I/P AND future P frame (smallest!)</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>P-Frame (Predicted)</b><small>Stores only motion vectors &amp; residual from prior I/P</small></div><span class="flow-arrow">→</span>' +
+         '<div class="flow-step"><b>Next I-Frame</b><small>Starts new GOP</small></div>' +
+         '</div></div>' +
+         '<ul>' +
+         '<li><b>Container vs Codec:</b> A <b>Container</b> (`.mp4`, `.mkv`, `.avi`, `.mov`) is the outer file box holding video, audio, subtitle, and metadata tracks. A <b>Codec</b> (`H.264/AVC`, `H.265/HEVC`, `VP9`, `AV1`, `AAC`) is the mathematical compression algorithm inside. Re-muxing changes the container without re-encoding the codec stream.</li>' +
+         '<li><b>How Video Frame Deletion / Insertion is Caught:</b> If a suspect deletes 30 frames (1 second) from a CCTV video and re-exports it, the fixed GOP rhythm (e.g., `I B B P B B P ...` every 15 frames) suffers a <b>GOP phase shift and prediction residual spike</b> every $N$ frames, proving temporal tampering!</li>' +
+         '</ul>'
+    },
+    {
+      h: 'Audio Forensics: Acoustic Parameters, Speech ($F_0$ vs Formants) & 50 Hz ENF Authentication',
+      b: '<table>' +
+         '<tr><th>Acoustic Parameter</th><th>Physical Cause (Source–Filter Model)</th><th>Perceptual / Forensic Role</th></tr>' +
+         '<tr><td><b>Fundamental Frequency ($F_0$)</b></td><td>Rate of opening/closing of the <b>vocal folds (glottis)</b> — the <em>Source</em></td><td>Perceived as voice <b>Pitch</b> (Adult Male: <b>85–180 Hz</b>; Adult Female: <b>165–255 Hz</b>; Children: ~300 Hz). Easily altered by emotion, illness, or disguise.</td></tr>' +
+         '<tr><td><b>Formants ($F_1, F_2, F_3, F_4$)</b></td><td>Resonant frequencies of the <b>supralaryngeal vocal tract</b> (throat, tongue, oral/nasal cavity) — the <em>Filter</em></td><td>Determine <b>vowel identity</b> and anatomical vocal-tract dimensions. Much harder to disguise than $F_0$; primary acoustic markers in forensic speaker comparison!</td></tr>' +
+         '<tr><td><b>Amplitude / Intensity</b></td><td>Sound pressure wave excursion (measured in logarithmic <b>decibels, dB</b>)</td><td>Perceived as <b>Loudness</b> ($+6\\text{ dB} = 2\\times$ voltage/pressure amplitude; $+3\\text{ dB} = 2\\times$ acoustic power; $+10\\text{ dB} \\approx 2\\times$ perceived loudness).</td></tr>' +
+         '<tr><td><b>Timbre (Spectral Envelope)</b></td><td>Relative distribution of overtones / harmonics ($2F_0, 3F_0, \\dots$)</td><td>Voice quality/colour; captured mathematically via <b>MFCCs (Mel-Frequency Cepstral Coefficients)</b> in automatic speaker recognition.</td></tr>' +
          '</table>' +
-         '<p>Both pillars are needed together: a file can carry the correct sensor fingerprint (right source) yet still have been locally edited after capture (failed integrity), or vice versa — an edited-looking file that in fact never came from the claimed camera at all.</p>' +
-         '<div class="tip"><b>Exam trap.</b> An option that describes ELA, double-JPEG analysis or PRNU-splice detection as "authentication" in isolation is describing only the integrity-verification half of the process, and one that only checks EXIF/make-model as "authentication" is describing only the source-verification half. True authentication is the combined source-plus-integrity workflow, of which tampering detection supplies the integrity evidence.</div>'
+         '<div class="example"><b>🔬 Forensic Audio Case Walkthrough — Catching a Forged Bribery Recording via 50 Hz ENF Analysis:</b><br>' +
+         '<b>What is ENF?</b> India\'s national power grid operates at a nominal <b>50 Hz AC</b> (North America uses 60 Hz) with harmonics at $100\\text{ Hz}, 150\\text{ Hz}, \\dots$. Because grid load fluctuates second-by-second across the entire interconnected grid, the instantaneous frequency wanders randomly around $50\\text{ Hz}$ (e.g., $49.962\\text{ Hz} \\to 50.018\\text{ Hz}$). Any mains-powered or nearby battery-powered microphone picks up this tiny electromagnetic/acoustic hum.<br>' +
+         '<b>How it solves two forensic questions at once:</b><br>' +
+         '1. <b>Timestamp Verification:</b> Extracting the $50\\text{ Hz}$ (or $100\\text{ Hz}$) trace via narrow-band STFT and cross-correlating it against a reference Power Grid ENF Database pins down the <b>exact date and minute the recording was made</b>!<br>' +
+         '2. <b>Splice / Edit Detection:</b> If a suspect deletes the word <em>"not"</em> from a sentence and carefully level-matches the waveform, the $50\\text{ Hz}$ ENF phase and frequency curve exhibits an <b>abrupt phase jump / frequency step discontinuity</b> at the exact millisecond of the cut!</div>'
     }
   ],
 
@@ -323,6 +286,129 @@ window.MPSC.units.push({
       o: ['Source verification uses PRNU/sensor-fingerprint matching and file-structure comparison; integrity verification uses ELA and double-compression analysis',
           'Source verification uses histogram equalisation; integrity verification uses chroma subsampling', 'Source verification uses ENF analysis; integrity verification uses EXIF GPS tags',
           'Both pillars rely solely on comparing file sizes'], a: 0,
-      e: '<p><b>Source verification</b> asks whether the file came from the claimed device, answered via PRNU sensor-fingerprint matching, file-structure/quantisation-table comparison and EXIF make/model consistency. <b>Integrity verification</b> asks whether the file has been altered since capture, answered via ELA, double-JPEG/double-compression analysis and PRNU-region inconsistency.</p><p>Histogram equalisation and chroma subsampling are enhancement/compression concepts, not authentication techniques, and ENF/EXIF-GPS are audio- and image-metadata tools respectively that do not map onto this source/integrity split as shown.</p>' }
+      e: '<p><b>Source verification</b> asks whether the file came from the claimed device, answered via PRNU sensor-fingerprint matching, file-structure/quantisation-table comparison and EXIF make/model consistency. <b>Integrity verification</b> asks whether the file has been altered since capture, answered via ELA, double-JPEG/double-compression analysis and PRNU-region inconsistency.</p><p>Histogram equalisation and chroma subsampling are enhancement/compression concepts, not authentication techniques, and ENF/EXIF-GPS are audio- and image-metadata tools respectively that do not map onto this source/integrity split as shown.</p>' },
+
+    { q: 'An analogue audio signal contains a 7 kHz pure tone, but is sampled at a sampling frequency of fs = 10 kHz without an anti-aliasing filter. What false (alias) frequency will appear in the reconstructed digital signal?',
+      o: ['3 kHz', '7 kHz', '5 kHz', '2 kHz'], a: 0,
+      e: '<p>Here the Nyquist folding frequency is $f_s / 2 = 10 / 2 = 5\\text{ kHz}$. Because $7\\text{ kHz} > 5\\text{ kHz}$, aliasing occurs and the tone folds across $5\\text{ kHz}$ to: $$f_{\\text{alias}} = |f_s - f| = |10\\text{ kHz} - 7\\text{ kHz}| = \\mathbf{3\\text{ kHz}}$$</p>' },
+
+    { q: 'In PCM audio digitisation, adding 1 extra bit to the quantisation bit depth increases the Signal-to-Quantisation-Noise Ratio (SQNR) / dynamic range by approximately:',
+      o: ['6 dB per bit (so 16-bit audio has ~96–98 dB dynamic range)',
+          '1 dB per bit',
+          '20 dB per bit',
+          '3 dB in total regardless of bit depth'], a: 0,
+      e: '<p>Each additional quantisation bit doubles the number of amplitude levels ($2^b$), cutting the RMS quantisation step error in half. Because $20 \\log_{10}(2) \\approx 6.02\\text{ dB}$, the theoretical SQNR of a $b$-bit ADC is $\\text{SQNR} \\approx 6.02 b + 1.76\\text{ dB}$ — roughly <b>6 dB per bit</b> ($\approx 98\\text{ dB}$ for 16-bit CD audio).</p>' },
+
+    { q: 'What is the uncompressed file size (in bytes) of a 10-second stereo (2-channel) digital audio clip sampled at 48,000 Hz with a 16-bit sample depth?',
+      o: ['1,920,000 bytes (approx. 1.83 MB)',
+          '960,000 bytes',
+          '15,360,000 bytes',
+          '480,000 bytes'], a: 0,
+      e: '<p>16 bits $= 2$ bytes per sample. Therefore: $$\\text{Size} = 48,000\\text{ samples/s} \\times 2\\text{ bytes/sample} \\times 2\\text{ channels} \\times 10\\text{ s} = \\mathbf{1,920,000\\text{ bytes}}$$ (Option b forgets to multiply by 2 channels for stereo; option c forgets to divide 16 bits by 8 to get bytes.)</p>' },
+
+    { q: 'Consider a 3×3 pixel neighbourhood in a noisy CCTV frame with intensities:\n[ 20, 22, 19 ]\n[ 21, 250, 20 ]\n[ 18, 23, 21 ]\nWhat value replaces the centre pixel (250) when a 3×3 Median Filter is applied, versus a 3×3 Mean (Averaging) Filter?',
+      o: ['Median filter gives 21; Mean filter gives 46',
+          'Median filter gives 250; Mean filter gives 21',
+          'Median filter gives 46; Mean filter gives 21',
+          'Both give 46'], a: 0,
+      e: '<p>• <b>Median Filter:</b> Sort the 9 values: <code>[18, 19, 20, 20, <b>21</b>, 21, 22, 23, 250]</code>. The 5th (middle) value is <b>21</b> — completely eliminating the 250 salt-noise impulse!<br>• <b>Mean Filter:</b> $(18+19+20+20+21+21+22+23+250) / 9 = 414 / 9 =$ <b>46</b> (which smears the noise spike across the pixel).</p>' },
+
+    { q: 'A CCTV video frame suffers from regular diagonal interference bars caused by 50 Hz AC power-line hum coupling into an analogue coax cable. Which filter is specifically designed to remove such repetitive periodic noise?',
+      o: ['A frequency-domain Notch (or Band-Reject) filter that attenuates the specific isolated frequency spikes corresponding to the periodic interference',
+          'A spatial 3×3 Laplacian sharpening filter',
+          'Global histogram equalisation',
+          'Sobel first-derivative edge detection'], a: 0,
+      e: '<p>Repetitive, spatially periodic interference across an entire image transforms into a pair of bright, isolated impulse spikes in the 2D Fourier spectrum. Zeroing out just those spikes with a <b>frequency-domain Notch filter</b> removes the hum bars across the entire image without blurring edges.</p>' },
+
+    { q: 'In a standard Bayer Colour Filter Array (CFA) used on single-sensor digital cameras, what is the proportion of Red, Green, and Blue filters in each 2×2 pixel mosaic, and why?',
+      o: ['50% Green, 25% Red, 25% Blue (RGGB) — because the human visual system\'s luminance sensitivity peaks in the green region of the spectrum',
+          '33.3% Red, 33.3% Green, 33.3% Blue',
+          '50% Red, 25% Green, 25% Blue',
+          '50% Blue, 25% Red, 25% Green'], a: 0,
+      e: '<p>Every $2\\times 2$ Bayer square contains <b>two Green filters, one Red filter, and one Blue filter (RGGB)</b>. Green is sampled at twice the density of Red or Blue to mimic the human retina\'s M/L cone luminance response, giving sharper perceived detail after demosaicing.</p>' },
+
+    { q: 'A suspect uses Photoshop to clone a patch of blue sky over a drone in a photograph and rotates/scales the cloned patch slightly before pasting. Which copy-move detection method is specifically resilient to rotation and scaling of the cloned region?',
+      o: ['Keypoint-based matching (such as SIFT or SURF feature descriptors)',
+          'Checking the file extension',
+          'Converting the image from RGB to greyscale',
+          'Reading the EXIF DateTimeOriginal field'], a: 0,
+      e: '<p>Traditional $8\\times 8$ block-matching copy-move detectors fail when the cloned patch is rotated or resized. <b>SIFT (Scale-Invariant Feature Transform)</b> and <b>SURF</b> extract local keypoints whose descriptor vectors are mathematically invariant to scale, rotation, and minor illumination changes, allowing them to pair up the source and cloned regions accurately.</p>' },
+
+    { q: 'During examination of a suspect\'s JPEG image, the analyst extracts the small preview image embedded inside the JPEG\'s EXIF APP1 metadata segment and discovers that the preview still shows a person who was cropped out of the main image. This forensic finding is known as:',
+      o: ['EXIF Thumbnail Mismatch (discrepancy between the original camera-generated EXIF thumbnail and the edited main image)',
+          'Chroma subsampling',
+          'Belady\'s anomaly',
+          'Nyquist aliasing'], a: 0,
+      e: '<p>When a digital camera captures a JPEG, it writes a miniature JPEG <b>thumbnail</b> (typically $160\\times 120$) inside the EXIF header. Many basic image editors update the main image canvas when cropping or painting over an object, but fail to regenerate the embedded EXIF thumbnail — leaving the unedited original scene preserved inside the file\'s header!</p>' },
+
+    { q: 'In Short-Time Fourier Transform (STFT) spectrogram analysis of speech, what is the fundamental trade-off between choosing a Wide-Band spectrogram (short time window ~4 ms) versus a Narrow-Band spectrogram (long time window ~30 ms)?',
+      o: ['Wide-band gives fine time resolution (good for tracking vocal-tract formants and glottal pulses), whereas Narrow-band gives fine frequency resolution (good for resolving individual F0 harmonics and 50 Hz ENF hum)',
+          'Wide-band gives fine frequency resolution, whereas Narrow-band gives fine time resolution',
+          'Both give identical time and frequency resolution',
+          'Narrow-band can only be computed on uncompressed BMP images'], a: 0,
+      e: '<p>By the <b>Gabor / Heisenberg Time-Frequency Uncertainty Principle</b> ($\\Delta t \\cdot \\Delta f \\ge \\frac{1}{4\\pi}$), a short analysis window (↓ $\\Delta t$) localises events sharply in time but widens the frequency bandwidth (↑ $\\Delta f$, <b>Wide-band</b> — ideal for formants). Conversely, a long window (↑ $\\Delta t$) narrows the frequency resolution (↓ $\\Delta f$, <b>Narrow-band</b> — ideal for individual harmonics and ENF traces).</p>' },
+
+    { q: 'When increasing sound pressure amplitude (voltage) by a factor of 2, by how many decibels (dB) does the signal level increase?',
+      o: ['Approximately +6 dB (since 20 × log10(2) ≈ 6.02 dB)',
+          'Approximately +1 dB',
+          'Approximately +20 dB',
+          'Approximately +60 dB'], a: 0,
+      e: '<p>For amplitude/voltage ratios, decibels are defined as $\\text{dB} = 20 \\log_{10}(A_2 / A_1)$. Doubling amplitude ($A_2 / A_1 = 2$) gives $20 \\log_{10}(2) \\approx$ <b>+6.02 dB</b> (whereas multiplying amplitude by 10 gives $+20\\text{ dB}$, and doubling acoustic power gives $10 \\log_{10}(2) \\approx +3\\text{ dB}$).</p>' },
+
+    { q: 'In Error Level Analysis (ELA) of a questioned JPEG image, why does a recently spliced or painted patch appear significantly brighter in the ELA residual map than the surrounding untouched camera background?',
+      o: ['Because the original camera background has already gone through one or more lossy JPEG DCT quantisation cycles and reached a stable low-error minimum, whereas the freshly inserted/edited patch is at its first compression cycle and loses much more high-frequency energy when re-saved at the test quality',
+          'Because ELA detects the GPS coordinates of the pasted pixels',
+          'Because pasted pixels always have a higher ISO setting',
+          'Because ELA converts the image into an audio waveform'], a: 0,
+      e: '<p>Each time an $8\\times 8$ JPEG block is compressed at a given quality level, its DCT coefficients settle closer to the quantisation grid. When an analyst re-saves the image at e.g. 95% quality and computes the absolute pixel difference, blocks that have already been compressed several times change very little (appearing dark in ELA), whereas a freshly pasted or airbrushed region undergoes its first lossy quantisation drop and lights up brightly.</p>' },
+
+    { q: 'How does JPEG 2000 (.jp2) differ fundamentally from baseline JPEG (.jpg) in its mathematical transform and visual compression artefacts at very low bitrates?',
+      o: ['JPEG 2000 uses the Discrete Wavelet Transform (DWT) on the whole image/tiles (producing smooth blurring rather than 8×8 blocking artefacts), whereas baseline JPEG uses the Discrete Cosine Transform (DCT) on 8×8 pixel blocks',
+          'JPEG 2000 uses 8×8 DCT blocks, whereas baseline JPEG uses wavelets',
+          'JPEG 2000 is restricted to 256-colour palettes like GIF',
+          'Baseline JPEG is always lossless, whereas JPEG 2000 is always lossy'], a: 0,
+      e: '<p>Baseline JPEG splits the image into independent $8\\times 8$ pixel blocks and applies the <b>DCT</b> — causing noticeable $8\\times 8$ <b>blocking artefacts</b> at high compression. <b>JPEG 2000</b> replaces the $8\\times 8$ DCT with the multi-resolution <b>Discrete Wavelet Transform (DWT)</b>, supporting both lossless and lossy compression in one bitstream and eliminating $8\\times 8$ block boundaries.</p>' },
+
+    { q: 'When a JPEG image is cropped by a few rows or columns (not a multiple of 8 pixels), edited, and re-saved as a JPEG, which forensic technique detects the resulting shift in the 8×8 pixel compression boundaries?',
+      o: ['Block Artifact Grid (BAG) / 8×8 JPEG blocking grid alignment analysis',
+          'Electrical Network Frequency (ENF) 50 Hz analysis',
+          'Formant F1/F2 vowel analysis',
+          'Chroma 4:4:4 upsampling'], a: 0,
+      e: '<p>Baseline JPEG always partitions an image into $8\\times 8$ blocks starting at the top-left corner $(0,0)$. If an image is spliced with a patch whose $8\\times 8$ grid does not line up with the host image\'s $8\\times 8$ grid (or if the image is cropped by e.g. 3 pixels and re-saved), <b>Block Artifact Grid (BAG)</b> extraction immediately highlights the out-of-phase $8\\times 8$ block boundaries.</p>' },
+
+    { q: 'In spatial-domain image enhancement, the Power-Law (Gamma) transformation is defined as s = c · r^γ. If a crime-scene CCTV frame captured at night is extremely dark and underexposed (washed out in the shadows), what value of γ (gamma) should the analyst choose to brighten the dark shadow details?',
+      o: ['A fractional gamma value γ < 1 (e.g., γ = 0.4), which maps a narrow range of dark input intensities into a wider range of brighter output levels',
+          'A large gamma value γ > 1 (e.g., γ = 2.5), which darkens the image further',
+          'γ = 0, which turns the entire image flat white',
+          'A negative gamma value γ = −10'], a: 0,
+      e: '<p>In $s = c \\cdot r^\\gamma$ (for normalised intensities $r \\in [0, 1]$):<ul><li><b>$\\gamma < 1$ (e.g. $0.4$, fractional power / nth root):</b> curves upward (like the log transform), expanding dark shadow levels into brighter values — ideal for underexposed night CCTV footage!</li><li><b>$\\gamma > 1$ (e.g. $2.5$):</b> curves downward, compressing darks and expanding bright highlights — used for overexposed washed-out daylight scenes.</li></ul></p>' },
+
+    { q: 'Which edge-detection algorithm is universally regarded as the "optimal" multi-stage edge detector, combining (1) Gaussian smoothing, (2) gradient magnitude & direction, (3) non-maximum suppression to thin edges to 1 pixel, and (4) double-threshold hysteresis tracking?',
+      o: ['Canny edge detector',
+          'Roberts cross operator',
+          'Mean box filter',
+          'Median filter'], a: 0,
+      e: '<p>John Canny\'s 1986 <b>Canny Edge Detector</b> satisfies three optimality criteria (low error rate, single-pixel edge localisation, and single response per edge) through its 4-step pipeline: Gaussian denoising $\\to$ Sobel gradient $\\to$ <b>non-maximum suppression</b> $\\to$ <b>hysteresis thresholding</b> (using high and low thresholds $T_H, T_L$).</p>' },
+
+    { q: 'In automatic and forensic speaker recognition, what do "MFCCs" stand for, and what physical aspect of the human speech apparatus do they model?',
+      o: ['Mel-Frequency Cepstral Coefficients — they model the short-term power spectrum (spectral envelope / vocal-tract filter shape) spaced on the perceptual Mel frequency scale of human hearing',
+          'Master File Compression Codes — used to compress MP3 files',
+          'Magnetic Flux Calibration Constants — used in tape recorders',
+          'Multi-Frame Chroma Channels — used in H.264 video'], a: 0,
+      e: '<p><b>MFCCs (Mel-Frequency Cepstral Coefficients)</b> are computed by taking the Fourier spectrum of a short speech frame, mapping the powers onto the <b>Mel scale</b> (which is linear below $1\\text{ kHz}$ and logarithmic above $1\\text{ kHz}$, matching the human cochlea), taking the logarithm, and applying the Discrete Cosine Transform (DCT). This separates the smooth <b>vocal-tract spectral envelope (formant filter)</b> from the glottal pitch source ($F_0$).</p>' },
+
+    { q: 'Which audio enhancement technique estimates the average noise power spectrum during silent/non-speech pauses of a recording and subtracts it from the noisy speech spectrum across the entire recording?',
+      o: ['Spectral Subtraction',
+          'Butt splicing',
+          'Chroma subsampling',
+          'Aliasing'], a: 0,
+      e: '<p><b>Spectral Subtraction</b> (Boll, 1979) is the classic stationary broadband noise-reduction method in forensic audio enhancement: the examiner profiles the noise floor $|N(\\omega)|^2$ during an interval where nobody is speaking (e.g., air-conditioner hum or tape hiss) and subtracts that spectral profile from each STFT frame $|Y(\\omega)|^2$ to recover cleaner speech $|\\hat{S}(\\omega)|^2$.</p>' },
+
+    { q: 'Why does India\'s Electrical Network Frequency (ENF) analysis look for a fundamental mains hum around 50 Hz (and harmonics at 100 Hz, 150 Hz), whereas ENF analysis on a recording made in the United States or Canada looks around 60 Hz?',
+      o: ['Because India\'s national AC electrical power grid operates at a nominal frequency of 50 Hz, whereas the North American power grid operates at 60 Hz',
+          'Because Indian microphones cannot record frequencies above 50 Hz',
+          'Because 50 Hz is the Nyquist rate of human speech',
+          'Because 50 Hz is the fundamental frequency of all adult female voices'], a: 0,
+      e: '<p>The nominal AC mains grid frequency is <b>50 Hz in India, Europe, UK, Australia, and most of Asia/Africa</b> (giving full-wave rectified harmonics at <b>100 Hz, 150 Hz, 200 Hz</b>), whereas <b>North America (USA, Canada) and parts of Japan/South America operate at 60 Hz</b> (harmonics at 120 Hz, 180 Hz). Merely observing whether an audio/video file carries a 50 Hz vs 60 Hz ENF hum can immediately expose a false claim about which continent the recording was made on!</p>' }
   ]
 });

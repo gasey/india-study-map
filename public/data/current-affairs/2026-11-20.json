@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-20",
+  "source": {
+    "title": "National & International — 2026-11-20",
+    "links": [
+      "https://www.deccanchronicle.com/southern-states/telangana/cantonment-residents-question-closure-of-roads-2006083",
+      "https://www.tribuneindia.com/news/haryana/haryana-government-gets-rs-7-3-cr-csr-boost-for-fight-against-tb",
+      "https://econotimes.com/Anthropic-Says-Model-Theft-Safeguards-Delayed-Frontier-Training-by-More-Than-a-Month-1779881",
+      "https://www.washingtontimes.com/news/2026/nov/19/judge-allows-trump-lawsuit-new-york-times-proceed/",
+      "https://www.tribuneindia.com/news/haryana/1182-units-collected-during-blood-donation-camp-at-radaur",
+      "https://www.thehindu.com/news/cities/chennai/demands-for-nulm-workers-job-permanency-continues/article71720743.ece",
+      "https://www.abnewswire.com/pressreleases/sliding-and-folding-door-systems-offer-different-solutions-for-various-openings_849176.html",
+      "https://www.france24.com/en/xi-trump-putin-trilateral-meeting-trump-s-recognition-of-china-and-russia-as-peers-of-the-us",
+      "https://www.newindianexpress.com/states/madhya-pradesh/2026/Nov/19/three-more-afghans-arrested-in-jabalpur-fake-passport-racket-accused-count-rises-to-14",
+      "https://economictimes.indiatimes.com/news/international/world-news/senate-republicans-block-latest-democratic-effort-to-end-the-war-in-iran/articleshow/136009158.cms"
+    ],
+    "publishedAt": "2026-11-20T07:40:17.392Z"
+  },
+  "summary": "In domestic developments, the Haryana Government secured corporate social responsibility (CSR) assistance totaling Rs 7.35 crore from NTPC and HUDCO to bolster tuberculosis detection and provide nutritional aid to 11,811 patients. In Tamil Nadu, municipal conservancy workers under the National Urban Livelihoods Mission (NULM) staged demonstrations in Chennai demanding job regularisation and an end to contractualisation. In internal security matters, the Madhya Pradesh Anti-Terrorism Squad (ATS) detained three additional Afghan nationals from Kolkata in connection with a Jabalpur-centered fake passport network.\n\nOn the international stage, analysts noted significant geopolitical shifts following discussions involving Donald Trump, Xi Jinping, and Vladimir Putin on the sidelines of the APEC summit, reflecting an emerging trilateral dynamic. In the United States, Senate Republicans blocked a Democratic resolution concerning military involvement regarding Iran, while a federal judge in Florida ruled that aspects of a $15 billion defamation claim filed by Donald Trump against The New York Times could proceed.\n\nIn science and technology, artificial intelligence firm Anthropic stated in regulatory filings that security measures against model theft delayed frontier model training by more than a month, highlighting operational trade-offs in frontier AI development. In public health events, a regional blood donation drive at JMIT Radaur in Haryana, supported by AIIMS New Delhi and PGI Chandigarh, yielded 1,182 units of blood.",
+  "keyFacts": [
+    "Haryana received Rs 7.35 crore in CSR funding from NTPC and HUDCO to support 11,811 TB patients and operate four mobile diagnostic vans.",
+    "Chennai conservancy workers engaged under the National Urban Livelihoods Mission (NULM) protested for service regularisation and the abolition of contract labour.",
+    "Madhya Pradesh ATS arrested three more Afghan nationals in Kolkata, taking the total accused in the Jabalpur fake passport racket to 14.",
+    "Anthropic reported that model-theft safeguards caused training delays exceeding one month for its frontier AI systems.",
+    "US Federal Judge Steven Merryday ruled that portions of Donald Trump's $15 billion defamation lawsuit against The New York Times may proceed.",
+    "1,182 blood units were collected during the 29th annual camp at JMIT Radaur, Yamunanagar, with technical assistance from AIIMS and PGI Chandigarh."
+  ],
+  "topics": [
+    "Governance",
+    "Public Health",
+    "Internal Security",
+    "International Relations",
+    "Science and Technology"
+  ],
+  "mcqs": [
+    {
+      "id": "2026-11-20-1",
+      "question": "Which public sector undertakings provided Corporate Social Responsibility (CSR) assistance totaling Rs 7.35 crore to the Haryana Government for tuberculosis care?",
+      "options": {
+        "a": "ONGC and BHEL",
+        "b": "NTPC and HUDCO",
+        "c": "IOCL and GAIL",
+        "d": "SAIL and PFC"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Haryana Government received Rs 7.35 crore in CSR assistance from NTPC and HUDCO. This funding is dedicated to enhancing tuberculosis detection and nutritional support.",
+      "difficulty": "easy",
+      "topic": "Domestic Affairs"
+    },
+    {
+      "id": "2026-11-20-2",
+      "question": "How many tuberculosis patients in Haryana are targeted to receive nutritional assistance through the recent CSR funding?",
+      "options": {
+        "a": "10,500",
+        "b": "11,811",
+        "c": "12,450",
+        "d": "15,000"
+      },
+      "correctAnswer": "b",
+      "explanation": "The CSR funding from NTPC and HUDCO aims to provide nutritional aid to 11,811 TB patients across Haryana. It will also help operate four mobile diagnostic vans.",
+      "difficulty": "medium",
+      "topic": "Domestic Affairs"
+    },
+    {
+      "id": "2026-11-20-3",
+      "question": "How many mobile diagnostic vans are slated to be operated in Haryana using the CSR aid provided for TB detection?",
+      "options": {
+        "a": "Two",
+        "b": "Four",
+        "c": "Six",
+        "d": "Eight"
+      },
+      "correctAnswer": "b",
+      "explanation": "The initiative includes the operation of four mobile diagnostic vans to boost tuberculosis detection in Haryana. This is supported by the Rs 7.35 crore CSR fund.",
+      "difficulty": "medium",
+      "topic": "Domestic Affairs"
+    },
+    {
+      "id": "2026-11-20-4",
+      "question": "Municipal conservancy workers in Chennai recently staged demonstrations demanding regularisation under which central scheme?",
+      "options": {
+        "a": "PM SVANidhi",
+        "b": "National Urban Livelihoods Mission (NULM)",
+        "c": "AMRUT",
+        "d": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana"
+      },
+      "correctAnswer": "b",
+      "explanation": "Conservancy workers engaged under the National Urban Livelihoods Mission (NULM) protested in Chennai. Their core demands included service regularisation and the abolition of contractual labour.",
+      "difficulty": "medium",
+      "topic": "Domestic Affairs"
+    },
+    {
+      "id": "2026-11-20-5",
+      "question": "What was the primary grievance driving the protests by conservancy workers in Chennai?",
+      "options": {
+        "a": "Demand for hike in travel allowances",
+        "b": "Service regularisation and end to contractualisation",
+        "c": "Reduction in statutory working hours",
+        "d": "Provision of free public transit passes"
+      },
+      "correctAnswer": "b",
+      "explanation": "The municipal workers demonstrated to demand job regularisation and the abolition of contract labour under NULM. They voiced concerns over the instability of contractual employment.",
+      "difficulty": "easy",
+      "topic": "Domestic Affairs"
+    },
+    {
+      "id": "2026-11-20-6",
+      "question": "Which state's Anti-Terrorism Squad (ATS) arrested Afghan nationals from Kolkata in connection with a fake passport network?",
+      "options": {
+        "a": "West Bengal ATS",
+        "b": "Maharashtra ATS",
+        "c": "Madhya Pradesh ATS",
+        "d": "Uttar Pradesh ATS"
+      },
+      "correctAnswer": "c",
+      "explanation": "The Madhya Pradesh Anti-Terrorism Squad (ATS) detained three Afghan nationals in Kolkata. The arrests were connected to a fake passport racket centered in Jabalpur.",
+      "difficulty": "easy",
+      "topic": "Internal Security"
+    },
+    {
+      "id": "2026-11-20-7",
+      "question": "The fake passport network recently probed by the Madhya Pradesh ATS was centered in which city?",
+      "options": {
+        "a": "Bhopal",
+        "b": "Gwalior",
+        "c": "Jabalpur",
+        "d": "Indore"
+      },
+      "correctAnswer": "c",
+      "explanation": "The MP ATS cracked down on a fake passport network centered in Jabalpur. Recent arrests in Kolkata were part of this ongoing investigation.",
+      "difficulty": "medium",
+      "topic": "Internal Security"
+    },
+    {
+      "id": "2026-11-20-8",
+      "question": "Following the arrest of three Afghan nationals in Kolkata, what is the total count of accused persons in the Jabalpur fake passport racket?",
+      "options": {
+        "a": "10",
+        "b": "12",
+        "c": "14",
+        "d": "16"
+      },
+      "correctAnswer": "c",
+      "explanation": "With the detention of three additional Afghan nationals from Kolkata, the total number of accused in the Jabalpur fake passport case rose to 14.",
+      "difficulty": "hard",
+      "topic": "Internal Security"
+    },
+    {
+      "id": "2026-11-20-9",
+      "question": "Diplomatic discussions highlighting an emerging trilateral dynamic among Donald Trump, Xi Jinping, and Vladimir Putin were observed on the sidelines of which summit?",
+      "options": {
+        "a": "G20 Summit",
+        "b": "APEC Summit",
+        "c": "BRICS Summit",
+        "d": "SCO Summit"
+      },
+      "correctAnswer": "b",
+      "explanation": "Analysts noted significant geopolitical shifts following trilateral interactions on the sidelines of the APEC summit. The discussions involved the leaders of the United States, China, and Russia.",
+      "difficulty": "medium",
+      "topic": "International Relations"
+    },
+    {
+      "id": "2026-11-20-10",
+      "question": "In the United States, Senate Republicans recently blocked a Democratic resolution concerning military involvement regarding which country?",
+      "options": {
+        "a": "Syria",
+        "b": "Yemen",
+        "c": "Iran",
+        "d": "Lebanon"
+      },
+      "correctAnswer": "c",
+      "explanation": "US Senate Republicans successfully blocked a resolution introduced by Democrats regarding military involvement with Iran.",
+      "difficulty": "easy",
+      "topic": "International Relations"
+    },
+    {
+      "id": "2026-11-20-11",
+      "question": "Portions of a $15 billion defamation lawsuit filed by Donald Trump were permitted to proceed against which news organisation?",
+      "options": {
+        "a": "The Washington Post",
+        "b": "The Wall Street Journal",
+        "c": "The New York Times",
+        "d": "CNN International"
+      },
+      "correctAnswer": "c",
+      "explanation": "Federal Judge Steven Merryday in Florida ruled that certain parts of Donald Trump's $15 billion defamation claim against The New York Times could proceed.",
+      "difficulty": "easy",
+      "topic": "International Relations"
+    },
+    {
+      "id": "2026-11-20-12",
+      "question": "Which artificial intelligence company disclosed that security safeguards against model theft delayed frontier AI training by over a month?",
+      "options": {
+        "a": "OpenAI",
+        "b": "Anthropic",
+        "c": "DeepMind",
+        "d": "Mistral AI"
+      },
+      "correctAnswer": "b",
+      "explanation": "Anthropic stated in regulatory filings that stringent security protections against model theft delayed its frontier model training by more than a month.",
+      "difficulty": "medium",
+      "topic": "Science & Technology"
+    },
+    {
+      "id": "2026-11-20-13",
+      "question": "According to Anthropic's regulatory filings, what primary operational challenge caused significant delays in frontier model training?",
+      "options": {
+        "a": "Severe GPU chip shortages",
+        "b": "Cooling infrastructure failures",
+        "c": "Security protocols against model theft",
+        "d": "Regulatory copyright compliance audits"
+      },
+      "correctAnswer": "c",
+      "explanation": "Anthropic highlighted that operational trade-offs, specifically security safeguards against model theft, delayed training by more than a month.",
+      "difficulty": "hard",
+      "topic": "Science & Technology"
+    },
+    {
+      "id": "2026-11-20-14",
+      "question": "How many units of blood were collected during the 29th annual blood donation camp organized at JMIT Radaur in Haryana?",
+      "options": {
+        "a": "950",
+        "b": "1,050",
+        "c": "1,182",
+        "d": "1,320"
+      },
+      "correctAnswer": "c",
+      "explanation": "A total of 1,182 blood units were collected during the 29th annual camp held at JMIT Radaur. The drive was supported by premier medical institutions.",
+      "difficulty": "hard",
+      "topic": "Public Health"
+    },
+    {
+      "id": "2026-11-20-15",
+      "question": "Which two premier medical institutes provided technical support to the large-scale blood donation drive held at JMIT Radaur, Yamunanagar?",
+      "options": {
+        "a": "AIIMS New Delhi and PGI Chandigarh",
+        "b": "JIPMER Puducherry and AIIMS Rishikesh",
+        "c": "PGI Chandigarh and CMC Vellore",
+        "d": "AIIMS New Delhi and King George's Medical University"
+      },
+      "correctAnswer": "a",
+      "explanation": "The blood donation drive at JMIT Radaur in Yamunanagar, Haryana, received technical assistance from AIIMS New Delhi and PGI Chandigarh.",
+      "difficulty": "medium",
+      "topic": "Public Health"
+    }
+  ]
+}

@@ -70,6 +70,9 @@ main{max-width:1060px;margin:0 auto;padding:1.2rem 1.1rem}
   border:1px solid var(--line);color:var(--muted);vertical-align:middle}
 .pill.u1{color:var(--accent);border-color:currentColor}
 .pill.u2{color:#7a3ea3;border-color:currentColor}
+.pill.u3{color:#b3541e;border-color:currentColor}
+.pill.u4{color:#2f6f9f;border-color:currentColor}
+.pill.u5{color:#2e7d4f;border-color:currentColor}
 .pill.high{color:var(--ok);border-color:currentColor}
 .pill.medium{color:var(--warn);border-color:currentColor}
 .pill.low{color:var(--bad);border-color:currentColor}

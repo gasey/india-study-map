@@ -1,7 +1,7 @@
-/* JSO Paper IV — real past-question bank.
-   Data: window.QUESTIONS (System Manager / System Analyst format).
-   Views: Bank (browse + filters), Practice (build & take a test),
-   Mock (timed, negative marking), Review (saved incorrect / marked). */
+/* JSO Paper IV — Real MPSC/MUDAL & Complete 5-Unit Question Bank.
+   Data: window.QUESTIONS (380 questions: 305 real MPSC/MUDAL past questions + 75 authored Units III–V syllabus questions).
+   Views: Bank (browse + interactive attempt or reveal + filters), Practice (build & take a test),
+   Mock (timed, negative marking, 5-unit or real-only), Review (saved incorrect / marked). */
 (function () {
   'use strict';
 
@@ -14,9 +14,10 @@
     });
   };
   var LABELS = ['A', 'B', 'C', 'D'];
+  var UNIT_NUM = { I: 1, II: 2, III: 3, IV: 4, V: 5 };
   var STORE_KEY = 'jso-p4-bank-v1';
 
-  /* ---------- persistence: marked + incorrect ---------- */
+  /* ---------- persistence: marked + incorrect + bank attempts ---------- */
   function loadStore() {
     try { return JSON.parse(localStorage.getItem(STORE_KEY) || '{}') || {}; }
     catch (e) { return {}; }
@@ -27,6 +28,8 @@
   var store = loadStore();
   store.marked = store.marked || {};
   store.wrong = store.wrong || {};
+  store.tried = store.tried || {};
+  var bankInteractive = true;
 
   /* ---------- theme ---------- */
   var themeBtn = $('#themeBtn');
@@ -69,13 +72,15 @@
   });
 
   /* ---------- filters (Bank) ---------- */
-  var bankFilters = { unit: '', sub: '', src: '', conf: '', q: '' };
+  var bankFilters = { unit: '', sub: '', src: '', origin: '', conf: '', q: '' };
 
   function unique(arr) {
     return arr.filter(function (v, i) { return arr.indexOf(v) === i; });
   }
-  function unitOf(q) { return q.unit === 'I' ? 'I' : 'II'; }
+  function unitOf(q) { return UNIT_NUM[q.unit] ? q.unit : 'I'; }
+  function unitCls(q) { return 'u' + (UNIT_NUM[unitOf(q)] || 1); }
   function ansIdx(q) { return 'ABCD'.indexOf(q.ans); }
+  function isOfficial(q) { return (q.prov || '').indexOf('Official') === 0; }
 
   function buildFilterOptions() {
     var subs = unique(Q.map(function (q) { return q.sub; })).sort();
@@ -83,7 +88,7 @@
     var subSel = $('#f-sub'), srcSel = $('#f-src');
     if (subSel) subSel.innerHTML = '<option value="">All topics</option>' +
       subs.map(function (s) { return '<option>' + esc(s) + '</option>'; }).join('');
-    if (srcSel) srcSel.innerHTML = '<option value="">All papers</option>' +
+    if (srcSel) srcSel.innerHTML = '<option value="">All papers / sources</option>' +
       srcs.map(function (s) { return '<option>' + esc(s) + '</option>'; }).join('');
   }
 
@@ -95,6 +100,9 @@
       if (f.unit && unitOf(q) !== f.unit) return false;
       if (f.sub && q.sub !== f.sub) return false;
       if (f.src && q.sitting !== f.src) return false;
+      if (f.origin === 'past' && q.src !== 'past') return false;
+      if (f.origin === 'official' && !isOfficial(q)) return false;
+      if (f.origin === 'authored' && q.src !== 'authored') return false;
       if (f.conf && q.conf !== f.conf) return false;
       if (term) {
         var hay = (q.q + ' ' + q.sub + ' ' + q.opts.A + ' ' + q.opts.B + ' ' +
@@ -109,29 +117,34 @@
     opts = opts || {};
     var q = o.q;
     var idx = o.i;
-    var right = ansIdx(q), given = opts.given;
+    var right = ansIdx(q);
+    var given = opts.given !== undefined ? opts.given : (bankInteractive ? store.tried[q.id] : right);
+    var revealed = !bankInteractive || given != null || opts.forceReveal;
     var optsHtml = LABELS.map(function (L, i) {
       var cls = '';
-      if (i === right) cls = ' right';
-      else if (given != null && i === given) cls = ' chosen-wrong';
-      else if (opts.pick) cls = '';
-      return '<li class="' + cls.trim() + '" data-i="' + idx + '" data-o="' + i + '">' +
+      if (revealed) {
+        if (i === right) cls = ' right';
+        else if (given != null && i === given) cls = ' chosen-wrong';
+      }
+      return '<li class="' + cls.trim() + '" data-i="' + idx + '" data-id="' + esc(q.id) + '" data-o="' + i + '">' +
                '<span class="lt">(' + L + ')</span><span>' + esc(q.opts[L]) + '</span></li>';
     }).join('');
     var marked = store.marked[q.id];
     return '<div class="q" data-idx="' + idx + '">' +
       '<div class="q-head">' +
-        '<span class="pill u' + (unitOf(q) === 'I' ? '1' : '2') + '">Unit ' + unitOf(q) + '</span>' +
+        '<span class="pill ' + unitCls(q) + '">Unit ' + unitOf(q) + '</span>' +
         '<span class="pill">' + esc(q.sub) + '</span>' +
         '<span class="pill ' + esc(q.conf) + '">' + esc(q.conf) + '</span>' +
-        (q.prov.indexOf('Official') === 0 ? '<span class="pill key">official key</span>' : '') +
+        (isOfficial(q) ? '<span class="pill key">official key</span>' : (q.src === 'authored' ? '<span class="pill">syllabus drill</span>' : '')) +
         '<span class="q-src">' + esc(q.sitting) + (q.no ? ' · Q' + q.no : '') + '</span>' +
       '</div>' +
       '<p class="q-stem">' + (opts.showNumber ? (opts.showNumber + '. ') : '') + esc(q.q) + '</p>' +
-      '<ul class="opts' + (opts.pick ? ' pick' : '') + '">' + optsHtml + '</ul>' +
-      '<div class="expl"><h5>Why</h5>' + q.exp +
-        '<h5>Provenance</h5><p style="font-size:.85rem;color:var(--muted)">' + esc(q.prov) + '</p>' +
-      '</div>' +
+      '<ul class="opts' + (bankInteractive && !opts.forceReveal ? ' pick' : '') + '">' + optsHtml + '</ul>' +
+      (revealed
+        ? '<div class="expl"><h5>Why</h5>' + q.exp +
+            '<h5>Provenance</h5><p style="font-size:.85rem;color:var(--muted)">' + esc(q.prov) + '</p>' +
+          '</div>'
+        : '') +
       '<div style="margin-top:.6rem;display:flex;gap:.4rem">' +
         '<button class="btn sm ghost act-mark" data-id="' + esc(q.id) + '">' +
           (marked ? '★ Marked' : '☆ Mark') + '</button>' +
@@ -142,43 +155,63 @@
   /* ---------- Bank view ---------- */
   function renderBank() {
     var main = $('#main');
+    var pastCount = Q.filter(function (q) { return q.src === 'past'; }).length;
+    var officialCount = Q.filter(isOfficial).length;
     main.innerHTML =
-      '<div class="crumb">Paper IV · Cyber Forensic · Units I &amp; II</div>' +
-      '<h1>Real MPSC question bank</h1>' +
-      '<p class="muted">Real questions from MPSC technical papers, selected because they sit on the ' +
-      'JSO Cyber Forensic Unit I &amp; II syllabus. The MPSC corpus contains <b>no forensic-specific ' +
-      'papers</b>, so Units III–V have no real past questions anywhere in the archive.</p>' +
+      '<div class="crumb">Paper IV · Cyber Forensic · All 5 Units (200 Marks)</div>' +
+      '<h1>Paper IV Question Bank &amp; Interactive MCQ Practice</h1>' +
+      '<p class="muted">Combines <b>' + pastCount + ' real MPSC/MUDAL technical past-paper questions</b> (' + officialCount + ' with official published keys across Units I–III) ' +
+      'plus <b>' + (Q.length - pastCount) + ' syllabus-complete forensic questions</b> covering Digital, Multimedia &amp; Mobile Forensics (Units III–V).</p>' +
       '<div class="statgrid">' +
-        '<div class="stat"><b>' + Q.length + '</b><span>real questions</span></div>' +
-        '<div class="stat"><b>' + Q.filter(function (q) { return q.unit === 'I'; }).length + '</b><span>Unit I · OS/arch</span></div>' +
+        '<div class="stat"><b>' + Q.length + '</b><span>total questions</span></div>' +
+        '<div class="stat"><b>' + Q.filter(function (q) { return q.unit === 'I'; }).length + '</b><span>Unit I · OS &amp; Arch</span></div>' +
         '<div class="stat"><b>' + Q.filter(function (q) { return q.unit === 'II'; }).length + '</b><span>Unit II · DBMS</span></div>' +
-        '<div class="stat"><b>' + Q.filter(function (q) { return q.prov.indexOf('Official') === 0; }).length + '</b><span>official key</span></div>' +
+        '<div class="stat"><b>' + Q.filter(function (q) { return q.unit === 'III'; }).length + '</b><span>Unit III · Digital</span></div>' +
+        '<div class="stat"><b>' + Q.filter(function (q) { return q.unit === 'IV'; }).length + '</b><span>Unit IV · Media</span></div>' +
+        '<div class="stat"><b>' + Q.filter(function (q) { return q.unit === 'V'; }).length + '</b><span>Unit V · Mobile</span></div>' +
+        '<div class="stat"><b>' + officialCount + '</b><span>official key</span></div>' +
       '</div>' +
       '<div class="card">' +
         '<div class="filters">' +
           '<label class="fld">Unit<select id="f-unit">' +
-            '<option value="">Both</option><option value="I">Unit I — OS/Architecture</option>' +
-            '<option value="II">Unit II — DBMS</option></select></label>' +
+            '<option value="">All 5 Units</option>' +
+            '<option value="I">Unit I — OS, Architecture &amp; File Systems</option>' +
+            '<option value="II">Unit II — DBMS &amp; SQL</option>' +
+            '<option value="III">Unit III — Digital &amp; Computer Forensics</option>' +
+            '<option value="IV">Unit IV — Multimedia Forensics</option>' +
+            '<option value="V">Unit V — Mobile Forensics</option></select></label>' +
+          '<label class="fld">Source Type<select id="f-origin">' +
+            '<option value="">All (' + Q.length + ')</option>' +
+            '<option value="past">Real Past Papers Only (' + pastCount + ')</option>' +
+            '<option value="official">Official Key Only (' + officialCount + ')</option>' +
+            '<option value="authored">Authored Syllabus Drills (' + (Q.length - pastCount) + ')</option></select></label>' +
           '<label class="fld">Topic<select id="f-sub"></select></label>' +
-          '<label class="fld">Paper<select id="f-src"></select></label>' +
-          '<label class="fld">Confidence<select id="f-conf">' +
-            '<option value="">Any</option><option value="high">High</option>' +
-            '<option value="medium">Medium</option><option value="low">Low</option></select></label>' +
-          '<input type="text" id="f-q" placeholder="Search questions, options…">' +
+          '<label class="fld">Sitting<select id="f-src"></select></label>' +
+          '<input type="text" id="f-q" placeholder="Search questions, options, explanations…">' +
+          '<button type="button" class="btn sm ghost" id="toggle-bank-mode">' +
+            (bankInteractive ? '👁️ Reveal All Answers' : '🎯 Interactive Attempt Mode') +
+          '</button>' +
           '<span class="mono" id="bank-count" style="color:var(--muted);font-size:.8rem"></span>' +
         '</div>' +
         '<div id="bank-list"></div>' +
       '</div>';
 
     buildFilterOptions();
-    ['f-unit', 'f-sub', 'f-src', 'f-conf'].forEach(function (id) {
+    ['f-unit', 'f-origin', 'f-sub', 'f-src'].forEach(function (id) {
+      $('#' + id).value = bankFilters[id.slice(2)] || '';
       $('#' + id).addEventListener('change', function (e) {
         bankFilters[id.slice(2)] = e.target.value;
         drawBank();
       });
     });
+    $('#f-q').value = bankFilters.q || '';
     $('#f-q').addEventListener('input', function (e) {
       bankFilters.q = e.target.value;
+      drawBank();
+    });
+    $('#toggle-bank-mode').addEventListener('click', function () {
+      bankInteractive = !bankInteractive;
+      $('#toggle-bank-mode').textContent = bankInteractive ? '👁️ Reveal All Answers' : '🎯 Interactive Attempt Mode';
       drawBank();
     });
     drawBank();
@@ -189,10 +222,24 @@
     var host = $('#bank-list');
     if (!host) return;
     host.innerHTML = rows.length
-      ? rows.map(function (o) { return qCard(o); }).join('')
+      ? rows.map(function (o, idx) { return qCard(o, { showNumber: idx + 1 }); }).join('')
       : '<div class="empty">No questions match those filters.</div>';
     $('#bank-count').textContent = rows.length + ' of ' + Q.length;
     bindMarkButtons(host);
+    if (bankInteractive) {
+      $$('.opts.pick li', host).forEach(function (li) {
+        li.addEventListener('click', function () {
+          var id = li.dataset.id;
+          var pick = +li.dataset.o;
+          var idx = +li.dataset.i;
+          var q = Q[idx];
+          store.tried[id] = pick;
+          if (pick !== ansIdx(q)) store.wrong[id] = Date.now();
+          saveStore(store);
+          drawBank();
+        });
+      });
+    }
   }
 
   function bindMarkButtons(root) {
@@ -203,7 +250,6 @@
         else store.marked[id] = Date.now();
         saveStore(store);
         toast(store.marked[id] ? 'Marked for review' : 'Unmarked');
-        // refresh the button label without a full re-render
         $$('.act-mark').forEach(function (x) {
           if (x.dataset.id === id) x.textContent = store.marked[id] ? '★ Marked' : '☆ Mark';
         });
@@ -220,28 +266,44 @@
     main.innerHTML =
       '<div class="crumb">Paper IV · Cyber Forensic</div>' +
       '<h1>Practice</h1>' +
-      '<p class="muted">Pick the topics you want to drill. Every question is a real MPSC question; ' +
-      'answers are shown after you submit.</p>' +
+      '<p class="muted">Pick any combination of Paper IV units and topics to drill.</p>' +
       '<div class="card" id="practice-setup">' +
+        '<div style="display:flex;gap:.5rem;margin-bottom:.7rem;flex-wrap:wrap">' +
+          '<button type="button" class="btn sm ghost" id="p-sel-all">Select All</button>' +
+          '<button type="button" class="btn sm ghost" id="p-sel-none">Clear All</button>' +
+          '<button type="button" class="btn sm ghost" id="p-sel-u345">Forensics Only (Units III–V)</button>' +
+        '</div>' +
         '<div class="filters" id="practice-topics">' +
           subs.map(function (key) {
             var parts = key.split('||');
             var n = Q.filter(function (q) { return q.unit === parts[0] && q.sub === parts[1]; }).length;
-            return '<label class="fld" style="text-transform:none;letter-spacing:0;font-size:.9rem">' +
+            return '<label class="fld" style="text-transform:none;letter-spacing:0;font-size:.88rem">' +
               '<span style="display:flex;gap:.4rem;align-items:center">' +
-              '<input type="checkbox" value="' + esc(key) + '" checked style="width:auto">' +
-                esc(parts[1]) + ' <span class="mono" style="color:var(--muted)">(' + n + ')</span>' +
+              '<input type="checkbox" data-unit="' + esc(parts[0]) + '" value="' + esc(key) + '" checked style="width:auto">' +
+                '<b>[U-' + esc(parts[0]) + ']</b> ' + esc(parts[1]) + ' <span class="mono" style="color:var(--muted)">(' + n + ')</span>' +
               '</span></label>';
           }).join('') +
         '</div>' +
         '<div class="filters">' +
-          '<label class="fld">Questions<input type="number" id="p-count" value="20" min="1" max="' + Q.length + '"></label>' +
+          '<label class="fld">Questions<input type="number" id="p-count" value="25" min="1" max="' + Q.length + '"></label>' +
           '<label class="fld">Marks per correct<input type="number" id="p-pos" value="2" min="1" step="0.5"></label>' +
           '<label class="fld">Penalty per wrong<input type="number" id="p-neg" value="0.5" min="0" step="0.25"></label>' +
         '</div>' +
         '<button class="btn" id="p-start">Start practice</button>' +
       '</div>' +
       '<div id="practice-run" class="hidden"></div>';
+
+    $('#p-sel-all').addEventListener('click', function () {
+      $$('#practice-topics input').forEach(function (c) { c.checked = true; });
+    });
+    $('#p-sel-none').addEventListener('click', function () {
+      $$('#practice-topics input').forEach(function (c) { c.checked = false; });
+    });
+    $('#p-sel-u345').addEventListener('click', function () {
+      $$('#practice-topics input').forEach(function (c) {
+        c.checked = ['III', 'IV', 'V'].indexOf(c.dataset.unit) !== -1;
+      });
+    });
 
     $('#p-start').addEventListener('click', function () {
       var keys = $$('#practice-topics input:checked').map(function (c) { return c.value; });
@@ -253,7 +315,7 @@
           if (q.unit === parts[0] && q.sub === parts[1]) pool.push({ q: q, i: i });
         });
       });
-      var count = Math.min(+$('#p-count').value || 20, pool.length);
+      var count = Math.min(+$('#p-count').value || 25, pool.length);
       practice = {
         items: shuffle(pool).slice(0, count),
         answers: {},
@@ -276,7 +338,7 @@
       '<div id="p-score"></div>' +
       practice.items.map(function (o, i) {
         return '<div class="q"><div class="q-head">' +
-          '<span class="pill u' + (unitOf(o.q) === 'I' ? '1' : '2') + '">Unit ' + unitOf(o.q) + '</span>' +
+          '<span class="pill ' + unitCls(o.q) + '">Unit ' + unitOf(o.q) + '</span>' +
           '<span class="pill">' + esc(o.q.sub) + '</span>' +
           '<span class="q-src">' + esc(o.q.sitting) + '</span></div>' +
           '<p class="q-stem">' + (i + 1) + '. ' + esc(o.q.q) + '</p>' +
@@ -318,8 +380,11 @@
       var given = practice.answers[o.i];
       var expl = $('#p-expl-' + o.i);
       if (given == null) skip++;
-      else if (given === ansIdx(o.q)) right++;
-      else { wrong++; store.wrong[o.q.id] = Date.now(); }
+      else {
+        store.tried[o.q.id] = given;
+        if (given === ansIdx(o.q)) right++;
+        else { wrong++; store.wrong[o.q.id] = Date.now(); }
+      }
 
       $$('#practice-run li[data-i="' + o.i + '"]').forEach(function (x) {
         var k = +x.dataset.o;
@@ -358,13 +423,11 @@
       Object.keys(byUnit).map(function (u) {
         var v = byUnit[u];
         return '<div style="display:flex;gap:.6rem;align-items:center;margin:.3rem 0">' +
-          '<span style="min-width:2.4rem" class="mono">Unit ' + u + '</span>' +
+          '<span style="min-width:3.2rem" class="mono">Unit ' + u + '</span>' +
           '<span class="bar"><i style="width:' + (v.n ? Math.round(100 * v.ok / v.n) : 0) + '%"></i></span>' +
           '<span class="mono" style="font-size:.85rem">' + v.ok + '/' + v.n + '</span></div>';
       }).join('') +
-      '<p style="margin:.9rem 0 0;font-size:.85rem;color:var(--muted)">Answers derived from ' +
-      'subject knowledge; the two official-key items are flagged. Treat a disagreement as a prompt ' +
-      'to check a textbook.</p></div>';
+      '</div>';
     host.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
@@ -374,19 +437,22 @@
   function renderMock() {
     var main = $('#main');
     main.innerHTML =
-      '<div class="crumb">Paper IV · Cyber Forensic · 80 marks (Units I &amp; II)</div>' +
-      '<h1>Mock test</h1>' +
-      '<p class="muted">Units I and II together are 80 of the 200 Paper IV marks. This mock draws ' +
-      'from the real bank with the mark split weighted 40/40.</p>' +
+      '<div class="crumb">Paper IV · Cyber Forensic · 200 Marks (5 Units × 40 Marks)</div>' +
+      '<h1>Paper IV Timed Mock Test</h1>' +
+      '<p class="muted">Choose a <b>Full 5-Unit Balanced Paper IV Mock</b> (equal 20% weight across Units I–V) or a <b>Real Past-Papers Only Mock</b> (drawn strictly from real MPSC/MUDAL past technical papers).</p>' +
       '<div class="card">' +
         '<div class="filters">' +
+          '<label class="fld">Mock Mode<select id="m-mode">' +
+            '<option value="all5" selected>Full Paper IV · All 5 Units Balanced (I–V)</option>' +
+            '<option value="real">Real MPSC/MUDAL Past Papers Only (Units I–III)</option>' +
+            '<option value="official">2026 Official-Key Questions Only</option></select></label>' +
           '<label class="fld">Questions<select id="m-n">' +
-            '<option>20</option><option selected>40</option><option>60</option><option>80</option></select></label>' +
-          '<label class="fld">Time (minutes)<input type="number" id="m-time" value="80" min="0" max="240"></label>' +
+            '<option>25</option><option selected>50</option><option>75</option><option>100</option></select></label>' +
+          '<label class="fld">Time (minutes)<input type="number" id="m-time" value="90" min="0" max="240"></label>' +
           '<label class="fld">Marks per correct<input type="number" id="m-pos" value="2" min="1" step="0.5"></label>' +
           '<label class="fld">Penalty per wrong<select id="m-neg">' +
-            '<option value="0.25">−0.25 (1/4)</option><option value="0.3333" selected>−0.33 (1/3)</option>' +
-            '<option value="0.5">−0.5</option><option value="0">none</option></select></label>' +
+            '<option value="0.25">−0.25</option><option value="0.3333">−0.33 (1/3)</option>' +
+            '<option value="0.5" selected>−0.5 (1/4 of 2m)</option><option value="0">none</option></select></label>' +
         '</div>' +
         '<button class="btn" id="m-start">Start mock</button>' +
       '</div>' +
@@ -394,13 +460,22 @@
 
     $('#m-start').addEventListener('click', function () {
       var n = +$('#m-n').value;
+      var mode = $('#m-mode').value;
       var pool = [];
-      var per = Math.round(n * 40 / 80);
-      ['I', 'II'].forEach(function (u) {
-        var sp = shuffle(Q.map(function (q, i) { return { q: q, i: i }; })
-          .filter(function (o) { return o.q.unit === u; }));
-        pool = pool.concat(sp.slice(0, per));
-      });
+      if (mode === 'all5') {
+        var per = Math.ceil(n / 5);
+        ['I', 'II', 'III', 'IV', 'V'].forEach(function (u) {
+          var sp = shuffle(Q.map(function (q, i) { return { q: q, i: i }; })
+            .filter(function (o) { return o.q.unit === u; }));
+          pool = pool.concat(sp.slice(0, per));
+        });
+      } else if (mode === 'real') {
+        pool = shuffle(Q.map(function (q, i) { return { q: q, i: i }; })
+          .filter(function (o) { return o.q.src === 'past'; }));
+      } else {
+        pool = shuffle(Q.map(function (q, i) { return { q: q, i: i }; })
+          .filter(function (o) { return isOfficial(o.q); }));
+      }
       pool = shuffle(pool).slice(0, Math.min(n, pool.length));
       if (!pool.length) { toast('No questions available.'); return; }
       mock = {
@@ -439,7 +514,7 @@
       '<div id="m-score"></div>' +
       mock.items.map(function (o, i) {
         return '<div class="q"><div class="q-head">' +
-          '<span class="pill u' + (unitOf(o.q) === 'I' ? '1' : '2') + '">Unit ' + unitOf(o.q) + '</span>' +
+          '<span class="pill ' + unitCls(o.q) + '">Unit ' + unitOf(o.q) + '</span>' +
           '<span class="pill">' + esc(o.q.sub) + '</span>' +
           '<span class="q-src">' + esc(o.q.sitting) + '</span></div>' +
           '<p class="q-stem">' + (i + 1) + '. ' + esc(o.q.q) + '</p>' +
@@ -475,8 +550,11 @@
     mock.items.forEach(function (o) {
       var given = mock.answers[o.i];
       if (given == null) skip++;
-      else if (given === ansIdx(o.q)) right++;
-      else { wrong++; store.wrong[o.q.id] = Date.now(); }
+      else {
+        store.tried[o.q.id] = given;
+        if (given === ansIdx(o.q)) right++;
+        else { wrong++; store.wrong[o.q.id] = Date.now(); }
+      }
 
       $$('#mock-run li[data-i="' + o.i + '"]').forEach(function (x) {
         var k = +x.dataset.o;
@@ -487,7 +565,8 @@
       var expl = $('#m-expl-' + o.i);
       if (expl) {
         expl.classList.remove('hidden');
-        expl.innerHTML = '<h5>Why</h5>' + o.q.exp;
+        expl.innerHTML = '<h5>Why</h5>' + o.q.exp +
+          '<h5>Provenance</h5><p style="font-size:.85rem;color:var(--muted)">' + esc(o.q.prov) + '</p>';
       }
     });
     saveStore(store);
@@ -515,12 +594,11 @@
       Object.keys(byUnit).map(function (u) {
         var v = byUnit[u];
         return '<div style="display:flex;gap:.6rem;align-items:center;margin:.3rem 0">' +
-          '<span style="min-width:2.4rem" class="mono">Unit ' + u + '</span>' +
+          '<span style="min-width:3.2rem" class="mono">Unit ' + u + '</span>' +
           '<span class="bar"><i style="width:' + (v.n ? Math.round(100 * v.ok / v.n) : 0) + '%"></i></span>' +
           '<span class="mono" style="font-size:.85rem">' + v.ok + '/' + v.n + '</span></div>';
       }).join('') +
-      '<p style="margin:.9rem 0 0;font-size:.85rem;color:var(--muted)">Derived answers; the two ' +
-      'official-key items are flagged in the bank.</p></div>';
+      '</div>';
     host.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
@@ -536,7 +614,7 @@
       if (!ids.length) return '<div class="empty">' + emptyMsg + '</div>';
       return ids.map(function (id) {
         var o = byId[id];
-        return o ? qCard(o, { showNumber: null }) : '';
+        return o ? qCard(o, { showNumber: null, forceReveal: true }) : '';
       }).join('');
     }
 
@@ -549,13 +627,13 @@
       '</div>' +
       '<div class="card">' +
         '<h3 style="margin-top:0">Answered incorrectly <span class="mono" style="color:var(--muted)">' + wrongIds.length + '</span></h3>' +
-        list(wrongIds, 'No incorrect answers yet. They are saved automatically when you submit a practice or mock test.') +
+        list(wrongIds, 'No incorrect answers yet. They are saved automatically when you attempt questions in the bank, practice, or mock test.') +
       '</div>' +
       '<button class="btn ghost" id="clear-review">Clear saved review data</button>';
 
     $('#clear-review').addEventListener('click', function () {
-      if (!confirm('Clear all marked and incorrect questions?')) return;
-      store.marked = {}; store.wrong = {};
+      if (!confirm('Clear all marked, attempted, and incorrect question history?')) return;
+      store.marked = {}; store.wrong = {}; store.tried = {};
       saveStore(store);
       renderReview();
       toast('Review data cleared');

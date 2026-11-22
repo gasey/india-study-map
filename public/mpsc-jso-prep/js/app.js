@@ -79,6 +79,8 @@
     $$('.view').forEach(function (v) { v.classList.remove('is-active'); });
     var target = $('#view-' + mode);
     if (target) target.classList.add('is-active');
+    if (mode === 'guide') renderGuide();
+    if (mode === 'qbank') renderQBank();
     if (mode === 'review') renderReview();
     if (mode === 'cheatsheet') renderCheatSheet();
     if (mode === 'plan') renderPlan();
@@ -490,6 +492,429 @@
         renderUnitQuestionsList(u);
       });
     });
+  }
+
+  /* ---------------- Comprehensive Conceptual Guide View ---------------- */
+  var guideState = { paper: 'Paper IV', unitId: '', q: '' };
+
+  function matchesPaperGroup(paperName, filterVal) {
+    if (!filterVal || filterVal === 'all') return true;
+    if (filterVal === 'Paper III — Science') {
+      return paperName.indexOf('Paper III —') === 0 && paperName.indexOf('General Forensic') === -1;
+    }
+    return paperName.indexOf(filterVal) === 0;
+  }
+
+  function renderGuide() {
+    var box = $('#guide-content');
+    if (!box) return;
+    var totalSections = UNITS.reduce(function (n, u) { return n + (u.notes || []).length; }, 0);
+    var availUnits = UNITS.filter(function (u) {
+      return (u.notes || []).length > 0 && matchesPaperGroup(u.paper, guideState.paper);
+    });
+    if (guideState.unitId && !availUnits.some(function (u) { return u.id === guideState.unitId; })) {
+      guideState.unitId = '';
+    }
+
+    var h =
+      '<div class="unit-hero">' +
+        '<div class="unit-hero-top">' +
+          '<div>' +
+            '<div class="crumb">Master Textbook &amp; Syllabus Reference &middot; All 4 Papers</div>' +
+            '<h1>📚 Comprehensive Conceptual Guide (' + totalSections + ' Sections)</h1>' +
+            '<p class="muted">Complete syllabus-mapped conceptual notes, visual pipelines, comparison tables, worked numericals, and forensic protocols in one place.</p>' +
+          '</div>' +
+        '</div>' +
+        '<div class="mcq-bar-sub" style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center">' +
+          '<div class="q-filter-pills" id="guide-paper-pills">' +
+            '<button type="button" class="qf-pill' + (guideState.paper === 'all' ? ' is-active' : '') + '" data-gp="all">All Papers</button>' +
+            '<button type="button" class="qf-pill' + (guideState.paper === 'Paper IV' ? ' is-active' : '') + '" data-gp="Paper IV">🕵️ Paper IV Cyber (5 Units)</button>' +
+            '<button type="button" class="qf-pill' + (guideState.paper === 'Paper III — General Forensic' ? ' is-active' : '') + '" data-gp="Paper III — General Forensic">🔍 P3 General Forensic (10 Units)</button>' +
+            '<button type="button" class="qf-pill' + (guideState.paper === 'Paper III — Science' ? ' is-active' : '') + '" data-gp="Paper III — Science">⚛️ P3 Science &amp; Maths (9 Units)</button>' +
+            '<button type="button" class="qf-pill' + (guideState.paper === 'Paper II' ? ' is-active' : '') + '" data-gp="Paper II">🌏 Paper II GK &amp; Mizoram</button>' +
+            '<button type="button" class="qf-pill' + (guideState.paper === 'Paper I' ? ' is-active' : '') + '" data-gp="Paper I">🔤 Paper I English</button>' +
+          '</div>' +
+          '<select id="guide-unit-sel" class="mcq-search" style="max-width:290px">' +
+            '<option value="">All units in selection (' + availUnits.length + ')</option>' +
+            availUnits.map(function (u) {
+              return '<option value="' + esc(u.id) + '"' + (guideState.unitId === u.id ? ' selected' : '') + '>' +
+                esc(u.title) + ' (' + (u.notes || []).length + ' sections)</option>';
+            }).join('') +
+          '</select>' +
+          '<input type="search" id="guide-search" class="mcq-search" style="flex:1;min-width:220px" placeholder="Search concepts, formulas, laws, reagents, artefacts…" value="' + esc(guideState.q) + '">' +
+        '</div>' +
+      '</div>' +
+      '<div id="guide-body-list"></div>';
+
+    box.innerHTML = h;
+
+    $$('#guide-paper-pills [data-gp]', box).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        guideState.paper = btn.dataset.gp;
+        guideState.unitId = '';
+        renderGuide();
+      });
+    });
+
+    $('#guide-unit-sel', box).addEventListener('change', function (e) {
+      guideState.unitId = e.target.value;
+      drawGuideList();
+    });
+
+    $('#guide-search', box).addEventListener('input', function (e) {
+      guideState.q = e.target.value;
+      drawGuideList();
+    });
+
+    drawGuideList();
+  }
+
+  function drawGuideList() {
+    var host = $('#guide-body-list');
+    if (!host) return;
+    var term = (guideState.q || '').trim().toLowerCase();
+    var matchedUnits = 0;
+    var matchedSections = 0;
+    var html = '';
+
+    UNITS.forEach(function (u, uIdx) {
+      var notes = u.notes || [];
+      if (!notes.length) return;
+      if (!matchesPaperGroup(u.paper, guideState.paper)) return;
+      if (guideState.unitId && u.id !== guideState.unitId) return;
+
+      var unitMatch = !term || ((u.title + ' ' + u.paper + ' ' + (u.syllabus || '')).toLowerCase().indexOf(term) !== -1);
+      var secList = [];
+      notes.forEach(function (n, nIdx) {
+        if (!term || unitMatch || (n.h + ' ' + stripHtml(n.b)).toLowerCase().indexOf(term) !== -1) {
+          secList.push({ n: n, idx: nIdx });
+        }
+      });
+      if (!secList.length) return;
+      matchedUnits++;
+      matchedSections += secList.length;
+
+      html +=
+        '<div class="unit-hero" style="margin-top:18px;border-left:4px solid var(--accent)">' +
+          '<div class="unit-hero-top">' +
+            '<div>' +
+              '<div class="crumb">' + esc(u.paper) + (u.marks ? ' &middot; Official Weight: ' + u.marks + ' Marks' : '') + '</div>' +
+              '<h2 style="margin:2px 0">' + esc(u.title) + '</h2>' +
+            '</div>' +
+            '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+              '<button type="button" class="ghost sm guide-open-unit" data-uidx="' + uIdx + '">📖 Open in Unit Workbench</button>' +
+              ((u.questions || []).length
+                ? '<button type="button" class="primary sm guide-practice-unit" data-uid="' + esc(u.id) + '">🎯 Practice ' + (u.questions || []).length + ' MCQs</button>'
+                : '') +
+            '</div>' +
+          '</div>' +
+          (u.syllabus ? '<div class="syl" style="margin-top:10px;margin-bottom:0"><h4>📋 Official Approved Syllabus Scope (Verbatim)</h4>' + esc(u.syllabus) + '</div>' : '') +
+        '</div>';
+
+      secList.forEach(function (item) {
+        var numStr = (item.idx + 1) < 10 ? '0' + (item.idx + 1) : '' + (item.idx + 1);
+        html +=
+          '<section class="note-card">' +
+            '<div class="note-card-head">' +
+              '<span class="note-num">' + numStr + '</span>' +
+              '<h3>' + esc(item.n.h) + '</h3>' +
+            '</div>' +
+            '<div class="note-body">' + item.n.b + '</div>' +
+          '</section>';
+      });
+    });
+
+    if (!html) {
+      host.innerHTML = '<div class="card"><p class="muted">No conceptual guide sections match that filter or search query.</p></div>';
+      return;
+    }
+
+    host.innerHTML =
+      '<div style="margin:0 0 10px;font-size:13px;color:var(--fg2)">Showing <b>' + matchedSections + ' concept sections</b> across <b>' + matchedUnits + ' units</b></div>' +
+      html;
+
+    $$('.guide-open-unit', host).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var idx = +btn.dataset.uidx;
+        switchMode('browse');
+        renderUnit(UNITS[idx]);
+        buildTree();
+      });
+    });
+
+    $$('.guide-practice-unit', host).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        qbankState.paper = 'all';
+        qbankState.unitId = btn.dataset.uid;
+        qbankState.status = 'all';
+        qbankState.limit = 60;
+        switchMode('qbank');
+      });
+    });
+  }
+
+  /* ---------------- Unified Question Bank & MCQ Practice View ---------------- */
+  var qbankState = { paper: 'Paper IV', unitId: '', status: 'all', q: '', limit: 50 };
+
+  function getFilteredQBankPool() {
+    var term = (qbankState.q || '').trim().toLowerCase();
+    var out = [];
+    UNITS.forEach(function (u, uIdx) {
+      var qs = u.questions || [];
+      if (!qs.length) return;
+      if (!matchesPaperGroup(u.paper, qbankState.paper)) return;
+      if (qbankState.unitId && u.id !== qbankState.unitId) return;
+
+      qs.forEach(function (q, qIdx) {
+        var key = u.id + ':' + qIdx;
+        var chosen = attempts[key];
+        var isStarred = !!stars[key];
+        if (qbankState.status === 'unanswered' && chosen !== undefined) return;
+        if (qbankState.status === 'wrong' && (chosen === undefined || chosen === q.a)) return;
+        if (qbankState.status === 'right' && chosen !== q.a) return;
+        if (qbankState.status === 'starred' && !isStarred) return;
+        if (term) {
+          var hay = (q.q + ' ' + q.o.join(' ') + ' ' + stripHtml(q.e) + ' ' + u.title).toLowerCase();
+          if (hay.indexOf(term) === -1) return;
+        }
+        out.push({ u: u, uIdx: uIdx, q: q, qIdx: qIdx, key: key, chosen: chosen, isStarred: isStarred });
+      });
+    });
+    return out;
+  }
+
+  function renderQBank() {
+    var box = $('#qbank-content');
+    if (!box) return;
+    var totalQs = UNITS.reduce(function (n, u) { return n + (u.questions || []).length; }, 0);
+    var totalDone = Object.keys(attempts).length;
+    var availUnits = UNITS.filter(function (u) {
+      return (u.questions || []).length > 0 && matchesPaperGroup(u.paper, qbankState.paper);
+    });
+    if (qbankState.unitId && !availUnits.some(function (u) { return u.id === qbankState.unitId; })) {
+      qbankState.unitId = '';
+    }
+
+    var h =
+      '<div class="unit-hero">' +
+        '<div class="unit-hero-top">' +
+          '<div>' +
+            '<div class="crumb">Unified Question Bank &amp; Interactive MCQ Practice</div>' +
+            '<h1>🗄️ JSO Complete Question Bank (' + totalQs + ' MCQs)</h1>' +
+            '<p class="muted">Filter by Paper, Unit, Attempt Status, or Keyword. Click any option to practice interactively with instant explanations, or launch a timed drill from your filtered pool.</p>' +
+          '</div>' +
+          '<div style="display:flex;gap:8px;flex-wrap:wrap">' +
+            '<button type="button" class="ghost sm" id="qb-toggle-reveal">' +
+              (revealAllMode ? '🎯 Switch to Interactive Practice Mode' : '👁️ Reveal All Answers (Study Mode)') +
+            '</button>' +
+            '<button type="button" class="primary sm" id="qb-launch-test">🚀 Timed Test from Filter</button>' +
+          '</div>' +
+        '</div>' +
+        '<div class="hero-badges" style="margin-top:10px">' +
+          '<span class="h-badge accent">Total Pool: ' + totalQs + ' MCQs</span>' +
+          '<span class="h-badge ok">Attempted: ' + totalDone + '</span>' +
+          '<span class="h-badge">Saved / Weak: ' + getReviewItems().length + '</span>' +
+        '</div>' +
+        '<div class="mcq-bar-sub" style="margin-top:14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center">' +
+          '<div class="q-filter-pills" id="qb-paper-pills">' +
+            '<button type="button" class="qf-pill' + (qbankState.paper === 'all' ? ' is-active' : '') + '" data-qbp="all">All Papers</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.paper === 'Paper IV' ? ' is-active' : '') + '" data-qbp="Paper IV">🕵️ Paper IV Cyber</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.paper === 'Paper III — General Forensic' ? ' is-active' : '') + '" data-qbp="Paper III — General Forensic">🔍 P3 Forensic</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.paper === 'Paper III — Science' ? ' is-active' : '') + '" data-qbp="Paper III — Science">⚛️ P3 Science &amp; Maths</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.paper === 'Paper II' ? ' is-active' : '') + '" data-qbp="Paper II">🌏 P2 GK &amp; Mizoram</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.paper === 'Paper I' ? ' is-active' : '') + '" data-qbp="Paper I">🔤 P1 English</button>' +
+          '</div>' +
+        '</div>' +
+        '<div class="mcq-bar-sub" style="margin-top:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center">' +
+          '<select id="qb-unit-sel" class="mcq-search" style="max-width:290px">' +
+            '<option value="">All units in selection (' + availUnits.length + ')</option>' +
+            availUnits.map(function (u) {
+              return '<option value="' + esc(u.id) + '"' + (qbankState.unitId === u.id ? ' selected' : '') + '>' +
+                esc(u.title) + ' (' + (u.questions || []).length + ' Qs)</option>';
+            }).join('') +
+          '</select>' +
+          '<div class="q-filter-pills" id="qb-status-pills">' +
+            '<button type="button" class="qf-pill' + (qbankState.status === 'all' ? ' is-active' : '') + '" data-qbs="all">All</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.status === 'unanswered' ? ' is-active' : '') + '" data-qbs="unanswered">Unanswered</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.status === 'wrong' ? ' is-active' : '') + '" data-qbs="wrong">❌ Wrong</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.status === 'right' ? ' is-active' : '') + '" data-qbs="right">✓ Correct</button>' +
+            '<button type="button" class="qf-pill' + (qbankState.status === 'starred' ? ' is-active' : '') + '" data-qbs="starred">★ Saved</button>' +
+          '</div>' +
+          '<input type="search" id="qb-search" class="mcq-search" style="flex:1;min-width:220px" placeholder="Search questions, options, explanations…" value="' + esc(qbankState.q) + '">' +
+        '</div>' +
+      '</div>' +
+      '<div id="qbank-list-host"></div>';
+
+    box.innerHTML = h;
+
+    $$('#qb-paper-pills [data-qbp]', box).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        qbankState.paper = btn.dataset.qbp;
+        qbankState.unitId = '';
+        qbankState.limit = 50;
+        renderQBank();
+      });
+    });
+
+    $('#qb-unit-sel', box).addEventListener('change', function (e) {
+      qbankState.unitId = e.target.value;
+      qbankState.limit = 50;
+      drawQBankList();
+    });
+
+    $$('#qb-status-pills [data-qbs]', box).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        $$('#qb-status-pills [data-qbs]', box).forEach(function (p) { p.classList.remove('is-active'); });
+        btn.classList.add('is-active');
+        qbankState.status = btn.dataset.qbs;
+        qbankState.limit = 50;
+        drawQBankList();
+      });
+    });
+
+    $('#qb-search', box).addEventListener('input', function (e) {
+      qbankState.q = e.target.value;
+      qbankState.limit = 50;
+      drawQBankList();
+    });
+
+    $('#qb-toggle-reveal', box).addEventListener('click', function () {
+      revealAllMode = !revealAllMode;
+      saveJson(STORAGE_REVEAL, revealAllMode);
+      $('#qb-toggle-reveal', box).textContent = revealAllMode
+        ? '🎯 Switch to Interactive Practice Mode'
+        : '👁️ Reveal All Answers (Study Mode)';
+      drawQBankList();
+    });
+
+    $('#qb-launch-test', box).addEventListener('click', function () {
+      var filtered = getFilteredQBankPool();
+      if (!filtered.length) {
+        alert('No questions match your current filter.');
+        return;
+      }
+      var count = Math.min(25, filtered.length);
+      var pool = filtered.map(function (it) {
+        return { q: it.q, unit: it.u.title, uId: it.u.id, qIdx: it.qIdx };
+      });
+      switchMode('test');
+      state = {
+        items: shuffle(pool).slice(0, count),
+        answers: {},
+        pos: 2,
+        neg: 0.5,
+        endsAt: Date.now() + 30 * 60000,
+        timer: null
+      };
+      $('#test-setup').classList.add('hidden');
+      $('#test-result').classList.add('hidden');
+      $('#test-run').classList.remove('hidden');
+      renderTest();
+      tick();
+      state.timer = setInterval(tick, 1000);
+    });
+
+    drawQBankList();
+  }
+
+  function drawQBankList() {
+    var host = $('#qbank-list-host');
+    if (!host) return;
+    var filtered = getFilteredQBankPool();
+    if (!filtered.length) {
+      host.innerHTML = '<div class="card"><p class="muted">No questions match the current filter.</p></div>';
+      return;
+    }
+
+    var shown = filtered.slice(0, qbankState.limit);
+    var html =
+      '<div style="margin:0 0 10px;font-size:13px;color:var(--fg2)">Showing <b>' + shown.length + '</b> of <b>' + filtered.length + '</b> matching questions</div>' +
+      shown.map(function (item, idx) {
+        var q = item.q;
+        var key = item.key;
+        var chosen = item.chosen;
+        var isPeeked = !!peekedQuestions[key];
+        var showAnswer = revealAllMode || chosen !== undefined || isPeeked;
+
+        var h =
+          '<div class="q" data-qbkey="' + esc(key) + '">' +
+            '<div class="q-head">' +
+              '<span class="q-num">#' + (idx + 1) + '</span>' +
+              '<div class="q-text">' + esc(q.q) +
+                '<div class="q-unit">' + esc(item.u.paper) + ' &middot; ' + esc(item.u.title) + ' (Q' + (item.qIdx + 1) + ')</div>' +
+              '</div>' +
+              '<div class="q-actions">' +
+                (!showAnswer ? '<button type="button" class="q-reveal-btn" data-qbpeek="' + esc(key) + '">👁️ Peek</button>' : '') +
+                '<button type="button" class="q-star' + (item.isStarred ? ' is-starred' : '') + '" data-qbstar="' + esc(key) + '">' + (item.isStarred ? '★ Saved' : '☆ Save') + '</button>' +
+              '</div>' +
+            '</div>';
+
+        q.o.forEach(function (opt, oi) {
+          var cls = 'opt';
+          if (showAnswer) {
+            if (oi === q.a) cls += ' correct';
+            else if (chosen === oi && chosen !== q.a) cls += ' chosen-wrong';
+          }
+          h +=
+            '<div class="' + cls + '" data-qbpick="' + oi + '" data-qbkey="' + esc(key) + '">' +
+              '<span class="lab">(' + LABELS[oi] + ')</span>' +
+              '<span>' + esc(opt) + '</span>' +
+            '</div>';
+        });
+
+        if (showAnswer) {
+          h += '<div class="expl"><h5>💡 Why &amp; Concept Breakdown</h5>' + q.e + '</div>';
+        }
+        h += '</div>';
+        return h;
+      }).join('');
+
+    if (filtered.length > shown.length) {
+      html +=
+        '<div style="text-align:center;margin:16px 0">' +
+          '<button type="button" class="primary sm" id="qb-load-more">Load Next ' + Math.min(50, filtered.length - shown.length) + ' Questions (' + (filtered.length - shown.length) + ' remaining)</button>' +
+        '</div>';
+    }
+
+    host.innerHTML = html;
+
+    $$('.opt[data-qbpick]', host).forEach(function (optEl) {
+      optEl.addEventListener('click', function () {
+        var key = optEl.dataset.qbkey;
+        var pick = +optEl.dataset.qbpick;
+        attempts[key] = pick;
+        saveJson(STORAGE_ATTEMPTS, attempts);
+        buildTree();
+        updateReviewBadge();
+        drawQBankList();
+      });
+    });
+
+    $$('[data-qbstar]', host).forEach(function (starBtn) {
+      starBtn.addEventListener('click', function () {
+        var key = starBtn.dataset.qbstar;
+        if (stars[key]) delete stars[key];
+        else stars[key] = true;
+        saveJson(STORAGE_STARS, stars);
+        updateReviewBadge();
+        drawQBankList();
+      });
+    });
+
+    $$('[data-qbpeek]', host).forEach(function (peekBtn) {
+      peekBtn.addEventListener('click', function () {
+        peekedQuestions[peekBtn.dataset.qbpeek] = true;
+        drawQBankList();
+      });
+    });
+
+    var moreBtn = $('#qb-load-more', host);
+    if (moreBtn) {
+      moreBtn.addEventListener('click', function () {
+        qbankState.limit += 50;
+        drawQBankList();
+      });
+    }
   }
 
   /* ---------------- Visual Lab & Cheat Sheets ---------------- */
@@ -1020,6 +1445,11 @@
     } else {
       var first = $('.tree-item');
       if (first) { first.classList.add('is-active'); renderUnit(UNITS[+first.dataset.idx]); }
+    }
+    var params = new URLSearchParams(window.location.search);
+    var initMode = params.get('mode');
+    if (initMode && ['browse', 'guide', 'qbank', 'cheatsheet', 'test', 'review', 'plan'].indexOf(initMode) !== -1) {
+      switchMode(initMode);
     }
   }
 }());

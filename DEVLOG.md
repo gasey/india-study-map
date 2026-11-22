@@ -1,3 +1,22 @@
+## 22 November 2026 — JSO Comprehensive Conceptual Guide, Unified Question Bank & 250-Question Syllabus/Past-Paper Expansion
+
+**What shipped:**
+- **Expanded JSO Paper IV Bank (`public/mpsc-jso-p4-bank/`):** Added [`questions-expanded.js`](public/mpsc-jso-p4-bank/data/questions-expanded.js) (+175 questions, bringing the Paper IV bank from 205 → **380 questions** across **all 5 Paper IV units**):
+  - **100 real 2026 official-key questions** from the MUDAL System Analyst 2026 (ICT Syllabus) papers (`TECH1` Q21–40 Architecture & Q71–100 OS/File Systems → Unit I; `TECH2` Q51–80 DBMS/SQL/Transactions → Unit II; `TECH3` Q81–100 Cybersecurity/Recon/Incident Response → Unit III), each with authored explanations and official-key provenance.
+  - **75 newly authored syllabus-complete Paper IV questions** covering Unit III (Digital & Computer Forensics — 25 Qs), Unit IV (Multimedia Forensics — 25 Qs), and Unit V (Mobile Forensics — 25 Qs), explicitly attributed as `src: 'authored'`.
+  - Upgraded `public/mpsc-jso-p4-bank/app.js` to support Units I–V badges and filters, Source Type filtering (`All` / `Real Past Papers Only` / `Official Key Only` / `Authored Syllabus Drills`), interactive click-to-attempt vs reveal mode in the Bank tab, and balanced 5-unit Paper IV Mock Tests.
+- **Expanded Main JSO Workbench (`public/mpsc-jso-prep/`):** Added [`jso-comprehensive-expansion.js`](public/mpsc-jso-prep/data/jso-comprehensive-expansion.js), appending **49 deep conceptual guide sections** (196 → **245 concept sections**) and **250 new MCQs** (1,325 → **1,575 MCQs**) across Paper IV (`p4u1`–`p4u5`), Paper III General Forensic (`p3gf1`–`p3gf10`), and Paper III General Science (`p3c1`–`p3c3`, `p3m1`–`p3m3`, `p3p1`–`p3p3`) without shifting any existing `localStorage` question indices.
+- **New `📚 Concept Guide` and `🗄️ Question Bank` tabs in `public/mpsc-jso-prep/`:**
+  - `📚 Concept Guide` (`?mode=guide`) compiles all 245 conceptual sections into a unified, searchable textbook view filterable by Paper, Unit, and Keyword.
+  - `🗄️ Question Bank` (`?mode=qbank`) compiles all 1,575 MCQs into a unified searchable bank filterable by Paper, Unit, and Attempt Status (`All`, `Unanswered`, `Wrong`, `Correct`, `★ Saved`) with interactive practice and one-click timed test launch from the active filter.
+  - Surfaced both new sub-views (`Concept Guide` and `Question Bank`) directly in `/it-exams?exam=jso` (`src/modules/it-exams/catalog.ts`).
+
+**Why:**
+The JSO workbench previously only showed concept notes and questions one unit at a time, had thinner conceptual notes in Paper IV Units IV–V and Paper III General Forensic, and its Paper IV Real Bank only covered Units I & II (205 Qs) without the 2026 official-key technical papers or Units III–V.
+
+**What's still open:**
+- Similar syllabus/past-paper question bank and comprehensive conceptual guide expansions for Informatics Officer, System Analyst, and System Manager when requested.
+
 ## 22 November 2026 — IT & Technical Exams compiled hub (`/it-exams`)
 
 **What shipped:**

@@ -17,6 +17,8 @@
   </div>
   <nav class="modes" aria-label="Module views">
     <button class="mode-btn is-active" data-mode="browse">📖 Study &amp; Practice</button>
+    <button class="mode-btn" data-mode="guide">📚 Concept Guide</button>
+    <button class="mode-btn" data-mode="qbank">🗄️ Question Bank</button>
     <button class="mode-btn" data-mode="cheatsheet">⚡ Visual Lab &amp; Cheat Sheets</button>
     <button class="mode-btn" data-mode="test">🧪 Custom Test</button>
     <button class="mode-btn" data-mode="review">⭐ Saved &amp; Weak <span id="review-badge" class="nav-pill hidden">0</span></button>
@@ -53,6 +55,16 @@
     <article class="content" id="browse-content">
       <div class="empty">Select a topic from the left to begin studying.</div>
     </article>
+  </section>
+
+  <!-- ================= COMPREHENSIVE CONCEPT GUIDE ================= -->
+  <section id="view-guide" class="view">
+    <article class="content wide-content" id="guide-content"></article>
+  </section>
+
+  <!-- ================= UNIFIED QUESTION BANK & MCQ PRACTICE ================= -->
+  <section id="view-qbank" class="view">
+    <article class="content wide-content" id="qbank-content"></article>
   </section>
 
   <!-- ================= VISUAL LAB & CHEAT SHEETS ================= -->
@@ -162,6 +174,7 @@
 <script src="data/p1-mcq-sentence.js?v=4"></script>
 <script src="data/p1-english-verified.js?v=4"></script>
 <script src="data/p1-descriptive.js?v=4"></script>
-<script src="js/app.js?v=4"></script>
+<script src="data/jso-comprehensive-expansion.js?v=5"></script>
+<script src="js/app.js?v=5"></script>
 </body>
 </html>

@@ -3,15 +3,12 @@ import { useApp } from '@/lib/store';
 import { loadDictionary, loadKanjiDic } from '@/data/nihongo/dictionaryLoader';
 import { buildIndex, searchWords, type DictionaryIndex } from '@/data/nihongo/dictionarySearch';
 import type { DictKanjiEntry, DictWordEntry, DictWords } from '@/data/nihongo/dictionary-types';
-
-// ============================================
-// Offline dictionary search — resolves the deferral called out in
-// NihongoPage.tsx and DEVLOG.md: dictionary search needed either a
-// backend or a CORS-proxy hack this app had no precedent for. Bundling
-// JMdict+KANJIDIC2 as static data (tools/nihongo-dict/build.mjs) and
-// searching client-side sidesteps that entirely — no network call at
-// query time, fits the app's local-only design.
-// ============================================
+import {
+  fetchTatoebaSentences,
+  romajiToHiragana,
+  speakJapanese,
+  type TatoebaSentence,
+} from '@/data/nihongo/freeApis';
 
 type Filter = 'all' | 'saved';
 
@@ -51,6 +48,25 @@ function WordCard({
   onToggleSave: () => void;
 }) {
   const singleKanji = word.kanji.length === 1 && [...word.kanji[0]].length === 1 ? kanjiByLiteral.get(word.kanji[0]) : undefined;
+  const hw = headword(word);
+  const [examples, setExamples] = useState<TatoebaSentence[] | null>(null);
+  const [loadingExamples, setLoadingExamples] = useState(false);
+
+  async function toggleExamples() {
+    if (examples !== null) {
+      setExamples(null);
+      return;
+    }
+    setLoadingExamples(true);
+    try {
+      const res = await fetchTatoebaSentences(hw, { limit: 4 });
+      setExamples(res);
+    } catch {
+      setExamples([]);
+    } finally {
+      setLoadingExamples(false);
+    }
+  }
 
   return (
     <div className="surface rounded-lg p-4 flex flex-col gap-2">
@@ -68,14 +84,34 @@ function WordCard({
             </span>
           )}
         </div>
-        <button
-          onClick={onToggleSave}
-          aria-label={saved ? 'Remove bookmark' : 'Bookmark word'}
-          className="text-lg leading-none shrink-0"
-          style={{ color: saved ? 'var(--accent)' : 'var(--text-secondary)' }}
-        >
-          {saved ? '★' : '☆'}
-        </button>
+        <div className="flex items-center gap-1.5 shrink-0">
+          <button
+            type="button"
+            onClick={() => speakJapanese(word.kana[0] || hw)}
+            className="px-2 py-1 rounded text-xs font-medium"
+            style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-primary)', border: '1px solid var(--border)' }}
+            title="Hear pronunciation"
+          >
+            🔊
+          </button>
+          <button
+            type="button"
+            onClick={toggleExamples}
+            className="px-2 py-1 rounded text-xs font-medium"
+            style={{ background: 'var(--bg-panel-elev)', color: 'var(--accent)', border: '1px solid var(--border)' }}
+            title="Fetch live Tatoeba example sentences"
+          >
+            {loadingExamples ? '…' : examples !== null ? 'Hide Examples' : '🌐 Examples'}
+          </button>
+          <button
+            onClick={onToggleSave}
+            aria-label={saved ? 'Remove bookmark' : 'Bookmark word'}
+            className="text-lg leading-none px-1"
+            style={{ color: saved ? 'var(--accent)' : 'var(--text-secondary)' }}
+          >
+            {saved ? '★' : '☆'}
+          </button>
+        </div>
       </div>
 
       <ol className="flex flex-col gap-1 text-sm" style={{ color: 'var(--text-primary)' }}>
@@ -96,6 +132,42 @@ function WordCard({
       </ol>
 
       {singleKanji && <KanjiPanel entry={singleKanji} />}
+
+      {examples !== null && (
+        <div className="mt-1 pt-2 flex flex-col gap-1.5" style={{ borderTop: '1px solid var(--border)' }}>
+          <div className="font-mono text-[10px] uppercase tracking-wider" style={{ color: 'var(--accent)' }}>
+            Live Tatoeba v1 Examples for {hw}
+          </div>
+          {examples.length === 0 ? (
+            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              No live sentences found for {hw}.
+            </p>
+          ) : (
+            examples.map((s) => (
+              <div
+                key={s.id}
+                className="rounded px-2.5 py-1.5 flex items-center justify-between gap-2 text-xs"
+                style={{ background: 'var(--bg-panel-elev)' }}
+              >
+                <div className="min-w-0">
+                  <div className="font-medium" style={{ color: 'var(--text-primary)' }}>
+                    {s.jp}
+                  </div>
+                  <div style={{ color: 'var(--text-secondary)' }}>{s.en}</div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => speakJapanese(s.jp)}
+                  className="px-1.5 py-0.5 rounded shrink-0"
+                  style={{ color: 'var(--accent)' }}
+                >
+                  🔊
+                </button>
+              </div>
+            ))
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -157,20 +229,37 @@ export function DictionarySearch() {
   if (status === 'error' || !dict) {
     return (
       <div className="rounded-lg p-5 text-sm" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
-        Couldn't load the dictionary data. Run <code>npm run build:dict</code> to generate it, then reload.
+        Couldn&apos;t load the dictionary data. Run <code>npm run build:dict</code> to generate it, then reload.
       </div>
     );
   }
 
+  const kanaPreview = /^[a-zA-Z]+$/.test(query.trim()) ? romajiToHiragana(query.trim()) : '';
+
   return (
     <div className="flex flex-col gap-4">
-      <input
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search by kanji, kana, romaji, or English meaning..."
-        className="rounded-lg px-3 py-2 text-sm outline-none"
-        style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
-      />
+      <div className="flex flex-col gap-1.5">
+        <input
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search by kanji, kana, romaji, or English meaning (e.g. taberu, 食べる, library)..."
+          className="rounded-lg px-3 py-2 text-sm outline-none"
+          style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+        />
+        {kanaPreview && (
+          <div className="text-xs flex items-center gap-2" style={{ color: 'var(--text-secondary)' }}>
+            <span>Romaji → Kana:</span>
+            <button
+              type="button"
+              onClick={() => setQuery(kanaPreview)}
+              className="px-2 py-0.5 rounded font-medium"
+              style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}
+            >
+              {kanaPreview} (click to search kana)
+            </button>
+          </div>
+        )}
+      </div>
 
       <div className="inline-flex rounded-lg p-1 gap-0.5 self-start" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
         {(['all', 'saved'] as Filter[]).map((f) => (
@@ -191,7 +280,7 @@ export function DictionarySearch() {
         </p>
       ) : filter === 'all' && !debouncedQuery.trim() ? (
         <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-          Start typing to search {dict.words.length.toLocaleString()} words.
+          Start typing to search {dict.words.length.toLocaleString()} words. Tap 🔊 to hear pronunciation or 🌐 Examples to fetch live Tatoeba context sentences.
         </p>
       ) : results.length === 0 ? (
         <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
@@ -199,6 +288,9 @@ export function DictionarySearch() {
         </p>
       ) : (
         <div className="flex flex-col gap-2">
+          <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+            {results.length === 50 ? 'Top 50 matches' : `${results.length} ${results.length === 1 ? 'match' : 'matches'}`}
+          </p>
           {results.map((w) => (
             <WordCard
               key={w.id}
@@ -211,10 +303,6 @@ export function DictionarySearch() {
           ))}
         </div>
       )}
-
-      <p className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-        Dictionary data from JMdict &amp; KANJIDIC2 (EDRDG), CC BY-SA 4.0.
-      </p>
     </div>
   );
 }

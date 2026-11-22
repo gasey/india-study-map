@@ -1,3 +1,28 @@
+## 22 November 2026 — Nihongo Learning Studio Full Upgrade, Free Live APIs & Future Roadmap (`india-study-map` + `website`)
+
+**What shipped:**
+- **Verified Zero-Key, CORS-Enabled (`*`) Free Japanese API Client ([`src/data/nihongo/freeApis.ts`](src/data/nihongo/freeApis.ts) & `website/src/lib/nihongoFreeApis.ts`):**
+  - **Tatoeba REST API v1** (`https://api.tatoeba.org/v1/sentences?lang=jpn&q=...&trans:lang=eng&sort=relevance`) for live native Japanese context sentences with English translations and optional `has_audio=yes` filter (CC BY 2.0 FR).
+  - **KanjiAPI.dev v1** (`https://kanjiapi.dev/v1/kanji/:char`, `/words/:char`, `/reading/:kana`) for live Heisig RTK keywords, Mainichi Shinbun newspaper frequency rank, *nanori* name readings, reverse reading lookup, and real *jukugo* compound words (MIT / EDICT & KANJIDIC2).
+  - **KanjiVG Raw SVG CDN** (`https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/{5-hex}.svg`) for live vector stroke-order SVG path extraction across 6,000+ characters (CC BY-SA 3.0).
+  - **Web Speech API (`ja-JP`)** (`speakJapanese`) with normal (`0.95×`) and shadowing (`0.65×`) playback speeds + lightweight `romajiToHiragana` IME helper.
+- **Upgraded `india-study-map` (`/nihongo`, [`src/pages/NihongoPage.tsx`](src/pages/NihongoPage.tsx)) into a 6-Tab Learning Studio:**
+  - **Grammar (32) ([`src/modules/nihongo/NihongoCourse.tsx`](src/modules/nihongo/NihongoCourse.tsx) + [`src/data/nihongo/grammarReference.ts`](src/data/nihongo/grammarReference.ts)):** Full 32-lesson JLPT N5–N3 curriculum (28 core N5–N4 lessons + 4 newly authored N4–N3 bridge lessons covering Transitive/Intransitive pairs 自動詞・他動詞, Volitional `〜よう / 〜ようと思う`, Obligation `〜なければならない`, and Appearance/Hearsay `〜そうだ・〜ようだ・〜らしい`) with TTS audio, live Tatoeba context fetcher, and the preserved 6-stage interactive drills (`nihongoCourseLastStage`).
+  - **Kanji & Strokes ([`src/modules/nihongo/KanjiExplorer.tsx`](src/modules/nihongo/KanjiExplorer.tsx)):** Full 2,230 KANJIDIC2 browser by JLPT level (`N5`–`N1`) with live KanjiVG stroke-by-stroke SVG animator, KanjiAPI.dev Heisig keywords, newspaper frequency rank, *jukugo* compounds, reverse reading lookup, and Tatoeba sentences.
+  - **Dictionary ([`src/modules/nihongo/DictionarySearch.tsx`](src/modules/nihongo/DictionarySearch.tsx)):** Offline 21,341-entry JMdict search enhanced with Romaji-to-Hiragana IME toggle, TTS pronunciation, and inline live Tatoeba example drawer per word.
+  - **Sentence Lab ([`src/modules/nihongo/SentenceLab.tsx`](src/modules/nihongo/SentenceLab.tsx)):** Live Tatoeba v1 search, verified-audio filter, normal/slow shadowing TTS, click-any-kanji live inspector, and interactive SOV Sentence Assembly Dojo.
+  - **Guide & Future Plan ([`src/modules/nihongo/NihongoGuideAndPlan.tsx`](src/modules/nihongo/NihongoGuideAndPlan.tsx)):** JLPT N5→N1 blueprint table, 10-form Verb Conjugation Master Matrix, 4-pattern Pitch Accent guide with audio, Free API directory, and 4-phase Future Engineering Roadmap.
+  - **Expanded SM-2 Flashcard Deck ([`src/data/decks/nihongo-cards.ts`](src/data/decks/nihongo-cards.ts)):** Expanded from 36 → **100 cards** (60 N5–N4 vocabulary + 40 jōyō kanji) while preserving all original card IDs.
+- **Upgraded `website` (`/learn/*`) in parallel:**
+  - Added offline-first fallbacks in `website/src/hooks/useData.ts` so `/learn/kanji` (2,230 kanji) and `/learn/grammar` (32 N5–N3 lessons) work seamlessly even without backend bearer-token auth.
+  - Upgraded `StrokeAnimation.tsx` with live KanjiVG CDN fallback, `KanjiBrowser.tsx` with live KanjiAPI.dev *jukugo* & Tatoeba sentences, `DictSearch.tsx` with Romaji IME toggle & live Tatoeba sentence drawer, and added `/learn/guide` (`LearnGuideAndLab.tsx`).
+
+**Why:**
+The `/nihongo` module in `india-study-map` previously only exposed 3 tabs (Kana, a 6-stage mini course, and offline dictionary) with a 36-card deck and didn't surface the 2,230 KANJIDIC2 dataset, stroke order animations, or any live sentence/compound APIs; meanwhile `website`'s `/learn/kanji` and `/learn/grammar` failed with `401` when unauthenticated and only had stroke data for a small subset of kanji.
+
+**What's still open:**
+- Phase 2–4 roadmap items: Web Worker `kuromoji.js` morphological furigana tokenizer, Kanjium pitch-accent dictionary overlay, HTML5 Canvas freehand handwriting scorer, and timed JLPT N5–N3 mock exam simulator.
+
 ## 22 November 2026 — JSO Comprehensive Conceptual Guide, Unified Question Bank & 250-Question Syllabus/Past-Paper Expansion
 
 **What shipped:**

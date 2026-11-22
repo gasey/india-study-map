@@ -122,6 +122,16 @@ export const modules: AppModule[] = [
 
   // ---- Practice: In-app modules ----
   {
+    id: 'it-exams',
+    title: 'IT & Technical Exams',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: 'JSO, Informatics Officer, System Analyst & System Manager compiled in one workspace',
+    glyph: '💻',
+    kind: 'route',
+    path: '/it-exams',
+  },
+  {
     id: 'ncert-history',
     title: 'NCERT History MCQs',
     category: 'Practice',

@@ -13,8 +13,10 @@ import { pgStages } from '@/data/postgres/lessons';
 import { nihongoStages } from '@/data/nihongo/course';
 import { IC, IconSvg } from '@/components/shell/icons';
 import { DailyLearningReset } from '@/components/mindset/DailyLearningReset';
+import { COMPILED_IT_EXAMS } from '@/modules/it-exams/catalog';
 
 const MODULE_ICON: Record<string, string> = {
+  'it-exams': IC.code,
   map: IC.map,
   pyq: IC.pyq,
   codex: IC.codex,
@@ -397,6 +399,45 @@ function ModuleGroupedCards() {
   );
 }
 
+function ItExamsSection() {
+  return (
+    <div>
+      <div className="flex items-center gap-3.5 mb-3">
+        <span className="text-[11px] tracking-wider uppercase font-medium shrink-0" style={{ color: 'var(--text-secondary)' }}>
+          IT &amp; Technical Exams
+        </span>
+        <div className="flex-1 h-px" style={{ background: 'var(--border)' }} />
+        <Link to="/it-exams" className="text-xs font-medium shrink-0" style={{ color: 'var(--accent)' }}>
+          Open compiled hub →
+        </Link>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+        {COMPILED_IT_EXAMS.map((exam) => (
+          <Link
+            key={exam.id}
+            to={`/it-exams?exam=${exam.id}`}
+            className="surface rounded-xl px-4 py-3.5 flex flex-col gap-1.5"
+          >
+            <div className="flex items-center justify-between gap-2">
+              <span className="text-lg leading-none" aria-hidden="true">{exam.glyph}</span>
+              <span className="font-mono text-[9px] uppercase tracking-wider truncate" style={{ color: 'var(--text-muted)' }}>
+                {exam.badge}
+              </span>
+            </div>
+            <div className="text-sm font-semibold truncate" style={{ color: 'var(--text-primary)' }}>
+              {exam.shortTitle}
+            </div>
+            <div className="text-[11px] leading-snug" style={{ color: 'var(--text-secondary)' }}>
+              {exam.views[0].meta}
+              {exam.views.length > 1 ? ` · +${exam.views.length - 1} more` : ''}
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function Home() {
   return (
     <div className="h-full overflow-y-auto scroll-panel">
@@ -413,6 +454,7 @@ export function Home() {
           </div>
         </div>
         <JumpBackInGrid />
+        <ItExamsSection />
         <ModuleGroupedCards />
       </div>
     </div>

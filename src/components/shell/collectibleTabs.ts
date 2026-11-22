@@ -90,7 +90,7 @@ export const COLLECTIBLE_TABS: CollectibleTab[] = [
     to: '/library',
     // The source's Guides frame is one grouped list, not a sub-tab rail.
     subTabs: [],
-    match: ['/library', '/embed'],
+    match: ['/library', '/embed', '/it-exams'],
   },
   {
     id: 'lab',

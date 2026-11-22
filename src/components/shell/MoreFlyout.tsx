@@ -5,6 +5,7 @@ import { IC, IconSvg } from './icons';
 /** Shared by the desktop side-panel and the mobile bottom sheet so the two
  *  can't drift out of sync. */
 export const MORE_ITEMS = [
+  { id: 'it-exams', label: 'IT & Technical Exams', icon: IC.code, to: '/it-exams', comingSoon: false },
   { id: 'ncert-history', label: 'NCERT History MCQs', icon: IC.study, to: '/ncert-history', comingSoon: false },
   { id: 'affairs', label: 'Current Affairs', icon: IC.papers, to: '/current-affairs', comingSoon: false },
   { id: 'code', label: 'Programming & Python', icon: IC.code, to: '/code', comingSoon: false },

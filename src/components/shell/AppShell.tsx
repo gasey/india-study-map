@@ -24,6 +24,7 @@ const HEADER_BY_PATH: Record<string, { kicker?: string; title: string }> = {
   '/map': { title: 'Study Map' },
   '/timeline': { title: 'Chronicle' },
   '/ncert-history': { title: 'NCERT History MCQs' },
+  '/it-exams': { title: 'IT & Technical Exams' },
   '/recall': { title: 'Recall' },
   '/library': { title: 'Library' },
   '/current-affairs': { title: 'Current Affairs' },

@@ -1,3 +1,20 @@
+## 22 November 2026 — IT & Technical Exams compiled hub (`/it-exams`)
+
+**What shipped:**
+- Added a new in-app module at `/it-exams` (`src/modules/it-exams/ItExamsPage.tsx` + `src/modules/it-exams/catalog.ts`) that compiles all four MPSC/MUDAL IT & Technical exam suites in one workspace:
+  - **MPSC JSO — Cyber Forensic** (Full Prep Trainer, Paper IV Real Question Bank, Maths Focus, General Science Study Guide)
+  - **MPSC Informatics Officer** (2026 ICT Study Trainer)
+  - **MPSC System Analyst** (Study Trainer + Technical Paper I Revision Guide)
+  - **MUDAL System Manager** (Study Trainer)
+- Top switcher bar toggles between an **Overview** dashboard and each exam tab, with secondary tool pills for exams that have companion banks/guides, URL query deep-linking (`?exam=...&view=...`), `localStorage` last-opened resume, and keep-alive iframes so switching exams preserves active quiz/scroll state without reloading.
+- Wired into `src/modules/registry.ts` (`Practice → In-app modules`), `src/Root.tsx`, `src/components/shell/AppShell.tsx`, `src/components/shell/MoreFlyout.tsx`, `src/components/shell/collectibleTabs.ts`, and a dedicated **IT & Technical Exams** quick-launch section on `src/pages/Home.tsx`. All existing `/embed/*` routes remain untouched.
+
+**Why:**
+The four IT/CS exam apps (plus companion guides) were previously scattered across individual `/embed/*` entries in the Practice list, requiring jumping back and forth through menus to move between JSO, Informatics Officer, System Analyst, and System Manager.
+
+**What's still open:**
+- Cross-exam unified question search across the four static banks (currently each app retains its own isolated static data and `localStorage` progress).
+
 ## 7 November 2026 — JSO Paper IV real-question bank module
 
 Added `/embed/jso-p4-bank`, backed by `public/mpsc-jso-p4-bank/`, after mining
